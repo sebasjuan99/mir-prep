@@ -7,6 +7,20 @@ datasource db {
   provider = "postgresql"
 }
 
+model Usuario {
+  id        String   @id @default(cuid())
+  auth_id   String   @unique // Supabase Auth UUID
+  email     String   @unique
+  nombre    String?
+  role      String   @default("user") // "admin" | "user"
+  activo    Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([auth_id])
+  @@index([role])
+}
+
 model Pregunta {
   id                 String      @id @default(cuid())
   numero_mir         Int         @unique
@@ -14,6 +28,7 @@ model Pregunta {
   opciones           Json        // [{ letra: "A", texto: "..." }, ...]
   respuesta_correcta String      // "A" | "B" | "C" | "D" | "E"
   imagen_url         String?
+  video_url          String?
   especialidad       String
   tema               String
   subtema            String?
@@ -21,6 +36,7 @@ model Pregunta {
   anio               Int         @default(2025)
   respuestas         Respuesta[]
   createdAt          DateTime    @default(now())
+  updatedAt          DateTime?   @updatedAt
 
   @@index([especialidad])
   @@index([tema])

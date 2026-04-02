@@ -12,11 +12,17 @@
  *   3. Run `npx prisma db push` or `npx prisma migrate dev`
  */
 
-import { PrismaClient } from "../src/generated/prisma";
+import { PrismaClient } from "../src/generated/prisma/client";
+import { PrismaPg } from "@prisma/adapter-pg";
+import { config } from "dotenv";
 import * as fs from "fs";
 import * as path from "path";
 
-const prisma = new PrismaClient();
+// Load .env.local
+config({ path: path.resolve(__dirname, "..", ".env.local") });
+
+const adapter = new PrismaPg(process.env.DIRECT_URL || process.env.DATABASE_URL!);
+const prisma = new PrismaClient({ adapter });
 
 interface Opcion {
   letra: string;
