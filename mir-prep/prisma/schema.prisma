@@ -1,0 +1,86 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model Pregunta {
+  id                 String      @id @default(cuid())
+  numero_mir         Int         @unique
+  enunciado          String
+  opciones           Json        // [{ letra: "A", texto: "..." }, ...]
+  respuesta_correcta String      // "A" | "B" | "C" | "D" | "E"
+  imagen_url         String?
+  especialidad       String
+  tema               String
+  subtema            String?
+  dificultad         String      @default("media") // "alta" | "media" | "baja"
+  anio               Int         @default(2025)
+  respuestas         Respuesta[]
+  createdAt          DateTime    @default(now())
+
+  @@index([especialidad])
+  @@index([tema])
+  @@index([especialidad, tema])
+}
+
+model ResumenTema {
+  id           String @id @default(cuid())
+  especialidad String
+  tema         String
+  contenido_md String // markdown con puntos clave, tablas, tips MIR
+  tip_mir      String?
+
+  @@unique([especialidad, tema])
+  @@index([especialidad])
+}
+
+model Sesion {
+  id         String      @id @default(cuid())
+  user_id    String
+  tipo       String      // "aleatorio" | "especialidad" | "repaso_errores"
+  filtro     String?
+  score      Int?
+  total      Int         @default(20)
+  completada Boolean     @default(false)
+  respuestas Respuesta[]
+  createdAt  DateTime    @default(now())
+
+  @@index([user_id])
+  @@index([user_id, createdAt])
+}
+
+model Respuesta {
+  id          String   @id @default(cuid())
+  user_id     String
+  sesion_id   String
+  pregunta_id String
+  respuesta   String   // letra elegida
+  correcta    Boolean
+  tiempo_ms   Int?
+  sesion      Sesion   @relation(fields: [sesion_id], references: [id], onDelete: Cascade)
+  pregunta    Pregunta @relation(fields: [pregunta_id], references: [id], onDelete: Cascade)
+  createdAt   DateTime @default(now())
+
+  @@index([user_id])
+  @@index([user_id, pregunta_id])
+  @@index([sesion_id])
+}
+
+model Progreso {
+  id            String    @id @default(cuid())
+  user_id       String
+  especialidad  String
+  tema          String
+  total         Int       @default(0)
+  correctas     Int       @default(0)
+  racha_dias    Int       @default(0)
+  ultima_sesion DateTime?
+  updatedAt     DateTime  @updatedAt
+
+  @@unique([user_id, especialidad, tema])
+  @@index([user_id])
+}
