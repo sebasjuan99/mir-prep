@@ -72,10 +72,10 @@ export default function ResetPasswordPage() {
 
       {/* LEFT PANEL — yellow */}
       <div style={{ background: C.yellow, padding: '56px 52px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', position: 'relative', overflow: 'hidden', borderRight: inkBorder }}>
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-          <Link href="/" style={{ display: 'flex', alignItems: 'center', gap: 12, textDecoration: 'none' }}>
-            <Image src="/ape-logo-negro.png" alt="Aurora Pixel Studio" width={30} height={30} style={{ objectFit: 'contain' }} />
-            <span style={{ ...mono, fontSize: 13, letterSpacing: '0.1em', color: C.ink }}>MIR PREP</span>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
+          <Link href="/" style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: 10, textDecoration: 'none' }}>
+            <Image src="/ape-logo-negro.png" alt="Aurora Pixel Studio" width={88} height={88} style={{ objectFit: 'contain' }} />
+            <span style={{ ...mono, fontSize: 13, letterSpacing: '0.14em', color: C.ink }}>MIR PREP</span>
           </Link>
           <span style={{ ...mono, fontSize: 11, letterSpacing: '0.08em', border: `2px solid ${C.ink}`, borderRadius: 999, padding: '4px 10px', color: C.ink }}>NUEVA CLAVE</span>
         </div>
