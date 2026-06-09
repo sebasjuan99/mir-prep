@@ -161,12 +161,7 @@ function LoginForm() {
             </div>
 
             <div>
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', marginBottom: 8 }}>
-                <label style={{ ...mono, fontSize: 11, letterSpacing: '0.1em' }}>CONTRASEÑA</label>
-                <Link href="/forgot-password" style={{ ...mono, fontSize: 10, letterSpacing: '0.06em', color: C.ink2, textDecoration: 'underline' }}>
-                  ¿OLVIDASTE TU CLAVE?
-                </Link>
-              </div>
+              <label style={{ ...mono, fontSize: 11, letterSpacing: '0.1em', display: 'block', marginBottom: 8 }}>CONTRASEÑA</label>
               <input type="password" value={password} onChange={e => setPassword(e.target.value)} required placeholder="••••••••" style={inputStyle} />
             </div>
 
@@ -227,6 +222,29 @@ function LoginForm() {
               </button>
             )}
           </form>
+
+          {/* ── RECOVERY SECTION ─────────────────────────────────── */}
+          <div style={{ marginTop: 32, borderTop: `2px solid ${C.cream2}`, paddingTop: 24 }}>
+            <div style={{ ...mono, fontSize: 10, letterSpacing: '0.12em', color: C.ink2, marginBottom: 14 }}>
+              ¿PROBLEMAS PARA ACCEDER?
+            </div>
+            <Link
+              href="/forgot-password"
+              style={{
+                ...disp, fontSize: 14,
+                display: 'block',
+                textAlign: 'center',
+                border: `4px solid ${C.orange}`,
+                background: 'transparent',
+                color: C.orange,
+                padding: '14px 24px',
+                textDecoration: 'none',
+                transition: 'background 0.15s',
+              }}
+            >
+              RECUPERAR CONTRASEÑA →
+            </Link>
+          </div>
         </div>
       </div>
     </div>
