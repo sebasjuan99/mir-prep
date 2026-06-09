@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
-import { ESPECIALIDAD_ICONS } from '@/lib/constants'
+import { C, disp, mono, bodyFont, kicker, inkBorder } from '@/lib/cm'
 
 interface Especialidad {
   nombre: string
@@ -19,20 +19,17 @@ export default function EspecialidadesPage() {
   useEffect(() => {
     fetch('/api/especialidades')
       .then(r => r.json())
-      .then(data => {
-        setEspecialidades(data)
-        setLoading(false)
-      })
+      .then(data => { setEspecialidades(data); setLoading(false) })
       .catch(() => setLoading(false))
   }, [])
 
   if (loading) {
     return (
-      <div className="space-y-6">
-        <div className="h-10 w-48 rounded-lg skeleton" />
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-          {Array.from({ length: 12 }).map((_, i) => (
-            <div key={i} className="h-36 rounded-2xl skeleton" />
+      <div style={{ display: 'flex', flexDirection: 'column', gap: 32 }}>
+        <div style={{ height: 48, background: C.cream2, border: inkBorder, width: 280 }} />
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4,1fr)', gap: 0, border: inkBorder }}>
+          {Array.from({ length: 8 }).map((_, i) => (
+            <div key={i} style={{ height: 140, borderRight: i % 4 < 3 ? inkBorder : undefined, borderBottom: inkBorder }} className="skeleton" />
           ))}
         </div>
       </div>
@@ -40,67 +37,90 @@ export default function EspecialidadesPage() {
   }
 
   return (
-    <div className="space-y-8">
-      <div>
-        <h1 className="font-[var(--font-display)] text-3xl font-bold mb-2">
-          Especialidades
-        </h1>
-        <p style={{ color: 'var(--text-muted)' }}>
-          Elige una especialidad para hacer un simulacro filtrado
-        </p>
+    <div style={{ display: 'flex', flexDirection: 'column', gap: 0 }}>
+
+      {/* Header */}
+      <div style={{ borderBottom: inkBorder, paddingBottom: 32, marginBottom: 48 }}>
+        <div style={{ ...kicker(), marginBottom: 16 }}>CATÁLOGO MIR</div>
+        <h1 style={{ ...disp, fontSize: 'clamp(2rem, 4vw, 4.5rem)', margin: 0 }}>ESPECIALIDADES</h1>
       </div>
 
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-        {especialidades.map(esp => {
-          const icon = ESPECIALIDAD_ICONS[esp.nombre] || '🏥'
-          const hasProgress = esp.porcentaje !== null
-          let bgColor = 'var(--bg-card)'
-          let borderColor = 'var(--border)'
+      {/* Stat row */}
+      <div style={{ border: inkBorder, display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', marginBottom: 48 }}>
+        <div style={{ background: C.green, color: C.cream, borderRight: inkBorder, padding: '28px 28px' }}>
+          <div style={{ ...disp, fontSize: 'clamp(2rem, 4vw, 4.5rem)', lineHeight: 0.88 }}>{especialidades.length}</div>
+          <div style={{ ...mono, fontSize: 11, letterSpacing: '0.08em', marginTop: 10 }}>ESPECIALIDADES</div>
+        </div>
+        <div style={{ background: C.pink, color: C.ink, borderRight: inkBorder, padding: '28px 28px' }}>
+          <div style={{ ...disp, fontSize: 'clamp(2rem, 4vw, 4.5rem)', lineHeight: 0.88 }}>
+            {especialidades.reduce((s, e) => s + e.totalPreguntas, 0)}
+          </div>
+          <div style={{ ...mono, fontSize: 11, letterSpacing: '0.08em', marginTop: 10 }}>PREGUNTAS TOTALES</div>
+        </div>
+        <div style={{ background: C.orange, color: C.cream, padding: '28px 28px' }}>
+          <div style={{ ...disp, fontSize: 'clamp(2rem, 4vw, 4.5rem)', lineHeight: 0.88 }}>
+            {especialidades.filter(e => e.porcentaje !== null).length}
+          </div>
+          <div style={{ ...mono, fontSize: 11, letterSpacing: '0.08em', marginTop: 10 }}>CON PROGRESO</div>
+        </div>
+      </div>
 
-          if (hasProgress) {
-            if (esp.porcentaje! >= 80) {
-              bgColor = 'var(--success-light)'
-              borderColor = 'var(--success)'
-            } else if (esp.porcentaje! < 50) {
-              bgColor = 'var(--error-light)'
-              borderColor = 'var(--error)'
-            }
-          }
+      {/* Grid */}
+      <div style={{ ...mono, fontSize: 11, letterSpacing: '0.14em', background: C.ink, color: C.cream, padding: '6px 12px', display: 'inline-block', marginBottom: 24 }}>
+        ELIGE UNA ESPECIALIDAD
+      </div>
+      <div style={{ border: inkBorder, display: 'grid', gridTemplateColumns: 'repeat(4,1fr)' }}>
+        {especialidades.map((esp, i) => {
+          const hasProgress = esp.porcentaje !== null
+          const pct = esp.porcentaje ?? 0
+          const col = i % 4
+
+          let bgColor: string = C.cream2
+          if (hasProgress && pct >= 80) bgColor = C.green
+          else if (hasProgress && pct < 50) bgColor = C.pink
+
+          const textColor = bgColor === C.green ? C.cream : C.ink
 
           return (
             <Link
               key={esp.nombre}
               href={`/simulacro?especialidad=${encodeURIComponent(esp.nombre)}&tipo=especialidad`}
-              className="p-5 rounded-2xl transition-all hover:shadow-lg hover:-translate-y-0.5 block"
-              style={{ background: bgColor, border: `1px solid ${borderColor}`, boxShadow: 'var(--shadow)' }}
+              style={{
+                ...bodyFont,
+                display: 'block',
+                padding: '24px 20px',
+                background: bgColor,
+                color: textColor,
+                textDecoration: 'none',
+                borderRight: col < 3 ? inkBorder : undefined,
+                borderBottom: i < especialidades.length - (especialidades.length % 4 || 4) ? inkBorder : undefined,
+                minHeight: 120,
+              }}
             >
-              <div className="text-3xl mb-3">{icon}</div>
-              <h3 className="font-[var(--font-display)] text-sm font-bold mb-1 leading-tight">
+              <div style={{ ...mono, fontSize: 10, letterSpacing: '0.08em', opacity: 0.6, marginBottom: 8 }}>
+                {String(i + 1).padStart(2, '0')}
+              </div>
+              <div style={{ ...disp, fontSize: 'clamp(0.85rem, 1.2vw, 1.1rem)', marginBottom: 8, lineHeight: 1.1 }}>
                 {esp.nombre}
-              </h3>
-              <p className="text-xs" style={{ color: 'var(--text-muted)' }}>
-                {esp.totalPreguntas} preguntas
-              </p>
+              </div>
+              <div style={{ ...mono, fontSize: 10, letterSpacing: '0.06em', opacity: 0.7 }}>
+                {esp.totalPreguntas} PREGUNTAS
+              </div>
               {hasProgress && (
-                <div className="mt-2">
-                  <div className="h-1.5 rounded-full overflow-hidden" style={{ background: 'var(--bg-secondary)' }}>
-                    <div
-                      className="h-full rounded-full"
-                      style={{
-                        width: `${esp.porcentaje}%`,
-                        background: esp.porcentaje! >= 60 ? 'var(--success)' : 'var(--error)',
-                      }}
-                    />
+                <div style={{ marginTop: 10 }}>
+                  <div style={{ height: 4, background: textColor === C.cream ? 'rgba(239,233,217,0.3)' : C.cream, border: `1px solid currentColor` }}>
+                    <div style={{ height: '100%', width: `${pct}%`, background: textColor === C.cream ? C.cream : C.ink }} />
                   </div>
-                  <p className="text-xs mt-1 font-medium" style={{ color: esp.porcentaje! >= 60 ? 'var(--success)' : 'var(--error)' }}>
-                    {esp.porcentaje}% aciertos
-                  </p>
+                  <div style={{ ...mono, fontSize: 9, letterSpacing: '0.06em', marginTop: 4 }}>
+                    {pct}% ACIERTOS
+                  </div>
                 </div>
               )}
             </Link>
           )
         })}
       </div>
+
     </div>
   )
 }
