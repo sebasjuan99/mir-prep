@@ -64,8 +64,8 @@ export default function LandingPage() {
             <Image
               src="/ape-logo-negro.png"
               alt="Aurora Pixel Studio"
-              width={36}
-              height={36}
+              width={56}
+              height={56}
               style={{ objectFit: 'contain' }}
             />
             <span style={{ ...mono, fontSize: 15, letterSpacing: '0.1em' }}>MIR PREP</span>
@@ -446,8 +446,8 @@ export default function LandingPage() {
           <Image
             src="/ape-logo-blanco.png"
             alt="Aurora Pixel Studio"
-            width={44}
-            height={44}
+            width={72}
+            height={72}
             style={{ objectFit: 'contain' }}
           />
           <span style={{ ...mono, fontSize: 14, letterSpacing: '0.08em', color: C.cream }}>MIR PREP</span>
