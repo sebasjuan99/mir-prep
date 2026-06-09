@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server'
 import { cookies } from 'next/headers'
 import { createServerClient } from '@supabase/ssr'
 import { verifyTurnstile } from '@/lib/turnstile'
+import { prisma } from '@/lib/prisma'
 
 export async function POST(request: Request) {
   const body = await request.json().catch(() => null)
@@ -33,7 +34,7 @@ export async function POST(request: Request) {
   )
 
   const appUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://mir-prep.vercel.app'
-  const { error } = await supabase.auth.signUp({
+  const { data, error } = await supabase.auth.signUp({
     email,
     password,
     options: { emailRedirectTo: `${appUrl}/auth/callback` },
@@ -41,6 +42,14 @@ export async function POST(request: Request) {
 
   if (error) {
     return NextResponse.json({ error: error.message }, { status: 400 })
+  }
+
+  if (data.user) {
+    await prisma.usuario.upsert({
+      where: { email },
+      create: { auth_id: data.user.id, email, role: 'user' },
+      update: {},
+    }).catch(() => null)
   }
 
   return NextResponse.json({ success: true })

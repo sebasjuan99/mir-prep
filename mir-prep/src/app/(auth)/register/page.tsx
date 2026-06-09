@@ -69,7 +69,7 @@ export default function RegisterPage() {
         </div>
         <div style={{ position: 'absolute', right: '8%', top: '20%', width: 160, height: 160, background: C.pink, border: `4px solid ${C.cream}`, transform: 'rotate(-6deg)', display: 'grid', alignItems: 'center', justifyItems: 'center', zIndex: 3 }}>
           <div style={{ width: '82%', height: '82%', border: `4px solid ${C.cream}`, borderRadius: '50%', display: 'grid', alignItems: 'center', justifyItems: 'center', textAlign: 'center' }}>
-            <span style={{ ...disp, fontSize: 22, color: C.cream }}>MIR<br />2025</span>
+            <span style={{ ...disp, fontSize: 18, color: C.cream }}>RESID.<br />2026</span>
           </div>
         </div>
         <div style={{ position: 'absolute', bottom: -60, left: '10%', width: 200, height: 200, borderRadius: '50%', background: C.yellow, border: `4px solid ${C.greenDark}`, opacity: 0.4 }} />
