@@ -37,6 +37,7 @@ function LoginForm() {
   const [resendLoading, setResendLoading] = useState(false)
   const [resendSent, setResendSent] = useState(false)
   const [banner, setBanner] = useState<'verified' | 'link_expired' | 'error' | 'password_reset' | null>(null)
+  const [turnstileError, setTurnstileError] = useState(false)
   const router = useRouter()
   const searchParams = useSearchParams()
 
@@ -172,11 +173,21 @@ function LoginForm() {
             <div>
               <Turnstile
                 siteKey={process.env.NEXT_PUBLIC_CLOUDFLARE_TURNSTILE_SITE_KEY!}
-                onSuccess={t => setTurnstileToken(t)}
-                onError={() => setTurnstileToken(null)}
+                onSuccess={t => { setTurnstileToken(t); setTurnstileError(false) }}
+                onError={() => { setTurnstileToken(null); setTurnstileError(true) }}
                 onExpire={() => setTurnstileToken(null)}
                 options={{ theme: 'light' }}
               />
+              {turnstileError && (
+                <div style={{ ...mono, fontSize: 10, letterSpacing: '0.08em', color: C.orange, marginTop: 8 }}>
+                  ERROR DE VERIFICACIÓN — RECARGA LA PÁGINA E INTÉNTALO DE NUEVO
+                </div>
+              )}
+              {!turnstileToken && !turnstileError && (
+                <div style={{ ...mono, fontSize: 10, letterSpacing: '0.08em', color: C.ink2, marginTop: 8 }}>
+                  COMPLETA LA VERIFICACIÓN PARA CONTINUAR
+                </div>
+              )}
             </div>
 
             <button
