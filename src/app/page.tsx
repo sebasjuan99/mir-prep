@@ -1,99 +1,462 @@
 import Link from 'next/link'
+import Image from 'next/image'
+import type { CSSProperties } from 'react'
+
+// ─── Creative Mode design tokens ────────────────────────────────────────────
+const C = {
+  cream: '#EFE9D9',
+  cream2: '#E4DCC4',
+  ink: '#0F0F0F',
+  ink2: '#2A2A2A',
+  green: '#1F8A4C',
+  greenDark: '#136636',
+  pink: '#F06CA8',
+  orange: '#E85A1F',
+  yellow: '#F5C518',
+} as const
+
+const disp: CSSProperties = {
+  fontFamily: "var(--font-archivo, 'Archivo Black', sans-serif)",
+  textTransform: 'uppercase',
+  lineHeight: 0.92,
+  letterSpacing: '-0.01em',
+}
+const mono: CSSProperties = {
+  fontFamily: "var(--font-jetbrains, 'JetBrains Mono', monospace)",
+  textTransform: 'uppercase',
+}
+const bodyFont: CSSProperties = {
+  fontFamily: "var(--font-grotesk, 'Space Grotesk', sans-serif)",
+}
+
+const kicker = (bg = C.ink, color = C.cream): CSSProperties => ({
+  ...mono,
+  fontSize: 13,
+  letterSpacing: '0.14em',
+  background: bg,
+  color,
+  padding: '8px 16px',
+  display: 'inline-block',
+})
+
+const dot = (color: string = C.ink): CSSProperties => ({
+  display: 'inline-block',
+  width: 8,
+  height: 8,
+  borderRadius: '50%',
+  background: color,
+  margin: '0 8px',
+  verticalAlign: 'middle',
+})
 
 export default function LandingPage() {
   return (
-    <div className="min-h-screen" style={{ background: 'var(--bg-primary)' }}>
-      {/* Nav */}
-      <nav className="flex items-center justify-between px-6 py-4 max-w-6xl mx-auto">
-        <div className="flex items-center gap-2">
-          <span className="text-2xl">📚</span>
-          <span className="font-[var(--font-display)] text-xl font-bold" style={{ color: 'var(--text-primary)' }}>
-            MIR Prep
+    <div style={{ ...bodyFont, background: C.cream, color: C.ink }}>
+
+      {/* ─── NAV ────────────────────────────────────────────────────────────── */}
+      <header style={{ borderBottom: `4px solid ${C.ink}`, background: C.cream }}>
+        <div style={{
+          maxWidth: 1280, margin: '0 auto',
+          padding: '18px 40px',
+          display: 'flex', justifyContent: 'space-between', alignItems: 'center',
+        }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 14 }}>
+            <Image
+              src="/ape-logo-negro.png"
+              alt="Aurora Pixel Studio"
+              width={36}
+              height={36}
+              style={{ objectFit: 'contain' }}
+            />
+            <span style={{ ...mono, fontSize: 15, letterSpacing: '0.1em' }}>MIR PREP</span>
+          </div>
+          <nav style={{ display: 'flex', gap: 4, alignItems: 'center' }}>
+            <Link
+              href="/login"
+              style={{
+                ...mono, fontSize: 12, letterSpacing: '0.08em',
+                padding: '10px 18px', color: C.ink2, textDecoration: 'none',
+              }}
+            >
+              INICIAR SESIÓN
+            </Link>
+            <Link
+              href="/register"
+              style={{
+                ...mono, fontSize: 12, letterSpacing: '0.08em',
+                border: `4px solid ${C.ink}`,
+                background: C.ink, color: C.cream,
+                padding: '10px 20px',
+                textDecoration: 'none',
+              }}
+            >
+              REGISTRARSE
+            </Link>
+          </nav>
+        </div>
+      </header>
+
+      {/* ─── HERO ───────────────────────────────────────────────────────────── */}
+      <section style={{
+        minHeight: '90vh', position: 'relative', overflow: 'hidden',
+        borderBottom: `4px solid ${C.ink}`,
+        display: 'flex', alignItems: 'center',
+      }}>
+        <div style={{
+          maxWidth: 1280, margin: '0 auto',
+          padding: '100px 40px 120px',
+          width: '100%', position: 'relative', zIndex: 2,
+        }}>
+          <div style={{ ...kicker(), marginBottom: 48 }}>PREPARACIÓN MIR 2025</div>
+
+          <h1 style={{
+            ...disp,
+            fontSize: 'clamp(4rem, 12vw, 14rem)',
+            margin: 0, marginBottom: 40,
+          }}>
+            APRUEBA<br />
+            <span style={{ color: C.pink }}>EL MIR.</span>
+          </h1>
+
+          <p style={{
+            ...bodyFont,
+            fontSize: 'clamp(16px, 1.2vw, 22px)',
+            lineHeight: 1.5,
+            maxWidth: 520,
+            marginBottom: 52,
+            color: C.ink2,
+          }}>
+            Simulacros con las preguntas reales del MIR 2025. Retroalimentación
+            inmediata, fichas de estudio y seguimiento de tu progreso por especialidad.
+          </p>
+
+          <div style={{ display: 'flex', gap: 16, flexWrap: 'wrap' }}>
+            <Link
+              href="/register"
+              style={{
+                ...disp, fontSize: 'clamp(14px, 1.1vw, 18px)',
+                border: `4px solid ${C.ink}`,
+                background: C.ink, color: C.cream,
+                padding: '16px 36px',
+                textDecoration: 'none',
+              }}
+            >
+              COMENZAR GRATIS →
+            </Link>
+            <Link
+              href="/login"
+              style={{
+                ...disp, fontSize: 'clamp(14px, 1.1vw, 18px)',
+                border: `4px solid ${C.ink}`,
+                color: C.ink,
+                padding: '16px 36px',
+                textDecoration: 'none',
+              }}
+            >
+              YA TENGO CUENTA
+            </Link>
+          </div>
+        </div>
+
+        {/* Stamp — hard offset shadow (one per section) */}
+        <div style={{
+          position: 'absolute', top: '18%', right: '7%',
+          width: 180, height: 180,
+          background: C.pink, border: `4px solid ${C.ink}`,
+          transform: 'rotate(-6deg)',
+          boxShadow: `20px 20px 0 ${C.orange}, 20px 20px 0 4px ${C.ink}`,
+          display: 'grid', alignItems: 'center', justifyItems: 'center',
+          zIndex: 3,
+        }}>
+          <div style={{
+            width: '82%', height: '82%',
+            border: `4px solid ${C.ink}`, borderRadius: '50%',
+            display: 'grid', alignItems: 'center', justifyItems: 'center',
+            textAlign: 'center',
+          }}>
+            <span style={{ ...disp, fontSize: 22 }}>EXAMEN<br />OFICIAL</span>
+          </div>
+        </div>
+
+        {/* Decorative circle */}
+        <div style={{
+          position: 'absolute', bottom: -110, left: -110,
+          width: 340, height: 340,
+          borderRadius: '50%',
+          background: C.yellow, border: `4px solid ${C.ink}`,
+          zIndex: 1,
+        }} />
+
+        {/* Chrome footer */}
+        <div style={{
+          position: 'absolute', bottom: 20, left: 40, right: 40,
+          display: 'flex', justifyContent: 'space-between', alignItems: 'center',
+          ...mono, fontSize: 12, letterSpacing: '0.08em', color: C.ink2,
+          zIndex: 2,
+        }}>
+          <span>MIR PREP — Simulacros Interactivos</span>
+          <span>
+            01
+            <span style={dot(C.ink2)} />
+            05
           </span>
         </div>
-        <div className="flex items-center gap-3">
-          <Link
-            href="/login"
-            className="px-4 py-2 text-sm font-medium rounded-lg transition-colors"
-            style={{ color: 'var(--text-muted)' }}
-          >
-            Iniciar sesión
-          </Link>
-          <Link
-            href="/register"
-            className="px-5 py-2.5 text-sm font-semibold text-white rounded-lg transition-colors"
-            style={{ background: 'var(--accent)' }}
-          >
-            Registrarse
-          </Link>
-        </div>
-      </nav>
+      </section>
 
-      {/* Hero */}
-      <main className="max-w-4xl mx-auto px-6 pt-20 pb-32 text-center">
-        <h1
-          className="font-[var(--font-display)] text-5xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6"
-          style={{ color: 'var(--text-primary)' }}
-        >
-          Aprueba el MIR.
-          <br />
-          <span style={{ color: 'var(--accent)' }}>Pregunta a pregunta.</span>
-        </h1>
-        <p
-          className="font-[var(--font-body)] text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed"
-          style={{ color: 'var(--text-muted)' }}
-        >
-          Simulacros interactivos con las preguntas reales del MIR 2025.
-          Retroalimentación inmediata, fichas de estudio y seguimiento
-          de tu progreso por especialidad.
-        </p>
-        <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
-          <Link
-            href="/register"
-            className="px-8 py-4 text-lg font-semibold text-white rounded-xl shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-0.5"
-            style={{ background: 'var(--accent)' }}
-          >
-            Comenzar gratis →
-          </Link>
-          <Link
-            href="/login"
-            className="px-8 py-4 text-lg font-medium rounded-xl border-2 transition-all"
-            style={{ borderColor: 'var(--border)', color: 'var(--text-primary)' }}
-          >
-            Ya tengo cuenta
-          </Link>
+      {/* ─── BIG CLAIM ──────────────────────────────────────────────────────── */}
+      <section style={{
+        background: C.pink,
+        borderBottom: `4px solid ${C.ink}`,
+        minHeight: '45vh',
+        display: 'flex', alignItems: 'center',
+        position: 'relative', overflow: 'hidden',
+      }}>
+        {/* Chrome top */}
+        <div style={{
+          position: 'absolute', top: 20, left: 40, right: 40,
+          display: 'flex', justifyContent: 'space-between', alignItems: 'center',
+          ...mono, fontSize: 12, letterSpacing: '0.08em', color: C.ink,
+        }}>
+          <span>TESIS CENTRAL</span>
+          <span style={{ border: `2px solid ${C.ink}`, borderRadius: 999, padding: '4px 12px' }}>02 — CLAIM</span>
         </div>
 
-        {/* Feature cards */}
-        <div className="grid md:grid-cols-3 gap-6 text-left mt-8">
-          <div className="p-6 rounded-2xl" style={{ background: 'var(--bg-card)', boxShadow: 'var(--shadow)', border: '1px solid var(--border)' }}>
-            <div className="text-3xl mb-3">🎯</div>
-            <h3 className="font-[var(--font-display)] text-lg font-bold mb-2">Preguntas reales MIR 2025</h3>
-            <p className="text-sm" style={{ color: 'var(--text-muted)' }}>
-              Todas las preguntas oficiales publicadas por Sanidad, clasificadas por especialidad y tema.
-            </p>
+        <div style={{ maxWidth: 1280, margin: '0 auto', width: '100%', padding: '80px 64px' }}>
+          <div style={{ ...kicker(), marginBottom: 32 }}>LA PREPARACIÓN DEFINITIVA</div>
+          <h2 style={{
+            ...disp,
+            fontSize: 'clamp(3.5rem, 9vw, 12rem)',
+            color: C.ink,
+            maxWidth: '80%',
+            margin: 0,
+          }}>
+            PREGUNTA<br />A PREGUNTA.
+          </h2>
+        </div>
+
+        {/* Chrome bottom */}
+        <div style={{
+          position: 'absolute', bottom: 20, left: 40, right: 40,
+          display: 'flex', justifyContent: 'space-between', alignItems: 'center',
+          ...mono, fontSize: 12, letterSpacing: '0.08em', color: C.ink,
+        }}>
+          <span>UNA IDEA / UN FRAME</span>
+          <span>02<span style={dot(C.ink)} />05</span>
+        </div>
+      </section>
+
+      {/* ─── STATS ──────────────────────────────────────────────────────────── */}
+      <section style={{ borderBottom: `4px solid ${C.ink}`, padding: '80px 40px' }}>
+        <div style={{ maxWidth: 1280, margin: '0 auto' }}>
+          <div style={{ display: 'flex', alignItems: 'baseline', gap: 24, marginBottom: 56 }}>
+            <span style={{ ...mono, fontSize: 13, letterSpacing: '0.14em', background: C.ink, color: C.cream, padding: '8px 14px' }}>03</span>
+            <h2 style={{ ...disp, fontSize: 'clamp(1.8rem, 4vw, 5rem)', margin: 0 }}>LOS NÚMEROS NO MIENTEN</h2>
+            <div style={{ flex: 1, height: 4, background: C.ink, alignSelf: 'center' }} />
           </div>
-          <div className="p-6 rounded-2xl" style={{ background: 'var(--bg-card)', boxShadow: 'var(--shadow)', border: '1px solid var(--border)' }}>
-            <div className="text-3xl mb-3">📖</div>
-            <h3 className="font-[var(--font-display)] text-lg font-bold mb-2">Fichas de estudio</h3>
-            <p className="text-sm" style={{ color: 'var(--text-muted)' }}>
-              Cuando falles una pregunta, recibirás un resumen con los puntos clave del tema para reforzar.
-            </p>
+
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', border: `4px solid ${C.ink}` }}>
+            {([
+              { n: '1.000+', label: 'PREGUNTAS MIR REALES', bg: C.green, color: C.cream, br: true },
+              { n: '2025',   label: 'ÚLTIMA CONVOCATORIA',  bg: C.pink,  color: C.ink,  br: true },
+              { n: '3×',     label: 'MÁS EFICAZ QUE SOLO LEER', bg: C.orange, color: C.cream, br: false },
+            ] as const).map((s) => (
+              <div
+                key={s.n}
+                style={{
+                  background: s.bg, color: s.color,
+                  borderRight: s.br ? `4px solid ${C.ink}` : undefined,
+                  padding: '44px 36px',
+                }}
+              >
+                <div style={{ ...disp, fontSize: 'clamp(3rem, 6.5vw, 8rem)', lineHeight: 0.88 }}>{s.n}</div>
+                <div style={{ ...mono, fontSize: 13, letterSpacing: '0.08em', marginTop: 20 }}>{s.label}</div>
+              </div>
+            ))}
           </div>
-          <div className="p-6 rounded-2xl" style={{ background: 'var(--bg-card)', boxShadow: 'var(--shadow)', border: '1px solid var(--border)' }}>
-            <div className="text-3xl mb-3">📊</div>
-            <h3 className="font-[var(--font-display)] text-lg font-bold mb-2">Progreso inteligente</h3>
-            <p className="text-sm" style={{ color: 'var(--text-muted)' }}>
-              Detectamos tus debilidades y te recomendamos qué repasar. Tu avance por especialidad siempre visible.
+        </div>
+      </section>
+
+      {/* ─── HOW IT WORKS ───────────────────────────────────────────────────── */}
+      <section style={{ borderBottom: `4px solid ${C.ink}`, padding: '80px 40px' }}>
+        <div style={{ maxWidth: 1280, margin: '0 auto' }}>
+          <div style={{ display: 'flex', alignItems: 'baseline', gap: 24, marginBottom: 56 }}>
+            <span style={{ ...mono, fontSize: 13, letterSpacing: '0.14em', background: C.ink, color: C.cream, padding: '8px 14px' }}>04</span>
+            <h2 style={{ ...disp, fontSize: 'clamp(1.8rem, 4vw, 5rem)', margin: 0 }}>CÓMO FUNCIONA</h2>
+            <div style={{ flex: 1, height: 4, background: C.ink, alignSelf: 'center' }} />
+          </div>
+
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', border: `4px solid ${C.ink}` }}>
+            {([
+              { num: '01', title: 'REGÍSTRATE', desc: 'Crea tu cuenta gratis en segundos. Sin tarjeta.',                         bg: C.cream2, color: C.ink,  br: true  },
+              { num: '02', title: 'PRACTICA',   desc: 'Responde preguntas reales clasificadas por especialidad.',                  bg: C.yellow, color: C.ink,  br: true  },
+              { num: '03', title: 'REVISA',     desc: 'Recibe fichas de estudio cuando fallas una pregunta.',                     bg: C.pink,   color: C.ink,  br: true  },
+              { num: '04', title: 'APRUEBA',    desc: 'Detectamos tus debilidades. Llega al MIR preparado de verdad.',            bg: C.green,  color: C.cream, br: false },
+            ] as const).map((step) => (
+              <div
+                key={step.num}
+                style={{
+                  background: step.bg, color: step.color,
+                  borderRight: step.br ? `4px solid ${C.ink}` : undefined,
+                  padding: '32px 28px',
+                  minHeight: 300,
+                  display: 'flex', flexDirection: 'column', justifyContent: 'space-between',
+                }}
+              >
+                <div style={{ ...disp, fontSize: 'clamp(4rem, 7vw, 9rem)', lineHeight: 0.85, opacity: 0.8 }}>{step.num}</div>
+                <div>
+                  <div style={{ ...disp, fontSize: 'clamp(18px, 1.5vw, 26px)', marginBottom: 12 }}>{step.title}</div>
+                  <p style={{ ...bodyFont, fontSize: 16, lineHeight: 1.5, margin: 0 }}>{step.desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ─── FEATURED MARKER ────────────────────────────────────────────────── */}
+      <section style={{ borderBottom: `4px solid ${C.ink}`, padding: '80px 40px' }}>
+        <div style={{ maxWidth: 1280, margin: '0 auto', display: 'flex', gap: 80, alignItems: 'flex-start', flexWrap: 'wrap' }}>
+
+          {/* Marker block — the one hard-shadow element of this section */}
+          <div style={{
+            ...disp,
+            background: C.pink, border: `4px solid ${C.ink}`,
+            padding: '36px 44px',
+            fontSize: 'clamp(1.8rem, 3.5vw, 4.5rem)',
+            boxShadow: `24px 24px 0 ${C.orange}, 24px 24px 0 4px ${C.ink}`,
+            marginBottom: 30, marginRight: 30,
+          }}>
+            RETROALIMENTACIÓN<br />INMEDIATA.
+          </div>
+
+          <div style={{ flex: 1, minWidth: 280, paddingTop: 8 }}>
+            <div style={{ ...kicker(), marginBottom: 24 }}>CÓMO APRENDEMOS MEJOR</div>
+            <p style={{
+              ...bodyFont,
+              fontSize: 'clamp(16px, 1.2vw, 22px)',
+              lineHeight: 1.55,
+              color: C.ink2,
+              maxWidth: 480,
+              margin: 0,
+            }}>
+              Cuando fallas una pregunta, MIR Prep genera una ficha de estudio
+              personalizada con los conceptos clave del tema. No más estudiar
+              sin saber dónde están tus errores.
             </p>
           </div>
         </div>
-      </main>
+      </section>
 
-      {/* Footer */}
-      <footer className="border-t py-8 text-center text-sm" style={{ borderColor: 'var(--border)', color: 'var(--text-muted)' }}>
-        <p>MIR Prep — Hecho con dedicación para futuros residentes 🩺</p>
+      {/* ─── CLOSING (green ground) ─────────────────────────────────────────── */}
+      <section style={{
+        background: C.green,
+        borderBottom: `4px solid ${C.ink}`,
+        minHeight: '60vh',
+        position: 'relative', overflow: 'hidden',
+        display: 'flex', alignItems: 'center', justifyContent: 'center',
+      }}>
+        {/* Chrome top */}
+        <div style={{
+          position: 'absolute', top: 20, left: 40, right: 40,
+          display: 'flex', justifyContent: 'space-between', alignItems: 'center',
+          ...mono, fontSize: 12, letterSpacing: '0.08em', color: C.cream,
+        }}>
+          <span>MIR PREP</span>
+          <span style={{ border: `2px solid ${C.cream}`, borderRadius: 999, padding: '4px 12px' }}>05 — CIERRE</span>
+        </div>
+
+        <div style={{ textAlign: 'center', position: 'relative', zIndex: 2, padding: '80px 40px' }}>
+          <h2 style={{ ...disp, fontSize: 'clamp(4rem, 11vw, 14rem)', color: C.cream, margin: 0, marginBottom: 56 }}>
+            EMPIEZA<br />HOY.
+          </h2>
+          <div style={{ display: 'flex', gap: 16, justifyContent: 'center', flexWrap: 'wrap' }}>
+            <Link
+              href="/register"
+              style={{
+                ...disp, fontSize: 'clamp(14px, 1.1vw, 18px)',
+                border: `4px solid ${C.cream}`,
+                background: C.cream, color: C.ink,
+                padding: '16px 36px',
+                textDecoration: 'none',
+              }}
+            >
+              CREAR CUENTA GRATIS →
+            </Link>
+            <Link
+              href="/login"
+              style={{
+                ...disp, fontSize: 'clamp(14px, 1.1vw, 18px)',
+                border: `4px solid ${C.cream}`,
+                color: C.cream,
+                padding: '16px 36px',
+                textDecoration: 'none',
+              }}
+            >
+              INICIAR SESIÓN
+            </Link>
+          </div>
+        </div>
+
+        {/* Stamp */}
+        <div style={{
+          position: 'absolute', right: '8%', top: '15%',
+          width: 180, height: 180,
+          background: C.pink, border: `4px solid ${C.cream}`,
+          transform: 'rotate(-6deg)',
+          display: 'grid', alignItems: 'center', justifyItems: 'center',
+          zIndex: 3,
+        }}>
+          <div style={{
+            width: '82%', height: '82%',
+            border: `4px solid ${C.cream}`, borderRadius: '50%',
+            display: 'grid', alignItems: 'center', justifyItems: 'center',
+            textAlign: 'center',
+          }}>
+            <span style={{ ...disp, fontSize: 28, color: C.cream }}>MIR<br />2025</span>
+          </div>
+        </div>
+
+        {/* Decorative circle */}
+        <div style={{
+          position: 'absolute', bottom: -80, left: '12%',
+          width: 240, height: 240,
+          borderRadius: '50%',
+          background: C.yellow, border: `4px solid ${C.greenDark}`,
+          zIndex: 1, opacity: 0.65,
+        }} />
+
+        {/* Chrome bottom */}
+        <div style={{
+          position: 'absolute', bottom: 20, left: 40, right: 40,
+          display: 'flex', justifyContent: 'space-between', alignItems: 'center',
+          ...mono, fontSize: 12, letterSpacing: '0.08em', color: C.cream,
+        }}>
+          <span>Gracias por estar aquí</span>
+          <span>05<span style={dot(C.cream)} />05</span>
+        </div>
+      </section>
+
+      {/* ─── FOOTER ─────────────────────────────────────────────────────────── */}
+      <footer style={{
+        background: C.ink,
+        padding: '48px 40px',
+        display: 'flex', justifyContent: 'space-between', alignItems: 'center',
+      }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 16 }}>
+          <Image
+            src="/ape-logo-blanco.png"
+            alt="Aurora Pixel Studio"
+            width={44}
+            height={44}
+            style={{ objectFit: 'contain' }}
+          />
+          <span style={{ ...mono, fontSize: 14, letterSpacing: '0.08em', color: C.cream }}>MIR PREP</span>
+        </div>
+        <span style={{ ...mono, fontSize: 12, letterSpacing: '0.06em', color: '#555555' }}>
+          HECHO PARA FUTUROS RESIDENTES
+        </span>
       </footer>
+
     </div>
   )
 }
