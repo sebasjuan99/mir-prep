@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
+import { createClient } from '@/lib/supabase/client'
 import { C, disp, mono, bodyFont, kicker, inkBorder } from '@/lib/cm'
 
 const inputStyle = {
@@ -29,12 +30,10 @@ export default function ForgotPasswordPage() {
     setError('')
     setLoading(true)
     try {
-      const res = await fetch('/api/auth/forgot-password', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email }),
-      })
-      if (!res.ok) { setError('Error al enviar el correo.'); return }
+      const supabase = createClient()
+      const redirectTo = `${window.location.origin}/auth/callback?next=/reset-password`
+      const { error: sbError } = await supabase.auth.resetPasswordForEmail(email, { redirectTo })
+      if (sbError) { setError('Error al enviar el correo.'); return }
       setSent(true)
     } catch {
       setError('Error de conexión. Inténtalo de nuevo.')

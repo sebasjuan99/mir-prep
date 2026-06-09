@@ -1,24 +1,15 @@
 import { NextResponse } from 'next/server'
 import { cookies } from 'next/headers'
 import { createServerClient } from '@supabase/ssr'
-import { verifyTurnstile } from '@/lib/turnstile'
 
 export async function POST(request: Request) {
   const body = await request.json().catch(() => null)
 
-  if (!body?.email || !body?.password || !body?.turnstileToken) {
+  if (!body?.email || !body?.password) {
     return NextResponse.json({ error: 'Faltan campos requeridos' }, { status: 400 })
   }
 
-  const { email, password, turnstileToken } = body
-
-  const turnstileOk = await verifyTurnstile(turnstileToken)
-  if (!turnstileOk) {
-    return NextResponse.json(
-      { error: 'Verificación de seguridad fallida. Inténtalo de nuevo.' },
-      { status: 400 }
-    )
-  }
+  const { email, password } = body
 
   const cookieStore = await cookies()
   const pendingCookies: Array<{ name: string; value: string; options: Record<string, unknown> }> = []

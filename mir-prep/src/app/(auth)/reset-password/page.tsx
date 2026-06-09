@@ -30,14 +30,29 @@ export default function ResetPasswordPage() {
   const supabase = createClient()
 
   useEffect(() => {
-    // Verify there is an active recovery session before showing the form
-    supabase.auth.getSession().then(({ data: { session } }) => {
-      if (!session) {
-        router.replace('/forgot-password')
-      } else {
+    let redirectTimer: ReturnType<typeof setTimeout> | null = null
+
+    const { data: { subscription } } = supabase.auth.onAuthStateChange((event, session) => {
+      if (event === 'PASSWORD_RECOVERY' || (event === 'SIGNED_IN' && session)) {
+        if (redirectTimer) clearTimeout(redirectTimer)
         setReady(true)
       }
     })
+
+    supabase.auth.getSession().then(({ data: { session } }) => {
+      if (session) {
+        setReady(true)
+      } else {
+        redirectTimer = setTimeout(() => {
+          router.replace('/forgot-password')
+        }, 1500)
+      }
+    })
+
+    return () => {
+      subscription.unsubscribe()
+      if (redirectTimer) clearTimeout(redirectTimer)
+    }
   }, [])
 
   const handleSubmit = async (e: React.FormEvent) => {

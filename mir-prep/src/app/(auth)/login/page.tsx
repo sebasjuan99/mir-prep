@@ -4,7 +4,6 @@ import { useState, useEffect, Suspense } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { useRouter, useSearchParams } from 'next/navigation'
-import { Turnstile } from '@marsidev/react-turnstile'
 import { C, disp, mono, bodyFont, kicker, inkBorder } from '@/lib/cm'
 
 const inputStyle = {
@@ -33,11 +32,9 @@ function LoginForm() {
   const [password, setPassword] = useState('')
   const [error, setError] = useState('')
   const [loading, setLoading] = useState(false)
-  const [turnstileToken, setTurnstileToken] = useState<string | null>(null)
   const [resendLoading, setResendLoading] = useState(false)
   const [resendSent, setResendSent] = useState(false)
   const [banner, setBanner] = useState<'verified' | 'link_expired' | 'error' | 'password_reset' | null>(null)
-  const [turnstileError, setTurnstileError] = useState(false)
   const router = useRouter()
   const searchParams = useSearchParams()
 
@@ -51,14 +48,12 @@ function LoginForm() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setError('')
-    if (!turnstileToken) { setError('Completa la verificación de seguridad'); return }
-
     setLoading(true)
     try {
       const res = await fetch('/api/auth/signin', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email, password, turnstileToken }),
+        body: JSON.stringify({ email, password }),
       })
       const data = await res.json()
       if (!res.ok) { setError(data.error || 'Error al iniciar sesión'); return }
@@ -165,37 +160,17 @@ function LoginForm() {
               <input type="password" value={password} onChange={e => setPassword(e.target.value)} required placeholder="••••••••" style={inputStyle} />
             </div>
 
-            <div>
-              <Turnstile
-                siteKey={process.env.NEXT_PUBLIC_CLOUDFLARE_TURNSTILE_SITE_KEY!}
-                onSuccess={t => { setTurnstileToken(t); setTurnstileError(false) }}
-                onError={() => { setTurnstileToken(null); setTurnstileError(true) }}
-                onExpire={() => setTurnstileToken(null)}
-                options={{ theme: 'light' }}
-              />
-              {turnstileError && (
-                <div style={{ ...mono, fontSize: 10, letterSpacing: '0.08em', color: C.orange, marginTop: 8 }}>
-                  ERROR DE VERIFICACIÓN — RECARGA LA PÁGINA E INTÉNTALO DE NUEVO
-                </div>
-              )}
-              {!turnstileToken && !turnstileError && (
-                <div style={{ ...mono, fontSize: 10, letterSpacing: '0.08em', color: C.ink2, marginTop: 8 }}>
-                  COMPLETA LA VERIFICACIÓN PARA CONTINUAR
-                </div>
-              )}
-            </div>
-
             <button
               type="submit"
-              disabled={loading || !turnstileToken}
+              disabled={loading}
               style={{
                 ...disp, fontSize: 15,
-                background: loading || !turnstileToken ? C.ink2 : C.ink,
+                background: loading ? C.ink2 : C.ink,
                 color: C.cream,
                 border: inkBorder,
                 padding: '16px 24px',
-                cursor: loading || !turnstileToken ? 'not-allowed' : 'pointer',
-                opacity: loading || !turnstileToken ? 0.6 : 1,
+                cursor: loading ? 'not-allowed' : 'pointer',
+                opacity: loading ? 0.6 : 1,
               }}
             >
               {loading ? 'ACCEDIENDO...' : 'INICIAR SESIÓN →'}
@@ -228,22 +203,23 @@ function LoginForm() {
             <div style={{ ...mono, fontSize: 10, letterSpacing: '0.12em', color: C.ink2, marginBottom: 14 }}>
               ¿PROBLEMAS PARA ACCEDER?
             </div>
-            <Link
-              href="/forgot-password"
+            <button
+              type="button"
+              onClick={() => router.push('/forgot-password')}
               style={{
                 ...disp, fontSize: 14,
                 display: 'block',
+                width: '100%',
                 textAlign: 'center',
                 border: `4px solid ${C.orange}`,
                 background: 'transparent',
                 color: C.orange,
                 padding: '14px 24px',
-                textDecoration: 'none',
-                transition: 'background 0.15s',
+                cursor: 'pointer',
               }}
             >
               RECUPERAR CONTRASEÑA →
-            </Link>
+            </button>
           </div>
         </div>
       </div>
