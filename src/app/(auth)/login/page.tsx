@@ -2,8 +2,23 @@
 
 import { useState, useEffect, Suspense } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { useRouter, useSearchParams } from 'next/navigation'
 import { Turnstile } from '@marsidev/react-turnstile'
+import { C, disp, mono, bodyFont, kicker, inkBorder } from '@/lib/cm'
+
+const inputStyle = {
+  ...bodyFont,
+  width: '100%',
+  padding: '14px 16px',
+  border: inkBorder,
+  borderRadius: 0,
+  background: C.cream2,
+  color: C.ink,
+  fontSize: 16,
+  outline: 'none',
+  boxSizing: 'border-box' as const,
+}
 
 function LoginForm() {
   const [email, setEmail] = useState('')
@@ -16,19 +31,13 @@ function LoginForm() {
   const searchParams = useSearchParams()
 
   useEffect(() => {
-    if (searchParams.get('verified') === 'true') {
-      setVerified(true)
-    }
+    if (searchParams.get('verified') === 'true') setVerified(true)
   }, [searchParams])
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setError('')
-
-    if (!turnstileToken) {
-      setError('Completa la verificación de seguridad')
-      return
-    }
+    if (!turnstileToken) { setError('Completa la verificación de seguridad'); return }
 
     setLoading(true)
     try {
@@ -38,10 +47,7 @@ function LoginForm() {
         body: JSON.stringify({ email, password, turnstileToken }),
       })
       const data = await res.json()
-      if (!res.ok) {
-        setError(data.error || 'Error al iniciar sesión')
-        return
-      }
+      if (!res.ok) { setError(data.error || 'Error al iniciar sesión'); return }
       router.push('/dashboard')
       router.refresh()
     } catch {
@@ -52,90 +58,97 @@ function LoginForm() {
   }
 
   return (
-    <div className="min-h-screen flex items-center justify-center px-4" style={{ background: 'var(--bg-primary)' }}>
-      <div className="w-full max-w-md">
-        <div className="text-center mb-8">
-          <Link href="/" className="inline-flex items-center gap-2 mb-6">
-            <span className="text-3xl">📚</span>
-            <span className="font-[var(--font-display)] text-2xl font-bold">MIR Prep</span>
+    <div style={{ ...bodyFont, display: 'grid', gridTemplateColumns: '45fr 55fr', minHeight: '100vh' }}>
+
+      {/* LEFT PANEL — pink */}
+      <div style={{ background: C.pink, padding: '56px 52px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', position: 'relative', overflow: 'hidden', borderRight: inkBorder }}>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+          <Link href="/" style={{ display: 'flex', alignItems: 'center', gap: 12, textDecoration: 'none' }}>
+            <Image src="/ape-logo-negro.png" alt="Aurora Pixel Studio" width={30} height={30} style={{ objectFit: 'contain' }} />
+            <span style={{ ...mono, fontSize: 13, letterSpacing: '0.1em', color: C.ink }}>MIR PREP</span>
           </Link>
-          <h1 className="font-[var(--font-display)] text-3xl font-bold mb-2">Bienvenido de vuelta</h1>
-          <p style={{ color: 'var(--text-muted)' }}>Inicia sesión para continuar estudiando</p>
+          <span style={{ ...mono, fontSize: 11, letterSpacing: '0.08em', border: `2px solid ${C.ink}`, borderRadius: 999, padding: '4px 10px', color: C.ink }}>ACCESO</span>
         </div>
 
-        {verified && (
-          <div className="mb-4 p-3 rounded-lg text-sm font-medium text-center" style={{ background: '#d1fae5', color: '#065f46' }}>
-            ✅ Cuenta verificada. Ya puedes iniciar sesión.
-          </div>
-        )}
+        <div>
+          <div style={{ ...kicker(), marginBottom: 28 }}>RESIDENTE VERIFICADO</div>
+          <h2 style={{ ...disp, fontSize: 'clamp(2.5rem, 4.5vw, 6rem)', color: C.ink, margin: 0, marginBottom: 24 }}>
+            BIENVENIDO<br />DE VUELTA.
+          </h2>
+          <p style={{ ...bodyFont, fontSize: 17, color: C.ink, opacity: 0.75, maxWidth: 340, lineHeight: 1.55 }}>
+            Continúa donde lo dejaste. Tu progreso y tus fichas de estudio te esperan.
+          </p>
+        </div>
 
-        <form
-          onSubmit={handleSubmit}
-          className="p-8 rounded-2xl space-y-5"
-          style={{ background: 'var(--bg-card)', border: '1px solid var(--border)', boxShadow: 'var(--shadow)' }}
-        >
-          {error && (
-            <div className="p-3 rounded-lg text-sm font-medium" style={{ background: 'var(--error-light)', color: 'var(--error)' }}>
-              {error}
+        <div style={{ ...mono, fontSize: 11, letterSpacing: '0.08em', color: C.ink, opacity: 0.7 }}>
+          ¿No tienes cuenta?{' '}
+          <Link href="/register" style={{ color: C.ink, textDecoration: 'underline' }}>
+            REGISTRARSE GRATIS →
+          </Link>
+        </div>
+
+        <div style={{ position: 'absolute', bottom: -80, right: -80, width: 240, height: 240, borderRadius: '50%', background: C.yellow, border: `4px solid ${C.orange}`, opacity: 0.35, zIndex: 0 }} />
+      </div>
+
+      {/* RIGHT PANEL — form */}
+      <div style={{ background: C.cream, padding: '56px 52px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <div style={{ width: '100%', maxWidth: 420 }}>
+          <div style={{ marginBottom: 36 }}>
+            <div style={{ ...kicker(), marginBottom: 14 }}>01 — CREDENCIALES</div>
+            <h1 style={{ ...disp, fontSize: 'clamp(2rem, 3vw, 3.5rem)', margin: 0 }}>INICIAR SESIÓN</h1>
+          </div>
+
+          {verified && (
+            <div style={{ background: C.green, border: inkBorder, padding: '12px 16px', ...mono, fontSize: 11, letterSpacing: '0.06em', color: C.cream, marginBottom: 20 }}>
+              CUENTA VERIFICADA. YA PUEDES ACCEDER.
             </div>
           )}
 
-          <div>
-            <label className="block text-sm font-medium mb-1.5" style={{ color: 'var(--text-primary)' }}>
-              Email
-            </label>
-            <input
-              type="email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              required
-              className="w-full px-4 py-3 rounded-lg border text-sm outline-none transition-colors focus:border-[var(--accent)]"
-              style={{ borderColor: 'var(--border)', background: 'var(--bg-primary)' }}
-              placeholder="tu@email.com"
-            />
-          </div>
+          <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: 20 }}>
+            {error && (
+              <div style={{ background: C.pink, border: inkBorder, padding: '12px 16px', ...mono, fontSize: 11, letterSpacing: '0.06em' }}>
+                {error.toUpperCase()}
+              </div>
+            )}
 
-          <div>
-            <label className="block text-sm font-medium mb-1.5" style={{ color: 'var(--text-primary)' }}>
-              Contraseña
-            </label>
-            <input
-              type="password"
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
-              required
-              className="w-full px-4 py-3 rounded-lg border text-sm outline-none transition-colors focus:border-[var(--accent)]"
-              style={{ borderColor: 'var(--border)', background: 'var(--bg-primary)' }}
-              placeholder="••••••••"
-            />
-          </div>
+            <div>
+              <label style={{ ...mono, fontSize: 11, letterSpacing: '0.1em', display: 'block', marginBottom: 8 }}>EMAIL</label>
+              <input type="email" value={email} onChange={e => setEmail(e.target.value)} required placeholder="tu@email.com" style={inputStyle} />
+            </div>
 
-          <div className="flex justify-center">
-            <Turnstile
-              siteKey={process.env.NEXT_PUBLIC_CLOUDFLARE_TURNSTILE_SITE_KEY!}
-              onSuccess={(token) => setTurnstileToken(token)}
-              onError={() => setTurnstileToken(null)}
-              onExpire={() => setTurnstileToken(null)}
-              options={{ theme: 'light' }}
-            />
-          </div>
+            <div>
+              <label style={{ ...mono, fontSize: 11, letterSpacing: '0.1em', display: 'block', marginBottom: 8 }}>CONTRASEÑA</label>
+              <input type="password" value={password} onChange={e => setPassword(e.target.value)} required placeholder="••••••••" style={inputStyle} />
+            </div>
 
-          <button
-            type="submit"
-            disabled={loading || !turnstileToken}
-            className="w-full py-3 text-white font-semibold rounded-lg transition-colors disabled:opacity-50"
-            style={{ background: loading ? 'var(--text-muted)' : 'var(--accent)' }}
-          >
-            {loading ? 'Iniciando sesión...' : 'Iniciar sesión'}
-          </button>
-        </form>
+            <div>
+              <Turnstile
+                siteKey={process.env.NEXT_PUBLIC_CLOUDFLARE_TURNSTILE_SITE_KEY!}
+                onSuccess={t => setTurnstileToken(t)}
+                onError={() => setTurnstileToken(null)}
+                onExpire={() => setTurnstileToken(null)}
+                options={{ theme: 'light' }}
+              />
+            </div>
 
-        <p className="text-center mt-6 text-sm" style={{ color: 'var(--text-muted)' }}>
-          ¿No tienes cuenta?{' '}
-          <Link href="/register" className="font-semibold" style={{ color: 'var(--accent)' }}>
-            Regístrate gratis
-          </Link>
-        </p>
+            <button
+              type="submit"
+              disabled={loading || !turnstileToken}
+              style={{
+                ...disp,
+                fontSize: 15,
+                background: loading || !turnstileToken ? C.ink2 : C.ink,
+                color: C.cream,
+                border: inkBorder,
+                padding: '16px 24px',
+                cursor: loading || !turnstileToken ? 'not-allowed' : 'pointer',
+                opacity: loading || !turnstileToken ? 0.6 : 1,
+              }}
+            >
+              {loading ? 'ACCEDIENDO...' : 'INICIAR SESIÓN →'}
+            </button>
+          </form>
+        </div>
       </div>
     </div>
   )
