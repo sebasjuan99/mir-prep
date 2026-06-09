@@ -5,6 +5,14 @@ import { useAuth } from '@/hooks/useAuth'
 import { useProgreso } from '@/hooks/useProgreso'
 import { C, disp, mono, bodyFont, kicker, inkBorder } from '@/lib/cm'
 
+const EXAM_TYPES = [
+  { id: 'unal',    label: 'UNIV. NACIONAL',  pais: 'COLOMBIA', bg: C.green,   color: C.cream },
+  { id: 'ubosque', label: 'UNIV. BOSQUE',    pais: 'COLOMBIA', bg: C.cream2,  color: C.ink   },
+  { id: 'urosario',label: 'UNIV. ROSARIO',   pais: 'COLOMBIA', bg: C.orange,  color: C.cream },
+  { id: 'mir',     label: 'EXAMEN MIR',      pais: 'ESPAÑA',   bg: C.ink,     color: C.cream },
+  { id: 'enarm',   label: 'EXAMEN ENARM',    pais: 'MÉXICO',   bg: C.pink,    color: C.ink   },
+] as const
+
 export default function DashboardPage() {
   const { user } = useAuth()
   const { progresoGlobal, debilidades, historial, loading } = useProgreso()
@@ -38,6 +46,38 @@ export default function DashboardPage() {
         <p style={{ ...mono, fontSize: 11, letterSpacing: '0.08em', color: C.ink2, margin: 0 }}>
           {user?.email}
         </p>
+      </div>
+
+      {/* ─── EXAM TYPES ─────────────────────────────────────────────────────── */}
+      <div style={{ border: inkBorder, marginBottom: 48 }}>
+        <div style={{ borderBottom: inkBorder, padding: '16px 24px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+          <div style={{ ...kicker() }}>ELIGE TU EXAMEN</div>
+          <span style={{ ...mono, fontSize: 10, color: C.ink2, letterSpacing: '0.08em' }}>5 EXÁMENES DISPONIBLES</span>
+        </div>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(5, 1fr)' }}>
+          {EXAM_TYPES.map((exam, i) => (
+            <Link
+              key={exam.id}
+              href={`/simulacro?examen=${exam.id}`}
+              style={{
+                ...bodyFont,
+                display: 'flex',
+                flexDirection: 'column',
+                padding: '24px 20px',
+                background: exam.bg,
+                borderRight: i < EXAM_TYPES.length - 1 ? inkBorder : undefined,
+                textDecoration: 'none',
+                color: exam.color,
+                gap: 10,
+                minHeight: 120,
+              }}
+            >
+              <div style={{ ...mono, fontSize: 9, letterSpacing: '0.14em', opacity: 0.65 }}>{exam.pais}</div>
+              <div style={{ ...disp, fontSize: 'clamp(0.85rem, 1.2vw, 1.3rem)', lineHeight: 0.95 }}>{exam.label}</div>
+              <div style={{ ...mono, fontSize: 9, letterSpacing: '0.1em', opacity: 0.55, marginTop: 'auto' }}>SIMULACRO →</div>
+            </Link>
+          ))}
+        </div>
       </div>
 
       {/* ─── STAT CELLS ─────────────────────────────────────────────────────── */}
@@ -81,7 +121,7 @@ export default function DashboardPage() {
               NUEVO<br />SIMULACRO →
             </div>
             <p style={{ ...bodyFont, fontSize: 15, color: C.cream, opacity: 0.75, margin: 0 }}>
-              20 preguntas aleatorias del MIR 2025
+              20 preguntas aleatorias por examen
             </p>
           </Link>
 

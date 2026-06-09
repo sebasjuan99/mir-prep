@@ -107,7 +107,7 @@ export default function LandingPage() {
           padding: '100px 40px 120px',
           width: '100%', position: 'relative', zIndex: 2,
         }}>
-          <div style={{ ...kicker(), marginBottom: 48 }}>PREPARACIÓN MIR 2025</div>
+          <div style={{ ...kicker(), marginBottom: 48 }}>EXÁMENES DE RESIDENCIA 2026–2027</div>
 
           <h1 style={{
             ...disp,
@@ -115,7 +115,7 @@ export default function LandingPage() {
             margin: 0, marginBottom: 40,
           }}>
             APRUEBA<br />
-            <span style={{ color: C.pink }}>EL MIR.</span>
+            <span style={{ color: C.pink }}>TU RESIDENCIA.</span>
           </h1>
 
           <p style={{
@@ -126,8 +126,8 @@ export default function LandingPage() {
             marginBottom: 52,
             color: C.ink2,
           }}>
-            Simulacros con las preguntas reales del MIR 2025. Retroalimentación
-            inmediata, fichas de estudio y seguimiento de tu progreso por especialidad.
+            Simulacros para MIR, ENARM y exámenes universitarios colombianos.
+            Retroalimentación inmediata, fichas de estudio y seguimiento de tu progreso por especialidad.
           </p>
 
           <div style={{ display: 'flex', gap: 16, flexWrap: 'wrap' }}>
@@ -257,7 +257,7 @@ export default function LandingPage() {
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', border: `4px solid ${C.ink}` }}>
             {([
               { n: '1.000+', label: 'PREGUNTAS MIR REALES', bg: C.green, color: C.cream, br: true },
-              { n: '2025',   label: 'ÚLTIMA CONVOCATORIA',  bg: C.pink,  color: C.ink,  br: true },
+              { n: '2026',   label: 'CONVOCATORIA ACTIVA',  bg: C.pink,  color: C.ink,  br: true },
               { n: '3×',     label: 'MÁS EFICAZ QUE SOLO LEER', bg: C.orange, color: C.cream, br: false },
             ] as const).map((s) => (
               <div
@@ -412,7 +412,7 @@ export default function LandingPage() {
             display: 'grid', alignItems: 'center', justifyItems: 'center',
             textAlign: 'center',
           }}>
-            <span style={{ ...disp, fontSize: 28, color: C.cream }}>MIR<br />2025</span>
+            <span style={{ ...disp, fontSize: 22, color: C.cream }}>RESID.<br />2026</span>
           </div>
         </div>
 
