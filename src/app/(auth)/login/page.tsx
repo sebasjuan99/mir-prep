@@ -1,24 +1,51 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect, Suspense } from 'react'
 import Link from 'next/link'
-import { useAuth } from '@/hooks/useAuth'
+import { useRouter, useSearchParams } from 'next/navigation'
+import { Turnstile } from '@marsidev/react-turnstile'
 
-export default function LoginPage() {
+function LoginForm() {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [error, setError] = useState('')
   const [loading, setLoading] = useState(false)
-  const { signIn } = useAuth()
+  const [turnstileToken, setTurnstileToken] = useState<string | null>(null)
+  const [verified, setVerified] = useState(false)
+  const router = useRouter()
+  const searchParams = useSearchParams()
+
+  useEffect(() => {
+    if (searchParams.get('verified') === 'true') {
+      setVerified(true)
+    }
+  }, [searchParams])
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setError('')
+
+    if (!turnstileToken) {
+      setError('Completa la verificación de seguridad')
+      return
+    }
+
     setLoading(true)
     try {
-      await signIn(email, password)
-    } catch (err: any) {
-      setError(err.message || 'Error al iniciar sesión')
+      const res = await fetch('/api/auth/signin', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email, password, turnstileToken }),
+      })
+      const data = await res.json()
+      if (!res.ok) {
+        setError(data.error || 'Error al iniciar sesión')
+        return
+      }
+      router.push('/dashboard')
+      router.refresh()
+    } catch {
+      setError('Error de conexión. Inténtalo de nuevo.')
     } finally {
       setLoading(false)
     }
@@ -35,6 +62,12 @@ export default function LoginPage() {
           <h1 className="font-[var(--font-display)] text-3xl font-bold mb-2">Bienvenido de vuelta</h1>
           <p style={{ color: 'var(--text-muted)' }}>Inicia sesión para continuar estudiando</p>
         </div>
+
+        {verified && (
+          <div className="mb-4 p-3 rounded-lg text-sm font-medium text-center" style={{ background: '#d1fae5', color: '#065f46' }}>
+            ✅ Cuenta verificada. Ya puedes iniciar sesión.
+          </div>
+        )}
 
         <form
           onSubmit={handleSubmit}
@@ -77,9 +110,19 @@ export default function LoginPage() {
             />
           </div>
 
+          <div className="flex justify-center">
+            <Turnstile
+              siteKey={process.env.NEXT_PUBLIC_CLOUDFLARE_TURNSTILE_SITE_KEY!}
+              onSuccess={(token) => setTurnstileToken(token)}
+              onError={() => setTurnstileToken(null)}
+              onExpire={() => setTurnstileToken(null)}
+              options={{ theme: 'light' }}
+            />
+          </div>
+
           <button
             type="submit"
-            disabled={loading}
+            disabled={loading || !turnstileToken}
             className="w-full py-3 text-white font-semibold rounded-lg transition-colors disabled:opacity-50"
             style={{ background: loading ? 'var(--text-muted)' : 'var(--accent)' }}
           >
@@ -95,5 +138,13 @@ export default function LoginPage() {
         </p>
       </div>
     </div>
+  )
+}
+
+export default function LoginPage() {
+  return (
+    <Suspense>
+      <LoginForm />
+    </Suspense>
   )
 }
