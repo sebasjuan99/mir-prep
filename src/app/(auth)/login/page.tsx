@@ -20,18 +20,31 @@ const inputStyle = {
   boxSizing: 'border-box' as const,
 }
 
+function Banner({ bg, color, children }: { bg: string; color: string; children: React.ReactNode }) {
+  return (
+    <div style={{ background: bg, border: inkBorder, padding: '12px 16px', ...mono, fontSize: 11, letterSpacing: '0.06em', color, marginBottom: 20 }}>
+      {children}
+    </div>
+  )
+}
+
 function LoginForm() {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [error, setError] = useState('')
   const [loading, setLoading] = useState(false)
   const [turnstileToken, setTurnstileToken] = useState<string | null>(null)
-  const [verified, setVerified] = useState(false)
+  const [resendLoading, setResendLoading] = useState(false)
+  const [resendSent, setResendSent] = useState(false)
+  const [banner, setBanner] = useState<'verified' | 'link_expired' | 'error' | 'password_reset' | null>(null)
   const router = useRouter()
   const searchParams = useSearchParams()
 
   useEffect(() => {
-    if (searchParams.get('verified') === 'true') setVerified(true)
+    if (searchParams.get('verified') === 'true') setBanner('verified')
+    else if (searchParams.get('link_expired') === 'true') setBanner('link_expired')
+    else if (searchParams.get('error') === 'verification_failed') setBanner('error')
+    else if (searchParams.get('password_reset') === 'true') setBanner('password_reset')
   }, [searchParams])
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -56,6 +69,23 @@ function LoginForm() {
       setLoading(false)
     }
   }
+
+  const handleResend = async () => {
+    if (!email) { setError('Escribe tu email primero para reenviar la verificación'); return }
+    setResendLoading(true)
+    try {
+      await fetch('/api/auth/resend-verification', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email }),
+      })
+      setResendSent(true)
+    } finally {
+      setResendLoading(false)
+    }
+  }
+
+  const emailNotConfirmed = error.toLowerCase().includes('verificar tu correo')
 
   return (
     <div style={{ ...bodyFont, display: 'grid', gridTemplateColumns: '45fr 55fr', minHeight: '100vh' }}>
@@ -87,7 +117,7 @@ function LoginForm() {
           </Link>
         </div>
 
-        <div style={{ position: 'absolute', bottom: -80, right: -80, width: 240, height: 240, borderRadius: '50%', background: C.yellow, border: `4px solid ${C.orange}`, opacity: 0.35, zIndex: 0 }} />
+        <div style={{ position: 'absolute', bottom: -80, right: -80, width: 240, height: 240, borderRadius: '50%', background: C.yellow, border: `4px solid ${C.orange}`, opacity: 0.35 }} />
       </div>
 
       {/* RIGHT PANEL — form */}
@@ -98,10 +128,23 @@ function LoginForm() {
             <h1 style={{ ...disp, fontSize: 'clamp(2rem, 3vw, 3.5rem)', margin: 0 }}>INICIAR SESIÓN</h1>
           </div>
 
-          {verified && (
-            <div style={{ background: C.green, border: inkBorder, padding: '12px 16px', ...mono, fontSize: 11, letterSpacing: '0.06em', color: C.cream, marginBottom: 20 }}>
-              CUENTA VERIFICADA. YA PUEDES ACCEDER.
-            </div>
+          {/* Banners */}
+          {banner === 'verified' && !resendSent && (
+            <Banner bg={C.green} color={C.cream}>CUENTA VERIFICADA. YA PUEDES ACCEDER.</Banner>
+          )}
+          {banner === 'link_expired' && (
+            <Banner bg={C.orange} color={C.cream}>
+              EL ENLACE EXPIRÓ. ESCRIBE TU EMAIL Y REENVÍA LA VERIFICACIÓN ABAJO.
+            </Banner>
+          )}
+          {banner === 'error' && (
+            <Banner bg={C.pink} color={C.ink}>ERROR DE VERIFICACIÓN. SOLICITA UN NUEVO ENLACE.</Banner>
+          )}
+          {banner === 'password_reset' && (
+            <Banner bg={C.green} color={C.cream}>CONTRASEÑA ACTUALIZADA. INICIA SESIÓN.</Banner>
+          )}
+          {resendSent && (
+            <Banner bg={C.green} color={C.cream}>CORREO REENVIADO. REVISA TU BANDEJA.</Banner>
           )}
 
           <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: 20 }}>
@@ -117,7 +160,12 @@ function LoginForm() {
             </div>
 
             <div>
-              <label style={{ ...mono, fontSize: 11, letterSpacing: '0.1em', display: 'block', marginBottom: 8 }}>CONTRASEÑA</label>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', marginBottom: 8 }}>
+                <label style={{ ...mono, fontSize: 11, letterSpacing: '0.1em' }}>CONTRASEÑA</label>
+                <Link href="/forgot-password" style={{ ...mono, fontSize: 10, letterSpacing: '0.06em', color: C.ink2, textDecoration: 'underline' }}>
+                  ¿OLVIDASTE TU CLAVE?
+                </Link>
+              </div>
               <input type="password" value={password} onChange={e => setPassword(e.target.value)} required placeholder="••••••••" style={inputStyle} />
             </div>
 
@@ -135,8 +183,7 @@ function LoginForm() {
               type="submit"
               disabled={loading || !turnstileToken}
               style={{
-                ...disp,
-                fontSize: 15,
+                ...disp, fontSize: 15,
                 background: loading || !turnstileToken ? C.ink2 : C.ink,
                 color: C.cream,
                 border: inkBorder,
@@ -147,6 +194,27 @@ function LoginForm() {
             >
               {loading ? 'ACCEDIENDO...' : 'INICIAR SESIÓN →'}
             </button>
+
+            {/* Resend verification — shown when email not confirmed */}
+            {(emailNotConfirmed || banner === 'link_expired' || banner === 'error') && !resendSent && (
+              <button
+                type="button"
+                onClick={handleResend}
+                disabled={resendLoading}
+                style={{
+                  ...mono, fontSize: 11, letterSpacing: '0.08em',
+                  background: 'transparent',
+                  color: C.ink,
+                  border: `2px solid ${C.ink2}`,
+                  padding: '12px 16px',
+                  cursor: resendLoading ? 'not-allowed' : 'pointer',
+                  opacity: resendLoading ? 0.5 : 1,
+                  textAlign: 'center' as const,
+                }}
+              >
+                {resendLoading ? 'ENVIANDO...' : 'REENVIAR EMAIL DE VERIFICACIÓN'}
+              </button>
+            )}
           </form>
         </div>
       </div>
