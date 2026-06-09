@@ -44,6 +44,10 @@ const spaceGrotesk = Space_Grotesk({
 export const metadata: Metadata = {
   title: 'MIR Prep — Simulacros del Examen MIR',
   description: 'Prepara el examen MIR con simulacros interactivos, retroalimentación pedagógica y fichas de estudio por tema.',
+  icons: {
+    icon: '/ape-logo-negro.png',
+    apple: '/ape-logo-negro.png',
+  },
 }
 
 export default function RootLayout({
