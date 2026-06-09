@@ -1,6 +1,7 @@
 import { createServerSupabaseClient } from '@/lib/supabase/server'
 import { redirect } from 'next/navigation'
 import NavBar from '@/components/NavBar'
+import { C, bodyFont } from '@/lib/cm'
 
 export default async function ProtectedLayout({
   children,
@@ -13,9 +14,9 @@ export default async function ProtectedLayout({
   if (!user) redirect('/login')
 
   return (
-    <div className="min-h-screen" style={{ background: 'var(--bg-primary)' }}>
+    <div style={{ ...bodyFont, background: C.cream, color: C.ink, minHeight: '100vh' }}>
       <NavBar userEmail={user.email || ''} />
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 py-8">
+      <main style={{ maxWidth: 1280, margin: '0 auto', padding: '48px 40px' }}>
         {children}
       </main>
     </div>
