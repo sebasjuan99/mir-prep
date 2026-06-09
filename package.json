@@ -16,6 +16,7 @@
     "db:reset": "npx prisma db push --force-reset && npm run db:seed"
   },
   "dependencies": {
+    "@marsidev/react-turnstile": "^1.5.3",
     "@prisma/adapter-pg": "^7.6.0",
     "@prisma/adapter-pg-worker": "^6.9.0",
     "@prisma/client": "^7.6.0",

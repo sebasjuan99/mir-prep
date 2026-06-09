@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
-import { useAuth } from '@/hooks/useAuth'
+import { Turnstile } from '@marsidev/react-turnstile'
 
 export default function RegisterPage() {
   const [email, setEmail] = useState('')
@@ -11,7 +11,7 @@ export default function RegisterPage() {
   const [error, setError] = useState('')
   const [loading, setLoading] = useState(false)
   const [success, setSuccess] = useState(false)
-  const { signUp } = useAuth()
+  const [turnstileToken, setTurnstileToken] = useState<string | null>(null)
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
@@ -25,13 +25,26 @@ export default function RegisterPage() {
       setError('La contraseña debe tener al menos 6 caracteres')
       return
     }
+    if (!turnstileToken) {
+      setError('Completa la verificación de seguridad')
+      return
+    }
 
     setLoading(true)
     try {
-      await signUp(email, password)
+      const res = await fetch('/api/auth/signup', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email, password, turnstileToken }),
+      })
+      const data = await res.json()
+      if (!res.ok) {
+        setError(data.error || 'Error al registrarse')
+        return
+      }
       setSuccess(true)
-    } catch (err: any) {
-      setError(err.message || 'Error al registrarse')
+    } catch {
+      setError('Error de conexión. Inténtalo de nuevo.')
     } finally {
       setLoading(false)
     }
@@ -120,9 +133,19 @@ export default function RegisterPage() {
             />
           </div>
 
+          <div className="flex justify-center">
+            <Turnstile
+              siteKey={process.env.NEXT_PUBLIC_CLOUDFLARE_TURNSTILE_SITE_KEY!}
+              onSuccess={(token) => setTurnstileToken(token)}
+              onError={() => setTurnstileToken(null)}
+              onExpire={() => setTurnstileToken(null)}
+              options={{ theme: 'light' }}
+            />
+          </div>
+
           <button
             type="submit"
-            disabled={loading}
+            disabled={loading || !turnstileToken}
             className="w-full py-3 text-white font-semibold rounded-lg transition-colors disabled:opacity-50"
             style={{ background: loading ? 'var(--text-muted)' : 'var(--accent)' }}
           >
