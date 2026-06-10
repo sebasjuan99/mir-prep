@@ -26,11 +26,16 @@ export default function FlashcardsPage() {
   const [filterEspecialidad, setFilterEspecialidad] = useState('')
   const [filterTipoExamen, setFilterTipoExamen] = useState('')
   const [loadingCards, setLoadingCards] = useState(false)
+  const [savedCount, setSavedCount] = useState(0)
 
   useEffect(() => {
     fetch('/api/user/claude-key')
       .then(r => r.json())
       .then(d => setKeyConfigured(d.configured))
+      .catch(() => {})
+    fetch('/api/flashcards')
+      .then(r => r.json())
+      .then(d => setSavedCount((d.flashcards || []).length))
       .catch(() => {})
   }, [])
 
@@ -46,6 +51,7 @@ export default function FlashcardsPage() {
       setSavedCards(cards)
       if (!filterEspecialidad && !filterTipoExamen) {
         setAllCards(cards)
+        setSavedCount(cards.length)
       }
     } catch {
       // silent
@@ -133,11 +139,27 @@ export default function FlashcardsPage() {
 
       {/* GENERATOR STATE */}
       {pageState === 'generator' && (
-        <GeneratorForm
-          keyConfigured={keyConfigured}
-          onOpenKeyModal={() => setShowKeyModal(true)}
-          onGenerated={handleGenerated}
-        />
+        <>
+          {savedCount > 0 && (
+            <div style={{ marginBottom: 32 }}>
+              <button
+                onClick={() => { setPageState('dashboard') }}
+                style={{
+                  ...mono, fontSize: 11, letterSpacing: '0.08em',
+                  border: inkBorder, background: 'transparent', color: C.ink,
+                  padding: '10px 20px', cursor: 'pointer',
+                }}
+              >
+                VER MIS FLASHCARDS GUARDADAS ({savedCount})
+              </button>
+            </div>
+          )}
+          <GeneratorForm
+            keyConfigured={keyConfigured}
+            onOpenKeyModal={() => setShowKeyModal(true)}
+            onGenerated={handleGenerated}
+          />
+        </>
       )}
 
       {/* PREVIEW STATE */}

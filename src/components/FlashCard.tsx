@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
+import { C, mono, disp, bodyFont, inkBorder } from '@/lib/cm'
 
 interface Opcion {
   letra: string
@@ -44,134 +45,115 @@ export default function FlashCard({
   const [showResumen, setShowResumen] = useState(false)
   const isCorrect = selectedOption === pregunta.respuesta_correcta
 
-  useEffect(() => {
-    setShowResumen(false)
-  }, [pregunta.id])
+  useEffect(() => { setShowResumen(false) }, [pregunta.id])
 
-  const getOptionClass = (letra: string) => {
-    if (!showResult) {
-      return selectedOption === letra ? 'option-btn selected' : 'option-btn'
-    }
-    if (letra === pregunta.respuesta_correcta) return 'option-btn correct'
-    if (letra === selectedOption && !isCorrect) return 'option-btn incorrect'
-    return 'option-btn opacity-50'
+  const getOptionBg = (letra: string) => {
+    if (!showResult) return selectedOption === letra ? C.ink : C.cream
+    if (letra === pregunta.respuesta_correcta) return C.green
+    if (letra === selectedOption && !isCorrect) return C.orange
+    return C.cream
   }
 
-  const getOptionAnimation = (letra: string) => {
-    if (!showResult) return {}
-    if (letra === pregunta.respuesta_correcta) return { className: 'animate-pulse-success' }
-    if (letra === selectedOption && !isCorrect) return { className: 'animate-shake' }
-    return {}
+  const getOptionColor = (letra: string) => {
+    if (!showResult) return selectedOption === letra ? C.cream : C.ink
+    if (letra === pregunta.respuesta_correcta) return C.cream
+    if (letra === selectedOption && !isCorrect) return C.cream
+    return C.ink
   }
+
+  const progressPct = Math.round((progreso / total) * 100)
 
   return (
     <AnimatePresence mode="wait">
       <motion.div
         key={pregunta.id}
-        initial={{ x: 300, opacity: 0 }}
+        initial={{ x: 48, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
-        exit={{ x: -300, opacity: 0 }}
-        transition={{ type: 'spring', stiffness: 300, damping: 30 }}
-        className="w-full max-w-3xl mx-auto"
+        exit={{ x: -48, opacity: 0 }}
+        transition={{ duration: 0.18 }}
+        style={{ width: '100%', maxWidth: 720, margin: '0 auto' }}
       >
-        {/* Progress bar */}
-        <div className="mb-6">
-          <div className="flex items-center justify-between mb-2">
-            <span className="text-sm font-medium" style={{ color: 'var(--text-muted)' }}>
-              Pregunta {progreso} de {total}
+        {/* Progress */}
+        <div style={{ marginBottom: 20 }}>
+          <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 6 }}>
+            <span style={{ ...mono, fontSize: 10, letterSpacing: '0.1em', color: C.ink, opacity: 0.5 }}>
+              PREGUNTA {progreso} / {total}
             </span>
-            <span className="text-sm font-medium" style={{ color: 'var(--text-muted)' }}>
+            <span style={{ ...mono, fontSize: 10, letterSpacing: '0.08em', color: C.ink, opacity: 0.5 }}>
               MIR #{pregunta.numero_mir}
             </span>
           </div>
-          <div className="h-2 rounded-full overflow-hidden" style={{ background: 'var(--bg-secondary)' }}>
-            <div
-              className="h-full rounded-full transition-all duration-500"
-              style={{
-                width: `${(progreso / total) * 100}%`,
-                background: 'var(--accent)',
-              }}
-            />
+          <div style={{ height: 6, background: C.cream2, border: `2px solid ${C.ink}` }}>
+            <div style={{ height: '100%', width: `${progressPct}%`, background: C.ink, transition: 'width 0.4s' }} />
           </div>
         </div>
 
         {/* Card */}
-        <div
-          className="rounded-2xl p-6 md:p-8"
-          style={{ background: 'var(--bg-card)', border: '1px solid var(--border)', boxShadow: 'var(--shadow)' }}
-        >
-          {/* Specialty + Topic chips */}
-          <div className="flex flex-wrap gap-2 mb-5">
-            <span
-              className="px-3 py-1 text-xs font-semibold rounded-full"
-              style={{ background: 'var(--accent-light)', color: 'var(--accent-dark)' }}
-            >
-              {pregunta.especialidad}
+        <div style={{ border: inkBorder, background: C.cream, padding: '28px 32px' }}>
+          {/* Tags */}
+          <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap', marginBottom: 18 }}>
+            <span style={{ ...mono, fontSize: 9, letterSpacing: '0.12em', border: inkBorder, padding: '4px 10px', background: C.ink, color: C.cream }}>
+              {pregunta.especialidad.toUpperCase()}
             </span>
-            <span
-              className="px-3 py-1 text-xs font-semibold rounded-full"
-              style={{ background: 'var(--bg-secondary)', color: 'var(--text-muted)' }}
-            >
-              {pregunta.tema}
+            <span style={{ ...mono, fontSize: 9, letterSpacing: '0.1em', border: `2px solid ${C.ink}`, padding: '4px 10px', color: C.ink }}>
+              {pregunta.tema.toUpperCase()}
             </span>
             {pregunta.subtema && (
-              <span
-                className="px-3 py-1 text-xs rounded-full"
-                style={{ background: 'var(--bg-secondary)', color: 'var(--text-muted)' }}
-              >
-                {pregunta.subtema}
+              <span style={{ ...mono, fontSize: 9, letterSpacing: '0.08em', border: `2px solid ${C.ink}`, padding: '4px 10px', color: C.ink, opacity: 0.6 }}>
+                {pregunta.subtema.toUpperCase()}
               </span>
             )}
           </div>
 
-          {/* Question text */}
-          <p className="font-[var(--font-body)] text-lg md:text-xl leading-relaxed mb-6" style={{ color: 'var(--text-primary)' }}>
+          {/* Question */}
+          <p style={{ ...bodyFont, fontSize: 17, lineHeight: 1.65, color: C.ink, marginBottom: 24 }}>
             {pregunta.enunciado}
           </p>
 
-          {/* Clinical image */}
+          {/* Image */}
           {pregunta.imagen_url && (
-            <div className="mb-6 rounded-xl overflow-hidden border" style={{ borderColor: 'var(--border)' }}>
+            <div style={{ marginBottom: 20, border: inkBorder, overflow: 'hidden' }}>
               <img
                 src={pregunta.imagen_url}
-                alt={`Imagen clínica pregunta ${pregunta.numero_mir}`}
-                className="w-full max-h-80 object-contain bg-white"
+                alt={`MIR ${pregunta.numero_mir}`}
+                style={{ width: '100%', maxHeight: 260, objectFit: 'contain', background: '#fff' }}
                 loading="lazy"
               />
             </div>
           )}
 
           {/* Options */}
-          <div className="space-y-3 mb-6">
-            {pregunta.opciones.map((opcion) => {
-              const animProps = getOptionAnimation(opcion.letra)
+          <div style={{ display: 'flex', flexDirection: 'column', gap: 6, marginBottom: 20 }}>
+            {pregunta.opciones.map(opcion => {
+              const bg = getOptionBg(opcion.letra)
+              const col = getOptionColor(opcion.letra)
+              const dimmed = showResult && opcion.letra !== pregunta.respuesta_correcta && opcion.letra !== selectedOption
               return (
                 <button
                   key={opcion.letra}
                   onClick={() => !showResult && onResponder(opcion.letra)}
                   disabled={showResult}
-                  className={`${getOptionClass(opcion.letra)} ${animProps.className || ''} w-full text-left px-5 py-4 rounded-xl flex items-start gap-3 cursor-pointer disabled:cursor-default`}
+                  style={{
+                    display: 'flex', alignItems: 'flex-start', gap: 12,
+                    padding: '13px 16px',
+                    border: `3px solid ${C.ink}`,
+                    background: bg, color: col,
+                    cursor: showResult ? 'default' : 'pointer',
+                    textAlign: 'left', width: '100%',
+                    opacity: dimmed ? 0.4 : 1,
+                    transition: 'background 0.15s',
+                  }}
                 >
-                  <span
-                    className="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold"
-                    style={{
-                      background: showResult && opcion.letra === pregunta.respuesta_correcta
-                        ? 'var(--success)'
-                        : showResult && opcion.letra === selectedOption && !isCorrect
-                        ? 'var(--error)'
-                        : 'var(--bg-secondary)',
-                      color: showResult && (opcion.letra === pregunta.respuesta_correcta || opcion.letra === selectedOption)
-                        ? 'white'
-                        : 'var(--text-primary)',
-                    }}
-                  >
-                    {showResult && opcion.letra === pregunta.respuesta_correcta
-                      ? '✓'
-                      : showResult && opcion.letra === selectedOption && !isCorrect
-                      ? '✗'
+                  <span style={{
+                    ...mono, fontSize: 11, letterSpacing: '0.06em', flexShrink: 0,
+                    width: 26, height: 26, border: `2px solid ${col}`,
+                    display: 'flex', alignItems: 'center', justifyContent: 'center', color: col,
+                  }}>
+                    {showResult && opcion.letra === pregunta.respuesta_correcta ? '✓'
+                      : showResult && opcion.letra === selectedOption && !isCorrect ? '✗'
                       : opcion.letra}
                   </span>
-                  <span className="font-[var(--font-body)] text-base leading-relaxed pt-1">
+                  <span style={{ ...bodyFont, fontSize: 15, lineHeight: 1.5, color: col, paddingTop: 3 }}>
                     {opcion.texto}
                   </span>
                 </button>
@@ -179,73 +161,67 @@ export default function FlashCard({
             })}
           </div>
 
-          {/* Result feedback */}
+          {/* Result */}
           {showResult && (
             <motion.div
-              initial={{ opacity: 0, y: 20 }}
+              initial={{ opacity: 0, y: 12 }}
               animate={{ opacity: 1, y: 0 }}
-              className="space-y-4"
+              style={{ display: 'flex', flexDirection: 'column', gap: 10 }}
             >
               {isCorrect ? (
-                <div className="p-4 rounded-xl" style={{ background: 'var(--success-light)' }}>
-                  <p className="font-semibold" style={{ color: 'var(--success)' }}>
-                    ✓ ¡Correcto! Bien hecho 👏
-                  </p>
+                <div style={{ border: `3px solid ${C.green}`, background: C.green, padding: '11px 16px' }}>
+                  <span style={{ ...mono, fontSize: 10, letterSpacing: '0.12em', color: C.cream }}>CORRECTO — BIEN HECHO</span>
                 </div>
               ) : (
                 <>
-                  <div className="p-4 rounded-xl" style={{ background: 'var(--error-light)' }}>
-                    <p className="font-semibold" style={{ color: 'var(--error)' }}>
-                      ✗ Incorrecto — La respuesta correcta es {pregunta.respuesta_correcta}
-                    </p>
+                  <div style={{ border: `3px solid ${C.orange}`, background: C.orange, padding: '11px 16px' }}>
+                    <span style={{ ...mono, fontSize: 10, letterSpacing: '0.12em', color: C.cream }}>
+                      INCORRECTO — CORRECTA: {pregunta.respuesta_correcta}
+                    </span>
                   </div>
-
-                  {/* Study recommendation card */}
                   {resumenTema && (
-                    <div className="rounded-xl border overflow-hidden" style={{ borderColor: 'var(--border)' }}>
+                    <div style={{ border: inkBorder }}>
                       <button
                         onClick={() => setShowResumen(!showResumen)}
-                        className="w-full flex items-center justify-between p-4 text-left"
-                        style={{ background: 'var(--bg-secondary)' }}
+                        style={{
+                          ...mono, fontSize: 9, letterSpacing: '0.1em', width: '100%',
+                          padding: '11px 16px', display: 'flex', justifyContent: 'space-between',
+                          background: C.cream2, border: 'none',
+                          borderBottom: showResumen ? `3px solid ${C.ink}` : 'none',
+                          cursor: 'pointer', color: C.ink,
+                        }}
                       >
-                        <span className="font-semibold text-sm">
-                          📖 Estudiar: {pregunta.tema}
-                        </span>
-                        <span className="text-sm" style={{ color: 'var(--text-muted)' }}>
-                          {showResumen ? '▲ Cerrar' : '▼ Ver resumen'}
-                        </span>
+                        <span>ESTUDIAR: {pregunta.tema.toUpperCase()}</span>
+                        <span style={{ opacity: 0.5 }}>{showResumen ? '▲ CERRAR' : '▼ VER RESUMEN'}</span>
                       </button>
                       {showResumen && (
-                        <motion.div
-                          initial={{ height: 0, opacity: 0 }}
-                          animate={{ height: 'auto', opacity: 1 }}
-                          className="p-5 text-sm leading-relaxed"
-                          style={{ background: 'var(--bg-card)' }}
-                        >
-                          <div className="font-[var(--font-body)] whitespace-pre-wrap" style={{ color: 'var(--text-primary)' }}>
+                        <div style={{ padding: '16px 18px', background: C.cream }}>
+                          <div style={{ ...bodyFont, fontSize: 14, lineHeight: 1.65, color: C.ink, whiteSpace: 'pre-wrap' }}>
                             {resumenTema.contenido_md}
                           </div>
                           {resumenTema.tip_mir && (
-                            <div className="mt-4 p-3 rounded-lg" style={{ background: 'var(--accent-light)' }}>
-                              <p className="text-sm font-medium" style={{ color: 'var(--accent-dark)' }}>
-                                ⚠️ Tip MIR: {resumenTema.tip_mir}
-                              </p>
+                            <div style={{ marginTop: 12, border: `2px solid ${C.orange}`, padding: '10px 14px' }}>
+                              <span style={{ ...mono, fontSize: 9, letterSpacing: '0.1em', color: C.orange }}>TIP MIR — </span>
+                              <span style={{ ...bodyFont, fontSize: 13, color: C.ink }}>{resumenTema.tip_mir}</span>
                             </div>
                           )}
-                        </motion.div>
+                        </div>
                       )}
                     </div>
                   )}
                 </>
               )}
 
-              {/* Next button */}
               <button
                 onClick={onSiguiente}
-                className="w-full py-3.5 text-white font-semibold rounded-xl text-base transition-all hover:shadow-lg"
-                style={{ background: 'var(--accent)' }}
+                style={{
+                  ...mono, fontSize: 11, letterSpacing: '0.1em',
+                  width: '100%', padding: '15px',
+                  background: C.ink, color: C.cream,
+                  border: inkBorder, cursor: 'pointer',
+                }}
               >
-                {progreso < total ? 'Siguiente →' : 'Ver resultados →'}
+                {progreso < total ? 'SIGUIENTE →' : 'VER RESULTADOS →'}
               </button>
             </motion.div>
           )}
