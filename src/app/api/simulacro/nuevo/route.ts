@@ -10,11 +10,11 @@ export async function GET(request: NextRequest) {
   const { searchParams } = new URL(request.url)
   const tipo = searchParams.get('tipo') || 'aleatorio'
   const especialidad = searchParams.get('especialidad')
+  const universidad = searchParams.get('universidad')
 
   let preguntas
 
   if (tipo === 'repaso_errores') {
-    // Get questions the user got wrong
     const wrongAnswers = await prisma.respuesta.findMany({
       where: { user_id: user.id, correcta: false },
       select: { pregunta_id: true },
@@ -29,8 +29,12 @@ export async function GET(request: NextRequest) {
     preguntas = await prisma.pregunta.findMany({
       where: { id: { in: wrongIds } },
       take: 20,
-      orderBy: { numero_mir: 'asc' },
+      orderBy: { createdAt: 'asc' },
     })
+  } else if (universidad) {
+    preguntas = await prisma.$queryRaw`
+      SELECT * FROM "Pregunta" WHERE universidad = ${universidad} ORDER BY RANDOM() LIMIT 20
+    `
   } else if (especialidad) {
     preguntas = await prisma.$queryRaw`
       SELECT * FROM "Pregunta" WHERE especialidad = ${especialidad} ORDER BY RANDOM() LIMIT 20
@@ -41,12 +45,12 @@ export async function GET(request: NextRequest) {
     `
   }
 
-  // Create session
   const sesion = await prisma.sesion.create({
     data: {
       user_id: user.id,
-      tipo,
+      tipo: universidad ? 'universidad' : tipo,
       filtro: especialidad,
+      universidad,
       total: Array.isArray(preguntas) ? preguntas.length : 20,
     },
   })

@@ -14,11 +14,12 @@ interface RespuestaUsuario {
 
 interface PreguntaData {
   id: string
-  numero_mir: number
+  numero_mir: number | null
   enunciado: string
   especialidad: string
   tema: string
   respuesta_correcta: string
+  universidad: string | null
 }
 
 interface ResultadoProps {
@@ -136,7 +137,11 @@ export default function ResultadoSimulacro({
               }}
             >
               <div>
-                <span style={{ ...mono, fontSize: 10, letterSpacing: '0.08em', color: C.ink }}>MIR #{e.pregunta!.numero_mir}</span>
+                <span style={{ ...mono, fontSize: 10, letterSpacing: '0.08em', color: C.ink }}>
+                {e.pregunta!.numero_mir != null
+                  ? `MIR #${e.pregunta!.numero_mir}`
+                  : (e.pregunta!.universidad || 'PREGUNTA')}
+              </span>
                 <span style={{ ...mono, fontSize: 9, letterSpacing: '0.06em', color: C.ink, opacity: 0.45, marginLeft: 10 }}>
                   {e.pregunta!.especialidad} — {e.pregunta!.tema}
                 </span>

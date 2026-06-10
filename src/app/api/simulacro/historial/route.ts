@@ -15,6 +15,7 @@ export async function GET() {
       id: true,
       tipo: true,
       filtro: true,
+      universidad: true,
       score: true,
       total: true,
       createdAt: true,
