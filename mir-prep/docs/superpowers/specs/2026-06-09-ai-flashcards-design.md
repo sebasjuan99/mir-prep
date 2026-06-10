@@ -31,10 +31,10 @@ No sub-pages. API key configuration is a modal inside `/flashcards`.
    - Exam type: MIR | ENARM | U. del Rosario | U. del Bosque | USMLE | Personalizado
 5. Click "GENERAR FLASHCARDS"
 6. Loading state while Claude processes
-7. Preview screen: cards shown in 9:16 flip format, NOT saved yet
-   - Each card has [✓ Guardar] and [✗ Descartar] buttons
-   - User can flip each card to review front/back before deciding
-8. Click "GUARDAR SELECCIONADAS" → only approved cards saved to DB
+7. Preview screen: all cards shown in 9:16 flip format, NOT saved yet
+   - User can flip each card to review front/back
+   - Below the grid: two small buttons — "Guardar estas flashcards" / "Eliminar estas flashcards"
+8. Click "Guardar estas flashcards" → entire batch saved to DB at once
 9. Redirect to dashboard section within /flashcards showing all saved cards
 10. "DESCARGAR PDF" button → on-demand PDF generation, filtered by specialty or exam type
 ```
@@ -175,10 +175,11 @@ Two visual states on the same route:
 - API key status indicator + "Configurar" link
 
 **State B — Preview** (after generation, before saving):
-- Grid of generated cards in 9:16 flip format
-- Each card: Guardar ✓ / Descartar ✗ actions
-- "GUARDAR SELECCIONADAS (N)" sticky bottom bar
-- "Generar nuevas" link to go back to generator
+- Grid of all generated cards in 9:16 flip format (user can flip each to review)
+- Single small action bar below the grid with two buttons:
+  - "Guardar estas flashcards" → saves the entire batch to DB
+  - "Eliminar estas flashcards" → discards the batch, returns to State A
+- No per-card actions — decision is made for the whole batch at once
 
 **State C — Dashboard** (after saving, persistent):
 - Filter bar: by especialidad, by tipoExamen
