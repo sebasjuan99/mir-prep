@@ -12,6 +12,7 @@ export default function ApiKeyModal({ onClose, onSaved }: ApiKeyModalProps) {
   const [key, setKey] = useState('')
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
+  const [showKey, setShowKey] = useState(false)
 
   const handleSave = async () => {
     setError('')
@@ -63,17 +64,32 @@ export default function ApiKeyModal({ onClose, onSaved }: ApiKeyModalProps) {
           </div>
         )}
 
-        <input
-          type="password"
-          placeholder="sk-ant-api03-..."
-          value={key}
-          onChange={e => setKey(e.target.value)}
-          style={{
-            ...bodyFont, width: '100%', padding: '14px 16px',
-            border: inkBorder, background: C.cream, color: C.ink,
-            fontSize: 15, outline: 'none', boxSizing: 'border-box', marginBottom: 20,
-          }}
-        />
+        <div style={{ position: 'relative', marginBottom: 20 }}>
+          <input
+            type={showKey ? 'text' : 'password'}
+            placeholder="sk-ant-api03-..."
+            value={key}
+            onChange={e => setKey(e.target.value)}
+            style={{
+              ...bodyFont, width: '100%', padding: '14px 48px 14px 16px',
+              border: inkBorder, background: C.cream, color: C.ink,
+              fontSize: 15, outline: 'none', boxSizing: 'border-box',
+            }}
+          />
+          <button
+            type="button"
+            onClick={() => setShowKey(v => !v)}
+            style={{
+              position: 'absolute', right: 0, top: 0, bottom: 0,
+              width: 44, background: 'transparent', border: 'none',
+              borderLeft: inkBorder, cursor: 'pointer', color: C.ink2,
+              fontSize: 16, display: 'flex', alignItems: 'center', justifyContent: 'center',
+            }}
+            title={showKey ? 'Ocultar' : 'Mostrar'}
+          >
+            {showKey ? '🙈' : '👁'}
+          </button>
+        </div>
 
         <div style={{ display: 'flex', gap: 12 }}>
           <button
