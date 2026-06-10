@@ -15,6 +15,7 @@ const links = [
   { href: '/dashboard',     label: 'DASHBOARD'     },
   { href: '/simulacro',     label: 'SIMULACRO'     },
   { href: '/especialidades', label: 'ESPECIALIDADES' },
+  { href: '/flashcards',    label: '✦ FLASHCARDS IA' },
 ]
 
 export default function NavBar({ userEmail }: NavBarProps) {
