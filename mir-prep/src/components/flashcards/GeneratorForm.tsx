@@ -23,6 +23,7 @@ export default function GeneratorForm({ keyConfigured, onOpenKeyModal, onGenerat
   const inputRef = useRef<HTMLInputElement>(null)
 
   const effectiveTipoExamen = tipoExamen === 'OTRO' ? customExamen : tipoExamen
+  const isDisabled = loading || !file || !keyConfigured || !effectiveTipoExamen.trim()
 
   const handleGenerate = async () => {
     if (!file || !effectiveTipoExamen.trim()) return
@@ -77,6 +78,12 @@ export default function GeneratorForm({ keyConfigured, onOpenKeyModal, onGenerat
         <div style={{ ...mono, fontSize: 10, letterSpacing: '0.1em', marginBottom: 10 }}>01 — DOCUMENTO</div>
         <div
           onClick={() => inputRef.current?.click()}
+          onDragOver={(e) => { e.preventDefault() }}
+          onDrop={(e) => {
+            e.preventDefault()
+            const dropped = e.dataTransfer.files[0]
+            if (dropped) setFile(dropped)
+          }}
           style={{
             border: `3px dashed ${C.ink}`, padding: '32px 24px', textAlign: 'center',
             cursor: 'pointer', background: file ? '#e8f4e8' : C.cream,
@@ -169,12 +176,12 @@ export default function GeneratorForm({ keyConfigured, onOpenKeyModal, onGenerat
       {/* Generate button */}
       <button
         onClick={handleGenerate}
-        disabled={loading || !file || !keyConfigured || !effectiveTipoExamen.trim()}
+        disabled={isDisabled}
         style={{
           ...disp, fontSize: 15, width: '100%',
-          background: (loading || !file || !keyConfigured) ? '#aaa' : C.ink,
+          background: isDisabled ? '#aaa' : C.ink,
           color: C.cream, border: inkBorder, padding: '18px 24px',
-          cursor: (loading || !file || !keyConfigured) ? 'not-allowed' : 'pointer',
+          cursor: isDisabled ? 'not-allowed' : 'pointer',
         }}
       >
         {loading ? `GENERANDO ${count} FLASHCARDS...` : `GENERAR ${count} FLASHCARDS →`}
