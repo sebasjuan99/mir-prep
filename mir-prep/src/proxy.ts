@@ -25,12 +25,13 @@ export async function proxy(request: NextRequest) {
 
   const { data: { user } } = await supabase.auth.getUser()
 
-  const isPublicRoute = ['/', '/login', '/register'].includes(request.nextUrl.pathname)
+  const isPublicRoute = ['/', '/login', '/register', '/forgot-password', '/reset-password'].includes(request.nextUrl.pathname)
+  const isAuthCallback = request.nextUrl.pathname.startsWith('/auth/')
   const isApiRoute = request.nextUrl.pathname.startsWith('/api/')
   const isStaticAsset = request.nextUrl.pathname.startsWith('/_next/') ||
                         request.nextUrl.pathname.includes('.')
 
-  if (isStaticAsset) return supabaseResponse
+  if (isStaticAsset || isAuthCallback) return supabaseResponse
 
   // If not authenticated and trying to access protected route
   if (!user && !isPublicRoute && !isApiRoute) {
