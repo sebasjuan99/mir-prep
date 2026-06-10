@@ -23,7 +23,7 @@ export async function POST(request: Request) {
 
   const appUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://mir-prep.vercel.app'
   const { error } = await supabase.auth.resetPasswordForEmail(body.email, {
-    redirectTo: `${appUrl}/auth/callback?next=/reset-password`,
+    redirectTo: `${appUrl}/auth/recovery`,
   })
 
   // Always return success to avoid email enumeration
