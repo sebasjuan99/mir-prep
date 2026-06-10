@@ -20,6 +20,7 @@ export default function FlashcardsPage() {
 
   // Dashboard state (saved)
   const [savedCards, setSavedCards] = useState<AiFlashcard[]>([])
+  const [allCards, setAllCards] = useState<AiFlashcard[]>([])
   const [filterEspecialidad, setFilterEspecialidad] = useState('')
   const [filterTipoExamen, setFilterTipoExamen] = useState('')
   const [loadingCards, setLoadingCards] = useState(false)
@@ -42,7 +43,11 @@ export default function FlashcardsPage() {
       if (filterTipoExamen) params.set('tipoExamen', filterTipoExamen)
       const res = await fetch(`/api/flashcards?${params}`)
       const data = await res.json()
-      setSavedCards(data.flashcards || [])
+      const cards = data.flashcards || []
+      setSavedCards(cards)
+      if (!filterEspecialidad && !filterTipoExamen) {
+        setAllCards(cards)
+      }
     } catch {
       // silent
     } finally {
@@ -55,6 +60,7 @@ export default function FlashcardsPage() {
   }, [pageState, loadSavedCards])
 
   const handleGenerated = (cards: AiFlashcard[], tipoExamen: string) => {
+    if (cards.length === 0) return
     setPreview(cards)
     setPreviewTipoExamen(tipoExamen)
     setPageState('preview')
@@ -85,8 +91,15 @@ export default function FlashcardsPage() {
   }
 
   const handleDelete = async (id: string) => {
-    await fetch(`/api/flashcards/${id}`, { method: 'DELETE' })
-    setSavedCards(prev => prev.filter(c => c.id !== id))
+    try {
+      const res = await fetch(`/api/flashcards/${id}`, { method: 'DELETE' })
+      if (res.ok) {
+        setSavedCards(prev => prev.filter(c => c.id !== id))
+        setAllCards(prev => prev.filter(c => c.id !== id))
+      }
+    } catch {
+      // silent
+    }
   }
 
   const handleDownloadPdf = async () => {
@@ -104,14 +117,16 @@ export default function FlashcardsPage() {
       a.download = 'flashcards-mir-prep.pdf'
       a.click()
       URL.revokeObjectURL(url)
+    } catch {
+      // silent
     } finally {
       setDownloadingPdf(false)
     }
   }
 
   // Unique filter values from saved cards
-  const especialidades = [...new Set(savedCards.map(c => c.especialidad))].sort()
-  const tiposExamen = [...new Set(savedCards.map(c => c.tipoExamen))].sort()
+  const especialidades = [...new Set(allCards.map(c => c.especialidad))].sort()
+  const tiposExamen = [...new Set(allCards.map(c => c.tipoExamen))].sort()
 
   return (
     <div style={{ ...bodyFont }}>
