@@ -29,11 +29,15 @@ const anthropic = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY })
 const BASE_DIR = 'D:/Mir_Prep preguntas'
 
 const FILES = [
-  { file: 'UNAL 2025 - Mayo.pdf',                        universidad: 'UNAL',       anio: 2025, fuente: 'UNAL Mayo 2025' },
-  { file: 'Universidad del Rosario 2023.pdf',             universidad: 'Rosario',    anio: 2023, fuente: 'Rosario 2023' },
-  { file: 'Reconstrucción bosque 2025-1.pdf',             universidad: 'El Bosque',  anio: 2025, fuente: 'El Bosque 2025-1' },
-  { file: 'BANCO_DE_PREGUNTAS_ENARM.pdf',                 universidad: 'ENARM',      anio: 2024, fuente: 'Banco ENARM' },
-  { file: 'UNAL 2024 reconstrucción exam admisión.docx',  universidad: 'UNAL',       anio: 2024, fuente: 'UNAL 2024 Reconstrucción' },
+  { file: 'UNAL 2025 - Mayo.pdf',                                 universidad: 'UNAL',      anio: 2025, fuente: 'UNAL Mayo 2025' },
+  { file: 'UNAL 2024 reconstrucción exam admisión .docx',         universidad: 'UNAL',      anio: 2024, fuente: 'UNAL 2024 Reconstrucción' },
+  { file: 'Examenes UNAL.pdf',                                    universidad: 'UNAL',      anio: 2023, fuente: 'UNAL Exámenes' },
+  { file: 'Universidad del Rosario  2023.pdf',                    universidad: 'Rosario',   anio: 2023, fuente: 'Rosario 2023' },
+  { file: 'Reconstrucción bosque 2025-1.pdf',                     universidad: 'El Bosque', anio: 2025, fuente: 'El Bosque 2025-1' },
+  { file: 'Reconstrucción 2025-1.pdf',                            universidad: 'El Bosque', anio: 2025, fuente: 'El Bosque 2025 General' },
+  { file: 'Banco de preguntas Universidad El Bosque (2).pdf',     universidad: 'El Bosque', anio: 2023, fuente: 'El Bosque Banco (2)' },
+  { file: 'Banco de preguntas Universidad El Bosque (3) (1).pdf', universidad: 'El Bosque', anio: 2023, fuente: 'El Bosque Banco (3)' },
+  { file: 'BANCO_DE_PREGUNTAS_ENARM.pdf',                         universidad: 'ENARM',     anio: 2024, fuente: 'Banco ENARM' },
 ]
 
 interface ParsedQuestion {
@@ -46,11 +50,11 @@ interface ParsedQuestion {
 }
 
 async function extractTextFromPdf(filePath: string): Promise<string> {
-  // Dynamic import to avoid module issues
-  const pdfParse = (await import('pdf-parse')).default
+  const { PDFParse } = await import('pdf-parse')
   const buffer = fs.readFileSync(filePath)
-  const data = await pdfParse(buffer)
-  return data.text
+  const parser = new PDFParse({ data: buffer })
+  const result = await parser.getText()
+  return result.text
 }
 
 async function extractTextFromDocx(filePath: string): Promise<string> {
