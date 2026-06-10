@@ -16,15 +16,16 @@ export default function FlashcardsPage() {
   // Preview state (not yet saved)
   const [preview, setPreview] = useState<AiFlashcard[]>([])
   const [previewTipoExamen, setPreviewTipoExamen] = useState('')
+  const [previewIndex, setPreviewIndex] = useState(0)
   const [saving, setSaving] = useState(false)
 
   // Dashboard state (saved)
   const [savedCards, setSavedCards] = useState<AiFlashcard[]>([])
   const [allCards, setAllCards] = useState<AiFlashcard[]>([])
+  const [dashIndex, setDashIndex] = useState(0)
   const [filterEspecialidad, setFilterEspecialidad] = useState('')
   const [filterTipoExamen, setFilterTipoExamen] = useState('')
   const [loadingCards, setLoadingCards] = useState(false)
-  const [downloadingPdf, setDownloadingPdf] = useState(false)
 
   useEffect(() => {
     fetch('/api/user/claude-key')
@@ -61,6 +62,7 @@ export default function FlashcardsPage() {
     if (cards.length === 0) return
     setPreview(cards)
     setPreviewTipoExamen(tipoExamen)
+    setPreviewIndex(0)
     setPageState('preview')
   }
 
@@ -92,33 +94,15 @@ export default function FlashcardsPage() {
     try {
       const res = await fetch(`/api/flashcards/${id}`, { method: 'DELETE' })
       if (res.ok) {
-        setSavedCards(prev => prev.filter(c => c.id !== id))
+        setSavedCards(prev => {
+          const next = prev.filter(c => c.id !== id)
+          setDashIndex(i => Math.min(i, Math.max(0, next.length - 1)))
+          return next
+        })
         setAllCards(prev => prev.filter(c => c.id !== id))
       }
     } catch {
       // silent
-    }
-  }
-
-  const handleDownloadPdf = async () => {
-    setDownloadingPdf(true)
-    try {
-      const params = new URLSearchParams()
-      if (filterEspecialidad) params.set('especialidad', filterEspecialidad)
-      if (filterTipoExamen) params.set('tipoExamen', filterTipoExamen)
-      const res = await fetch(`/api/flashcards/pdf?${params}`)
-      if (!res.ok) return
-      const blob = await res.blob()
-      const url = URL.createObjectURL(blob)
-      const a = document.createElement('a')
-      a.href = url
-      a.download = 'flashcards-mir-prep.pdf'
-      a.click()
-      URL.revokeObjectURL(url)
-    } catch {
-      // silent
-    } finally {
-      setDownloadingPdf(false)
     }
   }
 
@@ -159,17 +143,44 @@ export default function FlashcardsPage() {
       {/* PREVIEW STATE */}
       {pageState === 'preview' && (
         <div>
-          <div style={{ display: 'flex', flexWrap: 'wrap', gap: 24, marginBottom: 48 }}>
-            {preview.map((card, i) => (
-              <AiFlipCard key={i} card={{ ...card, tipoExamen: previewTipoExamen }} />
-            ))}
+          {/* Navigation */}
+          <div style={{ display: 'flex', alignItems: 'center', gap: 16, marginBottom: 32 }}>
+            <button
+              onClick={() => setPreviewIndex(i => Math.max(0, i - 1))}
+              disabled={previewIndex === 0}
+              style={{
+                ...mono, fontSize: 11, padding: '10px 18px', border: inkBorder,
+                background: 'transparent', color: C.ink, cursor: previewIndex === 0 ? 'not-allowed' : 'pointer',
+                opacity: previewIndex === 0 ? 0.3 : 1,
+              }}
+            >
+              ← ANTERIOR
+            </button>
+            <span style={{ ...mono, fontSize: 10, letterSpacing: '0.1em', color: C.ink, opacity: 0.6 }}>
+              {previewIndex + 1} / {preview.length}
+            </span>
+            <button
+              onClick={() => setPreviewIndex(i => Math.min(preview.length - 1, i + 1))}
+              disabled={previewIndex === preview.length - 1}
+              style={{
+                ...mono, fontSize: 11, padding: '10px 18px', border: inkBorder,
+                background: 'transparent', color: C.ink,
+                cursor: previewIndex === preview.length - 1 ? 'not-allowed' : 'pointer',
+                opacity: previewIndex === preview.length - 1 ? 0.3 : 1,
+              }}
+            >
+              SIGUIENTE →
+            </button>
+          </div>
+
+          {/* Single card */}
+          <div style={{ display: 'flex', justifyContent: 'center', marginBottom: 48 }}>
+            <AiFlipCard card={{ ...preview[previewIndex], tipoExamen: previewTipoExamen }} />
           </div>
 
           <div style={{
-            position: 'sticky', bottom: 24,
             display: 'flex', gap: 12, justifyContent: 'center',
             background: C.cream, border: inkBorder, padding: '16px 24px',
-            boxShadow: '0 -4px 24px rgba(26,26,24,0.08)',
           }}>
             <button
               onClick={handleSaveBatch}
@@ -199,10 +210,11 @@ export default function FlashcardsPage() {
       {/* DASHBOARD STATE */}
       {pageState === 'dashboard' && (
         <div>
+          {/* Filters */}
           <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap', alignItems: 'center', marginBottom: 32 }}>
             <select
               value={filterEspecialidad}
-              onChange={e => setFilterEspecialidad(e.target.value)}
+              onChange={e => { setFilterEspecialidad(e.target.value); setDashIndex(0) }}
               style={{ ...mono, fontSize: 10, padding: '8px 14px', border: inkBorder, background: C.cream, cursor: 'pointer' }}
             >
               <option value="">TODAS LAS ESPECIALIDADES</option>
@@ -210,27 +222,26 @@ export default function FlashcardsPage() {
             </select>
             <select
               value={filterTipoExamen}
-              onChange={e => setFilterTipoExamen(e.target.value)}
+              onChange={e => { setFilterTipoExamen(e.target.value); setDashIndex(0) }}
               style={{ ...mono, fontSize: 10, padding: '8px 14px', border: inkBorder, background: C.cream, cursor: 'pointer' }}
             >
               <option value="">TODOS LOS EXÁMENES</option>
               {tiposExamen.map(t => <option key={t} value={t}>{t.toUpperCase()}</option>)}
             </select>
             <button
-              onClick={handleDownloadPdf}
-              disabled={downloadingPdf || savedCards.length === 0}
+              disabled
               style={{
                 ...mono, fontSize: 10, letterSpacing: '0.08em',
-                background: savedCards.length === 0 ? '#ccc' : C.ink,
-                color: C.cream, border: inkBorder,
-                padding: '8px 20px', cursor: savedCards.length === 0 ? 'not-allowed' : 'pointer',
+                background: '#ccc', color: C.cream, border: inkBorder,
+                padding: '8px 20px', cursor: 'not-allowed', opacity: 0.5,
               }}
+              title="Próximamente"
             >
-              {downloadingPdf ? 'GENERANDO PDF...' : '↓ DESCARGAR PDF'}
+              ↓ DESCARGAR PDF
             </button>
             {(filterEspecialidad || filterTipoExamen) && (
               <button
-                onClick={() => { setFilterEspecialidad(''); setFilterTipoExamen('') }}
+                onClick={() => { setFilterEspecialidad(''); setFilterTipoExamen(''); setDashIndex(0) }}
                 style={{ ...mono, fontSize: 9, background: 'transparent', border: inkBorder, padding: '8px 14px', cursor: 'pointer', opacity: 0.6 }}
               >
                 LIMPIAR FILTROS
@@ -245,10 +256,41 @@ export default function FlashcardsPage() {
               No hay flashcards guardadas{filterEspecialidad || filterTipoExamen ? ' con estos filtros' : ''}.
             </div>
           ) : (
-            <div style={{ display: 'flex', flexWrap: 'wrap', gap: 24 }}>
-              {savedCards.map(card => (
-                <AiFlipCard key={card.id} card={card} onDelete={handleDelete} />
-              ))}
+            <div>
+              {/* Navigation */}
+              <div style={{ display: 'flex', alignItems: 'center', gap: 16, marginBottom: 32 }}>
+                <button
+                  onClick={() => setDashIndex(i => Math.max(0, i - 1))}
+                  disabled={dashIndex === 0}
+                  style={{
+                    ...mono, fontSize: 11, padding: '10px 18px', border: inkBorder,
+                    background: 'transparent', color: C.ink, cursor: dashIndex === 0 ? 'not-allowed' : 'pointer',
+                    opacity: dashIndex === 0 ? 0.3 : 1,
+                  }}
+                >
+                  ← ANTERIOR
+                </button>
+                <span style={{ ...mono, fontSize: 10, letterSpacing: '0.1em', color: C.ink, opacity: 0.6 }}>
+                  {dashIndex + 1} / {savedCards.length}
+                </span>
+                <button
+                  onClick={() => setDashIndex(i => Math.min(savedCards.length - 1, i + 1))}
+                  disabled={dashIndex === savedCards.length - 1}
+                  style={{
+                    ...mono, fontSize: 11, padding: '10px 18px', border: inkBorder,
+                    background: 'transparent', color: C.ink,
+                    cursor: dashIndex === savedCards.length - 1 ? 'not-allowed' : 'pointer',
+                    opacity: dashIndex === savedCards.length - 1 ? 0.3 : 1,
+                  }}
+                >
+                  SIGUIENTE →
+                </button>
+              </div>
+
+              {/* Single card */}
+              <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <AiFlipCard key={savedCards[dashIndex].id} card={savedCards[dashIndex]} onDelete={handleDelete} />
+              </div>
             </div>
           )}
         </div>
