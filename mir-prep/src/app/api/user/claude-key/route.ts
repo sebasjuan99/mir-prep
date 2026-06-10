@@ -21,14 +21,24 @@ export async function POST(request: NextRequest) {
   const { data: { user } } = await supabase.auth.getUser()
   if (!user) return NextResponse.json({ error: 'No autorizado' }, { status: 401 })
 
-  const body = await request.json()
-  const { apiKey } = body as { apiKey: string }
+  let body: { apiKey?: unknown }
+  try {
+    body = await request.json()
+  } catch {
+    return NextResponse.json({ error: 'Cuerpo de solicitud inválido' }, { status: 400 })
+  }
+  const apiKey = body.apiKey
 
-  if (!apiKey || !apiKey.startsWith('sk-ant-')) {
+  if (!apiKey || typeof apiKey !== 'string' || !apiKey.startsWith('sk-ant-')) {
     return NextResponse.json({ error: 'API key inválida. Debe comenzar con sk-ant-' }, { status: 400 })
   }
 
-  const encrypted = encryptApiKey(apiKey)
+  let encrypted: string
+  try {
+    encrypted = encryptApiKey(apiKey)
+  } catch {
+    return NextResponse.json({ error: 'Error de configuración del servidor' }, { status: 500 })
+  }
 
   await prisma.usuario.update({
     where: { auth_id: user.id },
