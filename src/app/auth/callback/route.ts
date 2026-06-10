@@ -35,10 +35,15 @@ export async function GET(request: Request) {
     const { error: exchangeError } = await supabase.auth.exchangeCodeForSession(code)
 
     if (!exchangeError) {
-      const response = NextResponse.redirect(`${origin}${next}`)
+      const isRecovery = cookieStore.get('mir_recovery')?.value === '1'
+      const destination = isRecovery ? '/reset-password' : next
+      const response = NextResponse.redirect(`${origin}${destination}`)
       pendingCookies.forEach(({ name, value, options }) =>
         response.cookies.set(name, value, options as Parameters<typeof response.cookies.set>[2])
       )
+      if (isRecovery) {
+        response.cookies.set('mir_recovery', '', { maxAge: 0, path: '/' })
+      }
       return response
     }
   }

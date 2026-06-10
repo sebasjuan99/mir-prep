@@ -23,11 +23,19 @@ export async function POST(request: Request) {
 
   const appUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://mir-prep.vercel.app'
   const { error } = await supabase.auth.resetPasswordForEmail(body.email, {
-    redirectTo: `${appUrl}/auth/recovery`,
+    redirectTo: `${appUrl}/auth/callback`,
   })
 
   // Always return success to avoid email enumeration
   if (error) console.error('[forgot-password]', error.message)
 
-  return NextResponse.json({ success: true })
+  const response = NextResponse.json({ success: true })
+  response.cookies.set('mir_recovery', '1', {
+    httpOnly: true,
+    secure: true,
+    sameSite: 'lax',
+    path: '/',
+    maxAge: 3600,
+  })
+  return response
 }
