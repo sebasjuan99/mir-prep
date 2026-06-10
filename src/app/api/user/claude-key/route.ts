@@ -36,14 +36,25 @@ export async function POST(request: NextRequest) {
   let encrypted: string
   try {
     encrypted = encryptApiKey(apiKey)
-  } catch {
+  } catch (err) {
+    console.error('[claude-key POST] encryptApiKey failed:', err)
     return NextResponse.json({ error: 'Error de configuración del servidor' }, { status: 500 })
   }
 
-  await prisma.usuario.update({
-    where: { auth_id: user.id },
-    data: { claudeApiKeyEnc: encrypted },
-  })
+  try {
+    await prisma.usuario.upsert({
+      where: { auth_id: user.id },
+      update: { claudeApiKeyEnc: encrypted },
+      create: {
+        auth_id: user.id,
+        email: user.email ?? '',
+        claudeApiKeyEnc: encrypted,
+      },
+    })
+  } catch (err) {
+    console.error('[claude-key POST] prisma upsert failed:', err)
+    return NextResponse.json({ error: 'Error al guardar en base de datos' }, { status: 500 })
+  }
 
   return NextResponse.json({ ok: true })
 }
