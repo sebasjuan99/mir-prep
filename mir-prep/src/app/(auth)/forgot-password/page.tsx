@@ -32,11 +32,17 @@ export default function ForgotPasswordPage() {
     try {
       const supabase = createClient()
       const redirectTo = `${window.location.origin}/auth/callback?next=/reset-password`
+      console.log('[forgot-password] redirectTo:', redirectTo)
       const { error: sbError } = await supabase.auth.resetPasswordForEmail(email, { redirectTo })
-      if (sbError) { setError('Error al enviar el correo.'); return }
+      if (sbError) {
+        console.error('[forgot-password] Supabase error:', sbError.message, sbError)
+        setError(`Error: ${sbError.message}`)
+        return
+      }
       setSent(true)
-    } catch {
-      setError('Error de conexión. Inténtalo de nuevo.')
+    } catch (err) {
+      console.error('[forgot-password] Exception:', err)
+      setError(`Error de conexión: ${err instanceof Error ? err.message : String(err)}`)
     } finally {
       setLoading(false)
     }
