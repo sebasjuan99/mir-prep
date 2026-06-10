@@ -2,7 +2,6 @@ import { NextRequest, NextResponse } from 'next/server'
 import { prisma } from '@/lib/prisma'
 import { createServerSupabaseClient } from '@/lib/supabase/server'
 import { decryptApiKey } from '@/lib/crypto'
-import type { TextBlock } from '@anthropic-ai/sdk/resources/messages'
 import { PDFParse } from 'pdf-parse'
 
 const MAX_TEXT_CHARS = 80_000
@@ -96,7 +95,10 @@ export async function POST(request: NextRequest) {
       messages: [{ role: 'user', content: truncated }],
     })
 
-    const raw = (message.content[0] as TextBlock).text
+    if (!message.content.length || message.stop_reason !== 'end_turn') {
+      throw new Error(`Claude returned unexpected stop_reason: ${message.stop_reason}`)
+    }
+    const raw = (message.content[0] as { type: string; text: string }).text
     flashcards = JSON.parse(raw)
 
     if (!Array.isArray(flashcards)) throw new Error('Response is not an array')
