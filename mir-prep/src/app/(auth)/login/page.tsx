@@ -203,7 +203,7 @@ function LoginForm() {
             <div style={{ ...mono, fontSize: 10, letterSpacing: '0.12em', color: C.ink2, marginBottom: 14 }}>
               ¿PROBLEMAS PARA ACCEDER?
             </div>
-            <Link
+            <a
               href="/forgot-password"
               style={{
                 ...disp, fontSize: 14,
@@ -218,7 +218,7 @@ function LoginForm() {
               }}
             >
               RECUPERAR CONTRASEÑA →
-            </Link>
+            </a>
           </div>
         </div>
       </div>
