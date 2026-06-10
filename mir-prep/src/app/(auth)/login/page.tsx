@@ -203,23 +203,22 @@ function LoginForm() {
             <div style={{ ...mono, fontSize: 10, letterSpacing: '0.12em', color: C.ink2, marginBottom: 14 }}>
               ¿PROBLEMAS PARA ACCEDER?
             </div>
-            <button
-              type="button"
-              onClick={() => router.push('/forgot-password')}
+            <Link
+              href="/forgot-password"
               style={{
                 ...disp, fontSize: 14,
                 display: 'block',
                 width: '100%',
-                textAlign: 'center',
+                textAlign: 'center' as const,
                 border: `4px solid ${C.orange}`,
                 background: 'transparent',
                 color: C.orange,
                 padding: '14px 24px',
-                cursor: 'pointer',
+                textDecoration: 'none',
               }}
             >
               RECUPERAR CONTRASEÑA →
-            </button>
+            </Link>
           </div>
         </div>
       </div>
