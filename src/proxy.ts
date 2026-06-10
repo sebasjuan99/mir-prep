@@ -33,6 +33,13 @@ export async function proxy(request: NextRequest) {
 
   if (isStaticAsset) return supabaseResponse
 
+  // Supabase falls back to Site URL (/) when redirectTo isn't allowlisted — catch it here
+  if (request.nextUrl.pathname === '/' && request.nextUrl.searchParams.has('code')) {
+    const url = request.nextUrl.clone()
+    url.pathname = '/auth/callback'
+    return NextResponse.redirect(url)
+  }
+
   // If not authenticated and trying to access protected route
   if (!user && !isPublicRoute && !isApiRoute) {
     const url = request.nextUrl.clone()
