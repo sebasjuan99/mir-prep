@@ -37,8 +37,9 @@ export async function POST(request: NextRequest) {
   try {
     encrypted = encryptApiKey(apiKey)
   } catch (err) {
-    console.error('[claude-key POST] encryptApiKey failed:', err)
-    return NextResponse.json({ error: 'Error de configuración del servidor' }, { status: 500 })
+    const msg = err instanceof Error ? err.message : String(err)
+    console.error('[claude-key POST] encryptApiKey failed:', msg)
+    return NextResponse.json({ error: `Config error: ${msg}` }, { status: 500 })
   }
 
   try {
