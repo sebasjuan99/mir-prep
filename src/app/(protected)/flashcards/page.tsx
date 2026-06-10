@@ -175,7 +175,7 @@ export default function FlashcardsPage() {
 
           {/* Single card */}
           <div style={{ display: 'flex', justifyContent: 'center', marginBottom: 48 }}>
-            <AiFlipCard card={{ ...preview[previewIndex], tipoExamen: previewTipoExamen }} />
+            <AiFlipCard key={previewIndex} card={{ ...preview[previewIndex], tipoExamen: previewTipoExamen }} />
           </div>
 
           <div style={{
@@ -289,7 +289,7 @@ export default function FlashcardsPage() {
 
               {/* Single card */}
               <div style={{ display: 'flex', justifyContent: 'center' }}>
-                <AiFlipCard key={savedCards[dashIndex].id} card={savedCards[dashIndex]} onDelete={handleDelete} />
+                <AiFlipCard key={dashIndex} card={savedCards[dashIndex]} onDelete={handleDelete} />
               </div>
             </div>
           )}
