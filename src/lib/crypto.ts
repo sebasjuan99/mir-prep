@@ -1,17 +1,14 @@
-import { createCipheriv, createDecipheriv, randomBytes } from 'crypto'
+import { createCipheriv, createDecipheriv, createHash, randomBytes } from 'crypto'
 
 const ALGORITHM = 'aes-256-gcm'
 
 function getKey(): Buffer {
-  const hex = process.env.FLASHCARD_ENCRYPTION_KEY
-  if (!hex || hex.length !== 64) {
-    throw new Error('FLASHCARD_ENCRYPTION_KEY must be a 32-byte hex string (64 chars)')
+  const secret = process.env.FLASHCARD_ENCRYPTION_KEY
+  if (!secret || secret.trim().length === 0) {
+    throw new Error('FLASHCARD_ENCRYPTION_KEY env var is not set')
   }
-  const key = Buffer.from(hex, 'hex')
-  if (key.length !== 32) {
-    throw new Error('FLASHCARD_ENCRYPTION_KEY contains non-hex characters or wrong length')
-  }
-  return key
+  // SHA-256 always produces exactly 32 bytes — accepts any string value
+  return createHash('sha256').update(secret.trim()).digest()
 }
 
 export function encryptApiKey(plain: string): string {
