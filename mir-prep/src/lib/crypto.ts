@@ -7,7 +7,11 @@ function getKey(): Buffer {
   if (!hex || hex.length !== 64) {
     throw new Error('FLASHCARD_ENCRYPTION_KEY must be a 32-byte hex string (64 chars)')
   }
-  return Buffer.from(hex, 'hex')
+  const key = Buffer.from(hex, 'hex')
+  if (key.length !== 32) {
+    throw new Error('FLASHCARD_ENCRYPTION_KEY contains non-hex characters or wrong length')
+  }
+  return key
 }
 
 export function encryptApiKey(plain: string): string {
@@ -28,6 +32,10 @@ export function decryptApiKey(stored: string): string {
   const tag = Buffer.from(tagHex, 'hex')
   const encrypted = Buffer.from(cipherHex, 'hex')
   const decipher = createDecipheriv(ALGORITHM, key, iv)
-  decipher.setAuthTag(tag)
-  return Buffer.concat([decipher.update(encrypted), decipher.final()]).toString('utf8')
+  try {
+    decipher.setAuthTag(tag)
+    return Buffer.concat([decipher.update(encrypted), decipher.final()]).toString('utf8')
+  } catch {
+    throw new Error('Decryption failed — key may be invalid or data corrupted')
+  }
 }
