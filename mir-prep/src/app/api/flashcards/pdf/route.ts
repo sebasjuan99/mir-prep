@@ -27,6 +27,7 @@ function cardX(col: number) { return MARGIN + col * (CARD_W + GUTTER) }
 function cardY(row: number) { return MARGIN + row * (CARD_H + GUTTER) }
 
 function drawFront(doc: PDFKit.PDFDocument, card: Flashcard, x: number, y: number) {
+  doc.save()
   // Cream background
   doc.rect(x, y, CARD_W, CARD_H).fill('#f5f0e8')
   doc.rect(x, y, CARD_W, CARD_H).stroke('#1a1a18')
@@ -41,9 +42,11 @@ function drawFront(doc: PDFKit.PDFDocument, card: Flashcard, x: number, y: numbe
   // Footer label
   doc.fontSize(5).fillColor('#1a1a18').opacity(0.4)
     .text('PREGUNTA', x + 10, y + CARD_H - 16, { width: CARD_W - 20 })
+  doc.restore()
 }
 
 function drawBack(doc: PDFKit.PDFDocument, card: Flashcard, x: number, y: number) {
+  doc.save()
   // Dark background
   doc.rect(x, y, CARD_W, CARD_H).fill('#1a1a18')
   doc.rect(x, y, CARD_W, CARD_H).stroke('#1a1a18')
@@ -65,6 +68,7 @@ function drawBack(doc: PDFKit.PDFDocument, card: Flashcard, x: number, y: number
   // Footer label
   doc.fontSize(5).fillColor('#f5f0e8').opacity(0.4)
     .text('RESPUESTA', x + 10, y + CARD_H - 16, { width: CARD_W - 20 })
+  doc.restore()
 }
 
 function drawCutGuide(doc: PDFKit.PDFDocument, x: number, y: number) {
@@ -120,8 +124,8 @@ export async function GET(request: NextRequest) {
     chunk.forEach((card, i) => {
       const row = Math.floor(i / COLS)
       const col = i % COLS
-      drawCutGuide(doc, cardX(col), cardY(row))
       drawFront(doc, card, cardX(col), cardY(row))
+      drawCutGuide(doc, cardX(col), cardY(row))
     })
 
     // Page 2: backs in mirrored column order (col 2, 1, 0)
@@ -131,8 +135,8 @@ export async function GET(request: NextRequest) {
     chunk.forEach((card, i) => {
       const row = Math.floor(i / COLS)
       const mirroredCol = (COLS - 1) - (i % COLS)
-      drawCutGuide(doc, cardX(mirroredCol), cardY(row))
       drawBack(doc, card, cardX(mirroredCol), cardY(row))
+      drawCutGuide(doc, cardX(mirroredCol), cardY(row))
     })
   }
 
