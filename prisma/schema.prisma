@@ -25,7 +25,7 @@ model Usuario {
 
 model Pregunta {
   id                 String      @id @default(cuid())
-  numero_mir         Int         @unique
+  numero_mir         Int?        @unique
   enunciado          String
   opciones           Json        // [{ letra: "A", texto: "..." }, ...]
   respuesta_correcta String      // "A" | "B" | "C" | "D" | "E"
@@ -36,6 +36,8 @@ model Pregunta {
   subtema            String?
   dificultad         String      @default("media") // "alta" | "media" | "baja"
   anio               Int         @default(2025)
+  universidad        String?     // "MIR" | "UNAL" | "El Bosque" | "Rosario" | "ENARM"
+  fuente             String?     // e.g. "Reconstrucción 2025-1"
   respuestas         Respuesta[]
   createdAt          DateTime    @default(now())
   updatedAt          DateTime?   @updatedAt
@@ -43,6 +45,7 @@ model Pregunta {
   @@index([especialidad])
   @@index([tema])
   @@index([especialidad, tema])
+  @@index([universidad])
 }
 
 model ResumenTema {
@@ -57,15 +60,16 @@ model ResumenTema {
 }
 
 model Sesion {
-  id         String      @id @default(cuid())
-  user_id    String
-  tipo       String      // "aleatorio" | "especialidad" | "repaso_errores"
-  filtro     String?
-  score      Int?
-  total      Int         @default(20)
-  completada Boolean     @default(false)
-  respuestas Respuesta[]
-  createdAt  DateTime    @default(now())
+  id          String      @id @default(cuid())
+  user_id     String
+  tipo        String      // "aleatorio" | "especialidad" | "repaso_errores" | "universidad"
+  filtro      String?
+  universidad String?
+  score       Int?
+  total       Int         @default(20)
+  completada  Boolean     @default(false)
+  respuestas  Respuesta[]
+  createdAt   DateTime    @default(now())
 
   @@index([user_id])
   @@index([user_id, createdAt])

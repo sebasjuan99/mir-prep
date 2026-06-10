@@ -9,7 +9,7 @@ interface Opcion {
 
 interface Pregunta {
   id: string
-  numero_mir: number
+  numero_mir: number | null
   enunciado: string
   opciones: Opcion[]
   respuesta_correcta: string
@@ -17,6 +17,7 @@ interface Pregunta {
   especialidad: string
   tema: string
   subtema: string | null
+  universidad: string | null
 }
 
 interface RespuestaUsuario {
@@ -42,11 +43,12 @@ export function useSimulacro() {
   const progreso = preguntas.length > 0 ? currentIndex + 1 : 0
   const total = preguntas.length
 
-  const iniciarSimulacro = useCallback(async (tipo: string = 'aleatorio', filtro?: string) => {
+  const iniciarSimulacro = useCallback(async (tipo: string = 'aleatorio', filtro?: string, universidad?: string) => {
     setLoading(true)
     try {
       const params = new URLSearchParams({ tipo })
       if (filtro) params.set('especialidad', filtro)
+      if (universidad) params.set('universidad', universidad)
       const res = await fetch(`/api/simulacro/nuevo?${params}`)
       if (!res.ok) throw new Error('Error al crear simulacro')
       const data = await res.json()

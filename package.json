@@ -13,7 +13,8 @@
     "seed": "tsx scripts/seed.ts",
     "db:seed": "tsx scripts/generate-sample-data.ts && tsx scripts/generate-resumenes.ts && tsx scripts/seed.ts",
     "db:push": "npx prisma db push",
-    "db:reset": "npx prisma db push --force-reset && npm run db:seed"
+    "db:reset": "npx prisma db push --force-reset && npm run db:seed",
+    "seed:universidades": "tsx scripts/seed-university-questions.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.104.1",

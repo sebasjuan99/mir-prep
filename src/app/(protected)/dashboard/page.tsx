@@ -15,7 +15,7 @@ const EXAM_TYPES = [
 
 export default function DashboardPage() {
   const { user } = useAuth()
-  const { progresoGlobal, debilidades, historial, loading } = useProgreso()
+  const { progresoGlobal, debilidades, historial, universidades, loading } = useProgreso()
 
   if (loading) {
     return (
@@ -95,6 +95,53 @@ export default function DashboardPage() {
           <div style={{ ...mono, fontSize: 12, letterSpacing: '0.08em', marginTop: 14 }}>PREGUNTAS RESPONDIDAS</div>
         </div>
       </div>
+
+      {/* ─── PROBABILIDAD POR UNIVERSIDAD ──────────────────────────────────── */}
+      {universidades.length > 0 && (
+        <div style={{ border: inkBorder, marginBottom: 48 }}>
+          <div style={{ borderBottom: inkBorder, padding: '16px 24px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+            <div style={{ ...kicker() }}>PROBABILIDAD POR UNIVERSIDAD</div>
+            <span style={{ ...mono, fontSize: 10, color: C.ink2, letterSpacing: '0.08em' }}>
+              BASADO EN TU HISTORIAL DE RESPUESTAS
+            </span>
+          </div>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))' }}>
+            {universidades.map((u, i) => {
+              const univMap: Record<string, { bg: string; color: string; label: string }> = {
+                'MIR':       { bg: C.ink,    color: C.cream, label: 'EXAMEN MIR'     },
+                'ENARM':     { bg: C.pink,   color: C.ink,   label: 'EXAMEN ENARM'   },
+                'UNAL':      { bg: C.green,  color: C.cream, label: 'UNIV. NACIONAL' },
+                'El Bosque': { bg: C.cream2, color: C.ink,   label: 'UNIV. BOSQUE'   },
+                'Rosario':   { bg: C.orange, color: C.cream, label: 'UNIV. ROSARIO'  },
+              }
+              const style = univMap[u.universidad] || { bg: C.cream2, color: C.ink, label: u.universidad.toUpperCase() }
+              return (
+                <div
+                  key={u.universidad}
+                  style={{
+                    padding: '28px 24px',
+                    background: style.bg,
+                    borderRight: i < universidades.length - 1 ? inkBorder : undefined,
+                  }}
+                >
+                  <div style={{ ...mono, fontSize: 9, letterSpacing: '0.12em', color: style.color, opacity: 0.6, marginBottom: 8 }}>
+                    {style.label}
+                  </div>
+                  <div style={{ ...disp, fontSize: 'clamp(2rem, 4vw, 3.5rem)', color: style.color, lineHeight: 0.9, marginBottom: 10 }}>
+                    {u.porcentaje}%
+                  </div>
+                  <div style={{ height: 4, background: 'rgba(0,0,0,0.1)', border: `2px solid ${style.color}`, opacity: 0.4 }}>
+                    <div style={{ height: '100%', width: `${u.porcentaje}%`, background: style.color }} />
+                  </div>
+                  <div style={{ ...mono, fontSize: 9, letterSpacing: '0.08em', color: style.color, opacity: 0.5, marginTop: 8 }}>
+                    {u.correctas}/{u.total} CORRECTAS
+                  </div>
+                </div>
+              )
+            })}
+          </div>
+        </div>
+      )}
 
       {/* ─── MAIN GRID ──────────────────────────────────────────────────────── */}
       <div style={{ display: 'grid', gridTemplateColumns: '2fr 3fr', gap: 0, border: inkBorder, marginBottom: 48 }}>
@@ -247,7 +294,9 @@ export default function DashboardPage() {
                       }}
                     >
                       <div>
-                        <span style={{ ...mono, fontSize: 11, letterSpacing: '0.06em' }}>{h.filtro || 'ALEATORIO'}</span>
+                        <span style={{ ...mono, fontSize: 11, letterSpacing: '0.06em' }}>
+                        {h.universidad || h.filtro || 'ALEATORIO'}
+                      </span>
                         <span style={{ ...mono, fontSize: 10, color: C.ink2, marginLeft: 10, letterSpacing: '0.04em' }}>
                           {new Date(h.createdAt).toLocaleDateString('es-ES')}
                         </span>

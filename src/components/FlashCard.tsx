@@ -11,7 +11,7 @@ interface Opcion {
 
 interface PreguntaData {
   id: string
-  numero_mir: number
+  numero_mir: number | null
   enunciado: string
   opciones: Opcion[]
   respuesta_correcta: string
@@ -19,6 +19,7 @@ interface PreguntaData {
   especialidad: string
   tema: string
   subtema: string | null
+  universidad: string | null
 }
 
 interface FlashCardProps {
@@ -80,7 +81,9 @@ export default function FlashCard({
               PREGUNTA {progreso} / {total}
             </span>
             <span style={{ ...mono, fontSize: 10, letterSpacing: '0.08em', color: C.ink, opacity: 0.5 }}>
-              MIR #{pregunta.numero_mir}
+              {pregunta.numero_mir != null
+                ? `MIR #${pregunta.numero_mir}`
+                : (pregunta.universidad || 'PREGUNTA')}
             </span>
           </div>
           <div style={{ height: 6, background: C.cream2, border: `2px solid ${C.ink}` }}>
@@ -115,7 +118,7 @@ export default function FlashCard({
             <div style={{ marginBottom: 20, border: inkBorder, overflow: 'hidden' }}>
               <img
                 src={pregunta.imagen_url}
-                alt={`MIR ${pregunta.numero_mir}`}
+                alt={pregunta.numero_mir != null ? `MIR ${pregunta.numero_mir}` : pregunta.especialidad}
                 style={{ width: '100%', maxHeight: 260, objectFit: 'contain', background: '#fff' }}
                 loading="lazy"
               />

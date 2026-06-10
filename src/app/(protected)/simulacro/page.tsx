@@ -2,14 +2,31 @@
 
 import { useRouter, useSearchParams } from 'next/navigation'
 import { useSimulacro } from '@/hooks/useSimulacro'
-import { useEffect, Suspense } from 'react'
+import { useEffect, useState, Suspense } from 'react'
 import FlashCard from '@/components/FlashCard'
 import ResultadoSimulacro from '@/components/ResultadoSimulacro'
 import { C, mono, disp, bodyFont, inkBorder } from '@/lib/cm'
 
+const EXAM_ID_TO_UNIVERSIDAD: Record<string, string> = {
+  unal:    'UNAL',
+  ubosque: 'El Bosque',
+  urosario:'Rosario',
+  mir:     'MIR',
+  enarm:   'ENARM',
+}
+
+const UNIVERSIDADES = [
+  { id: 'mir',      label: 'EXAMEN MIR',     pais: 'ESPAÑA',   bg: C.ink,    color: C.cream },
+  { id: 'enarm',    label: 'EXAMEN ENARM',   pais: 'MÉXICO',   bg: C.pink,   color: C.ink   },
+  { id: 'unal',     label: 'UNIV. NACIONAL', pais: 'COLOMBIA', bg: C.green,  color: C.cream },
+  { id: 'ubosque',  label: 'UNIV. BOSQUE',   pais: 'COLOMBIA', bg: C.cream2, color: C.ink   },
+  { id: 'urosario', label: 'UNIV. ROSARIO',  pais: 'COLOMBIA', bg: C.orange, color: C.cream },
+]
+
 function SimulacroContent() {
   const router = useRouter()
   const searchParams = useSearchParams()
+  const [showUnivSelect, setShowUnivSelect] = useState(false)
   const {
     preguntas,
     preguntaActual,
@@ -28,9 +45,13 @@ function SimulacroContent() {
 
   const especialidad = searchParams.get('especialidad')
   const tipo = searchParams.get('tipo') || 'aleatorio'
+  const examen = searchParams.get('examen')
+  const universidad = examen ? EXAM_ID_TO_UNIVERSIDAD[examen] : null
 
   useEffect(() => {
-    if (especialidad || tipo === 'repaso_errores') {
+    if (universidad) {
+      iniciarSimulacro('universidad', undefined, universidad)
+    } else if (especialidad || tipo === 'repaso_errores') {
       iniciarSimulacro(tipo, especialidad || undefined)
     }
   }, []) // eslint-disable-line react-hooks/exhaustive-deps
@@ -79,7 +100,62 @@ function SimulacroContent() {
     )
   }
 
-  // Selector
+  // University sub-selector
+  if (showUnivSelect) {
+    return (
+      <div style={{ maxWidth: 640, margin: '0 auto' }}>
+        <div style={{ marginBottom: 48 }}>
+          <div style={{ ...mono, fontSize: 10, letterSpacing: '0.12em', color: C.ink, opacity: 0.45, marginBottom: 10 }}>
+            SIMULACRO / POR UNIVERSIDAD
+          </div>
+          <h1 style={{ ...disp, fontSize: 'clamp(2.5rem, 5vw, 5rem)', color: C.ink, margin: 0 }}>
+            ELIGE UNIVERSIDAD
+          </h1>
+        </div>
+
+        <div style={{ border: inkBorder, marginBottom: 24 }}>
+          {UNIVERSIDADES.map((univ, i) => (
+            <button
+              key={univ.id}
+              onClick={() => iniciarSimulacro('universidad', undefined, EXAM_ID_TO_UNIVERSIDAD[univ.id])}
+              style={{
+                display: 'flex', alignItems: 'center', gap: 24,
+                width: '100%', padding: '22px 28px', textAlign: 'left',
+                background: univ.bg, cursor: 'pointer',
+                border: 'none',
+                borderBottom: i < UNIVERSIDADES.length - 1 ? `3px solid ${C.ink}` : 'none',
+              }}
+            >
+              <div style={{ flex: 1 }}>
+                <div style={{ ...mono, fontSize: 9, letterSpacing: '0.14em', color: univ.color, opacity: 0.65, marginBottom: 4 }}>
+                  {univ.pais}
+                </div>
+                <div style={{ ...disp, fontSize: 'clamp(1rem, 2.5vw, 1.4rem)', color: univ.color }}>
+                  {univ.label}
+                </div>
+              </div>
+              <div style={{ ...mono, fontSize: 9, letterSpacing: '0.1em', color: univ.color, opacity: 0.55 }}>
+                INICIAR →
+              </div>
+            </button>
+          ))}
+        </div>
+
+        <button
+          onClick={() => setShowUnivSelect(false)}
+          style={{
+            ...mono, fontSize: 10, letterSpacing: '0.1em',
+            background: 'transparent', border: inkBorder, padding: '10px 20px',
+            cursor: 'pointer', color: C.ink,
+          }}
+        >
+          ← VOLVER
+        </button>
+      </div>
+    )
+  }
+
+  // Main selector
   const opciones = [
     {
       num: '01',
@@ -99,11 +175,16 @@ function SimulacroContent() {
       desc: 'Elige una especialidad para practicar en profundidad',
       action: () => router.push('/especialidades'),
     },
+    {
+      num: '04',
+      label: 'POR UNIVERSIDAD',
+      desc: 'Practica con preguntas reales de MIR, ENARM, UNAL, El Bosque o Rosario',
+      action: () => setShowUnivSelect(true),
+    },
   ]
 
   return (
     <div style={{ maxWidth: 640, margin: '0 auto' }}>
-      {/* Header */}
       <div style={{ marginBottom: 48 }}>
         <div style={{ ...mono, fontSize: 10, letterSpacing: '0.12em', color: C.ink, opacity: 0.45, marginBottom: 10 }}>
           SIMULACRO
@@ -113,7 +194,6 @@ function SimulacroContent() {
         </h1>
       </div>
 
-      {/* Option cards */}
       <div style={{ border: inkBorder }}>
         {opciones.map((op, i) => (
           <button
@@ -123,7 +203,6 @@ function SimulacroContent() {
               display: 'flex', alignItems: 'flex-start', gap: 24,
               width: '100%', padding: '28px 32px', textAlign: 'left',
               background: C.cream, cursor: 'pointer',
-              borderBottom: i < opciones.length - 1 ? `3px solid ${C.ink}` : 'none',
               border: 'none', borderTop: 'none', borderLeft: 'none', borderRight: 'none',
               borderBottomWidth: i < opciones.length - 1 ? 3 : 0,
               borderBottomStyle: 'solid',
