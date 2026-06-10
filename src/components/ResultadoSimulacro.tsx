@@ -1,8 +1,8 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import { motion } from 'framer-motion'
 import Link from 'next/link'
+import { C, mono, disp, bodyFont, inkBorder } from '@/lib/cm'
 import { getScoreLabel } from '@/lib/constants'
 
 interface RespuestaUsuario {
@@ -40,9 +40,8 @@ export default function ResultadoSimulacro({
 }: ResultadoProps) {
   const [displayScore, setDisplayScore] = useState(0)
   const porcentaje = Math.round((score / total) * 100)
-  const { label, color } = getScoreLabel(porcentaje)
+  const { label } = getScoreLabel(porcentaje)
 
-  // Animated counter
   useEffect(() => {
     let current = 0
     const interval = setInterval(() => {
@@ -53,16 +52,6 @@ export default function ResultadoSimulacro({
     return () => clearInterval(interval)
   }, [score])
 
-  // Get wrong answers with question data
-  const errores = respuestas
-    .filter(r => !r.correcta)
-    .map(r => {
-      const pregunta = preguntas.find(p => p.id === r.pregunta_id)
-      return { ...r, pregunta }
-    })
-    .filter(r => r.pregunta)
-
-  // Group by specialty
   const porEspecialidad = new Map<string, { total: number; correctas: number }>()
   for (const r of respuestas) {
     const p = preguntas.find(pg => pg.id === r.pregunta_id)
@@ -73,132 +62,127 @@ export default function ResultadoSimulacro({
     porEspecialidad.set(p.especialidad, existing)
   }
 
+  const errores = respuestas
+    .filter(r => !r.correcta)
+    .map(r => ({ ...r, pregunta: preguntas.find(p => p.id === r.pregunta_id) }))
+    .filter(r => r.pregunta)
+
+  const scoreBg = porcentaje >= 70 ? C.green : porcentaje >= 50 ? C.yellow : C.orange
+  const scoreTextColor = porcentaje >= 50 ? C.cream : C.ink
+
+  const espEntries = Array.from(porEspecialidad.entries())
+
   return (
-    <div className="max-w-2xl mx-auto space-y-8 py-8">
-      {/* Score */}
-      <motion.div
-        initial={{ scale: 0.5, opacity: 0 }}
-        animate={{ scale: 1, opacity: 1 }}
-        transition={{ type: 'spring', stiffness: 200, damping: 20 }}
-        className="text-center"
-      >
-        <div
-          className="inline-flex items-center justify-center w-40 h-40 rounded-full mb-6"
-          style={{
-            background: `conic-gradient(${color} ${porcentaje * 3.6}deg, var(--bg-secondary) 0deg)`,
-          }}
-        >
-          <div
-            className="w-32 h-32 rounded-full flex flex-col items-center justify-center"
-            style={{ background: 'var(--bg-card)' }}
-          >
-            <span className="text-4xl font-bold" style={{ color }}>
-              {displayScore}/{total}
-            </span>
-            <span className="text-sm font-medium" style={{ color: 'var(--text-muted)' }}>
-              {porcentaje}%
-            </span>
-          </div>
+    <div style={{ maxWidth: 640, margin: '0 auto', display: 'flex', flexDirection: 'column', gap: 28 }}>
+
+      {/* Score stat cell */}
+      <div style={{ border: inkBorder, background: scoreBg, padding: '44px 36px', textAlign: 'center' }}>
+        <div style={{ ...mono, fontSize: 10, letterSpacing: '0.14em', color: scoreTextColor, opacity: 0.65, marginBottom: 10 }}>
+          RESULTADO FINAL
         </div>
+        <div style={{ ...disp, fontSize: 'clamp(4rem, 14vw, 7rem)', color: scoreTextColor, lineHeight: 0.88, marginBottom: 14 }}>
+          {displayScore}/{total}
+        </div>
+        <div style={{ ...mono, fontSize: 12, letterSpacing: '0.12em', color: scoreTextColor }}>
+          {porcentaje}% &mdash; {label.toUpperCase()}
+        </div>
+      </div>
 
-        <h2 className="font-[var(--font-display)] text-3xl font-bold mb-2" style={{ color }}>
-          {label}
-        </h2>
-        <p style={{ color: 'var(--text-muted)' }}>
-          Has acertado {score} de {total} preguntas
-        </p>
-      </motion.div>
-
-      {/* Breakdown by specialty */}
-      {porEspecialidad.size > 0 && (
-        <div
-          className="p-6 rounded-2xl"
-          style={{ background: 'var(--bg-card)', border: '1px solid var(--border)', boxShadow: 'var(--shadow)' }}
-        >
-          <h3 className="font-[var(--font-display)] text-lg font-bold mb-4">
-            Por especialidad
-          </h3>
-          <div className="space-y-3">
-            {Array.from(porEspecialidad.entries()).map(([esp, data]) => {
-              const pct = Math.round((data.correctas / data.total) * 100)
-              return (
-                <div key={esp}>
-                  <div className="flex justify-between text-sm mb-1">
-                    <span className="font-medium">{esp}</span>
-                    <span style={{ color: pct >= 60 ? 'var(--success)' : 'var(--error)' }}>
-                      {data.correctas}/{data.total}
-                    </span>
-                  </div>
-                  <div className="h-2 rounded-full overflow-hidden" style={{ background: 'var(--bg-secondary)' }}>
-                    <div
-                      className="h-full rounded-full"
-                      style={{ width: `${pct}%`, background: pct >= 60 ? 'var(--success)' : 'var(--error)' }}
-                    />
-                  </div>
-                </div>
-              )
-            })}
+      {/* Specialty breakdown */}
+      {espEntries.length > 0 && (
+        <div style={{ border: inkBorder }}>
+          <div style={{ ...mono, fontSize: 10, letterSpacing: '0.12em', padding: '11px 16px', background: C.ink, color: C.cream }}>
+            POR ESPECIALIDAD
           </div>
+          {espEntries.map(([esp, data], i) => {
+            const pct = Math.round((data.correctas / data.total) * 100)
+            return (
+              <div
+                key={esp}
+                style={{
+                  padding: '13px 16px',
+                  borderTop: `3px solid ${C.ink}`,
+                  background: C.cream,
+                }}
+              >
+                <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 7 }}>
+                  <span style={{ ...bodyFont, fontSize: 14, fontWeight: 600, color: C.ink }}>{esp}</span>
+                  <span style={{ ...mono, fontSize: 10, letterSpacing: '0.06em', color: pct >= 60 ? C.green : C.orange }}>
+                    {data.correctas}/{data.total}
+                  </span>
+                </div>
+                <div style={{ height: 4, background: C.cream2, border: `2px solid ${C.ink}` }}>
+                  <div style={{ height: '100%', width: `${pct}%`, background: pct >= 60 ? C.green : C.orange, transition: 'width 0.6s' }} />
+                </div>
+              </div>
+            )
+          })}
         </div>
       )}
 
       {/* Wrong answers */}
       {errores.length > 0 && (
-        <div
-          className="p-6 rounded-2xl"
-          style={{ background: 'var(--bg-card)', border: '1px solid var(--border)', boxShadow: 'var(--shadow)' }}
-        >
-          <h3 className="font-[var(--font-display)] text-lg font-bold mb-4">
-            Preguntas falladas
-          </h3>
-          <div className="space-y-2">
-            {errores.map((e, i) => (
-              <div
-                key={i}
-                className="px-4 py-3 rounded-lg text-sm"
-                style={{ background: 'var(--error-light)' }}
-              >
-                <div className="flex justify-between items-start">
-                  <div>
-                    <span className="font-medium">MIR #{e.pregunta!.numero_mir}</span>
-                    <span className="ml-2 text-xs" style={{ color: 'var(--text-muted)' }}>
-                      {e.pregunta!.especialidad} — {e.pregunta!.tema}
-                    </span>
-                  </div>
-                  <span className="text-xs font-medium" style={{ color: 'var(--error)' }}>
-                    Tu: {e.respuesta} → Correcta: {e.pregunta!.respuesta_correcta}
-                  </span>
-                </div>
-              </div>
-            ))}
+        <div style={{ border: inkBorder }}>
+          <div style={{ ...mono, fontSize: 10, letterSpacing: '0.12em', padding: '11px 16px', background: C.ink, color: C.cream }}>
+            PREGUNTAS FALLADAS — {errores.length}
           </div>
+          {errores.map((e, i) => (
+            <div
+              key={i}
+              style={{
+                padding: '11px 16px', borderTop: `3px solid ${C.ink}`, background: C.cream,
+                display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start',
+                flexWrap: 'wrap', gap: 6,
+              }}
+            >
+              <div>
+                <span style={{ ...mono, fontSize: 10, letterSpacing: '0.08em', color: C.ink }}>MIR #{e.pregunta!.numero_mir}</span>
+                <span style={{ ...mono, fontSize: 9, letterSpacing: '0.06em', color: C.ink, opacity: 0.45, marginLeft: 10 }}>
+                  {e.pregunta!.especialidad} — {e.pregunta!.tema}
+                </span>
+              </div>
+              <span style={{ ...mono, fontSize: 9, letterSpacing: '0.06em', color: C.orange }}>
+                TU: {e.respuesta} → CORRECTA: {e.pregunta!.respuesta_correcta}
+              </span>
+            </div>
+          ))}
         </div>
       )}
 
-      {/* Action buttons */}
-      <div className="flex flex-col sm:flex-row gap-3">
+      {/* Actions */}
+      <div style={{ display: 'flex', gap: 10, flexWrap: 'wrap' }}>
         <button
           onClick={onNuevoSimulacro}
-          className="flex-1 py-3.5 text-white font-semibold rounded-xl transition-all hover:shadow-lg"
-          style={{ background: 'var(--accent)' }}
+          style={{
+            ...mono, fontSize: 11, letterSpacing: '0.08em', flex: 1, minWidth: 160,
+            padding: '14px 20px', background: C.ink, color: C.cream,
+            border: inkBorder, cursor: 'pointer',
+          }}
         >
-          Nuevo simulacro
+          NUEVO SIMULACRO
         </button>
         {errores.length > 0 && (
           <button
             onClick={onRepasarErrores}
-            className="flex-1 py-3.5 font-semibold rounded-xl border-2 transition-all"
-            style={{ borderColor: 'var(--accent)', color: 'var(--accent)' }}
+            style={{
+              ...mono, fontSize: 11, letterSpacing: '0.08em', flex: 1, minWidth: 160,
+              padding: '14px 20px', background: 'transparent', color: C.ink,
+              border: inkBorder, cursor: 'pointer',
+            }}
           >
-            Repasar mis errores
+            REPASAR ERRORES
           </button>
         )}
         <Link
           href="/dashboard"
-          className="flex-1 py-3.5 text-center font-semibold rounded-xl border transition-all"
-          style={{ borderColor: 'var(--border)', color: 'var(--text-muted)' }}
+          style={{
+            ...mono, fontSize: 11, letterSpacing: '0.08em', flex: 1, minWidth: 160,
+            padding: '14px 20px', background: 'transparent', color: C.ink,
+            border: inkBorder, textDecoration: 'none', textAlign: 'center',
+            display: 'block', boxSizing: 'border-box',
+          }}
         >
-          Ver dashboard
+          VER DASHBOARD
         </Link>
       </div>
     </div>
