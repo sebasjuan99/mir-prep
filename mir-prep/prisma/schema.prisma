@@ -8,14 +8,16 @@ datasource db {
 }
 
 model Usuario {
-  id        String   @id @default(cuid())
-  auth_id   String   @unique // Supabase Auth UUID
-  email     String   @unique
-  nombre    String?
-  role      String   @default("user") // "admin" | "user"
-  activo    Boolean  @default(true)
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  id              String      @id @default(cuid())
+  auth_id         String      @unique
+  email           String      @unique
+  nombre          String?
+  role            String      @default("user")
+  activo          Boolean     @default(true)
+  claudeApiKeyEnc String?
+  flashcards      Flashcard[]
+  createdAt       DateTime    @default(now())
+  updatedAt       DateTime    @updatedAt
 
   @@index([auth_id])
   @@index([role])
@@ -99,4 +101,20 @@ model Progreso {
 
   @@unique([user_id, especialidad, tema])
   @@index([user_id])
+}
+
+model Flashcard {
+  id           String   @id @default(cuid())
+  pregunta     String
+  respuesta    String
+  especialidad String
+  tipoExamen   String
+  consejo      String
+  usuarioId    String
+  usuario      Usuario  @relation(fields: [usuarioId], references: [id], onDelete: Cascade)
+  creadoEn     DateTime @default(now())
+
+  @@index([usuarioId])
+  @@index([usuarioId, especialidad])
+  @@index([usuarioId, tipoExamen])
 }
