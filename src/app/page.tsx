@@ -57,7 +57,7 @@ export default function LandingPage() {
       <header style={{ borderBottom: `4px solid ${C.ink}`, background: C.cream }}>
         <div style={{
           maxWidth: 1280, margin: '0 auto',
-          padding: '18px 40px',
+          padding: '18px clamp(16px, 4vw, 40px)',
           display: 'flex', justifyContent: 'space-between', alignItems: 'center',
         }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: 14 }}>
@@ -104,7 +104,7 @@ export default function LandingPage() {
       }}>
         <div style={{
           maxWidth: 1280, margin: '0 auto',
-          padding: '100px 40px 120px',
+          padding: 'clamp(60px,10vw,100px) clamp(16px,4vw,40px) clamp(80px,12vw,120px)',
           width: '100%', position: 'relative', zIndex: 2,
         }}>
           <div style={{ ...kicker(), marginBottom: 48 }}>EXÁMENES DE RESIDENCIA 2026–2027</div>
@@ -159,13 +159,13 @@ export default function LandingPage() {
         </div>
 
         {/* Stamp — hard offset shadow (one per section) */}
-        <div style={{
+        <div className="landing-stamp" style={{
           position: 'absolute', top: '18%', right: '7%',
           width: 180, height: 180,
           background: C.pink, border: `4px solid ${C.ink}`,
           transform: 'rotate(-6deg)',
           boxShadow: `20px 20px 0 ${C.orange}, 20px 20px 0 4px ${C.ink}`,
-          display: 'grid', alignItems: 'center', justifyItems: 'center',
+          alignItems: 'center', justifyItems: 'center',
           zIndex: 3,
         }}>
           <div style={{
@@ -179,7 +179,7 @@ export default function LandingPage() {
         </div>
 
         {/* Decorative circle */}
-        <div style={{
+        <div className="landing-deco" style={{
           position: 'absolute', bottom: -110, left: -110,
           width: 340, height: 340,
           borderRadius: '50%',
@@ -189,7 +189,7 @@ export default function LandingPage() {
 
         {/* Chrome footer */}
         <div style={{
-          position: 'absolute', bottom: 20, left: 40, right: 40,
+          position: 'absolute', bottom: 20, left: 'clamp(16px,4vw,40px)', right: 'clamp(16px,4vw,40px)',
           display: 'flex', justifyContent: 'space-between', alignItems: 'center',
           ...mono, fontSize: 12, letterSpacing: '0.08em', color: C.ink2,
           zIndex: 2,
@@ -213,7 +213,7 @@ export default function LandingPage() {
       }}>
         {/* Chrome top */}
         <div style={{
-          position: 'absolute', top: 20, left: 40, right: 40,
+          position: 'absolute', top: 20, left: 'clamp(16px,4vw,40px)', right: 'clamp(16px,4vw,40px)',
           display: 'flex', justifyContent: 'space-between', alignItems: 'center',
           ...mono, fontSize: 12, letterSpacing: '0.08em', color: C.ink,
         }}>
@@ -221,7 +221,7 @@ export default function LandingPage() {
           <span style={{ border: `2px solid ${C.ink}`, borderRadius: 999, padding: '4px 12px' }}>02 — CLAIM</span>
         </div>
 
-        <div style={{ maxWidth: 1280, margin: '0 auto', width: '100%', padding: '80px 64px' }}>
+        <div style={{ maxWidth: 1280, margin: '0 auto', width: '100%', padding: 'clamp(60px,8vw,80px) clamp(16px,4vw,64px)' }}>
           <div style={{ ...kicker(), marginBottom: 32 }}>LA PREPARACIÓN DEFINITIVA</div>
           <h2 style={{
             ...disp,
@@ -236,7 +236,7 @@ export default function LandingPage() {
 
         {/* Chrome bottom */}
         <div style={{
-          position: 'absolute', bottom: 20, left: 40, right: 40,
+          position: 'absolute', bottom: 20, left: 'clamp(16px,4vw,40px)', right: 'clamp(16px,4vw,40px)',
           display: 'flex', justifyContent: 'space-between', alignItems: 'center',
           ...mono, fontSize: 12, letterSpacing: '0.08em', color: C.ink,
         }}>
@@ -246,15 +246,15 @@ export default function LandingPage() {
       </section>
 
       {/* ─── STATS ──────────────────────────────────────────────────────────── */}
-      <section style={{ borderBottom: `4px solid ${C.ink}`, padding: '80px 40px' }}>
+      <section style={{ borderBottom: `4px solid ${C.ink}`, padding: 'clamp(48px,7vw,80px) clamp(16px,4vw,40px)' }}>
         <div style={{ maxWidth: 1280, margin: '0 auto' }}>
-          <div style={{ display: 'flex', alignItems: 'baseline', gap: 24, marginBottom: 56 }}>
+          <div style={{ display: 'flex', alignItems: 'baseline', gap: 24, marginBottom: 56, flexWrap: 'wrap' }}>
             <span style={{ ...mono, fontSize: 13, letterSpacing: '0.14em', background: C.ink, color: C.cream, padding: '8px 14px' }}>03</span>
             <h2 style={{ ...disp, fontSize: 'clamp(1.8rem, 4vw, 5rem)', margin: 0 }}>LOS NÚMEROS NO MIENTEN</h2>
-            <div style={{ flex: 1, height: 4, background: C.ink, alignSelf: 'center' }} />
+            <div style={{ flex: 1, minWidth: 16, height: 4, background: C.ink, alignSelf: 'center' }} />
           </div>
 
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', border: `4px solid ${C.ink}` }}>
+          <div className="grid-landing-3" style={{ border: `4px solid ${C.ink}` }}>
             {([
               { n: '1.000+', label: 'PREGUNTAS MIR REALES', bg: C.green, color: C.cream, br: true },
               { n: '2026',   label: 'CONVOCATORIA ACTIVA',  bg: C.pink,  color: C.ink,  br: true },
@@ -277,15 +277,15 @@ export default function LandingPage() {
       </section>
 
       {/* ─── HOW IT WORKS ───────────────────────────────────────────────────── */}
-      <section style={{ borderBottom: `4px solid ${C.ink}`, padding: '80px 40px' }}>
+      <section style={{ borderBottom: `4px solid ${C.ink}`, padding: 'clamp(48px,7vw,80px) clamp(16px,4vw,40px)' }}>
         <div style={{ maxWidth: 1280, margin: '0 auto' }}>
-          <div style={{ display: 'flex', alignItems: 'baseline', gap: 24, marginBottom: 56 }}>
+          <div style={{ display: 'flex', alignItems: 'baseline', gap: 24, marginBottom: 56, flexWrap: 'wrap' }}>
             <span style={{ ...mono, fontSize: 13, letterSpacing: '0.14em', background: C.ink, color: C.cream, padding: '8px 14px' }}>04</span>
             <h2 style={{ ...disp, fontSize: 'clamp(1.8rem, 4vw, 5rem)', margin: 0 }}>CÓMO FUNCIONA</h2>
-            <div style={{ flex: 1, height: 4, background: C.ink, alignSelf: 'center' }} />
+            <div style={{ flex: 1, minWidth: 16, height: 4, background: C.ink, alignSelf: 'center' }} />
           </div>
 
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', border: `4px solid ${C.ink}` }}>
+          <div className="grid-landing-4" style={{ border: `4px solid ${C.ink}` }}>
             {([
               { num: '01', title: 'REGÍSTRATE', desc: 'Crea tu cuenta gratis en segundos. Sin tarjeta.',                         bg: C.cream2, color: C.ink,  br: true  },
               { num: '02', title: 'PRACTICA',   desc: 'Responde preguntas reales clasificadas por especialidad.',                  bg: C.yellow, color: C.ink,  br: true  },
@@ -314,7 +314,7 @@ export default function LandingPage() {
       </section>
 
       {/* ─── FEATURED MARKER ────────────────────────────────────────────────── */}
-      <section style={{ borderBottom: `4px solid ${C.ink}`, padding: '80px 40px' }}>
+      <section style={{ borderBottom: `4px solid ${C.ink}`, padding: 'clamp(48px,7vw,80px) clamp(16px,4vw,40px)' }}>
         <div style={{ maxWidth: 1280, margin: '0 auto', display: 'flex', gap: 80, alignItems: 'flex-start', flexWrap: 'wrap' }}>
 
           {/* Marker block — the one hard-shadow element of this section */}
@@ -357,7 +357,7 @@ export default function LandingPage() {
       }}>
         {/* Chrome top */}
         <div style={{
-          position: 'absolute', top: 20, left: 40, right: 40,
+          position: 'absolute', top: 20, left: 'clamp(16px,4vw,40px)', right: 'clamp(16px,4vw,40px)',
           display: 'flex', justifyContent: 'space-between', alignItems: 'center',
           ...mono, fontSize: 12, letterSpacing: '0.08em', color: C.cream,
         }}>
@@ -365,7 +365,7 @@ export default function LandingPage() {
           <span style={{ border: `2px solid ${C.cream}`, borderRadius: 999, padding: '4px 12px' }}>05 — CIERRE</span>
         </div>
 
-        <div style={{ textAlign: 'center', position: 'relative', zIndex: 2, padding: '80px 40px' }}>
+        <div style={{ textAlign: 'center', position: 'relative', zIndex: 2, padding: 'clamp(60px,8vw,80px) clamp(16px,4vw,40px)' }}>
           <h2 style={{ ...disp, fontSize: 'clamp(4rem, 11vw, 14rem)', color: C.cream, margin: 0, marginBottom: 56 }}>
             EMPIEZA<br />HOY.
           </h2>
@@ -398,12 +398,12 @@ export default function LandingPage() {
         </div>
 
         {/* Stamp */}
-        <div style={{
+        <div className="landing-stamp" style={{
           position: 'absolute', right: '8%', top: '15%',
           width: 180, height: 180,
           background: C.pink, border: `4px solid ${C.cream}`,
           transform: 'rotate(-6deg)',
-          display: 'grid', alignItems: 'center', justifyItems: 'center',
+          alignItems: 'center', justifyItems: 'center',
           zIndex: 3,
         }}>
           <div style={{
@@ -417,7 +417,7 @@ export default function LandingPage() {
         </div>
 
         {/* Decorative circle */}
-        <div style={{
+        <div className="landing-deco" style={{
           position: 'absolute', bottom: -80, left: '12%',
           width: 240, height: 240,
           borderRadius: '50%',
@@ -427,7 +427,7 @@ export default function LandingPage() {
 
         {/* Chrome bottom */}
         <div style={{
-          position: 'absolute', bottom: 20, left: 40, right: 40,
+          position: 'absolute', bottom: 20, left: 'clamp(16px,4vw,40px)', right: 'clamp(16px,4vw,40px)',
           display: 'flex', justifyContent: 'space-between', alignItems: 'center',
           ...mono, fontSize: 12, letterSpacing: '0.08em', color: C.cream,
         }}>
@@ -437,11 +437,7 @@ export default function LandingPage() {
       </section>
 
       {/* ─── FOOTER ─────────────────────────────────────────────────────────── */}
-      <footer style={{
-        background: C.ink,
-        padding: '48px 40px',
-        display: 'flex', justifyContent: 'space-between', alignItems: 'center',
-      }}>
+      <footer className="landing-footer">
         <div style={{ display: 'flex', alignItems: 'center', gap: 16 }}>
           <Image
             src="/ape-logo-blanco.png"
