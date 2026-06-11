@@ -25,7 +25,7 @@ export default function NavBar({ userEmail }: NavBarProps) {
 
   return (
     <nav style={{ background: C.cream, borderBottom: inkBorder, position: 'sticky', top: 0, zIndex: 50 }}>
-      <div style={{ maxWidth: 1280, margin: '0 auto', padding: '0 40px' }}>
+      <div style={{ maxWidth: 1280, margin: '0 auto', padding: '0 clamp(16px, 4vw, 40px)' }}>
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', height: 60 }}>
 
           {/* Brand */}

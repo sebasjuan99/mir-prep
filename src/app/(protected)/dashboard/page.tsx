@@ -21,7 +21,7 @@ export default function DashboardPage() {
     return (
       <div style={{ display: 'flex', flexDirection: 'column', gap: 24 }}>
         <div style={{ height: 48, background: C.cream2, border: inkBorder, width: 280 }} />
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', gap: 0, border: inkBorder }}>
+        <div className="grid-stats" style={{ gap: 0, border: inkBorder }}>
           {[0,1,2].map(i => (
             <div key={i} style={{ height: 140, background: i === 0 ? C.green : i === 1 ? C.pink : C.orange, borderRight: i < 2 ? inkBorder : undefined }} className="skeleton" />
           ))}
@@ -54,7 +54,7 @@ export default function DashboardPage() {
           <div style={{ ...kicker() }}>ELIGE TU EXAMEN</div>
           <span style={{ ...mono, fontSize: 10, color: C.ink2, letterSpacing: '0.08em' }}>5 EXÁMENES DISPONIBLES</span>
         </div>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(5, 1fr)' }}>
+        <div className="grid-exam-types">
           {EXAM_TYPES.map((exam, i) => (
             <Link
               key={exam.id}
@@ -81,7 +81,7 @@ export default function DashboardPage() {
       </div>
 
       {/* ─── STAT CELLS ─────────────────────────────────────────────────────── */}
-      <div style={{ border: inkBorder, display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', marginBottom: 48 }}>
+      <div className="grid-stats" style={{ border: inkBorder, marginBottom: 48 }}>
         <div style={{ background: C.green, color: C.cream, borderRight: inkBorder, padding: '36px 32px' }}>
           <div style={{ ...disp, fontSize: 'clamp(2.5rem, 5vw, 6rem)', lineHeight: 0.88 }}>{porcentajeGlobal}%</div>
           <div style={{ ...mono, fontSize: 12, letterSpacing: '0.08em', marginTop: 14 }}>ACIERTOS GLOBAL</div>
@@ -105,7 +105,7 @@ export default function DashboardPage() {
               BASADO EN TU HISTORIAL DE RESPUESTAS
             </span>
           </div>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))' }}>
+          <div className="grid-univ">
             {universidades.map((u, i) => {
               const univMap: Record<string, { bg: string; color: string; label: string }> = {
                 'MIR':       { bg: C.ink,    color: C.cream, label: 'EXAMEN MIR'     },
@@ -144,7 +144,7 @@ export default function DashboardPage() {
       )}
 
       {/* ─── MAIN GRID ──────────────────────────────────────────────────────── */}
-      <div style={{ display: 'grid', gridTemplateColumns: '2fr 3fr', gap: 0, border: inkBorder, marginBottom: 48 }}>
+      <div className="grid-2fr-3fr" style={{ gap: 0, border: inkBorder, marginBottom: 48 }}>
 
         {/* LEFT: Actions */}
         <div style={{ borderRight: inkBorder, display: 'flex', flexDirection: 'column' }}>

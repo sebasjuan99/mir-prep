@@ -27,7 +27,7 @@ export default function EspecialidadesPage() {
     return (
       <div style={{ display: 'flex', flexDirection: 'column', gap: 32 }}>
         <div style={{ height: 48, background: C.cream2, border: inkBorder, width: 280 }} />
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4,1fr)', gap: 0, border: inkBorder }}>
+        <div className="grid-4col" style={{ gap: 0, border: inkBorder }}>
           {Array.from({ length: 8 }).map((_, i) => (
             <div key={i} style={{ height: 140, borderRight: i % 4 < 3 ? inkBorder : undefined, borderBottom: inkBorder }} className="skeleton" />
           ))}
@@ -46,7 +46,7 @@ export default function EspecialidadesPage() {
       </div>
 
       {/* Stat row */}
-      <div style={{ border: inkBorder, display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', marginBottom: 48 }}>
+      <div className="grid-stats" style={{ border: inkBorder, marginBottom: 48 }}>
         <div style={{ background: C.green, color: C.cream, borderRight: inkBorder, padding: '28px 28px' }}>
           <div style={{ ...disp, fontSize: 'clamp(2rem, 4vw, 4.5rem)', lineHeight: 0.88 }}>{especialidades.length}</div>
           <div style={{ ...mono, fontSize: 11, letterSpacing: '0.08em', marginTop: 10 }}>ESPECIALIDADES</div>
@@ -69,7 +69,7 @@ export default function EspecialidadesPage() {
       <div style={{ ...mono, fontSize: 11, letterSpacing: '0.14em', background: C.ink, color: C.cream, padding: '6px 12px', display: 'inline-block', marginBottom: 24 }}>
         ELIGE UNA ESPECIALIDAD
       </div>
-      <div style={{ border: inkBorder, display: 'grid', gridTemplateColumns: 'repeat(4,1fr)' }}>
+      <div className="grid-4col" style={{ border: inkBorder }}>
         {especialidades.map((esp, i) => {
           const hasProgress = esp.porcentaje !== null
           const pct = esp.porcentaje ?? 0

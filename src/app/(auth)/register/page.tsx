@@ -78,10 +78,10 @@ export default function RegisterPage() {
   }
 
   return (
-    <div style={{ ...bodyFont, display: 'grid', gridTemplateColumns: '45fr 55fr', minHeight: '100vh' }}>
+    <div className="auth-grid" style={{ ...bodyFont }}>
 
       {/* LEFT PANEL — green */}
-      <div style={{ background: C.green, padding: '56px 52px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', position: 'relative', overflow: 'hidden', borderRight: inkBorder }}>
+      <div className="auth-panel-left" style={{ background: C.green, padding: '56px 52px', flexDirection: 'column', justifyContent: 'space-between', position: 'relative', overflow: 'hidden', borderRight: inkBorder }}>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
           <Link href="/" style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: 10, textDecoration: 'none' }}>
             <Image src="/ape-logo-blanco.png" alt="Aurora Pixel Studio" width={88} height={88} style={{ objectFit: 'contain' }} />

@@ -21,11 +21,100 @@
   box-sizing: border-box;
 }
 
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
 body {
   background-color: var(--bg-primary);
   color: var(--text-primary);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── Responsive grid helpers ───────────────────────────────────────────── */
+.grid-exam-types {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+@media (min-width: 768px) {
+  .grid-exam-types { grid-template-columns: repeat(5, 1fr); }
+}
+
+.grid-stats {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 560px) {
+  .grid-stats { grid-template-columns: repeat(3, 1fr); }
+}
+
+.grid-univ {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+@media (min-width: 640px) {
+  .grid-univ { grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); }
+}
+
+/* dashboard debilidades+historial */
+.grid-2fr-3fr {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 768px) {
+  .grid-2fr-3fr { grid-template-columns: 2fr 3fr; }
+}
+
+/* especialidades */
+.grid-4col {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+@media (min-width: 640px) {
+  .grid-4col { grid-template-columns: repeat(4, 1fr); }
+}
+
+.grid-3col {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+@media (min-width: 560px) {
+  .grid-3col { grid-template-columns: repeat(3, 1fr); }
+}
+
+/* landing page */
+.grid-landing-3 {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 560px) {
+  .grid-landing-3 { grid-template-columns: repeat(3, 1fr); }
+}
+
+.grid-landing-4 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+@media (min-width: 768px) {
+  .grid-landing-4 { grid-template-columns: repeat(4, 1fr); }
+}
+
+/* auth split layout: hide left panel on mobile */
+.auth-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  min-height: 100vh;
+}
+@media (min-width: 768px) {
+  .auth-grid { grid-template-columns: 45fr 55fr; }
+}
+.auth-panel-left {
+  display: none;
+}
+@media (min-width: 768px) {
+  .auth-panel-left { display: flex; }
 }
 
 /* Custom scrollbar */
