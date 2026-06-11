@@ -16,7 +16,7 @@ export default async function ProtectedLayout({
   return (
     <div style={{ ...bodyFont, background: C.cream, color: C.ink, minHeight: '100vh' }}>
       <NavBar userEmail={user.email || ''} />
-      <main style={{ maxWidth: 1280, margin: '0 auto', padding: '48px 40px' }}>
+      <main style={{ maxWidth: 1280, margin: '0 auto', padding: 'clamp(24px, 5vw, 48px) clamp(16px, 5vw, 40px)' }}>
         {children}
       </main>
     </div>
