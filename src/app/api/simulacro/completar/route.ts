@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { prisma } from '@/lib/prisma'
 import { createServerSupabaseClient } from '@/lib/supabase/server'
+import { normalizeEspecialidad } from '@/lib/constants'
 
 export async function POST(request: NextRequest) {
   const supabase = await createServerSupabaseClient()
@@ -58,9 +59,10 @@ export async function POST(request: NextRequest) {
   for (const r of respuestas) {
     const pregunta = preguntaMap.get(r.pregunta_id)
     if (!pregunta) continue
-    const key = `${pregunta.especialidad}::${pregunta.tema}`
+    const espNorm = normalizeEspecialidad(pregunta.especialidad)
+    const key = `${espNorm}::${pregunta.tema}`
     const existing = progresoUpdates.get(key) || {
-      especialidad: pregunta.especialidad,
+      especialidad: espNorm,
       tema: pregunta.tema,
       total: 0,
       correctas: 0,

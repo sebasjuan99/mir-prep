@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server'
 import { prisma } from '@/lib/prisma'
 import { createServerSupabaseClient } from '@/lib/supabase/server'
+import { normalizeEspecialidad } from '@/lib/constants'
 
 export async function GET() {
   const supabase = await createServerSupabaseClient()
@@ -11,7 +12,6 @@ export async function GET() {
     where: { user_id: user.id },
   })
 
-  // Aggregate by specialty
   const porEspecialidad = new Map<string, { total: number; correctas: number }>()
   let totalGlobal = 0
   let correctasGlobal = 0
@@ -19,10 +19,11 @@ export async function GET() {
   for (const p of progreso) {
     totalGlobal += p.total
     correctasGlobal += p.correctas
-    const existing = porEspecialidad.get(p.especialidad) || { total: 0, correctas: 0 }
+    const canonical = normalizeEspecialidad(p.especialidad)
+    const existing = porEspecialidad.get(canonical) || { total: 0, correctas: 0 }
     existing.total += p.total
     existing.correctas += p.correctas
-    porEspecialidad.set(p.especialidad, existing)
+    porEspecialidad.set(canonical, existing)
   }
 
   const porEspecialidadArray = Array.from(porEspecialidad.entries()).map(([especialidad, data]) => ({

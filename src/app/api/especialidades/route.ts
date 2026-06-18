@@ -1,17 +1,22 @@
 import { NextResponse } from 'next/server'
 import { prisma } from '@/lib/prisma'
 import { createServerSupabaseClient } from '@/lib/supabase/server'
+import { normalizeEspecialidad } from '@/lib/constants'
 
 export async function GET() {
   const supabase = await createServerSupabaseClient()
   const { data: { user } } = await supabase.auth.getUser()
 
-  // Get all specialties from questions
-  const especialidades = await prisma.pregunta.groupBy({
+  const rawEspecialidades = await prisma.pregunta.groupBy({
     by: ['especialidad'],
     _count: { id: true },
-    orderBy: { especialidad: 'asc' },
   })
+
+  const aggregated = new Map<string, number>()
+  for (const r of rawEspecialidades) {
+    const canonical = normalizeEspecialidad(r.especialidad)
+    aggregated.set(canonical, (aggregated.get(canonical) || 0) + r._count.id)
+  }
 
   let progresoMap = new Map<string, { total: number; correctas: number }>()
 
@@ -20,23 +25,26 @@ export async function GET() {
       where: { user_id: user.id },
     })
     for (const p of progreso) {
-      const existing = progresoMap.get(p.especialidad) || { total: 0, correctas: 0 }
+      const canonical = normalizeEspecialidad(p.especialidad)
+      const existing = progresoMap.get(canonical) || { total: 0, correctas: 0 }
       existing.total += p.total
       existing.correctas += p.correctas
-      progresoMap.set(p.especialidad, existing)
+      progresoMap.set(canonical, existing)
     }
   }
 
-  const result = especialidades.map(e => {
-    const prog = progresoMap.get(e.especialidad)
-    return {
-      nombre: e.especialidad,
-      totalPreguntas: e._count.id,
-      respondidas: prog?.total || 0,
-      correctas: prog?.correctas || 0,
-      porcentaje: prog && prog.total > 0 ? Math.round((prog.correctas / prog.total) * 100) : null,
-    }
-  })
+  const result = Array.from(aggregated.entries())
+    .map(([nombre, totalPreguntas]) => {
+      const prog = progresoMap.get(nombre)
+      return {
+        nombre,
+        totalPreguntas,
+        respondidas: prog?.total || 0,
+        correctas: prog?.correctas || 0,
+        porcentaje: prog && prog.total > 0 ? Math.round((prog.correctas / prog.total) * 100) : null,
+      }
+    })
+    .sort((a, b) => a.nombre.localeCompare(b.nombre, 'es'))
 
   return NextResponse.json(result)
 }
