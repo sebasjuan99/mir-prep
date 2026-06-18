@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { prisma } from '@/lib/prisma'
 import { createServerSupabaseClient } from '@/lib/supabase/server'
+import { normalizeEspecialidad } from '@/lib/constants'
 
 export async function GET(request: NextRequest) {
   const supabase = await createServerSupabaseClient()
@@ -36,9 +37,21 @@ export async function GET(request: NextRequest) {
       SELECT * FROM "Pregunta" WHERE universidad = ${universidad} ORDER BY RANDOM() LIMIT 20
     `
   } else if (especialidad) {
-    preguntas = await prisma.$queryRaw`
-      SELECT * FROM "Pregunta" WHERE especialidad = ${especialidad} ORDER BY RANDOM() LIMIT 20
-    `
+    const allRaw = await prisma.pregunta.groupBy({ by: ['especialidad'] })
+    const matching = allRaw
+      .map(r => r.especialidad)
+      .filter(e => normalizeEspecialidad(e) === especialidad)
+
+    if (matching.length === 0) {
+      return NextResponse.json({ error: 'Especialidad no encontrada' }, { status: 404 })
+    }
+
+    preguntas = await prisma.pregunta.findMany({
+      where: { especialidad: { in: matching } },
+    })
+    // Shuffle and take 20
+    const shuffled = (preguntas as any[]).sort(() => Math.random() - 0.5).slice(0, 20)
+    preguntas = shuffled
   } else {
     preguntas = await prisma.$queryRaw`
       SELECT * FROM "Pregunta" ORDER BY RANDOM() LIMIT 20
