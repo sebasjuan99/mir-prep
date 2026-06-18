@@ -96,52 +96,98 @@ export default function DashboardPage() {
         </div>
       </div>
 
-      {/* ─── PROBABILIDAD POR UNIVERSIDAD ──────────────────────────────────── */}
-      {universidades.length > 0 && (
-        <div style={{ border: inkBorder, marginBottom: 48 }}>
-          <div style={{ borderBottom: inkBorder, padding: '16px 24px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-            <div style={{ ...kicker() }}>PROBABILIDAD POR UNIVERSIDAD</div>
-            <span style={{ ...mono, fontSize: 10, color: C.ink2, letterSpacing: '0.08em' }}>
-              BASADO EN TU HISTORIAL DE RESPUESTAS
-            </span>
-          </div>
-          <div className="grid-univ">
-            {universidades.map((u, i) => {
-              const univMap: Record<string, { bg: string; color: string; label: string }> = {
-                'MIR':       { bg: C.ink,    color: C.cream, label: 'EXAMEN MIR'     },
-                'ENARM':     { bg: C.pink,   color: C.ink,   label: 'EXAMEN ENARM'   },
-                'UNAL':      { bg: C.green,  color: C.cream, label: 'UNIV. NACIONAL' },
-                'El Bosque': { bg: C.cream2, color: C.ink,   label: 'UNIV. BOSQUE'   },
-                'Rosario':   { bg: C.orange, color: C.cream, label: 'UNIV. ROSARIO'  },
-              }
+      {/* ─── RANKING POR TIPO DE EXAMEN ─────────────────────────────────── */}
+      {universidades.length > 0 && (() => {
+        const univMap: Record<string, { bg: string; color: string; label: string }> = {
+          'MIR':       { bg: C.ink,    color: C.cream, label: 'EXAMEN MIR'     },
+          'ENARM':     { bg: C.pink,   color: C.ink,   label: 'EXAMEN ENARM'   },
+          'UNAL':      { bg: C.green,  color: C.cream, label: 'UNIV. NACIONAL' },
+          'El Bosque': { bg: C.cream2, color: C.ink,   label: 'UNIV. BOSQUE'   },
+          'Rosario':   { bg: C.orange, color: C.cream, label: 'UNIV. ROSARIO'  },
+        }
+        const sorted = [...universidades].sort((a, b) => b.porcentaje - a.porcentaje)
+        const best = sorted[0]
+        const bestStyle = univMap[best.universidad] || { bg: C.cream2, color: C.ink, label: best.universidad.toUpperCase() }
+
+        return (
+          <div style={{ border: inkBorder, marginBottom: 48 }}>
+            <div style={{ borderBottom: inkBorder, padding: '16px 24px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+              <div style={{ ...kicker() }}>RANKING POR TIPO DE EXAMEN</div>
+              <span style={{ ...mono, fontSize: 10, color: C.ink2, letterSpacing: '0.08em' }}>
+                ORDENADO POR % DE ACIERTOS
+              </span>
+            </div>
+
+            {/* Recommendation banner */}
+            <div style={{
+              padding: '20px 24px',
+              background: bestStyle.bg,
+              color: bestStyle.color,
+              borderBottom: inkBorder,
+              display: 'flex',
+              alignItems: 'center',
+              gap: 12,
+            }}>
+              <span style={{ ...disp, fontSize: 24, lineHeight: 1 }}>★</span>
+              <div>
+                <div style={{ ...mono, fontSize: 11, letterSpacing: '0.08em' }}>
+                  TU MAYOR PROBABILIDAD DE PASAR A RESIDENCIA ES EN <strong style={{ ...disp, fontSize: 14 }}>{bestStyle.label}</strong> CON <strong style={{ ...disp, fontSize: 14 }}>{best.porcentaje}%</strong> DE ACIERTOS
+                </div>
+              </div>
+            </div>
+
+            {/* Ranked list */}
+            {sorted.map((u, i) => {
               const style = univMap[u.universidad] || { bg: C.cream2, color: C.ink, label: u.universidad.toUpperCase() }
               return (
                 <div
                   key={u.universidad}
                   style={{
-                    padding: '28px 24px',
-                    background: style.bg,
-                    borderRight: i < universidades.length - 1 ? inkBorder : undefined,
+                    display: 'flex',
+                    alignItems: 'center',
+                    padding: '18px 24px',
+                    borderBottom: i < sorted.length - 1 ? inkBorder : undefined,
+                    gap: 16,
                   }}
                 >
-                  <div style={{ ...mono, fontSize: 9, letterSpacing: '0.12em', color: style.color, opacity: 0.6, marginBottom: 8 }}>
-                    {style.label}
+                  <div style={{
+                    ...disp,
+                    fontSize: 28,
+                    width: 40,
+                    textAlign: 'center',
+                    color: i === 0 ? C.green : C.ink2,
+                    flexShrink: 0,
+                  }}>
+                    {i + 1}
                   </div>
-                  <div style={{ ...disp, fontSize: 'clamp(2rem, 4vw, 3.5rem)', color: style.color, lineHeight: 0.9, marginBottom: 10 }}>
-                    {u.porcentaje}%
+                  <div style={{
+                    width: 10,
+                    height: 10,
+                    borderRadius: '50%',
+                    background: style.bg,
+                    border: `2px solid ${C.ink}`,
+                    flexShrink: 0,
+                  }} />
+                  <div style={{ flex: 1 }}>
+                    <div style={{ ...mono, fontSize: 12, letterSpacing: '0.06em' }}>{style.label}</div>
+                    <div style={{ ...mono, fontSize: 10, color: C.ink2, letterSpacing: '0.04em', marginTop: 2 }}>
+                      {u.correctas}/{u.total} correctas
+                    </div>
                   </div>
-                  <div style={{ height: 4, background: 'rgba(0,0,0,0.1)', border: `2px solid ${style.color}`, opacity: 0.4 }}>
-                    <div style={{ height: '100%', width: `${u.porcentaje}%`, background: style.color }} />
-                  </div>
-                  <div style={{ ...mono, fontSize: 9, letterSpacing: '0.08em', color: style.color, opacity: 0.5, marginTop: 8 }}>
-                    {u.correctas}/{u.total} CORRECTAS
+                  <div style={{ display: 'flex', alignItems: 'center', gap: 12, flexShrink: 0 }}>
+                    <div style={{ width: 80, height: 6, background: C.cream2, border: `2px solid ${C.ink}` }}>
+                      <div style={{ height: '100%', width: `${u.porcentaje}%`, background: u.porcentaje >= 60 ? C.green : u.porcentaje >= 40 ? C.orange : C.pink }} />
+                    </div>
+                    <div style={{ ...disp, fontSize: 22, color: u.porcentaje >= 60 ? C.green : u.porcentaje >= 40 ? C.orange : C.pink, minWidth: 50, textAlign: 'right' }}>
+                      {u.porcentaje}%
+                    </div>
                   </div>
                 </div>
               )
             })}
           </div>
-        </div>
-      )}
+        )
+      })()}
 
       {/* ─── MAIN GRID ──────────────────────────────────────────────────────── */}
       <div className="grid-2fr-3fr" style={{ gap: 0, border: inkBorder, marginBottom: 48 }}>

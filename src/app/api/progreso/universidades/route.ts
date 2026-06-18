@@ -20,7 +20,7 @@ export async function GET() {
     WHERE r.user_id = ${user.id}
       AND p.universidad IS NOT NULL
     GROUP BY p.universidad
-    ORDER BY COUNT(r.id) DESC
+    ORDER BY CASE WHEN COUNT(r.id) > 0 THEN SUM(CASE WHEN r.correcta THEN 1 ELSE 0 END)::float / COUNT(r.id) ELSE 0 END DESC
   `
 
   const result = stats.map(s => ({
