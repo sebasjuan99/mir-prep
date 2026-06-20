@@ -9,6 +9,7 @@ const EXAM_TYPES = [
   { id: 'unal',    label: 'UNIV. NACIONAL',  pais: 'COLOMBIA', bg: C.green,   color: C.cream },
   { id: 'ubosque', label: 'UNIV. BOSQUE',    pais: 'COLOMBIA', bg: C.cream2,  color: C.ink   },
   { id: 'urosario',label: 'UNIV. ROSARIO',   pais: 'COLOMBIA', bg: C.orange,  color: C.cream },
+  { id: 'uces',    label: 'UNIV. CES',       pais: 'COLOMBIA', bg: '#2E4057', color: C.cream },
   { id: 'mir',     label: 'EXAMEN MIR',      pais: 'ESPAÑA',   bg: C.ink,     color: C.cream },
   { id: 'enarm',   label: 'EXAMEN ENARM',    pais: 'MÉXICO',   bg: C.pink,    color: C.ink   },
 ] as const
@@ -52,7 +53,7 @@ export default function DashboardPage() {
       <div style={{ border: inkBorder, marginBottom: 48 }}>
         <div style={{ borderBottom: inkBorder, padding: '16px 24px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <div style={{ ...kicker() }}>ELIGE TU EXAMEN</div>
-          <span style={{ ...mono, fontSize: 10, color: C.ink2, letterSpacing: '0.08em' }}>5 EXÁMENES DISPONIBLES</span>
+          <span style={{ ...mono, fontSize: 10, color: C.ink2, letterSpacing: '0.08em' }}>6 EXÁMENES DISPONIBLES</span>
         </div>
         <div className="grid-exam-types">
           {EXAM_TYPES.map((exam, i) => (
@@ -99,11 +100,12 @@ export default function DashboardPage() {
       {/* ─── RANKING POR TIPO DE EXAMEN ─────────────────────────────────── */}
       {universidades.length > 0 && (() => {
         const univMap: Record<string, { bg: string; color: string; label: string }> = {
-          'MIR':       { bg: C.ink,    color: C.cream, label: 'EXAMEN MIR'     },
-          'ENARM':     { bg: C.pink,   color: C.ink,   label: 'EXAMEN ENARM'   },
-          'UNAL':      { bg: C.green,  color: C.cream, label: 'UNIV. NACIONAL' },
-          'El Bosque': { bg: C.cream2, color: C.ink,   label: 'UNIV. BOSQUE'   },
-          'Rosario':   { bg: C.orange, color: C.cream, label: 'UNIV. ROSARIO'  },
+          'MIR':       { bg: C.ink,      color: C.cream, label: 'EXAMEN MIR'     },
+          'ENARM':     { bg: C.pink,     color: C.ink,   label: 'EXAMEN ENARM'   },
+          'UNAL':      { bg: C.green,    color: C.cream, label: 'UNIV. NACIONAL' },
+          'El Bosque': { bg: C.cream2,   color: C.ink,   label: 'UNIV. BOSQUE'   },
+          'Rosario':   { bg: C.orange,   color: C.cream, label: 'UNIV. ROSARIO'  },
+          'CES':       { bg: '#2E4057', color: C.cream, label: 'UNIV. CES'      },
         }
         const sorted = [...universidades].sort((a, b) => b.porcentaje - a.porcentaje)
         const best = sorted[0]
