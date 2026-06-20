@@ -11,16 +11,18 @@ const EXAM_ID_TO_UNIVERSIDAD: Record<string, string> = {
   unal:    'UNAL',
   ubosque: 'El Bosque',
   urosario:'Rosario',
+  uces:    'CES',
   mir:     'MIR',
   enarm:   'ENARM',
 }
 
 const UNIVERSIDADES = [
-  { id: 'mir',      label: 'EXAMEN MIR',     pais: 'ESPAÑA',   bg: C.ink,    color: C.cream },
-  { id: 'enarm',    label: 'EXAMEN ENARM',   pais: 'MÉXICO',   bg: C.pink,   color: C.ink   },
-  { id: 'unal',     label: 'UNIV. NACIONAL', pais: 'COLOMBIA', bg: C.green,  color: C.cream },
-  { id: 'ubosque',  label: 'UNIV. BOSQUE',   pais: 'COLOMBIA', bg: C.cream2, color: C.ink   },
-  { id: 'urosario', label: 'UNIV. ROSARIO',  pais: 'COLOMBIA', bg: C.orange, color: C.cream },
+  { id: 'mir',      label: 'EXAMEN MIR',     pais: 'ESPAÑA',   bg: C.ink,      color: C.cream },
+  { id: 'enarm',    label: 'EXAMEN ENARM',   pais: 'MÉXICO',   bg: C.pink,     color: C.ink   },
+  { id: 'unal',     label: 'UNIV. NACIONAL', pais: 'COLOMBIA', bg: C.green,    color: C.cream },
+  { id: 'ubosque',  label: 'UNIV. BOSQUE',   pais: 'COLOMBIA', bg: C.cream2,   color: C.ink   },
+  { id: 'urosario', label: 'UNIV. ROSARIO',  pais: 'COLOMBIA', bg: C.orange,   color: C.cream },
+  { id: 'uces',     label: 'UNIV. CES',      pais: 'COLOMBIA', bg: '#2E4057', color: C.cream },
 ]
 
 function SimulacroContent() {
