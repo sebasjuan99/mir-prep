@@ -33,7 +33,7 @@ export async function POST(request: Request) {
     }
   )
 
-  const appUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://mir-prep.vercel.app'
+  const appUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://www.proximoresidente.com'
   const { data, error } = await supabase.auth.signUp({
     email,
     password,

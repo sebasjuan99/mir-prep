@@ -21,7 +21,7 @@ export async function POST(request: Request) {
     }
   )
 
-  const appUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://mir-prep.vercel.app'
+  const appUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://www.proximoresidente.com'
   const { error } = await supabase.auth.resetPasswordForEmail(body.email, {
     redirectTo: `${appUrl}/auth/callback`,
   })

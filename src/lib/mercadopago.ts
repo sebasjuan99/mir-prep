@@ -8,7 +8,7 @@ function headers() {
 }
 
 export async function crearSuscripcion(payerEmail: string, externalReference: string) {
-  const backUrl = (process.env.NEXT_PUBLIC_APP_URL || 'https://mir-prep.vercel.app') + '/suscripcion/estado'
+  const backUrl = (process.env.NEXT_PUBLIC_APP_URL || 'https://www.proximoresidente.com') + '/suscripcion/estado'
 
   const res = await fetch(`${MP_API}/preapproval`, {
     method: 'POST',
