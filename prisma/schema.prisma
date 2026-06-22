@@ -15,12 +15,16 @@ model Usuario {
   role            String      @default("user")
   activo          Boolean     @default(true)
   claudeApiKeyEnc String?
+  mpSuscripcionId    String?
+  suscripcionStatus  String   @default("free")
+  suscripcionExpira  DateTime?
   flashcards      Flashcard[]
   createdAt       DateTime    @default(now())
   updatedAt       DateTime    @updatedAt
 
   @@index([auth_id])
   @@index([role])
+  @@index([suscripcionStatus])
 }
 
 model Pregunta {
