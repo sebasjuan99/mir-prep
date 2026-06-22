@@ -1,10 +1,43 @@
 import { NextResponse } from 'next/server'
+import { createHmac } from 'crypto'
 import { prisma } from '@/lib/prisma'
 import { obtenerSuscripcion } from '@/lib/mercadopago'
 
+function verifySignature(request: Request, body: string): boolean {
+  const secret = process.env.MP_WEBHOOK_SECRET
+  if (!secret) return true // skip verification if no secret configured
+
+  const xSignature = request.headers.get('x-signature')
+  const xRequestId = request.headers.get('x-request-id')
+  if (!xSignature || !xRequestId) return false
+
+  const parts = Object.fromEntries(
+    xSignature.split(',').map(p => {
+      const [k, v] = p.trim().split('=')
+      return [k, v]
+    })
+  )
+  const ts = parts['ts']
+  const hash = parts['v1']
+  if (!ts || !hash) return false
+
+  const dataId = JSON.parse(body)?.data?.id
+  const manifest = `id:${dataId ?? ''};request-id:${xRequestId};ts:${ts};`
+  const computed = createHmac('sha256', secret).update(manifest).digest('hex')
+
+  return computed === hash
+}
+
 export async function POST(request: Request) {
   try {
-    const body = await request.json()
+    const rawBody = await request.text()
+
+    if (!verifySignature(request, rawBody)) {
+      console.warn('Webhook MP: invalid signature')
+      return NextResponse.json({ ok: true })
+    }
+
+    const body = JSON.parse(rawBody)
 
     // MP sends different notification types
     // For subscriptions: type = "subscription_preapproval"
