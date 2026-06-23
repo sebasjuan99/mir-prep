@@ -16,12 +16,16 @@ export async function GET() {
     totalPreguntas,
     totalUsuarios,
     sesionesCompletadas,
+    sesionesIniciadas,
     totalRespuestas,
+    respuestasCompletadas,
   ] = await Promise.all([
     prisma.pregunta.count(),
     prisma.usuario.count(),
     prisma.sesion.count({ where: { completada: true } }),
+    prisma.sesion.count(),
     prisma.respuesta.count(),
+    prisma.respuesta.count({ where: { sesion: { completada: true } } }),
   ])
 
   // Specialty stats: group respuestas by specialty
@@ -66,7 +70,9 @@ export async function GET() {
     totalPreguntas,
     totalUsuarios,
     sesionesCompletadas,
+    sesionesIniciadas,
     totalRespuestas,
+    respuestasCompletadas,
     especialidades,
     recentSessions,
   })
