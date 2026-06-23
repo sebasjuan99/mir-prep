@@ -44,11 +44,15 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: error.message }, { status: 400 })
   }
 
-  if (data.user) {
+  // identities vacío => Supabase devolvió un usuario ofuscado porque el email
+  // ya existe y está confirmado (no es un alta real): no tocamos el perfil.
+  // Si es un alta real, creamos el perfil o re-vinculamos su auth_id (por si
+  // habia un perfil huerfano de un registro anterior con el mismo email).
+  if (data.user && (data.user.identities?.length ?? 0) > 0) {
     await prisma.usuario.upsert({
       where: { email },
       create: { auth_id: data.user.id, email, role: 'user' },
-      update: {},
+      update: { auth_id: data.user.id },
     }).catch(() => null)
   }
 
