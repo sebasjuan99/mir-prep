@@ -19,11 +19,15 @@ export default async function ProtectedLayout({
   // there is no redirect loop.
   const dbUser = await prisma.usuario.findUnique({
     where: { auth_id: user.id },
-    select: { suscripcionStatus: true, role: true },
+    select: { suscripcionStatus: true, suscripcionExpira: true, role: true },
   })
 
   const isAdmin = dbUser?.role === 'admin'
+  // Acceso si la suscripción está activa, o si fue cancelada pero aún está
+  // dentro del periodo ya pagado (suscripcionExpira en el futuro).
+  const enPeriodoPagado = !!dbUser?.suscripcionExpira && new Date(dbUser.suscripcionExpira) > new Date()
   const isSubscribed = dbUser?.suscripcionStatus === 'authorized'
+    || (dbUser?.suscripcionStatus === 'cancelled' && enPeriodoPagado)
 
   if (!isAdmin && !isSubscribed) {
     redirect('/suscripcion')

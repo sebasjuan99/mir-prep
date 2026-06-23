@@ -73,7 +73,9 @@ export async function POST(request: Request) {
           data: {
             mpSuscripcionId: suscripcionId,
             suscripcionStatus: newStatus,
-            suscripcionExpira: mp.next_payment_date ? new Date(mp.next_payment_date) : null,
+            // Solo actualizamos la fecha si MP la envía; si viene vacía (p. ej.
+            // tras cancelar) conservamos la existente para respetar el periodo pagado.
+            ...(mp.next_payment_date ? { suscripcionExpira: new Date(mp.next_payment_date) } : {}),
           },
         })
       }
