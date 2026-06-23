@@ -33,12 +33,13 @@ export async function GET() {
           where: { auth_id: user.id },
           data: {
             suscripcionStatus: mp.status,
-            suscripcionExpira: mp.next_payment_date ? new Date(mp.next_payment_date) : null,
+            // Conservamos la fecha existente si MP no envía una nueva (tras cancelar).
+            ...(mp.next_payment_date ? { suscripcionExpira: new Date(mp.next_payment_date) } : {}),
           },
         })
         return NextResponse.json({
           status: mp.status,
-          expira: mp.next_payment_date,
+          expira: mp.next_payment_date ?? dbUser.suscripcionExpira,
         })
       }
     } catch {

@@ -5,7 +5,7 @@ import Image from 'next/image'
 import { usePathname } from 'next/navigation'
 import { useAuth } from '@/hooks/useAuth'
 import { useState } from 'react'
-import { C, mono, disp, inkBorder } from '@/lib/cm'
+import { C, mono, inkBorder } from '@/lib/cm'
 
 interface NavBarProps {
   userEmail: string
@@ -16,6 +16,7 @@ const links = [
   { href: '/simulacro',     label: 'SIMULACRO'     },
   { href: '/especialidades', label: 'ESPECIALIDADES' },
   { href: '/flashcards',    label: '✦ FLASHCARDS IA' },
+  { href: '/cuenta',        label: 'MI CUENTA'     },
 ]
 
 export default function NavBar({ userEmail }: NavBarProps) {

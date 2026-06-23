@@ -49,3 +49,18 @@ export async function obtenerSuscripcion(suscripcionId: string) {
     next_payment_date: string
   }>
 }
+
+export async function cancelarSuscripcion(suscripcionId: string) {
+  const res = await fetch(`${MP_API}/preapproval/${suscripcionId}`, {
+    method: 'PUT',
+    headers: headers(),
+    body: JSON.stringify({ status: 'cancelled' }),
+  })
+
+  if (!res.ok) {
+    const err = await res.text()
+    throw new Error(`MP cancel subscription failed: ${res.status} ${err}`)
+  }
+
+  return res.json() as Promise<{ id: string; status: string }>
+}
