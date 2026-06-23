@@ -7,36 +7,20 @@ function headers() {
   }
 }
 
-export async function crearSuscripcion(payerEmail: string, externalReference: string) {
-  const backUrl = (process.env.NEXT_PUBLIC_APP_URL || 'https://www.proximoresidente.com') + '/suscripcion/estado'
+// Plan de suscripción con 7 días de prueba gratis (free_trial), creado en Mercado Pago.
+// El free_trial sólo es posible mediante un plan asociado, por eso no creamos la
+// suscripción por API sino que redirigimos al checkout del plan. Mercado Pago recoge
+// la tarjeta, aplica los 7 días gratis y dispara el webhook subscription_preapproval.
+const MP_PLAN_ID = process.env.MP_PREAPPROVAL_PLAN_ID || '4270f42f36d0400988ea6af442afd2da'
 
-  const res = await fetch(`${MP_API}/preapproval`, {
-    method: 'POST',
-    headers: headers(),
-    body: JSON.stringify({
-      reason: 'MIR Prep - Suscripción Mensual',
-      auto_recurring: {
-        frequency: 1,
-        frequency_type: 'months',
-        transaction_amount: 87000,
-        currency_id: 'COP',
-      },
-      payer_email: payerEmail,
-      external_reference: externalReference,
-      back_url: backUrl,
-    }),
+export function crearCheckoutSuscripcion(externalReference: string) {
+  const params = new URLSearchParams({
+    preapproval_plan_id: MP_PLAN_ID,
+    external_reference: externalReference,
   })
-
-  if (!res.ok) {
-    const err = await res.text()
-    throw new Error(`MP create subscription failed: ${res.status} ${err}`)
-  }
-
-  return res.json() as Promise<{
-    id: string
-    init_point: string
-    status: string
-  }>
+  // Dominio de Colombia (MCO). external_reference viaja al preapproval creado
+  // para poder vincular la suscripción con el usuario en el webhook.
+  return `https://www.mercadopago.com.co/subscriptions/checkout?${params.toString()}`
 }
 
 export async function obtenerSuscripcion(suscripcionId: string) {
