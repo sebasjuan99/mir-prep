@@ -60,7 +60,7 @@ export default function AdminSidebar() {
             className="text-xl font-bold font-[var(--font-display)]"
             style={{ color: '#C17E4A' }}
           >
-            MIR Prep
+            Próximo Residente
           </h1>
           <p className="text-xs mt-1" style={{ color: '#6B6560' }}>
             Panel de administracion

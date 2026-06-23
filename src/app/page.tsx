@@ -68,7 +68,7 @@ export default function LandingPage() {
               height={56}
               style={{ objectFit: 'contain' }}
             />
-            <span style={{ ...mono, fontSize: 15, letterSpacing: '0.1em' }}>MIR PREP</span>
+            <span style={{ ...mono, fontSize: 15, letterSpacing: '0.1em' }}>Próximo Residente</span>
           </div>
           <nav style={{ display: 'flex', gap: 4, alignItems: 'center' }}>
             <Link
@@ -194,7 +194,7 @@ export default function LandingPage() {
           ...mono, fontSize: 12, letterSpacing: '0.08em', color: C.ink2,
           zIndex: 2,
         }}>
-          <span>MIR PREP — Simulacros Interactivos</span>
+          <span>Próximo Residente — Simulacros Interactivos</span>
           <span>
             01
             <span style={dot(C.ink2)} />
@@ -256,7 +256,7 @@ export default function LandingPage() {
 
           <div className="grid-landing-3" style={{ border: `4px solid ${C.ink}` }}>
             {([
-              { n: '1.000+', label: 'PREGUNTAS MIR REALES', bg: C.green, color: C.cream, br: true },
+              { n: '1.000+', label: 'PREGUNTAS REALES DE RESIDENCIA', bg: C.green, color: C.cream, br: true },
               { n: '2026',   label: 'CONVOCATORIA ACTIVA',  bg: C.pink,  color: C.ink,  br: true },
               { n: '3×',     label: 'MÁS EFICAZ QUE SOLO LEER', bg: C.orange, color: C.cream, br: false },
             ] as const).map((s) => (
@@ -290,7 +290,7 @@ export default function LandingPage() {
               { num: '01', title: 'REGÍSTRATE', desc: 'Crea tu cuenta gratis en segundos. Sin tarjeta.',                         bg: C.cream2, color: C.ink,  br: true  },
               { num: '02', title: 'PRACTICA',   desc: 'Responde preguntas reales clasificadas por especialidad.',                  bg: C.yellow, color: C.ink,  br: true  },
               { num: '03', title: 'REVISA',     desc: 'Recibe fichas de estudio cuando fallas una pregunta.',                     bg: C.pink,   color: C.ink,  br: true  },
-              { num: '04', title: 'APRUEBA',    desc: 'Detectamos tus debilidades. Llega al MIR preparado de verdad.',            bg: C.green,  color: C.cream, br: false },
+              { num: '04', title: 'APRUEBA',    desc: 'Detectamos tus debilidades. Llega a tu examen de residencia con una preparación de verdad.', bg: C.green,  color: C.cream, br: false },
             ] as const).map((step) => (
               <div
                 key={step.num}
@@ -339,9 +339,10 @@ export default function LandingPage() {
               maxWidth: 480,
               margin: 0,
             }}>
-              Cuando fallas una pregunta, MIR Prep genera una ficha de estudio
-              personalizada con los conceptos clave del tema. No más estudiar
-              sin saber dónde están tus errores.
+              Cuando fallas una pregunta, Próximo Residente genera una ficha de
+              estudio personalizada con los conceptos clave del tema. Mide tu
+              rendimiento, descubre con qué universidad y tipo de preguntas tienes
+              más afinidad, y aumenta tus probabilidades de pasar a la residencia.
             </p>
           </div>
         </div>
@@ -361,7 +362,7 @@ export default function LandingPage() {
           display: 'flex', justifyContent: 'space-between', alignItems: 'center',
           ...mono, fontSize: 12, letterSpacing: '0.08em', color: C.cream,
         }}>
-          <span>MIR PREP</span>
+          <span>Próximo Residente</span>
           <span style={{ border: `2px solid ${C.cream}`, borderRadius: 999, padding: '4px 12px' }}>05 — CIERRE</span>
         </div>
 
@@ -446,10 +447,10 @@ export default function LandingPage() {
             height={72}
             style={{ objectFit: 'contain' }}
           />
-          <span style={{ ...mono, fontSize: 14, letterSpacing: '0.08em', color: C.cream }}>MIR PREP</span>
+          <span style={{ ...mono, fontSize: 14, letterSpacing: '0.08em', color: C.cream }}>Próximo Residente</span>
         </div>
         <span style={{ ...mono, fontSize: 12, letterSpacing: '0.06em', color: '#555555' }}>
-          HECHO PARA FUTUROS RESIDENTES
+          HECHO PARA PRÓXIMOS RESIDENTES
         </span>
       </footer>
 
