@@ -118,7 +118,7 @@ export default function RegisterPage() {
             REVISA TU<br />CORREO.
           </h2>
           <p style={{ ...bodyFont, fontSize: 16, color: C.cream, opacity: 0.85, margin: '0 auto 32px', lineHeight: 1.55 }}>
-            Te enviamos un <b>código de 6 dígitos</b> a<br /><b>{email}</b>. Escríbelo aquí para activar tu cuenta.
+            Te enviamos un <b>código de confirmación</b> a<br /><b>{email}</b>. Escríbelo aquí para activar tu cuenta.
           </p>
 
           <form onSubmit={handleVerify} style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
@@ -136,13 +136,13 @@ export default function RegisterPage() {
             <input
               inputMode="numeric"
               autoComplete="one-time-code"
-              maxLength={6}
+              maxLength={8}
               value={code}
               onChange={e => setCode(e.target.value.replace(/\D/g, ''))}
-              placeholder="••••••"
+              placeholder="••••••••"
               style={{
-                ...disp, textAlign: 'center', letterSpacing: '0.5em',
-                fontSize: 40, padding: '16px', width: '100%',
+                ...disp, textAlign: 'center', letterSpacing: '0.3em',
+                fontSize: 34, padding: '16px', width: '100%',
                 border: `4px solid ${C.cream}`, background: C.cream, color: C.ink,
                 boxSizing: 'border-box', outline: 'none',
               }}
