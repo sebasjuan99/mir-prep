@@ -10,13 +10,17 @@ export async function POST(request: Request) {
   }
 
   const cookieStore = await cookies()
+  // Collect cookies Supabase wants to set (e.g. the PKCE code-verifier) so we can
+  // forward them on the response. Without this the verifier is lost and the later
+  // exchangeCodeForSession() in /auth/callback fails.
+  const pendingCookies: Array<{ name: string; value: string; options: Record<string, unknown> }> = []
   const supabase = createServerClient(
     process.env.NEXT_PUBLIC_SUPABASE_URL!,
     process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
     {
       cookies: {
         getAll() { return cookieStore.getAll() },
-        setAll() {},
+        setAll(cookiesToSet) { pendingCookies.push(...cookiesToSet) },
       },
     }
   )
@@ -30,6 +34,9 @@ export async function POST(request: Request) {
   if (error) console.error('[forgot-password]', error.message)
 
   const response = NextResponse.json({ success: true })
+  pendingCookies.forEach(({ name, value, options }) =>
+    response.cookies.set(name, value, options as Parameters<typeof response.cookies.set>[2])
+  )
   response.cookies.set('mir_recovery', '1', {
     httpOnly: true,
     secure: true,
