@@ -5,6 +5,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { Turnstile } from '@marsidev/react-turnstile'
 import { C, disp, mono, bodyFont, kicker, inkBorder } from '@/lib/cm'
+import { createClient } from '@/lib/supabase/client'
 
 const inputStyle = {
   ...bodyFont,
@@ -25,8 +26,15 @@ export default function RegisterPage() {
   const [confirmPassword, setConfirmPassword] = useState('')
   const [error, setError] = useState('')
   const [loading, setLoading] = useState(false)
-  const [success, setSuccess] = useState(false)
+  const [step, setStep] = useState<'form' | 'code'>('form')
   const [turnstileToken, setTurnstileToken] = useState<string | null>(null)
+
+  // Confirmación por código de 6 dígitos
+  const [code, setCode] = useState('')
+  const [verifying, setVerifying] = useState(false)
+  const [codeError, setCodeError] = useState('')
+  const [resending, setResending] = useState(false)
+  const [resent, setResent] = useState(false)
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
@@ -44,7 +52,7 @@ export default function RegisterPage() {
       })
       const data = await res.json()
       if (!res.ok) { setError(data.error || 'Error al registrarse'); return }
-      setSuccess(true)
+      setStep('code')
     } catch {
       setError('Error de conexión. Inténtalo de nuevo.')
     } finally {
@@ -52,24 +60,119 @@ export default function RegisterPage() {
     }
   }
 
-  if (success) {
+  const handleVerify = async (e: React.FormEvent) => {
+    e.preventDefault()
+    setCodeError('')
+    const token = code.trim()
+    if (token.length < 6) { setCodeError('Ingresa el código de 6 dígitos'); return }
+
+    setVerifying(true)
+    try {
+      const supabase = createClient()
+      // El tipo del OTP de alta puede ser 'signup' o 'email' según la versión;
+      // probamos ambos para garantizar la verificación. El token solo se consume
+      // cuando coincide, así que el primer intento fallido no lo invalida.
+      let { error } = await supabase.auth.verifyOtp({ email, token, type: 'signup' })
+      if (error) {
+        const retry = await supabase.auth.verifyOtp({ email, token, type: 'email' })
+        error = retry.error
+      }
+      if (error) {
+        setCodeError('Código incorrecto o expirado. Revisa e inténtalo de nuevo.')
+        return
+      }
+      // Sesión creada: recargamos para que el servidor reconozca la sesión.
+      window.location.href = '/dashboard'
+    } catch {
+      setCodeError('Error de conexión. Inténtalo de nuevo.')
+    } finally {
+      setVerifying(false)
+    }
+  }
+
+  const handleResend = async () => {
+    setResending(true)
+    setCodeError('')
+    setResent(false)
+    try {
+      const res = await fetch('/api/auth/resend-verification', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email }),
+      })
+      if (res.ok) setResent(true)
+      else setCodeError('No se pudo reenviar el código.')
+    } catch {
+      setCodeError('Error de conexión.')
+    } finally {
+      setResending(false)
+    }
+  }
+
+  if (step === 'code') {
     return (
       <div style={{ ...bodyFont, background: C.green, minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', position: 'relative', overflow: 'hidden' }}>
-        <div style={{ textAlign: 'center', padding: '80px 40px', position: 'relative', zIndex: 2 }}>
-          <div style={{ ...kicker(C.cream, C.ink), marginBottom: 32 }}>CUENTA CREADA</div>
-          <h2 style={{ ...disp, fontSize: 'clamp(3rem, 8vw, 9rem)', color: C.cream, margin: 0, marginBottom: 32 }}>
+        <div style={{ textAlign: 'center', padding: '64px 40px', position: 'relative', zIndex: 2, width: '100%', maxWidth: 460 }}>
+          <div style={{ ...kicker(C.cream, C.ink), marginBottom: 28 }}>CONFIRMA TU CUENTA</div>
+          <h2 style={{ ...disp, fontSize: 'clamp(2.5rem, 7vw, 5rem)', color: C.cream, margin: 0, marginBottom: 20 }}>
             REVISA TU<br />CORREO.
           </h2>
-          <p style={{ ...bodyFont, fontSize: 18, color: C.cream, opacity: 0.85, maxWidth: 460, margin: '0 auto 48px' }}>
-            Te hemos enviado un enlace de confirmación. Haz clic en él para activar tu cuenta.
+          <p style={{ ...bodyFont, fontSize: 16, color: C.cream, opacity: 0.85, margin: '0 auto 32px', lineHeight: 1.55 }}>
+            Te enviamos un <b>código de 6 dígitos</b> a<br /><b>{email}</b>. Escríbelo aquí para activar tu cuenta.
           </p>
-          <Link href="/login" style={{ ...disp, fontSize: 18, border: `4px solid ${C.cream}`, background: C.cream, color: C.ink, padding: '16px 36px', textDecoration: 'none' }}>
-            IR A INICIAR SESIÓN →
-          </Link>
-        </div>
-        <div style={{ position: 'absolute', right: '8%', top: '20%', width: 160, height: 160, background: C.pink, border: `4px solid ${C.cream}`, transform: 'rotate(-6deg)', display: 'grid', alignItems: 'center', justifyItems: 'center', zIndex: 3 }}>
-          <div style={{ width: '82%', height: '82%', border: `4px solid ${C.cream}`, borderRadius: '50%', display: 'grid', alignItems: 'center', justifyItems: 'center', textAlign: 'center' }}>
-            <span style={{ ...disp, fontSize: 18, color: C.cream }}>RESID.<br />2026</span>
+
+          <form onSubmit={handleVerify} style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
+            {codeError && (
+              <div style={{ background: C.pink, border: `3px solid ${C.cream}`, padding: '12px 16px', ...mono, fontSize: 11, letterSpacing: '0.06em', color: C.ink }}>
+                {codeError.toUpperCase()}
+              </div>
+            )}
+            {resent && !codeError && (
+              <div style={{ background: C.cream, border: `3px solid ${C.cream}`, padding: '12px 16px', ...mono, fontSize: 11, letterSpacing: '0.06em', color: C.ink }}>
+                CÓDIGO REENVIADO. REVISA TU CORREO.
+              </div>
+            )}
+
+            <input
+              inputMode="numeric"
+              autoComplete="one-time-code"
+              maxLength={6}
+              value={code}
+              onChange={e => setCode(e.target.value.replace(/\D/g, ''))}
+              placeholder="••••••"
+              style={{
+                ...disp, textAlign: 'center', letterSpacing: '0.5em',
+                fontSize: 40, padding: '16px', width: '100%',
+                border: `4px solid ${C.cream}`, background: C.cream, color: C.ink,
+                boxSizing: 'border-box', outline: 'none',
+              }}
+            />
+
+            <button
+              type="submit"
+              disabled={verifying || code.length < 6}
+              style={{
+                ...disp, fontSize: 18,
+                border: `4px solid ${C.cream}`,
+                background: verifying || code.length < 6 ? 'transparent' : C.cream,
+                color: verifying || code.length < 6 ? C.cream : C.ink,
+                padding: '16px 36px',
+                cursor: verifying || code.length < 6 ? 'not-allowed' : 'pointer',
+              }}
+            >
+              {verifying ? 'VERIFICANDO...' : 'CONFIRMAR Y ENTRAR →'}
+            </button>
+          </form>
+
+          <div style={{ ...mono, fontSize: 11, letterSpacing: '0.06em', color: C.cream, opacity: 0.85, marginTop: 24 }}>
+            ¿No te llegó?{' '}
+            <button
+              onClick={handleResend}
+              disabled={resending}
+              style={{ ...mono, fontSize: 11, letterSpacing: '0.06em', color: C.cream, background: 'transparent', border: 'none', textDecoration: 'underline', cursor: resending ? 'wait' : 'pointer', padding: 0 }}
+            >
+              {resending ? 'REENVIANDO...' : 'REENVIAR CÓDIGO'}
+            </button>
           </div>
         </div>
         <div style={{ position: 'absolute', bottom: -60, left: '10%', width: 200, height: 200, borderRadius: '50%', background: C.yellow, border: `4px solid ${C.greenDark}`, opacity: 0.4 }} />
