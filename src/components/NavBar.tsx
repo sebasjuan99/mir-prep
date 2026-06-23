@@ -33,7 +33,7 @@ export default function NavBar({ userEmail }: NavBarProps) {
           <div style={{ display: 'flex', alignItems: 'center', gap: 32 }}>
             <Link href="/dashboard" style={{ display: 'flex', alignItems: 'center', gap: 12, textDecoration: 'none' }}>
               <Image src="/ape-logo-negro.png" alt="Aurora Pixel Studio" width={44} height={44} style={{ objectFit: 'contain' }} />
-              <span style={{ ...mono, fontSize: 13, letterSpacing: '0.1em', color: C.ink }}>MIR PREP</span>
+              <span style={{ ...mono, fontSize: 13, letterSpacing: '0.1em', color: C.ink }}>Próximo Residente</span>
             </Link>
 
             {/* Desktop nav links */}

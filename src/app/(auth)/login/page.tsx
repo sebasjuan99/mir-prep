@@ -96,7 +96,7 @@ function LoginForm() {
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
           <Link href="/" style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: 10, textDecoration: 'none' }}>
             <Image src="/ape-logo-negro.png" alt="Aurora Pixel Studio" width={88} height={88} style={{ objectFit: 'contain' }} />
-            <span style={{ ...mono, fontSize: 13, letterSpacing: '0.14em', color: C.ink }}>MIR PREP</span>
+            <span style={{ ...mono, fontSize: 13, letterSpacing: '0.14em', color: C.ink }}>Próximo Residente</span>
           </Link>
           <span style={{ ...mono, fontSize: 11, letterSpacing: '0.08em', border: `2px solid ${C.ink}`, borderRadius: 999, padding: '4px 10px', color: C.ink }}>ACCESO</span>
         </div>

@@ -75,7 +75,7 @@ export default function ResetPasswordPage() {
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
           <Link href="/" style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: 10, textDecoration: 'none' }}>
             <Image src="/ape-logo-negro.png" alt="Aurora Pixel Studio" width={88} height={88} style={{ objectFit: 'contain' }} />
-            <span style={{ ...mono, fontSize: 13, letterSpacing: '0.14em', color: C.ink }}>MIR PREP</span>
+            <span style={{ ...mono, fontSize: 13, letterSpacing: '0.14em', color: C.ink }}>Próximo Residente</span>
           </Link>
           <span style={{ ...mono, fontSize: 11, letterSpacing: '0.08em', border: `2px solid ${C.ink}`, borderRadius: 999, padding: '4px 10px', color: C.ink }}>NUEVA CLAVE</span>
         </div>
@@ -91,7 +91,7 @@ export default function ResetPasswordPage() {
         </div>
 
         <div style={{ ...mono, fontSize: 11, letterSpacing: '0.08em', color: C.ink, opacity: 0.6 }}>
-          MIR PREP — Recuperación de acceso
+          Próximo Residente — Recuperación de acceso
         </div>
 
         <div style={{ position: 'absolute', bottom: -80, right: -80, width: 240, height: 240, borderRadius: '50%', background: C.orange, border: `4px solid ${C.ink}`, opacity: 0.2 }} />

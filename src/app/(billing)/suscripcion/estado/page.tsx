@@ -87,7 +87,7 @@ export default function EstadoSuscripcionPage() {
             SUSCRIPCIÓN CONFIRMADA
           </h1>
           <p style={{ ...bodyFont, fontSize: 15, color: C.ink, opacity: 0.6, lineHeight: 1.6, marginBottom: 32 }}>
-            Ya tienes acceso completo a MIR Prep. Prepárate para tu examen de residencia.
+            Ya tienes acceso completo a Próximo Residente. Prepárate para tu examen de residencia.
           </p>
           <button
             onClick={() => router.push('/dashboard')}

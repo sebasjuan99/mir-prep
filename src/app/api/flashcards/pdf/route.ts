@@ -133,7 +133,7 @@ export async function GET(request: NextRequest) {
   return new NextResponse(pdf, {
     headers: {
       'Content-Type': 'application/pdf',
-      'Content-Disposition': 'attachment; filename="flashcards-mir-prep.pdf"',
+      'Content-Disposition': 'attachment; filename="flashcards-proximo-residente.pdf"',
       'Content-Length': String(pdf.length),
     },
   })
