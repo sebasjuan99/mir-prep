@@ -83,7 +83,16 @@ export function useSimulacro() {
     setSelectedOption(letra)
     setShowResult(true)
     setRespuestas(prev => [...prev, resp])
-  }, [showResult, preguntaActual])
+
+    // Guardado incremental: persiste la respuesta en el momento (no bloquea la UI).
+    if (sesionId) {
+      fetch('/api/simulacro/responder', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ sesion_id: sesionId, ...resp }),
+      }).catch(() => {})
+    }
+  }, [showResult, preguntaActual, sesionId])
 
   const siguiente = useCallback(async () => {
     if (currentIndex < preguntas.length - 1) {
