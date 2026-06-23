@@ -13,6 +13,7 @@ interface Pregunta {
   dificultad: string
   imagen_url: string | null
   video_url: string | null
+  tipoExamen: { codigo: string; nombre: string } | null
 }
 
 export default function PreguntasAdmin() {
@@ -76,24 +77,25 @@ export default function PreguntasAdmin() {
         <table className="w-full text-sm">
           <thead>
             <tr style={{ borderBottom: '2px solid var(--border)' }}>
-              {['#MIR', 'Especialidad', 'Tema', 'Dificultad', 'Media', 'Acciones'].map((h, i) => (
-                <th key={h} className={`${i === 5 ? 'text-right' : 'text-left'} py-3 px-4 font-semibold ${i === 2 ? 'hidden md:table-cell' : ''}`} style={{ color: 'var(--text-muted)' }}>{h}</th>
+              {['#MIR', 'Especialidad', 'Examen', 'Tema', 'Dificultad', 'Media', 'Acciones'].map((h, i) => (
+                <th key={h} className={`${i === 6 ? 'text-right' : 'text-left'} py-3 px-4 font-semibold ${i === 3 ? 'hidden md:table-cell' : ''}`} style={{ color: 'var(--text-muted)' }}>{h}</th>
               ))}
             </tr>
           </thead>
           <tbody>
             {loading ? Array.from({ length: 5 }).map((_, i) => (
               <tr key={i} style={{ borderBottom: '1px solid var(--border)' }}>
-                {Array.from({ length: 6 }).map((_, j) => <td key={j} className="py-3 px-4"><div className="skeleton h-5 rounded w-20" /></td>)}
+                {Array.from({ length: 7 }).map((_, j) => <td key={j} className="py-3 px-4"><div className="skeleton h-5 rounded w-20" /></td>)}
               </tr>
             )) : preguntas.length === 0 ? (
-              <tr><td colSpan={6} className="py-12 text-center" style={{ color: 'var(--text-muted)' }}>No se encontraron preguntas</td></tr>
+              <tr><td colSpan={7} className="py-12 text-center" style={{ color: 'var(--text-muted)' }}>No se encontraron preguntas</td></tr>
             ) : preguntas.map((p) => {
               const dc = dificultadColors[p.dificultad] || dificultadColors.media
               return (
                 <tr key={p.id} style={{ borderBottom: '1px solid var(--border)' }}>
                   <td className="py-3 px-4 font-bold font-mono" style={{ color: 'var(--accent)' }}>{p.numero_mir}</td>
                   <td className="py-3 px-4"><span className="px-2 py-0.5 rounded-full text-xs font-semibold" style={{ background: 'var(--accent-light)', color: 'var(--accent-dark)' }}>{p.especialidad}</span></td>
+                  <td className="py-3 px-4">{p.tipoExamen ? <span className="px-2 py-0.5 rounded-full text-xs font-bold font-mono" style={{ background: 'var(--bg-secondary)', color: 'var(--text-primary)' }} title={p.tipoExamen.nombre}>{p.tipoExamen.codigo}</span> : <span style={{ color: 'var(--text-muted)' }}>—</span>}</td>
                   <td className="py-3 px-4 hidden md:table-cell" style={{ color: 'var(--text-muted)' }}>{p.tema}</td>
                   <td className="py-3 px-4"><span className="px-2 py-0.5 rounded-full text-xs font-semibold" style={{ background: dc.bg, color: dc.text }}>{p.dificultad}</span></td>
                   <td className="py-3 px-4">
