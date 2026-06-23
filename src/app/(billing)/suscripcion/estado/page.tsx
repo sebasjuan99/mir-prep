@@ -13,6 +13,23 @@ export default function EstadoSuscripcionPage() {
     let attempts = 0
     const maxAttempts = 10
 
+    // Mercado Pago añade ?preapproval_id=... a la back_url al volver del checkout.
+    // Lo usamos para vincular la suscripción al usuario logueado de forma fiable.
+    const preapprovalId = new URLSearchParams(window.location.search).get('preapproval_id')
+
+    async function vincularSiAplica() {
+      if (!preapprovalId) return
+      try {
+        await fetch('/api/suscripcion/confirmar', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ preapproval_id: preapprovalId }),
+        })
+      } catch {
+        // si falla, el polling de estado seguirá intentando vía webhook
+      }
+    }
+
     async function checkStatus() {
       try {
         const res = await fetch('/api/suscripcion/estado')
@@ -35,7 +52,7 @@ export default function EstadoSuscripcionPage() {
       }
     }
 
-    checkStatus()
+    vincularSiAplica().then(checkStatus)
   }, [])
 
   const isActive = status === 'authorized'

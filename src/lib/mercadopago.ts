@@ -11,7 +11,7 @@ function headers() {
 // El free_trial sólo es posible mediante un plan asociado, por eso no creamos la
 // suscripción por API sino que redirigimos al checkout del plan. Mercado Pago recoge
 // la tarjeta, aplica los 7 días gratis y dispara el webhook subscription_preapproval.
-const MP_PLAN_ID = process.env.MP_PREAPPROVAL_PLAN_ID || '4270f42f36d0400988ea6af442afd2da'
+export const MP_PLAN_ID = process.env.MP_PREAPPROVAL_PLAN_ID || '4270f42f36d0400988ea6af442afd2da'
 
 export function crearCheckoutSuscripcion(externalReference: string) {
   const params = new URLSearchParams({
@@ -38,6 +38,7 @@ export async function obtenerSuscripcion(suscripcionId: string) {
     status: string
     payer_email: string
     external_reference: string
+    preapproval_plan_id: string
     date_created: string
     last_modified: string
     auto_recurring: {
