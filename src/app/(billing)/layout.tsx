@@ -1,10 +1,12 @@
 import { createServerSupabaseClient } from '@/lib/supabase/server'
 import { redirect } from 'next/navigation'
 import NavBar from '@/components/NavBar'
-import { prisma } from '@/lib/prisma'
 import { C, bodyFont } from '@/lib/cm'
 
-export default async function ProtectedLayout({
+// Auth-only layout for billing/subscription pages. Unlike (protected), it does
+// NOT enforce the paywall — otherwise an unpaid user redirected here would be
+// redirected again, causing an infinite /suscripcion -> /suscripcion loop.
+export default async function BillingLayout({
   children,
 }: {
   children: React.ReactNode
@@ -13,21 +15,6 @@ export default async function ProtectedLayout({
   const { data: { user } } = await supabase.auth.getUser()
 
   if (!user) redirect('/login')
-
-  // Paywall: anyone without an active subscription is sent to /suscripcion,
-  // which lives in the (billing) group and is NOT wrapped by this layout — so
-  // there is no redirect loop.
-  const dbUser = await prisma.usuario.findUnique({
-    where: { auth_id: user.id },
-    select: { suscripcionStatus: true, role: true },
-  })
-
-  const isAdmin = dbUser?.role === 'admin'
-  const isSubscribed = dbUser?.suscripcionStatus === 'authorized'
-
-  if (!isAdmin && !isSubscribed) {
-    redirect('/suscripcion')
-  }
 
   return (
     <div style={{ ...bodyFont, background: C.cream, color: C.ink, minHeight: '100vh' }}>
