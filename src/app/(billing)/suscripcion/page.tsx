@@ -40,29 +40,27 @@ export default function SuscripcionPage() {
     <div style={{ maxWidth: 640, margin: '0 auto', paddingTop: 24 }}>
       <div style={{ textAlign: 'center', marginBottom: 48 }}>
         <div style={{ ...mono, fontSize: 10, letterSpacing: '0.12em', color: C.ink, opacity: 0.45, marginBottom: 12 }}>
-          SUSCRIPCIÓN
+          PRUEBA SIN COSTO
         </div>
         <h1 style={{ ...disp, fontSize: 'clamp(2rem, 5vw, 3.5rem)', color: C.ink, margin: 0, marginBottom: 16 }}>
-          ACTIVA TU ACCESO
+          EMPIEZA GRATIS
         </h1>
         <p style={{ ...bodyFont, fontSize: 16, color: C.ink, opacity: 0.6, lineHeight: 1.6, maxWidth: 480, margin: '0 auto' }}>
-          Prepárate para tu examen de residencia médica con la plataforma más completa de práctica.
+          Prueba toda la plataforma 7 días sin pagar nada. Si te sirve, sigues por $87.000 COP/mes. Cancela cuando quieras.
         </p>
       </div>
 
       <div style={{ border: inkBorder, background: C.cream, marginBottom: 32 }}>
         {/* Price header */}
         <div style={{ background: C.ink, padding: '32px 28px', textAlign: 'center' }}>
-          <div style={{ ...mono, fontSize: 10, letterSpacing: '0.14em', color: C.cream, opacity: 0.55, marginBottom: 8 }}>
-            PLAN MENSUAL
+          <div style={{ ...mono, fontSize: 10, letterSpacing: '0.14em', color: C.cream, opacity: 0.55, marginBottom: 10 }}>
+            PRUEBA SIN COMPROMISO
           </div>
-          <div style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'center', gap: 8 }}>
-            <span style={{ ...disp, fontSize: 'clamp(2.5rem, 6vw, 4rem)', color: C.cream }}>
-              $87.000
-            </span>
-            <span style={{ ...mono, fontSize: 11, color: C.cream, opacity: 0.5 }}>
-              COP / MES
-            </span>
+          <div style={{ ...disp, fontSize: 'clamp(2.2rem, 6.5vw, 3.6rem)', color: C.cream, lineHeight: 0.95 }}>
+            7 DÍAS GRATIS
+          </div>
+          <div style={{ ...mono, fontSize: 12, letterSpacing: '0.06em', color: C.cream, opacity: 0.7, marginTop: 12 }}>
+            LUEGO $87.000 COP / MES
           </div>
         </div>
 
@@ -107,7 +105,7 @@ export default function SuscripcionPage() {
               letterSpacing: '0.02em',
             }}
           >
-            {loading ? 'PROCESANDO...' : 'SUSCRIBIRME AHORA'}
+            {loading ? 'PROCESANDO...' : 'EMPEZAR 7 DÍAS GRATIS →'}
           </button>
 
           {error && (
@@ -117,7 +115,7 @@ export default function SuscripcionPage() {
           )}
 
           <div style={{ ...mono, fontSize: 9, color: C.ink, opacity: 0.35, textAlign: 'center', marginTop: 14, lineHeight: 1.6 }}>
-            PAGO SEGURO VIA MERCADO PAGO — CANCELA CUANDO QUIERAS
+            SIN COBRO HOY · CANCELA CUANDO QUIERAS · PAGO SEGURO VÍA MERCADO PAGO
           </div>
         </div>
       </div>
