@@ -42,6 +42,7 @@ export async function GET(request: NextRequest) {
       skip: (page - 1) * limit,
       take: limit,
       orderBy: { numero_mir: 'desc' },
+      include: { tipoExamen: { select: { codigo: true, nombre: true } } },
     }),
     prisma.pregunta.count({ where }),
   ])
@@ -59,10 +60,19 @@ export async function POST(request: NextRequest) {
   if (!admin) return NextResponse.json({ error: 'No autorizado' }, { status: 403 })
 
   const body = await request.json()
-  const { numero_mir, enunciado, opciones, respuesta_correcta, imagen_url, video_url, especialidad, tema, subtema, dificultad } = body
+  const { numero_mir, enunciado, opciones, respuesta_correcta, imagen_url, video_url, especialidad, tema, subtema, dificultad, tipoExamen_id } = body
 
   if (!numero_mir || !enunciado || !opciones || !respuesta_correcta || !especialidad || !tema) {
     return NextResponse.json({ error: 'Faltan campos obligatorios' }, { status: 400 })
+  }
+
+  // Puente: si se asigna un tipo de examen, copiamos su nombre al campo legacy `universidad`
+  // para que el simulacro "por universidad" del usuario lo siga encontrando.
+  let universidad: string | null = null
+  if (tipoExamen_id) {
+    const tipo = await prisma.tipoExamen.findUnique({ where: { id: tipoExamen_id } })
+    if (!tipo) return NextResponse.json({ error: 'Tipo de examen no encontrado' }, { status: 400 })
+    universidad = tipo.nombre
   }
 
   const pregunta = await prisma.pregunta.create({
@@ -77,6 +87,8 @@ export async function POST(request: NextRequest) {
       tema,
       subtema: subtema || null,
       dificultad: dificultad || 'media',
+      tipoExamen_id: tipoExamen_id || null,
+      universidad,
     },
   })
 
