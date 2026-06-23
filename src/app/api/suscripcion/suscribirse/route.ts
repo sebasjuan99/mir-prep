@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server'
 import { createServerSupabaseClient } from '@/lib/supabase/server'
 import { prisma } from '@/lib/prisma'
-import { crearSuscripcion } from '@/lib/mercadopago'
+import { crearCheckoutSuscripcion } from '@/lib/mercadopago'
 
 export async function POST() {
   const supabase = await createServerSupabaseClient()
@@ -24,17 +24,18 @@ export async function POST() {
   }
 
   try {
-    const mp = await crearSuscripcion(dbUser.email, dbUser.id)
+    // El checkout del plan (con 7 días de prueba gratis) recoge la tarjeta en MP.
+    // La suscripción se vincula al usuario por external_reference vía webhook.
+    const initPoint = crearCheckoutSuscripcion(dbUser.id)
 
     await prisma.usuario.update({
       where: { id: dbUser.id },
       data: {
-        mpSuscripcionId: mp.id,
         suscripcionStatus: 'pending',
       },
     })
 
-    return NextResponse.json({ init_point: mp.init_point })
+    return NextResponse.json({ init_point: initPoint })
   } catch (e) {
     console.error('Error creating MP subscription:', e)
     return NextResponse.json({ error: 'Error al crear suscripción' }, { status: 500 })

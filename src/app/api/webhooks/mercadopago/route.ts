@@ -57,14 +57,14 @@ export async function POST(request: Request) {
 
       const newStatus = statusMap[mp.status] || mp.status
 
-      // Find user by MP subscription ID or external_reference (our user ID)
+      // Find user by MP subscription ID, external_reference (our user ID) or payer email.
+      // El email es respaldo por si external_reference no llega desde el checkout del plan.
+      const orConds: Array<{ mpSuscripcionId?: string; id?: string; email?: string }> = [{ mpSuscripcionId: suscripcionId }]
+      if (mp.external_reference) orConds.push({ id: mp.external_reference })
+      if (mp.payer_email) orConds.push({ email: mp.payer_email })
+
       const user = await prisma.usuario.findFirst({
-        where: {
-          OR: [
-            { mpSuscripcionId: suscripcionId },
-            { id: mp.external_reference },
-          ],
-        },
+        where: { OR: orConds },
       })
 
       if (user) {
