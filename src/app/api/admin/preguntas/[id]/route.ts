@@ -35,10 +35,9 @@ export async function PUT(
 
   const { id } = await params
   const body = await request.json()
-  const { numero_mir, enunciado, opciones, respuesta_correcta, imagen_url, video_url, especialidad, tema, subtema, dificultad, tipoExamen_id } = body
+  const { enunciado, opciones, respuesta_correcta, imagen_url, video_url, especialidad, tema, subtema, dificultad, tipoExamen_id } = body
 
   const data: Record<string, unknown> = {
-    numero_mir: parseInt(numero_mir),
     enunciado,
     opciones,
     respuesta_correcta,
