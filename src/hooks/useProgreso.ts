@@ -34,6 +34,11 @@ interface UniversidadStat {
   porcentaje: number
 }
 
+interface SesionesPorExamen {
+  universidad: string
+  sesiones: number
+}
+
 export function useProgreso() {
   const [progresoGlobal, setProgresoGlobal] = useState<{
     total: number
@@ -44,15 +49,17 @@ export function useProgreso() {
   const [debilidades, setDebilidades] = useState<Debilidad[]>([])
   const [historial, setHistorial] = useState<HistorialItem[]>([])
   const [universidades, setUniversidades] = useState<UniversidadStat[]>([])
+  const [sesionesPorExamen, setSesionesPorExamen] = useState<SesionesPorExamen[]>([])
   const [loading, setLoading] = useState(true)
 
   const fetchProgreso = useCallback(async () => {
     try {
-      const [progRes, debRes, histRes, univRes] = await Promise.all([
+      const [progRes, debRes, histRes, univRes, sesExRes] = await Promise.all([
         fetch('/api/progreso'),
         fetch('/api/progreso/debilidades'),
         fetch('/api/simulacro/historial'),
         fetch('/api/progreso/universidades'),
+        fetch('/api/progreso/sesiones-universidad'),
       ])
 
       if (progRes.ok) setProgresoGlobal(await progRes.json())
@@ -62,6 +69,7 @@ export function useProgreso() {
         setHistorial(data.historial || [])
       }
       if (univRes.ok) setUniversidades(await univRes.json())
+      if (sesExRes.ok) setSesionesPorExamen(await sesExRes.json())
     } catch (err) {
       console.error(err)
     } finally {
@@ -73,5 +81,5 @@ export function useProgreso() {
     fetchProgreso()
   }, [fetchProgreso])
 
-  return { progresoGlobal, debilidades, historial, universidades, loading, refresh: fetchProgreso }
+  return { progresoGlobal, debilidades, historial, universidades, sesionesPorExamen, loading, refresh: fetchProgreso }
 }

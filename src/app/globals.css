@@ -67,6 +67,17 @@ body {
   .grid-2fr-3fr { grid-template-columns: 2fr 3fr; }
 }
 
+/* dashboard graficas por tipo de examen */
+.grid-charts {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 768px) {
+  .grid-charts { grid-template-columns: repeat(3, 1fr); }
+}
+/* la ultima celda sin borde derecho */
+.grid-charts > .chart-cell:last-child { border-right: none; }
+
 /* especialidades */
 .grid-4col {
   display: grid;

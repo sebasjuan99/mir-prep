@@ -3,6 +3,7 @@
 import Link from 'next/link'
 import { useAuth } from '@/hooks/useAuth'
 import { useProgreso } from '@/hooks/useProgreso'
+import DashboardCharts from '@/components/DashboardCharts'
 import { C, disp, mono, bodyFont, kicker, inkBorder } from '@/lib/cm'
 
 const EXAM_TYPES = [
@@ -16,7 +17,7 @@ const EXAM_TYPES = [
 
 export default function DashboardPage() {
   const { user } = useAuth()
-  const { progresoGlobal, debilidades, historial, universidades, loading } = useProgreso()
+  const { progresoGlobal, debilidades, historial, universidades, sesionesPorExamen, loading } = useProgreso()
 
   if (loading) {
     return (
@@ -190,6 +191,11 @@ export default function DashboardPage() {
           </div>
         )
       })()}
+
+      {/* ─── GRÁFICAS POR TIPO DE EXAMEN ──────────────────────────────────── */}
+      {(universidades.length > 0 || sesionesPorExamen.length > 0) && (
+        <DashboardCharts universidades={universidades} sesionesPorExamen={sesionesPorExamen} />
+      )}
 
       {/* ─── MAIN GRID ──────────────────────────────────────────────────────── */}
       <div className="grid-2fr-3fr" style={{ gap: 0, border: inkBorder, marginBottom: 48 }}>
