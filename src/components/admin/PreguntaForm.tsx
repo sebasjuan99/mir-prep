@@ -27,7 +27,6 @@ export default function PreguntaForm({ initialData, onSave, saving }: PreguntaFo
     ? (initialData.opciones as Opcion[])
     : LETRAS.map((l) => ({ letra: l, texto: '' }))
 
-  const [numeroMir, setNumeroMir] = useState(String(initialData?.numero_mir || ''))
   const [enunciado, setEnunciado] = useState((initialData?.enunciado as string) || '')
   const [opciones, setOpciones] = useState<Opcion[]>(initOpciones)
   const [respuestaCorrecta, setRespuestaCorrecta] = useState((initialData?.respuesta_correcta as string) || 'A')
@@ -59,7 +58,6 @@ export default function PreguntaForm({ initialData, onSave, saving }: PreguntaFo
     e.preventDefault()
     const finalEspecialidad = especialidad === '__custom__' ? customEspecialidad : especialidad
     onSave({
-      numero_mir: parseInt(numeroMir),
       enunciado,
       opciones,
       respuesta_correcta: respuestaCorrecta,
@@ -79,12 +77,6 @@ export default function PreguntaForm({ initialData, onSave, saving }: PreguntaFo
   return (
     <form onSubmit={handleSubmit} className="space-y-6">
       <div className="rounded-xl p-6 space-y-5" style={{ background: 'var(--bg-card)', border: '1px solid var(--border)', boxShadow: 'var(--shadow)' }}>
-        {/* numero_mir */}
-        <div>
-          <label className={labelClass} style={{ color: 'var(--text-primary)' }}>Numero MIR *</label>
-          <input type="number" value={numeroMir} onChange={(e) => setNumeroMir(e.target.value)} required className="w-full px-4 py-2.5 rounded-xl text-sm" style={inputStyle} placeholder="Ej: 1234" />
-        </div>
-
         {/* enunciado */}
         <div>
           <label className={labelClass} style={{ color: 'var(--text-primary)' }}>Enunciado *</label>
