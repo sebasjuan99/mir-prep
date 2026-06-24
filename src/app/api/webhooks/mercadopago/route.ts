@@ -68,6 +68,13 @@ export async function POST(request: Request) {
       })
 
       if (user) {
+        // "Meses pagados" (prospectivo): contamos un ciclo cuando la suscripción
+        // está autorizada y la próxima fecha de cobro avanza respecto a la guardada.
+        // Evita doble conteo en reintentos del webhook (misma next_payment_date).
+        const nuevaExpira = mp.next_payment_date ? new Date(mp.next_payment_date) : null
+        const avanzaCiclo = newStatus === 'authorized' && nuevaExpira &&
+          (!user.suscripcionExpira || nuevaExpira > user.suscripcionExpira)
+
         await prisma.usuario.update({
           where: { id: user.id },
           data: {
@@ -75,7 +82,8 @@ export async function POST(request: Request) {
             suscripcionStatus: newStatus,
             // Solo actualizamos la fecha si MP la envía; si viene vacía (p. ej.
             // tras cancelar) conservamos la existente para respetar el periodo pagado.
-            ...(mp.next_payment_date ? { suscripcionExpira: new Date(mp.next_payment_date) } : {}),
+            ...(nuevaExpira ? { suscripcionExpira: nuevaExpira } : {}),
+            ...(avanzaCiclo ? { mesesPagados: { increment: 1 } } : {}),
           },
         })
       }

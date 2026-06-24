@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { prisma } from '@/lib/prisma'
 import { createServerSupabaseClient } from '@/lib/supabase/server'
+import { getSupabaseAdmin, SERVICE_ROLE_MISSING_MSG } from '@/lib/supabase/admin'
 
 async function requireAdmin() {
   const supabase = await createServerSupabaseClient()
@@ -63,4 +64,49 @@ export async function GET(request: NextRequest) {
     page,
     totalPages: Math.ceil(total / limit),
   })
+}
+
+// Crear usuario manualmente. Requiere service-role (crea el usuario de auth).
+export async function POST(request: NextRequest) {
+  const admin = await requireAdmin()
+  if (!admin) return NextResponse.json({ error: 'No autorizado' }, { status: 403 })
+
+  const supabaseAdmin = getSupabaseAdmin()
+  if (!supabaseAdmin) return NextResponse.json({ error: SERVICE_ROLE_MISSING_MSG }, { status: 503 })
+
+  const body = await request.json()
+  const email = (body.email || '').trim()
+  const password = body.password || ''
+
+  if (!email || !password) {
+    return NextResponse.json({ error: 'Correo y contraseña son obligatorios' }, { status: 400 })
+  }
+  if (password.length < 6) {
+    return NextResponse.json({ error: 'La contraseña debe tener al menos 6 caracteres' }, { status: 400 })
+  }
+
+  // Crea el usuario de auth ya confirmado (sin enviar email de verificación).
+  const { data, error } = await supabaseAdmin.auth.admin.createUser({
+    email,
+    password,
+    email_confirm: true,
+  })
+  if (error || !data.user) {
+    return NextResponse.json({ error: error?.message || 'No se pudo crear el usuario' }, { status: 400 })
+  }
+
+  const usuario = await prisma.usuario.create({
+    data: {
+      auth_id: data.user.id,
+      email,
+      role: body.role === 'admin' ? 'admin' : 'user',
+      nombre: (body.nombre || '').trim() || null,
+      apellido: (body.apellido || '').trim() || null,
+      telefono: (body.telefono || '').trim() || null,
+      profesion: (body.profesion || '').trim() || null,
+      especialidadAplica: (body.especialidadAplica || '').trim() || null,
+    },
+  })
+
+  return NextResponse.json(usuario, { status: 201 })
 }
