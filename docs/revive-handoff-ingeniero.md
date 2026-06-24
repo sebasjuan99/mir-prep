@@ -129,6 +129,8 @@ Requisitos:
 - **Idempotente**: reintentos del mismo `event_id` no deben contar doble.
 - Envía directamente `current_period_end` (la fecha de vencimiento real). Así funciona igual para mensual, anual o cualquier plan futuro — nosotros solo guardamos esa fecha.
 
+> ⚠️ **Aclaración importante:** `current_period_end` **no es una columna de Supabase**, no lo busques ahí. Es un dato que **tu sistema de cobros ya tiene** (la fecha "pagado hasta") y que solo debes **incluir en el cuerpo del webhook**. Tu pasarela de pago suele entregarlo con ese nombre o equivalente (p. ej. Stripe: `current_period_end`; MercadoPago: `next_payment_date` dentro de la suscripción). Nosotros recibimos ese valor y lo guardamos en nuestra columna `suscripcionExpira` (tabla `Usuario`) — tú no tocas esa tabla.
+
 ---
 
 ## 3. Lo que hacemos nosotros (Próximo Residente) ✅
