@@ -63,7 +63,7 @@ export async function GET() {
     .sort((a, b) => a.especialidad.localeCompare(b.especialidad))
 
   // Recent sessions
-  const recentSessions = await prisma.sesion.findMany({
+  const recentSessionsRaw = await prisma.sesion.findMany({
     take: 10,
     orderBy: { createdAt: 'desc' },
     select: {
@@ -71,11 +71,28 @@ export async function GET() {
       user_id: true,
       tipo: true,
       filtro: true,
+      universidad: true,
       score: true,
       total: true,
       completada: true,
       createdAt: true,
     },
+  })
+
+  // Enriquecer con el usuario (nombre/email) — Sesion.user_id es el auth_id.
+  const sessionAuthIds = [...new Set(recentSessionsRaw.map((s) => s.user_id))]
+  const sessionUsers = await prisma.usuario.findMany({
+    where: { auth_id: { in: sessionAuthIds } },
+    select: { auth_id: true, nombre: true, email: true },
+  })
+  const sessionUserMap = new Map(sessionUsers.map((u) => [u.auth_id, u]))
+
+  const recentSessions = recentSessionsRaw.map((s) => {
+    const u = sessionUserMap.get(s.user_id)
+    return {
+      ...s,
+      usuario: u ? { nombre: u.nombre, email: u.email } : null,
+    }
   })
 
   return NextResponse.json({
