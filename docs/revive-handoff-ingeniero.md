@@ -17,8 +17,9 @@ Hola 👋. Este documento resume lo acordado para embeber **Próximo Residente**
 Sin esto no podemos terminar nuestras Fases 2 y 3:
 
 1. **Secreto compartido (`SSO_SHARED_SECRET`)** — una clave para firmar tanto el token SSO como el webhook. Compártela por un **canal seguro** (gestor de contraseñas compartido), nunca por chat/correo.
-2. **Período de gracia ante impago** — cuando un cobro falla, ¿cortamos el acceso de inmediato o damos unos días de gracia? (recomendamos 3-5 días para reintentos de tarjeta).
-3. **Confirmar el origin** — ¿el iframe carga solo desde `https://revivevirtual.com`, o también desde `https://www.revivevirtual.com`?
+2. **Confirmar el origin** — ¿el iframe carga solo desde `https://revivevirtual.com`, o también desde `https://www.revivevirtual.com`?
+
+> **Nota sobre vencimiento:** sin período de gracia. El acceso se corta exactamente al llegar `current_period_end` (o ante cancelación/impago). Por eso es importante que `current_period_end` refleje la fecha real hasta la que el usuario pagó.
 
 ---
 
@@ -156,7 +157,75 @@ Requisitos:
 
 Cada mes/año:
 - Cobro OK  → webhook → se extiende current_period_end → sigue activo
-- Impago    → webhook → no se extiende → al vencer, acceso cortado (auto)
+- Impago    → webhook → no se extiende → al vencer, acceso cortado (sin gracia, automático)
+```
+
+### Diagrama de responsabilidades (quién escribe qué y dónde)
+
+> Regla de oro: **Revive solo escribe en `auth.users` y envía webhooks. Nunca toca la tabla `Usuario`.** Próximo Residente es el dueño de la suscripción/acceso.
+
+```
+   REVIVE (revivevirtual.com)                 PRÓXIMO RESIDENTE (proximoresidente.com)
+   ───────────────────────────               ─────────────────────────────────────────
+
+   [Sistema de cobros]
+        │
+        │ 1) crea el usuario
+        ▼
+   ┌──────────────────────┐
+   │ Supabase · auth.users│ ◄──── (login: PR lee de aquí al iniciar sesión)
+   └──────────────────────┘
+        │
+        │ 2) webhook payment.success
+        │    { email, plan, current_period_end }
+        ▼
+                                          ┌────────────────────────────┐
+                                          │  POST /api/webhooks/revive  │
+                                          └────────────────────────────┘
+                                                       │ escribe
+                                                       ▼
+                                          ┌────────────────────────────┐
+                                          │  Tabla Usuario (de PR)      │
+                                          │  · suscripcionExpira        │
+                                          │  · suscripcionOrigen=revive │
+                                          │  · suscripcionStatus        │
+                                          └────────────────────────────┘
+
+        │ 3) carga el iframe + token SSO (postMessage)
+        ▼
+                                          ┌────────────────────────────┐
+                                          │  POST /api/auth/sso         │
+                                          │  valida token → crea sesión │
+                                          └────────────────────────────┘
+
+   ESCRIBE Revive:  Supabase auth.users
+   ESCRIBE PR:      Tabla Usuario (suscripción/acceso) + sesión del iframe
+```
+
+Y el flujo en el tiempo (se ve gráfico en GitHub):
+
+```mermaid
+sequenceDiagram
+    actor U as Usuario
+    participant R as Revive (backend)
+    participant SA as Supabase · auth.users
+    participant PR as Próximo Residente (API)
+    participant DB as Tabla Usuario (PR)
+    participant IF as iframe (PR)
+
+    U->>R: Compra (mensual / anual)
+    R->>SA: 1) Crea usuario en auth.users
+    R->>PR: 2) webhook payment.success {email, plan, current_period_end}
+    PR->>DB: upsert perfil · suscripcionExpira = current_period_end · origen=revive
+    R->>IF: 3) Carga el iframe
+    IF-->>R: postMessage PR_IFRAME_READY
+    R->>IF: postMessage PR_SSO_TOKEN (JWT)
+    IF->>PR: POST /api/auth/sso (token)
+    PR->>SA: valida y resuelve usuario
+    PR-->>IF: access_token + refresh_token
+    IF->>IF: setSession() → sesión activa
+    IF-->>R: postMessage PR_SSO_OK
+    Note over U,IF: Usuario logueado y con acceso dentro del iframe
 ```
 
 ---
@@ -164,7 +233,6 @@ Cada mes/año:
 ## 5. Checklist de implementación (lado Revive)
 
 - [ ] Acordar y compartir `SSO_SHARED_SECRET` por canal seguro
-- [ ] Confirmar período de gracia ante impago
 - [ ] Confirmar origin (`revivevirtual.com` y/o `www.`)
 - [ ] Generar el token JWT (HS256, claims y expiración indicados)
 - [ ] Embeber el iframe con `allow="fullscreen"`
