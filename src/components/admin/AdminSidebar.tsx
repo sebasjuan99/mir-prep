@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
+import { useAuth } from '@/hooks/useAuth'
 
 const navItems = [
   { href: '/admin', label: 'Dashboard', icon: 'M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-4 0h4' },
@@ -16,6 +17,7 @@ const navItems = [
 
 export default function AdminSidebar() {
   const pathname = usePathname()
+  const { signOut } = useAuth()
   const [open, setOpen] = useState(false)
 
   const isActive = (href: string) => {
@@ -91,8 +93,8 @@ export default function AdminSidebar() {
           ))}
         </nav>
 
-        {/* Footer link */}
-        <div className="px-3 py-4 border-t" style={{ borderColor: '#2A2A26' }}>
+        {/* Footer links */}
+        <div className="px-3 py-4 border-t space-y-1" style={{ borderColor: '#2A2A26' }}>
           <Link
             href="/dashboard"
             className="flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-colors"
@@ -103,6 +105,16 @@ export default function AdminSidebar() {
             </svg>
             Volver al dashboard
           </Link>
+          <button
+            onClick={() => signOut()}
+            className="w-full flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-colors"
+            style={{ color: '#C17E4A', background: 'transparent' }}
+          >
+            <svg width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" />
+            </svg>
+            Cerrar sesión
+          </button>
         </div>
       </aside>
     </>
