@@ -61,11 +61,11 @@ export default function AdminDashboard() {
   const best = [...sorted].reverse().slice(0, 5)
 
   const statCards = [
-    { label: 'Total preguntas', value: stats.totalPreguntas, color: 'var(--accent)', sub: undefined as string | undefined },
-    { label: 'Total usuarios', value: stats.totalUsuarios, color: '#5B8DEF', sub: undefined },
-    { label: 'Sesiones completadas', value: stats.sesionesCompletadas, color: 'var(--success)', sub: `${stats.sesionesIniciadas ?? stats.sesionesCompletadas} iniciadas` },
-    { label: 'Respuestas totales', value: stats.totalRespuestas, color: '#9B6DD7', sub: 'incluye simulacros en curso' },
-    { label: 'Respuestas (completados)', value: stats.respuestasCompletadas ?? 0, color: '#C17E4A', sub: 'solo simulacros terminados' },
+    { label: 'Total preguntas', value: stats.totalPreguntas, color: 'var(--accent)', sub: undefined as string | undefined, tip: 'Número total de preguntas en el banco.' },
+    { label: 'Total usuarios', value: stats.totalUsuarios, color: '#5B8DEF', sub: undefined, tip: 'Número total de usuarios registrados.' },
+    { label: 'Sesiones completadas', value: stats.sesionesCompletadas, color: 'var(--success)', sub: `${stats.sesionesIniciadas ?? stats.sesionesCompletadas} iniciadas`, tip: 'Simulacros que el usuario terminó (llegó a la última pregunta). El subtítulo muestra cuántos se iniciaron en total, incluidos los abandonados a mitad.' },
+    { label: 'Respuestas totales', value: stats.totalRespuestas, color: '#9B6DD7', sub: 'incluye simulacros en curso', tip: 'Todas las respuestas registradas. Como ahora cada respuesta se guarda al instante, incluye también las de simulacros aún en curso o abandonados.' },
+    { label: 'Respuestas (completados)', value: stats.respuestasCompletadas ?? 0, color: '#C17E4A', sub: 'solo simulacros terminados', tip: 'Respuestas que pertenecen a simulacros que el usuario terminó. Es la cifra comparable con el histórico previo.' },
   ]
 
   return (
@@ -75,8 +75,11 @@ export default function AdminDashboard() {
       {/* Stat cards */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
         {statCards.map((card) => (
-          <div key={card.label} className="rounded-xl p-5" style={{ background: 'var(--bg-card)', border: '1px solid var(--border)', boxShadow: 'var(--shadow)' }}>
-            <p className="text-sm font-medium mb-1" style={{ color: 'var(--text-muted)' }}>{card.label}</p>
+          <div key={card.label} title={card.tip} className="rounded-xl p-5 cursor-help" style={{ background: 'var(--bg-card)', border: '1px solid var(--border)', boxShadow: 'var(--shadow)' }}>
+            <p className="text-sm font-medium mb-1 flex items-center gap-1" style={{ color: 'var(--text-muted)' }}>
+              {card.label}
+              <span aria-hidden className="inline-flex items-center justify-center text-[10px] rounded-full w-3.5 h-3.5" style={{ border: '1px solid var(--text-muted)', opacity: 0.6 }}>i</span>
+            </p>
             <p className="text-3xl font-bold font-[var(--font-display)]" style={{ color: card.color }}>{card.value.toLocaleString()}</p>
             {card.sub && <p className="text-xs mt-1" style={{ color: 'var(--text-muted)' }}>{card.sub}</p>}
           </div>
