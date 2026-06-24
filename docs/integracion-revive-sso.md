@@ -151,7 +151,7 @@ Así Revive queda desacoplado del esquema de la app: solo toca `auth.users` y no
 Revive cierra venta → crea auth.users + manda webhook de cobro
    ├─ Cobro OK / renovación → webhook → upsert del perfil Usuario:
    │                                     suscripcionOrigen = "revive"
-   │                                     suscripcionExpira = current_period_end + gracia
+   │                                     suscripcionExpira = current_period_end
    │                                     (usuario activo)
    ├─ Cobro fallido         → webhook → no se renueva la fecha
    └─ Cancelación           → webhook → al pasar suscripcionExpira el usuario
@@ -188,12 +188,12 @@ Aunque un webhook se pierda, como el acceso depende de `suscripcionExpira`, el u
 
 ## ❓ Decisiones pendientes (necesitamos respuesta de Revive)
 
-1. **Período de gracia ante impago:** cuando un cobro falla, ¿se corta el acceso **de inmediato** o se dan unos días de gracia (recomendado 3-5 días para reintentos de tarjeta)?
-2. **Secreto compartido:** ¿por qué canal seguro lo intercambiamos? (gestor de contraseñas compartido) — sirve tanto para firmar el token SSO como el webhook.
-3. **Confirmar origin:** ¿solo `https://revivevirtual.com` o también `https://www.revivevirtual.com`?
+1. **Secreto compartido:** ¿por qué canal seguro lo intercambiamos? (gestor de contraseñas compartido) — sirve tanto para firmar el token SSO como el webhook.
+2. **Confirmar origin:** ¿solo `https://revivevirtual.com` o también `https://www.revivevirtual.com`?
 
 ### Decisiones ya cerradas
 
+- **Período de gracia:** **sin gracia** para usuarios de Revive. El acceso se corta apenas vence `current_period_end` (o ante cancelación/impago). `suscripcionExpira = current_period_end` exacto.
 - **Alta de usuarios:** Revive crea el usuario de `auth.users` al cerrar la venta; el perfil `Usuario` de la app lo crea/sincroniza nuestro webhook. Revive **no** toca la tabla `Usuario`.
 - **Planes mensual/anual:** el webhook envía `plan` + `current_period_end`; nosotros guardamos esa fecha como vencimiento (agnóstico al plan).
 - **Cámara/micrófono:** la plataforma no los usa → no se configuran permisos especiales (punto 6 cerrado).
