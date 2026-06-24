@@ -22,6 +22,16 @@ function formatFecha(iso: string | null) {
   }
 }
 
+const PERFIL_CAMPOS: { key: keyof PerfilForm; label: string; placeholder: string }[] = [
+  { key: 'nombre', label: 'NOMBRE', placeholder: 'Tu nombre' },
+  { key: 'apellido', label: 'APELLIDO', placeholder: 'Tu apellido' },
+  { key: 'telefono', label: 'TELÉFONO MÓVIL', placeholder: '+57 300 000 0000' },
+  { key: 'profesion', label: 'PROFESIÓN', placeholder: 'Ej: Médico general' },
+  { key: 'especialidadAplica', label: 'ESPECIALIDAD A LA QUE APLICAS', placeholder: 'Ej: Cardiología' },
+]
+
+type PerfilForm = { nombre: string; apellido: string; telefono: string; profesion: string; especialidadAplica: string }
+
 export default function CuentaPage() {
   const router = useRouter()
   const [estado, setEstado] = useState<Estado | null>(null)
@@ -30,11 +40,25 @@ export default function CuentaPage() {
   const [confirmar, setConfirmar] = useState(false)
   const [error, setError] = useState('')
 
+  const [perfil, setPerfil] = useState<PerfilForm>({ nombre: '', apellido: '', telefono: '', profesion: '', especialidadAplica: '' })
+  const [guardandoPerfil, setGuardandoPerfil] = useState(false)
+  const [perfilMsg, setPerfilMsg] = useState('')
+
   const cargar = useCallback(async () => {
     try {
-      const res = await fetch('/api/suscripcion/estado')
-      const data = await res.json()
+      const [resEstado, resPerfil] = await Promise.all([
+        fetch('/api/suscripcion/estado'),
+        fetch('/api/user/perfil'),
+      ])
+      const data = await resEstado.json()
       setEstado({ status: data.status, expira: data.expira ?? null })
+      const p = await resPerfil.json()
+      if (p && !p.error) {
+        setPerfil({
+          nombre: p.nombre || '', apellido: p.apellido || '', telefono: p.telefono || '',
+          profesion: p.profesion || '', especialidadAplica: p.especialidadAplica || '',
+        })
+      }
     } catch {
       setError('No se pudo cargar el estado')
     } finally {
@@ -43,6 +67,24 @@ export default function CuentaPage() {
   }, [])
 
   useEffect(() => { cargar() }, [cargar])
+
+  async function guardarPerfil(e: React.FormEvent) {
+    e.preventDefault()
+    setGuardandoPerfil(true)
+    setPerfilMsg('')
+    try {
+      const res = await fetch('/api/user/perfil', {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(perfil),
+      })
+      setPerfilMsg(res.ok ? 'Datos guardados' : 'No se pudieron guardar')
+    } catch {
+      setPerfilMsg('Error de conexión')
+    } finally {
+      setGuardandoPerfil(false)
+    }
+  }
 
   async function handleCancelar() {
     setCancelando(true)
@@ -158,6 +200,39 @@ export default function CuentaPage() {
             )}
           </div>
         </div>
+      )}
+
+      {/* MIS DATOS */}
+      {!loading && (
+        <form onSubmit={guardarPerfil} style={{ border: inkBorder, marginTop: 40 }}>
+          <div style={{ borderBottom: inkBorder, padding: '20px 28px' }}>
+            <span style={{ ...mono, fontSize: 11, letterSpacing: '0.1em', color: C.ink2 }}>MIS DATOS</span>
+          </div>
+          <div style={{ padding: '24px 28px', display: 'flex', flexDirection: 'column', gap: 16 }}>
+            {PERFIL_CAMPOS.map((c) => (
+              <div key={c.key}>
+                <label style={{ ...mono, fontSize: 10, letterSpacing: '0.1em', color: C.ink2, display: 'block', marginBottom: 6 }}>{c.label}</label>
+                <input
+                  type="text"
+                  value={perfil[c.key]}
+                  onChange={(e) => setPerfil({ ...perfil, [c.key]: e.target.value })}
+                  placeholder={c.placeholder}
+                  style={{ ...bodyFont, fontSize: 15, width: '100%', padding: '12px 14px', border: inkBorder, background: C.cream, color: C.ink, outline: 'none' }}
+                />
+              </div>
+            ))}
+            <div style={{ display: 'flex', alignItems: 'center', gap: 16 }}>
+              <button
+                type="submit"
+                disabled={guardandoPerfil}
+                style={{ ...mono, fontSize: 12, letterSpacing: '0.08em', padding: '14px 24px', border: 'none', background: C.ink, color: C.cream, cursor: guardandoPerfil ? 'wait' : 'pointer' }}
+              >
+                {guardandoPerfil ? 'GUARDANDO...' : 'GUARDAR DATOS'}
+              </button>
+              {perfilMsg && <span style={{ ...mono, fontSize: 11, color: C.green }}>{perfilMsg}</span>}
+            </div>
+          </div>
+        </form>
       )}
     </div>
   )
