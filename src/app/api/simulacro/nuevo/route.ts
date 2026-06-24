@@ -12,6 +12,8 @@ export async function GET(request: NextRequest) {
   const tipo = searchParams.get('tipo') || 'aleatorio'
   const especialidad = searchParams.get('especialidad')
   const universidad = searchParams.get('universidad')
+  // Simulacro completo por universidad: 100 preguntas (o las que haya disponibles).
+  const esCompleto = tipo === 'completo'
 
   let preguntas
 
@@ -33,8 +35,9 @@ export async function GET(request: NextRequest) {
       orderBy: { createdAt: 'asc' },
     })
   } else if (universidad) {
+    const limite = esCompleto ? 100 : 20
     preguntas = await prisma.$queryRaw`
-      SELECT * FROM "Pregunta" WHERE universidad = ${universidad} ORDER BY RANDOM() LIMIT 20
+      SELECT * FROM "Pregunta" WHERE universidad = ${universidad} ORDER BY RANDOM() LIMIT ${limite}
     `
   } else if (especialidad) {
     const allRaw = await prisma.pregunta.groupBy({ by: ['especialidad'] })
@@ -63,10 +66,11 @@ export async function GET(request: NextRequest) {
   const sesion = await prisma.sesion.create({
     data: {
       user_id: user.id,
-      tipo: universidad ? 'universidad' : tipo,
+      // 'completo' = simulacro completo por universidad; si no, mantiene el comportamiento previo.
+      tipo: esCompleto ? 'completo' : (universidad ? 'universidad' : tipo),
       filtro: especialidad,
       universidad,
-      total: preguntaIds.length || 20,
+      total: preguntaIds.length || (esCompleto ? 100 : 20),
       preguntas_orden: preguntaIds,
       ultima_actividad: new Date(),
     },
