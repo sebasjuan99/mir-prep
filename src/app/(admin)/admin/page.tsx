@@ -55,8 +55,11 @@ export default function AdminDashboard() {
 
   if (loading) {
     return (
-      <div className="space-y-6">
-        <h1 className="text-2xl font-bold font-[var(--font-display)]" style={{ color: 'var(--text-primary)' }}>Dashboard</h1>
+      <div className="space-y-10">
+        <header>
+          <p className="text-xs font-semibold tracking-[0.18em] uppercase mb-2" style={{ color: 'var(--text-muted)' }}>Panel de administración</p>
+          <h1 className="text-3xl font-bold font-[var(--font-display)]" style={{ color: 'var(--text-primary)' }}>Dashboard</h1>
+        </header>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
           {[1, 2, 3, 4, 5].map((i) => <div key={i} className="skeleton h-28 rounded-xl" />)}
         </div>
@@ -80,28 +83,31 @@ export default function AdminDashboard() {
   ]
 
   return (
-    <div className="space-y-8">
-      <h1 className="text-2xl font-bold font-[var(--font-display)]" style={{ color: 'var(--text-primary)' }}>Dashboard</h1>
+    <div className="space-y-10">
+      <header>
+        <p className="text-xs font-semibold tracking-[0.18em] uppercase mb-2" style={{ color: 'var(--text-muted)' }}>Panel de administración</p>
+        <h1 className="text-3xl font-bold font-[var(--font-display)]" style={{ color: 'var(--text-primary)' }}>Dashboard</h1>
+      </header>
 
       {/* Stat cards */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-px rounded-xl overflow-hidden" style={{ background: 'var(--border)', border: '1px solid var(--border)' }}>
         {statCards.map((card) => (
-          <div key={card.label} title={card.tip} className="rounded-xl p-5 cursor-help" style={{ background: 'var(--bg-card)', border: '1px solid var(--border)', boxShadow: 'var(--shadow)' }}>
-            <p className="text-sm font-medium mb-1 flex items-center gap-1" style={{ color: 'var(--text-muted)' }}>
+          <div key={card.label} title={card.tip} className="p-5 cursor-help" style={{ background: 'var(--bg-card)' }}>
+            <p className="text-[11px] font-semibold tracking-[0.08em] uppercase mb-3 flex items-center gap-1" style={{ color: 'var(--text-muted)' }}>
               {card.label}
-              <span aria-hidden className="inline-flex items-center justify-center text-[10px] rounded-full w-3.5 h-3.5" style={{ border: '1px solid var(--text-muted)', opacity: 0.6 }}>i</span>
+              <span aria-hidden className="inline-flex items-center justify-center text-[9px] rounded-full w-3.5 h-3.5" style={{ border: '1px solid var(--text-muted)', opacity: 0.5 }}>i</span>
             </p>
-            <p className="text-3xl font-bold font-[var(--font-display)]" style={{ color: card.color }}>{card.value.toLocaleString()}</p>
-            {card.sub && <p className="text-xs mt-1" style={{ color: 'var(--text-muted)' }}>{card.sub}</p>}
+            <p className="text-4xl font-bold font-[var(--font-display)] leading-none" style={{ color: card.color }}>{card.value.toLocaleString()}</p>
+            {card.sub && <p className="text-xs mt-2" style={{ color: 'var(--text-muted)' }}>{card.sub}</p>}
           </div>
         ))}
       </div>
 
       {/* Bar chart */}
       {stats.especialidades.length > 0 && (
-        <div className="rounded-xl p-6" style={{ background: 'var(--bg-card)', border: '1px solid var(--border)', boxShadow: 'var(--shadow)' }}>
-          <h2 className="text-lg font-bold mb-5 font-[var(--font-display)]" style={{ color: 'var(--text-primary)' }}>
-            Especialidades \u2014 Porcentaje de aciertos
+        <div className="rounded-xl p-6" style={{ background: 'var(--bg-card)', border: '1px solid var(--border)' }}>
+          <h2 className="text-xs font-semibold tracking-[0.12em] uppercase mb-5" style={{ color: 'var(--text-muted)' }}>
+            Especialidades \u2014 % de aciertos
           </h2>
           <div className="space-y-3">
             {sorted.map((esp) => (
@@ -120,8 +126,8 @@ export default function AdminDashboard() {
       {/* Best / Worst */}
       {stats.especialidades.length > 0 && (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div className="rounded-xl p-5" style={{ background: 'var(--bg-card)', border: '1px solid var(--border)', boxShadow: 'var(--shadow)' }}>
-            <h3 className="text-base font-bold mb-4" style={{ color: 'var(--error)' }}>Peores especialidades</h3>
+          <div className="rounded-xl p-5" style={{ background: 'var(--bg-card)', border: '1px solid var(--border)' }}>
+            <h3 className="text-xs font-semibold tracking-[0.12em] uppercase mb-4" style={{ color: 'var(--error)' }}>Peores especialidades</h3>
             <div className="space-y-2">
               {worst.map((e) => (
                 <div key={e.especialidad} className="flex items-center justify-between px-4 py-3 rounded-lg" style={{ background: 'var(--error-light)' }}>
@@ -131,8 +137,8 @@ export default function AdminDashboard() {
               ))}
             </div>
           </div>
-          <div className="rounded-xl p-5" style={{ background: 'var(--bg-card)', border: '1px solid var(--border)', boxShadow: 'var(--shadow)' }}>
-            <h3 className="text-base font-bold mb-4" style={{ color: 'var(--success)' }}>Mejores especialidades</h3>
+          <div className="rounded-xl p-5" style={{ background: 'var(--bg-card)', border: '1px solid var(--border)' }}>
+            <h3 className="text-xs font-semibold tracking-[0.12em] uppercase mb-4" style={{ color: 'var(--success)' }}>Mejores especialidades</h3>
             <div className="space-y-2">
               {best.map((e) => (
                 <div key={e.especialidad} className="flex items-center justify-between px-4 py-3 rounded-lg" style={{ background: 'var(--success-light)' }}>
@@ -146,8 +152,8 @@ export default function AdminDashboard() {
       )}
 
       {/* Recent sessions */}
-      <div className="rounded-xl p-6 overflow-x-auto" style={{ background: 'var(--bg-card)', border: '1px solid var(--border)', boxShadow: 'var(--shadow)' }}>
-        <h2 className="text-lg font-bold font-[var(--font-display)]" style={{ color: 'var(--text-primary)' }}>Sesiones recientes</h2>
+      <div className="rounded-xl p-6 overflow-x-auto" style={{ background: 'var(--bg-card)', border: '1px solid var(--border)' }}>
+        <h2 className="text-xs font-semibold tracking-[0.12em] uppercase" style={{ color: 'var(--text-muted)' }}>Sesiones recientes</h2>
         <p className="text-xs mb-5 mt-1" style={{ color: 'var(--text-muted)' }}>\u00daltimos 10 simulacros. <strong>Examen</strong>: qu\u00e9 est\u00e1 practicando. <strong>Score</strong>: aciertos / total. <strong>Estado</strong>: si termin\u00f3 el simulacro o sigue en curso.</p>
         <table className="w-full text-sm">
           <thead>
