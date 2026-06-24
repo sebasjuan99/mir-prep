@@ -10,5 +10,16 @@ export function createClient() {
     )
   }
 
-  return createBrowserClient(supabaseUrl, supabaseKey)
+  // Dentro de un iframe cross-site (integración Revive) las cookies de sesión
+  // deben ser SameSite=None; Secure para que el navegador las envíe en los
+  // requests del iframe y el render del servidor reconozca la sesión.
+  // Fuera del iframe (usuarios directos) se conservan los valores por defecto
+  // (Lax), por lo que su experiencia no cambia en absoluto.
+  const inIframe = typeof window !== 'undefined' && window.self !== window.top
+
+  return createBrowserClient(supabaseUrl, supabaseKey,
+    inIframe
+      ? { cookieOptions: { sameSite: 'none', secure: true } }
+      : undefined
+  )
 }
