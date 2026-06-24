@@ -1,11 +1,17 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { ESPECIALIDADES } from '@/lib/constants'
 
 interface Opcion {
   letra: string
   texto: string
+}
+
+interface TipoExamenOption {
+  id: string
+  nombre: string
+  codigo: string
 }
 
 interface PreguntaFormProps {
@@ -32,7 +38,16 @@ export default function PreguntaForm({ initialData, onSave, saving }: PreguntaFo
   const [tema, setTema] = useState((initialData?.tema as string) || '')
   const [subtema, setSubtema] = useState((initialData?.subtema as string) || '')
   const [dificultad, setDificultad] = useState((initialData?.dificultad as string) || 'media')
+  const [tipoExamenId, setTipoExamenId] = useState(String(initialData?.tipoExamen_id || ''))
+  const [tiposExamen, setTiposExamen] = useState<TipoExamenOption[]>([])
   const [showPreview, setShowPreview] = useState(false)
+
+  useEffect(() => {
+    fetch('/api/admin/tipos-examen?activo=true')
+      .then((r) => r.json())
+      .then((data) => { if (Array.isArray(data)) setTiposExamen(data) })
+      .catch(() => {})
+  }, [])
 
   const updateOpcion = (index: number, texto: string) => {
     const next = [...opciones]
@@ -54,6 +69,7 @@ export default function PreguntaForm({ initialData, onSave, saving }: PreguntaFo
       tema,
       subtema: subtema || null,
       dificultad,
+      tipoExamen_id: tipoExamenId || null,
     })
   }
 
@@ -131,14 +147,26 @@ export default function PreguntaForm({ initialData, onSave, saving }: PreguntaFo
           </div>
         </div>
 
-        {/* dificultad */}
-        <div>
-          <label className={labelClass} style={{ color: 'var(--text-primary)' }}>Dificultad</label>
-          <select value={dificultad} onChange={(e) => setDificultad(e.target.value)} className="px-4 py-2.5 rounded-xl text-sm" style={inputStyle}>
-            <option value="baja">Baja</option>
-            <option value="media">Media</option>
-            <option value="alta">Alta</option>
-          </select>
+        {/* dificultad + tipo de examen */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div>
+            <label className={labelClass} style={{ color: 'var(--text-primary)' }}>Dificultad</label>
+            <select value={dificultad} onChange={(e) => setDificultad(e.target.value)} className="w-full px-4 py-2.5 rounded-xl text-sm" style={inputStyle}>
+              <option value="baja">Baja</option>
+              <option value="media">Media</option>
+              <option value="alta">Alta</option>
+            </select>
+          </div>
+          <div>
+            <label className={labelClass} style={{ color: 'var(--text-primary)' }}>Tipo de examen</label>
+            <select value={tipoExamenId} onChange={(e) => setTipoExamenId(e.target.value)} className="w-full px-4 py-2.5 rounded-xl text-sm" style={inputStyle}>
+              <option value="">Sin asignar</option>
+              {tiposExamen.map((t) => <option key={t.id} value={t.id}>{t.nombre} ({t.codigo})</option>)}
+            </select>
+            {tiposExamen.length === 0 && (
+              <p className="text-xs mt-1" style={{ color: 'var(--text-muted)' }}>No hay tipos de examen activos. Créalos en “Tipos de examen”.</p>
+            )}
+          </div>
         </div>
       </div>
 

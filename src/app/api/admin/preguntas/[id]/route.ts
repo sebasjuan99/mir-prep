@@ -35,23 +35,32 @@ export async function PUT(
 
   const { id } = await params
   const body = await request.json()
-  const { numero_mir, enunciado, opciones, respuesta_correcta, imagen_url, video_url, especialidad, tema, subtema, dificultad } = body
+  const { numero_mir, enunciado, opciones, respuesta_correcta, imagen_url, video_url, especialidad, tema, subtema, dificultad, tipoExamen_id } = body
 
-  const pregunta = await prisma.pregunta.update({
-    where: { id },
-    data: {
-      numero_mir: parseInt(numero_mir),
-      enunciado,
-      opciones,
-      respuesta_correcta,
-      imagen_url: imagen_url || null,
-      video_url: video_url || null,
-      especialidad,
-      tema,
-      subtema: subtema || null,
-      dificultad: dificultad || 'media',
-    },
-  })
+  const data: Record<string, unknown> = {
+    numero_mir: parseInt(numero_mir),
+    enunciado,
+    opciones,
+    respuesta_correcta,
+    imagen_url: imagen_url || null,
+    video_url: video_url || null,
+    especialidad,
+    tema,
+    subtema: subtema || null,
+    dificultad: dificultad || 'media',
+    tipoExamen_id: tipoExamen_id || null,
+  }
+
+  // Puente con el campo legacy `universidad`: si hay tipo de examen, sincronizamos su nombre.
+  if (tipoExamen_id) {
+    const tipo = await prisma.tipoExamen.findUnique({ where: { id: tipoExamen_id } })
+    if (!tipo) return NextResponse.json({ error: 'Tipo de examen no encontrado' }, { status: 400 })
+    data.universidad = tipo.nombre
+  } else {
+    data.universidad = null
+  }
+
+  const pregunta = await prisma.pregunta.update({ where: { id }, data })
 
   return NextResponse.json(pregunta)
 }
