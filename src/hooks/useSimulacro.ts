@@ -37,6 +37,7 @@ export function useSimulacro() {
   const [sesionId, setSesionId] = useState<string | null>(null)
   const [completado, setCompletado] = useState(false)
   const [score, setScore] = useState<number | null>(null)
+  const [tiempoTotalMs, setTiempoTotalMs] = useState<number | null>(null)
   const startTime = useRef<number>(Date.now())
 
   const preguntaActual = preguntas[currentIndex] || null
@@ -60,9 +61,45 @@ export function useSimulacro() {
       setShowResult(false)
       setCompletado(false)
       setScore(null)
+      setTiempoTotalMs(null)
       startTime.current = Date.now()
     } catch (err) {
       console.error(err)
+    } finally {
+      setLoading(false)
+    }
+  }, [])
+
+  // Reanuda el simulacro en curso (si existe), restaurando preguntas, respuestas
+  // ya dadas y la posición donde quedó. Devuelve true si reanudó algo.
+  const reanudarSimulacro = useCallback(async (): Promise<boolean> => {
+    setLoading(true)
+    try {
+      const res = await fetch('/api/simulacro/en-curso')
+      if (!res.ok) return false
+      const data = await res.json()
+      if (!data.sesion || !Array.isArray(data.preguntas) || data.preguntas.length === 0) return false
+
+      const respondidas: RespuestaUsuario[] = data.respuestas || []
+      const answeredIds = new Set(respondidas.map((r) => r.pregunta_id))
+      const preguntasOrden: Pregunta[] = data.preguntas
+      let idx = preguntasOrden.findIndex((p) => !answeredIds.has(p.id))
+      if (idx === -1) idx = preguntasOrden.length - 1 // todas respondidas → última
+
+      setPreguntas(preguntasOrden)
+      setSesionId(data.sesion.sesion_id)
+      setRespuestas(respondidas)
+      setCurrentIndex(idx)
+      setSelectedOption(null)
+      setShowResult(false)
+      setCompletado(false)
+      setScore(null)
+      setTiempoTotalMs(null)
+      startTime.current = Date.now()
+      return true
+    } catch (err) {
+      console.error(err)
+      return false
     } finally {
       setLoading(false)
     }
@@ -113,6 +150,7 @@ export function useSimulacro() {
         })
         const data = await res.json()
         setScore(data.score)
+        setTiempoTotalMs(typeof data.tiempoTotalMs === 'number' ? data.tiempoTotalMs : null)
         setCompletado(true)
       } catch (err) {
         console.error(err)
@@ -132,8 +170,10 @@ export function useSimulacro() {
     sesionId,
     completado,
     score,
+    tiempoTotalMs,
     respuestas,
     iniciarSimulacro,
+    reanudarSimulacro,
     responder,
     siguiente,
   }
