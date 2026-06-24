@@ -41,11 +41,13 @@ export async function POST(request: NextRequest) {
   // Recalculamos SIEMPRE desde la BD (fuente de verdad), no desde el request.
   const guardadas = await prisma.respuesta.findMany({
     where: { sesion_id },
-    select: { correcta: true, pregunta: { select: { especialidad: true, tema: true } } },
+    select: { correcta: true, tiempo_ms: true, pregunta: { select: { especialidad: true, tema: true } } },
   })
 
   const correctas = guardadas.filter((r) => r.correcta).length
   const total = guardadas.length
+  // Tiempo total dedicado al simulacro = suma del tiempo por respuesta.
+  const tiempoTotalMs = guardadas.reduce((s, r) => s + (r.tiempo_ms ?? 0), 0)
 
   const yaCompletada = sesion.completada
 
@@ -105,5 +107,6 @@ export async function POST(request: NextRequest) {
     score: correctas,
     total,
     porcentaje: total > 0 ? Math.round((correctas / total) * 100) : 0,
+    tiempoTotalMs,
   })
 }
