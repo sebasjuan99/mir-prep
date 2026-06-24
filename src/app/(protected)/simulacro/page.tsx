@@ -25,10 +25,14 @@ const UNIVERSIDADES = [
   { id: 'uces',     label: 'UNIV. CES',      pais: 'COLOMBIA', bg: '#2E4057', color: C.cream },
 ]
 
+interface EnCurso { sesion_id: string; tipo: string; universidad: string | null; total: number; respondidas: number }
+
 function SimulacroContent() {
   const router = useRouter()
   const searchParams = useSearchParams()
   const [showUnivSelect, setShowUnivSelect] = useState(false)
+  const [modoCompleto, setModoCompleto] = useState(false)
+  const [enCurso, setEnCurso] = useState<EnCurso | null>(null)
   const {
     preguntas,
     preguntaActual,
@@ -39,8 +43,10 @@ function SimulacroContent() {
     loading,
     completado,
     score,
+    tiempoTotalMs,
     respuestas,
     iniciarSimulacro,
+    reanudarSimulacro,
     responder,
     siguiente,
   } = useSimulacro()
@@ -55,6 +61,12 @@ function SimulacroContent() {
       iniciarSimulacro('universidad', undefined, universidad)
     } else if (especialidad || tipo === 'repaso_errores') {
       iniciarSimulacro(tipo, especialidad || undefined)
+    } else {
+      // Selector principal: detectar simulacro en curso para ofrecer reanudar.
+      fetch('/api/simulacro/en-curso')
+        .then((r) => r.json())
+        .then((d) => { if (d.sesion) setEnCurso(d.sesion) })
+        .catch(() => {})
     }
   }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
@@ -80,6 +92,7 @@ function SimulacroContent() {
         total={total}
         respuestas={respuestas}
         preguntas={preguntas}
+        tiempoTotalMs={tiempoTotalMs}
         onNuevoSimulacro={() => iniciarSimulacro('aleatorio')}
         onRepasarErrores={() => iniciarSimulacro('repaso_errores')}
       />
@@ -108,7 +121,7 @@ function SimulacroContent() {
       <div style={{ maxWidth: 640, margin: '0 auto' }}>
         <div style={{ marginBottom: 48 }}>
           <div style={{ ...mono, fontSize: 10, letterSpacing: '0.12em', color: C.ink, opacity: 0.45, marginBottom: 10 }}>
-            SIMULACRO / POR UNIVERSIDAD
+            {modoCompleto ? 'SIMULACRO COMPLETO / 100 PREGUNTAS' : 'SIMULACRO / POR UNIVERSIDAD'}
           </div>
           <h1 style={{ ...disp, fontSize: 'clamp(2.5rem, 5vw, 5rem)', color: C.ink, margin: 0 }}>
             ELIGE UNIVERSIDAD
@@ -119,7 +132,7 @@ function SimulacroContent() {
           {UNIVERSIDADES.map((univ, i) => (
             <button
               key={univ.id}
-              onClick={() => iniciarSimulacro('universidad', undefined, EXAM_ID_TO_UNIVERSIDAD[univ.id])}
+              onClick={() => iniciarSimulacro(modoCompleto ? 'completo' : 'universidad', undefined, EXAM_ID_TO_UNIVERSIDAD[univ.id])}
               style={{
                 display: 'flex', alignItems: 'center', gap: 24,
                 width: '100%', padding: '22px 28px', textAlign: 'left',
@@ -137,14 +150,14 @@ function SimulacroContent() {
                 </div>
               </div>
               <div style={{ ...mono, fontSize: 9, letterSpacing: '0.1em', color: univ.color, opacity: 0.55 }}>
-                INICIAR →
+                {modoCompleto ? '100 PREGUNTAS →' : 'INICIAR →'}
               </div>
             </button>
           ))}
         </div>
 
         <button
-          onClick={() => setShowUnivSelect(false)}
+          onClick={() => { setShowUnivSelect(false); setModoCompleto(false) }}
           style={{
             ...mono, fontSize: 10, letterSpacing: '0.1em',
             background: 'transparent', border: inkBorder, padding: '10px 20px',
@@ -181,7 +194,13 @@ function SimulacroContent() {
       num: '04',
       label: 'POR UNIVERSIDAD',
       desc: 'Practica con preguntas reales de MIR, ENARM, UNAL, El Bosque o Rosario',
-      action: () => setShowUnivSelect(true),
+      action: () => { setModoCompleto(false); setShowUnivSelect(true) },
+    },
+    {
+      num: '05',
+      label: 'SIMULACRO COMPLETO',
+      desc: '100 preguntas de una universidad. Puedes pausarlo y continuar luego.',
+      action: () => { setModoCompleto(true); setShowUnivSelect(true) },
     },
   ]
 
@@ -195,6 +214,30 @@ function SimulacroContent() {
           NUEVO SIMULACRO
         </h1>
       </div>
+
+      {enCurso && (
+        <button
+          onClick={() => { setEnCurso(null); reanudarSimulacro() }}
+          style={{
+            display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 16,
+            width: '100%', textAlign: 'left', cursor: 'pointer',
+            background: C.green, color: C.cream, border: inkBorder, padding: '20px 24px', marginBottom: 24,
+          }}
+        >
+          <div>
+            <div style={{ ...mono, fontSize: 9, letterSpacing: '0.14em', opacity: 0.7, marginBottom: 6 }}>
+              SIMULACRO EN CURSO{enCurso.universidad ? ` · ${enCurso.universidad}` : ''}
+            </div>
+            <div style={{ ...disp, fontSize: 'clamp(1.1rem, 2.5vw, 1.5rem)' }}>
+              CONTINUAR DONDE QUEDASTE
+            </div>
+            <div style={{ ...mono, fontSize: 10, letterSpacing: '0.06em', opacity: 0.8, marginTop: 4 }}>
+              {enCurso.respondidas}/{enCurso.total} RESPONDIDAS
+            </div>
+          </div>
+          <div style={{ ...mono, fontSize: 11, letterSpacing: '0.1em' }}>CONTINUAR →</div>
+        </button>
+      )}
 
       <div style={{ border: inkBorder }}>
         {opciones.map((op, i) => (

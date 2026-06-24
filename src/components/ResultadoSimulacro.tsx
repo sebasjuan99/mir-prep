@@ -27,8 +27,17 @@ interface ResultadoProps {
   total: number
   respuestas: RespuestaUsuario[]
   preguntas: PreguntaData[]
+  tiempoTotalMs?: number | null
   onNuevoSimulacro: () => void
   onRepasarErrores: () => void
+}
+
+function formatTiempo(ms: number): string {
+  const totalSeg = Math.round(ms / 1000)
+  const min = Math.floor(totalSeg / 60)
+  const seg = totalSeg % 60
+  if (min === 0) return `${seg}s`
+  return `${min}m ${seg.toString().padStart(2, '0')}s`
 }
 
 export default function ResultadoSimulacro({
@@ -36,9 +45,14 @@ export default function ResultadoSimulacro({
   total,
   respuestas,
   preguntas,
+  tiempoTotalMs,
   onNuevoSimulacro,
   onRepasarErrores,
 }: ResultadoProps) {
+  // Tiempo: usa el valor de la BD (cubre simulacros reanudados) o suma local de respaldo.
+  const tiempoMs = (tiempoTotalMs ?? null) !== null
+    ? (tiempoTotalMs as number)
+    : respuestas.reduce((s, r) => s + (r.tiempo_ms || 0), 0)
   const [displayScore, setDisplayScore] = useState(0)
   const porcentaje = Math.round((score / total) * 100)
   const { label } = getScoreLabel(porcentaje)
@@ -87,6 +101,11 @@ export default function ResultadoSimulacro({
         <div style={{ ...mono, fontSize: 12, letterSpacing: '0.12em', color: scoreTextColor }}>
           {porcentaje}% &mdash; {label.toUpperCase()}
         </div>
+        {tiempoMs > 0 && (
+          <div style={{ ...mono, fontSize: 10, letterSpacing: '0.1em', color: scoreTextColor, opacity: 0.7, marginTop: 10 }}>
+            TIEMPO: {formatTiempo(tiempoMs)}
+          </div>
+        )}
       </div>
 
       {/* Specialty breakdown */}
