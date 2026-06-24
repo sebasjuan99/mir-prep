@@ -14,10 +14,21 @@ interface RecentSession {
   user_id: string
   tipo: string
   filtro: string | null
+  universidad: string | null
   score: number | null
   total: number
   completada: boolean
   createdAt: string
+  usuario: { nombre: string | null; email: string } | null
+}
+
+// Etiqueta legible de qué está practicando la persona en esa sesión.
+function examenLabel(s: RecentSession): string {
+  if (s.universidad) return s.universidad
+  if (s.tipo === 'especialidad') return s.filtro ? `Especialidad: ${s.filtro}` : 'Por especialidad'
+  if (s.tipo === 'repaso_errores') return 'Repaso de errores'
+  if (s.tipo === 'aleatorio') return 'Aleatorio'
+  return s.tipo
 }
 
 interface StatsData {
@@ -136,22 +147,33 @@ export default function AdminDashboard() {
 
       {/* Recent sessions */}
       <div className="rounded-xl p-6 overflow-x-auto" style={{ background: 'var(--bg-card)', border: '1px solid var(--border)', boxShadow: 'var(--shadow)' }}>
-        <h2 className="text-lg font-bold mb-5 font-[var(--font-display)]" style={{ color: 'var(--text-primary)' }}>Sesiones recientes</h2>
+        <h2 className="text-lg font-bold font-[var(--font-display)]" style={{ color: 'var(--text-primary)' }}>Sesiones recientes</h2>
+        <p className="text-xs mb-5 mt-1" style={{ color: 'var(--text-muted)' }}>\u00daltimos 10 simulacros. <strong>Examen</strong>: qu\u00e9 est\u00e1 practicando. <strong>Score</strong>: aciertos / total. <strong>Estado</strong>: si termin\u00f3 el simulacro o sigue en curso.</p>
         <table className="w-full text-sm">
           <thead>
             <tr style={{ borderBottom: '2px solid var(--border)' }}>
-              {['ID', 'Tipo', 'Filtro', 'Score', 'Estado', 'Fecha'].map((h) => (
-                <th key={h} className="text-left py-2 px-3 font-semibold" style={{ color: 'var(--text-muted)' }}>{h}</th>
+              {[
+                { h: 'Usuario', t: 'Nombre o correo de quien hizo el simulacro' },
+                { h: 'Examen / pr\u00e1ctica', t: 'Tipo de examen o modo que est\u00e1 preparando' },
+                { h: 'Score', t: 'Respuestas correctas sobre el total del simulacro' },
+                { h: 'Estado', t: 'Completada = termin\u00f3; En curso = a\u00fan sin terminar' },
+                { h: 'Fecha', t: 'Fecha en que inici\u00f3 el simulacro' },
+              ].map((c) => (
+                <th key={c.h} title={c.t} className="text-left py-2 px-3 font-semibold cursor-help" style={{ color: 'var(--text-muted)' }}>{c.h}</th>
               ))}
             </tr>
           </thead>
           <tbody>
             {stats.recentSessions.map((s) => (
               <tr key={s.id} style={{ borderBottom: '1px solid var(--border)' }}>
-                <td className="py-2.5 px-3 font-mono text-xs" style={{ color: 'var(--text-muted)' }}>{s.id.slice(0, 8)}...</td>
-                <td className="py-2.5 px-3">{s.tipo}</td>
-                <td className="py-2.5 px-3" style={{ color: 'var(--text-muted)' }}>{s.filtro || '\u2014'}</td>
-                <td className="py-2.5 px-3 font-bold">{s.score !== null ? `${s.score}/${s.total}` : '\u2014'}</td>
+                <td className="py-2.5 px-3">
+                  <span className="font-medium" style={{ color: 'var(--text-primary)' }}>{s.usuario?.nombre || s.usuario?.email || 'Usuario desconocido'}</span>
+                  {s.usuario?.nombre && <span className="block text-xs" style={{ color: 'var(--text-muted)' }}>{s.usuario.email}</span>}
+                </td>
+                <td className="py-2.5 px-3">
+                  <span className="px-2 py-0.5 rounded-full text-xs font-semibold" style={{ background: 'var(--accent-light)', color: 'var(--accent-dark)' }}>{examenLabel(s)}</span>
+                </td>
+                <td className="py-2.5 px-3 font-bold" style={{ color: 'var(--text-primary)' }}>{s.score !== null ? `${s.score}/${s.total}` : '\u2014'}</td>
                 <td className="py-2.5 px-3">
                   <span className="px-2 py-0.5 rounded-full text-xs font-semibold" style={{ background: s.completada ? 'var(--success-light)' : 'var(--bg-secondary)', color: s.completada ? 'var(--success)' : 'var(--text-muted)' }}>
                     {s.completada ? 'Completada' : 'En curso'}
@@ -161,7 +183,7 @@ export default function AdminDashboard() {
               </tr>
             ))}
             {stats.recentSessions.length === 0 && (
-              <tr><td colSpan={6} className="py-8 text-center" style={{ color: 'var(--text-muted)' }}>No hay sesiones recientes</td></tr>
+              <tr><td colSpan={5} className="py-8 text-center" style={{ color: 'var(--text-muted)' }}>No hay sesiones recientes</td></tr>
             )}
           </tbody>
         </table>
