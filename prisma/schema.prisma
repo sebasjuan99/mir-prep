@@ -36,6 +36,18 @@ model Usuario {
   @@index([suscripcionStatus])
 }
 
+// Idempotencia / anti-replay para integraciones externas (Revive).
+// Guarda el `jti` de cada token SSO (un solo uso) y el `event_id` de cada
+// webhook (evita procesar dos veces el mismo cobro en reintentos).
+model IntegrationEvent {
+  id        String   @id            // el jti (SSO) o event_id (webhook)
+  kind      String                  // 'sso_jti' | 'revive_webhook'
+  createdAt DateTime @default(now())
+
+  @@index([kind])
+  @@index([createdAt])
+}
+
 model TipoExamen {
   id          String     @id @default(cuid())
   nombre      String     // "Universidad El Bosque", "Examen Nacional (ENARM)"
