@@ -1,7 +1,17 @@
 'use client'
 
 import { useState, useEffect, useCallback } from 'react'
+import { useRouter } from 'next/navigation'
 import { ESPECIALIDADES } from '@/lib/constants'
+
+// BLOQUE 9: "Simulacros personalizados" se oculta por ahora (no es funcional).
+// La ruta queda inerte (redirige a /admin) y la entrada del sidebar se quitó,
+// pero el código original se conserva abajo (SimulacrosAdminLegacy) por si se retoma.
+export default function SimulacrosAdmin() {
+  const router = useRouter()
+  useEffect(() => { router.replace('/admin') }, [router])
+  return null
+}
 
 interface Pregunta {
   id: string
@@ -18,7 +28,8 @@ interface Simulacro {
   createdAt: string
 }
 
-export default function SimulacrosAdmin() {
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+function SimulacrosAdminLegacy() {
   const [simulacros, setSimulacros] = useState<Simulacro[]>([])
   const [loadingSim, setLoadingSim] = useState(true)
   const [showForm, setShowForm] = useState(false)
