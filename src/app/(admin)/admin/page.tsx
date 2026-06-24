@@ -24,7 +24,9 @@ interface StatsData {
   totalPreguntas: number
   totalUsuarios: number
   sesionesCompletadas: number
+  sesionesIniciadas: number
   totalRespuestas: number
+  respuestasCompletadas: number
   especialidades: EspecialidadStat[]
   recentSessions: RecentSession[]
 }
@@ -44,8 +46,8 @@ export default function AdminDashboard() {
     return (
       <div className="space-y-6">
         <h1 className="text-2xl font-bold font-[var(--font-display)]" style={{ color: 'var(--text-primary)' }}>Dashboard</h1>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-          {[1, 2, 3, 4].map((i) => <div key={i} className="skeleton h-28 rounded-xl" />)}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
+          {[1, 2, 3, 4, 5].map((i) => <div key={i} className="skeleton h-28 rounded-xl" />)}
         </div>
         <div className="skeleton h-80 rounded-xl" />
       </div>
@@ -59,10 +61,11 @@ export default function AdminDashboard() {
   const best = [...sorted].reverse().slice(0, 5)
 
   const statCards = [
-    { label: 'Total preguntas', value: stats.totalPreguntas, color: 'var(--accent)' },
-    { label: 'Total usuarios', value: stats.totalUsuarios, color: '#5B8DEF' },
-    { label: 'Sesiones completadas', value: stats.sesionesCompletadas, color: 'var(--success)' },
-    { label: 'Respuestas totales', value: stats.totalRespuestas, color: '#9B6DD7' },
+    { label: 'Total preguntas', value: stats.totalPreguntas, color: 'var(--accent)', sub: undefined as string | undefined },
+    { label: 'Total usuarios', value: stats.totalUsuarios, color: '#5B8DEF', sub: undefined },
+    { label: 'Sesiones completadas', value: stats.sesionesCompletadas, color: 'var(--success)', sub: `${stats.sesionesIniciadas ?? stats.sesionesCompletadas} iniciadas` },
+    { label: 'Respuestas totales', value: stats.totalRespuestas, color: '#9B6DD7', sub: 'incluye simulacros en curso' },
+    { label: 'Respuestas (completados)', value: stats.respuestasCompletadas ?? 0, color: '#C17E4A', sub: 'solo simulacros terminados' },
   ]
 
   return (
@@ -70,11 +73,12 @@ export default function AdminDashboard() {
       <h1 className="text-2xl font-bold font-[var(--font-display)]" style={{ color: 'var(--text-primary)' }}>Dashboard</h1>
 
       {/* Stat cards */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
         {statCards.map((card) => (
           <div key={card.label} className="rounded-xl p-5" style={{ background: 'var(--bg-card)', border: '1px solid var(--border)', boxShadow: 'var(--shadow)' }}>
             <p className="text-sm font-medium mb-1" style={{ color: 'var(--text-muted)' }}>{card.label}</p>
             <p className="text-3xl font-bold font-[var(--font-display)]" style={{ color: card.color }}>{card.value.toLocaleString()}</p>
+            {card.sub && <p className="text-xs mt-1" style={{ color: 'var(--text-muted)' }}>{card.sub}</p>}
           </div>
         ))}
       </div>

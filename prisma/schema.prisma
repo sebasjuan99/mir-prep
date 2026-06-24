@@ -27,6 +27,19 @@ model Usuario {
   @@index([suscripcionStatus])
 }
 
+model TipoExamen {
+  id          String     @id @default(cuid())
+  nombre      String     // "Universidad El Bosque", "Examen Nacional (ENARM)"
+  codigo      String     @unique // "BOSQUE", "ENARM", "MIR", "UNAL", "ROSARIO"
+  descripcion String?
+  activo      Boolean    @default(true)
+  preguntas   Pregunta[]
+  createdAt   DateTime   @default(now())
+  updatedAt   DateTime   @updatedAt
+
+  @@index([activo])
+}
+
 model Pregunta {
   id                 String      @id @default(cuid())
   numero_mir         Int?        @unique
@@ -40,7 +53,9 @@ model Pregunta {
   subtema            String?
   dificultad         String      @default("media") // "alta" | "media" | "baja"
   anio               Int         @default(2025)
-  universidad        String?     // "MIR" | "UNAL" | "El Bosque" | "Rosario" | "ENARM"
+  universidad        String?     // LEGACY: "MIR" | "UNAL" | "El Bosque" | "Rosario" | "ENARM" (se mantiene como puente hacia tipoExamen)
+  tipoExamen_id      String?
+  tipoExamen         TipoExamen? @relation(fields: [tipoExamen_id], references: [id], onDelete: SetNull)
   fuente             String?     // e.g. "Reconstrucción 2025-1"
   respuestas         Respuesta[]
   createdAt          DateTime    @default(now())
@@ -50,6 +65,7 @@ model Pregunta {
   @@index([tema])
   @@index([especialidad, tema])
   @@index([universidad])
+  @@index([tipoExamen_id])
 }
 
 model ResumenTema {
@@ -64,19 +80,22 @@ model ResumenTema {
 }
 
 model Sesion {
-  id          String      @id @default(cuid())
-  user_id     String
-  tipo        String      // "aleatorio" | "especialidad" | "repaso_errores" | "universidad"
-  filtro      String?
-  universidad String?
-  score       Int?
-  total       Int         @default(20)
-  completada  Boolean     @default(false)
-  respuestas  Respuesta[]
-  createdAt   DateTime    @default(now())
+  id               String      @id @default(cuid())
+  user_id          String
+  tipo             String      // "aleatorio" | "especialidad" | "repaso_errores" | "universidad"
+  filtro           String?
+  universidad      String?
+  score            Int?
+  total            Int         @default(20)
+  completada       Boolean     @default(false)
+  preguntas_orden  String[]    @default([]) // IDs de preguntas en orden -> permite reanudar (Bloque 7)
+  ultima_actividad DateTime?                // se actualiza con cada respuesta guardada
+  respuestas       Respuesta[]
+  createdAt        DateTime    @default(now())
 
   @@index([user_id])
   @@index([user_id, createdAt])
+  @@index([user_id, completada])
 }
 
 model Respuesta {
@@ -91,6 +110,7 @@ model Respuesta {
   pregunta    Pregunta @relation(fields: [pregunta_id], references: [id], onDelete: Cascade)
   createdAt   DateTime @default(now())
 
+  @@unique([sesion_id, pregunta_id])
   @@index([user_id])
   @@index([user_id, pregunta_id])
   @@index([sesion_id])

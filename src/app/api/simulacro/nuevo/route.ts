@@ -58,13 +58,17 @@ export async function GET(request: NextRequest) {
     `
   }
 
+  const preguntaIds = Array.isArray(preguntas) ? (preguntas as { id: string }[]).map((p) => p.id) : []
+
   const sesion = await prisma.sesion.create({
     data: {
       user_id: user.id,
       tipo: universidad ? 'universidad' : tipo,
       filtro: especialidad,
       universidad,
-      total: Array.isArray(preguntas) ? preguntas.length : 20,
+      total: preguntaIds.length || 20,
+      preguntas_orden: preguntaIds,
+      ultima_actividad: new Date(),
     },
   })
 
