@@ -22,6 +22,7 @@ model Usuario {
   mpSuscripcionId    String?
   suscripcionStatus  String   @default("free")
   suscripcionExpira  DateTime?
+  suscripcionOrigen  String   @default("mercadopago") // fuente que gobierna la suscripción: mercadopago | revive | manual
   mesesPagados       Int      @default(0)   // ciclos de suscripción cobrados (prospectivo, desde el webhook)
   accesoManual       Boolean  @default(false) // activación manual permanente por admin
   accesoGratisHasta  DateTime?               // acceso gratis temporal: válido mientras > ahora
