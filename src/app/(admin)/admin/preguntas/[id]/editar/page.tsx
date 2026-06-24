@@ -58,7 +58,7 @@ export default function EditarPregunta({ params }: PageProps) {
   return (
     <div className="max-w-4xl">
       <h1 className="text-2xl font-bold font-[var(--font-display)] mb-6" style={{ color: 'var(--text-primary)' }}>
-        Editar pregunta #{pregunta.numero_mir as number}
+        Editar pregunta · {(pregunta.especialidad as string) || ''}{pregunta.tema ? ` — ${pregunta.tema as string}` : ''}
       </h1>
       {error && <div className="mb-4 p-3 rounded-xl text-sm font-medium" style={{ background: 'var(--error-light)', color: 'var(--error)' }}>{error}</div>}
       <PreguntaForm initialData={pregunta} onSave={handleSave} saving={saving} />
