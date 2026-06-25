@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Playfair_Display, Source_Serif_4, DM_Sans, Archivo_Black, JetBrains_Mono, Space_Grotesk } from 'next/font/google'
 import './globals.css'
 import ReviveSSO from '@/components/ReviveSSO'
+import { GoogleTagManagerScript, GoogleTagManagerNoScript } from '@/components/GoogleTagManager'
 
 const playfair = Playfair_Display({
   subsets: ['latin'],
@@ -58,7 +59,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es" className={`${playfair.variable} ${sourceSerif.variable} ${dmSans.variable} ${archivoBlack.variable} ${jetbrainsMono.variable} ${spaceGrotesk.variable}`}>
+      <GoogleTagManagerScript />
       <body className="font-[var(--font-ui)] antialiased min-h-screen">
+        <GoogleTagManagerNoScript />
         <ReviveSSO />
         {children}
       </body>
