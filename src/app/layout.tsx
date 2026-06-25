@@ -44,9 +44,53 @@ const spaceGrotesk = Space_Grotesk({
   display: 'swap',
 })
 
+const SITE_URL = 'https://www.proximoresidente.com'
+const SITE_DESCRIPTION =
+  'Prepárate para tu examen de residencia (MIR, ENARM y universidades de Colombia) con simulacros interactivos, retroalimentación pedagógica y fichas de estudio por tema.'
+
 export const metadata: Metadata = {
-  title: 'Próximo Residente — Simulacros de Exámenes de Residencia',
-  description: 'Prepárate para tu examen de residencia (MIR, ENARM y universidades de Colombia) con simulacros interactivos, retroalimentación pedagógica y fichas de estudio por tema.',
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: 'Próximo Residente — Simulacros para el examen de residencia (MIR, ENARM)',
+    template: '%s — Próximo Residente',
+  },
+  description: SITE_DESCRIPTION,
+  applicationName: 'Próximo Residente',
+  keywords: [
+    'simulacros MIR',
+    'examen ENARM',
+    'examen de residencia',
+    'preguntas MIR',
+    'residencia médica',
+    'simulacro examen residencia Colombia',
+  ],
+  authors: [{ name: 'Próximo Residente' }],
+  openGraph: {
+    type: 'website',
+    locale: 'es_ES',
+    url: SITE_URL,
+    siteName: 'Próximo Residente',
+    title: 'Próximo Residente — Simulacros para el examen de residencia (MIR, ENARM)',
+    description: SITE_DESCRIPTION,
+    images: [{ url: '/ape-logo-negro.png', width: 512, height: 512, alt: 'Próximo Residente' }],
+  },
+  twitter: {
+    card: 'summary',
+    title: 'Próximo Residente — Simulacros para el examen de residencia (MIR, ENARM)',
+    description: SITE_DESCRIPTION,
+    images: ['/ape-logo-negro.png'],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+      'max-video-preview': -1,
+    },
+  },
   icons: {
     icon: '/ape-logo-negro.png',
     apple: '/ape-logo-negro.png',

@@ -1,6 +1,24 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import type { CSSProperties } from 'react'
+import type { Metadata } from 'next'
+
+// Canonical propio de la home. El resto de metadata (título, descripción,
+// Open Graph) se hereda del layout raíz.
+export const metadata: Metadata = {
+  alternates: { canonical: '/' },
+}
+
+// Datos estructurados (JSON-LD) para que Google entienda qué es el sitio.
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'EducationalOrganization',
+  name: 'Próximo Residente',
+  url: 'https://www.proximoresidente.com',
+  logo: 'https://www.proximoresidente.com/ape-logo-negro.png',
+  description:
+    'Plataforma de simulacros para el examen de residencia médica (MIR, ENARM y universidades de Colombia) con retroalimentación pedagógica y fichas de estudio por especialidad.',
+}
 
 // ─── Creative Mode design tokens ────────────────────────────────────────────
 const C = {
@@ -52,6 +70,10 @@ const dot = (color: string = C.ink): CSSProperties => ({
 export default function LandingPage() {
   return (
     <div style={{ ...bodyFont, background: C.cream, color: C.ink }}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
 
       {/* ─── NAV ────────────────────────────────────────────────────────────── */}
       <header style={{ borderBottom: `4px solid ${C.ink}`, background: C.cream }}>
