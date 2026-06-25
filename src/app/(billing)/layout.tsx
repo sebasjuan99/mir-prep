@@ -1,7 +1,14 @@
+import type { Metadata } from 'next'
 import { createServerSupabaseClient } from '@/lib/supabase/server'
 import { redirect } from 'next/navigation'
 import NavBar from '@/components/NavBar'
 import { C, bodyFont } from '@/lib/cm'
+
+// Páginas de suscripción/pago: transaccionales y tras login, fuera del índice.
+export const metadata: Metadata = {
+  title: 'Suscripción',
+  robots: { index: false, follow: true },
+}
 
 // Auth-only layout for billing/subscription pages. Unlike (protected), it does
 // NOT enforce the paywall — otherwise an unpaid user redirected here would be
