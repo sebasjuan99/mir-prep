@@ -6,6 +6,7 @@ import Image from 'next/image'
 import { Turnstile } from '@marsidev/react-turnstile'
 import { C, disp, mono, bodyFont, kicker, inkBorder } from '@/lib/cm'
 import { createClient } from '@/lib/supabase/client'
+import { trackEvent } from '@/lib/analytics'
 
 const inputStyle = {
   ...bodyFont,
@@ -81,6 +82,8 @@ export default function RegisterPage() {
         setCodeError('Código incorrecto o expirado. Revisa e inténtalo de nuevo.')
         return
       }
+      // Registro confirmado con éxito → evento de conversión.
+      trackEvent('sign_up', { method: 'email' })
       // Sesión creada: recargamos para que el servidor reconozca la sesión.
       window.location.href = '/dashboard'
     } catch {

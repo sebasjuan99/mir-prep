@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { C, disp, mono, bodyFont } from '@/lib/cm'
+import { trackEvent } from '@/lib/analytics'
 
 export default function EstadoSuscripcionPage() {
   const router = useRouter()
@@ -37,6 +38,17 @@ export default function EstadoSuscripcionPage() {
         setStatus(data.status)
 
         if (data.status === 'authorized') {
+          // Evento de conversión. Guard por preapproval_id para no contarlo
+          // dos veces si el usuario recarga esta página ya activado.
+          const guardKey = `pr_sub_tracked_${preapprovalId ?? 'na'}`
+          if (typeof window !== 'undefined' && !sessionStorage.getItem(guardKey)) {
+            trackEvent('suscripcion_activada', {
+              currency: 'COP',
+              value: 87000,
+              plan: 'mensual_prueba_7dias',
+            })
+            sessionStorage.setItem(guardKey, '1')
+          }
           setChecking(false)
           return
         }

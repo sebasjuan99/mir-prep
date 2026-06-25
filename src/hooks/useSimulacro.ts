@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useCallback, useRef } from 'react'
+import { trackEvent } from '@/lib/analytics'
 
 interface Opcion {
   letra: string
@@ -39,6 +40,8 @@ export function useSimulacro() {
   const [score, setScore] = useState<number | null>(null)
   const [tiempoTotalMs, setTiempoTotalMs] = useState<number | null>(null)
   const startTime = useRef<number>(Date.now())
+  // Recuerda el tipo de simulacro en curso para etiquetar el evento de fin.
+  const tipoRef = useRef<string>('aleatorio')
 
   const preguntaActual = preguntas[currentIndex] || null
   const progreso = preguntas.length > 0 ? currentIndex + 1 : 0
@@ -63,6 +66,13 @@ export function useSimulacro() {
       setScore(null)
       setTiempoTotalMs(null)
       startTime.current = Date.now()
+      tipoRef.current = tipo
+      trackEvent('iniciar_simulacro', {
+        tipo,
+        universidad: universidad ?? '',
+        especialidad: filtro ?? '',
+        total_preguntas: data.preguntas?.length ?? 0,
+      })
     } catch (err) {
       console.error(err)
     } finally {
@@ -88,6 +98,7 @@ export function useSimulacro() {
 
       setPreguntas(preguntasOrden)
       setSesionId(data.sesion.sesion_id)
+      tipoRef.current = data.sesion?.tipo ?? tipoRef.current
       setRespuestas(respondidas)
       setCurrentIndex(idx)
       setSelectedOption(null)
@@ -152,6 +163,13 @@ export function useSimulacro() {
         setScore(data.score)
         setTiempoTotalMs(typeof data.tiempoTotalMs === 'number' ? data.tiempoTotalMs : null)
         setCompletado(true)
+        const totalPreguntas = preguntas.length
+        trackEvent('completar_simulacro', {
+          tipo: tipoRef.current,
+          score: data.score,
+          total_preguntas: totalPreguntas,
+          porcentaje: totalPreguntas > 0 ? Math.round((data.score / totalPreguntas) * 100) : 0,
+        })
       } catch (err) {
         console.error(err)
       }

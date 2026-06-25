@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import { C, disp, mono, bodyFont, inkBorder } from '@/lib/cm'
+import { trackEvent } from '@/lib/analytics'
 
 const FEATURES = [
   'Simulacros ilimitados (MIR, ENARM, UNAL, El Bosque, Rosario, CES)',
@@ -19,6 +20,11 @@ export default function SuscripcionPage() {
   async function handleSuscribirse() {
     setLoading(true)
     setError('')
+    trackEvent('begin_checkout', {
+      currency: 'COP',
+      value: 87000,
+      plan: 'mensual_prueba_7dias',
+    })
     try {
       const res = await fetch('/api/suscripcion/suscribirse', { method: 'POST' })
       const data = await res.json()
