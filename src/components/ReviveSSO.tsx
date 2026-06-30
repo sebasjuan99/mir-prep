@@ -51,10 +51,13 @@ export default function ReviveSSO() {
         ? [parentOrigin]
         : ALLOWED_PARENT_ORIGINS
 
+    let tokenHandled = false
+
     const onMessage = async (event: MessageEvent) => {
       if (!ALLOWED_PARENT_ORIGINS.includes(event.origin)) return
       const data = event.data
       if (!data || data.type !== 'PR_SSO_TOKEN' || typeof data.token !== 'string') return
+      tokenHandled = true
 
       const reply = (msg: unknown) => {
         try {
@@ -88,15 +91,35 @@ export default function ReviveSSO() {
     window.addEventListener('message', onMessage)
 
     // Avisar al contenedor que el iframe está listo para recibir el token.
-    for (const target of readyTargets) {
-      try {
-        window.parent.postMessage({ type: 'PR_IFRAME_READY' }, target)
-      } catch {
-        /* origin no permitido por el navegador */
+    // Se reemite de forma periódica porque el contenedor podría registrar su
+    // listener de `message` un poco más tarde que el primer aviso (p. ej. si
+    // obtiene el token de su backend antes de escuchar). Sin reintento, ese
+    // primer READY se perdería para siempre y el handshake nunca arrancaría.
+    const announceReady = () => {
+      for (const target of readyTargets) {
+        try {
+          window.parent.postMessage({ type: 'PR_IFRAME_READY' }, target)
+        } catch {
+          /* origin no permitido por el navegador */
+        }
       }
     }
 
-    return () => window.removeEventListener('message', onMessage)
+    announceReady()
+    let attempts = 0
+    const readyInterval = setInterval(() => {
+      // Deja de anunciar una vez canjeado el token o al agotar ~12s.
+      if (tokenHandled || ++attempts >= 24) {
+        clearInterval(readyInterval)
+        return
+      }
+      announceReady()
+    }, 500)
+
+    return () => {
+      window.removeEventListener('message', onMessage)
+      clearInterval(readyInterval)
+    }
   }, [router])
 
   return null
