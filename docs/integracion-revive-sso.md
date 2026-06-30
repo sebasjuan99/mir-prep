@@ -69,9 +69,14 @@ Ejemplo de payload:
 
 ### B. Embeber el iframe
 
+> ⚠️ **Usar `https://www.proximoresidente.com` (con `www`).** El apex redirige (308) a
+> `www`, por lo que el origin real del iframe es `https://www.proximoresidente.com`.
+> Embeber el apex rompe el handshake: el `PR_IFRAME_READY` llega con origin `www` (se
+> filtra) y el `PR_SSO_TOKEN` con `targetOrigin` apex no se entrega.
+
 ```html
 <iframe
-  src="https://proximoresidente.com"
+  src="https://www.proximoresidente.com"
   allow="fullscreen"
   style="width:100%; height:100%; border:0;">
 </iframe>
@@ -80,15 +85,17 @@ Ejemplo de payload:
 ### C. Enviar el token por postMessage
 
 ```js
+const PR_ORIGIN = "https://www.proximoresidente.com"; // con www
+
 // 1) Esperar a que nuestro iframe avise que cargó:
 window.addEventListener("message", (event) => {
-  if (event.origin !== "https://proximoresidente.com") return;
+  if (event.origin !== PR_ORIGIN) return;
 
   if (event.data?.type === "PR_IFRAME_READY") {
     // 2) Enviar el token (SIEMPRE con targetOrigin explícito):
     iframeEl.contentWindow.postMessage(
       { type: "PR_SSO_TOKEN", token: jwtGeneradoEnElBackend },
-      "https://proximoresidente.com"
+      PR_ORIGIN
     );
   }
 

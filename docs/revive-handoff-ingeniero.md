@@ -61,9 +61,16 @@ Ejemplo de payload:
 
 #### A.2 — Embeber el iframe
 
+> ⚠️ **Usa `https://www.proximoresidente.com` (con `www`) en TODOS lados.** El apex
+> `proximoresidente.com` hace un **308 redirect a `www`**, así que el documento real
+> dentro del iframe tiene origin `https://www.proximoresidente.com`. Si embebes el apex,
+> el `PR_IFRAME_READY` te llegará con origin `www` (tu filtro lo descartará) y el
+> `PR_SSO_TOKEN` que mandes con `targetOrigin` apex **no se entregará** (el navegador lo
+> bloquea por no coincidir el origin). Embebe directamente `www` para evitar el redirect.
+
 ```html
 <iframe
-  src="https://proximoresidente.com"
+  src="https://www.proximoresidente.com"
   allow="fullscreen"
   style="width:100%; height:100%; border:0;">
 </iframe>
@@ -72,16 +79,19 @@ Ejemplo de payload:
 #### A.3 — Enviar el token por `postMessage`
 
 ```js
+// OJO: el origin es CON www (ahí queda el iframe tras el redirect del apex).
+const PR_ORIGIN = "https://www.proximoresidente.com";
+
 window.addEventListener("message", (event) => {
   // Aceptar mensajes SOLO desde nuestro dominio:
-  if (event.origin !== "https://proximoresidente.com") return;
+  if (event.origin !== PR_ORIGIN) return;
 
   // 1) Nuestro iframe avisa que cargó:
   if (event.data?.type === "PR_IFRAME_READY") {
     // 2) Le envías el token (SIEMPRE con targetOrigin explícito):
     iframeEl.contentWindow.postMessage(
       { type: "PR_SSO_TOKEN", token: jwtGeneradoEnElBackend },
-      "https://proximoresidente.com"
+      PR_ORIGIN
     );
   }
 
@@ -90,6 +100,11 @@ window.addEventListener("message", (event) => {
   if (event.data?.type === "PR_SSO_ERROR") { console.error("SSO:", event.data.error); }
 });
 ```
+
+> Nota: registra este listener **antes** de pedir el token a tu backend (o guarda el
+> token en una variable y deja el listener montado desde el inicio). Nuestro iframe
+> reemite `PR_IFRAME_READY` cada 0.5s durante ~12s, así que aunque tu listener tarde un
+> poco en montarse alcanzará a recibir un READY; pero lo robusto es escuchar desde ya.
 
 ### B. Sincronización de suscripción (webhook)
 
