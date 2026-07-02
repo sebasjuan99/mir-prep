@@ -3,6 +3,7 @@ import { cookies } from 'next/headers'
 import { createServerClient } from '@supabase/ssr'
 import { verifyTurnstile } from '@/lib/turnstile'
 import { prisma } from '@/lib/prisma'
+import { enforceRateLimit, getClientIp, tooManyRequests } from '@/lib/rate-limit'
 
 export async function POST(request: Request) {
   const body = await request.json().catch(() => null)
@@ -12,6 +13,13 @@ export async function POST(request: Request) {
   }
 
   const { email, password, turnstileToken } = body
+
+  // Rate limiting: evita creación masiva de cuentas desde una misma IP.
+  const ip = getClientIp(request)
+  const limited = await enforceRateLimit([
+    { key: `signup:ip:${ip}`, limit: 5, windowSec: 3600 },
+  ])
+  if (limited) return tooManyRequests(limited.reset)
 
   const turnstileOk = await verifyTurnstile(turnstileToken)
   if (!turnstileOk) {

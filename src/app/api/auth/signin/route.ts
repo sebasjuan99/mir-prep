@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server'
 import { cookies } from 'next/headers'
 import { createServerClient } from '@supabase/ssr'
 import { verifyTurnstile } from '@/lib/turnstile'
+import { enforceRateLimit, getClientIp, tooManyRequests } from '@/lib/rate-limit'
 
 export async function POST(request: Request) {
   const body = await request.json().catch(() => null)
@@ -11,6 +12,15 @@ export async function POST(request: Request) {
   }
 
   const { email, password, turnstileToken } = body
+
+  // Rate limiting: frena fuerza bruta por IP y contra una cuenta concreta.
+  const ip = getClientIp(request)
+  const emailKey = String(email).toLowerCase()
+  const limited = await enforceRateLimit([
+    { key: `signin:ip:${ip}`, limit: 10, windowSec: 600 },
+    { key: `signin:email:${emailKey}`, limit: 5, windowSec: 900 },
+  ])
+  if (limited) return tooManyRequests(limited.reset)
 
   const turnstileOk = await verifyTurnstile(turnstileToken)
   if (!turnstileOk) {

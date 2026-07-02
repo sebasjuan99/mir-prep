@@ -25,6 +25,8 @@
     "@prisma/pg-worker": "^6.9.0",
     "@supabase/ssr": "^0.10.0",
     "@supabase/supabase-js": "^2.101.1",
+    "@upstash/ratelimit": "^2.0.8",
+    "@upstash/redis": "^1.38.0",
     "axios": "^1.14.0",
     "cheerio": "^1.2.0",
     "framer-motion": "^12.38.0",
