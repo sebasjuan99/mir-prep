@@ -1,11 +1,23 @@
 import { NextResponse } from 'next/server'
-import { createHmac } from 'crypto'
+import { createHmac, timingSafeEqual } from 'crypto'
 import { prisma } from '@/lib/prisma'
 import { obtenerSuscripcion } from '@/lib/mercadopago'
 
+function safeEqualHex(a: string, b: string): boolean {
+  const bufA = Buffer.from(a, 'hex')
+  const bufB = Buffer.from(b, 'hex')
+  if (bufA.length !== bufB.length) return false
+  return timingSafeEqual(bufA, bufB)
+}
+
 function verifySignature(request: Request, body: string): boolean {
   const secret = process.env.MP_WEBHOOK_SECRET
-  if (!secret) return true // skip verification if no secret configured
+  // Fail closed: without a configured secret we cannot verify the signature,
+  // so reject rather than accept unauthenticated webhooks.
+  if (!secret) {
+    console.error('Webhook MP: MP_WEBHOOK_SECRET no configurado — rechazando notificación')
+    return false
+  }
 
   const xSignature = request.headers.get('x-signature')
   const xRequestId = request.headers.get('x-request-id')
@@ -21,11 +33,16 @@ function verifySignature(request: Request, body: string): boolean {
   const hash = parts['v1']
   if (!ts || !hash) return false
 
-  const dataId = JSON.parse(body)?.data?.id
+  let dataId: unknown
+  try {
+    dataId = JSON.parse(body)?.data?.id
+  } catch {
+    return false
+  }
   const manifest = `id:${dataId ?? ''};request-id:${xRequestId};ts:${ts};`
   const computed = createHmac('sha256', secret).update(manifest).digest('hex')
 
-  return computed === hash
+  return safeEqualHex(computed, hash)
 }
 
 export async function POST(request: Request) {

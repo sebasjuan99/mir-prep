@@ -11,9 +11,9 @@ export async function POST(request: NextRequest) {
   if (!user) return NextResponse.json({ error: 'No autorizado' }, { status: 401 })
 
   const body = await request.json()
-  const { sesion_id, pregunta_id, respuesta, correcta, tiempo_ms } = body
+  const { sesion_id, pregunta_id, respuesta, tiempo_ms } = body
 
-  if (!sesion_id || !pregunta_id || respuesta == null || typeof correcta !== 'boolean') {
+  if (!sesion_id || !pregunta_id || respuesta == null) {
     return NextResponse.json({ error: 'Datos incompletos' }, { status: 400 })
   }
 
@@ -23,6 +23,15 @@ export async function POST(request: NextRequest) {
     select: { id: true },
   })
   if (!sesion) return NextResponse.json({ error: 'Sesión no encontrada' }, { status: 404 })
+
+  // La corrección se calcula en el servidor comparando la letra elegida con la
+  // respuesta correcta almacenada; nunca se confía en un flag enviado por el cliente.
+  const pregunta = await prisma.pregunta.findUnique({
+    where: { id: pregunta_id },
+    select: { respuesta_correcta: true },
+  })
+  if (!pregunta) return NextResponse.json({ error: 'Pregunta no encontrada' }, { status: 404 })
+  const correcta = pregunta.respuesta_correcta === respuesta
 
   await prisma.respuesta.upsert({
     where: { sesion_id_pregunta_id: { sesion_id, pregunta_id } },

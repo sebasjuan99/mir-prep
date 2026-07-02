@@ -23,16 +23,26 @@ export async function POST(request: NextRequest) {
 
   // Red de seguridad: re-guardamos (upsert) las respuestas recibidas por si alguna
   // no se persistió en vivo. Idempotente gracias a @@unique([sesion_id, pregunta_id]).
-  for (const r of respuestas as any[]) {
+  // La corrección (correcta) se calcula SIEMPRE en el servidor comparando la letra
+  // elegida con la respuesta correcta almacenada; nunca se confía en el cliente.
+  const preguntaIds = (respuestas as Array<{ pregunta_id: string }>).map((r) => r.pregunta_id)
+  const preguntasSolucion = await prisma.pregunta.findMany({
+    where: { id: { in: preguntaIds } },
+    select: { id: true, respuesta_correcta: true },
+  })
+  const solucionMap = new Map(preguntasSolucion.map((p) => [p.id, p.respuesta_correcta]))
+
+  for (const r of respuestas as Array<{ pregunta_id: string; respuesta: string; tiempo_ms?: number | null }>) {
+    const esCorrecta = solucionMap.get(r.pregunta_id) === r.respuesta
     await prisma.respuesta.upsert({
       where: { sesion_id_pregunta_id: { sesion_id, pregunta_id: r.pregunta_id } },
-      update: { respuesta: r.respuesta, correcta: r.correcta, tiempo_ms: r.tiempo_ms ?? null },
+      update: { respuesta: r.respuesta, correcta: esCorrecta, tiempo_ms: r.tiempo_ms ?? null },
       create: {
         user_id: user.id,
         sesion_id,
         pregunta_id: r.pregunta_id,
         respuesta: r.respuesta,
-        correcta: r.correcta,
+        correcta: esCorrecta,
         tiempo_ms: r.tiempo_ms ?? null,
       },
     })

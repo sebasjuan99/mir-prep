@@ -3,7 +3,10 @@
  *
  * Creates an admin user in Supabase Auth and Prisma database.
  *
- * Usage:  npx tsx scripts/create-admin.ts
+ * Credentials are read from env vars (never hardcode them — this file is committed):
+ *   ADMIN_EMAIL, ADMIN_PASSWORD  (add them to .env.local or pass inline)
+ *
+ * Usage:  ADMIN_EMAIL=you@example.com ADMIN_PASSWORD='...' npx tsx scripts/create-admin.ts
  */
 
 import { PrismaClient } from "../src/generated/prisma/client";
@@ -19,8 +22,16 @@ const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL!;
 const SERVICE_ROLE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY!;
 const DATABASE_URL = process.env.DIRECT_URL!;
 
-const EMAIL = "sebastian@gprevive.com";
-const PASSWORD = "***REMOVED-CREDENTIAL***";
+const EMAIL = process.env.ADMIN_EMAIL;
+const PASSWORD = process.env.ADMIN_PASSWORD;
+
+if (!EMAIL || !PASSWORD) {
+  console.error(
+    "ERROR: faltan ADMIN_EMAIL y/o ADMIN_PASSWORD.\n" +
+      "Usage: ADMIN_EMAIL=you@example.com ADMIN_PASSWORD='...' npx tsx scripts/create-admin.ts"
+  );
+  process.exit(1);
+}
 
 // Supabase admin client (service role bypasses RLS)
 const supabase = createClient(SUPABASE_URL, SERVICE_ROLE_KEY, {
