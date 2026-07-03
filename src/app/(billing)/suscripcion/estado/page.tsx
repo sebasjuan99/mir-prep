@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { C, disp, mono, bodyFont } from '@/lib/cm'
-import { trackEvent } from '@/lib/analytics'
+import { trackEvent, trackMetaEvent } from '@/lib/analytics'
 
 export default function EstadoSuscripcionPage() {
   const router = useRouter()
@@ -46,6 +46,13 @@ export default function EstadoSuscripcionPage() {
               currency: 'COP',
               value: 87000,
               plan: 'mensual_prueba_7dias',
+            })
+            // Meta: 'Subscribe' (no 'Purchase') porque el alta arranca con la
+            // prueba gratuita de 7 días; el cobro real ocurre después.
+            trackMetaEvent('Subscribe', {
+              currency: 'COP',
+              value: 87000,
+              predicted_ltv: 87000,
             })
             sessionStorage.setItem(guardKey, '1')
           }

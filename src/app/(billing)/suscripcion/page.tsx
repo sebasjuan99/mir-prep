@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import { C, disp, mono, bodyFont, inkBorder } from '@/lib/cm'
-import { trackEvent } from '@/lib/analytics'
+import { trackEvent, trackMetaEvent } from '@/lib/analytics'
 
 const FEATURES = [
   'Simulacros ilimitados (MIR, ENARM, UNAL, El Bosque, Rosario, CES)',
@@ -24,6 +24,11 @@ export default function SuscripcionPage() {
       currency: 'COP',
       value: 87000,
       plan: 'mensual_prueba_7dias',
+    })
+    trackMetaEvent('InitiateCheckout', {
+      currency: 'COP',
+      value: 87000,
+      content_name: 'suscripcion_mensual_prueba_7dias',
     })
     try {
       const res = await fetch('/api/suscripcion/suscribirse', { method: 'POST' })
