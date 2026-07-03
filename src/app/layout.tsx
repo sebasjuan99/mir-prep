@@ -92,6 +92,14 @@ export const metadata: Metadata = {
       'max-video-preview': -1,
     },
   },
+  // Verificación del dominio en Meta (Facebook) — necesaria para configurar
+  // la prioridad de eventos web (AEM) y atribuir conversiones en iOS. Renderiza
+  // <meta name="facebook-domain-verification" content="..."> en el <head>.
+  verification: {
+    other: {
+      'facebook-domain-verification': 'e7lmkk0rmaur0eksdrwt203l1jcf7p',
+    },
+  },
   icons: {
     icon: '/ape-logo-negro.png',
     apple: '/ape-logo-negro.png',
