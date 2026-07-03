@@ -201,7 +201,7 @@ export default function FlashcardsPage() {
           </div>
 
           <div style={{
-            display: 'flex', gap: 12, justifyContent: 'center',
+            display: 'flex', gap: 12, justifyContent: 'center', flexWrap: 'wrap',
             background: C.cream, border: inkBorder, padding: '16px 24px',
           }}>
             <button

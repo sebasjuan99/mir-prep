@@ -122,7 +122,7 @@ function LoginForm() {
       </div>
 
       {/* RIGHT PANEL — form */}
-      <div style={{ background: C.cream, padding: '56px 52px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+      <div style={{ background: C.cream, padding: 'clamp(40px, 8vw, 56px) clamp(20px, 6vw, 52px)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
         <div style={{ width: '100%', maxWidth: 420 }}>
           <div style={{ marginBottom: 36 }}>
             <div style={{ ...kicker(), marginBottom: 14 }}>01 — CREDENCIALES</div>
@@ -243,6 +243,14 @@ function LoginForm() {
               }}
             >
               RECUPERAR CONTRASEÑA →
+            </Link>
+          </div>
+
+          {/* Enlace cruzado — solo movil (el panel izquierdo se oculta) */}
+          <div className="md:hidden" style={{ ...mono, fontSize: 11, letterSpacing: '0.08em', color: C.ink2, marginTop: 24, textAlign: 'center' }}>
+            ¿No tienes cuenta?{' '}
+            <Link href="/register" style={{ color: C.ink, textDecoration: 'underline' }}>
+              REGISTRARSE GRATIS →
             </Link>
           </div>
         </div>
