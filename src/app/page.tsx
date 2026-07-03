@@ -82,22 +82,23 @@ export default function LandingPage() {
           padding: '18px clamp(16px, 4vw, 40px)',
           display: 'flex', justifyContent: 'space-between', alignItems: 'center',
         }}>
-          <div style={{ display: 'flex', alignItems: 'center', gap: 14 }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 14, minWidth: 0 }}>
             <Image
               src="/ape-logo-negro.png"
               alt="Aurora Pixel Studio"
               width={56}
               height={56}
-              style={{ objectFit: 'contain' }}
+              style={{ objectFit: 'contain', flexShrink: 0 }}
             />
-            <span style={{ ...mono, fontSize: 15, letterSpacing: '0.1em' }}>Próximo Residente</span>
+            <span className="hidden sm:inline" style={{ ...mono, fontSize: 15, letterSpacing: '0.1em' }}>Próximo Residente</span>
           </div>
-          <nav style={{ display: 'flex', gap: 4, alignItems: 'center' }}>
+          <nav style={{ display: 'flex', gap: 4, alignItems: 'center', flexShrink: 0 }}>
             <Link
               href="/login"
               style={{
-                ...mono, fontSize: 12, letterSpacing: '0.08em',
-                padding: '10px 18px', color: C.ink2, textDecoration: 'none',
+                ...mono, fontSize: 'clamp(10px, 2.6vw, 12px)', letterSpacing: '0.06em',
+                padding: '10px clamp(10px, 3vw, 18px)', color: C.ink2, textDecoration: 'none',
+                whiteSpace: 'nowrap',
               }}
             >
               INICIAR SESIÓN
@@ -105,11 +106,11 @@ export default function LandingPage() {
             <Link
               href="/register"
               style={{
-                ...mono, fontSize: 12, letterSpacing: '0.08em',
+                ...mono, fontSize: 'clamp(10px, 2.6vw, 12px)', letterSpacing: '0.06em',
                 border: `4px solid ${C.ink}`,
                 background: C.ink, color: C.cream,
-                padding: '10px 20px',
-                textDecoration: 'none',
+                padding: '10px clamp(12px, 3vw, 20px)',
+                textDecoration: 'none', whiteSpace: 'nowrap',
               }}
             >
               REGISTRARSE
@@ -133,8 +134,9 @@ export default function LandingPage() {
 
           <h1 style={{
             ...disp,
-            fontSize: 'clamp(4rem, 12vw, 14rem)',
+            fontSize: 'clamp(2.4rem, 12vw, 14rem)',
             margin: 0, marginBottom: 40,
+            overflowWrap: 'break-word',
           }}>
             APRUEBA<br />
             <span style={{ color: C.pink }}>TU RESIDENCIA.</span>
@@ -247,10 +249,11 @@ export default function LandingPage() {
           <div style={{ ...kicker(), marginBottom: 32 }}>LA PREPARACIÓN DEFINITIVA</div>
           <h2 style={{
             ...disp,
-            fontSize: 'clamp(3.5rem, 9vw, 12rem)',
+            fontSize: 'clamp(2.4rem, 9vw, 12rem)',
             color: C.ink,
-            maxWidth: '80%',
+            maxWidth: '90%',
             margin: 0,
+            overflowWrap: 'break-word',
           }}>
             PREGUNTA<br />A PREGUNTA.
           </h2>
@@ -389,7 +392,7 @@ export default function LandingPage() {
         </div>
 
         <div style={{ textAlign: 'center', position: 'relative', zIndex: 2, padding: 'clamp(60px,8vw,80px) clamp(16px,4vw,40px)' }}>
-          <h2 style={{ ...disp, fontSize: 'clamp(4rem, 11vw, 14rem)', color: C.cream, margin: 0, marginBottom: 56 }}>
+          <h2 style={{ ...disp, fontSize: 'clamp(3rem, 11vw, 14rem)', color: C.cream, margin: 0, marginBottom: 56, overflowWrap: 'break-word' }}>
             EMPIEZA<br />HOY.
           </h2>
           <div style={{ display: 'flex', gap: 16, justifyContent: 'center', flexWrap: 'wrap' }}>

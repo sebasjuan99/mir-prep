@@ -64,11 +64,13 @@ export default function NavBar({ userEmail }: NavBarProps) {
 
           {/* Right side */}
           <div style={{ display: 'flex', alignItems: 'center', gap: 16 }}>
-            <span style={{ ...mono, fontSize: 10, letterSpacing: '0.06em', color: C.ink2 }} className="hidden sm:block">
+            {/* Desktop: email + salir */}
+            <span style={{ ...mono, fontSize: 10, letterSpacing: '0.06em', color: C.ink2 }} className="hidden lg:block">
               {userEmail}
             </span>
             <button
               onClick={() => signOut()}
+              className="hidden md:block"
               style={{
                 ...mono, fontSize: 11, letterSpacing: '0.08em',
                 border: inkBorder,
@@ -80,20 +82,28 @@ export default function NavBar({ userEmail }: NavBarProps) {
               SALIR
             </button>
 
-            {/* Mobile menu toggle */}
+            {/* Mobile menu toggle (hamburger) */}
             <button
               className="md:hidden"
+              aria-label={menuOpen ? 'Cerrar menú' : 'Abrir menú'}
+              aria-expanded={menuOpen}
               onClick={() => setMenuOpen(!menuOpen)}
-              style={{ ...mono, fontSize: 11, letterSpacing: '0.08em', border: inkBorder, padding: '8px 12px', cursor: 'pointer', background: 'transparent', color: C.ink }}
+              style={{
+                border: inkBorder, background: menuOpen ? C.ink : 'transparent',
+                color: menuOpen ? C.cream : C.ink,
+                width: 44, height: 40, lineHeight: 1, fontSize: 20,
+                display: 'flex', alignItems: 'center', justifyContent: 'center',
+                cursor: 'pointer', padding: 0,
+              }}
             >
-              {menuOpen ? 'CERRAR' : 'MENU'}
+              {menuOpen ? '✕' : '☰'}
             </button>
           </div>
         </div>
 
         {/* Mobile menu */}
         {menuOpen && (
-          <div style={{ borderTop: inkBorder, paddingBottom: 16 }} className="md:hidden">
+          <div style={{ borderTop: inkBorder, paddingBottom: 20 }} className="md:hidden">
             {links.map(link => {
               const active = pathname.startsWith(link.href)
               return (
@@ -103,20 +113,35 @@ export default function NavBar({ userEmail }: NavBarProps) {
                   onClick={() => setMenuOpen(false)}
                   style={{
                     ...mono,
-                    fontSize: 12,
+                    fontSize: 13,
                     letterSpacing: '0.1em',
                     display: 'block',
-                    padding: '14px 0',
+                    padding: '16px 4px',
                     textDecoration: 'none',
                     borderBottom: `1px solid ${C.ink2}`,
-                    color: active ? C.ink : C.ink2,
-                    background: 'transparent',
+                    color: active ? C.cream : C.ink2,
+                    background: active ? C.ink : 'transparent',
                   }}
                 >
                   {link.label}
                 </Link>
               )
             })}
+
+            {/* Email + salir dentro del menú en móvil */}
+            <div style={{ ...mono, fontSize: 10, letterSpacing: '0.06em', color: C.ink2, padding: '16px 4px 12px', wordBreak: 'break-all' }}>
+              {userEmail}
+            </div>
+            <button
+              onClick={() => { setMenuOpen(false); signOut() }}
+              style={{
+                ...mono, fontSize: 12, letterSpacing: '0.08em',
+                border: inkBorder, background: 'transparent', color: C.ink,
+                padding: '14px 0', width: '100%', cursor: 'pointer',
+              }}
+            >
+              SALIR
+            </button>
           </div>
         )}
       </div>

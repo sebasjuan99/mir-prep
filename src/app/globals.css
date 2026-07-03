@@ -77,6 +77,11 @@ body {
 }
 /* la ultima celda sin borde derecho */
 .grid-charts > .chart-cell:last-child { border-right: none; }
+/* apiladas en movil: separador inferior en vez del derecho */
+@media (max-width: 767px) {
+  .grid-charts > .chart-cell { border-right: none; border-bottom: 4px solid #0F0F0F; }
+  .grid-charts > .chart-cell:last-child { border-bottom: none; }
+}
 
 /* especialidades */
 .grid-4col {
