@@ -4,6 +4,7 @@ import './globals.css'
 import ReviveSSO from '@/components/ReviveSSO'
 import { GoogleTagManagerScript, GoogleTagManagerNoScript } from '@/components/GoogleTagManager'
 import { GoogleAnalytics } from '@/components/GoogleAnalytics'
+import { MetaPixel, MetaPixelNoScript } from '@/components/MetaPixel'
 
 const playfair = Playfair_Display({
   subsets: ['latin'],
@@ -106,8 +107,10 @@ export default function RootLayout({
     <html lang="es" className={`${playfair.variable} ${sourceSerif.variable} ${dmSans.variable} ${archivoBlack.variable} ${jetbrainsMono.variable} ${spaceGrotesk.variable}`}>
       <GoogleTagManagerScript />
       <GoogleAnalytics />
+      <MetaPixel />
       <body className="font-[var(--font-ui)] antialiased min-h-screen">
         <GoogleTagManagerNoScript />
+        <MetaPixelNoScript />
         <ReviveSSO />
         {children}
       </body>
