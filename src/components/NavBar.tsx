@@ -37,7 +37,7 @@ export default function NavBar({ userEmail }: NavBarProps) {
             </Link>
 
             {/* Desktop nav links */}
-            <div style={{ display: 'flex', gap: 0 }} className="hidden md:flex">
+            <div style={{ gap: 0 }} className="hidden md:flex">
               {links.map(link => {
                 const active = pathname.startsWith(link.href)
                 return (
