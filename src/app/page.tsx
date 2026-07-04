@@ -133,7 +133,7 @@ export default function LandingPage() {
 
           <h1 style={{
             ...disp,
-            fontSize: 'clamp(4rem, 12vw, 14rem)',
+            fontSize: 'clamp(2.5rem, 12vw, 14rem)',
             margin: 0, marginBottom: 40,
           }}>
             APRUEBA<br />
@@ -247,7 +247,7 @@ export default function LandingPage() {
           <div style={{ ...kicker(), marginBottom: 32 }}>LA PREPARACIÓN DEFINITIVA</div>
           <h2 style={{
             ...disp,
-            fontSize: 'clamp(3.5rem, 9vw, 12rem)',
+            fontSize: 'clamp(2rem, 9vw, 12rem)',
             color: C.ink,
             maxWidth: '80%',
             margin: 0,
@@ -389,7 +389,7 @@ export default function LandingPage() {
         </div>
 
         <div style={{ textAlign: 'center', position: 'relative', zIndex: 2, padding: 'clamp(60px,8vw,80px) clamp(16px,4vw,40px)' }}>
-          <h2 style={{ ...disp, fontSize: 'clamp(4rem, 11vw, 14rem)', color: C.cream, margin: 0, marginBottom: 56 }}>
+          <h2 style={{ ...disp, fontSize: 'clamp(2.5rem, 11vw, 14rem)', color: C.cream, margin: 0, marginBottom: 56 }}>
             EMPIEZA<br />HOY.
           </h2>
           <div style={{ display: 'flex', gap: 16, justifyContent: 'center', flexWrap: 'wrap' }}>
