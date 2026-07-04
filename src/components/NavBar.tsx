@@ -37,7 +37,7 @@ export default function NavBar({ userEmail }: NavBarProps) {
             </Link>
 
             {/* Desktop nav links */}
-            <div style={{ display: 'flex', gap: 0 }} className="hidden md:flex">
+            <div style={{ gap: 0 }} className="hidden md:flex">
               {links.map(link => {
                 const active = pathname.startsWith(link.href)
                 return (
@@ -84,7 +84,7 @@ export default function NavBar({ userEmail }: NavBarProps) {
 
             {/* Mobile menu toggle (hamburger) */}
             <button
-              className="md:hidden"
+              className="flex md:hidden"
               aria-label={menuOpen ? 'Cerrar menú' : 'Abrir menú'}
               aria-expanded={menuOpen}
               onClick={() => setMenuOpen(!menuOpen)}
@@ -92,7 +92,7 @@ export default function NavBar({ userEmail }: NavBarProps) {
                 border: inkBorder, background: menuOpen ? C.ink : 'transparent',
                 color: menuOpen ? C.cream : C.ink,
                 width: 44, height: 40, lineHeight: 1, fontSize: 20,
-                display: 'flex', alignItems: 'center', justifyContent: 'center',
+                alignItems: 'center', justifyContent: 'center',
                 cursor: 'pointer', padding: 0,
               }}
             >
