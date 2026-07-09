@@ -39,10 +39,11 @@ export default function ComoFuncionaV2() {
           <VideoSlot
             id="DEMO"
             aspectRatio="16 / 9"
-            mode="player"
+            youtubeId="CNpnobtIZxU"
+            poster="/videos/como-funciona.jpg"
             placeholder="Subir video demo de la plataforma aquí (simulacro de 20 preguntas + pantalla de métricas por especialidad / ranking de universidades, 20-40s)."
-            label="Demo de la plataforma: simulacro y métricas"
-            caption="Demo real de producto — simulacro + métricas por especialidad."
+            label="Cómo funciona proximoresidente.com: recorrido por la plataforma"
+            caption="Recorrido por la plataforma — cómo funciona proximoresidente.com."
           />
         </Reveal>
 

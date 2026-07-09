@@ -99,9 +99,10 @@ export default function HeroV2() {
               <VideoSlot
                 id="HERO"
                 aspectRatio="9 / 16"
-                mode="loop"
+                youtubeId="cufoBVcf5Zs"
+                poster="/videos/reel-que-es-pr.jpg"
                 placeholder="Subir video del hero aquí (loop 8-15s, muted). Dr. Alba con el gancho o loop de la plataforma."
-                label="Video de presentación de Próximo Residente"
+                label="Qué es Próximo Residente — reel de presentación"
               />
             </div>
           </div>

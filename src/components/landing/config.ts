@@ -72,5 +72,39 @@ export type Testimonial = {
 }
 
 export const TESTIMONIALS: Testimonial[] = [
-  // [INSERTAR TESTIMONIOS REALES] — no rellenar con datos ficticios.
+  {
+    tipo: 'texto',
+    nombre: 'Paola',
+    detalle: 'Colombia',
+    quote:
+      'Es una plataforma excelente para identificar qué tipo de examen es mejor presentarse.',
+  },
+  {
+    tipo: 'texto',
+    nombre: 'Diana',
+    detalle: 'México',
+    quote:
+      'La sección de flashcards es genial para repasar de una manera más amigable, enfocada en los temas que realmente necesito reforzar.',
+  },
+  {
+    tipo: 'texto',
+    nombre: 'Daniel',
+    detalle: 'Colombia',
+    quote:
+      'Poder medir mi progreso es la mejor manera de saber qué tan factible es que pueda pasar a residencia y ahorrar dinero en exámenes fallidos.',
+  },
+  {
+    tipo: 'texto',
+    nombre: 'Sebastián',
+    detalle: 'Colombia',
+    quote:
+      'Esta plataforma tiene todo lo que uno necesita para entrenar con precisión la presentación de exámenes, es increíble.',
+  },
+  {
+    tipo: 'texto',
+    nombre: 'Camilo',
+    detalle: 'Chile',
+    quote:
+      'La idea de hacer simulacros pequeños de 20 preguntas es muy buena porque no te abrumas y puedes entrar a cada rato en el día a presentar simulacros y repasar. Básicamente cambié mi tiempo en redes por pequeñas sesiones de testing. Brutal esto, gracias.',
+  },
 ]
