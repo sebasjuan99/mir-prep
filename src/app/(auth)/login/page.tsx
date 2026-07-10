@@ -6,6 +6,7 @@ import Image from 'next/image'
 import { useRouter, useSearchParams } from 'next/navigation'
 import { Turnstile } from '@marsidev/react-turnstile'
 import { C, disp, mono, bodyFont, kicker, inkBorder } from '@/lib/cm'
+import { useReviveEmbed } from '@/lib/revive'
 
 const inputStyle = {
   ...bodyFont,
@@ -40,6 +41,9 @@ function LoginForm() {
   const [turnstileError, setTurnstileError] = useState(false)
   const router = useRouter()
   const searchParams = useSearchParams()
+  // Oculta el registro cuando la app llega embebida desde Revive (sus usuarios
+  // ya tienen cuenta). Los usuarios externos directos no se ven afectados.
+  const isReviveEmbed = useReviveEmbed()
 
   useEffect(() => {
     if (searchParams.get('verified') === 'true') setBanner('verified')
@@ -111,12 +115,14 @@ function LoginForm() {
           </p>
         </div>
 
-        <div style={{ ...mono, fontSize: 11, letterSpacing: '0.08em', color: C.ink, opacity: 0.7 }}>
-          ¿No tienes cuenta?{' '}
-          <Link href="/register" style={{ color: C.ink, textDecoration: 'underline' }}>
-            REGISTRARSE GRATIS →
-          </Link>
-        </div>
+        {!isReviveEmbed && (
+          <div style={{ ...mono, fontSize: 11, letterSpacing: '0.08em', color: C.ink, opacity: 0.7 }}>
+            ¿No tienes cuenta?{' '}
+            <Link href="/register" style={{ color: C.ink, textDecoration: 'underline' }}>
+              REGISTRARSE GRATIS →
+            </Link>
+          </div>
+        )}
 
         <div style={{ position: 'absolute', bottom: -80, right: -80, width: 240, height: 240, borderRadius: '50%', background: C.yellow, border: `4px solid ${C.orange}`, opacity: 0.35 }} />
       </div>
@@ -247,12 +253,14 @@ function LoginForm() {
           </div>
 
           {/* Enlace cruzado — solo movil (el panel izquierdo se oculta) */}
-          <div className="md:hidden" style={{ ...mono, fontSize: 11, letterSpacing: '0.08em', color: C.ink2, marginTop: 24, textAlign: 'center' }}>
-            ¿No tienes cuenta?{' '}
-            <Link href="/register" style={{ color: C.ink, textDecoration: 'underline' }}>
-              REGISTRARSE GRATIS →
-            </Link>
-          </div>
+          {!isReviveEmbed && (
+            <div className="md:hidden" style={{ ...mono, fontSize: 11, letterSpacing: '0.08em', color: C.ink2, marginTop: 24, textAlign: 'center' }}>
+              ¿No tienes cuenta?{' '}
+              <Link href="/register" style={{ color: C.ink, textDecoration: 'underline' }}>
+                REGISTRARSE GRATIS →
+              </Link>
+            </div>
+          )}
         </div>
       </div>
     </div>

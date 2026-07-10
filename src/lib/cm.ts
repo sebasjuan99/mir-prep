@@ -39,3 +39,13 @@ export const kicker = (bg: string = C.ink, color: string = C.cream): CSSProperti
 })
 
 export const inkBorder = `4px solid ${C.ink}` as const
+
+export const dot = (color: string = C.ink): CSSProperties => ({
+  display: 'inline-block',
+  width: 8,
+  height: 8,
+  borderRadius: '50%',
+  background: color,
+  margin: '0 8px',
+  verticalAlign: 'middle',
+})

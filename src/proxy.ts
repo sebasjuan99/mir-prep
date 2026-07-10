@@ -31,7 +31,7 @@ export async function proxy(request: NextRequest) {
 
   const { data: { user } } = await supabase.auth.getUser()
 
-  const isPublicRoute = ['/', '/login', '/register', '/forgot-password', '/reset-password'].includes(request.nextUrl.pathname) ||
+  const isPublicRoute = ['/', '/home-v1', '/login', '/register', '/forgot-password', '/reset-password'].includes(request.nextUrl.pathname) ||
                         request.nextUrl.pathname.startsWith('/auth/')
   const isApiRoute = request.nextUrl.pathname.startsWith('/api/')
   const isStaticAsset = request.nextUrl.pathname.startsWith('/_next/') ||

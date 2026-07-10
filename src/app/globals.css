@@ -120,6 +120,103 @@ body {
   .grid-landing-4 { grid-template-columns: repeat(4, 1fr); }
 }
 
+/* ── Landing v2 ────────────────────────────────────────────────────────── */
+/* Hero: texto + reel vertical. Apilado en móvil, 2 columnas en desktop. */
+.lp-hero {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+  align-items: center;
+}
+.lp-hero-media { margin-top: 8px; }
+@media (min-width: 900px) {
+  .lp-hero {
+    grid-template-columns: 1.05fr 0.95fr;
+    gap: clamp(32px, 5vw, 72px);
+  }
+  .lp-hero-media { margin-top: 0; }
+}
+
+/* Dos tarjetas lado a lado (dolores, micro-bloques, antes/después). */
+.lp-two {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: clamp(16px, 2.5vw, 28px);
+  align-items: stretch;
+}
+@media (min-width: 720px) {
+  .lp-two { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* Cuatro pasos de "cómo funciona". */
+.lp-steps {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: clamp(14px, 2vw, 20px);
+  align-items: stretch;
+}
+@media (min-width: 560px) {
+  .lp-steps { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 980px) {
+  .lp-steps { grid-template-columns: repeat(4, 1fr); }
+}
+
+/* Testimonios: rail auto-desplazable (marquee) en desktop, swipe con snap en móvil. */
+@keyframes lp-marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.lp-marquee {
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+.lp-marquee-track {
+  display: flex;
+  gap: 20px;
+  width: max-content;
+}
+.lp-marquee-card { scroll-snap-align: start; }
+@media (min-width: 760px) {
+  .lp-marquee { overflow: hidden; }
+  .lp-marquee-track { animation: lp-marquee 46s linear infinite; }
+  .lp-marquee:hover .lp-marquee-track { animation-play-state: paused; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .lp-marquee-track { animation: none !important; }
+  .lp-marquee { overflow-x: auto; }
+}
+
+/* Beneficios: comparación antes/después. Apilado en móvil, 3 col en desktop. */
+.lp-compare-row {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  align-items: stretch;
+}
+.lp-compare-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  transform: rotate(90deg);
+}
+.lp-compare-head { display: none; }
+@media (min-width: 760px) {
+  .lp-compare-row {
+    grid-template-columns: 1fr auto 1fr;
+    gap: 16px;
+  }
+  .lp-compare-arrow { transform: none; font-size: 28px; }
+  .lp-compare-head {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: 16px;
+  }
+  .lp-compare-head > span:last-child { padding-left: 2px; }
+}
+
 /* Hide decorative stamps / circles on mobile */
 .landing-stamp { display: none !important; }
 @media (min-width: 768px) { .landing-stamp { display: grid !important; } }
