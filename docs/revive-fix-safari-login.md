@@ -25,11 +25,13 @@ En la consola de Safari salen estos errores con el stack en un archivo llamado *
 - **`Blocked a frame ... from accessing a frame`**: algo en vuestro código intenta leer *directamente* el contenido de un iframe cross-origin (el nuestro y el de Cloudflare). Eso el navegador lo bloquea siempre. La comunicación con nuestro iframe debe ser **solo por `postMessage`** (nunca `iframe.contentWindow.document`, `.location`, etc.).
 - **`challenges.cloudflare.com`**: tenéis un desafío de **Cloudflare Turnstile / anti-bot** en la página que embebe. Conviene revisar que no interfiera con la carga del iframe.
 
-### Frente 2 — Login en Safari: hace falta Storage Access API (2 cambios de vuestro lado)
+### Frente 2 — Login en Safari: SOLO necesitamos 1 cambio de vuestro lado
 
-Safari bloquea las cookies de terceros dentro del iframe incluso particionadas. El único camino fiable en Safari es la **Storage Access API**, que **requiere**:
+Ya montamos (y desplegamos) en nuestro lado una **pantalla de acceso dedicada** para Revive: cuando un usuario del iframe no tiene sesión, lo llevamos automáticamente a `https://www.proximoresidente.com/acceso-revive`, una página minimalista con **un solo botón "Iniciar sesión"** (sin correo/contraseña y **sin Turnstile**). El clic en ese botón hace dos cosas: es el gesto que Safari exige para conceder acceso al almacenamiento (`document.requestStorageAccess()`) y canjea vuestro token SSO.
 
-1. **Añadir `allow="storage-access"` al `<iframe>`** (además del `allow` que ya tengáis):
+**No tenéis que cambiar el `src` del iframe** — el redirect es automático. Lo único que necesitamos de vosotros:
+
+1. **Añadir `allow="storage-access"` al `<iframe>`** (junto al `allow` que ya tengáis):
    ```html
    <iframe
      src="https://www.proximoresidente.com"
@@ -37,9 +39,9 @@ Safari bloquea las cookies de terceros dentro del iframe incluso particionadas. 
      style="width:100%; height:100%; border:0;">
    </iframe>
    ```
-2. **Aceptar un clic del usuario dentro del iframe** (un botón "Entrar"). Safari **no** concede el acceso al almacenamiento sin un gesto explícito del usuario; no se puede hacer automático al cargar. Nosotros añadiríamos ese botón dentro del iframe.
+2. **(Recomendado) Enviar un token SSO nuevo cada vez que recibáis `PR_IFRAME_READY`.** El token es de un solo uso; si el usuario reintenta, necesitamos uno fresco. La pantalla reemite `PR_IFRAME_READY` al reintentar.
 
-> Con esos dos cambios, nosotros implementamos en nuestro lado la llamada a `document.requestStorageAccess()` tras el clic, y ahí sí la sesión de Safari persiste. Chrome/Firefox seguirán funcionando como hasta ahora.
+> Con eso, Chrome/Firefox siguen igual y Safari pasa a funcionar con un clic en "Iniciar sesión".
 
 ### Prueba que confirma la causa (opcional, en Mac)
 
