@@ -13,13 +13,18 @@ export function createClient() {
   // Dentro de un iframe cross-site (integración Revive) las cookies de sesión
   // deben ser SameSite=None; Secure para que el navegador las envíe en los
   // requests del iframe y el render del servidor reconozca la sesión.
-  // Fuera del iframe (usuarios directos) se conservan los valores por defecto
-  // (Lax), por lo que su experiencia no cambia en absoluto.
+  // Además marcamos Partitioned (CHIPS): Safari (ITP) y Chrome (fin de las
+  // cookies de terceros) bloquean las cookies de terceros normales dentro de
+  // un iframe; una cookie particionada queda "encajonada" al par (sitio-top +
+  // sitio-cookie) y sí se acepta y reenvía en ese contexto → arregla el login
+  // en Safari, donde antes setSession no persistía y el servidor veía la sesión
+  // como cerrada. Fuera del iframe (usuarios directos) se conservan los valores
+  // por defecto (Lax), por lo que su experiencia no cambia en absoluto.
   const inIframe = typeof window !== 'undefined' && window.self !== window.top
 
   return createBrowserClient(supabaseUrl, supabaseKey,
     inIframe
-      ? { cookieOptions: { sameSite: 'none', secure: true } }
+      ? { cookieOptions: { sameSite: 'none', secure: true, partitioned: true } }
       : undefined
   )
 }

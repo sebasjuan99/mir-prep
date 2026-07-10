@@ -10,6 +10,17 @@ export async function proxy(request: NextRequest) {
     request: { headers: requestHeaders },
   })
 
+  // Petición cross-site (la app corriendo embebida en el iframe de Revive):
+  // al refrescar la sesión hay que reescribir la cookie como
+  // SameSite=None; Secure; Partitioned (CHIPS), o Safari la descarta por ser
+  // "de terceros" y el usuario queda deslogueado en el siguiente request.
+  // Los usuarios directos son same-site → conservan los valores por defecto.
+  const isCrossSite = request.headers.get('sec-fetch-site') === 'cross-site'
+  const crossSiteCookie = (options: Record<string, unknown> | undefined) =>
+    isCrossSite
+      ? { ...options, sameSite: 'none' as const, secure: true, partitioned: true }
+      : options
+
   const supabase = createServerClient(
     process.env.NEXT_PUBLIC_SUPABASE_URL!,
     process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
@@ -19,10 +30,10 @@ export async function proxy(request: NextRequest) {
           return request.cookies.getAll()
         },
         setAll(cookiesToSet) {
-          cookiesToSet.forEach(({ name, value, options }) => request.cookies.set(name, value))
+          cookiesToSet.forEach(({ name, value }) => request.cookies.set(name, value))
           supabaseResponse = NextResponse.next({ request: { headers: requestHeaders } })
           cookiesToSet.forEach(({ name, value, options }) =>
-            supabaseResponse.cookies.set(name, value, options)
+            supabaseResponse.cookies.set(name, value, crossSiteCookie(options))
           )
         },
       },
