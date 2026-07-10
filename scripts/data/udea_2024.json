@@ -1,0 +1,1541 @@
+{
+  "examen": "UDEA",
+  "anio": 2024,
+  "fuente": "Reconstrucción UDEA 2024",
+  "preguntas": [
+    {
+      "enunciado": "Un paciente sufre una quemadura con cable eléctrico al tocar un cepillo metálico. Al examen físico, presenta edema en ambos miembros superiores, dedos en flexión con dolor intenso para la movilización, escara blanca gruesa en antebrazos, edema y dolor intenso con la movilización de los dedos, pero con pulsos presentes. ¿Cuál sería la conducta terapéutica adecuada a seguir?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Realizar fasciotomía para manejo de síndrome compartimental."
+        },
+        {
+          "letra": "B",
+          "texto": "Realizar escarotomía para prevenir síndrome compartimental."
+        },
+        {
+          "letra": "C",
+          "texto": "Manejo con manitol y otros tratamientos."
+        },
+        {
+          "letra": "D",
+          "texto": "Inmovilizar en posición funcional con Férula de seguridad y observación."
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Cirugía General",
+      "tema": "Quemadura eléctrica",
+      "dificultad": "media",
+      "subtema": "Escarotomía / síndrome compartimental"
+    },
+    {
+      "enunciado": "Una mujer presenta episodios recurrentes de angioedema en la lengua y habones todos los días. Al examen físico, se observa angioedema y más de 50 habones en el tórax y el cuello, los cuales duran menos de 24 horas y no dejan hiperpigmentación residual. Sus signos vitales son estables y no presenta pérdida de peso, pérdida de cabello ni signos inflamatorios. ¿Qué exámenes orientarán el diagnóstico de la paciente?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Endoscopia digestiva alta y coproscópico."
+        },
+        {
+          "letra": "B",
+          "texto": "Factor reumatoideo, ANAs, ENAs."
+        },
+        {
+          "letra": "C",
+          "texto": "Hemograma, PCR, IgE total, TSH y anticuerpos anti-TPO."
+        },
+        {
+          "letra": "D",
+          "texto": "IgE específica para huevo, leche, cerdo."
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Inmunología",
+      "tema": "Urticaria crónica espontánea",
+      "dificultad": "media",
+      "subtema": "Estudio diagnóstico"
+    },
+    {
+      "enunciado": "Una paciente femenina de 25 años con antecedente de lupus eritematoso sistémico ingresa a urgencias con convulsiones activas. ¿Cuál sería la conducta adecuada?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Bolo de dextrosa al 10%."
+        },
+        {
+          "letra": "B",
+          "texto": "Bolo de fenitoína iv."
+        },
+        {
+          "letra": "C",
+          "texto": "Bolo de metilprednisolona iv."
+        },
+        {
+          "letra": "D",
+          "texto": "Bolo de midazolam iv."
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Neurología",
+      "tema": "Estado epiléptico",
+      "dificultad": "media",
+      "subtema": "Manejo agudo con benzodiacepinas"
+    },
+    {
+      "enunciado": "Un paciente presenta una herida por arma de fuego en la pierna derecha, en el tercio superior, con un orificio de entrada en la cara anterolateral externa y salida posterior medial. Experimenta dolor intenso, parestesias, edema, disminución de pulsos en el pie, y la extremidad se presenta pálida con dolor intenso al movimiento. ¿Cuál es el manejo adecuado?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Fasciotomía."
+        },
+        {
+          "letra": "B",
+          "texto": "Bloqueo regional."
+        },
+        {
+          "letra": "C",
+          "texto": "Manitol."
+        },
+        {
+          "letra": "D",
+          "texto": "Elevar la extremidad."
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Traumatología y Ortopedia",
+      "tema": "Trauma de extremidad por arma de fuego",
+      "dificultad": "media",
+      "subtema": "Síndrome compartimental / fasciotomía"
+    },
+    {
+      "enunciado": "Un paciente masculino que discutió con su pareja hace 2 meses presenta tristeza constante, dificultad para conciliar el sueño, disminución del deseo sexual y refiere ideas suicidas y de muerte, aunque no ha intentado suicidarse. Su nivel de TSH es normal. ¿Cuál es el manejo más adecuado?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Venlafaxina."
+        },
+        {
+          "letra": "B",
+          "texto": "Fluoxetina."
+        },
+        {
+          "letra": "C",
+          "texto": "Imipramina."
+        },
+        {
+          "letra": "D",
+          "texto": "Amitriptilina."
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Psiquiatría",
+      "tema": "Episodio depresivo mayor",
+      "dificultad": "baja",
+      "subtema": "Tratamiento con ISRS"
+    },
+    {
+      "enunciado": "Un paciente presenta una herida corto punzante de 1 cm a nivel del cartílago tiroides, soplante, con disnea, enfisema subcutáneo y estridor. No presenta hematemesis, y tiene un hematoma estable sin sangrado, soplo ni thrill. Además, está con estabilidad hemodinámica. ¿Cuál es la conducta a seguir?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Exploración digital."
+        },
+        {
+          "letra": "B",
+          "texto": "Fibrolaringoscopia."
+        },
+        {
+          "letra": "C",
+          "texto": "Angiotomografía."
+        },
+        {
+          "letra": "D",
+          "texto": "Remitir para cirugía."
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Cirugía General",
+      "tema": "Trauma penetrante de cuello",
+      "dificultad": "media",
+      "subtema": "Lesión laringotraqueal"
+    },
+    {
+      "enunciado": "Un paciente presenta dolor en epigastrio que se irradia a hipocondrio derecho desde hace 3 días. Es afebril y no presenta otra sintomatología. El dolor mejora con analgesia. Los paraclínicos muestran GOT 200, GPT 300, BT 1.5, BD 1.8, FA 136, y leucocitos de 15,500. La ecografía abdominal revela una vesícula biliar con paredes delgadas y múltiples cálculos en su interior, sin dilatación de la vía biliar. ¿Cuál es el diagnóstico y manejo inicial?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Colelitiasis y hacer colangioresonancia."
+        },
+        {
+          "letra": "B",
+          "texto": "Cólico biliar, colelitiasis sin colecistitis, programar para cirugía electiva."
+        },
+        {
+          "letra": "C",
+          "texto": "Colecistitis aguda, CPRE antes de colecistectomía."
+        },
+        {
+          "letra": "D",
+          "texto": "Colecistitis, programar para colecistectomía laparoscópica."
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Gastroenterología",
+      "tema": "Colelitiasis / sospecha de coledocolitiasis",
+      "dificultad": "media",
+      "subtema": "Colangioresonancia"
+    },
+    {
+      "enunciado": "Un paciente presenta múltiples heridas por arma cortopunzante, una de 2 cm en el sexto espacio intercostal con línea axilar anterior sin sangrado activo y otra de 2 cm en epigastrio también sin sangrado activo. Se encuentra con dolor leve a la palpación abdominal generalizada, sin soplo, y con signos vitales estables. No presenta neumotórax ni derrame pleural según la rx de tórax y el E-FAST es negativo. A las 4 horas, se realiza una radiografía de tórax sin cambios. Actualmente el paciente no tiene dolor y está tolerando vía oral. ¿Cuál es la conducta adecuada a seguir?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Laparoscopia diagnóstica."
+        },
+        {
+          "letra": "B",
+          "texto": "TAC de tórax y abdomen contrastado."
+        },
+        {
+          "letra": "C",
+          "texto": "Dar de alta con recomendaciones y signos de alarma."
+        },
+        {
+          "letra": "D",
+          "texto": "Continuar observación."
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cirugía General",
+      "tema": "Trauma abdominal penetrante",
+      "dificultad": "media",
+      "subtema": "Laparoscopia diagnóstica"
+    },
+    {
+      "enunciado": "Un paciente de 6 años ha estado en contacto con su abuelo, quien tiene tuberculosis pleural. Se le realiza una prueba de tuberculina que muestra una formación de habón de 12 mm, y su radiografía de tórax es normal. El paciente no presenta síntomas. ¿Cuál sería el tratamiento ideal para este paciente?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Rifapentina por 3 meses."
+        },
+        {
+          "letra": "B",
+          "texto": "Isoniazida por 6 meses."
+        },
+        {
+          "letra": "C",
+          "texto": "Rifampicina durante 12 meses."
+        },
+        {
+          "letra": "D",
+          "texto": "Isoniazida más rifampicina durante 1 mes."
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Pediatría",
+      "tema": "Infección tuberculosa latente",
+      "dificultad": "media",
+      "subtema": "Quimioprofilaxis con isoniazida"
+    },
+    {
+      "enunciado": "Un paciente ha experimentado episodios de angioedema en la lengua una vez al mes durante los últimos 3 meses, sin respuesta a la loratadina o adrenalina. Tiene antecedentes de hipotiroidismo, hipertensión arterial y diabetes, y está siendo tratado con levotiroxina, metformina, hidroclorotiazida y enalapril. ¿Cuál sería la conducta adecuada a seguir?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Suspender enalapril."
+        },
+        {
+          "letra": "B",
+          "texto": "Suspender metformina."
+        },
+        {
+          "letra": "C",
+          "texto": "Aumentar loratadina a 20 mg q12 horas."
+        },
+        {
+          "letra": "D",
+          "texto": "Aumentar la dosis de adrenalina."
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Farmacología",
+      "tema": "Angioedema inducido por IECA",
+      "dificultad": "media",
+      "subtema": "Suspensión del fármaco"
+    },
+    {
+      "enunciado": "Un niño masculino de 9 meses, con vacunación completa para su edad, presenta neumonía basal derecha y mínimo derrame pleural. ¿Cuál es el antibiótico empírico de elección?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Ampicilina."
+        },
+        {
+          "letra": "B",
+          "texto": "Penicilina."
+        },
+        {
+          "letra": "C",
+          "texto": "Oxacilina."
+        },
+        {
+          "letra": "D",
+          "texto": "Vancomicina."
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Pediatría",
+      "tema": "Neumonía adquirida en comunidad",
+      "dificultad": "baja",
+      "subtema": "Antibiótico empírico"
+    },
+    {
+      "enunciado": "Un paciente de 1 semana, nacido por parto vaginal hospitalario y adecuados controles prenatales, presenta fiebre e inapetencia, junto con edema palpebral bilateral, lagrimeo, inyección conjuntival y secreción amarillenta. ¿Cuál es el diagnóstico más probable y cuál sería la conducta a seguir?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Celulitis Preseptal. Iniciar manejo con cefazolina + amikacina y remitir a oftalmología."
+        },
+        {
+          "letra": "B",
+          "texto": "Conjuntivitis neonatal. Realizar cultivo para Chlamydia y Neisseria, iniciar eritromicina y ceftriaxona, y remitir a oftalmología."
+        },
+        {
+          "letra": "C",
+          "texto": "Glaucoma congénito. Remitir a oftalmología."
+        },
+        {
+          "letra": "D",
+          "texto": "Dacriocistitis. Remitir a oftalmología."
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Neonatología",
+      "tema": "Conjuntivitis neonatal",
+      "dificultad": "media",
+      "subtema": "Cobertura Chlamydia/Neisseria"
+    },
+    {
+      "enunciado": "Un paciente de 9 años presenta un historial de cefalea hemicraneana alternante, vespertina, con una evolución de doce meses, la cual cede parcialmente con acetaminofén. Refiere episodios con fotofobia y hemianopsia, pero niega sonofobia. Ha identificado el calor como un desencadenante de los episodios, los cuales duran aproximadamente 4 horas. El examen físico y neurológico es normal. ¿Cuál es la conducta más adecuada?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "TAC de cráneo contrastado y simple."
+        },
+        {
+          "letra": "B",
+          "texto": "RNM contrastada y simple."
+        },
+        {
+          "letra": "C",
+          "texto": "No requiere estudios de extensión."
+        },
+        {
+          "letra": "D",
+          "texto": "Electroencefalograma convencional."
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Pediatría",
+      "tema": "Migraña con aura",
+      "dificultad": "media",
+      "subtema": "Cefalea en niño sin banderas rojas"
+    },
+    {
+      "enunciado": "Una paciente de 52 años, con dos hijos y en menopausia desde hace 2 años, tiene un índice de masa corporal (BMI) de 38 y presenta episodios de sangrado genital abundante. En una ecografía se observa un endometrio de 8 mm. ¿Cuál es la conducta adecuada a seguir?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Progestágenos."
+        },
+        {
+          "letra": "B",
+          "texto": "Manejo con ácido tranexámico."
+        },
+        {
+          "letra": "C",
+          "texto": "Terapia de reemplazo hormonal."
+        },
+        {
+          "letra": "D",
+          "texto": "Histeroscopia y biopsia endometrial."
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Sangrado uterino posmenopáusico",
+      "dificultad": "media",
+      "subtema": "Histeroscopia y biopsia endometrial"
+    },
+    {
+      "enunciado": "Una paciente de 45 años, sin antecedentes personales de interés y asintomática. Tiene antecedentes familiares de cáncer de colon, ya que su padre falleció a los 54 años debido a esta enfermedad. ¿Cuál sería la conducta adecuada a seguir?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Seguimiento clínico en un año"
+        },
+        {
+          "letra": "B",
+          "texto": "Solicitar sangre oculta en heces"
+        },
+        {
+          "letra": "C",
+          "texto": "Colonoscopia"
+        },
+        {
+          "letra": "D",
+          "texto": "Ordenar colon por enema"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Gastroenterología",
+      "tema": "Tamizaje de cáncer colorrectal",
+      "dificultad": "media",
+      "subtema": "Colonoscopia por antecedente familiar"
+    },
+    {
+      "enunciado": "Una paciente de 16 años presenta asimetría de senos, lo que ha afectado su vida social y disminuido su autoestima. Refiere ciclos menstruales regulares. En el examen físico, se observa que la glándula mamaria derecha es más pequeña (Tanner 3) que la izquierda (Tanner 5), y tiene vello púbico Tanner 2. La paciente es asintomática y el resto del examen físico es normal. ¿Cuál sería la conducta a seguir?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Remitir a Cirugía Plástica para implante mamario."
+        },
+        {
+          "letra": "B",
+          "texto": "Remitir a Psicología para mejorar su salud mental."
+        },
+        {
+          "letra": "C",
+          "texto": "Realizar perfil hormonal."
+        },
+        {
+          "letra": "D",
+          "texto": "Recomendar relleno en el brasier mientras termina de desarrollarse."
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Asimetría mamaria en desarrollo puberal",
+      "dificultad": "media",
+      "subtema": "Conducta expectante"
+    },
+    {
+      "enunciado": "Una mujer embarazada en el primer trimestre, asintomática, trae reporte positivo para antígeno de superficie de la Hepatitis B (HBsAg). ¿Cuál sería la conducta a seguir?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Iniciar tratamiento con tenofovir 300 mg hasta el postparto."
+        },
+        {
+          "letra": "B",
+          "texto": "Solicitar HBeAg, anti-HBc total, IgM anti-HBc."
+        },
+        {
+          "letra": "C",
+          "texto": "Iniciar vacunación."
+        },
+        {
+          "letra": "D",
+          "texto": "Solicitar de forma inmediata carga viral antes de iniciar terapia antirretroviral."
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Infectología",
+      "tema": "Hepatitis B en embarazo",
+      "dificultad": "media",
+      "subtema": "Estudio serológico complementario"
+    },
+    {
+      "enunciado": "Un paciente acude al primer nivel de atención después de sufrir un trauma ocular con un objeto vegetal en el ojo derecho. Experimenta una pérdida inmediata de la visión. Al examen físico, se observa exposición del iris debido a herida en el ojo afectado, con la visión limitada a la percepción de manos únicamente. ¿Cuál sería la conducta adecuada a seguir antes de remitir a su IPS?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Lavar con solución salina 0.9%, administrar antibiótico por vía intravenosa u oral, tapar con un cono sin compresión y remitir."
+        },
+        {
+          "letra": "B",
+          "texto": "Administrar antibióticos por vía oral, tapar con un cono compresivo y remitir."
+        },
+        {
+          "letra": "C",
+          "texto": "Tapar con un cono sin compresión, administrar antibiótico por vía oral y remitir."
+        },
+        {
+          "letra": "D",
+          "texto": "Lavar con solución salina 0.9%, administrar antibiótico por vía intravenosa y gotas, tapar con compresión y remitir."
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Oftalmología",
+      "tema": "Trauma ocular a globo abierto",
+      "dificultad": "media",
+      "subtema": "Manejo inicial y remisión"
+    },
+    {
+      "enunciado": "Un paciente masculino presenta antecedentes de lesiones nodulares y abscesos en axilas y región inguinal, así como comedones en el puente. Ahora presenta cicatrices atróficas y fístulas. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Forúnculosis recurrente."
+        },
+        {
+          "letra": "B",
+          "texto": "Hidradenitis Supurativa."
+        },
+        {
+          "letra": "C",
+          "texto": "Colonización por Staphylococcus aureus."
+        },
+        {
+          "letra": "D",
+          "texto": "Impétigo."
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Dermatología",
+      "tema": "Hidradenitis supurativa",
+      "dificultad": "baja",
+      "subtema": "Diagnóstico"
+    },
+    {
+      "enunciado": "Una paciente femenina con antecedentes personales de hipertensión arterial en manejo previo con losartán y clortalidona. La clortalidona se cambió por amlodipino debido a hipocalemia. La paciente suspendió el tratamiento por 3 años y hoy acude a consulta general con una presión arterial de 170/90 mmHg. El resto del examen físico es normal, y los paraclínicos de rutina muestran un nivel de potasio sérico de 2.8 mmol/L, con sodio normal y el resto de los paraclínicos normales. ¿Cuál de las siguientes pruebas sería más indicada para realizar?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Pedir cortisol."
+        },
+        {
+          "letra": "B",
+          "texto": "Pedir ecodoppler renal."
+        },
+        {
+          "letra": "C",
+          "texto": "Pedir actividad de aldosterona y renina plasmática."
+        },
+        {
+          "letra": "D",
+          "texto": "Realizar una polisomnografía."
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Endocrinología",
+      "tema": "Hiperaldosteronismo primario",
+      "dificultad": "media",
+      "subtema": "Relación aldosterona/renina"
+    },
+    {
+      "enunciado": "Un niño con síntomas respiratorios crónicos, incluyendo rinorrea y obstrucción nasal, experimenta una crisis asmática que se maneja en el hospital. ¿Qué manejo se decide en contexto ambulatorio al egreso?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Beclometasona inhalado y nasal diario y salbutamol en crisis."
+        },
+        {
+          "letra": "B",
+          "texto": "Beclometasona inhalado diario y salbutamol en crisis."
+        },
+        {
+          "letra": "C",
+          "texto": "Cetirizina y salbutamol en crisis."
+        },
+        {
+          "letra": "D",
+          "texto": "Salbutamol en crisis y cita control en 1 mes."
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Pediatría",
+      "tema": "Asma con rinitis alérgica",
+      "dificultad": "media",
+      "subtema": "Manejo ambulatorio al egreso"
+    },
+    {
+      "enunciado": "Un paciente masculino de 60 años, fumador pesado activo por 30 años, presenta hematuria persistente (3 veces), disuria y nicturia. El uroanálisis muestra hematuria macroscópica. ¿Cuál es el riesgo y manejo adecuado para este paciente?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Alto riesgo, pedir PSA, ecografía de vías urinarias y cistoscopia."
+        },
+        {
+          "letra": "B",
+          "texto": "Alto riesgo, pedir uretrografía y uretrocistoscopia."
+        },
+        {
+          "letra": "C",
+          "texto": "Riesgo intermedio, realizar urocultivo, PSA y ecografía de vías urinarias."
+        },
+        {
+          "letra": "D",
+          "texto": "Riesgo intermedio, realizar uretrografía y uretrocistoscopia"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Urología",
+      "tema": "Hematuria y sospecha de cáncer vesical",
+      "dificultad": "media",
+      "subtema": "Cistoscopia y estudio"
+    },
+    {
+      "enunciado": "Un paciente con hernia incisional consulta por aumento del tamaño del defecto y dolor. Al examen físico, se observa una hernia en línea media de la cicatriz, con eritema perilesional y dolorosa a la palpación. Además, presenta defensa abdominal lejana a la hernia. ¿Cuál sería la conducta a tomar?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Cirugía emergente."
+        },
+        {
+          "letra": "B",
+          "texto": "Laparoscopia de urgencia."
+        },
+        {
+          "letra": "C",
+          "texto": "Reducir manualmente y programar cirugía electiva."
+        },
+        {
+          "letra": "D",
+          "texto": "Iniciar antibióticos"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cirugía General",
+      "tema": "Hernia incisional complicada",
+      "dificultad": "media",
+      "subtema": "Cirugía urgente"
+    },
+    {
+      "enunciado": "Un paciente con neumonía lobar requiere intubación de secuencia rápida. Después de la SRI, se observa un Cormack IV, y la saturación de oxígeno del paciente es del 75%. ¿Cuál es el siguiente paso a seguir?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Videolaringoscopia."
+        },
+        {
+          "letra": "B",
+          "texto": "Ventilación con máscara facial."
+        },
+        {
+          "letra": "C",
+          "texto": "Cambio de operador."
+        },
+        {
+          "letra": "D",
+          "texto": "Uso de Bougie."
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Anestesiología",
+      "tema": "Intubación de secuencia rápida",
+      "dificultad": "media",
+      "subtema": "Vía aérea difícil Cormack IV"
+    },
+    {
+      "enunciado": "Un paciente masculino de 72 años de edad, asintomático, con antecedente de enfermedad coronaria revascularizada percutáneamente, hipertensión y obesidad (IMC 38), presenta un reporte de hemoglobina glicosilada del 8.5% y una tasa de filtración glomerular (TFG) de 85. ¿Cuál sería el tratamiento más adecuado?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Metformina + GLP1 + iSGLT2."
+        },
+        {
+          "letra": "B",
+          "texto": "Insulina + GLP1."
+        },
+        {
+          "letra": "C",
+          "texto": "Metformina + DPP4."
+        },
+        {
+          "letra": "D",
+          "texto": "Metformina con cambios en el estilo de vida."
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Endocrinología",
+      "tema": "Diabetes mellitus tipo 2",
+      "dificultad": "media",
+      "subtema": "Terapia combinada con protección cardiorrenal"
+    },
+    {
+      "enunciado": "Un paciente presenta quemaduras por fuego mientras se encontraba en el sótano de una empresa textil. Las quemaduras son de primer grado en la cara y el cuello, y segundo grado en los miembros superiores. No presenta alteraciones en los signos vitales. Durante su valoración, el paciente presenta tos y carraspera. ¿Qué conducta seguiría usted?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Intubación preventiva."
+        },
+        {
+          "letra": "B",
+          "texto": "Administración de Venturi al 50% y vigilancia."
+        },
+        {
+          "letra": "C",
+          "texto": "Realización de radiografía de tórax."
+        },
+        {
+          "letra": "D",
+          "texto": "Obtención de gases arteriales y realización de TAC de tórax."
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cirugía General",
+      "tema": "Quemaduras con lesión por inhalación",
+      "dificultad": "media",
+      "subtema": "Intubación preventiva"
+    },
+    {
+      "enunciado": "¿Qué acciones deben tomarse para que un estudio de casos y controles sobre la anosmia en pacientes con COVID-19 sea considerado válido?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "En el análisis con intención de tratar."
+        },
+        {
+          "letra": "B",
+          "texto": "Aleatorizar la muestra para el estudio."
+        },
+        {
+          "letra": "C",
+          "texto": "Evitar que se pierdan más del 10% de las personas."
+        },
+        {
+          "letra": "D",
+          "texto": "Medir variables confusoras para análisis posterior a ajuste."
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Estudio de casos y controles",
+      "dificultad": "media",
+      "subtema": "Control de confusores y validez"
+    },
+    {
+      "enunciado": "Un niño de 6 años sufre un paro cardíaco y se necesita realizar RCP. Además, tienes a otra persona aparte de ti para ayudar en la reanimación. ¿Cuál es la relación adecuada de compresiones torácicas y respiraciones de rescate en este caso?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "15:2"
+        },
+        {
+          "letra": "B",
+          "texto": "30:2"
+        },
+        {
+          "letra": "C",
+          "texto": "45:3"
+        },
+        {
+          "letra": "D",
+          "texto": "60:3"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Pediatría",
+      "tema": "RCP pediátrico",
+      "dificultad": "baja",
+      "subtema": "Relación compresión:ventilación con dos reanimadores"
+    },
+    {
+      "enunciado": "Paciente quien asiste a consulta para prescripción del ejercicio. Inicial 130/86, cardíaca 73, ejercicio 7 METS. Durante ejercicio 190/86, 173 lpm, consumo de oxígeno 20 L/min. ¿Cuál de las siguientes es cierta?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Respuesta cronotrópica negativa se debe remitir al electrofisiólogo"
+        },
+        {
+          "letra": "B",
+          "texto": "Respuesta hipertensiva al ejercicio, aumenta el riesgo de sufrir de hipertensión"
+        },
+        {
+          "letra": "C",
+          "texto": "Presión de pulso aumentada, es una respuesta anormal al ejercicio"
+        },
+        {
+          "letra": "D",
+          "texto": "Desacondicionamiento físico que le aumenta riesgo de muerte por todas las causas"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Cardiología",
+      "tema": "Prescripción de ejercicio / prueba de esfuerzo",
+      "dificultad": "media",
+      "subtema": "Respuesta hipertensiva al ejercicio"
+    },
+    {
+      "enunciado": "Una paciente de 36 semanas y 2 días de gestación, con diabetes gestacional en manejo farmacológico, tiene registro de glucometrías controladas en un 85%. El peso fetal estimado está en el percentil 80, el perímetro abdominal está en el percentil 80 y el índice de líquido amniótico (ILA) es de 35. Además, el percentil cefálico es del 75%. ¿Cuál es el momento más adecuado para terminar la gestación?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "40 semanas"
+        },
+        {
+          "letra": "B",
+          "texto": "37 semanas"
+        },
+        {
+          "letra": "C",
+          "texto": "Esperar a que la paciente tenga signos de trabajo de parto."
+        },
+        {
+          "letra": "D",
+          "texto": "39 semanas"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Diabetes gestacional",
+      "dificultad": "media",
+      "subtema": "Momento de finalización de la gestación"
+    },
+    {
+      "enunciado": "Un hombre de 32 años llega al hospital en estado de embriaguez. Tiene antecedentes de consumo de alcohol desde los 25 años, bebiendo hasta emborracharse cada dos semanas. Presenta dos episodios de vómitos. Al examen físico, se observan mucosas secas, temperatura de 38.5°C y presión arterial de 130/90 mmHg. ¿Cuál es el tratamiento inicial más adecuado para este paciente?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Administrar cristaloides isotónicos."
+        },
+        {
+          "letra": "B",
+          "texto": "Administrar dextrosa, metoclopramida y acetaminofén."
+        },
+        {
+          "letra": "C",
+          "texto": "Realizar lavado gástrico y administrar carbón activado."
+        },
+        {
+          "letra": "D",
+          "texto": "Administrar solución de rehidratación oral (SRO), furosemida y valproico."
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Farmacología",
+      "tema": "Intoxicación alcohólica aguda",
+      "dificultad": "media",
+      "subtema": "Reanimación con cristaloides"
+    },
+    {
+      "enunciado": "Un hombre de 32 años es encontrado con alteración del estado de conciencia, bradipsiquia y miosis, junto a jeringas que se encuentran a su lado. Muestra deterioro del patrón respiratorio, ausencia de pulso y se documenta actividad eléctrica sin pulso. Se está reanimando con masaje vigoroso y ventilación con máscara facial. ¿Cuál es el tratamiento apropiado a seguir?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Administrar naloxona 0.4 mg intravenoso."
+        },
+        {
+          "letra": "B",
+          "texto": "Administrar flumazenil 0.2 mg intravenoso."
+        },
+        {
+          "letra": "C",
+          "texto": "Administrar adrenalina 1 mg intravenoso."
+        },
+        {
+          "letra": "D",
+          "texto": "Realizar desfibrilación con 200 joules."
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Farmacología",
+      "tema": "Intoxicación por opioides",
+      "dificultad": "media",
+      "subtema": "Manejo de paro con AESP"
+    },
+    {
+      "enunciado": "Paciente pediátrico de 5 años de edad que será sometido a una reducción cerrada de fractura de radio. Se dejará en ayuno antes del procedimiento. El peso del paciente: 18.5 kg y la glucometría: 88 mg/dL. ¿Cuánta cantidad de líquidos de mantenimiento requiere?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Dextrosa en Solución Salina al 0.9%: 1850 ml en 24 horas más 5 cc de potasio, a pasar en 24 horas."
+        },
+        {
+          "letra": "B",
+          "texto": "Ringer Lactato: 500 ml, a pasar 1425 cc en 24 horas."
+        },
+        {
+          "letra": "C",
+          "texto": "Dextrosa al 5% en agua destilada: 500 ml más 10cc de sodio y 5cc de potasio, a pasar a 1625 ml en 24 horas."
+        },
+        {
+          "letra": "D",
+          "texto": "Dextrosa en solución salina más 5 cc de potasio, a pasar 1000 ml en 24 horas."
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Pediatría",
+      "tema": "Líquidos de mantenimiento",
+      "dificultad": "media",
+      "subtema": "Cálculo Holliday-Segar"
+    },
+    {
+      "enunciado": "Paciente con hospitalización reciente por falla cardíaca agudamente descompensada. Tiene antecedentes de diabetes tipo 2 e insuficiencia cardíaca con fracción de eyección preservada en manejo con metformina, empagliflozina y furosemida si hay congestión. Además, dos hermanos fallecieron por infarto agudo de miocardio a los 50 años. Presenta una presión arterial de 132/86 mmHg y está asintomática. ¿Cuál es la siguiente conducta o tratamiento que se debe considerar?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Monitoreo ambulatorio de la presión arterial (MAPA)"
+        },
+        {
+          "letra": "B",
+          "texto": "Medición sérica de metanefrina"
+        },
+        {
+          "letra": "C",
+          "texto": "Iniciar sacubitril/valsartán"
+        },
+        {
+          "letra": "D",
+          "texto": "Iniciar espironolactona"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Cardiología",
+      "tema": "Insuficiencia cardíaca con FE preservada",
+      "dificultad": "media",
+      "subtema": "Antagonista de aldosterona"
+    },
+    {
+      "enunciado": "Niño con amputación limpia de primer dedo con 4 horas de evolución, padre lleva el dedo envuelto en pañuelo. ¿Conducta adecuada?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Poner en bolsa con solución salina cubierto con gasa."
+        },
+        {
+          "letra": "B",
+          "texto": "Cubrir con gasas en ssn en bolsa con cinta aislante y está dentro de una bolsa con hielo y remitir para reimplante."
+        },
+        {
+          "letra": "C",
+          "texto": "Cubrir con gasas humedecidas con SSN, meter en bolsa y esta dentro de bolsa con hielo seco y remitir para reimplante."
+        },
+        {
+          "letra": "D",
+          "texto": "No tiene indicación de reimplante, remodelar el muñón."
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Traumatología y Ortopedia",
+      "tema": "Amputación digital",
+      "dificultad": "media",
+      "subtema": "Preservación del segmento para reimplante"
+    },
+    {
+      "enunciado": "Niño de 7 años que presenta cuatro días de fiebre, astenia, adinamia. Leu: 2500, hematocrito 45%, hemoglobina 15, plaquetas 40,000. Además, presenta exantema. Está estable hemodinámicamente. En las últimas 24 horas ha experimentado dolor abdominal y vómitos. ¿Cuál es el diagnóstico y la conducta a seguir?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Dengue grave: hospitalizar en UCI y transfundir plaquetas."
+        },
+        {
+          "letra": "B",
+          "texto": "Dengue grave: hospitalizar en piso y transfundir plaquetas."
+        },
+        {
+          "letra": "C",
+          "texto": "Dengue con signos de alarma: hospitalizar en piso y vigilar signos de fuga capilar."
+        },
+        {
+          "letra": "D",
+          "texto": "Dengue con signos de alarma: dar de alta médica y realizar hemograma diario."
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Pediatría",
+      "tema": "Dengue con signos de alarma",
+      "dificultad": "media",
+      "subtema": "Manejo hospitalario"
+    },
+    {
+      "enunciado": "Adulto mayor con dolor abdominal en hipocondrio derecho, ictericia, fiebre, leucocitosis. La ecografía abdominal revela un absceso hepático en la zona III de 3 cm. ¿Cuál es el manejo indicado?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Antibióticos IV."
+        },
+        {
+          "letra": "B",
+          "texto": "Antibióticos IV y drenaje percutáneo."
+        },
+        {
+          "letra": "C",
+          "texto": "Drenaje quirúrgico más antibióticos."
+        },
+        {
+          "letra": "D",
+          "texto": "Antibióticos orales."
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Infectología",
+      "tema": "Absceso hepático",
+      "dificultad": "media",
+      "subtema": "Antibioticoterapia intravenosa"
+    },
+    {
+      "enunciado": "Una paciente mujer con neumonía lobar ha dado positivo en la prueba de VIH ELISA de cuarta generación. ¿Cuál sería la prueba apropiada para confirmar el diagnóstico?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "ELISA de tercera generación."
+        },
+        {
+          "letra": "B",
+          "texto": "Antígeno P24."
+        },
+        {
+          "letra": "C",
+          "texto": "Western Blot."
+        },
+        {
+          "letra": "D",
+          "texto": "Carga viral."
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Infectología",
+      "tema": "VIH",
+      "dificultad": "baja",
+      "subtema": "Prueba confirmatoria Western Blot"
+    },
+    {
+      "enunciado": "Gráfica de forest plot de metanálisis de azitromicina en relación al bajo peso al nacer, I2 0.00, RR overall 0.79 IC 95%, estudios homogéneos entre sí (RR 0-1), único estudio de Ankioku RR 2. ¿Cuál afirmación es correcta?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Todos los estudios incluidos muestran una disminución del 25%"
+        },
+        {
+          "letra": "B",
+          "texto": "El único estudio que muestra un riesgo ponderado es el de ankioku"
+        },
+        {
+          "letra": "C",
+          "texto": "Los estudios que lo componen son muy heterogéneos y no se puede tener una conclusión"
+        },
+        {
+          "letra": "D",
+          "texto": "La azitromicina favorece en un 79% para el bajo peso al nacer"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Metaanálisis / forest plot",
+      "dificultad": "media",
+      "subtema": "Interpretación de heterogeneidad y riesgo ponderado"
+    },
+    {
+      "enunciado": "Una mujer presenta astenia, adinamia, malestar general y parestesias en las extremidades. Tiene antecedentes de dolor epigástrico desde hace varios años, vitiligo e hipotiroidismo. En sangre: hemoglobina 8.0 g/dL, RDW 17%, VCM 113 fL, leucopenia, neutropenia y trombocitopenia. LDH 1500 U/L, bilirrubina total 2 mg/dL, indirecta 1.6 mg/dL. Reticulocitos 2%, frotis con neutrófilos hipersegmentados, macrocitos y pancitopenia. ¿Qué estudio adicional sería más apropiado?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Vitamina B12"
+        },
+        {
+          "letra": "B",
+          "texto": "Ácido fólico"
+        },
+        {
+          "letra": "C",
+          "texto": "Coombs directo y directo fraccionado"
+        },
+        {
+          "letra": "D",
+          "texto": "TSH y niveles de T4 libre"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Hematología",
+      "tema": "Anemia megaloblástica / perniciosa",
+      "dificultad": "media",
+      "subtema": "Déficit de vitamina B12"
+    },
+    {
+      "enunciado": "Una mujer de 35 años presenta dolor en la fosa renal, puñopercusión positiva y uroanálisis con hematuria microscópica. ¿Cuál es la imagen más adecuada para evaluar su condición?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Ecografía de vías urinarias"
+        },
+        {
+          "letra": "B",
+          "texto": "TAC de abdomen y pelvis simple"
+        },
+        {
+          "letra": "C",
+          "texto": "Urografía intravenosa"
+        },
+        {
+          "letra": "D",
+          "texto": "Urotomografía con fase de excreción"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Urología",
+      "tema": "Cólico renal / litiasis",
+      "dificultad": "media",
+      "subtema": "TAC de abdomen y pelvis"
+    },
+    {
+      "enunciado": "Adolescente de 16 años con aparición de lesiones papulares, comedones y pústulas. Automedicada con productos cosméticos sin mejoría. ¿Cuál sería el tratamiento recomendado para el acné de esta paciente?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Doxiciclina durante un mes más hidrocortisona al 2% tópica"
+        },
+        {
+          "letra": "B",
+          "texto": "Ácido salicílico al 2% cada noche más cefalexina 500 mg cada 12 horas durante 7 días"
+        },
+        {
+          "letra": "C",
+          "texto": "Peróxido de benzoilo al 2.5% y adapaleno al 0.1% en gel por las noches"
+        },
+        {
+          "letra": "D",
+          "texto": "Ácido retinoico al 5% en crema tópica"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Dermatología",
+      "tema": "Acné",
+      "dificultad": "baja",
+      "subtema": "Tratamiento tópico"
+    },
+    {
+      "enunciado": "Lactante de 18 meses con desnutrición aguda severa con 6 días de diarrea, intolerancia oral, fiebre, mucosa seca, datos de inestabilidad hemodinámica. Estaba en shock. Glucometría 80. ¿Conducta?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Dextrosa 5% 5 cc/kg continuar dextrosados y glucometria"
+        },
+        {
+          "letra": "B",
+          "texto": "Bolo 30 cc/kg, suplementar oxígeno y antiemetico"
+        },
+        {
+          "letra": "C",
+          "texto": "Bolo 20 cc/kg continuar basales y solicitar coprologico y coprocultivo, inicio antibiótico IV"
+        },
+        {
+          "letra": "D",
+          "texto": "LR Bolo 15 cc/kg, continuar basales, administrar oxigeno e iniciar antibioticoterapia"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Pediatría",
+      "tema": "Desnutrición aguda severa con shock",
+      "dificultad": "media",
+      "subtema": "Reanimación hídrica"
+    },
+    {
+      "enunciado": "¿A cuál de los siguientes NO se le solicita una electromiografía y neuroconducción?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Mujer diestra, con ardor en cara lateral de antebrazo"
+        },
+        {
+          "letra": "B",
+          "texto": "Niño con dolor en cintura escapular y pélvica, trendelemburg derecho, caídas a repetición y trastorno de la marcha"
+        },
+        {
+          "letra": "C",
+          "texto": "Paciente femenina con parestesia en manos bilateral y dolor en el tercer dedo de ambas manos (sx túnel), fuerza y trofismo conservado"
+        },
+        {
+          "letra": "D",
+          "texto": "Paciente masculino en quien se realizó reducción de una fractura de Cadera y posteriormente presenta monoparesia."
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Neurología",
+      "tema": "Indicaciones de electromiografía",
+      "dificultad": "media",
+      "subtema": "Distrofia muscular vs neuropatía"
+    },
+    {
+      "enunciado": "Paciente de 80 años con cefalea desde hace 1 mes, sin antecedentes relevantes, a quien se le realizó una resonancia magnética y se encontró un aneurisma de 3 mm sin signos de ruptura inminente. ¿Cuál es el siguiente paso en el manejo?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Cirugía urgente para reparar el aneurisma"
+        },
+        {
+          "letra": "B",
+          "texto": "Tratamiento con aspirina para prevenir la formación de trombos"
+        },
+        {
+          "letra": "C",
+          "texto": "Realizar una resonancia magnética de control en un año"
+        },
+        {
+          "letra": "D",
+          "texto": "Manejo endovascular urgente del aneurisma"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Neurocirugía",
+      "tema": "Aneurisma intracraneal no roto",
+      "dificultad": "media",
+      "subtema": "Seguimiento imagenológico"
+    },
+    {
+      "enunciado": "Un paciente presenta sensación de masa y se solicita una ecografía, que revela un nódulo tiroideo de 15 mm y un nivel de TSH de 0.001. ¿Qué se debería solicitar a continuación?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Biopsia"
+        },
+        {
+          "letra": "B",
+          "texto": "Gammagrafía tiroidea"
+        },
+        {
+          "letra": "C",
+          "texto": "Punción con aguja fina (ACAF)"
+        },
+        {
+          "letra": "D",
+          "texto": "Solicitar tiroglobulina"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Endocrinología",
+      "tema": "Nódulo tiroideo con TSH suprimida",
+      "dificultad": "media",
+      "subtema": "Gammagrafía tiroidea"
+    },
+    {
+      "enunciado": "Adolescente de 13 años con embarazo de 10 semanas quien consulta en compañía de madre porque desea interrupción voluntaria del embarazo (IVE), sin embargo la madre se niega rotundamente. ¿Cuál es la mejor acción a tomar?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Salida y control prenatal en un mes"
+        },
+        {
+          "letra": "B",
+          "texto": "Asesoramiento psicológico para la adolescente"
+        },
+        {
+          "letra": "C",
+          "texto": "Explicarle a la madre que la adolescente tiene derecho a decidir"
+        },
+        {
+          "letra": "D",
+          "texto": "Notificar al defensor de la familia para que intervenga y resuelva el conflicto"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Interrupción voluntaria del embarazo",
+      "dificultad": "media",
+      "subtema": "Autonomía de la adolescente"
+    },
+    {
+      "enunciado": "Primigestante en el primer trimestre de embarazo, sin antecedentes personales significativos, con TSH de 1.9 uIU/ml, T4 libre dentro de límites normales y anticuerpos antitiroideos positivos. La madre tiene antecedente de hipotiroidismo. ¿Cuál es la mejor acción a tomar?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "No requiere estudio adicional; observación y no iniciar tratamiento en este momento."
+        },
+        {
+          "letra": "B",
+          "texto": "Requiere estudio adicional; iniciar levotiroxina a dosis de 25 mcg."
+        },
+        {
+          "letra": "C",
+          "texto": "Requiere estudio adicional; iniciar levotiroxina a dosis de 50 mcg."
+        },
+        {
+          "letra": "D",
+          "texto": "Requiere estudio adicional; mantener observación del perfil tiroideo y no iniciar tratamiento en este momento."
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Endocrinología",
+      "tema": "Función tiroidea en embarazo",
+      "dificultad": "media",
+      "subtema": "Anticuerpos antitiroideos positivos"
+    },
+    {
+      "enunciado": "Niño de 3 años con trastorno en el lenguaje, presenta inversión del orden de las palabras, omisiones y antecedentes familiares similares por parte del padre. En el examen físico, se observa paladar profundo y angosto. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Disfasia evolutiva"
+        },
+        {
+          "letra": "B",
+          "texto": "Disartria cerebelosa"
+        },
+        {
+          "letra": "C",
+          "texto": "Disglosia dispráxica"
+        },
+        {
+          "letra": "D",
+          "texto": "Dislalias múltiples"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Pediatría",
+      "tema": "Trastorno del lenguaje / disfasia evolutiva",
+      "dificultad": "media",
+      "subtema": "Neurodesarrollo"
+    },
+    {
+      "enunciado": "Paciente femenina quien consulta a primer nivel por mareo de 24 horas de evolución. No refiere síncopes ni dolor torácico ni dificultad respiratoria. En el EKG se observa bloqueo AV completo con una frecuencia cardíaca de 32 lpm. La paciente se encuentra estable hemodinámicamente en el momento. ¿Cuál es la conducta más apropiada mientras se remite a un centro de mayor complejidad?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Atropina"
+        },
+        {
+          "letra": "B",
+          "texto": "Monitorizar y vigilar"
+        },
+        {
+          "letra": "C",
+          "texto": "Marcapasos transcutáneo"
+        },
+        {
+          "letra": "D",
+          "texto": "Adrenalina"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Cardiología",
+      "tema": "Bloqueo AV completo",
+      "dificultad": "media",
+      "subtema": "Marcapasos transcutáneo"
+    },
+    {
+      "enunciado": "Paciente masculino, conductor, consulta por sentirse triste la mayoría de los días, con dificultades para dormir y una disminución de 2 horas en la duración del sueño desde que enfrenta problemas con su pareja. Aunque esto afecta su bienestar emocional, no repercute en su rendimiento laboral. Sin embargo, disfruta estar con su familia y amigos y se desenvuelve bien en su entorno. ¿Cuál es la conducta más adecuada a seguir?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Psicoeducación, ejercicio físico, higiene del sueño y seguimiento quincenal con médico general"
+        },
+        {
+          "letra": "B",
+          "texto": "Terapia cognitivo conductual, iniciar zolpidem y remitir a psiquiatría"
+        },
+        {
+          "letra": "C",
+          "texto": "Iniciar clonazepam y remitir a terapia de pareja, con seguimiento prioritario en psiquiatría"
+        },
+        {
+          "letra": "D",
+          "texto": "Iniciar fluoxetina, con seguimiento mensual en medicina general"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Psiquiatría",
+      "tema": "Síntomas depresivos subumbrales",
+      "dificultad": "media",
+      "subtema": "Manejo no farmacológico"
+    },
+    {
+      "enunciado": "Paciente con trauma en inversión de pie derecho, imposibilidad para el apoyo por dolor en tobillo y pie, con dolor a la palpación en área de base de 5ta metatarsiano, región de tendón fíbula talar y maleolo lateral derecho, edema en región maleolar externa. ¿Cuál es el diagnóstico y qué solicitaría?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Fx de peroné y 5ta metacarpiano, hacer rx Ap lateral y mortaja de tobillo y ap lateral oblicua de pie"
+        },
+        {
+          "letra": "B",
+          "texto": "Esguince 3, hacer rx de tobillo"
+        },
+        {
+          "letra": "C",
+          "texto": "Fx de peroné. Hacer rx tobillo"
+        },
+        {
+          "letra": "D",
+          "texto": "Fx de 5to mtt hacer rx del pie"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Traumatología y Ortopedia",
+      "tema": "Trauma de tobillo y pie",
+      "dificultad": "media",
+      "subtema": "Fractura y estudio radiográfico"
+    },
+    {
+      "enunciado": "Paciente femenina de 45 años presenta historial de sangrado vaginal abundante, madre de dos hijos, con ciclos menstruales regulares de 28 días con duración de 6 días. Además, experimenta dispareunia y dismenorrea en algunas ocasiones. ¿Cuál de las siguientes condiciones es más probable que esté causando estos síntomas?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Adenomiosis"
+        },
+        {
+          "letra": "B",
+          "texto": "Pólipo endometrial"
+        },
+        {
+          "letra": "C",
+          "texto": "Disfunción ovulatoria"
+        },
+        {
+          "letra": "D",
+          "texto": "Coagulopatía"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Sangrado uterino anormal",
+      "dificultad": "media",
+      "subtema": "Adenomiosis"
+    },
+    {
+      "enunciado": "Paciente quien sufre trauma toracoabdominal con empalamiento con un objeto vegetal en calidad de conductor de motocicleta. Presenta un índice de choque de 1.02, está normotenso y taquicárdico. ¿Cuál de las siguientes opciones describe la conducta más adecuada a seguir?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Activar código trauma, cirugía y UCI"
+        },
+        {
+          "letra": "B",
+          "texto": "Activar código trauma, realizar TAC corporal contrastado, iniciar paquete de trauma y trasladar a UCI"
+        },
+        {
+          "letra": "C",
+          "texto": "Activar código trauma, activar código de transfusión masiva y realizar cirugía"
+        },
+        {
+          "letra": "D",
+          "texto": "Realizar TAC corporal total, iniciar paquete de trauma y observar"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cirugía General",
+      "tema": "Trauma toracoabdominal por empalamiento",
+      "dificultad": "media",
+      "subtema": "Activación de código trauma"
+    },
+    {
+      "enunciado": "Paciente femenina de 18 años, previamente sana, con cuadro de 12 horas de somnolencia y bradipsiquia. Al examen: desorientada, con midriasis y mucosas secas. El EKG de ingreso muestra QRS en 100 ms, con R en aVR y S en DI. Posteriormente se documenta actividad eléctrica sin pulso y pierde la consciencia de forma súbita. ¿Cuál es la conducta correcta para tratar la arritmia?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Amiodarona EV"
+        },
+        {
+          "letra": "B",
+          "texto": "Bicarbonato de sodio"
+        },
+        {
+          "letra": "C",
+          "texto": "Sulfato de magnesio"
+        },
+        {
+          "letra": "D",
+          "texto": "Desfibrilación eléctrica"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Farmacología",
+      "tema": "Intoxicación por antidepresivos tricíclicos",
+      "dificultad": "media",
+      "subtema": "Bicarbonato de sodio para QRS ancho"
+    },
+    {
+      "enunciado": "Paciente masculino con dolor lumbar con irradiación a miembros inferiores, especialmente a la pierna cara lateral derecha, con paresia para dorsiflexión del hallux derecho, signo de Trendelenburg derecho y reflejos osteotendinosos normales. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Atrapamiento de nervio fibular"
+        },
+        {
+          "letra": "B",
+          "texto": "Radiculopatía L5"
+        },
+        {
+          "letra": "C",
+          "texto": "Radiculopatía S1"
+        },
+        {
+          "letra": "D",
+          "texto": "Polineuropatía"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Neurología",
+      "tema": "Radiculopatía lumbar",
+      "dificultad": "media",
+      "subtema": "Radiculopatía L5"
+    },
+    {
+      "enunciado": "Un hombre de 60 años presenta un cuadro de mareo que se desencadena con cambios de posición y nistagmo torsional característico durante la maniobra de Dix-Hallpike. ¿Cuál es la fisiopatología de la enfermedad?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Otolitos cambian de posición al canal semicircular"
+        },
+        {
+          "letra": "B",
+          "texto": "Cambios en la endolinfa"
+        },
+        {
+          "letra": "C",
+          "texto": "Pérdida de recubrimiento óseo"
+        },
+        {
+          "letra": "D",
+          "texto": "Inflamación del nervio"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Otorrinolaringología",
+      "tema": "Vértigo posicional paroxístico benigno",
+      "dificultad": "media",
+      "subtema": "Fisiopatología / maniobra de Dix-Hallpike"
+    },
+    {
+      "enunciado": "Un hombre de 27 años presenta un día de evolución de ojo rojo, visión borrosa, miosis, lagrimeo, fotofobia, cefalea frontal, dolor ocular, tonometría digital media alta. Al examen, el ojo afectado muestra hiperemia ciliar, agudeza visual 20/50, mientras que el otro ojo es normal (20/20) sin lesiones en la córnea. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Uveítis aguda"
+        },
+        {
+          "letra": "B",
+          "texto": "Glaucoma por cierre angular agudo"
+        },
+        {
+          "letra": "C",
+          "texto": "Conjuntivitis aguda"
+        },
+        {
+          "letra": "D",
+          "texto": "Queratoconjuntivitis herpética"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Oftalmología",
+      "tema": "Uveítis anterior aguda",
+      "dificultad": "media",
+      "subtema": "Diagnóstico"
+    },
+    {
+      "enunciado": "Paciente de 85 años presenta cefalea de inicio súbito, con antecedente de hipertensión arterial bien controlada. Al ingreso, su presión arterial es de 150/90 mmHg. En la evaluación radiológica se evidencia un hematoma intraparenquimatoso parietooccipital derecho subcortical que desplaza 1 cm la línea media. ¿Cuál es la causa probable de este hallazgo?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Hematoma hipertensivo"
+        },
+        {
+          "letra": "B",
+          "texto": "Angiopatía amiloide"
+        },
+        {
+          "letra": "C",
+          "texto": "Angioma cavernoso"
+        },
+        {
+          "letra": "D",
+          "texto": "Ruptura de aneurisma"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Neurología",
+      "tema": "Hemorragia intraparenquimatosa",
+      "dificultad": "media",
+      "subtema": "Angiopatía amiloide"
+    }
+  ]
+}

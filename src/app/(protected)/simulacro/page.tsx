@@ -12,6 +12,7 @@ const EXAM_ID_TO_UNIVERSIDAD: Record<string, string> = {
   ubosque: 'El Bosque',
   urosario:'Rosario',
   uces:    'CES',
+  udea:    'UdeA',
   mir:     'MIR',
   enarm:   'ENARM',
 }
@@ -23,6 +24,7 @@ const UNIVERSIDADES = [
   { id: 'ubosque',  label: 'UNIV. BOSQUE',   pais: 'COLOMBIA', bg: C.cream2,   color: C.ink   },
   { id: 'urosario', label: 'UNIV. ROSARIO',  pais: 'COLOMBIA', bg: C.orange,   color: C.cream },
   { id: 'uces',     label: 'UNIV. CES',      pais: 'COLOMBIA', bg: '#2E4057', color: C.cream },
+  { id: 'udea',     label: 'UNIV. ANTIOQUIA',pais: 'COLOMBIA', bg: C.greenDark, color: C.cream },
 ]
 
 interface EnCurso { sesion_id: string; tipo: string; universidad: string | null; total: number; respondidas: number }

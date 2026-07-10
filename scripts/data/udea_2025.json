@@ -1,0 +1,1565 @@
+{
+  "examen": "UDEA",
+  "anio": 2025,
+  "fuente": "Reconstrucción UDEA 2025",
+  "preguntas": [
+    {
+      "enunciado": "Niño de 10 años quien desde 1 año antes presenta síntomas nasales como rinorrea, obstrucción, prurito y estornudos en salva, todos los días de la semana y le interrumpen el sueño. No se concentra en el colegio. Examen físico: hipertrofia bilateral de los cornetes inferiores con obstrucción al flujo de aire. ¿Cuál de los siguientes es el tratamiento más adecuado?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Esteroide tópico en spray nasal cada 24 horas"
+        },
+        {
+          "letra": "B",
+          "texto": "Antihistamínico oral de primera generación en la noche"
+        },
+        {
+          "letra": "C",
+          "texto": "Antihistamínico oral de segunda generación en la noche"
+        },
+        {
+          "letra": "D",
+          "texto": "Montelukast oral 5 mg cada 24 horas"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Otorrinolaringología",
+      "tema": "Rinitis alérgica",
+      "dificultad": "baja",
+      "subtema": "Tratamiento con esteroide nasal"
+    },
+    {
+      "enunciado": "Adolescente de 13 años con migraña a quien el neurólogo le inició tratamiento con carbamazepina. Tres semanas después inició malestar general, fiebre, ardor ocular y mialgias, posteriormente disfagia e inició con placas eritematosas-parduzcas pruriginosas y dolorosas. ¿Cuál de los siguientes es el diagnóstico más probable?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Eritema fijo pigmentario"
+        },
+        {
+          "letra": "B",
+          "texto": "Eritema multiforme mayor"
+        },
+        {
+          "letra": "C",
+          "texto": "Erupción por medicamentos con eosinofilia y síntomas sistémicos DRESS"
+        },
+        {
+          "letra": "D",
+          "texto": "Síndrome de Steven Johnson"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Dermatología",
+      "tema": "Síndrome de Stevens-Johnson",
+      "dificultad": "media",
+      "subtema": "Farmacodermia por carbamazepina"
+    },
+    {
+      "enunciado": "Niño de 10 años con diagnóstico de asma, actualmente en tratamiento con montelukast 5 mg cada 24 horas y salbutamol para uso durante las crisis. Tuvo la última crisis de asma 6 meses antes, por lo que estuvo en observación en urgencias durante 8 horas y recibió un ciclo corto de esteroides orales. Actualmente tiene entre uno y dos despertares nocturnos semanales debido a la tos. ¿Cuál de las siguientes es la opción terapéutica más adecuada para adicionar al tratamiento?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Beclometasona bronquial 100 mcg cada 12 horas"
+        },
+        {
+          "letra": "B",
+          "texto": "Desloratadina 5 mg vía oral cada noche"
+        },
+        {
+          "letra": "C",
+          "texto": "Beclometasona bronquial 250 mcg cada noche"
+        },
+        {
+          "letra": "D",
+          "texto": "Bromuro de tiotropio bronquial 5 mcg cada 24 horas"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neumología",
+      "tema": "Asma",
+      "dificultad": "media",
+      "subtema": "Ajuste de tratamiento con corticoide inhalado"
+    },
+    {
+      "enunciado": "Hombre de 25 años quien sufrió heridas por arma corto contundente en cuero cabelludo y muslo. Se infiltró con lidocaína para proceder a la sutura. Posteriormente se quejó de sabor metálico y de escuchar un pitido, lo cual fue seguido de una convulsión tónico-clónica. Luego de asegurar la vía aérea mediante una intubación, el paciente perdió el pulso y en el monitor se observa actividad eléctrica sin pulso. ¿Cuál de las siguientes es la acción inmediata más indicada?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Administrar 1mg de adrenalina intravenoso"
+        },
+        {
+          "letra": "B",
+          "texto": "Iniciar compresiones torácicas"
+        },
+        {
+          "letra": "C",
+          "texto": "Utilizar emulsión lipídica intravenosa"
+        },
+        {
+          "letra": "D",
+          "texto": "Verificar el ritmo de paro con el desfibrilador"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Cardiología",
+      "tema": "Reanimación cardiopulmonar",
+      "dificultad": "media",
+      "subtema": "Actividad eléctrica sin pulso - compresiones"
+    },
+    {
+      "enunciado": "Hombre de 30 años, traído por el personal de atención prehospitalaria en paro cardiorrespiratorio. Al lado del paciente encontraron unas jeringas y ampollas de meperidina. Durante el traslado venía recibiendo ventilación con máscara facial y bolsa autoinflable, además de compresiones torácicas. ¿Cuál de las siguientes es la conducta inicial en servicio de urgencias?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Canalizar una vena periférica calibre 18 e administrar una dosis de naloxona de 0,4 mg"
+        },
+        {
+          "letra": "B",
+          "texto": "Continuar con las maniobras de resucitación avanzada"
+        },
+        {
+          "letra": "C",
+          "texto": "Descartar otras causas de paro cardiorrespiratorio"
+        },
+        {
+          "letra": "D",
+          "texto": "Administrar una dosis de adrenalina intravenosa"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Cardiología",
+      "tema": "Reanimación cardiopulmonar",
+      "dificultad": "media",
+      "subtema": "Paro por intoxicación con opioides"
+    },
+    {
+      "enunciado": "Adolescente de 16 años, ingresa por herida en el cuello por proyectil por arma de fuego 30 minutos antes. Examen físico: presión arterial 110/70 mmHg, frecuencia cardíaca 95 lat/min, herida transfixiante en cuello, con orificio de entrada en zona II derecha y salida en zona III izquierda, con enfisema subcutáneo bilateral, hematomas no crecientes en los orificios de entrada y salida; sin sangrado activo, soplo ni frémito; buenos pulsos distales, con leve disfonía y disfagia. No presenta hematemesis, melenas, estridor, heridas soplantes ni salida de saliva por la herida. ¿Cuál de las siguientes es la conducta más adecuada en este paciente?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Embolización por radiología intervencionista"
+        },
+        {
+          "letra": "B",
+          "texto": "Exploración cervical"
+        },
+        {
+          "letra": "C",
+          "texto": "Observación"
+        },
+        {
+          "letra": "D",
+          "texto": "Realización de tomografía contrastada de cuello"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Cirugía General",
+      "tema": "Trauma cervical penetrante",
+      "dificultad": "media",
+      "subtema": "Manejo zona II-III, tomografía contrastada"
+    },
+    {
+      "enunciado": "Paciente de 40 años, consulta por dolor inguinal derecho de dos meses de evolución que se irradia hacia el testículo ipsilateral y el muslo, lo describe como una cortada. Informa que tiene ciertas zonas con anestesia y otras con hiperestesia en esa región. Empeora con la actividad sexual y mejora moderadamente con la flexión de la cadera. Antecedente: dos correcciones de hernia inguinal derecha por vía anterior. ¿Cuál de las siguientes es la primera línea de elección para el tratamiento de este paciente?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Etoricoxib"
+        },
+        {
+          "letra": "B",
+          "texto": "Gabapentin"
+        },
+        {
+          "letra": "C",
+          "texto": "Intervencionismo analgésico"
+        },
+        {
+          "letra": "D",
+          "texto": "Tramadol"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Neurología",
+      "tema": "Dolor neuropático",
+      "dificultad": "media",
+      "subtema": "Neuralgia ilioinguinal, gabapentina"
+    },
+    {
+      "enunciado": "Hombre de 38 años, consulta por 6 meses de evolución de sangrado escaso en las deposiciones, asociado a deposiciones diarreicas intermitentes y dolor abdominal tipo cólico que no mejora con las deposiciones ni con los flatos. Ha consultado en varias oportunidades, le ordenaron antiparasitarios, sin mejoría. Pérdida de aproximadamente 3 kg de peso en los últimos 6 meses. No presenta náuseas, emesis, fiebre ni otros síntomas. Examen físico: abdomen sin hallazgos anormales, se evidencian hemorroides externas, sin masas en la ampolla rectal, el guante sale impregnado con materia fecal sin sangre. ¿Cuál de las siguientes es la conducta más adecuada?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Ordenar baños de asiento"
+        },
+        {
+          "letra": "B",
+          "texto": "Ordenar cambios en la dieta"
+        },
+        {
+          "letra": "C",
+          "texto": "Ordenar tratamiento antibiótico"
+        },
+        {
+          "letra": "D",
+          "texto": "Solicitar colonoscopia total"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Gastroenterología",
+      "tema": "Hemorragia digestiva baja",
+      "dificultad": "baja",
+      "subtema": "Indicación de colonoscopia"
+    },
+    {
+      "enunciado": "Hombre de 68 años quien consultó por 24 horas de evolución de síntomas compatibles con apendicitis. Antecedentes negativos. Tomografía: cambios compatibles con apendicitis aguda inicial, apendicolito en su luz, estriación de la grasa pericólica y líquido perivesicular, sin imágenes compatibles con absceso ni plastrón. Se programa para apendicectomía, pero el paciente solicita tratamiento no operatorio. ¿Cuál de las siguientes es el motivo para no aceptar el tratamiento no operatorio?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Edad"
+        },
+        {
+          "letra": "B",
+          "texto": "Evolución menor de 48 horas"
+        },
+        {
+          "letra": "C",
+          "texto": "Presencia de apendicolito"
+        },
+        {
+          "letra": "D",
+          "texto": "Ser el primer episodio"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Cirugía General",
+      "tema": "Apendicitis aguda",
+      "dificultad": "media",
+      "subtema": "Apendicolito como criterio quirúrgico"
+    },
+    {
+      "enunciado": "Hombre de 25 años, llevado a urgencias tras un accidente en motocicleta. Presentó fractura cerrada diafisaria desplazada de cúbito y radio en el brazo derecho. Tras la reducción de la fractura, comienza a quejarse de dolor intenso que no cede con analgésicos. Además, presenta parestesias en los dedos. Examen físico: el estiramiento pasivo de los dedos le incrementa el dolor. Palidez y frialdad en la mano, pulsos radiales presentes. ¿Cuál de las siguientes es la conducta más adecuada?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Iniciar tratamiento anticoagulante para prevenir complicaciones trombóticas"
+        },
+        {
+          "letra": "B",
+          "texto": "Medir la presión intracompartmental de manera seriada, administrar más analgésicos y monitorizar la evolución durante las siguientes 2 horas"
+        },
+        {
+          "letra": "C",
+          "texto": "Realizar fasciotomía de emergencia"
+        },
+        {
+          "letra": "D",
+          "texto": "Realizar una angiografía para evaluar la vascularización de la extremidad"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Traumatología y Ortopedia",
+      "tema": "Síndrome compartimental agudo",
+      "dificultad": "media",
+      "subtema": "Fasciotomía de emergencia"
+    },
+    {
+      "enunciado": "Hombre de 45 años quien sufrió una lesión punzante en la base del cuarto dedo derecho 48 horas antes. Presenta dolor intenso a la extensión de la articulación interfalángica proximal y edema y eritema a lo largo del dedo hasta la región medio palmar. ¿Cuáles de los siguientes son el diagnóstico más probable y el tratamiento inicial más adecuado?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Absceso subcutáneo; drenaje quirúrgico y antibióticos orales"
+        },
+        {
+          "letra": "B",
+          "texto": "Celulitis; antibióticos tópicos y férula de inmovilización"
+        },
+        {
+          "letra": "C",
+          "texto": "Infección superficial; antibióticos orales y observación"
+        },
+        {
+          "letra": "D",
+          "texto": "Tenosinovitis infecciosa; antibióticos intravenosos y desbridamiento quirúrgico"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Traumatología y Ortopedia",
+      "tema": "Tenosinovitis infecciosa de flexores",
+      "dificultad": "media",
+      "subtema": "Antibióticos IV y desbridamiento"
+    },
+    {
+      "enunciado": "Recién nacido en casa a quien traen a evaluación porque le identifican un defecto en el labio. Examen físico: fisura labiopalatina unilateral completa. Los padres solicitan orientación sobre el momento en que le deben realizar la cirugía. ¿Cuál de los siguientes es el mejor momento para realizar la reparación quirúrgica para optimizar los resultados funcionales y estéticos?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "A los 12 meses de edad"
+        },
+        {
+          "letra": "B",
+          "texto": "A los 3 meses de edad"
+        },
+        {
+          "letra": "C",
+          "texto": "A los 6 meses de edad"
+        },
+        {
+          "letra": "D",
+          "texto": "En ese momento"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cirugía General",
+      "tema": "Fisura labiopalatina",
+      "dificultad": "baja",
+      "subtema": "Momento de reparación quirúrgica"
+    },
+    {
+      "enunciado": "Hombre de 30 años, consulta al servicio de urgencias tras recibir un golpe directo en la mandíbula durante un partido de fútbol. Refiere dolor y dificultad para la apertura oral. Examen físico: trismus, maloclusión y equimosis en el piso de la boca. Radiografías oblicuas de mandíbula y Towne invertida: fractura del ángulo mandibular derecho, favorable, sin desplazamiento significativo. ¿Cuál de las siguientes es la conducta más apropiada?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Administrar antibióticos y analgesia, con remisión para tratamiento quirúrgico diferido"
+        },
+        {
+          "letra": "B",
+          "texto": "Ordenar analgésico, dieta líquida estricta y seguimiento ambulatorio con cirujano plástico"
+        },
+        {
+          "letra": "C",
+          "texto": "Ordenar tratamiento con analgesia y reposo mandibular"
+        },
+        {
+          "letra": "D",
+          "texto": "Aplicar reducción cerrada con fijación intermaxilar inmediata"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Cirugía General",
+      "tema": "Fractura mandibular",
+      "dificultad": "media",
+      "subtema": "Manejo conservador de fractura favorable"
+    },
+    {
+      "enunciado": "Hombre de 32 años, acude al servicio de urgencias después de un accidente de tránsito. Examen físico: hombro derecho caído, incapacidad para abducir el brazo y flexionar el codo, pérdida de la sensibilidad táctil en la cara lateral del brazo. Radiografía: sin fracturas. ¿Cuál de las siguientes es la conducta más adecuada?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Cirugía exploratoria de emergencia"
+        },
+        {
+          "letra": "B",
+          "texto": "Evaluación quirúrgica diferida y electromiografía a las 3 semanas"
+        },
+        {
+          "letra": "C",
+          "texto": "Fisioterapia temprana y analgésicos"
+        },
+        {
+          "letra": "D",
+          "texto": "Inmovilización y electromiografía"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Neurología",
+      "tema": "Lesión de plexo braquial",
+      "dificultad": "alta",
+      "subtema": "Electromiografía diferida"
+    },
+    {
+      "enunciado": "Mujer de 25 años. Primigestante en el tercer trimestre. Comenzó con prurito intenso en las palmas y las plantas que luego se generalizó. Sin lesiones primarias en piel. ¿Cuál de las siguientes es el diagnóstico más probable?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Colestasis intrahepática del embarazo"
+        },
+        {
+          "letra": "B",
+          "texto": "Erupción atópica del embarazo"
+        },
+        {
+          "letra": "C",
+          "texto": "Penfigoide gestacional"
+        },
+        {
+          "letra": "D",
+          "texto": "Prurigo simple del embarazo"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Colestasis intrahepática del embarazo",
+      "dificultad": "baja"
+    },
+    {
+      "enunciado": "Un ensayo clínico, doble ciego, aleatorizado y controlado con placebo con asignación 1:1, evaluó el efecto de tirzepatida sobre la muerte por causas cardiovasculares en pacientes con insuficiencia cardíaca. Se encontró una disminución en la frecuencia de muerte por causas cardiovasculares en el grupo de tirzepatida en comparación con el placebo, resultado con un valor p de 0.03. ¿Cuál de los siguientes enunciados es la interpretación correcta de este resultado?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "El fármaco es efectivo porque el valor p es menor a 0.05"
+        },
+        {
+          "letra": "B",
+          "texto": "El valor p no prueba que el fármaco sea la causa de la reducción de la muerte"
+        },
+        {
+          "letra": "C",
+          "texto": "Existe una probabilidad del 97% de que el fármaco sea efectivo"
+        },
+        {
+          "letra": "D",
+          "texto": "No existe evidencia en contra de la hipótesis nula del estudio"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Interpretación del valor p",
+      "dificultad": "media",
+      "subtema": "Inferencia estadística en ensayo clínico"
+    },
+    {
+      "enunciado": "Mujer de 32 años, consulta por dolor pélvico poco intenso, intermitente, sin otros síntomas asociados. Ecografía transvaginal: quiste simple de 8 cm en ovario derecho, útero y ovario izquierdo normales. Marcadores tumorales: Ca125 24 U/ml (<35), CEA 1.18 ng/ml (<5), AFP 0.15 UI/ml (<5), DHL 180 UI/L (<350), BHCG 0.02 mUI/ml (<5). ¿Cuál de las siguientes es la conducta más adecuada?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Cirugía electiva para resección del quiste de ovario"
+        },
+        {
+          "letra": "B",
+          "texto": "Cirugía inmediata para resección del quiste de ovario"
+        },
+        {
+          "letra": "C",
+          "texto": "Tomografía de abdomen y pelvis para caracterizar mejor la lesión"
+        },
+        {
+          "letra": "D",
+          "texto": "Vigilancia con ecografía transvaginal cada 3 meses esperando involución"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Quiste ovárico simple",
+      "dificultad": "baja",
+      "subtema": "Vigilancia ecográfica"
+    },
+    {
+      "enunciado": "Mujer de 48 años, asintomática, en control de riesgo cardiovascular. Revisión por sistemas y antecedentes negativos. Examen físico: masa de 7 cm en hipogastrio, resto normal. Ecografía transvaginal: imagen sugerente de endometrioma. Marcadores: Ca125 40 U/ml (<35), CEA 1.05 ng/ml (<5). ¿Cuál de las siguientes es la conducta más adecuada?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Cirugía para resección del quiste de ovario"
+        },
+        {
+          "letra": "B",
+          "texto": "Completar estudio con BHCG, alfafetoproteína y DHL"
+        },
+        {
+          "letra": "C",
+          "texto": "Tomografía de abdomen y pelvis para caracterizar mejor la lesión"
+        },
+        {
+          "letra": "D",
+          "texto": "Vigilancia con ecografía transvaginal cada 3 meses en espera de involución"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Masa anexial (endometrioma)",
+      "dificultad": "media",
+      "subtema": "Indicación quirúrgica"
+    },
+    {
+      "enunciado": "Mujer de 38 años, separada, 2 hijos. Consulta porque 4 días antes tuvo relación sexual sin protección y no desea un embarazo. Ciclos regulares, FUM hace 10 días. Antecedentes: hipertensión arterial, fuma desde hace 20 años. Examen físico: PA 150/95 mmHg, peso 76 kg, talla 154 cm. ¿Cuál de las siguientes es la mejor alternativa para ella?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Levonorgestrel"
+        },
+        {
+          "letra": "B",
+          "texto": "Levonorgestrel + etinil estradiol"
+        },
+        {
+          "letra": "C",
+          "texto": "Método Yuzpe"
+        },
+        {
+          "letra": "D",
+          "texto": "Ulipristal"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Anticoncepción de emergencia",
+      "dificultad": "media",
+      "subtema": "Ulipristal en paciente con contraindicaciones"
+    },
+    {
+      "enunciado": "Mujer de 30 años, soltera, consulta porque desde 8 meses antes presenta menstruaciones más frecuentes y abundantes asociado a aparición de dolor pélvico. Sin vida sexual activa en el último año. Actualmente no tiene ningún tratamiento. ¿Cuál de los siguientes exámenes se deben solicitar?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Biopsia endometrial, hemograma y TSH"
+        },
+        {
+          "letra": "B",
+          "texto": "Ecografía pélvica transabdominal, hemograma, ferritina"
+        },
+        {
+          "letra": "C",
+          "texto": "Ecografía pélvica transvaginal, hemograma, TSH"
+        },
+        {
+          "letra": "D",
+          "texto": "TAC simple de pelvis, TSH y hemograma"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Sangrado uterino anormal",
+      "dificultad": "baja",
+      "subtema": "Estudio inicial"
+    },
+    {
+      "enunciado": "Mujer de 39 años consulta por dolor pélvico crónico de 2 años de evolución. El dolor es intermitente, de hasta 24 horas de duración, con intensidad 6/10, parcialmente aliviado por analgésicos. Refiere insomnio de conciliación, cansancio persistente, llanto fácil, y pensamientos negativos sobre su condición. Estos síntomas han afectado significativamente su calidad de vida. ¿Cuál de las siguientes es la estrategia más adecuada para el manejo de esta paciente?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Indicaciones de reposo en cama, suplementos vitamínicos y fármacos antiinflamatorios no esteroideos (AINEs) asociado a acetaminofén como terapia multimodal"
+        },
+        {
+          "letra": "B",
+          "texto": "Prescripción de gabapentina, ejercicios aeróbicos de intensidad moderada, técnicas de relajación según preferencia del paciente, y terapia cognitivo-conductual para abordar el catastrofismo"
+        },
+        {
+          "letra": "C",
+          "texto": "Prescripción de opioides a dosis bajas, evaluación psiquiátrica y psicológica, contraindicación de ejercicio físico"
+        },
+        {
+          "letra": "D",
+          "texto": "Terapia conductivo-conductual individual, amitriptilina, ejercicio físico o movimiento según preferencias, y técnicas de relajación y terapia somática para abordaje del estrés"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Dolor pélvico crónico",
+      "dificultad": "alta",
+      "subtema": "Manejo multimodal biopsicosocial"
+    },
+    {
+      "enunciado": "Hombre de 44 años. Viene para prescripción de ejercicio. Antecedentes: sobrepeso, hipertensión arterial y dislipidemia; actualmente en tratamiento con losartán y atorvastatina. Peso 82 kg, talla 175 cm. Se le prescribió ambulatoriamente caminar 5 veces por semana a una intensidad moderada (5 METs) entre 125-135 latidos por minuto y fortalecimiento muscular dos veces por semana. Con relación al valor en METs por semana que este paciente recibe ¿Cuál de las siguientes afirmaciones es correcta?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Fue de 11,4 METs hora por semana y es suficiente para disminuir el riesgo de mortalidad cardiovascular"
+        },
+        {
+          "letra": "B",
+          "texto": "Fue de 13,3 METs hora por semana y es suficiente para disminuir el riesgo de mortalidad cardiovascular"
+        },
+        {
+          "letra": "C",
+          "texto": "Fue de 9,7 METs hora por semana y es mayor del recomendado para disminuir el riesgo de mortalidad cardiovascular"
+        },
+        {
+          "letra": "D",
+          "texto": "Fue de 8,2 METs hora por semana y es menor del recomendado para disminuir el riesgo de mortalidad cardiovascular"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Cardiología",
+      "tema": "Prescripción de ejercicio",
+      "dificultad": "alta",
+      "subtema": "MET-hora/semana y riesgo cardiovascular"
+    },
+    {
+      "enunciado": "Hombre de 58 años. Desde 4 horas previas a la consulta presenta hemiplejia derecha, afasia y asimetría facial. Antecedentes: hipertensión arterial y fibrilación auricular, anticoagulado con apixabán del cual tomó la última dosis 12 horas antes. Examen físico: Rankin modificado de 1 punto, presión arterial 182/104 mmHg, frecuencia cardíaca 78 lat/min, frecuencia respiratoria 16/min, saturación de oxígeno 93 % ambiente. Puntaje en la escala NIHSS de 15. Glucometría 118 mg/dL. Tomografía de cráneo simple sin evidencia de hemorragia intracerebral ni cambios isquémicos agudos. ¿Cuál de las siguientes es la conducta más adecuada para continuar la atención en este paciente?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Indicar trombectomía mecánica"
+        },
+        {
+          "letra": "B",
+          "texto": "Proceder con trombólisis intravenosa"
+        },
+        {
+          "letra": "C",
+          "texto": "Solicitar angiotomografía de cráneo y cuello"
+        },
+        {
+          "letra": "D",
+          "texto": "Solicitar resonancia magnética con estudio de perfusión"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Neurología",
+      "tema": "ACV isquémico agudo",
+      "dificultad": "media",
+      "subtema": "Angiotomografía y decisión de reperfusión"
+    },
+    {
+      "enunciado": "Mujer de 46 años. Ingresa al servicio de urgencias por palpitaciones y taquicardia persistente, sin dolor torácico ni dificultad respiratoria. Examen físico: presión arterial 122/80 mmHg, frecuencia cardíaca 160 lat/min, frecuencia respiratoria 23/min, saturación de oxígeno 94 % con fracción inspirada de oxígeno del 21%. EKG compatible con taquicardia por re-entrada nodal auriculoventricular. Se le realizaron maniobras vagales en supino tipo REVERT, en dos oportunidades, que no fueron efectivas. Luego, se realizó tratamiento secuencial de dos dosis adecuadas de adenosina y metoprolol intravenoso sin respuesta. ¿Cuál de las siguientes es la conducta más adecuada a seguir?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Cardioversión eléctrica sincronizada con 50 joules"
+        },
+        {
+          "letra": "B",
+          "texto": "Reintentar maniobras vagales"
+        },
+        {
+          "letra": "C",
+          "texto": "Suministrar un bolo IV de 150 mg de amiodarona"
+        },
+        {
+          "letra": "D",
+          "texto": "Suministrar un bolo IV de 50 mg de diltiazem"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Cardiología",
+      "tema": "Taquicardia supraventricular (TRNAV)",
+      "dificultad": "media",
+      "subtema": "Manejo tras falla de adenosina"
+    },
+    {
+      "enunciado": "Hombre de 60 años. Consulta por dos horas de palpitaciones y disnea. Examen físico: frecuencia cardíaca 184 lat/min, frecuencia respiratoria 28/min, saturación periférica de oxígeno de 89 % al ambiente, presión arterial 108/70 mmHg, temperatura 36°C. Mal estado general, pálido, diaforético, somnoliento, con crépitos en ambos campos pulmonares. Electrocardiograma: taquicardia, ritmo no sinusal, R-R irregular y complejos QRS menores a 120 ms alternantes en voltaje. ¿Cuál de las siguientes conductas terapéuticas es la más adecuada para este paciente?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Amiodarona, 150 mg intravenosos en bolo y luego en infusión continua"
+        },
+        {
+          "letra": "B",
+          "texto": "Maniobra de Valsalva modificada con monitoreo electrocardiográfico continuo"
+        },
+        {
+          "letra": "C",
+          "texto": "Metoprolol 5 mg intravenosos en bolo y tomar un electrocardiograma de control"
+        },
+        {
+          "letra": "D",
+          "texto": "Sedación y cardioversión eléctrica sincronía emergente"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Cardiología",
+      "tema": "Fibrilación auricular con inestabilidad",
+      "dificultad": "media",
+      "subtema": "Cardioversión eléctrica sincronizada"
+    },
+    {
+      "enunciado": "Hombre de 52 años. Consulta por dolor articular de 3 meses de evolución en la segunda a quinta articulaciones metacarpofalángicas y en la tercera a quinta interfalángicas proximales de ambas manos. El dolor es de predominio matutino y se asocia a rigidez matinal de 60 minutos. Antecedentes personales: hipertensión arterial controlada con enalapril e hidroclorotiazida, obesidad. Antecedentes familiares: madre con artritis reumatoide. Examen físico: IMC 32 kg/m2, squeeze test bilateral positivo y evidencia de sinovitis en la cuarta y quinta interfalángicas proximales de la mano izquierda. Exámenes: hemograma normal, PCR 4 mg/dL (normal 0.4 a 1 mg/dL), VSG 45 mm/hora (normal hasta 10 mm/hora), ácido úrico 8.5 mg/dL (normal 3.1 a 7.8 mg/dL), factor reumatoide (FR) y anticuerpos contra el péptido citrulinado cíclico (anti CCP) negativos. ¿Cuál de las siguientes es la conducta más adecuada?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Iniciar prednisolona 60 mg/día, leflunomida 20 mg/día y suplementar calcio con vitamina D, pues tiene artritis reumatoide seronegativa con alta actividad"
+        },
+        {
+          "letra": "B",
+          "texto": "Realizar radiografías comparativas de manos, caderas y rodillas para confirmar el diagnóstico más probable que es osteoartritis"
+        },
+        {
+          "letra": "C",
+          "texto": "Solicitar exámenes adicionales para evaluar otras posibles causas de poliartritis crónica simétrica dada la negatividad del FR y anti-CCP"
+        },
+        {
+          "letra": "D",
+          "texto": "Suspender la hidroclorotiazida e iniciar alopurinol 300 mg/día más colchicina 0.5 mg/día ya que tiene una artritis gotosa"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Reumatología",
+      "tema": "Poliartritis crónica simétrica",
+      "dificultad": "alta",
+      "subtema": "Estudio con FR y anti-CCP negativos"
+    },
+    {
+      "enunciado": "Hombre de 65 años. Consulta por dolor torácico intermitente de 6 meses de evolución, que describe como opresivo y que aparece al caminar distancias largas y desaparece al descansar. Antecedentes: hipertensión arterial, dislipidemia y es fumador activo. Examen físico: no se encuentran hallazgos relevantes. Prueba de ecocardiografía de estrés con dobutamina positiva para isquemia miocárdica inducida por estrés en el territorio de la arteria circunfleja (hipocinesia en pared lateral); fracción de eyección normal. ¿Cuál de las siguientes es la conducta más adecuada en este paciente?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Hospitalizar para realizar coronariografía y revascularizar según hallazgos"
+        },
+        {
+          "letra": "B",
+          "texto": "Optimizar el tratamiento médico antes de considerar revascularización"
+        },
+        {
+          "letra": "C",
+          "texto": "Realizar una coronariografía ambulatoria y revascularizar según hallazgos"
+        },
+        {
+          "letra": "D",
+          "texto": "Realizar una gammagrafía de perfusión miocárdica"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Cardiología",
+      "tema": "Angina estable",
+      "dificultad": "media",
+      "subtema": "Tratamiento médico óptimo previo a revascularización"
+    },
+    {
+      "enunciado": "Hombre de 65 años. Acude al servicio de urgencias por una semana de aumento de la disnea, tos productiva y sibilancias. Antecedente: EPOC de larga evolución, sin antecedente de falla cardíaca. Examen físico: frecuencia respiratoria 26/min, saturación de oxígeno del 88 % con mascarilla de oxígeno a 3 litros por minuto, uso de músculos accesorios. Gases arteriales: pH 7.32, PaCO2 52 mmHg, PaO2 58 mmHg. Creatinina 0.9 mg/dL. ¿Cuál de las siguientes estrategias de tratamiento se le debe recomendar a este paciente para reducir el riesgo de muerte?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Administrar broncodilatadores de corta acción a dosis alta y frecuente"
+        },
+        {
+          "letra": "B",
+          "texto": "Iniciar oxigenoterapia domiciliaria"
+        },
+        {
+          "letra": "C",
+          "texto": "Optimizar el tratamiento de base para lograr una saturación del 95 %"
+        },
+        {
+          "letra": "D",
+          "texto": "Administrar oxígeno humidificado continuo con presión positiva"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Neumología",
+      "tema": "Exacerbación de EPOC",
+      "dificultad": "media",
+      "subtema": "Ventilación no invasiva con presión positiva"
+    },
+    {
+      "enunciado": "Hombre de 20 años. En los últimos 3 meses presenta disnea y tos durante el día, en promedio 2 días a la semana, precipitada por el ejercicio y las bajas temperaturas ambientales. Sin síntomas nocturnos. Asma diagnosticada a los 15 años, sin tratamiento farmacológico ni consultas recientes a urgencias; sin alergias. Examen físico: frecuencia respiratoria 18/min, saturación de oxígeno 95 % al aire ambiente. Escasas sibilancias, sin signos de trabajo respiratorio. ¿Cuál de las siguientes es la mejor opción farmacológica para este paciente?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Formoterol y budesonida en dosis diaria fija"
+        },
+        {
+          "letra": "B",
+          "texto": "Formoterol y budesonida solo en caso de síntomas"
+        },
+        {
+          "letra": "C",
+          "texto": "Salbutamol solo en caso de síntomas y beclometasona en dosis diaria fija"
+        },
+        {
+          "letra": "D",
+          "texto": "Salbutamol y beclometasona solo en caso de síntomas"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Neumología",
+      "tema": "Asma leve",
+      "dificultad": "media",
+      "subtema": "Formoterol-budesonida a demanda"
+    },
+    {
+      "enunciado": "Mujer de 40 años. Después de despertar en la mañana inició con vértigo, gran dificultad para sostenerse sentada o de pie porque se lateraliza, tuvo vómito y fue incapaz de abotonarse la camisa y ponerse los aretes porque no tenía la precisión para hacerlo. Una hora después inició cefalea occipital opresiva, intensidad de 6/10 en la escala análoga visual del dolor, irradiada a toda la cabeza, la cual empeoró con el vómito y fue llevada a urgencias. Antecedente: migraña sin aura, resto negativo. Examen físico: presión arterial 176/108 mmHg, frecuencia cardíaca 90/min, frecuencia respiratoria 16/minuto, afebril. Minimental 30, sin alteración del habla ni lenguaje. Fuerza 5 en las cuatro extremidades, no reportó alteración sensitiva, reflejos miotendinosos pendulares, sin alteración en los movimientos oculares ni en campos visuales, cara simétrica, ataxia, disdiadococinesia. ¿Cuál de las siguientes es el tratamiento recomendado?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Reducir la presión arterial 15%"
+        },
+        {
+          "letra": "B",
+          "texto": "Realizar hemodilución con solución salina"
+        },
+        {
+          "letra": "C",
+          "texto": "Administrar ácido acetilsalicílico 300 mg"
+        },
+        {
+          "letra": "D",
+          "texto": "Iniciar alteplase 0.9 mg/kg"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neurología",
+      "tema": "ACV cerebeloso",
+      "dificultad": "alta",
+      "subtema": "Manejo de la presión arterial"
+    },
+    {
+      "enunciado": "Hombre de 61 años. Consulta por disnea y bendopnea de varios meses de evolución que no han empeorado recientemente. Toma enalapril, espironolactona, empagliflozina 25 mg, metoprolol tartrato y furosemida intermitente a necesidad. Examen físico: frecuencia cardíaca 109/min, pulso 89/min, hepatomegalia, edema bilateral con fóvea en extremidades inferiores. Laboratorio: potasio 3,3 mmol/L, creatinina 0,7 mg/dL, BNP 111. Hb glicosilada 5 %. EKG: RR variable, QRS 100 mseg. Ecocardiograma: FEVI 35 %. De acuerdo con las guías AHA y ESC ¿Cuál de las siguientes es la modificación a la terapia médica recomendada para disminuir la probabilidad de presentar eventos cardiovasculares en este paciente?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Adicionar digoxina oral, cambiar a metoprolol o bisoprolol y suspender espironolactona"
+        },
+        {
+          "letra": "B",
+          "texto": "Aumentar furosemida, continuar metoprolol tartrato y enalapril"
+        },
+        {
+          "letra": "C",
+          "texto": "Cambiar a metoprolol succinato, cambiar enalapril por sacubitril valsartán y disminuir empagliflozina a 10 mg"
+        },
+        {
+          "letra": "D",
+          "texto": "Cambiar a nebivolol, cambiar IECA por ARA2 y suspender empagliflozina y remitir para terapia de resincronización"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Cardiología",
+      "tema": "Falla cardíaca con FE reducida",
+      "dificultad": "alta",
+      "subtema": "Optimización de terapia médica dirigida"
+    },
+    {
+      "enunciado": "Mujer de 55 años. Asiste a cita de control cardiovascular. Antecedente: obesidad y dislipidemia a temprana edad, en tratamiento con ezetimibe 25 mg día. Ha tomado atorvastatina y rosuvastatina que generaron intensas mialgias. Puntuación de la Red Holandesa de Clínicas de Lípidos (Score Holandés) alto en probabilidad de hipercolesterolemia familiar. Examen físico sin xantomas o xantelasmas. Laboratorio colesterol total 250 mg/dL, triglicéridos 100 mg/dL, HDL 30 mg/dL, creatinofosfoquinasa 566 U/L, ALT 76 U/L. ¿Cuál de los siguientes es el esquema de tratamiento recomendado para esta paciente?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Alirocumab"
+        },
+        {
+          "letra": "B",
+          "texto": "Inclisiran y ácido bempedoico"
+        },
+        {
+          "letra": "C",
+          "texto": "Orlistat y aumentar dosis de ezetimibe"
+        },
+        {
+          "letra": "D",
+          "texto": "Simvastatina"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cardiología",
+      "tema": "Hipercolesterolemia familiar",
+      "dificultad": "alta",
+      "subtema": "Inhibidor de PCSK9 (alirocumab)"
+    },
+    {
+      "enunciado": "Hombre de 68 años, consulta por episodios recurrentes de palpitaciones rápidas y cansancio generalizado durante las últimas semanas. Usa un smartwatch con capacidad de monitoreo del ritmo cardíaco. Durante una caminata recibió una alerta de ritmo cardíaco irregular, con el siguiente reporte: frecuencia cardíaca promedio 125 lat/min, duración del episodio 3 minutos, variabilidad del ritmo cardíaco alta irregularidad. Antecedentes: hipertensión arterial y diabetes mellitus tipo 2, controladas. No refiere antecedentes de otras enfermedades cardiovasculares ni eventos cerebrovasculares. ¿Cuál de las siguientes es la conducta inicial más adecuada para confirmar el diagnóstico?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Aceptar el diagnóstico de fibrilación auricular sugerido por el smartwatch"
+        },
+        {
+          "letra": "B",
+          "texto": "Indicar un ecocardiograma transtorácico"
+        },
+        {
+          "letra": "C",
+          "texto": "Realizar un electrocardiograma durante un episodio sospechoso"
+        },
+        {
+          "letra": "D",
+          "texto": "Solicitar una prueba de esfuerzo con ejercicio"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Cardiología",
+      "tema": "Fibrilación auricular",
+      "dificultad": "baja",
+      "subtema": "Confirmación diagnóstica con EKG"
+    },
+    {
+      "enunciado": "Hombre de 25 años, consulta porque desde hace muchos años nota episodios intermitentes de ictericia en escleras, que usualmente aparecían con los resfriados. Recientemente, desde que ha estado anémico, los episodios han aparecido más frecuentemente. No ha tenido dolor abdominal ni acolia, su peso ha estado estable. Antecedentes: migraña, toma medicamentos intermitentemente, máximo 2 g al día. Examen físico: hidratado, tinte ictérico en las escleras, sin ictericia en otras regiones corporales, no tiene hepatomegalia ni esplenomegalia ni signos de enfermedad hepática. Laboratorio: bilirrubina total 4,5 mg/dL, bilirrubina directa 0,6 mg/dL, AST 20 U/L, ALT 22 U/L, fosfatasa alcalina 90 U/L, gammaglutamil transferasa 80 U/L, hemoglobina 15 g/dL, deshidrogenasa láctica 120 U/L, haptoglobina 124 mg/dL (referencia 41 a 165 mg/dL). Ecografía abdominal normal. ¿Cuál de las siguientes condiciones explica mejor los síntomas de este paciente?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Hemólisis"
+        },
+        {
+          "letra": "B",
+          "texto": "Hepatitis B crónica"
+        },
+        {
+          "letra": "C",
+          "texto": "Hepatotoxicidad por acetaminofén"
+        },
+        {
+          "letra": "D",
+          "texto": "Síndrome de Gilbert"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Gastroenterología",
+      "tema": "Síndrome de Gilbert",
+      "dificultad": "media",
+      "subtema": "Hiperbilirrubinemia indirecta no hemolítica"
+    },
+    {
+      "enunciado": "Mujer de 58 años quien asiste a consulta de control de riesgo cardiovascular. Solo describe constipación en los últimos 3 meses. Antecedentes: hipertensión diagnosticada 2 años antes. Toma irbesartán 300 mg al día, amlodipino 10 mg al día, espironolactona 25 mg/día y carvedilol 25 mg cada 12 horas. Examen físico: presión arterial 160/90 mmHg (promedio de 3 mediciones), frecuencia cardíaca 78 lat/min, resto del examen sin hallazgos anormales. Laboratorio: calcio 12 mg/dL, potasio 4.0 mEq/L, sodio 138 mEq/L, creatinina 1.5 mg/dL, hemoglobina 13.5 g/dL, 25 hidroxi-vitamina D 36 ng/mL (ref 30-40 ng/mL) y hormona paratiroidea 176 pg/mL (ref 10 a 55 pg/mL). ¿Cuál de los siguientes es el diagnóstico correcto?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Enfermedad renal crónica con hiperparatiroidismo secundario"
+        },
+        {
+          "letra": "B",
+          "texto": "Hipercalcemia por diuréticos"
+        },
+        {
+          "letra": "C",
+          "texto": "Hiperparatiroidismo primario"
+        },
+        {
+          "letra": "D",
+          "texto": "Neoplasia oculta con hipercalcemia maligna"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Endocrinología",
+      "tema": "Hiperparatiroidismo primario",
+      "dificultad": "media",
+      "subtema": "Hipercalcemia con PTH elevada"
+    },
+    {
+      "enunciado": "Hombre de 30 años quien bajo efectos del alcohol sufrió accidente de moto. Examen físico: Glasgow 13, lateropulsión, amnesia del evento. Herida de 5 cm en región temporal, con fractura lineal. ¿Cuál de los siguientes es el diagnóstico más probable?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Contusión temporal"
+        },
+        {
+          "letra": "B",
+          "texto": "Daño axonal difuso"
+        },
+        {
+          "letra": "C",
+          "texto": "Hematoma epidural agudo"
+        },
+        {
+          "letra": "D",
+          "texto": "Hematoma subdural"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Neurocirugía",
+      "tema": "Hematoma epidural agudo",
+      "dificultad": "media",
+      "subtema": "Trauma craneoencefálico"
+    },
+    {
+      "enunciado": "Hombre de 18 años quien tuvo episodio de sinusitis tratado parcialmente por farmaceuta. Después de interrogarlo y examinarlo, el médico considera que tiene un síndrome de hipertensión endocraneana. TAC simple y contrastada de cráneo: presencia de imagen compatible con absceso intracerebral frontal, marcado edema vasogénico. Además de la cirugía ¿Cuál de las siguientes es la mejor opción para tratarle el edema?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Acetazolamida"
+        },
+        {
+          "letra": "B",
+          "texto": "Dexametasona"
+        },
+        {
+          "letra": "C",
+          "texto": "Manitol"
+        },
+        {
+          "letra": "D",
+          "texto": "Solución salina hipertónica"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Neurocirugía",
+      "tema": "Absceso cerebral",
+      "dificultad": "media",
+      "subtema": "Manejo del edema con dexametasona"
+    },
+    {
+      "enunciado": "Hombre de 32 años llevado a urgencias porque sufrió trauma encéfalo craneano grave al caer de un tercer piso. Examen físico: Glasgow 4/15, anisocoria por midriasis derecha. Después de dos días de estancia en UCI no recupera su estado neurológico. Tomografía de cráneo de salida de UCI: normal. ¿Cuál de los siguientes es el diagnóstico más probable?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Contusión del mesencéfalo"
+        },
+        {
+          "letra": "B",
+          "texto": "Daño axonal difuso"
+        },
+        {
+          "letra": "C",
+          "texto": "Disección de la arteria carótida"
+        },
+        {
+          "letra": "D",
+          "texto": "Edema hidrostático"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Neurocirugía",
+      "tema": "Daño axonal difuso",
+      "dificultad": "media",
+      "subtema": "Trauma craneoencefálico grave"
+    },
+    {
+      "enunciado": "Mujer de 40 años, 5 hijos. Desde la semana 14 de gestación tuvo cifras de presión arterial mayores a 140/90 mmHg, tratada con alfametildopa. En la semana 34 consulta por cefalea intensa de nuevo, y dolor en el epigastrio, sin otros síntomas. Examen físico al ingreso: presión arterial 162/110 mmHg, frecuencia cardíaca 86 lat/min, cardiopulmonar normal, feto cardíaco 146/min, edema de miembros inferiores grado II. Paraclínicos: hemoglobina 17 g/dL, hematocrito 52 %, plaquetas 145.000 mm3; AST 72 U/L, ALT 70 U/L, LDH 400 U/L, proteínas en orina de 24 horas 290 mg. Se le administraron 3 bolos de labetalol de 20, 40 y 80 mg y a los 15 minutos presentaba presión arterial 180/100 mmHg. En el país hay desabastecimiento de hidralazina y no se tiene hidralazina disponible. ¿Cuál de los siguientes es el antihipertensivo más adecuado para continuar con el tratamiento?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Alfametildopa"
+        },
+        {
+          "letra": "B",
+          "texto": "Clonidina"
+        },
+        {
+          "letra": "C",
+          "texto": "Metoprolol"
+        },
+        {
+          "letra": "D",
+          "texto": "Nitroprusiato"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Preeclampsia con criterios de severidad",
+      "dificultad": "alta",
+      "subtema": "Antihipertensivo (nitroprusiato)"
+    },
+    {
+      "enunciado": "Mujer de 23 años. Ocho días antes tuvo parto instrumentalizado por expulsivo prolongado. Consulta por urgencias por dolor pélvico y sangrado vaginal de mal olor. Examen físico: presión arterial 100/60 mmHg, frecuencia cardíaca 120 lat/min, temperatura de 39°C, útero doloroso y se palpa a nivel umbilical, con sangrado vaginal de mal olor y tacto vaginal cérvix abierto. ¿Cuál de las siguientes es la combinación más adecuada para el tratamiento?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Clindamicina + gentamicina"
+        },
+        {
+          "letra": "B",
+          "texto": "Meropenem + metronidazol"
+        },
+        {
+          "letra": "C",
+          "texto": "Penicilina cristalina + metronidazol"
+        },
+        {
+          "letra": "D",
+          "texto": "Vancomicina + clindamicina"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Endometritis puerperal",
+      "dificultad": "media",
+      "subtema": "Clindamicina + gentamicina"
+    },
+    {
+      "enunciado": "Mujer de 27 años con gestación de 29 semanas y 3 días. Acude al hospital de primer nivel porque presentó salida de líquido por vagina, con olor a limpio, que aumentó al ponerse de pie. No tiene contracciones uterinas. Examen físico: presión arterial 110/60 mmHg, frecuencia cardíaca 72 lat/min, frecuencia respiratoria 15/min, abdomen: útero grávido, fetocardia 160/min, sin contracciones y a la especuloscopía se observa franca salida de líquido claro por el orificio cervical externo. ¿Cuál de las siguientes conductas es correcta?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Administrar bolo de 4 gr de sulfato de magnesio para uteroinhibición y neuroprotección"
+        },
+        {
+          "letra": "B",
+          "texto": "Aplicar protocolo de tratamiento expectante para intentar llegar a la semana 37"
+        },
+        {
+          "letra": "C",
+          "texto": "Iniciar protocolo de tratamiento expectante que intente llegar hasta la semana 34"
+        },
+        {
+          "letra": "D",
+          "texto": "Realizar un tacto vaginal para determinar la dilatación y el borramiento para definir el tratamiento"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Ruptura prematura de membranas pretérmino",
+      "dificultad": "media",
+      "subtema": "Manejo expectante"
+    },
+    {
+      "enunciado": "Mujer de 25 años con embarazo de 33 semanas. Control prenatal normal. Antecedentes personales negativos. Trae una ecografía de control en la que reportan crecimiento en percentil 4, Doppler fetal y de arterias uterinas normales. ¿Cuál de las siguientes es la conducta más adecuada?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Continuar vigilancia con Doppler y si evoluciona normal, programar terminación del embarazo en la semana 39"
+        },
+        {
+          "letra": "B",
+          "texto": "Continuar vigilancia con Doppler y si evoluciona normal, programar terminación del embarazo en la semana 37"
+        },
+        {
+          "letra": "C",
+          "texto": "Programar para terminación del embarazo en la semana 34 mediante maduración e inducción del trabajo de parto"
+        },
+        {
+          "letra": "D",
+          "texto": "Realizar maduración pulmonar y terminar el embarazo en la semana 34"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Restricción del crecimiento intrauterino",
+      "dificultad": "media",
+      "subtema": "Vigilancia y momento de terminación"
+    },
+    {
+      "enunciado": "Hombre de 30 años quien el día anterior, luego de quitarse el lente de contacto, presentó sensación de cuerpo extraño y dolor. Ha ido mejorando, pero aún siente la molestia. No tiene secreción ni otros síntomas. Examen físico: ojo rojo, sin disminución de la visión, defecto epitelial en la córnea que tiñe con fluoresceína de aproximadamente 1 x 1 mm. ¿Cuál de las siguientes es la conducta más adecuada?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Antibiótico en gotas"
+        },
+        {
+          "letra": "B",
+          "texto": "Antibiótico en gotas + lente de contacto blando terapéutico"
+        },
+        {
+          "letra": "C",
+          "texto": "Antibiótico en gotas + parche compresivo"
+        },
+        {
+          "letra": "D",
+          "texto": "Antibiótico en gotas + parche sin compresión"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Oftalmología",
+      "tema": "Abrasión corneal",
+      "dificultad": "baja",
+      "subtema": "Manejo tras uso de lente de contacto"
+    },
+    {
+      "enunciado": "Niño de 2 años. Desde 2 meses antes, en ocasiones, le notan un reflejo como de un gato en el ojo derecho, lo notan principalmente en las fotos. Sin otros síntomas. Antecedentes negativos. Examen físico: agudeza visual normal para la edad, no tiene ojo rojo ni secreciones, no se ve ningún reflejo anormal, oftalmoscopía directa aparenta ser normal. ¿Cuál de las siguientes es la conducta más adecuada?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Valoración por oftalmología prioritaria"
+        },
+        {
+          "letra": "B",
+          "texto": "Valoración por optometría prioritaria"
+        },
+        {
+          "letra": "C",
+          "texto": "Control en 3 meses para evaluar evolución y definir necesidad de remisión"
+        },
+        {
+          "letra": "D",
+          "texto": "Parchar el ojo afectado 2 horas al día y control en 3 meses"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Oftalmología",
+      "tema": "Leucocoria",
+      "dificultad": "media",
+      "subtema": "Sospecha de retinoblastoma, remisión prioritaria"
+    },
+    {
+      "enunciado": "Niña de 4 años, consultan porque le notan desviación en uno de sus ojos desde 8 meses antes. Antecedentes negativos. Examen físico: visión 20/50 en ojo derecho y 20/20 en ojo izquierdo, endotropia en ojo derecho; resto de examen oftalmológico normal. ¿Cuál de las siguientes es la indicación más adecuada con respecto a la oclusión ocular mientras es evaluada por oftalmología?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Ocluir el ojo derecho 12 horas al día"
+        },
+        {
+          "letra": "B",
+          "texto": "Ocluir el ojo derecho 2 horas al día"
+        },
+        {
+          "letra": "C",
+          "texto": "Ocluir el ojo izquierdo 12 horas al día"
+        },
+        {
+          "letra": "D",
+          "texto": "Ocluir el ojo izquierdo 2 horas al día"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Oftalmología",
+      "tema": "Estrabismo y ambliopía",
+      "dificultad": "media",
+      "subtema": "Oclusión ocular"
+    },
+    {
+      "enunciado": "Niño de 3 años, residente en Medellín. Consultó en un primer nivel de atención por cuatro días de evolución de fiebre, malestar general y exantema macular eritematoso. Tuvo dos episodios de vómito durante los dos primeros días de la fiebre y dolor abdominal intermitente. Está recibiendo vía oral. Antecedentes negativos. Examen físico: sin alteración del triángulo de evaluación pediátrica, temperatura 38.7°C, frecuencia cardíaca 146 lat/min. Resto sin hallazgos anormales. Laboratorio: leucocitos 3200/mm3, de predominio linfocitario, hemoglobina 12.5 g/dL, hematocrito 38%, plaquetas 100000/mm3, dengue antígeno NS1 positivo, IgM e IgG para dengue negativas. Además de las medidas para prevenir transmisión por vectores ¿Cuál de las siguientes es la conducta para seguir con este paciente según los criterios de OPS/OMS y el Ministerio de Salud?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Dar alta con recomendaciones de signos de peligro, reposo en cama, abundantes líquidos orales, acetaminofén, realizar control de hemograma en 24-48 horas con control médico"
+        },
+        {
+          "letra": "B",
+          "texto": "Hospitalizar y remitir a segundo nivel, suministrar líquidos endovenosos a 3 a 5 mL/kg/hora y acetaminofén, realizar hemograma cada 6 horas y medir función renal y hepática"
+        },
+        {
+          "letra": "C",
+          "texto": "Hospitalizar y remitir a tercer nivel, suministrar líquidos endovenosos inicialmente a 10 mL/Kg/hora, realizar hemograma y medir función renal y hepática"
+        },
+        {
+          "letra": "D",
+          "texto": "Hospitalizar, suministrar abundantes líquidos orales, cristaloides endovenosos a 2 mL/kg/hora y acetaminofén, realizar hemograma seriado y medir función renal y hepática"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Infectología",
+      "tema": "Dengue",
+      "dificultad": "media",
+      "subtema": "Clasificación y manejo ambulatorio (grupo B)"
+    },
+    {
+      "enunciado": "Niña de 6 años, procedente del Chocó, consulta por una semana de fiebre hasta 39.5°C, malestar general, mialgias, diaforesis nocturna y tres episodios eméticos. Examen físico: frecuencia cardíaca 118 lat/min, frecuencia respiratoria 23/min, presión arterial 102/50 mmHg, saturación de oxígeno 97 % al ambiente, temperatura 39.7°C. Glasgow 15/15, no está deshidratada. No se encuentran signos de alarma. Laboratorio: leucocitos 14600/mm3, neutrófilos 65 %, linfocitos 26 %, hemoglobina 11 g/dL, hematocrito 33 %, plaquetas 250000, Proteína C reactiva 3.2 mg/dL, VSG 35 mm/h. Gota gruesa: 1500 formas de Plasmodium vivax. ¿Cuál de los siguientes es el tratamiento de elección?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Arteméter lumefantrina por tres días más una dosis única de primaquina"
+        },
+        {
+          "letra": "B",
+          "texto": "Artesunato endovenoso por 24 horas más cloroquina por tres días"
+        },
+        {
+          "letra": "C",
+          "texto": "Artesunato por 24 horas y posteriormente arteméter lumefantrina por tres días"
+        },
+        {
+          "letra": "D",
+          "texto": "Cloroquina por tres días más primaquina por catorce días"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Infectología",
+      "tema": "Malaria por Plasmodium vivax",
+      "dificultad": "media",
+      "subtema": "Cloroquina + primaquina"
+    },
+    {
+      "enunciado": "Lactante de 6 meses, primogénita de madre adolescente sin pareja estable, sin controles prenatales y con antecedente de parto en casa. En la consulta de valoración integral le realizaron una prueba de ELISA para virus de inmunodeficiencia humana (VIH) con un resultado positivo. ¿Cuál de las siguientes es la conducta más adecuada?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Considerar un diagnóstico confirmado"
+        },
+        {
+          "letra": "B",
+          "texto": "Ordenar inmediatamente Western blot confirmatorio"
+        },
+        {
+          "letra": "C",
+          "texto": "Ordenar una carga viral para el VIH"
+        },
+        {
+          "letra": "D",
+          "texto": "Repetir la prueba de anticuerpos por otra técnica diferente al ELISA"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Infectología",
+      "tema": "VIH perinatal",
+      "dificultad": "media",
+      "subtema": "Confirmación con carga viral en lactante"
+    },
+    {
+      "enunciado": "Recién nacido de 24 horas. Fruto de la segunda gestación de 37 semanas, sin complicaciones. Tamizaje de cardiopatía neonatal congénita del recién nacido de manera adecuada y con el pulso-oxímetro correcto: saturación preductal de 94 % y postductal de 90 %; una hora después se repite y se obtiene saturación preductal de 92 % y postductal de 97 %. De acuerdo con lo establecido en la resolución número 207 de 2024 ¿Cuál de las siguientes es la conducta correcta?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Hospitalizar e iniciar proceso de urgencia para la realización de un ecocardiograma y valoración por cardiología pediátrica"
+        },
+        {
+          "letra": "B",
+          "texto": "Realizar electrocardiograma y radiografía de tórax previa a la remisión a cardiología pediátrica y la realización de ecocardiograma"
+        },
+        {
+          "letra": "C",
+          "texto": "Repetir nuevamente el tamizaje en 1 hora"
+        },
+        {
+          "letra": "D",
+          "texto": "Solicitar un electrocardiograma y una radiografía de tórax y según el resultado definir remisión a cardiología pediátrica"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Neonatología",
+      "tema": "Tamizaje de cardiopatía congénita",
+      "dificultad": "media",
+      "subtema": "Oximetría pre y postductal"
+    },
+    {
+      "enunciado": "Lactante de 12 meses. Evaluado en una brigada extramural en una vereda. La madre refiere que ha estado bien de salud. No tiene antecedentes patológicos de importancia y no ha sido llevado al médico. Las vacunas están al día según el carné. Peso 8.3 kg, talla 71 cm, circunferencia de brazo 11 cm, sin edema. ¿Cuál de las siguientes es la clasificación nutricional de este niño?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Desnutrición aguda moderada"
+        },
+        {
+          "letra": "B",
+          "texto": "Desnutrición aguda severa"
+        },
+        {
+          "letra": "C",
+          "texto": "Riesgo de desnutrición"
+        },
+        {
+          "letra": "D",
+          "texto": "Estado nutricional adecuado"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Nutrición",
+      "tema": "Desnutrición aguda severa",
+      "dificultad": "media",
+      "subtema": "Clasificación por perímetro braquial"
+    },
+    {
+      "enunciado": "Lactante femenina de 4 meses llevada a consulta por sus padres debido a fiebre de 39°C de 48 horas de evolución, irritabilidad y rechazo al alimento. No presenta síntomas respiratorios ni digestivos. Examen físico: febril, buen estado general, sin signos de foco infeccioso evidente. Uroanálisis: nitritos positivos y leucocituria. Gram de orina con más de 1 bacilo gram negativo. ¿Cuál de las siguientes es la conducta más adecuada?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Iniciar antibiótico oral empírico y dar de alta sin más estudios"
+        },
+        {
+          "letra": "B",
+          "texto": "Iniciar antibióticos endovenosos y solicitar una ecografía renal y de vías urinarias"
+        },
+        {
+          "letra": "C",
+          "texto": "Realizar urocistografía miccional inmediatamente para descartar reflujo vesicoureteral"
+        },
+        {
+          "letra": "D",
+          "texto": "Observar sin tratamiento y repetir el urocultivo en 48 horas"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Nefrología",
+      "tema": "Infección urinaria febril del lactante",
+      "dificultad": "media",
+      "subtema": "Antibiótico IV y ecografía renal"
+    },
+    {
+      "enunciado": "Hombre de 21 años. Traído al servicio de urgencias porque desde hace días está muy raro, mantiene muerto de la risa todo el tiempo y diciéndole a todos que encontraron la cura contra el cáncer, adicionalmente no para de caminar, camina por más de 24 horas seguidas, no va al comedor ni mucho al salón, se acuesta dos horas en la noche, tampoco se queda callado, habla sin parar, y dice que ahora es el mejor músico urbano de su generación. Se muestra irritable e impulsivo. Sin alteraciones al examen físico. Sin alteraciones en los resultados de exámenes de laboratorio. ¿Cuál de los siguientes es el diagnóstico más probable?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Trastorno bipolar tipo I, episodio actual de hipomanía"
+        },
+        {
+          "letra": "B",
+          "texto": "Trastorno bipolar tipo I, episodio actual de manía"
+        },
+        {
+          "letra": "C",
+          "texto": "Trastorno bipolar tipo II, episodio actual de hipomanía"
+        },
+        {
+          "letra": "D",
+          "texto": "Trastorno bipolar tipo II, episodio actual de manía"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Psiquiatría",
+      "tema": "Trastorno bipolar tipo I",
+      "dificultad": "baja",
+      "subtema": "Episodio maníaco"
+    },
+    {
+      "enunciado": "Mujer de 21 años. Consultó a urgencias tras ingerir 30 tabletas de acetaminofén de 500 mg 6 horas antes de la consulta. Refiere 2 episodios eméticos de contenido alimentario, sin otros síntomas. Antecedentes negativos. Examen físico: sin alteración en signos vitales, sin hallazgos de relevancia. Laboratorio: AST 80 U/L, ALT 68 U/L, bilirrubina total de 1.1 mg/dL, albúmina 4 g/dL, glucosa 116 mg/dL, INR 1.1. ¿Cuál de las siguientes es la conducta más adecuada?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Medir niveles de acetaminofén y esperar resultado para decidir si se inicia N-acetilcisteína"
+        },
+        {
+          "letra": "B",
+          "texto": "Iniciar N-acetilcisteína oral, un sobre de 300 mg cada 8 h por 72 horas"
+        },
+        {
+          "letra": "C",
+          "texto": "Administrar N-acetilcisteína 150 mg/kg en 60 minutos y continuar por 20 horas"
+        },
+        {
+          "letra": "D",
+          "texto": "Repetir medición de transaminasas en 12 horas y según resultado definir el inicio o no de antídoto"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Farmacología",
+      "tema": "Intoxicación por acetaminofén",
+      "dificultad": "media",
+      "subtema": "N-acetilcisteína"
+    },
+    {
+      "enunciado": "Mujer de 30 años. En el servicio de urgencias le diagnostican pielonefritis derecha. Antecedentes negativos. Examen físico: signos vitales estables. Función renal conservada. Tomografía de abdomen contrastada: riñones sin hidronefrosis, imagen hipodensa en el riñón derecho, sin septos, con realce periférico de 20 mm única, sugestiva de absceso renal. ¿Cuál de las siguientes es la conducta correcta?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Administrar antibiótico empírico según perfil de sensibilidad local por 10 días y control imagenológico"
+        },
+        {
+          "letra": "B",
+          "texto": "Administrar ciprofloxacina 400 mg IV cada 12 horas por 10 días"
+        },
+        {
+          "letra": "C",
+          "texto": "Realizar drenaje de la colección guiada por tomografía y administrar antibiótico empírico según perfil de sensibilidad local por 10 días"
+        },
+        {
+          "letra": "D",
+          "texto": "Remitir para realizar nefrostomía percutánea e iniciar antibiótico de amplio espectro"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Urología",
+      "tema": "Absceso renal",
+      "dificultad": "media",
+      "subtema": "Manejo antibiótico y control imagenológico"
+    },
+    {
+      "enunciado": "Adolescente de 16 años, consulta por ausencia del testículo derecho desde el nacimiento, sin sintomatología. Examen físico: pene con desarrollo normal, testículo izquierdo de volumen normal, sin masas ni dolor durante la evaluación, hemiescroto derecho con ausencia de testículo y no se palpa en canal inguinal. Clasificación Tanner genital 4. ¿Cuál de las siguientes es la conducta más adecuada?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Realizar laparoscopia y si el testículo se encuentra intraabdominal, realizar orquidopexia"
+        },
+        {
+          "letra": "B",
+          "texto": "Realizar laparoscopia y si el testículo se encuentra intraabdominal, realizar orquidectomía"
+        },
+        {
+          "letra": "C",
+          "texto": "Realizar una ecografía Doppler testicular para ubicar la ubicación exacta para definir el tratamiento"
+        },
+        {
+          "letra": "D",
+          "texto": "Seguimiento ambulatorio con ecografía Doppler y niveles de testosterona control para evaluar la necesidad de suplementación"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Urología",
+      "tema": "Criptorquidia",
+      "dificultad": "media",
+      "subtema": "Laparoscopia y orquidectomía"
+    },
+    {
+      "enunciado": "Mujer de 30 años, consulta por 30 días de dolor lumbar derecho que se presenta con los movimientos, esfuerzos y cambios de posición. Revisión por sistemas: orina fétida y turbia sin disuria, polaquiuria, tenesmo urinario, fiebre, ni dolor abdominal. Antecedente: estrechez ureteral corregida e infecciones del tracto urinario a repetición en la niñez. Examen físico: presión arterial de 100/70 mmHg, frecuencia cardíaca 65/min, temperatura 36.8°C. Dolor a la palpación de región lumbar bilateral. Uroanálisis: nitritos negativos, 15 leucocitos por campo de alto poder y Gram con bacilos Gram negativos abundantes. Urocultivo: mayor de 100.000 unidades formadoras de colonia de E. coli sensible a ciprofloxacina, trimetoprim sulfametoxazol, gentamicina y ceftriaxona. Creatinina 1.0 mg/dL. ¿Cuál de las siguientes es la conducta más adecuada?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Ordenar antiinflamatorios no esteroideos, aumentar el consumo de líquidos y ejercicio terapéutico"
+        },
+        {
+          "letra": "B",
+          "texto": "Tratar como infección urinaria alta sintomática con ciprofloxacina oral 500 mg cada día por 7 días"
+        },
+        {
+          "letra": "C",
+          "texto": "Tratar como infección urinaria sintomática con ciprofloxacina oral 500 mg cada 12 horas por 7 días y solicitar un UROTAC"
+        },
+        {
+          "letra": "D",
+          "texto": "Tratar como infección urinaria sintomática con gentamicina 80 mg intramuscular cada día por la alta tasa de resistencia a la ciprofloxacina en nuestro medio"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Urología",
+      "tema": "Bacteriuria asintomática y dolor lumbar mecánico",
+      "dificultad": "alta",
+      "subtema": "Diferenciación de infección urinaria activa"
+    },
+    {
+      "enunciado": "Mujer de 77 años con dolor en las pantorrillas al caminar que mejora con el reposo. Antecedente: 4 hijos, dislipidemia e infarto del miocardio 10 años antes. Examen físico: dilatación varicosa tortuosa en cara interna de ambas piernas. Edema bilateral y pigmentación cutánea en tercio distal de las piernas, pulsos tibiales posteriores y pedios disminuidos. ¿Cuál de las siguientes es la conducta más adecuada?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Iniciar daflon oral y escleroterapia venosa"
+        },
+        {
+          "letra": "B",
+          "texto": "Iniciar medias de gradiente de presión"
+        },
+        {
+          "letra": "C",
+          "texto": "Realizar doppler arterial miembros inferiores"
+        },
+        {
+          "letra": "D",
+          "texto": "Realizar pletismografía miembros inferiores"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Cirugía General",
+      "tema": "Enfermedad vascular periférica",
+      "dificultad": "media",
+      "subtema": "Pletismografía de miembros inferiores"
+    },
+    {
+      "enunciado": "Hombre de 23 años. Consulta por 6 meses de evolución de aumento de rinorrea hialina bilateral, ocasionalmente mucopurulenta, asociada a escurrimiento posterior, cefalea frontofacial, obstrucción nasal intermitente e hiposmia. Antecedente: otitis media recurrente que requirió adenoidectomía y tubos de ventilación a los 5 años; rinitis alérgica desde los 8 años, tratada con esteroide nasal, antihistamínicos e inmunoterapia. Presentó gran mejoría de síntomas durante la adolescencia, por lo que suspendió el tratamiento. Tomografía de senos paranasales simple: ocupación de senos maxilares, etmoidales y esfenoidales bilaterales con engrosamiento mucoso de los senos frontal. ¿Cuál de los siguientes es el diagnóstico más probable?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Discinesia ciliar primaria"
+        },
+        {
+          "letra": "B",
+          "texto": "Mucormicosis nasosinusal"
+        },
+        {
+          "letra": "C",
+          "texto": "Papiloma invertido nasosinusal"
+        },
+        {
+          "letra": "D",
+          "texto": "Rinosinusitis crónica"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Otorrinolaringología",
+      "tema": "Rinosinusitis crónica",
+      "dificultad": "media"
+    },
+    {
+      "enunciado": "Niño de 6 años, la madre refiere que tiene problemas para la escritura y se cae o se choca frecuentemente, coge mal el lápiz, se le dificulta la precisión en algunos trazos, no salta el lazo y le da mucha dificultad para amarrarse los zapatos. Tiene buen rendimiento escolar. Antecedentes: crecimiento y desarrollo acorde a su edad, sin antecedentes prenatales anormales. Examen físico: sobrepeso y ligera disminución del tono muscular. ¿Cuál de los siguientes es el diagnóstico más probable?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Parálisis cerebral infantil hipotónica leve"
+        },
+        {
+          "letra": "B",
+          "texto": "Retardo simple del área motora fina"
+        },
+        {
+          "letra": "C",
+          "texto": "Trastorno del aprendizaje especialmente en escritura"
+        },
+        {
+          "letra": "D",
+          "texto": "Trastorno del desarrollo de la coordinación"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Pediatría",
+      "tema": "Trastorno del desarrollo de la coordinación",
+      "dificultad": "media",
+      "subtema": "Neurodesarrollo"
+    },
+    {
+      "enunciado": "Niña de 3 años. En una consulta de valoración integral, se decide suministrarle micronutrientes en polvo. ¿Cuál de las siguientes recomendaciones se le debe dar a la madre con respecto a esos micronutrientes?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Agregarlos a alimentos líquidos o bebidas"
+        },
+        {
+          "letra": "B",
+          "texto": "Agregarlos a un puré, sopa espesa, papillas o frutas maceradas"
+        },
+        {
+          "letra": "C",
+          "texto": "Agregarlos durante la preparación de las comidas"
+        },
+        {
+          "letra": "D",
+          "texto": "Suspenderlos si la niña presenta diarrea"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Nutrición",
+      "tema": "Micronutrientes en polvo",
+      "dificultad": "baja",
+      "subtema": "Consejería de administración"
+    }
+  ]
+}

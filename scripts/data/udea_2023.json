@@ -1,0 +1,1489 @@
+{
+  "examen": "UDEA",
+  "anio": 2023,
+  "fuente": "Reconstrucción UDEA 2023",
+  "preguntas": [
+    {
+      "enunciado": "Enfermero 26 años, víctima de trauma punzante con aguja usada en paciente con diagnóstico de hepatitis B, y quien falsifica el carné para hepatitis B. ¿Cuál es el tratamiento correcto?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Inmunoglobulina para hepatitis B"
+        },
+        {
+          "letra": "B",
+          "texto": "Vacuna contra hepatitis B + inmunoglobulina"
+        },
+        {
+          "letra": "C",
+          "texto": "Inmunoglobulina para hepatitis B + ribavirina"
+        },
+        {
+          "letra": "D",
+          "texto": "Vacuna contra hepatitis B + ribavirina"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Infectología",
+      "tema": "Profilaxis post-exposición VHB",
+      "dificultad": "media",
+      "subtema": "Manejo tras exposición ocupacional"
+    },
+    {
+      "enunciado": "Mujer 68 años, HTA y diabetes tipo 2, consulta por prurito incapacitante en tronco y extremidades que no la deja dormir, sin lesiones primarias en piel (no habones), con lesiones por excoriación desde hace 3 meses. ¿Cuál sería la conducta a seguir?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Cambiar medicamentos y dar antihistamínico"
+        },
+        {
+          "letra": "B",
+          "texto": "Humectante y solicitar hemograma, TSH, perfil hepático y renal"
+        },
+        {
+          "letra": "C",
+          "texto": "Esteroides tópicos + biopsia de piel"
+        },
+        {
+          "letra": "D",
+          "texto": "Introducir alimentos alergénicos y luego hacer prick test"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Dermatología",
+      "tema": "Prurito sin lesiones primarias",
+      "dificultad": "media",
+      "subtema": "Enfoque diagnóstico"
+    },
+    {
+      "enunciado": "Masculino con Diabetes tipo 1, tras extracción de pieza dentaria mandibular hace 2 días, acude con voz apagada, trismus, sialorrea, dolor, fiebre y sensación de estrechamiento. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Angina de Ludwig"
+        },
+        {
+          "letra": "B",
+          "texto": "Angina de Vincent"
+        },
+        {
+          "letra": "C",
+          "texto": "Absceso periamigdalino"
+        },
+        {
+          "letra": "D",
+          "texto": "Absceso retrofaríngeo"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Otorrinolaringología",
+      "tema": "Angina de Ludwig",
+      "dificultad": "media",
+      "subtema": "Diagnóstico"
+    },
+    {
+      "enunciado": "Lactante con 7 meses de lagrimeo y conjuntivitis con diagnóstico de dacrioestenosis que no ha mejorado tras 6 meses de masajes y antibióticos. ¿Cuál es el manejo más adecuado?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Remitir a oftalmo para lavado y sondaje"
+        },
+        {
+          "letra": "B",
+          "texto": "Remitir a oftalmo por dacriocistorrinostomía"
+        },
+        {
+          "letra": "C",
+          "texto": "Cambiar antibióticos"
+        },
+        {
+          "letra": "D",
+          "texto": "Seguir realizando masaje y continuar manejo antibiótico."
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Oftalmología",
+      "tema": "Dacrioestenosis congénita",
+      "dificultad": "media",
+      "subtema": "Manejo"
+    },
+    {
+      "enunciado": "Paciente con VIH y recuento de CD4 de 154 células/mm3. ¿Cuál de las siguientes vacunas debería recibir?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Triple viral, varicela, influenza"
+        },
+        {
+          "letra": "B",
+          "texto": "Zoster, hepatitis A, COVID 19"
+        },
+        {
+          "letra": "C",
+          "texto": "Meningococo, neumococo, varicela"
+        },
+        {
+          "letra": "D",
+          "texto": "Neumococo, influenza, hepatitis B"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Infectología",
+      "tema": "Vacunación en paciente con VIH",
+      "dificultad": "media",
+      "subtema": "Inmunización según CD4"
+    },
+    {
+      "enunciado": "Femenina de 23 años trae reporte de citología con ASC-US. ¿Cuál sería la conducta a seguir?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Repetir citología en 12 meses"
+        },
+        {
+          "letra": "B",
+          "texto": "ADN para VPH"
+        },
+        {
+          "letra": "C",
+          "texto": "Colposcopia + biopsia"
+        },
+        {
+          "letra": "D",
+          "texto": "Esperar que cumpla 25 y aplicar protocolo de guía colombiana."
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Citología ASC-US",
+      "dificultad": "baja",
+      "subtema": "Conducta"
+    },
+    {
+      "enunciado": "Masculino 40 años, consulta por descarga uretral purulenta y dolor en hipogastrio. ¿Cuál sería el esquema antibiótico de elección?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Azitromicina + ceftriaxona + tinidazol"
+        },
+        {
+          "letra": "B",
+          "texto": "Azitromicina, Aciclovir, tinidazol"
+        },
+        {
+          "letra": "C",
+          "texto": "Fluconazol, penicilina"
+        },
+        {
+          "letra": "D",
+          "texto": "Doxiciclina, metronidazol, levofloxacino"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Infectología",
+      "tema": "Uretritis / ITS",
+      "dificultad": "media",
+      "subtema": "Esquema antibiótico"
+    },
+    {
+      "enunciado": "Puérpera por cesárea hace 5 días, T 39°C, dolor en hemiabdomen inferior, subinvolución uterina, sin irritación peritoneal, con loquios escasos y fétidos. ¿Cuál es el manejo más adecuado?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "No es necesario más intervenciones, solo esperar resultados de paraclínicos"
+        },
+        {
+          "letra": "B",
+          "texto": "Clindamicina 900mg c/8h + Gentamicina 240 mg c/día"
+        },
+        {
+          "letra": "C",
+          "texto": "Ampicilina/Sulbactam 1 gr c/8h + Gentamicina 240 mg c/día"
+        },
+        {
+          "letra": "D",
+          "texto": "Llevar a curetaje"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Endometritis puerperal",
+      "dificultad": "media",
+      "subtema": "Manejo antibiótico"
+    },
+    {
+      "enunciado": "Masculino víctima de accidente hace una semana donde murió su amigo; ahora callado, retraído, no recuerda el momento, con insomnio de 3 días de evolución. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Trastorno de estrés agudo"
+        },
+        {
+          "letra": "B",
+          "texto": "Trastorno de estrés postraumático"
+        },
+        {
+          "letra": "C",
+          "texto": "Trastorno evitación"
+        },
+        {
+          "letra": "D",
+          "texto": "Trastorno disociativo"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Psiquiatría",
+      "tema": "Trastorno de estrés agudo",
+      "dificultad": "media",
+      "subtema": "Diagnóstico"
+    },
+    {
+      "enunciado": "Paciente inconsciente con broncorrea, sialorrea, hipotensión, FC 45, FR 28, diarrea, miosis, peristaltismo aumentado y QT prolongado de 580 ms. ¿Cuál es la conducta?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Atropina hasta estabilizar hemodinámicamente + sulfató de mg para prevenir arritmias"
+        },
+        {
+          "letra": "B",
+          "texto": "Atropinizar y poner oximas hasta estabilidad hemodinámica y recuperación de conciencia"
+        },
+        {
+          "letra": "C",
+          "texto": "Usar bicarbonato de sodio para corregir el QT y no iniciar otras medidas hasta mejorarlo"
+        },
+        {
+          "letra": "D",
+          "texto": "Naloxona"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Farmacología",
+      "tema": "Intoxicación por organofosforados",
+      "dificultad": "alta",
+      "subtema": "Manejo con atropina y oximas"
+    },
+    {
+      "enunciado": "Mujer 24 años, 3 hijos, dependiente económicamente de su pareja desempleada, con embarazo de 24,3 semanas que desea IVE. Para la IVE lo más correcto es:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Pedir aval a un médico o psicólogo porque excede las semanas para IVE."
+        },
+        {
+          "letra": "B",
+          "texto": "Que el feto nazca porque igual no va a sobrevivir mucho tiempo"
+        },
+        {
+          "letra": "C",
+          "texto": "Mifepristona previo a la aplicacion de misoprostol"
+        },
+        {
+          "letra": "D",
+          "texto": "Asegurarse de la no viabilidad del feto e inducir trabajo de parto del feto muerto"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Interrupción voluntaria del embarazo tardío",
+      "dificultad": "alta",
+      "subtema": "Manejo y bioética"
+    },
+    {
+      "enunciado": "Paciente de 46 años con fractura de cadera y dolor 8/10, HTA con losartán y depresión en manejo con escitalopram y sertralina. ¿Cuál es el manejo analgésico indicado?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Acetaminofen + Codeina cada 8 horas"
+        },
+        {
+          "letra": "B",
+          "texto": "Morfina cada 6 horas + Acetaminofen Cada 8 horas"
+        },
+        {
+          "letra": "C",
+          "texto": "Ketamina dosis unica y dipirona cada 12 h"
+        },
+        {
+          "letra": "D",
+          "texto": "Tramadol cada 8 horas + diclofenaco Cada 12 horas"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Anestesiología",
+      "tema": "Manejo analgésico en fractura de cadera",
+      "dificultad": "media",
+      "subtema": "Interacción con ISRS"
+    },
+    {
+      "enunciado": "Paciente con trauma de tórax, hemoneumotórax descartado y ecofast negativo, con ingurgitación yugular e hipotensión que mejora al adoptar decúbito prono. ¿Cuál es la impresión diagnóstica?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Disección aórtica"
+        },
+        {
+          "letra": "B",
+          "texto": "Taponamiento cardiaco"
+        },
+        {
+          "letra": "C",
+          "texto": "Ruptura pericárdica con herniación cardíaca"
+        },
+        {
+          "letra": "D",
+          "texto": "Infarto agudo de miocardio"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Cirugía General",
+      "tema": "Trauma de tórax",
+      "dificultad": "alta",
+      "subtema": "Herniación cardíaca / ruptura pericárdica"
+    },
+    {
+      "enunciado": "Paciente con TEC grave, dos intentos fallidos de intubación, Cormack-Lehane IV, SatO2 71%, FC 105, PA 154/98. ¿Cuál es la conducta inmediata?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Llamar a un anestesiólogo para que lo intube"
+        },
+        {
+          "letra": "B",
+          "texto": "tercer intento con videolaringoscopio y guia"
+        },
+        {
+          "letra": "C",
+          "texto": "Ventilación (VPP) con dispositivo supraglótico"
+        },
+        {
+          "letra": "D",
+          "texto": "Realizar Cricotiroidotomia."
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Anestesiología",
+      "tema": "Vía aérea difícil",
+      "dificultad": "alta",
+      "subtema": "Manejo tras intubación fallida"
+    },
+    {
+      "enunciado": "Paciente de 15 años con LES y anticuerpos antifosfolípidos positivos que desea iniciar anticoncepción. ¿Qué método le recomendaría?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Acetato de medroxiprogesterona."
+        },
+        {
+          "letra": "B",
+          "texto": "Anticonceptivos orales"
+        },
+        {
+          "letra": "C",
+          "texto": "DIU de cobre"
+        },
+        {
+          "letra": "D",
+          "texto": "Método del ritmo"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Anticoncepción en LES con SAF",
+      "dificultad": "media",
+      "subtema": "Selección de método"
+    },
+    {
+      "enunciado": "Paciente de 12 años, 30 kg, con infiltración de 15 ml de lidocaína al 2%, que presenta TA 55/34, FC 42 y convulsiones. ¿Qué manejo debe iniciarse?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Midazolam + Vasopresina en bolo + lípidos al 20%"
+        },
+        {
+          "letra": "B",
+          "texto": "Dopamina titulada + midazolam en bolo + infusión lípidos al 20%"
+        },
+        {
+          "letra": "C",
+          "texto": "Vasopresina en bolo + midazolam"
+        },
+        {
+          "letra": "D",
+          "texto": "Adrenalina, intubar y fenitoína"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Farmacología",
+      "tema": "Toxicidad sistémica por anestésicos locales",
+      "dificultad": "alta",
+      "subtema": "Manejo con emulsión lipídica"
+    },
+    {
+      "enunciado": "Paciente con mordedura de perro hace 24 horas: laceración de 3 cm en mejilla y herida avulsiva de 2x1 cm en miembro inferior con exposición de grasa, sin compromiso muscular ni óseo, sin sangrado activo. ¿Cuál es el manejo indicado?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Lavar con iodopovidona y peroxido de hidrógeno"
+        },
+        {
+          "letra": "B",
+          "texto": "Suturar solo la mejilla"
+        },
+        {
+          "letra": "C",
+          "texto": "Iniciar manejo antibiótico contra eikenella corrodens"
+        },
+        {
+          "letra": "D",
+          "texto": "No suturar ninguna de las 2 heridas"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Cirugía General",
+      "tema": "Manejo de heridas por mordedura",
+      "dificultad": "media",
+      "subtema": "Cierre de heridas"
+    },
+    {
+      "enunciado": "Paciente con onicolisis distal, pittings, hemorragias en astilla y manchas en aceite ungueales, más dolor inflamatorio en articulaciones interfalángicas. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Liquen ungueal"
+        },
+        {
+          "letra": "B",
+          "texto": "Onicomicosis"
+        },
+        {
+          "letra": "C",
+          "texto": "Onicogrifosis"
+        },
+        {
+          "letra": "D",
+          "texto": "Psoriasis"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Reumatología",
+      "tema": "Artritis psoriásica",
+      "dificultad": "media",
+      "subtema": "Diagnóstico"
+    },
+    {
+      "enunciado": "Joven de 32 años con dolor precordial de 24 horas que exacerba con la inspiración y el decúbito, a 6 horas de una unidad de intervencionismo, con EKG que muestra elevación del ST difusa en V2-V5. ¿Cuál sería el tratamiento correcto?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Trombolisis"
+        },
+        {
+          "letra": "B",
+          "texto": "PCI"
+        },
+        {
+          "letra": "C",
+          "texto": "Ibuprofeno + colchicina"
+        },
+        {
+          "letra": "D",
+          "texto": "ASA 100 mg"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Cardiología",
+      "tema": "Pericarditis aguda",
+      "dificultad": "media",
+      "subtema": "Tratamiento"
+    },
+    {
+      "enunciado": "Empresario de 28 años, corredor de fondo sin asesoría, se desploma en el km 38 y fallece; una semana antes tuvo síncope y un EKG con ondas T picudas y ondas Q profundas no revisado. ¿Cuál es la causa básica de muerte?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Anomalía de implantación de las coronarias"
+        },
+        {
+          "letra": "B",
+          "texto": "Cardiomiopatía hipertrófica"
+        },
+        {
+          "letra": "C",
+          "texto": "Síndrome coronario agudo"
+        },
+        {
+          "letra": "D",
+          "texto": "Displasia arritmogénica del ventrículo derecho"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Cardiología",
+      "tema": "Miocardiopatía hipertrófica",
+      "dificultad": "media",
+      "subtema": "Muerte súbita en deportista"
+    },
+    {
+      "enunciado": "Mujer de 30 años con hipotiroidismo en metas, con área de alopecia de hasta 3 mm (incluso en ceja), leucotriquia a la pilotracción y abundante caída, sin signos inflamatorios en piel cabelluda. ¿Cuál sería el tratamiento?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Difenciprona tópica cada 8 días durante 3 meses"
+        },
+        {
+          "letra": "B",
+          "texto": "Hidrocortisona loción cada 12 hrs durante 3 meses"
+        },
+        {
+          "letra": "C",
+          "texto": "Infiltraciones de triamcinolona cada 4 semanas"
+        },
+        {
+          "letra": "D",
+          "texto": "Minoxidil 2% tópico cada 8 horas durante 3 meses."
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Dermatología",
+      "tema": "Alopecia areata",
+      "dificultad": "media",
+      "subtema": "Tratamiento"
+    },
+    {
+      "enunciado": "Niño de 3 años con clínica de espectro autista. Según la resolución 3280 de 2018 y la ruta integral de primera infancia, ¿con qué prueba se debería tamizar?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Prueba EAD 3"
+        },
+        {
+          "letra": "B",
+          "texto": "Test de M-CHAT: Cuestionario de Autismo en la Infancia- Modificado"
+        },
+        {
+          "letra": "C",
+          "texto": "Test de Goodenough"
+        },
+        {
+          "letra": "D",
+          "texto": "Test de VALE"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Pediatría",
+      "tema": "Tamizaje de autismo",
+      "dificultad": "baja",
+      "subtema": "M-CHAT / Resolución 3280"
+    },
+    {
+      "enunciado": "Femenina de 37 años con hallazgo incidental de litiasis vesicular múltiple en ecografía, sin signos de inflamación ni dilatación de la vía biliar. ¿Cuál es la conducta más acertada?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Colecistectomia por laparoscopia ambulatoria / programada"
+        },
+        {
+          "letra": "B",
+          "texto": "Indicar signos de alarma y consultar si presenta cólico biliar"
+        },
+        {
+          "letra": "C",
+          "texto": "Ecografía en 6 meses"
+        },
+        {
+          "letra": "D",
+          "texto": "Solicitar pruebas de función hepática, y remitir a cirugía general con resultados"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Cirugía General",
+      "tema": "Colelitiasis asintomática",
+      "dificultad": "baja",
+      "subtema": "Conducta"
+    },
+    {
+      "enunciado": "Masculino que ingirió 100 tabletas de hierro de 374 mg hace 6 horas, ingresa estable y asintomático. ¿Cuál es la conducta más apropiada?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Deferoxamina, vigilar funcion renal, y evaluar necesidad de dialisis"
+        },
+        {
+          "letra": "B",
+          "texto": "Observación"
+        },
+        {
+          "letra": "C",
+          "texto": "Catártico, si hace disfunción de órgano usar antídoto"
+        },
+        {
+          "letra": "D",
+          "texto": "Extraccion con membrana extracorporea"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Farmacología",
+      "tema": "Intoxicación por hierro",
+      "dificultad": "alta",
+      "subtema": "Manejo con deferoxamina"
+    },
+    {
+      "enunciado": "Metaanálisis que compara medicamento A vs B con RR 0.5, IC 95%: 0.15-0.75, I2: 75%. ¿Cuál enunciado es correcto?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Resultados imprecisos por ser muy heterogéneo"
+        },
+        {
+          "letra": "B",
+          "texto": "Es estadísticamente no significativo"
+        },
+        {
+          "letra": "C",
+          "texto": "El medicamento b, reduce la mortalidad en 5%"
+        },
+        {
+          "letra": "D",
+          "texto": "El medicamento A puede reducir mortalidad desde un 25% hasta un 85%"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Interpretación de metaanálisis",
+      "dificultad": "alta",
+      "subtema": "Riesgo relativo e intervalo de confianza"
+    },
+    {
+      "enunciado": "Estudio de procalcitonina en meningitis neonatal con punto de corte >0,5: sensibilidad 94%, especificidad 85%, VPP 87%, VPN 63%. ¿Cuál es el porcentaje de falsos negativos?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "No se puede calcular"
+        },
+        {
+          "letra": "B",
+          "texto": "6%"
+        },
+        {
+          "letra": "C",
+          "texto": "8%"
+        },
+        {
+          "letra": "D",
+          "texto": "15%"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Pruebas diagnósticas",
+      "dificultad": "media",
+      "subtema": "Cálculo de falsos negativos"
+    },
+    {
+      "enunciado": "Trauma contuso en miembro superior derecho con disminución de la sensibilidad en cara anterolateral del antebrazo, imposibilidad para flexionar el codo y extensión conservada. ¿Qué nervio está comprometido?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Radial"
+        },
+        {
+          "letra": "B",
+          "texto": "Músculocutáneo"
+        },
+        {
+          "letra": "C",
+          "texto": "Mediano"
+        },
+        {
+          "letra": "D",
+          "texto": "Cutáneo antebraquial lateral"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Traumatología y Ortopedia",
+      "tema": "Lesión del nervio musculocutáneo",
+      "dificultad": "media",
+      "subtema": "Localización de lesión nerviosa"
+    },
+    {
+      "enunciado": "Dolor lumbar irradiado a MID con incapacidad para caminar en puntas, leve debilidad en la extensión del hallux, parestesia en la planta y disminución del reflejo aquiliano. ¿Dónde se ubica la lesión?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Radiculopatía S1"
+        },
+        {
+          "letra": "B",
+          "texto": "Radiculopatía L5"
+        },
+        {
+          "letra": "C",
+          "texto": "Nervio tibial posterior"
+        },
+        {
+          "letra": "D",
+          "texto": "Nervio femoral"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neurología",
+      "tema": "Radiculopatía S1",
+      "dificultad": "media",
+      "subtema": "Localización de lesión"
+    },
+    {
+      "enunciado": "Paciente con IAM hace menos de un año y diabetes, LDL 67, TG 220, HDL 39, en manejo con atorvastatina 80 mg. ¿Qué medicamento debería añadirse?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Gemfibrozilo"
+        },
+        {
+          "letra": "B",
+          "texto": "Ezetimibe"
+        },
+        {
+          "letra": "C",
+          "texto": "Fenofibrato"
+        },
+        {
+          "letra": "D",
+          "texto": "Cambiar a Rosuvastatina"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Cardiología",
+      "tema": "Manejo de dislipidemia en alto riesgo",
+      "dificultad": "media",
+      "subtema": "Adición de ezetimibe"
+    },
+    {
+      "enunciado": "Feto en percentil 4 con Doppler normal; la madre al inicio del embarazo pesaba 48 kg y medía 1.50 m. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Feto pequeño para edad gestacional"
+        },
+        {
+          "letra": "B",
+          "texto": "RCIU TIPO I"
+        },
+        {
+          "letra": "C",
+          "texto": "Insuficiencia placentaria"
+        },
+        {
+          "letra": "D",
+          "texto": "Pequeño constitucional"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Feto pequeño para edad gestacional",
+      "dificultad": "media",
+      "subtema": "Diagnóstico"
+    },
+    {
+      "enunciado": "Mujer de 43 años, nulípara, con hemorragia uterina anormal, fumadora de 20 cigarrillos/día e HTA, ya descartadas causas funcionales y estructurales. ¿Cuál sería el manejo ideal?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Endoceptivo liberador de levonorgestrel"
+        },
+        {
+          "letra": "B",
+          "texto": "Acetato de medroxiprogesterona de forma ciclica"
+        },
+        {
+          "letra": "C",
+          "texto": "ACOS combinados"
+        },
+        {
+          "letra": "D",
+          "texto": "Histerectomía"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Hemorragia uterina anormal",
+      "dificultad": "media",
+      "subtema": "Manejo con levonorgestrel"
+    },
+    {
+      "enunciado": "Femenina de 30 años con lesión en brazo derecho con sangrado abundante previo, ahora sin sangrado, sin hematoma, sin soplo ni thrill, extremidad no pálida ni fría, sin parestesias, pero con pulsos distales disminuidos. ¿Cuál sería la conducta a seguir?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Exploración vascular urgente"
+        },
+        {
+          "letra": "B",
+          "texto": "Observación"
+        },
+        {
+          "letra": "C",
+          "texto": "AngioTAC"
+        },
+        {
+          "letra": "D",
+          "texto": "Alta con sutura"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Cirugía General",
+      "tema": "Trauma vascular de extremidad",
+      "dificultad": "media",
+      "subtema": "Signos blandos / AngioTAC"
+    },
+    {
+      "enunciado": "Lactante de 5 meses con fiebre, tos seca, rinorrea, SaO2 89%, sibilancias, retracciones subcostales y taquipnea, peso 7.5 kg. Además de oxigenoterapia y antipiréticos, ¿qué otro manejo se debe hacer?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Lactancia materna y no más medicamentos"
+        },
+        {
+          "letra": "B",
+          "texto": "Dar leche de fórmula e iniciar antibiótico"
+        },
+        {
+          "letra": "C",
+          "texto": "Sonda nasogástrica y prednisolona 7.5 mg vo"
+        },
+        {
+          "letra": "D",
+          "texto": "Suspender vía oral, LEV a 31cc/h y salbutamol 2 puff cada 6 horas."
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Pediatría",
+      "tema": "Bronquiolitis",
+      "dificultad": "media",
+      "subtema": "Manejo"
+    },
+    {
+      "enunciado": "Neonato de 26 días con tos y fiebre de 39°C que presenta convulsión tónico-clónica de 20 segundos con cianosis peribucal y recuperación completa; examen y signos vitales normales. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Convulsión febril compleja"
+        },
+        {
+          "letra": "B",
+          "texto": "Convulsión febril simple"
+        },
+        {
+          "letra": "C",
+          "texto": "Sepsis bacteriana"
+        },
+        {
+          "letra": "D",
+          "texto": "epilepsia (evento epileptico no convulsivo)"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Pediatría",
+      "tema": "Fiebre y convulsión en lactante",
+      "dificultad": "media",
+      "subtema": "Sepsis bacteriana"
+    },
+    {
+      "enunciado": "Femenina con dolor en fosa iliaca derecha, fiebre, signos de irritación peritoneal, prueba del talón positiva, Rovsing +, prueba de embarazo negativa, leucocitos 18.000 con neutrofilia. ¿Cuál es la conducta inmediata antes de remitir a cirugía general?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Líquidos endovenosos"
+        },
+        {
+          "letra": "B",
+          "texto": "LEV + ANALGESIA"
+        },
+        {
+          "letra": "C",
+          "texto": "Lev + antibióticos"
+        },
+        {
+          "letra": "D",
+          "texto": "LEV + ANALGESIA + ANTIBIÓTICOS"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Cirugía General",
+      "tema": "Apendicitis aguda",
+      "dificultad": "baja",
+      "subtema": "Manejo prequirúrgico"
+    },
+    {
+      "enunciado": "Niño con epistaxis por trauma nasal con balón, con abultamiento azuloso en la unión del septo y piso nasal bilateral. ¿Cuál sería la conducta a seguir?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Remitir para drenaje prioritario"
+        },
+        {
+          "letra": "B",
+          "texto": "Inhaladores nasales"
+        },
+        {
+          "letra": "C",
+          "texto": "Observación, hielo loca, elevar cabecera"
+        },
+        {
+          "letra": "D",
+          "texto": "Realizar septoplastia en 4 semanas."
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Otorrinolaringología",
+      "tema": "Hematoma septal",
+      "dificultad": "media",
+      "subtema": "Manejo"
+    },
+    {
+      "enunciado": "Niño de 5 años con IRA superior de una semana, otalgia derecha y fiebre 39°C, con episodios similares a repetición desde que ingresó a la guardería. ¿Cuál es la complicación más frecuente que podría desarrollar?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Ruptura de tímpano"
+        },
+        {
+          "letra": "B",
+          "texto": "Mastoiditis"
+        },
+        {
+          "letra": "C",
+          "texto": "Paralisis facial"
+        },
+        {
+          "letra": "D",
+          "texto": "Absceso de bezold"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Otorrinolaringología",
+      "tema": "Otitis media aguda",
+      "dificultad": "media",
+      "subtema": "Complicaciones"
+    },
+    {
+      "enunciado": "Hombre de 60 años con DM2, dolor perineal, fiebre 39°C, FC 130, FR 25, con edema y eritema perineal y área necrótica de 2x2 cm en escroto. ¿Cuál es la conducta más adecuada?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Hospitalizar y realizar curaciones con sulfato de Plata"
+        },
+        {
+          "letra": "B",
+          "texto": "Iniciar antibiótico de amplio espectro de y remitir para debridamiento quirúrgico"
+        },
+        {
+          "letra": "C",
+          "texto": "Remitir para realización de laparotomía urgente"
+        },
+        {
+          "letra": "D",
+          "texto": "Antibiótico ambulatorio"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Urología",
+      "tema": "Gangrena de Fournier",
+      "dificultad": "alta",
+      "subtema": "Manejo"
+    },
+    {
+      "enunciado": "Paciente obeso con dolor epigástrico en banda hacia la espalda de 6 días de evolución, con vómito alimentario. ¿Cuál es el examen inicial que se debería solicitar?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Amilasa"
+        },
+        {
+          "letra": "B",
+          "texto": "Lipasa"
+        },
+        {
+          "letra": "C",
+          "texto": "TAC de abdomen"
+        },
+        {
+          "letra": "D",
+          "texto": "Colangiorresonancia"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Gastroenterología",
+      "tema": "Pancreatitis aguda",
+      "dificultad": "baja",
+      "subtema": "Estudio inicial"
+    },
+    {
+      "enunciado": "Recién nacido a término por cesárea, hijo de madre con VIH que recibió TAR toda la gestación pero con carga viral de 600 copias 4 semanas antes del parto. ¿Cómo será la profilaxis del neonato y el seguimiento?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Zidovudina por 4 semanas"
+        },
+        {
+          "letra": "B",
+          "texto": "Zidovudina + lamivudina+ nevirapina por 4 semanas, carga viral a las 72 horas de vida y repetir en 4 semanas"
+        },
+        {
+          "letra": "C",
+          "texto": "Zidovudina + lamivudina+ nevirapina por 4 semanas, hacer carga viral a las 4 semanas"
+        },
+        {
+          "letra": "D",
+          "texto": "Zidovudina + lamivudina+ nevirapina por 6 semanas, carga viral a las 72 horas de vida y repetir en 8 semanas"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Neonatología",
+      "tema": "Profilaxis de transmisión vertical VIH",
+      "dificultad": "alta",
+      "subtema": "Manejo del neonato de alto riesgo"
+    },
+    {
+      "enunciado": "Joven de 26 años con politraumatismo, tras 1500 cc de cristaloides sigue hipotenso (TA 70/35) y bradicárdico (FC 50), piel caliente, ecofast negativo, murmullo normal y gasto urinario normal. ¿Cuál es el siguiente paso?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Norepinefrina"
+        },
+        {
+          "letra": "B",
+          "texto": "Levosimendan"
+        },
+        {
+          "letra": "C",
+          "texto": "Transfusión de hemoderivado O-"
+        },
+        {
+          "letra": "D",
+          "texto": "Bolo 2000"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cirugía General",
+      "tema": "Shock neurogénico en politrauma",
+      "dificultad": "alta",
+      "subtema": "Manejo vasopresor"
+    },
+    {
+      "enunciado": "Adulto mayor con dolor en interfalángicas proximales y distales de ambas manos, gelificación matutina menor a 15 minutos y nódulos de Heberden. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Artritis reumatoidea"
+        },
+        {
+          "letra": "B",
+          "texto": "Osteoartritis nodal"
+        },
+        {
+          "letra": "C",
+          "texto": "Histocitosis"
+        },
+        {
+          "letra": "D",
+          "texto": "Artritis psoriatica"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Reumatología",
+      "tema": "Osteoartritis nodal",
+      "dificultad": "baja",
+      "subtema": "Diagnóstico"
+    },
+    {
+      "enunciado": "Paciente de 10 años con obesidad, ve televisión 6 horas al día y no hace ejercicio; padre con obesidad e HTA. ¿Cuánto tiempo de ejercicio diario se recomienda?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "30 min/ día"
+        },
+        {
+          "letra": "B",
+          "texto": "40 min/ día"
+        },
+        {
+          "letra": "C",
+          "texto": "50 min/día"
+        },
+        {
+          "letra": "D",
+          "texto": "60 min/día"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Pediatría",
+      "tema": "Obesidad infantil",
+      "dificultad": "baja",
+      "subtema": "Recomendación de actividad física"
+    },
+    {
+      "enunciado": "Paciente de 3 meses con diarrea acuosa (13 en 24 horas) y un episodio emético, peso 4.5 kg, P/T -3 DE, glucometría 60, alerta, sin signos de hipoperfusión y llenado capilar normal. ¿Cuál es el manejo inicial?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "SRO 75 + potasio 10 cc administrar 45cc cada hora por 12 horas"
+        },
+        {
+          "letra": "B",
+          "texto": "SRO 75 + potasio 10cc administrar 85 cc cada hora por 4 horas"
+        },
+        {
+          "letra": "C",
+          "texto": "Dad 5% + katrol 10 + natrol 20 a 20 cc/h"
+        },
+        {
+          "letra": "D",
+          "texto": "Bolo de 20 cc de DAD al 10% + lactato a 30 mg/kg"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Pediatría",
+      "tema": "Enfermedad diarreica aguda con deshidratación",
+      "dificultad": "media",
+      "subtema": "Rehidratación oral"
+    },
+    {
+      "enunciado": "Pediátrico de 2 años con síndrome broncoobstructivo en tratamiento con beclometasona, que sin supervisión presenta episodio súbito de tos seca, cianosis peribucal y retracciones que ceden solas; radiografía con atrapamiento de aire bilateral y paciente asintomático. ¿Cuál es la conducta a seguir?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Broncoscopia"
+        },
+        {
+          "letra": "B",
+          "texto": "beclometasona aumentar a 250mcg"
+        },
+        {
+          "letra": "C",
+          "texto": "Cambiar esquema de rescate"
+        },
+        {
+          "letra": "D",
+          "texto": "Dar de alta e indicar signos de alarma"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Pediatría",
+      "tema": "Aspiración de cuerpo extraño",
+      "dificultad": "media",
+      "subtema": "Broncoscopia"
+    },
+    {
+      "enunciado": "Paciente con TEC, Glasgow 13/15, midriasis unilateral izquierda con edema y equimosis palpebral izquierda y laceración frontal izquierda, resto del examen normal. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Trauma del III par"
+        },
+        {
+          "letra": "B",
+          "texto": "Hernia uncus"
+        },
+        {
+          "letra": "C",
+          "texto": "Hernia transtentorial"
+        },
+        {
+          "letra": "D",
+          "texto": "hernia subfalcina"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neurología",
+      "tema": "Trauma del III par craneal",
+      "dificultad": "media",
+      "subtema": "Diagnóstico en TEC"
+    },
+    {
+      "enunciado": "Niño de 14 años asintomático en valoración de agudeza visual: un ojo 20/20 y el otro 20/60 que no mejora con agujero estenopeico, con resto del examen oftalmológico normal. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Ambliopía"
+        },
+        {
+          "letra": "B",
+          "texto": "Glaucoma cronico"
+        },
+        {
+          "letra": "C",
+          "texto": "defecto refractario"
+        },
+        {
+          "letra": "D",
+          "texto": "Neuritis óptica"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Oftalmología",
+      "tema": "Ambliopía",
+      "dificultad": "baja",
+      "subtema": "Diagnóstico"
+    },
+    {
+      "enunciado": "Niño con IRA superior y fiebre, eritema orofaríngeo con exudados amigdalinos, petequias en paladar blando, adenopatías cervicales posteriores y hepatoesplenomegalia, que tras recibir amoxicilina desarrolla rash cutáneo generalizado. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Mononucleosis"
+        },
+        {
+          "letra": "B",
+          "texto": "Faringitis por S."
+        },
+        {
+          "letra": "C",
+          "texto": "angina por streptococo"
+        },
+        {
+          "letra": "D",
+          "texto": "mano pie boca"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Infectología",
+      "tema": "Mononucleosis infecciosa",
+      "dificultad": "media",
+      "subtema": "Diagnóstico"
+    },
+    {
+      "enunciado": "Paciente con luxación recurrente de hombro (primer episodio a los 17 años), que llega con brazo caído y signo de la charretera tras caída en bicicleta, no valorado por ortopedia. ¿Cuál sería la conducta a seguir?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "inmovilizar y remitir"
+        },
+        {
+          "letra": "B",
+          "texto": "Remisión urgente a ortopedia"
+        },
+        {
+          "letra": "C",
+          "texto": "Reduccion cerrada bajo sedacion, radiografia posterior a reducción, inmovilizar con cabestrillo y remitir ortopedia"
+        },
+        {
+          "letra": "D",
+          "texto": "Sedacion inducida, maniobras de reduccion, radiografias de control, cita de control en 3 semanas"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Traumatología y Ortopedia",
+      "tema": "Luxación de hombro",
+      "dificultad": "media",
+      "subtema": "Reducción cerrada"
+    },
+    {
+      "enunciado": "Gestante a 39 semanas en trabajo de parto, 8 cm de dilatación, con monitoreo fetal que muestra variabilidad disminuida y desaceleraciones variables recurrentes. ¿Cuál sería la conducta a seguir?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "maniobras de Reanimación in útero y reevaluar"
+        },
+        {
+          "letra": "B",
+          "texto": "Realizar Cesárea urgente"
+        },
+        {
+          "letra": "C",
+          "texto": "Llevar a sala de partos, dilatación manual y extracción del bebé con forceps"
+        },
+        {
+          "letra": "D",
+          "texto": "Realizar Perfil biofisico"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Monitoreo fetal intraparto",
+      "dificultad": "media",
+      "subtema": "Reanimación intrauterina"
+    },
+    {
+      "enunciado": "Paciente con forúnculo en la axila con secreción purulenta, sin fiebre ni signos inflamatorios sistémicos, primera vez que ocurre. ¿Cuál es el manejo?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "No drenar y oxacilina IV"
+        },
+        {
+          "letra": "B",
+          "texto": "Drenaje y vancomicina IV"
+        },
+        {
+          "letra": "C",
+          "texto": "solo vancomicina"
+        },
+        {
+          "letra": "D",
+          "texto": "solo drenaje sin antibioticos"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Cirugía General",
+      "tema": "Absceso cutáneo / forúnculo",
+      "dificultad": "baja",
+      "subtema": "Drenaje"
+    },
+    {
+      "enunciado": "Femenina de 40 años con 3 meses de proptosis unilateral derecha, lagrimeo, retracción palpebral, engrosamiento e hiperemia en la inserción de los rectos horizontales y diplopía con la mirada a la derecha. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Oftalmopatia distiroidea"
+        },
+        {
+          "letra": "B",
+          "texto": "Hemangioma capilar retro orbitario"
+        },
+        {
+          "letra": "C",
+          "texto": "Tumor de la glándula lagrimal"
+        },
+        {
+          "letra": "D",
+          "texto": "Orbitopatia inflamatoria idiopática"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Oftalmología",
+      "tema": "Orbitopatía tiroidea",
+      "dificultad": "media",
+      "subtema": "Diagnóstico"
+    },
+    {
+      "enunciado": "Masculino de 80 años en postoperatorio de laparotomía por herida por arma cortopunzante, con dolor abdominal, ausencia de deposiciones, vómito que se vuelve fecaloide, sin irritación peritoneal; TAC con engrosamiento de asas, neumatosis en colon y líquido libre. ¿Cuál sería la conducta a seguir?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "analgesia, lev, sng, y cirugía"
+        },
+        {
+          "letra": "B",
+          "texto": "reanimación hidrica, SNG, analgesia y manejo AB"
+        },
+        {
+          "letra": "C",
+          "texto": "radiografía con bario de control en 6 hrs"
+        },
+        {
+          "letra": "D",
+          "texto": "Nada vía oral, sonda nasogastrica y analgesia"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cirugía General",
+      "tema": "Obstrucción intestinal con isquemia",
+      "dificultad": "alta",
+      "subtema": "Manejo quirúrgico"
+    },
+    {
+      "enunciado": "Femenina que refiere no poder 'quedarse quieta' asociado a temblores en extremidades; antecedente de esquizofrenia tratada con risperidona 3 mg y ácido valproico 600 mg cada 12 h. ¿Cuál es la conducta a seguir?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Dar biperideno"
+        },
+        {
+          "letra": "B",
+          "texto": "Disminuir dosis de risperdiona"
+        },
+        {
+          "letra": "C",
+          "texto": "Quitar ac valproico"
+        },
+        {
+          "letra": "D",
+          "texto": "Disminuir dosis de ácido valproico."
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Psiquiatría",
+      "tema": "Acatisia por antipsicóticos",
+      "dificultad": "media",
+      "subtema": "Manejo"
+    },
+    {
+      "enunciado": "Masculino de 65 años con EPOC, sin hospitalizaciones en 5 años, con disnea al caminar cortas distancias y 200 eosinófilos en sangre periférica. ¿Cuál es el manejo adecuado?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "LAMA + Roflumilast"
+        },
+        {
+          "letra": "B",
+          "texto": "LAMA + Corticoides inhalados"
+        },
+        {
+          "letra": "C",
+          "texto": "LABA + LAMA"
+        },
+        {
+          "letra": "D",
+          "texto": "LAMA + LABA + Corticoide inhalado"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Neumología",
+      "tema": "EPOC",
+      "dificultad": "media",
+      "subtema": "Manejo broncodilatador"
+    },
+    {
+      "enunciado": "Niño de 30 meses llevado por deformidad en miembros inferiores compatible con genu varo de 5 cm, progresión negativa de la marcha, ángulo muslo-pie -10 grados y test de Adams negativo. ¿Qué hace?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Tranquilizar a los padres y explicar que la condición es normal para la edad."
+        },
+        {
+          "letra": "B",
+          "texto": "Rx de pelvis"
+        },
+        {
+          "letra": "C",
+          "texto": "Rx de rodillas con apoyo"
+        },
+        {
+          "letra": "D",
+          "texto": "Hacer seguimiento clínico en 4 meses"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Traumatología y Ortopedia",
+      "tema": "Genu varo / enfermedad de Blount",
+      "dificultad": "media",
+      "subtema": "Estudio radiográfico"
+    },
+    {
+      "enunciado": "Paciente con dolor en marco cólico izquierdo y distensión abdominal, sin antecedentes relevantes y signos vitales normales; ecografía con 3 pólipos vesiculares, el mayor de 7 mm (3, 4 y 6 mm). ¿Cuál es el manejo indicado?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Colecistectomia laparoscopica"
+        },
+        {
+          "letra": "B",
+          "texto": "no requiere ninguna manejo"
+        },
+        {
+          "letra": "C",
+          "texto": "seguimiento con ecografia en 6 meses"
+        },
+        {
+          "letra": "D",
+          "texto": "Resonancia"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Cirugía General",
+      "tema": "Pólipos vesiculares",
+      "dificultad": "baja",
+      "subtema": "Seguimiento"
+    }
+  ]
+}

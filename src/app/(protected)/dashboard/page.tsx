@@ -11,6 +11,7 @@ const EXAM_TYPES = [
   { id: 'ubosque', label: 'UNIV. BOSQUE',    pais: 'COLOMBIA', bg: C.cream2,  color: C.ink   },
   { id: 'urosario',label: 'UNIV. ROSARIO',   pais: 'COLOMBIA', bg: C.orange,  color: C.cream },
   { id: 'uces',    label: 'UNIV. CES',       pais: 'COLOMBIA', bg: '#2E4057', color: C.cream },
+  { id: 'udea',    label: 'UNIV. ANTIOQUIA', pais: 'COLOMBIA', bg: C.greenDark, color: C.cream },
   { id: 'mir',     label: 'EXAMEN MIR',      pais: 'ESPAÑA',   bg: C.ink,     color: C.cream },
   { id: 'enarm',   label: 'EXAMEN ENARM',    pais: 'MÉXICO',   bg: C.pink,    color: C.ink   },
 ] as const
@@ -107,6 +108,7 @@ export default function DashboardPage() {
           'El Bosque': { bg: C.cream2,   color: C.ink,   label: 'UNIV. BOSQUE'   },
           'Rosario':   { bg: C.orange,   color: C.cream, label: 'UNIV. ROSARIO'  },
           'CES':       { bg: '#2E4057', color: C.cream, label: 'UNIV. CES'      },
+          'UdeA':      { bg: C.greenDark, color: C.cream, label: 'UNIV. ANTIOQUIA' },
         }
         const sorted = [...universidades].sort((a, b) => b.porcentaje - a.porcentaje)
         const best = sorted[0]
