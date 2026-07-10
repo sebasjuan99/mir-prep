@@ -6,6 +6,7 @@ import { usePathname } from 'next/navigation'
 import { useAuth } from '@/hooks/useAuth'
 import { useState } from 'react'
 import { C, mono, inkBorder } from '@/lib/cm'
+import { useReviveEmbed } from '@/lib/revive'
 
 interface NavBarProps {
   userEmail: string
@@ -23,6 +24,11 @@ export default function NavBar({ userEmail }: NavBarProps) {
   const pathname = usePathname()
   const { signOut } = useAuth()
   const [menuOpen, setMenuOpen] = useState(false)
+  // Los usuarios que vienen embebidos desde Revive gestionan su cuenta en Revive,
+  // no en nuestra plataforma → les ocultamos "MI CUENTA". Los usuarios directos
+  // no corren dentro de un iframe, así que ven el menú completo sin cambios.
+  const isReviveEmbed = useReviveEmbed()
+  const visibleLinks = isReviveEmbed ? links.filter(l => l.href !== '/cuenta') : links
 
   return (
     <nav style={{ background: C.cream, borderBottom: inkBorder, position: 'sticky', top: 0, zIndex: 50 }}>
@@ -38,7 +44,7 @@ export default function NavBar({ userEmail }: NavBarProps) {
 
             {/* Desktop nav links */}
             <div style={{ gap: 0 }} className="hidden md:flex">
-              {links.map(link => {
+              {visibleLinks.map(link => {
                 const active = pathname.startsWith(link.href)
                 return (
                   <Link
@@ -104,7 +110,7 @@ export default function NavBar({ userEmail }: NavBarProps) {
         {/* Mobile menu */}
         {menuOpen && (
           <div style={{ borderTop: inkBorder, paddingBottom: 20 }} className="md:hidden">
-            {links.map(link => {
+            {visibleLinks.map(link => {
               const active = pathname.startsWith(link.href)
               return (
                 <Link

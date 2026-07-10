@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect } from 'react'
-import { useRouter } from 'next/navigation'
+import { useRouter, usePathname } from 'next/navigation'
 import { createClient } from '@/lib/supabase/client'
 
 // Orígenes autorizados a iniciar sesión por SSO dentro del iframe.
@@ -38,10 +38,16 @@ function getParentOrigin(): string | null {
  */
 export default function ReviveSSO() {
   const router = useRouter()
+  const pathname = usePathname()
 
   useEffect(() => {
     // Solo actuar dentro de un iframe.
     if (window.self === window.top) return
+
+    // En /acceso-revive el login lo gestiona esa página (con botón + Storage
+    // Access API). Este handshake automático NO debe correr ahí, o consumiría
+    // el token SSO (jti de un solo uso) y el canje de la página fallaría (409).
+    if (pathname === '/acceso-revive') return
 
     const supabase = createClient()
 
@@ -120,7 +126,7 @@ export default function ReviveSSO() {
       window.removeEventListener('message', onMessage)
       clearInterval(readyInterval)
     }
-  }, [router])
+  }, [router, pathname])
 
   return null
 }
