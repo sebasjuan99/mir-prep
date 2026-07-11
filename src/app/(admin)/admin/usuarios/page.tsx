@@ -45,6 +45,24 @@ export default function UsuariosAdmin() {
   const [updating, setUpdating] = useState<string | null>(null)
   const [creando, setCreando] = useState(false)
   const [gestion, setGestion] = useState<Usuario | null>(null)
+  const [reparando, setReparando] = useState(false)
+  const [reparaMsg, setReparaMsg] = useState('')
+
+  const repararSuscripciones = async () => {
+    setReparando(true)
+    setReparaMsg('')
+    try {
+      const res = await fetch('/api/admin/suscripcion/backfill', { method: 'POST' })
+      const d = await res.json()
+      if (!res.ok) throw new Error(d.error || 'Error al reparar')
+      setReparaMsg(`Listo: ${d.enlazados} de ${d.revisados} suscripciones enlazadas con Mercado Pago.`)
+      fetchUsuarios()
+    } catch (e) {
+      setReparaMsg(e instanceof Error ? e.message : 'Error al reparar')
+    } finally {
+      setReparando(false)
+    }
+  }
 
   const fetchUsuarios = useCallback(() => {
     setLoading(true)
@@ -82,11 +100,21 @@ export default function UsuariosAdmin() {
     <div className="space-y-6">
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
         <h1 className="text-2xl font-bold font-[var(--font-display)]" style={{ color: 'var(--text-primary)' }}>Usuarios</h1>
-        <button onClick={() => setCreando(true)} className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-semibold text-white" style={{ background: 'var(--accent)' }}>
-          <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M12 4v16m8-8H4" /></svg>
-          Nuevo usuario
-        </button>
+        <div className="flex items-center gap-2">
+          <button onClick={repararSuscripciones} disabled={reparando} title="Enlaza con Mercado Pago las suscripciones activas que quedaron sin id, para que el botón de cancelar funcione." className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-semibold disabled:opacity-50" style={{ background: 'var(--bg-secondary)', color: 'var(--accent-dark)', border: '1px solid var(--border)' }}>
+            <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" /></svg>
+            {reparando ? 'Reparando...' : 'Reparar suscripciones'}
+          </button>
+          <button onClick={() => setCreando(true)} className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-semibold text-white" style={{ background: 'var(--accent)' }}>
+            <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M12 4v16m8-8H4" /></svg>
+            Nuevo usuario
+          </button>
+        </div>
       </div>
+
+      {reparaMsg && (
+        <div className="p-3 rounded-xl text-sm font-medium" style={{ background: 'var(--bg-secondary)', color: 'var(--text-primary)' }}>{reparaMsg}</div>
+      )}
 
       <form onSubmit={(e) => { e.preventDefault(); setPage(1) }} className="flex gap-3">
         <input type="text" placeholder="Buscar por email..." value={search} onChange={(e) => setSearch(e.target.value)} className="flex-1 px-4 py-2.5 rounded-xl text-sm" style={inputStyle} />
