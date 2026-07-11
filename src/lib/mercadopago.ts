@@ -51,6 +51,38 @@ export async function obtenerSuscripcion(suscripcionId: string) {
   }>
 }
 
+// Busca preapprovals (suscripciones) en Mercado Pago por external_reference
+// (nuestro user id) y/o por el email del pagador. Es el mecanismo de rescate
+// cuando NO tenemos guardado el mpSuscripcionId (p. ej. si el enlace por
+// back_url falló durante la prueba gratis): así podemos encontrar y cancelar
+// la suscripción igual.
+export async function buscarSuscripciones(filtros: { externalReference?: string; payerEmail?: string }) {
+  const params = new URLSearchParams()
+  if (filtros.externalReference) params.set('external_reference', filtros.externalReference)
+  if (filtros.payerEmail) params.set('payer_email', filtros.payerEmail)
+  params.set('limit', '50')
+
+  const res = await fetch(`${MP_API}/preapproval/search?${params.toString()}`, {
+    headers: headers(),
+  })
+
+  if (!res.ok) {
+    const err = await res.text()
+    throw new Error(`MP search preapproval failed: ${res.status} ${err}`)
+  }
+
+  const data = (await res.json()) as {
+    results?: Array<{
+      id: string
+      status: string
+      payer_email?: string
+      external_reference?: string
+      next_payment_date?: string
+    }>
+  }
+  return data.results ?? []
+}
+
 export async function cancelarSuscripcion(suscripcionId: string) {
   const res = await fetch(`${MP_API}/preapproval/${suscripcionId}`, {
     method: 'PUT',
