@@ -143,15 +143,15 @@ export default function ResultadoSimulacro({
 
       {/* Wrong answers */}
       {errores.length > 0 && (
-        <div style={{ border: inkBorder }}>
-          <div style={{ ...mono, fontSize: 10, letterSpacing: '0.12em', padding: '11px 16px', background: C.ink, color: C.cream }}>
+        <div style={{ ...card, overflow: 'hidden' }}>
+          <div style={{ ...mono, fontSize: 10, letterSpacing: '0.12em', padding: '13px 16px', background: C.dangerSoft, color: C.danger, borderBottom: inkBorder }}>
             PREGUNTAS FALLADAS — {errores.length}
           </div>
           {errores.map((e, i) => (
             <div
               key={i}
               style={{
-                padding: '11px 16px', borderTop: `3px solid ${C.ink}`, background: C.cream,
+                padding: '11px 16px', borderTop: i === 0 ? 'none' : inkBorder, background: C.card,
                 display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start',
                 flexWrap: 'wrap', gap: 6,
               }}
@@ -179,12 +179,12 @@ export default function ResultadoSimulacro({
         <button
           onClick={onNuevoSimulacro}
           style={{
-            ...mono, fontSize: 11, letterSpacing: '0.08em', flex: 1, minWidth: 160,
-            padding: '14px 20px', background: C.ink, color: C.cream,
-            border: inkBorder, cursor: 'pointer',
+            ...bodyFont, fontSize: 14, fontWeight: 600, flex: 1, minWidth: 160,
+            padding: '15px 20px', background: G.brandVivid, color: '#FFFFFF',
+            border: '1px solid transparent', borderRadius: R.sm, boxShadow: S.brand, cursor: 'pointer',
           }}
         >
-          NUEVO SIMULACRO
+          Nuevo simulacro
         </button>
         {errores.length > 0 && (
           <button

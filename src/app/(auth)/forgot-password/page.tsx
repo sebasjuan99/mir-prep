@@ -47,11 +47,11 @@ export default function ForgotPasswordPage() {
     return (
       <div style={{ ...bodyFont, background: G.brandVivid, minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', position: 'relative', overflow: 'hidden' }}>
         <div style={{ textAlign: 'center', padding: '80px 40px', position: 'relative', zIndex: 2 }}>
-          <div style={{ ...kicker(C.cream, C.ink), marginBottom: 32 }}>CORREO ENVIADO</div>
+          <div style={{ ...kicker('rgba(255,255,255,0.16)', '#FFFFFF'), marginBottom: 32 }}>CORREO ENVIADO</div>
           <h2 style={{ ...disp, fontSize: 'clamp(3rem, 7vw, 5.5rem)', color: '#FFFFFF', margin: 0, marginBottom: 32 }}>
-            REVISA TU<br />CORREO.
+            Revisa tu correo.
           </h2>
-          <p style={{ ...bodyFont, fontSize: 18, color: C.cream, opacity: 0.85, maxWidth: 460, margin: '0 auto 48px' }}>
+          <p style={{ ...bodyFont, fontSize: 18, color: 'rgba(255,255,255,0.85)', maxWidth: 460, margin: '0 auto 48px' }}>
             Si ese email tiene cuenta, recibirás un enlace para restablecer tu contraseña.
           </p>
           <Link href="/login" style={{ ...bodyFont, fontSize: 15, fontWeight: 600, borderRadius: 8, background: '#FFFFFF', color: C.purpleDeep, padding: '14px 32px', textDecoration: 'none' }}>
@@ -71,7 +71,7 @@ export default function ForgotPasswordPage() {
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
           <Link href="/" style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: 10, textDecoration: 'none' }}>
             <Image src="/revive-icon-blanco.png" alt="Revive" width={88} height={88} style={{ objectFit: 'contain' }} />
-            <span style={{ ...mono, fontSize: 13, letterSpacing: '0.14em', color: '#FFFFFF' }}>Próximo Residente</span>
+            <span style={{ ...bodyFont, fontWeight: 500, fontSize: 15, color: '#FFFFFF' }}>Próximo Residente</span>
           </Link>
           <span style={{ ...mono, fontSize: 11, letterSpacing: '0.08em', border: '1px solid rgba(255,255,255,0.45)', borderRadius: 999, padding: '4px 10px', color: '#FFFFFF' }}>RECUPERAR</span>
         </div>
@@ -79,7 +79,7 @@ export default function ForgotPasswordPage() {
         <div>
           <div style={{ ...kicker('rgba(255,255,255,0.16)', '#FFFFFF'), marginBottom: 28 }}>ACCESO PERDIDO</div>
           <h2 style={{ ...disp, fontSize: 'clamp(2.5rem, 4.5vw, 4.5rem)', color: '#FFFFFF', margin: 0, marginBottom: 24 }}>
-            RECUPERA TU<br />CONTRASEÑA.
+            Recupera tu contraseña.
           </h2>
           <p style={{ ...bodyFont, fontSize: 17, color: 'rgba(255,255,255,0.82)', maxWidth: 340, lineHeight: 1.65 }}>
             Introduce tu email y te enviaremos un enlace para restablecer tu contraseña.
@@ -122,15 +122,17 @@ export default function ForgotPasswordPage() {
               style={{
                 ...disp,
                 fontSize: 15,
-                background: loading ? C.ink2 : C.ink,
-                color: C.cream,
-                border: inkBorder,
+                background: G.brandVivid,
+                color: '#FFFFFF',
+                border: '1px solid transparent',
+                borderRadius: R.sm,
+                boxShadow: S.brand,
                 padding: '16px 24px',
                 cursor: loading ? 'not-allowed' : 'pointer',
-                opacity: loading ? 0.6 : 1,
+                opacity: loading ? 0.5 : 1,
               }}
             >
-              {loading ? 'ENVIANDO...' : 'ENVIAR ENLACE →'}
+              {loading ? 'Enviando...' : 'Enviar enlace →'}
             </button>
           </form>
         </div>

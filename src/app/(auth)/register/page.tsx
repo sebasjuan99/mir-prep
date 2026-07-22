@@ -117,11 +117,11 @@ export default function RegisterPage() {
     return (
       <div style={{ ...bodyFont, background: G.brandVivid, minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', position: 'relative', overflow: 'hidden' }}>
         <div style={{ textAlign: 'center', padding: '64px 40px', position: 'relative', zIndex: 2, width: '100%', maxWidth: 460 }}>
-          <div style={{ ...kicker(C.cream, C.ink), marginBottom: 28 }}>CONFIRMA TU CUENTA</div>
+          <div style={{ ...kicker('rgba(255,255,255,0.16)', '#FFFFFF'), marginBottom: 28 }}>CONFIRMA TU CUENTA</div>
           <h2 style={{ ...disp, fontSize: 'clamp(2.5rem, 7vw, 4.2rem)', color: '#FFFFFF', margin: 0, marginBottom: 20 }}>
-            REVISA TU<br />CORREO.
+            Revisa tu correo.
           </h2>
-          <p style={{ ...bodyFont, fontSize: 16, color: C.cream, opacity: 0.85, margin: '0 auto 32px', lineHeight: 1.55 }}>
+          <p style={{ ...bodyFont, fontSize: 16, color: 'rgba(255,255,255,0.85)', margin: '0 auto 32px', lineHeight: 1.55 }}>
             Te enviamos un <b>código de confirmación</b> a<br /><b>{email}</b>. Escríbelo aquí para activar tu cuenta.
           </p>
 
@@ -169,7 +169,7 @@ export default function RegisterPage() {
             </button>
           </form>
 
-          <div style={{ ...mono, fontSize: 11, letterSpacing: '0.06em', color: C.cream, opacity: 0.85, marginTop: 24 }}>
+          <div style={{ ...mono, fontSize: 11, letterSpacing: '0.06em', color: 'rgba(255,255,255,0.85)', marginTop: 24 }}>
             ¿No te llegó?{' '}
             <button
               onClick={handleResend}
@@ -193,7 +193,7 @@ export default function RegisterPage() {
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
           <Link href="/" style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: 10, textDecoration: 'none' }}>
             <Image src="/revive-icon-blanco.png" alt="Revive" width={88} height={88} style={{ objectFit: 'contain' }} />
-            <span style={{ ...mono, fontSize: 13, letterSpacing: '0.14em', color: '#FFFFFF' }}>Próximo Residente</span>
+            <span style={{ ...bodyFont, fontWeight: 500, fontSize: 15, color: '#FFFFFF' }}>Próximo Residente</span>
           </Link>
           <span style={{ ...mono, fontSize: 11, letterSpacing: '0.08em', border: '1px solid rgba(255,255,255,0.45)', borderRadius: 999, padding: '4px 10px', color: '#FFFFFF' }}>REGISTRO</span>
         </div>
@@ -201,7 +201,7 @@ export default function RegisterPage() {
         <div>
           <div style={{ ...kicker('rgba(255,255,255,0.16)', '#FFFFFF'), marginBottom: 28 }}>NUEVO RESIDENTE</div>
           <h2 style={{ ...disp, fontSize: 'clamp(2.5rem, 4.5vw, 4.5rem)', color: '#FFFFFF', margin: 0, marginBottom: 24 }}>
-            CREA TU<br />CUENTA.
+            Crea tu cuenta.
           </h2>
           <p style={{ ...bodyFont, fontSize: 17, color: 'rgba(255,255,255,0.82)', maxWidth: 340, lineHeight: 1.65 }}>
             Prepara el MIR con preguntas reales, fichas de estudio y seguimiento de tu progreso por especialidad.
@@ -264,15 +264,17 @@ export default function RegisterPage() {
               style={{
                 ...disp,
                 fontSize: 15,
-                background: loading || !turnstileToken ? C.ink2 : C.ink,
-                color: C.cream,
-                border: inkBorder,
+                background: G.brandVivid,
+                color: '#FFFFFF',
+                border: '1px solid transparent',
+                borderRadius: R.sm,
+                boxShadow: S.brand,
                 padding: '16px 24px',
                 cursor: loading || !turnstileToken ? 'not-allowed' : 'pointer',
-                opacity: loading || !turnstileToken ? 0.6 : 1,
+                opacity: loading || !turnstileToken ? 0.5 : 1,
               }}
             >
-              {loading ? 'CREANDO...' : 'CREAR CUENTA →'}
+              {loading ? 'Creando...' : 'Crear cuenta →'}
             </button>
           </form>
 

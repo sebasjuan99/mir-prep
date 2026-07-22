@@ -31,7 +31,7 @@ export default function AdminSidebar() {
       <button
         onClick={() => setOpen(!open)}
         className="md:hidden fixed top-4 left-4 z-50 p-2 rounded-lg"
-        style={{ background: '#2A2A26', color: '#F5F0E8' }}
+        style={{ background: '#2F1F4D', color: '#F3EEF8' }}
       >
         <svg width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
           {open ? (
