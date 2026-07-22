@@ -1,4 +1,4 @@
-import { C, disp, mono, bodyFont, kicker, inkBorder } from '@/lib/cm'
+import { C, R, S, disp, mono, bodyFont, kicker, inkBorder } from '@/lib/cm'
 import Reveal from './Reveal'
 import CtaButton from './CtaButton'
 import VideoSlot from './VideoSlot'
@@ -34,11 +34,10 @@ export default function HeroV2() {
                 overflowWrap: 'normal',
                 wordBreak: 'normal',
                 hyphens: 'none',
-                textTransform: 'none',
               }}
             >
               {headline.parts.map((p, i) => (
-                <span key={i} style={p.accent ? { color: C.pink } : undefined}>
+                <span key={i} style={p.accent ? { color: C.magenta } : undefined}>
                   {p.text}
                 </span>
               ))}
@@ -50,7 +49,7 @@ export default function HeroV2() {
               style={{
                 ...bodyFont,
                 fontSize: 'clamp(16px, 1.15vw, 20px)',
-                lineHeight: 1.55,
+                lineHeight: 1.65,
                 maxWidth: 540,
                 margin: 0,
                 marginBottom: 36,
@@ -82,20 +81,21 @@ export default function HeroV2() {
               style={{
                 ...mono,
                 fontSize: 10,
+                fontWeight: 500,
                 letterSpacing: '0.14em',
-                background: C.pink,
-                color: C.ink,
-                border: inkBorder,
-                padding: '4px 10px',
+                background: C.magenta,
+                color: '#FFFFFF',
+                borderRadius: R.pill,
+                padding: '5px 12px',
                 position: 'absolute',
-                top: -14,
-                left: -8,
+                top: 12,
+                left: 12,
                 zIndex: 2,
               }}
             >
               REEL
             </span>
-            <div style={{ boxShadow: `12px 12px 0 ${C.yellow}, 12px 12px 0 4px ${C.ink}` }}>
+            <div style={{ borderRadius: R.lg, overflow: 'hidden', boxShadow: S.lg }}>
               <VideoSlot
                 id="HERO"
                 aspectRatio="9 / 16"

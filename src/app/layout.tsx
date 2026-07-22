@@ -1,47 +1,33 @@
 import type { Metadata } from 'next'
-import { Playfair_Display, Source_Serif_4, DM_Sans, Archivo_Black, JetBrains_Mono, Space_Grotesk } from 'next/font/google'
+import { Roboto, Roboto_Condensed, Roboto_Mono } from 'next/font/google'
 import './globals.css'
 import ReviveSSO from '@/components/ReviveSSO'
 import { GoogleTagManagerScript, GoogleTagManagerNoScript } from '@/components/GoogleTagManager'
 import { GoogleAnalytics } from '@/components/GoogleAnalytics'
 import { MetaPixel, MetaPixelNoScript } from '@/components/MetaPixel'
 
-const playfair = Playfair_Display({
+// Las tres familias del manual de marca de Revive. Roboto Condensed para
+// titulares, Roboto para interfaz y lectura, Roboto Mono para datos y
+// etiquetas. Sustituyen a las seis familias anteriores: son de la misma
+// superfamilia, así que además bajan el peso de fuentes por visita.
+const robotoCondensed = Roboto_Condensed({
+  weight: ['400', '600', '700', '900'],
   subsets: ['latin'],
   variable: '--font-display',
   display: 'swap',
 })
 
-const sourceSerif = Source_Serif_4({
-  subsets: ['latin'],
-  variable: '--font-body',
-  display: 'swap',
-})
-
-const dmSans = DM_Sans({
+const roboto = Roboto({
+  weight: ['300', '400', '500', '700'],
   subsets: ['latin'],
   variable: '--font-ui',
   display: 'swap',
 })
 
-const archivoBlack = Archivo_Black({
-  weight: '400',
-  subsets: ['latin'],
-  variable: '--font-archivo',
-  display: 'swap',
-})
-
-const jetbrainsMono = JetBrains_Mono({
+const robotoMono = Roboto_Mono({
   weight: ['400', '500'],
   subsets: ['latin'],
-  variable: '--font-jetbrains',
-  display: 'swap',
-})
-
-const spaceGrotesk = Space_Grotesk({
-  weight: ['400', '500', '700'],
-  subsets: ['latin'],
-  variable: '--font-grotesk',
+  variable: '--font-mono',
   display: 'swap',
 })
 
@@ -73,13 +59,13 @@ export const metadata: Metadata = {
     siteName: 'Próximo Residente',
     title: 'Próximo Residente — Simulacros para el examen de residencia (MIR, ENARM)',
     description: SITE_DESCRIPTION,
-    images: [{ url: '/ape-logo-negro.png', width: 512, height: 512, alt: 'Próximo Residente' }],
+    images: [{ url: '/revive-icon-color.png', width: 512, height: 512, alt: 'Próximo Residente' }],
   },
   twitter: {
     card: 'summary',
     title: 'Próximo Residente — Simulacros para el examen de residencia (MIR, ENARM)',
     description: SITE_DESCRIPTION,
-    images: ['/ape-logo-negro.png'],
+    images: ['/revive-icon-color.png'],
   },
   robots: {
     index: true,
@@ -101,8 +87,8 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: '/ape-logo-negro.png',
-    apple: '/ape-logo-negro.png',
+    icon: '/revive-icon-color.png',
+    apple: '/revive-icon-color.png',
   },
 }
 
@@ -112,7 +98,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="es" className={`${playfair.variable} ${sourceSerif.variable} ${dmSans.variable} ${archivoBlack.variable} ${jetbrainsMono.variable} ${spaceGrotesk.variable}`}>
+    <html lang="es" className={`${robotoCondensed.variable} ${roboto.variable} ${robotoMono.variable}`}>
       <GoogleTagManagerScript />
       <GoogleAnalytics />
       <MetaPixel />

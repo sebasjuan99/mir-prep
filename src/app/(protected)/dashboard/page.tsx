@@ -4,16 +4,19 @@ import Link from 'next/link'
 import { useAuth } from '@/hooks/useAuth'
 import { useProgreso } from '@/hooks/useProgreso'
 import DashboardCharts from '@/components/DashboardCharts'
-import { C, disp, mono, bodyFont, kicker, inkBorder } from '@/lib/cm'
+import { C, G, R, S, disp, mono, bodyFont, kicker, inkBorder, card } from '@/lib/cm'
 
+// Cada examen se distingue por una franja superior en la escala morado →
+// magenta del manual, no por el fondo entero: los datos mandan, el color
+// solo identifica.
 const EXAM_TYPES = [
-  { id: 'unal',    label: 'UNIV. NACIONAL',  pais: 'COLOMBIA', bg: C.green,   color: C.cream },
-  { id: 'ubosque', label: 'UNIV. BOSQUE',    pais: 'COLOMBIA', bg: C.cream2,  color: C.ink   },
-  { id: 'urosario',label: 'UNIV. ROSARIO',   pais: 'COLOMBIA', bg: C.orange,  color: C.cream },
-  { id: 'uces',    label: 'UNIV. CES',       pais: 'COLOMBIA', bg: '#2E4057', color: C.cream },
-  { id: 'udea',    label: 'UNIV. ANTIOQUIA', pais: 'COLOMBIA', bg: C.greenDark, color: C.cream },
-  { id: 'mir',     label: 'EXAMEN MIR',      pais: 'ESPAÑA',   bg: C.ink,     color: C.cream },
-  { id: 'enarm',   label: 'EXAMEN ENARM',    pais: 'MÉXICO',   bg: C.pink,    color: C.ink   },
+  { id: 'unal',    label: 'Univ. Nacional',  pais: 'COLOMBIA', ac: '#71367F' },
+  { id: 'ubosque', label: 'Univ. Bosque',    pais: 'COLOMBIA', ac: '#C9376B' },
+  { id: 'urosario',label: 'Univ. Rosario',   pais: 'COLOMBIA', ac: '#663D88' },
+  { id: 'uces',    label: 'Univ. CES',       pais: 'COLOMBIA', ac: '#AF296D' },
+  { id: 'udea',    label: 'Univ. Antioquia', pais: 'COLOMBIA', ac: '#442C71' },
+  { id: 'mir',     label: 'Examen MIR',      pais: 'ESPAÑA',   ac: '#9B2461' },
+  { id: 'enarm',   label: 'Examen ENARM',    pais: 'MÉXICO',   ac: '#8D63A6' },
 ] as const
 
 export default function DashboardPage() {
@@ -23,10 +26,10 @@ export default function DashboardPage() {
   if (loading) {
     return (
       <div style={{ display: 'flex', flexDirection: 'column', gap: 24 }}>
-        <div style={{ height: 48, background: C.cream2, border: inkBorder, width: 280 }} />
-        <div className="grid-stats" style={{ gap: 0, border: inkBorder }}>
+        <div style={{ height: 48, background: C.cream2, borderRadius: R.md, width: 280 }} />
+        <div className="grid-stats" style={{ gap: 0, ...card, overflow: 'hidden' }}>
           {[0,1,2].map(i => (
-            <div key={i} style={{ height: 140, background: i === 0 ? C.green : i === 1 ? C.pink : C.orange, borderRight: i < 2 ? inkBorder : undefined }} className="skeleton" />
+            <div key={i} style={{ height: 140, background: C.cream2, borderRight: i < 2 ? inkBorder : undefined }} className="skeleton" />
           ))}
         </div>
       </div>
@@ -43,8 +46,8 @@ export default function DashboardPage() {
       {/* ─── HEADER ─────────────────────────────────────────────────────────── */}
       <div style={{ borderBottom: inkBorder, paddingBottom: 32, marginBottom: 48 }}>
         <div style={{ ...kicker(), marginBottom: 16 }}>PANEL DE CONTROL</div>
-        <h1 style={{ ...disp, fontSize: 'clamp(2rem, 4vw, 4.5rem)', margin: 0, marginBottom: 8 }}>
-          BIENVENIDO<br />DE VUELTA.
+        <h1 style={{ ...disp, fontSize: 'clamp(2rem, 4vw, 4rem)', margin: 0, marginBottom: 8 }}>
+          Bienvenido de vuelta.
         </h1>
         <p style={{ ...mono, fontSize: 11, letterSpacing: '0.08em', color: C.ink2, margin: 0 }}>
           {user?.email}
@@ -52,10 +55,10 @@ export default function DashboardPage() {
       </div>
 
       {/* ─── EXAM TYPES ─────────────────────────────────────────────────────── */}
-      <div style={{ border: inkBorder, marginBottom: 48 }}>
+      <div style={{ ...card, overflow: 'hidden', marginBottom: 48 }}>
         <div style={{ borderBottom: inkBorder, padding: '16px 24px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <div style={{ ...kicker() }}>ELIGE TU EXAMEN</div>
-          <span style={{ ...mono, fontSize: 10, color: C.ink2, letterSpacing: '0.08em' }}>6 EXÁMENES DISPONIBLES</span>
+          <span style={{ ...mono, fontSize: 10, color: C.ink2, letterSpacing: '0.08em' }}>7 EXÁMENES DISPONIBLES</span>
         </div>
         <div className="grid-exam-types">
           {EXAM_TYPES.map((exam, i) => (
@@ -64,58 +67,62 @@ export default function DashboardPage() {
               href={`/simulacro?examen=${exam.id}`}
               style={{
                 ...bodyFont,
+                position: 'relative',
                 display: 'flex',
                 flexDirection: 'column',
                 padding: '24px 20px',
-                background: exam.bg,
+                background: C.card,
                 borderRight: i < EXAM_TYPES.length - 1 ? inkBorder : undefined,
                 textDecoration: 'none',
-                color: exam.color,
+                color: C.ink,
                 gap: 10,
                 minHeight: 120,
               }}
             >
-              <div style={{ ...mono, fontSize: 9, letterSpacing: '0.14em', opacity: 0.65 }}>{exam.pais}</div>
-              <div style={{ ...disp, fontSize: 'clamp(0.85rem, 1.2vw, 1.3rem)', lineHeight: 0.95 }}>{exam.label}</div>
-              <div style={{ ...mono, fontSize: 9, letterSpacing: '0.1em', opacity: 0.55, marginTop: 'auto' }}>SIMULACRO →</div>
+              <span aria-hidden style={{ position: 'absolute', top: 0, left: 0, right: 0, height: 3, background: exam.ac }} />
+              <div style={{ ...mono, fontSize: 9, letterSpacing: '0.14em', color: C.ink2 }}>{exam.pais}</div>
+              <div style={{ ...disp, fontSize: 'clamp(0.9rem, 1.2vw, 1.25rem)' }}>{exam.label}</div>
+              <div style={{ ...mono, fontSize: 9, letterSpacing: '0.1em', color: exam.ac, marginTop: 'auto' }}>SIMULACRO →</div>
             </Link>
           ))}
         </div>
       </div>
 
       {/* ─── STAT CELLS ─────────────────────────────────────────────────────── */}
-      <div className="grid-stats" style={{ border: inkBorder, marginBottom: 48 }}>
-        <div style={{ background: C.green, color: C.cream, borderRight: inkBorder, padding: '36px 32px' }}>
-          <div style={{ ...disp, fontSize: 'clamp(2.5rem, 5vw, 6rem)', lineHeight: 0.88 }}>{porcentajeGlobal}%</div>
+      {/* Solo la métrica principal lleva el degradado de marca; las otras dos
+          bajan a tinte para no competir entre sí. */}
+      <div className="grid-stats" style={{ ...card, overflow: 'hidden', marginBottom: 48 }}>
+        <div style={{ background: G.brandVivid, color: '#FFFFFF', padding: '36px 32px' }}>
+          <div style={{ ...disp, fontSize: 'clamp(2.5rem, 5vw, 5rem)', lineHeight: 1 }}>{porcentajeGlobal}%</div>
           <div style={{ ...mono, fontSize: 12, letterSpacing: '0.08em', marginTop: 14 }}>ACIERTOS GLOBAL</div>
         </div>
-        <div style={{ background: C.pink, color: C.ink, borderRight: inkBorder, padding: '36px 32px' }}>
-          <div style={{ ...disp, fontSize: 'clamp(2.5rem, 5vw, 6rem)', lineHeight: 0.88 }}>{totalCorrectas}</div>
+        <div style={{ background: C.purpleSoft, color: C.purpleDeep, borderRight: inkBorder, borderLeft: inkBorder, padding: '36px 32px' }}>
+          <div style={{ ...disp, fontSize: 'clamp(2.5rem, 5vw, 5rem)', lineHeight: 1 }}>{totalCorrectas}</div>
           <div style={{ ...mono, fontSize: 12, letterSpacing: '0.08em', marginTop: 14 }}>RESPUESTAS CORRECTAS</div>
         </div>
-        <div style={{ background: C.orange, color: C.cream, padding: '36px 32px' }}>
-          <div style={{ ...disp, fontSize: 'clamp(2.5rem, 5vw, 6rem)', lineHeight: 0.88 }}>{totalRespondidas}</div>
+        <div style={{ background: C.pinkSoft, color: '#9B2461', padding: '36px 32px' }}>
+          <div style={{ ...disp, fontSize: 'clamp(2.5rem, 5vw, 5rem)', lineHeight: 1 }}>{totalRespondidas}</div>
           <div style={{ ...mono, fontSize: 12, letterSpacing: '0.08em', marginTop: 14 }}>PREGUNTAS RESPONDIDAS</div>
         </div>
       </div>
 
       {/* ─── RANKING POR TIPO DE EXAMEN ─────────────────────────────────── */}
       {universidades.length > 0 && (() => {
-        const univMap: Record<string, { bg: string; color: string; label: string }> = {
-          'MIR':       { bg: C.ink,      color: C.cream, label: 'EXAMEN MIR'     },
-          'ENARM':     { bg: C.pink,     color: C.ink,   label: 'EXAMEN ENARM'   },
-          'UNAL':      { bg: C.green,    color: C.cream, label: 'UNIV. NACIONAL' },
-          'El Bosque': { bg: C.cream2,   color: C.ink,   label: 'UNIV. BOSQUE'   },
-          'Rosario':   { bg: C.orange,   color: C.cream, label: 'UNIV. ROSARIO'  },
-          'CES':       { bg: '#2E4057', color: C.cream, label: 'UNIV. CES'      },
-          'UdeA':      { bg: C.greenDark, color: C.cream, label: 'UNIV. ANTIOQUIA' },
+        const univMap: Record<string, { ac: string; label: string }> = {
+          'MIR':       { ac: '#9B2461', label: 'EXAMEN MIR'      },
+          'ENARM':     { ac: '#8D63A6', label: 'EXAMEN ENARM'    },
+          'UNAL':      { ac: '#71367F', label: 'UNIV. NACIONAL'  },
+          'El Bosque': { ac: '#C9376B', label: 'UNIV. BOSQUE'    },
+          'Rosario':   { ac: '#663D88', label: 'UNIV. ROSARIO'   },
+          'CES':       { ac: '#AF296D', label: 'UNIV. CES'       },
+          'UdeA':      { ac: '#442C71', label: 'UNIV. ANTIOQUIA' },
         }
         const sorted = [...universidades].sort((a, b) => b.porcentaje - a.porcentaje)
         const best = sorted[0]
-        const bestStyle = univMap[best.universidad] || { bg: C.cream2, color: C.ink, label: best.universidad.toUpperCase() }
+        const bestStyle = univMap[best.universidad] || { ac: C.purple, label: best.universidad.toUpperCase() }
 
         return (
-          <div style={{ border: inkBorder, marginBottom: 48 }}>
+          <div style={{ ...card, overflow: 'hidden', marginBottom: 48 }}>
             <div style={{ borderBottom: inkBorder, padding: '16px 24px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
               <div style={{ ...kicker() }}>RANKING POR TIPO DE EXAMEN</div>
               <span style={{ ...mono, fontSize: 10, color: C.ink2, letterSpacing: '0.08em' }}>
@@ -126,8 +133,8 @@ export default function DashboardPage() {
             {/* Recommendation banner */}
             <div style={{
               padding: '20px 24px',
-              background: bestStyle.bg,
-              color: bestStyle.color,
+              background: G.brandVivid,
+              color: '#FFFFFF',
               borderBottom: inkBorder,
               display: 'flex',
               alignItems: 'center',
@@ -143,7 +150,7 @@ export default function DashboardPage() {
 
             {/* Ranked list */}
             {sorted.map((u, i) => {
-              const style = univMap[u.universidad] || { bg: C.cream2, color: C.ink, label: u.universidad.toUpperCase() }
+              const style = univMap[u.universidad] || { ac: C.purple, label: u.universidad.toUpperCase() }
               return (
                 <div
                   key={u.universidad}
@@ -157,10 +164,10 @@ export default function DashboardPage() {
                 >
                   <div style={{
                     ...disp,
-                    fontSize: 28,
+                    fontSize: 26,
                     width: 40,
                     textAlign: 'center',
-                    color: i === 0 ? C.green : C.ink2,
+                    color: i === 0 ? C.purple : C.ink2,
                     flexShrink: 0,
                   }}>
                     {i + 1}
@@ -169,8 +176,7 @@ export default function DashboardPage() {
                     width: 10,
                     height: 10,
                     borderRadius: '50%',
-                    background: style.bg,
-                    border: `2px solid ${C.ink}`,
+                    background: style.ac,
                     flexShrink: 0,
                   }} />
                   <div style={{ flex: 1 }}>
@@ -180,10 +186,10 @@ export default function DashboardPage() {
                     </div>
                   </div>
                   <div style={{ display: 'flex', alignItems: 'center', gap: 12, flexShrink: 0 }}>
-                    <div style={{ width: 80, height: 6, background: C.cream2, border: `2px solid ${C.ink}` }}>
-                      <div style={{ height: '100%', width: `${u.porcentaje}%`, background: u.porcentaje >= 60 ? C.green : u.porcentaje >= 40 ? C.orange : C.pink }} />
+                    <div style={{ width: 80, height: 6, background: C.cream2, borderRadius: R.pill, overflow: 'hidden' }}>
+                      <div style={{ height: '100%', width: `${u.porcentaje}%`, borderRadius: R.pill, background: u.porcentaje >= 60 ? C.green : u.porcentaje >= 40 ? C.warning : C.magenta }} />
                     </div>
-                    <div style={{ ...disp, fontSize: 22, color: u.porcentaje >= 60 ? C.green : u.porcentaje >= 40 ? C.orange : C.pink, minWidth: 50, textAlign: 'right' }}>
+                    <div style={{ ...disp, fontSize: 22, color: u.porcentaje >= 60 ? C.greenDark : u.porcentaje >= 40 ? C.warning : C.magenta, minWidth: 50, textAlign: 'right' }}>
                       {u.porcentaje}%
                     </div>
                   </div>
@@ -200,7 +206,7 @@ export default function DashboardPage() {
       )}
 
       {/* ─── MAIN GRID ──────────────────────────────────────────────────────── */}
-      <div className="grid-2fr-3fr" style={{ gap: 0, border: inkBorder, marginBottom: 48 }}>
+      <div className="grid-2fr-3fr" style={{ gap: 0, ...card, overflow: 'hidden', marginBottom: 48 }}>
 
         {/* LEFT: Actions */}
         <div style={{ borderRight: inkBorder, display: 'flex', flexDirection: 'column' }}>
@@ -211,19 +217,19 @@ export default function DashboardPage() {
               ...bodyFont,
               display: 'block',
               padding: '40px 32px',
-              background: C.ink,
-              color: C.cream,
+              background: G.ink,
+              color: '#FFFFFF',
               textDecoration: 'none',
               borderBottom: inkBorder,
             }}
           >
-            <div style={{ ...mono, fontSize: 11, letterSpacing: '0.14em', color: C.cream, opacity: 0.6, marginBottom: 16 }}>
+            <div style={{ ...mono, fontSize: 11, letterSpacing: '0.14em', opacity: 0.65, marginBottom: 16 }}>
               ACCIÓN PRINCIPAL
             </div>
-            <div style={{ ...disp, fontSize: 'clamp(1.8rem, 3vw, 3rem)', marginBottom: 12 }}>
-              NUEVO<br />SIMULACRO →
+            <div style={{ ...disp, fontSize: 'clamp(1.8rem, 3vw, 2.6rem)', marginBottom: 12 }}>
+              Nuevo simulacro →
             </div>
-            <p style={{ ...bodyFont, fontSize: 15, color: C.cream, opacity: 0.75, margin: 0 }}>
+            <p style={{ ...bodyFont, fontSize: 15, opacity: 0.78, margin: 0 }}>
               20 preguntas aleatorias por examen
             </p>
           </Link>
@@ -237,14 +243,13 @@ export default function DashboardPage() {
                   key={esp.especialidad}
                   href={`/simulacro?especialidad=${encodeURIComponent(esp.especialidad)}`}
                   style={{
-                    ...mono,
-                    fontSize: 11,
-                    letterSpacing: '0.06em',
+                    ...bodyFont,
+                    fontSize: 14,
                     display: 'flex',
                     justifyContent: 'space-between',
                     alignItems: 'center',
                     padding: '12px 0',
-                    borderBottom: i < 7 ? `1px solid ${C.cream2}` : undefined,
+                    borderBottom: i < 7 ? inkBorder : undefined,
                     color: C.ink,
                     textDecoration: 'none',
                   }}
@@ -252,7 +257,7 @@ export default function DashboardPage() {
                   <span style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', flex: 1 }}>
                     {esp.especialidad}
                   </span>
-                  <span style={{ color: esp.porcentaje >= 60 ? C.green : C.pink, marginLeft: 8, flexShrink: 0 }}>
+                  <span style={{ ...mono, fontSize: 12, color: esp.porcentaje >= 60 ? C.greenDark : C.magenta, marginLeft: 8, flexShrink: 0 }}>
                     {esp.porcentaje}%
                   </span>
                 </Link>
@@ -261,7 +266,7 @@ export default function DashboardPage() {
                 <p style={{ ...bodyFont, fontSize: 14, color: C.ink2 }}>Haz tu primer simulacro para ver estadísticas</p>
               )}
             </div>
-            <Link href="/especialidades" style={{ ...mono, fontSize: 11, letterSpacing: '0.08em', display: 'block', marginTop: 20, color: C.ink, textDecoration: 'underline' }}>
+            <Link href="/especialidades" style={{ ...mono, fontSize: 11, letterSpacing: '0.08em', display: 'block', marginTop: 20, color: C.purple, textDecoration: 'none' }}>
               VER TODAS →
             </Link>
           </div>
@@ -276,17 +281,18 @@ export default function DashboardPage() {
               {(progresoGlobal?.porEspecialidad?.slice(0, 6) || []).map(esp => (
                 <div key={esp.especialidad}>
                   <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 6 }}>
-                    <span style={{ ...mono, fontSize: 11, letterSpacing: '0.06em' }}>{esp.especialidad}</span>
-                    <span style={{ ...mono, fontSize: 11, letterSpacing: '0.06em', color: esp.porcentaje >= 60 ? C.green : C.pink }}>
+                    <span style={{ ...bodyFont, fontSize: 14, fontWeight: 500 }}>{esp.especialidad}</span>
+                    <span style={{ ...mono, fontSize: 11, letterSpacing: '0.06em', color: esp.porcentaje >= 60 ? C.greenDark : C.magenta }}>
                       {esp.porcentaje}%
                     </span>
                   </div>
-                  <div style={{ height: 6, background: C.cream2, border: `2px solid ${C.ink}` }}>
+                  <div style={{ height: 8, background: C.cream2, borderRadius: R.pill, overflow: 'hidden' }}>
                     <div
                       style={{
                         height: '100%',
                         width: `${esp.porcentaje}%`,
-                        background: esp.porcentaje >= 60 ? C.green : C.pink,
+                        borderRadius: R.pill,
+                        background: esp.porcentaje >= 60 ? C.green : G.brand,
                         transition: 'width 0.5s ease',
                       }}
                     />
@@ -302,31 +308,29 @@ export default function DashboardPage() {
           {/* Weaknesses */}
           {debilidades.length > 0 && (
             <div style={{ padding: '32px', borderBottom: inkBorder }}>
-              <div style={{ ...kicker(C.pink, C.ink), marginBottom: 20 }}>PUNTOS DÉBILES</div>
-              <div style={{ display: 'flex', flexDirection: 'column', gap: 0 }}>
+              <div style={{ ...kicker(), marginBottom: 20 }}>PUNTOS DÉBILES</div>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
                 {debilidades.slice(0, 5).map((d, i) => (
                   <div
                     key={i}
                     style={{
                       display: 'flex', justifyContent: 'space-between', alignItems: 'center',
                       padding: '12px 16px',
-                      background: C.cream2,
-                      borderBottom: i < 4 ? inkBorder : undefined,
-                      border: i === 0 ? inkBorder : undefined,
-                      borderTop: i > 0 ? 'none' : undefined,
+                      background: C.pinkSoft,
+                      borderRadius: R.md,
                     }}
                   >
                     <div>
-                      <span style={{ ...mono, fontSize: 11, letterSpacing: '0.06em' }}>{d.tema}</span>
+                      <span style={{ ...bodyFont, fontSize: 14, fontWeight: 500 }}>{d.tema}</span>
                       <span style={{ ...mono, fontSize: 10, letterSpacing: '0.04em', color: C.ink2, marginLeft: 10 }}>{d.especialidad}</span>
                     </div>
-                    <span style={{ ...disp, fontSize: 18, color: C.pink }}>{d.porcentaje}%</span>
+                    <span style={{ ...disp, fontSize: 18, color: '#9B2461' }}>{d.porcentaje}%</span>
                   </div>
                 ))}
               </div>
               <Link
                 href="/simulacro?tipo=repaso_errores"
-                style={{ ...mono, fontSize: 11, letterSpacing: '0.1em', display: 'block', marginTop: 16, border: `2px solid ${C.pink}`, padding: '10px 16px', color: C.pink, textDecoration: 'none', textAlign: 'center' }}
+                style={{ ...mono, fontSize: 11, letterSpacing: '0.1em', display: 'block', marginTop: 16, border: `1px solid ${C.magenta}`, borderRadius: R.sm, padding: '12px 16px', color: C.magenta, textDecoration: 'none', textAlign: 'center' }}
               >
                 REPASAR MIS ERRORES →
               </Link>
@@ -337,7 +341,7 @@ export default function DashboardPage() {
           {historial.length > 0 && (
             <div style={{ padding: '32px' }}>
               <div style={{ ...kicker(), marginBottom: 20 }}>ÚLTIMOS SIMULACROS</div>
-              <div style={{ border: inkBorder }}>
+              <div style={{ border: inkBorder, borderRadius: R.md, overflow: 'hidden', boxShadow: S.xs }}>
                 {historial.slice(0, 5).map((h, i) => {
                   const pct = h.total > 0 ? Math.round(((h.score ?? 0) / h.total) * 100) : 0
                   return (
@@ -350,14 +354,14 @@ export default function DashboardPage() {
                       }}
                     >
                       <div>
-                        <span style={{ ...mono, fontSize: 11, letterSpacing: '0.06em' }}>
-                        {h.universidad || h.filtro || 'ALEATORIO'}
+                        <span style={{ ...bodyFont, fontSize: 14, fontWeight: 500 }}>
+                        {h.universidad || h.filtro || 'Aleatorio'}
                       </span>
                         <span style={{ ...mono, fontSize: 10, color: C.ink2, marginLeft: 10, letterSpacing: '0.04em' }}>
                           {new Date(h.createdAt).toLocaleDateString('es-ES')}
                         </span>
                       </div>
-                      <span style={{ ...disp, fontSize: 20, color: pct >= 60 ? C.green : C.pink }}>
+                      <span style={{ ...disp, fontSize: 20, color: pct >= 60 ? C.greenDark : C.magenta }}>
                         {h.score}/{h.total}
                       </span>
                     </div>

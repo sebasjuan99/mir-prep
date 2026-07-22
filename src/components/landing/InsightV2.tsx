@@ -1,4 +1,4 @@
-import { C, disp, bodyFont, mono, inkBorder } from '@/lib/cm'
+import { C, G, R, S, disp, bodyFont, mono, inkBorder, card } from '@/lib/cm'
 import Reveal from './Reveal'
 import SectionHeader from './SectionHeader'
 
@@ -41,15 +41,15 @@ export default function InsightV2() {
         <div className="lp-two" style={{ marginTop: 'clamp(32px, 4vw, 52px)' }}>
           {MICROBLOQUES.map((b, i) => (
             <Reveal key={b.etiqueta} delay={i * 0.1}>
-              <div style={{ border: inkBorder, background: C.cream, padding: 'clamp(22px, 2.6vw, 32px)', display: 'flex', gap: 16, height: '100%' }}>
+              <div style={{ ...card, padding: 'clamp(22px, 2.6vw, 32px)', display: 'flex', gap: 16, height: '100%' }}>
                 <div
                   aria-hidden
                   style={{
                     width: 12,
                     flexShrink: 0,
-                    background: i === 0 ? C.pink : C.green,
+                    background: i === 0 ? C.magenta : C.purple,
                     alignSelf: 'stretch',
-                    border: inkBorder,
+                    border: 'none',
                   }}
                 />
                 <div>
@@ -66,14 +66,15 @@ export default function InsightV2() {
           <div
             style={{
               marginTop: 'clamp(36px, 5vw, 60px)',
-              border: inkBorder,
-              background: C.greenDark,
+              borderRadius: R.lg,
+              boxShadow: S.lg,
+              background: G.brandVivid,
               padding: 'clamp(32px, 5vw, 64px) clamp(24px, 4vw, 56px)',
               textAlign: 'center',
             }}
           >
-            <p style={{ ...disp, fontSize: 'clamp(1.5rem, 4.4vw, 4rem)', lineHeight: 1.08, margin: 0, color: C.cream, textTransform: 'none' }}>
-              Ya sabes más de lo que crees. <span style={{ color: C.yellow }}>Solo te falta activarlo.</span>
+            <p style={{ ...disp, fontSize: 'clamp(1.5rem, 4.4vw, 3.4rem)', margin: 0, color: '#FFFFFF' }}>
+              Ya sabes más de lo que crees. <span style={{ color: '#F0ADC3' }}>Solo te falta activarlo.</span>
             </p>
           </div>
         </Reveal>

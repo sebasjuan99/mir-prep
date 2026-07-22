@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import { motion, AnimatePresence, useReducedMotion } from 'framer-motion'
-import { C, disp, bodyFont, inkBorder } from '@/lib/cm'
+import { C, R, S, disp, bodyFont, inkBorder } from '@/lib/cm'
 import SectionHeader from './SectionHeader'
 
 const FAQS = [
@@ -35,7 +35,7 @@ const FAQS = [
 function Item({ q, a, open, onToggle }: { q: string; a: string; open: boolean; onToggle: () => void }) {
   const reduce = useReducedMotion()
   return (
-    <div style={{ border: inkBorder, background: open ? C.cream : C.cream2 }}>
+    <div style={{ border: inkBorder, borderRadius: R.md, overflow: 'hidden', background: open ? C.card : C.cream2, boxShadow: open ? S.sm : 'none' }}>
       <button
         onClick={onToggle}
         aria-expanded={open}
@@ -52,8 +52,8 @@ function Item({ q, a, open, onToggle }: { q: string; a: string; open: boolean; o
           textAlign: 'left',
         }}
       >
-        <span style={{ ...disp, fontSize: 'clamp(15px, 1.4vw, 20px)', textTransform: 'none', color: C.ink }}>{q}</span>
-        <span aria-hidden style={{ ...disp, fontSize: 24, color: C.pink, flexShrink: 0, transform: open ? 'rotate(45deg)' : 'none', transition: 'transform 0.2s ease' }}>+</span>
+        <span style={{ ...disp, fontSize: 'clamp(15px, 1.4vw, 19px)', color: C.ink }}>{q}</span>
+        <span aria-hidden style={{ ...disp, fontSize: 24, color: C.magenta, flexShrink: 0, transform: open ? 'rotate(45deg)' : 'none', transition: 'transform 0.2s ease' }}>+</span>
       </button>
       <AnimatePresence initial={false}>
         {open && (
@@ -64,7 +64,7 @@ function Item({ q, a, open, onToggle }: { q: string; a: string; open: boolean; o
             transition={{ duration: 0.28, ease: [0.22, 1, 0.36, 1] }}
             style={{ overflow: 'hidden' }}
           >
-            <p style={{ ...bodyFont, fontSize: 'clamp(15px, 1.1vw, 18px)', lineHeight: 1.6, margin: 0, padding: '0 clamp(16px, 2.4vw, 26px) clamp(20px, 2.4vw, 26px)', color: C.ink2 }}>
+            <p style={{ ...bodyFont, fontSize: 'clamp(15px, 1.1vw, 18px)', lineHeight: 1.65, margin: 0, padding: '0 clamp(16px, 2.4vw, 26px) clamp(20px, 2.4vw, 26px)', color: C.ink2 }}>
               {a}
             </p>
           </motion.div>

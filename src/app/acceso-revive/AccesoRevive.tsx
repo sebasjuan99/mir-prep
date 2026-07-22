@@ -5,7 +5,7 @@ import { useRouter } from 'next/navigation'
 import Image from 'next/image'
 import { createClient } from '@/lib/supabase/client'
 import { ALLOWED_PARENT_ORIGINS, getParentOrigin } from '@/lib/revive'
-import { C, disp, mono, bodyFont, kicker, inkBorder } from '@/lib/cm'
+import { C, G, R, S, disp, mono, bodyFont, kicker, inkBorder } from '@/lib/cm'
 
 /**
  * Pantalla de acceso EXCLUSIVA para la integración con Revive.
@@ -160,40 +160,40 @@ export default function AccesoRevive() {
       {/* Acentos decorativos (mismos que el resto de la marca) */}
       <div
         aria-hidden
-        style={{ position: 'absolute', top: -110, left: -110, width: 300, height: 300, borderRadius: '50%', background: C.pink, opacity: 0.28 }}
+        style={{ position: 'absolute', top: -110, left: -110, width: 300, height: 300, borderRadius: '50%', background: C.pinkSoft }}
       />
       <div
         aria-hidden
-        style={{ position: 'absolute', bottom: -120, right: -120, width: 320, height: 320, borderRadius: '50%', background: C.yellow, border: `4px solid ${C.orange}`, opacity: 0.32 }}
+        style={{ position: 'absolute', bottom: -120, right: -120, width: 320, height: 320, borderRadius: '50%', background: C.purpleSoft }}
       />
 
       <div style={{ position: 'relative', width: '100%', maxWidth: 520, textAlign: 'left' }}>
         {/* Marca */}
         <div style={{ display: 'flex', alignItems: 'center', gap: 14, marginBottom: 36 }}>
-          <Image src="/ape-logo-negro.png" alt="Próximo Residente" width={64} height={64} style={{ objectFit: 'contain' }} priority />
-          <span style={{ ...mono, fontSize: 13, letterSpacing: '0.14em', color: C.ink }}>Próximo Residente</span>
+          <Image src="/revive-icon-color.png" alt="Próximo Residente" width={64} height={64} style={{ objectFit: 'contain' }} priority />
+          <span style={{ ...bodyFont, fontWeight: 500, fontSize: 15, color: C.ink }}>Próximo Residente</span>
         </div>
 
         <div style={{ ...kicker(), marginBottom: 22 }}>ACCESO · REVIVE</div>
 
-        <h1 style={{ ...disp, fontSize: 'clamp(2.4rem, 6vw, 4.5rem)', color: C.ink, margin: 0, marginBottom: 22 }}>
-          INICIA EL CAMINO<br />A SER ESPECIALISTA.
+        <h1 style={{ ...disp, fontSize: 'clamp(2.4rem, 6vw, 3.8rem)', color: C.ink, margin: 0, marginBottom: 22 }}>
+          Inicia el camino a ser especialista.
         </h1>
 
-        <p style={{ ...bodyFont, fontSize: 17, color: C.ink, opacity: 0.72, maxWidth: 420, lineHeight: 1.55, marginBottom: 40 }}>
+        <p style={{ ...bodyFont, fontSize: 17, color: C.ink2, maxWidth: 420, lineHeight: 1.65, marginBottom: 40 }}>
           Tu preparación te espera. Entra con un clic y continúa donde lo dejaste.
         </p>
 
         {estado === 'sin-embed' ? (
           <div>
-            <div style={{ background: C.pink, border: inkBorder, padding: '14px 18px', ...mono, fontSize: 11, letterSpacing: '0.06em', color: C.ink, marginBottom: 20 }}>
+            <div style={{ background: C.pinkSoft, border: '1px solid #F8D6E2', borderRadius: R.md, padding: '14px 18px', ...mono, fontSize: 11, letterSpacing: '0.06em', color: '#AF296D', marginBottom: 20 }}>
               ESTA PÁGINA ES EL ACCESO DESDE REVIVE.
             </div>
             <a
               href="/login"
-              style={{ ...disp, fontSize: 14, display: 'inline-block', border: inkBorder, background: 'transparent', color: C.ink, padding: '14px 24px', textDecoration: 'none' }}
+              style={{ ...bodyFont, fontSize: 14, fontWeight: 500, display: 'inline-block', border: `1px solid ${C.purple}`, borderRadius: R.sm, background: 'transparent', color: C.purple, padding: '14px 24px', textDecoration: 'none' }}
             >
-              IR AL INICIO DE SESIÓN NORMAL →
+              Ir al inicio de sesión normal →
             </a>
           </div>
         ) : (
@@ -202,28 +202,31 @@ export default function AccesoRevive() {
               onClick={ingresar}
               disabled={!botonListo}
               style={{
-                ...disp,
+                ...bodyFont,
                 fontSize: 16,
-                background: !botonListo ? C.ink2 : C.ink,
-                color: C.cream,
-                border: inkBorder,
+                fontWeight: 600,
+                background: G.brandVivid,
+                color: '#FFFFFF',
+                border: '1px solid transparent',
+                borderRadius: R.sm,
+                boxShadow: S.brand,
                 padding: '18px 28px',
                 width: '100%',
                 maxWidth: 380,
                 cursor: !botonListo ? 'not-allowed' : 'pointer',
-                opacity: cargando ? 0.7 : 1,
+                opacity: !botonListo ? 0.5 : cargando ? 0.7 : 1,
                 transition: 'opacity 0.15s',
               }}
             >
-              {estado === 'esperando' && 'PREPARANDO ACCESO…'}
-              {estado === 'listo' && 'INICIAR SESIÓN →'}
-              {estado === 'ingresando' && 'INGRESANDO…'}
-              {estado === 'ok' && 'LISTO ✓'}
-              {estado === 'error' && 'REINTENTAR →'}
+              {estado === 'esperando' && 'Preparando acceso…'}
+              {estado === 'listo' && 'Iniciar sesión →'}
+              {estado === 'ingresando' && 'Ingresando…'}
+              {estado === 'ok' && 'Listo ✓'}
+              {estado === 'error' && 'Reintentar →'}
             </button>
 
             {estado === 'error' && errorMsg && (
-              <div style={{ ...mono, fontSize: 11, letterSpacing: '0.05em', color: C.orange, marginTop: 16, maxWidth: 380, lineHeight: 1.5 }}>
+              <div style={{ ...mono, fontSize: 11, letterSpacing: '0.05em', color: C.danger, marginTop: 16, maxWidth: 380, lineHeight: 1.5 }}>
                 {errorMsg}
               </div>
             )}

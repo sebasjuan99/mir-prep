@@ -17,7 +17,7 @@ const jsonLd = {
   '@type': 'EducationalOrganization',
   name: 'Próximo Residente',
   url: 'https://www.proximoresidente.com',
-  logo: 'https://www.proximoresidente.com/ape-logo-negro.png',
+  logo: 'https://www.proximoresidente.com/revive-logo-color.png',
   description:
     'Plataforma de simulacros para el examen de residencia médica (MIR, ENARM y universidades de Colombia) con retroalimentación pedagógica y fichas de estudio por especialidad.',
 }
@@ -86,8 +86,8 @@ export default function LandingV1() {
         }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: 14, minWidth: 0 }}>
             <Image
-              src="/ape-logo-negro.png"
-              alt="Aurora Pixel Studio"
+              src="/revive-icon-color.png"
+              alt="Revive"
               width={56}
               height={56}
               style={{ objectFit: 'contain', flexShrink: 0 }}
@@ -472,8 +472,8 @@ export default function LandingV1() {
       <footer className="landing-footer">
         <div style={{ display: 'flex', alignItems: 'center', gap: 16 }}>
           <Image
-            src="/ape-logo-blanco.png"
-            alt="Aurora Pixel Studio"
+            src="/revive-icon-blanco.png"
+            alt="Revive"
             width={72}
             height={72}
             style={{ objectFit: 'contain' }}

@@ -4,7 +4,7 @@ import { useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { Turnstile } from '@marsidev/react-turnstile'
-import { C, disp, mono, bodyFont, kicker, inkBorder } from '@/lib/cm'
+import { C, G, R, S, disp, mono, bodyFont, kicker, inkBorder } from '@/lib/cm'
 import { createClient } from '@/lib/supabase/client'
 import { trackEvent, trackMetaEvent } from '@/lib/analytics'
 
@@ -13,8 +13,8 @@ const inputStyle = {
   width: '100%',
   padding: '14px 16px',
   border: inkBorder,
-  borderRadius: 0,
-  background: C.cream2,
+  borderRadius: 8,
+  background: C.card,
   color: C.ink,
   fontSize: 16,
   outline: 'none',
@@ -115,10 +115,10 @@ export default function RegisterPage() {
 
   if (step === 'code') {
     return (
-      <div style={{ ...bodyFont, background: C.green, minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', position: 'relative', overflow: 'hidden' }}>
+      <div style={{ ...bodyFont, background: G.brandVivid, minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', position: 'relative', overflow: 'hidden' }}>
         <div style={{ textAlign: 'center', padding: '64px 40px', position: 'relative', zIndex: 2, width: '100%', maxWidth: 460 }}>
           <div style={{ ...kicker(C.cream, C.ink), marginBottom: 28 }}>CONFIRMA TU CUENTA</div>
-          <h2 style={{ ...disp, fontSize: 'clamp(2.5rem, 7vw, 5rem)', color: C.cream, margin: 0, marginBottom: 20 }}>
+          <h2 style={{ ...disp, fontSize: 'clamp(2.5rem, 7vw, 4.2rem)', color: '#FFFFFF', margin: 0, marginBottom: 20 }}>
             REVISA TU<br />CORREO.
           </h2>
           <p style={{ ...bodyFont, fontSize: 16, color: C.cream, opacity: 0.85, margin: '0 auto 32px', lineHeight: 1.55 }}>
@@ -127,12 +127,12 @@ export default function RegisterPage() {
 
           <form onSubmit={handleVerify} style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
             {codeError && (
-              <div style={{ background: C.pink, border: `3px solid ${C.cream}`, padding: '12px 16px', ...mono, fontSize: 11, letterSpacing: '0.06em', color: C.ink }}>
+              <div style={{ background: 'rgba(255,255,255,0.14)', border: '1px solid rgba(255,255,255,0.35)', borderRadius: 12, padding: '12px 16px', ...mono, fontSize: 11, letterSpacing: '0.06em', color: '#FFFFFF' }}>
                 {codeError.toUpperCase()}
               </div>
             )}
             {resent && !codeError && (
-              <div style={{ background: C.cream, border: `3px solid ${C.cream}`, padding: '12px 16px', ...mono, fontSize: 11, letterSpacing: '0.06em', color: C.ink }}>
+              <div style={{ background: '#FFFFFF', border: '1px solid #FFFFFF', borderRadius: 12, padding: '12px 16px', ...mono, fontSize: 11, letterSpacing: '0.06em', color: C.ink }}>
                 CÓDIGO REENVIADO. REVISA TU CORREO.
               </div>
             )}
@@ -147,7 +147,7 @@ export default function RegisterPage() {
               style={{
                 ...disp, textAlign: 'center', letterSpacing: '0.3em',
                 fontSize: 34, padding: '16px', width: '100%',
-                border: `4px solid ${C.cream}`, background: C.cream, color: C.ink,
+                border: '1px solid #FFFFFF', borderRadius: 8, background: '#FFFFFF', color: C.purpleDeep,
                 boxSizing: 'border-box', outline: 'none',
               }}
             />
@@ -156,8 +156,9 @@ export default function RegisterPage() {
               type="submit"
               disabled={verifying || code.length < 6}
               style={{
-                ...disp, fontSize: 18,
-                border: `4px solid ${C.cream}`,
+                ...bodyFont, fontSize: 16, fontWeight: 600,
+                borderRadius: 8,
+                border: '1px solid rgba(255,255,255,0.45)',
                 background: verifying || code.length < 6 ? 'transparent' : C.cream,
                 color: verifying || code.length < 6 ? C.cream : C.ink,
                 padding: '16px 36px',
@@ -179,7 +180,7 @@ export default function RegisterPage() {
             </button>
           </div>
         </div>
-        <div style={{ position: 'absolute', bottom: -60, left: '10%', width: 200, height: 200, borderRadius: '50%', background: C.yellow, border: `4px solid ${C.greenDark}`, opacity: 0.4 }} />
+        <div style={{ position: 'absolute', bottom: -60, left: '10%', width: 200, height: 200, borderRadius: '50%', background: 'rgba(255,255,255,0.10)', opacity: 1 }} />
       </div>
     )
   }
@@ -188,33 +189,33 @@ export default function RegisterPage() {
     <div className="auth-grid" style={{ ...bodyFont }}>
 
       {/* LEFT PANEL — green */}
-      <div className="auth-panel-left" style={{ background: C.green, padding: '56px 52px', flexDirection: 'column', justifyContent: 'space-between', position: 'relative', overflow: 'hidden', borderRight: inkBorder }}>
+      <div className="auth-panel-left" style={{ background: G.brandVivid, padding: '56px 52px', flexDirection: 'column', justifyContent: 'space-between', position: 'relative', overflow: 'hidden', borderRight: inkBorder }}>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
           <Link href="/" style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: 10, textDecoration: 'none' }}>
-            <Image src="/ape-logo-blanco.png" alt="Aurora Pixel Studio" width={88} height={88} style={{ objectFit: 'contain' }} />
-            <span style={{ ...mono, fontSize: 13, letterSpacing: '0.14em', color: C.cream }}>Próximo Residente</span>
+            <Image src="/revive-icon-blanco.png" alt="Revive" width={88} height={88} style={{ objectFit: 'contain' }} />
+            <span style={{ ...mono, fontSize: 13, letterSpacing: '0.14em', color: '#FFFFFF' }}>Próximo Residente</span>
           </Link>
-          <span style={{ ...mono, fontSize: 11, letterSpacing: '0.08em', border: `2px solid ${C.cream}`, borderRadius: 999, padding: '4px 10px', color: C.cream }}>REGISTRO</span>
+          <span style={{ ...mono, fontSize: 11, letterSpacing: '0.08em', border: '1px solid rgba(255,255,255,0.45)', borderRadius: 999, padding: '4px 10px', color: '#FFFFFF' }}>REGISTRO</span>
         </div>
 
         <div>
-          <div style={{ ...kicker(C.cream, C.ink), marginBottom: 28 }}>NUEVO RESIDENTE</div>
-          <h2 style={{ ...disp, fontSize: 'clamp(2.5rem, 4.5vw, 6rem)', color: C.cream, margin: 0, marginBottom: 24 }}>
+          <div style={{ ...kicker('rgba(255,255,255,0.16)', '#FFFFFF'), marginBottom: 28 }}>NUEVO RESIDENTE</div>
+          <h2 style={{ ...disp, fontSize: 'clamp(2.5rem, 4.5vw, 4.5rem)', color: '#FFFFFF', margin: 0, marginBottom: 24 }}>
             CREA TU<br />CUENTA.
           </h2>
-          <p style={{ ...bodyFont, fontSize: 17, color: C.cream, opacity: 0.8, maxWidth: 340, lineHeight: 1.55 }}>
+          <p style={{ ...bodyFont, fontSize: 17, color: 'rgba(255,255,255,0.82)', maxWidth: 340, lineHeight: 1.65 }}>
             Prepara el MIR con preguntas reales, fichas de estudio y seguimiento de tu progreso por especialidad.
           </p>
         </div>
 
-        <div style={{ ...mono, fontSize: 11, letterSpacing: '0.08em', color: C.cream, opacity: 0.7 }}>
+        <div style={{ ...mono, fontSize: 11, letterSpacing: '0.08em', color: 'rgba(255,255,255,0.75)' }}>
           ¿Ya tienes cuenta?{' '}
-          <Link href="/login" style={{ color: C.cream, textDecoration: 'underline' }}>
+          <Link href="/login" style={{ color: '#FFFFFF', textDecoration: 'underline' }}>
             INICIAR SESIÓN →
           </Link>
         </div>
 
-        <div style={{ position: 'absolute', bottom: -80, right: -80, width: 240, height: 240, borderRadius: '50%', background: C.yellow, border: `4px solid ${C.greenDark}`, opacity: 0.3, zIndex: 0 }} />
+        <div style={{ position: 'absolute', bottom: -80, right: -80, width: 240, height: 240, borderRadius: '50%', background: 'rgba(255,255,255,0.10)', opacity: 1, zIndex: 0 }} />
       </div>
 
       {/* RIGHT PANEL — form */}
@@ -222,12 +223,12 @@ export default function RegisterPage() {
         <div style={{ width: '100%', maxWidth: 420 }}>
           <div style={{ marginBottom: 36 }}>
             <div style={{ ...kicker(), marginBottom: 14 }}>01 — DATOS DE ACCESO</div>
-            <h1 style={{ ...disp, fontSize: 'clamp(2rem, 3vw, 3.5rem)', margin: 0 }}>CREAR CUENTA</h1>
+            <h1 style={{ ...disp, fontSize: 'clamp(2rem, 3vw, 3rem)', margin: 0 }}>Crear cuenta</h1>
           </div>
 
           <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: 20 }}>
             {error && (
-              <div style={{ background: C.pink, border: inkBorder, padding: '12px 16px', ...mono, fontSize: 11, letterSpacing: '0.06em' }}>
+              <div style={{ background: C.dangerSoft, border: '1px solid #F2C4CA', borderRadius: 12, padding: '12px 16px', ...mono, fontSize: 11, letterSpacing: '0.06em', color: C.danger }}>
                 {error.toUpperCase()}
               </div>
             )}

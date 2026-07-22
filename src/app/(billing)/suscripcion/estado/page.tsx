@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
-import { C, disp, mono, bodyFont } from '@/lib/cm'
+import { C, G, R, S, disp, mono, bodyFont } from '@/lib/cm'
 import { trackEvent, trackMetaEvent } from '@/lib/analytics'
 
 export default function EstadoSuscripcionPage() {
@@ -135,7 +135,7 @@ export default function EstadoSuscripcionPage() {
               onClick={() => router.push('/suscripcion')}
               style={{
                 ...disp, fontSize: 14, padding: '14px 28px',
-                background: C.green, color: C.cream,
+                background: G.brandVivid, color: '#FFFFFF', borderRadius: R.sm, boxShadow: S.brand,
                 border: 'none', cursor: 'pointer',
               }}
             >

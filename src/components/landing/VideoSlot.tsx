@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, type CSSProperties } from 'react'
-import { C, disp, mono, inkBorder } from '@/lib/cm'
+import { C, G, R, S, disp, mono, inkBorder } from '@/lib/cm'
 
 type VideoSlotProps = {
   id: string
@@ -54,6 +54,7 @@ export default function VideoSlot({
     width: '100%',
     aspectRatio,
     border: inkBorder,
+    borderRadius: R.lg,
     background: C.ink,
     overflow: 'hidden',
     ...style,
@@ -80,12 +81,12 @@ export default function VideoSlot({
               type="button"
               onClick={() => setPlaying(true)}
               aria-label={label ? `Reproducir: ${label}` : 'Reproducir video'}
-              style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', padding: 0, border: 0, background: C.ink, cursor: 'pointer', overflow: 'hidden' }}
+              style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', padding: 0, border: 0, borderRadius: R.lg, background: C.ink, cursor: 'pointer', overflow: 'hidden' }}
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               {poster && <img src={poster} alt="" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />}
               <span aria-hidden style={{ position: 'absolute', inset: 0, display: 'grid', placeItems: 'center' }}>
-                <span style={{ width: 68, height: 68, borderRadius: '50%', background: C.pink, border: `4px solid ${C.ink}`, display: 'grid', placeItems: 'center', ...disp, fontSize: 26, color: C.ink, paddingLeft: 6 }}>▶</span>
+                <span style={{ width: 68, height: 68, borderRadius: '50%', background: G.brandVivid, boxShadow: S.brand, display: 'grid', placeItems: 'center', ...disp, fontSize: 26, color: '#FFFFFF', paddingLeft: 6 }}>▶</span>
               </span>
             </button>
           )}
@@ -106,7 +107,8 @@ export default function VideoSlot({
           data-video-slot={id}
           style={{
             ...frameStyle,
-            border: `4px dashed ${C.ink}`,
+            border: `2px dashed ${C.lineStrong}`,
+            borderRadius: R.lg,
             background: C.cream2,
             display: 'flex',
             flexDirection: 'column',
@@ -123,8 +125,8 @@ export default function VideoSlot({
               ...mono,
               fontSize: 11,
               letterSpacing: '0.14em',
-              background: C.ink,
-              color: C.cream,
+              background: G.brandVivid,
+              color: '#FFFFFF',
               padding: '5px 10px',
             }}
           >

@@ -23,7 +23,7 @@ const jsonLd = {
   '@type': 'EducationalOrganization',
   name: 'Próximo Residente',
   url: 'https://www.proximoresidente.com',
-  logo: 'https://www.proximoresidente.com/ape-logo-negro.png',
+  logo: 'https://www.proximoresidente.com/revive-logo-color.png',
   description:
     'Plataforma de simulacros para el examen de residencia médica (MIR, ENARM y universidades de Colombia) con metodología de retrieval practice y retroalimentación pedagógica.',
 }

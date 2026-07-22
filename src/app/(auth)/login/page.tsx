@@ -5,7 +5,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { useRouter, useSearchParams } from 'next/navigation'
 import { Turnstile } from '@marsidev/react-turnstile'
-import { C, disp, mono, bodyFont, kicker, inkBorder } from '@/lib/cm'
+import { C, G, R, S, disp, mono, bodyFont, kicker, inkBorder } from '@/lib/cm'
 import { useReviveEmbed } from '@/lib/revive'
 
 const inputStyle = {
@@ -13,8 +13,8 @@ const inputStyle = {
   width: '100%',
   padding: '14px 16px',
   border: inkBorder,
-  borderRadius: 0,
-  background: C.cream2,
+  borderRadius: 8,
+  background: C.card,
   color: C.ink,
   fontSize: 16,
   outline: 'none',
@@ -23,7 +23,7 @@ const inputStyle = {
 
 function Banner({ bg, color, children }: { bg: string; color: string; children: React.ReactNode }) {
   return (
-    <div style={{ background: bg, border: inkBorder, padding: '12px 16px', ...mono, fontSize: 11, letterSpacing: '0.06em', color, marginBottom: 20 }}>
+    <div style={{ background: bg, border: inkBorder, borderRadius: 12, padding: '12px 16px', ...mono, fontSize: 11, letterSpacing: '0.06em', color, marginBottom: 20 }}>
       {children}
     </div>
   )
@@ -96,35 +96,35 @@ function LoginForm() {
     <div className="auth-grid" style={{ ...bodyFont }}>
 
       {/* LEFT PANEL — pink */}
-      <div className="auth-panel-left" style={{ background: C.pink, padding: '56px 52px', flexDirection: 'column', justifyContent: 'space-between', position: 'relative', overflow: 'hidden', borderRight: inkBorder }}>
+      <div className="auth-panel-left" style={{ background: G.brandVivid, padding: '56px 52px', flexDirection: 'column', justifyContent: 'space-between', position: 'relative', overflow: 'hidden', borderRight: inkBorder }}>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
           <Link href="/" style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: 10, textDecoration: 'none' }}>
-            <Image src="/ape-logo-negro.png" alt="Aurora Pixel Studio" width={88} height={88} style={{ objectFit: 'contain' }} />
-            <span style={{ ...mono, fontSize: 13, letterSpacing: '0.14em', color: C.ink }}>Próximo Residente</span>
+            <Image src="/revive-icon-color.png" alt="Revive" width={88} height={88} style={{ objectFit: 'contain' }} />
+            <span style={{ ...bodyFont, fontWeight: 500, fontSize: 15, color: '#FFFFFF' }}>Próximo Residente</span>
           </Link>
-          <span style={{ ...mono, fontSize: 11, letterSpacing: '0.08em', border: `2px solid ${C.ink}`, borderRadius: 999, padding: '4px 10px', color: C.ink }}>ACCESO</span>
+          <span style={{ ...mono, fontSize: 11, letterSpacing: '0.08em', border: '1px solid rgba(255,255,255,0.45)', borderRadius: 999, padding: '4px 10px', color: '#FFFFFF' }}>ACCESO</span>
         </div>
 
         <div>
-          <div style={{ ...kicker(), marginBottom: 28 }}>RESIDENTE VERIFICADO</div>
-          <h2 style={{ ...disp, fontSize: 'clamp(2.5rem, 4.5vw, 6rem)', color: C.ink, margin: 0, marginBottom: 24 }}>
-            BIENVENIDO<br />DE VUELTA.
+          <div style={{ ...kicker('rgba(255,255,255,0.16)', '#FFFFFF'), marginBottom: 28 }}>RESIDENTE VERIFICADO</div>
+          <h2 style={{ ...disp, fontSize: 'clamp(2.5rem, 4.5vw, 4.5rem)', color: '#FFFFFF', margin: 0, marginBottom: 24 }}>
+            Bienvenido de vuelta.
           </h2>
-          <p style={{ ...bodyFont, fontSize: 17, color: C.ink, opacity: 0.75, maxWidth: 340, lineHeight: 1.55 }}>
+          <p style={{ ...bodyFont, fontSize: 17, color: 'rgba(255,255,255,0.82)', maxWidth: 340, lineHeight: 1.65 }}>
             Continúa donde lo dejaste. Tu progreso y tus fichas de estudio te esperan.
           </p>
         </div>
 
         {!isReviveEmbed && (
-          <div style={{ ...mono, fontSize: 11, letterSpacing: '0.08em', color: C.ink, opacity: 0.7 }}>
+          <div style={{ ...mono, fontSize: 11, letterSpacing: '0.08em', color: 'rgba(255,255,255,0.75)' }}>
             ¿No tienes cuenta?{' '}
-            <Link href="/register" style={{ color: C.ink, textDecoration: 'underline' }}>
+            <Link href="/register" style={{ color: '#FFFFFF', textDecoration: 'underline' }}>
               REGISTRARSE GRATIS →
             </Link>
           </div>
         )}
 
-        <div style={{ position: 'absolute', bottom: -80, right: -80, width: 240, height: 240, borderRadius: '50%', background: C.yellow, border: `4px solid ${C.orange}`, opacity: 0.35 }} />
+        <div style={{ position: 'absolute', bottom: -80, right: -80, width: 240, height: 240, borderRadius: '50%', background: 'rgba(255,255,255,0.10)', opacity: 1 }} />
       </div>
 
       {/* RIGHT PANEL — form */}
@@ -132,31 +132,31 @@ function LoginForm() {
         <div style={{ width: '100%', maxWidth: 420 }}>
           <div style={{ marginBottom: 36 }}>
             <div style={{ ...kicker(), marginBottom: 14 }}>01 — CREDENCIALES</div>
-            <h1 style={{ ...disp, fontSize: 'clamp(2rem, 3vw, 3.5rem)', margin: 0 }}>INICIAR SESIÓN</h1>
+            <h1 style={{ ...disp, fontSize: 'clamp(2rem, 3vw, 3rem)', margin: 0 }}>Iniciar sesión</h1>
           </div>
 
           {/* Banners */}
           {banner === 'verified' && !resendSent && (
-            <Banner bg={C.green} color={C.cream}>CUENTA VERIFICADA. YA PUEDES ACCEDER.</Banner>
+            <Banner bg={C.greenSoft} color={C.greenDark}>CUENTA VERIFICADA. YA PUEDES ACCEDER.</Banner>
           )}
           {banner === 'link_expired' && (
-            <Banner bg={C.orange} color={C.cream}>
+            <Banner bg={C.warningSoft} color="#9A6212">
               EL ENLACE EXPIRÓ. ESCRIBE TU EMAIL Y REENVÍA LA VERIFICACIÓN ABAJO.
             </Banner>
           )}
           {banner === 'error' && (
-            <Banner bg={C.pink} color={C.ink}>ERROR DE VERIFICACIÓN. SOLICITA UN NUEVO ENLACE.</Banner>
+            <Banner bg={C.dangerSoft} color={C.danger}>ERROR DE VERIFICACIÓN. SOLICITA UN NUEVO ENLACE.</Banner>
           )}
           {banner === 'password_reset' && (
-            <Banner bg={C.green} color={C.cream}>CONTRASEÑA ACTUALIZADA. INICIA SESIÓN.</Banner>
+            <Banner bg={C.greenSoft} color={C.greenDark}>CONTRASEÑA ACTUALIZADA. INICIA SESIÓN.</Banner>
           )}
           {resendSent && (
-            <Banner bg={C.green} color={C.cream}>CORREO REENVIADO. REVISA TU BANDEJA.</Banner>
+            <Banner bg={C.greenSoft} color={C.greenDark}>CORREO REENVIADO. REVISA TU BANDEJA.</Banner>
           )}
 
           <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: 20 }}>
             {error && (
-              <div style={{ background: C.pink, border: inkBorder, padding: '12px 16px', ...mono, fontSize: 11, letterSpacing: '0.06em' }}>
+              <div style={{ background: C.dangerSoft, border: '1px solid #F2C4CA', borderRadius: 12, padding: '12px 16px', ...mono, fontSize: 11, letterSpacing: '0.06em', color: C.danger }}>
                 {error.toUpperCase()}
               </div>
             )}
@@ -180,7 +180,7 @@ function LoginForm() {
                 options={{ theme: 'light' }}
               />
               {turnstileError && (
-                <div style={{ ...mono, fontSize: 10, letterSpacing: '0.08em', color: C.orange, marginTop: 8 }}>
+                <div style={{ ...mono, fontSize: 10, letterSpacing: '0.08em', color: C.danger, marginTop: 8 }}>
                   ERROR DE VERIFICACIÓN — RECARGA LA PÁGINA E INTÉNTALO DE NUEVO
                 </div>
               )}
@@ -195,16 +195,18 @@ function LoginForm() {
               type="submit"
               disabled={loading || !turnstileToken}
               style={{
-                ...disp, fontSize: 15,
-                background: loading || !turnstileToken ? C.ink2 : C.ink,
-                color: C.cream,
-                border: inkBorder,
+                ...bodyFont, fontSize: 16, fontWeight: 600,
+                background: G.brandVivid,
+                color: '#FFFFFF',
+                border: '1px solid transparent',
+                borderRadius: R.sm,
+                boxShadow: S.brand,
                 padding: '16px 24px',
                 cursor: loading || !turnstileToken ? 'not-allowed' : 'pointer',
-                opacity: loading || !turnstileToken ? 0.6 : 1,
+                opacity: loading || !turnstileToken ? 0.5 : 1,
               }}
             >
-              {loading ? 'ACCEDIENDO...' : 'INICIAR SESIÓN →'}
+              {loading ? 'Accediendo...' : 'Iniciar sesión →'}
             </button>
 
             {/* Resend verification — shown when email not confirmed */}
@@ -216,8 +218,9 @@ function LoginForm() {
                 style={{
                   ...mono, fontSize: 11, letterSpacing: '0.08em',
                   background: 'transparent',
-                  color: C.ink,
-                  border: `2px solid ${C.ink2}`,
+                  color: C.ink2,
+                  border: inkBorder,
+                  borderRadius: R.sm,
                   padding: '12px 16px',
                   cursor: resendLoading ? 'not-allowed' : 'pointer',
                   opacity: resendLoading ? 0.5 : 1,
@@ -230,25 +233,26 @@ function LoginForm() {
           </form>
 
           {/* ── RECOVERY SECTION ─────────────────────────────────── */}
-          <div style={{ marginTop: 32, borderTop: `2px solid ${C.cream2}`, paddingTop: 24 }}>
+          <div style={{ marginTop: 32, borderTop: inkBorder, paddingTop: 24 }}>
             <div style={{ ...mono, fontSize: 10, letterSpacing: '0.12em', color: C.ink2, marginBottom: 14 }}>
               ¿PROBLEMAS PARA ACCEDER?
             </div>
             <Link
               href="/forgot-password"
               style={{
-                ...disp, fontSize: 14,
+                ...bodyFont, fontSize: 14, fontWeight: 500,
                 display: 'block',
                 textAlign: 'center',
-                border: `4px solid ${C.orange}`,
+                border: `1px solid ${C.purple}`,
+                borderRadius: R.sm,
                 background: 'transparent',
-                color: C.orange,
+                color: C.purple,
                 padding: '14px 24px',
                 textDecoration: 'none',
                 transition: 'background 0.15s',
               }}
             >
-              RECUPERAR CONTRASEÑA →
+              Recuperar contraseña →
             </Link>
           </div>
 
@@ -256,7 +260,7 @@ function LoginForm() {
           {!isReviveEmbed && (
             <div className="md:hidden" style={{ ...mono, fontSize: 11, letterSpacing: '0.08em', color: C.ink2, marginTop: 24, textAlign: 'center' }}>
               ¿No tienes cuenta?{' '}
-              <Link href="/register" style={{ color: C.ink, textDecoration: 'underline' }}>
+              <Link href="/register" style={{ color: C.purple, textDecoration: 'underline' }}>
                 REGISTRARSE GRATIS →
               </Link>
             </div>

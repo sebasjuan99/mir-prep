@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
-import { C, mono, disp, bodyFont, inkBorder } from '@/lib/cm'
+import { C, G, R, S, mono, disp, bodyFont, inkBorder, card } from '@/lib/cm'
 import { getScoreLabel } from '@/lib/constants'
 
 interface RespuestaUsuario {
@@ -82,8 +82,9 @@ export default function ResultadoSimulacro({
     .map(r => ({ ...r, pregunta: preguntas.find(p => p.id === r.pregunta_id) }))
     .filter(r => r.pregunta)
 
-  const scoreBg = porcentaje >= 70 ? C.green : porcentaje >= 50 ? C.yellow : C.orange
-  const scoreTextColor = porcentaje >= 50 ? C.cream : C.ink
+  // El bloque de puntuación siempre va oscuro; el color comunica el tramo.
+  const scoreBg = porcentaje >= 70 ? C.greenDark : porcentaje >= 50 ? G.brandVivid : C.magenta
+  const scoreTextColor = '#FFFFFF'
 
   const espEntries = Array.from(porEspecialidad.entries())
 
@@ -91,11 +92,11 @@ export default function ResultadoSimulacro({
     <div style={{ maxWidth: 640, margin: '0 auto', display: 'flex', flexDirection: 'column', gap: 28 }}>
 
       {/* Score stat cell */}
-      <div style={{ border: inkBorder, background: scoreBg, padding: '44px 36px', textAlign: 'center' }}>
-        <div style={{ ...mono, fontSize: 10, letterSpacing: '0.14em', color: scoreTextColor, opacity: 0.65, marginBottom: 10 }}>
+      <div style={{ borderRadius: R.lg, background: scoreBg, boxShadow: S.lg, padding: '44px 36px', textAlign: 'center' }}>
+        <div style={{ ...mono, fontSize: 10, letterSpacing: '0.14em', color: scoreTextColor, opacity: 0.72, marginBottom: 10 }}>
           RESULTADO FINAL
         </div>
-        <div style={{ ...disp, fontSize: 'clamp(4rem, 14vw, 7rem)', color: scoreTextColor, lineHeight: 0.88, marginBottom: 14 }}>
+        <div style={{ ...disp, fontSize: 'clamp(4rem, 14vw, 6rem)', color: scoreTextColor, lineHeight: 1, marginBottom: 14 }}>
           {displayScore}/{total}
         </div>
         <div style={{ ...mono, fontSize: 12, letterSpacing: '0.12em', color: scoreTextColor }}>
@@ -110,8 +111,8 @@ export default function ResultadoSimulacro({
 
       {/* Specialty breakdown */}
       {espEntries.length > 0 && (
-        <div style={{ border: inkBorder }}>
-          <div style={{ ...mono, fontSize: 10, letterSpacing: '0.12em', padding: '11px 16px', background: C.ink, color: C.cream }}>
+        <div style={{ ...card, overflow: 'hidden' }}>
+          <div style={{ ...mono, fontSize: 10, letterSpacing: '0.12em', padding: '13px 16px', background: C.cream2, color: C.ink2, borderBottom: inkBorder }}>
             POR ESPECIALIDAD
           </div>
           {espEntries.map(([esp, data], i) => {
@@ -121,18 +122,18 @@ export default function ResultadoSimulacro({
                 key={esp}
                 style={{
                   padding: '13px 16px',
-                  borderTop: `3px solid ${C.ink}`,
-                  background: C.cream,
+                  borderTop: i === 0 ? 'none' : inkBorder,
+                  background: C.card,
                 }}
               >
                 <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 7 }}>
                   <span style={{ ...bodyFont, fontSize: 14, fontWeight: 600, color: C.ink }}>{esp}</span>
-                  <span style={{ ...mono, fontSize: 10, letterSpacing: '0.06em', color: pct >= 60 ? C.green : C.orange }}>
+                  <span style={{ ...mono, fontSize: 10, letterSpacing: '0.06em', color: pct >= 60 ? C.greenDark : C.magenta }}>
                     {data.correctas}/{data.total}
                   </span>
                 </div>
-                <div style={{ height: 4, background: C.cream2, border: `2px solid ${C.ink}` }}>
-                  <div style={{ height: '100%', width: `${pct}%`, background: pct >= 60 ? C.green : C.orange, transition: 'width 0.6s' }} />
+                <div style={{ height: 6, background: C.cream2, borderRadius: R.pill, overflow: 'hidden' }}>
+                  <div style={{ height: '100%', width: `${pct}%`, borderRadius: R.pill, background: pct >= 60 ? C.green : C.magenta, transition: 'width 0.6s' }} />
                 </div>
               </div>
             )
@@ -165,7 +166,7 @@ export default function ResultadoSimulacro({
                   {e.pregunta!.especialidad} — {e.pregunta!.tema}
                 </span>
               </div>
-              <span style={{ ...mono, fontSize: 9, letterSpacing: '0.06em', color: C.orange }}>
+              <span style={{ ...mono, fontSize: 9, letterSpacing: '0.06em', color: C.danger }}>
                 TU: {e.respuesta} → CORRECTA: {e.pregunta!.respuesta_correcta}
               </span>
             </div>

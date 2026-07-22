@@ -5,7 +5,7 @@ import Image from 'next/image'
 import { usePathname } from 'next/navigation'
 import { useAuth } from '@/hooks/useAuth'
 import { useState } from 'react'
-import { C, mono, inkBorder } from '@/lib/cm'
+import { C, R, S, mono, bodyFont, inkBorder } from '@/lib/cm'
 import { useReviveEmbed } from '@/lib/revive'
 
 interface NavBarProps {
@@ -13,11 +13,11 @@ interface NavBarProps {
 }
 
 const links = [
-  { href: '/dashboard',     label: 'DASHBOARD'     },
-  { href: '/simulacro',     label: 'SIMULACRO'     },
-  { href: '/especialidades', label: 'ESPECIALIDADES' },
-  { href: '/flashcards',    label: '✦ FLASHCARDS IA' },
-  { href: '/cuenta',        label: 'MI CUENTA'     },
+  { href: '/dashboard',      label: 'Dashboard'      },
+  { href: '/simulacro',      label: 'Simulacro'      },
+  { href: '/especialidades', label: 'Especialidades' },
+  { href: '/flashcards',     label: '✦ Flashcards IA' },
+  { href: '/cuenta',         label: 'Mi cuenta'      },
 ]
 
 export default function NavBar({ userEmail }: NavBarProps) {
@@ -31,19 +31,19 @@ export default function NavBar({ userEmail }: NavBarProps) {
   const visibleLinks = isReviveEmbed ? links.filter(l => l.href !== '/cuenta') : links
 
   return (
-    <nav style={{ background: C.cream, borderBottom: inkBorder, position: 'sticky', top: 0, zIndex: 50 }}>
+    <nav style={{ background: C.card, borderBottom: inkBorder, boxShadow: S.xs, position: 'sticky', top: 0, zIndex: 50 }}>
       <div style={{ maxWidth: 1280, margin: '0 auto', padding: '0 clamp(16px, 4vw, 40px)' }}>
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', height: 60 }}>
 
           {/* Brand */}
           <div style={{ display: 'flex', alignItems: 'center', gap: 32 }}>
             <Link href="/dashboard" style={{ display: 'flex', alignItems: 'center', gap: 12, textDecoration: 'none' }}>
-              <Image src="/ape-logo-negro.png" alt="Aurora Pixel Studio" width={44} height={44} style={{ objectFit: 'contain' }} />
-              <span style={{ ...mono, fontSize: 13, letterSpacing: '0.1em', color: C.ink }}>Próximo Residente</span>
+              <Image src="/revive-icon-color.png" alt="Revive" width={44} height={44} style={{ objectFit: 'contain' }} />
+              <span style={{ ...bodyFont, fontWeight: 500, fontSize: 15, color: C.ink }}>Próximo Residente</span>
             </Link>
 
             {/* Desktop nav links */}
-            <div style={{ gap: 0 }} className="hidden md:flex">
+            <div style={{ gap: 4 }} className="hidden md:flex">
               {visibleLinks.map(link => {
                 const active = pathname.startsWith(link.href)
                 return (
@@ -51,14 +51,14 @@ export default function NavBar({ userEmail }: NavBarProps) {
                     key={link.href}
                     href={link.href}
                     style={{
-                      ...mono,
-                      fontSize: 11,
-                      letterSpacing: '0.1em',
-                      padding: '8px 16px',
+                      ...bodyFont,
+                      fontSize: 14,
+                      fontWeight: active ? 600 : 400,
+                      padding: '8px 14px',
+                      borderRadius: R.pill,
                       textDecoration: 'none',
-                      background: active ? C.ink : 'transparent',
-                      color: active ? C.cream : C.ink2,
-                      borderRight: `1px solid ${C.ink2}`,
+                      background: active ? C.purpleSoft : 'transparent',
+                      color: active ? C.purple : C.ink2,
                     }}
                   >
                     {link.label}
@@ -78,14 +78,14 @@ export default function NavBar({ userEmail }: NavBarProps) {
               onClick={() => signOut()}
               className="hidden md:block"
               style={{
-                ...mono, fontSize: 11, letterSpacing: '0.08em',
-                border: inkBorder,
-                background: 'transparent', color: C.ink,
-                padding: '8px 14px',
+                ...bodyFont, fontSize: 13, fontWeight: 500,
+                border: inkBorder, borderRadius: R.sm,
+                background: 'transparent', color: C.ink2,
+                padding: '8px 16px',
                 cursor: 'pointer',
               }}
             >
-              SALIR
+              Salir
             </button>
 
             {/* Mobile menu toggle (hamburger) */}
@@ -95,8 +95,9 @@ export default function NavBar({ userEmail }: NavBarProps) {
               aria-expanded={menuOpen}
               onClick={() => setMenuOpen(!menuOpen)}
               style={{
-                border: inkBorder, background: menuOpen ? C.ink : 'transparent',
-                color: menuOpen ? C.cream : C.ink,
+                border: inkBorder, borderRadius: R.sm,
+                background: menuOpen ? C.purpleSoft : 'transparent',
+                color: menuOpen ? C.purple : C.ink2,
                 width: 44, height: 40, lineHeight: 1, fontSize: 20,
                 alignItems: 'center', justifyContent: 'center',
                 cursor: 'pointer', padding: 0,
@@ -118,15 +119,16 @@ export default function NavBar({ userEmail }: NavBarProps) {
                   href={link.href}
                   onClick={() => setMenuOpen(false)}
                   style={{
-                    ...mono,
-                    fontSize: 13,
-                    letterSpacing: '0.1em',
+                    ...bodyFont,
+                    fontSize: 15,
+                    fontWeight: active ? 600 : 400,
                     display: 'block',
-                    padding: '16px 4px',
+                    padding: '15px 14px',
+                    marginTop: 4,
+                    borderRadius: R.sm,
                     textDecoration: 'none',
-                    borderBottom: `1px solid ${C.ink2}`,
-                    color: active ? C.cream : C.ink2,
-                    background: active ? C.ink : 'transparent',
+                    color: active ? C.purple : C.ink2,
+                    background: active ? C.purpleSoft : 'transparent',
                   }}
                 >
                   {link.label}
@@ -141,12 +143,13 @@ export default function NavBar({ userEmail }: NavBarProps) {
             <button
               onClick={() => { setMenuOpen(false); signOut() }}
               style={{
-                ...mono, fontSize: 12, letterSpacing: '0.08em',
-                border: inkBorder, background: 'transparent', color: C.ink,
+                ...bodyFont, fontSize: 14, fontWeight: 500,
+                border: inkBorder, borderRadius: R.sm,
+                background: 'transparent', color: C.ink2,
                 padding: '14px 0', width: '100%', cursor: 'pointer',
               }}
             >
-              SALIR
+              Salir
             </button>
           </div>
         )}

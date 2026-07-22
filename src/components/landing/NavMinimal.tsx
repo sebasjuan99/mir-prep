@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import { C, mono, inkBorder } from '@/lib/cm'
+import { C, G, R, S, mono, bodyFont, inkBorder } from '@/lib/cm'
 import { CTA_HREF, LOGIN_HREF, CTA_LABEL } from './config'
 
 /**
@@ -9,7 +9,7 @@ import { CTA_HREF, LOGIN_HREF, CTA_LABEL } from './config'
  */
 export default function NavMinimal() {
   return (
-    <header style={{ borderBottom: inkBorder, background: C.cream }}>
+    <header style={{ borderBottom: inkBorder, background: C.card }}>
       <div
         style={{
           maxWidth: 1280,
@@ -23,14 +23,14 @@ export default function NavMinimal() {
       >
         <div style={{ display: 'flex', alignItems: 'center', gap: 12, minWidth: 0 }}>
           <Image
-            src="/ape-logo-negro.png"
+            src="/revive-icon-color.png"
             alt="Próximo Residente"
             width={44}
             height={44}
             style={{ objectFit: 'contain', flexShrink: 0 }}
             priority
           />
-          <span className="hidden sm:inline" style={{ ...mono, fontSize: 14, letterSpacing: '0.1em' }}>
+          <span className="hidden sm:inline" style={{ ...bodyFont, fontWeight: 500, fontSize: 15, letterSpacing: '0.01em' }}>
             Próximo Residente
           </span>
         </div>
@@ -54,18 +54,20 @@ export default function NavMinimal() {
             href={CTA_HREF}
             data-cta="trial"
             style={{
-              ...mono,
-              fontSize: 'clamp(10px, 2.6vw, 12px)',
-              letterSpacing: '0.06em',
-              border: inkBorder,
-              background: C.ink,
-              color: C.cream,
-              padding: '10px clamp(12px, 3vw, 18px)',
+              ...bodyFont,
+              fontWeight: 600,
+              fontSize: 'clamp(11px, 2.6vw, 14px)',
+              border: '1px solid transparent',
+              borderRadius: R.sm,
+              background: G.brandVivid,
+              color: '#FFFFFF',
+              boxShadow: S.brand,
+              padding: '11px clamp(14px, 3vw, 20px)',
               textDecoration: 'none',
               whiteSpace: 'nowrap',
             }}
           >
-            {CTA_LABEL.toUpperCase()}
+            {CTA_LABEL}
           </Link>
         </div>
       </div>
