@@ -175,7 +175,7 @@ export default function PreguntaForm({ initialData, onSave, saving }: PreguntaFo
             )}
             {tema && <span className="px-3 py-1 text-xs font-semibold rounded-full" style={{ background: 'var(--bg-secondary)', color: 'var(--text-muted)' }}>{tema}</span>}
           </div>
-          <p className="text-lg leading-relaxed mb-5 font-[var(--font-body)]" style={{ color: 'var(--text-primary)' }}>{enunciado || 'Enunciado de la pregunta...'}</p>
+          <p className="text-lg leading-relaxed mb-5 font-[var(--font-ui)]" style={{ color: 'var(--text-primary)' }}>{enunciado || 'Enunciado de la pregunta...'}</p>
           {imagenUrl && <img src={imagenUrl} alt="Preview" className="mb-4 max-h-48 rounded-lg object-contain" />}
           <div className="space-y-2">
             {opciones.map((op) => (

@@ -36,17 +36,17 @@ const C = {
 } as const
 
 const disp: CSSProperties = {
-  fontFamily: "var(--font-archivo, 'Archivo Black', sans-serif)",
+  fontFamily: "var(--font-display, 'Roboto Condensed', sans-serif)",
   textTransform: 'uppercase',
   lineHeight: 0.92,
   letterSpacing: '-0.01em',
 }
 const mono: CSSProperties = {
-  fontFamily: "var(--font-jetbrains, 'JetBrains Mono', monospace)",
+  fontFamily: "var(--font-mono, 'Roboto Mono', monospace)",
   textTransform: 'uppercase',
 }
 const bodyFont: CSSProperties = {
-  fontFamily: "var(--font-grotesk, 'Space Grotesk', sans-serif)",
+  fontFamily: "var(--font-ui, 'Roboto', sans-serif)",
 }
 
 const kicker = (bg = C.ink, color = C.cream): CSSProperties => ({

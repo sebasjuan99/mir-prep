@@ -30,7 +30,7 @@ const jsonLd = {
 
 export default function LandingPage() {
   return (
-    <div style={{ fontFamily: "var(--font-grotesk, 'Space Grotesk', sans-serif)", background: C.cream, color: C.ink }}>
+    <div style={{ fontFamily: "var(--font-ui, 'Roboto', sans-serif)", background: C.cream, color: C.ink }}>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
       <NavMinimal />
