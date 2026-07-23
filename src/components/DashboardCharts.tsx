@@ -7,7 +7,7 @@ interface UniversidadStat { universidad: string; total: number; correctas: numbe
 interface SesionesPorExamen { universidad: string; sesiones: number }
 
 const COLOR: Record<string, string> = {
-  MIR: C.ink, ENARM: C.pink, UNAL: C.green, 'El Bosque': C.cream2, Rosario: C.orange, CES: '#2E4057',
+  MIR: '#9B2461', ENARM: '#8D63A6', UNAL: '#71367F', 'El Bosque': '#C9376B', Rosario: '#663D88', CES: '#AF296D',
 }
 const LABEL: Record<string, string> = {
   MIR: 'MIR', ENARM: 'ENARM', UNAL: 'UNAL', 'El Bosque': 'BOSQUE', Rosario: 'ROSARIO', CES: 'CES',

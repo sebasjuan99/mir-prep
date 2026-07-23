@@ -97,7 +97,7 @@ export default function ApiKeyModal({ onClose, onSaved }: ApiKeyModalProps) {
             disabled={loading || !key}
             style={{
               ...disp, fontSize: 13, flex: 1,
-              background: loading ? '#888' : C.ink, color: C.cream,
+              background: loading ? C.ink2 : C.ink, color: '#FFFFFF', borderRadius: 8,
               border: inkBorder, padding: '14px 20px', cursor: loading ? 'not-allowed' : 'pointer',
             }}
           >

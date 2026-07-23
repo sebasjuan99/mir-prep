@@ -47,7 +47,7 @@ export default function AiFlipCard({ card, onDelete }: AiFlipCardProps) {
               <div style={{ ...mono, fontSize: 10, letterSpacing: '0.14em', color: C.ink, opacity: 0.5, marginBottom: 8 }}>
                 {card.especialidad.toUpperCase()} · {card.tipoExamen}
               </div>
-              <div style={{ width: 32, height: 3, background: '#E84A1F', marginBottom: 24 }} />
+              <div style={{ width: 32, height: 3, background: '#C9376B', marginBottom: 24 }} />
             </div>
             <div style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center' }}>
               <div style={{ ...bodyFont, fontSize: 20, fontWeight: 700, color: C.ink, lineHeight: 1.5 }}>
@@ -73,7 +73,7 @@ export default function AiFlipCard({ card, onDelete }: AiFlipCardProps) {
               <div style={{ ...mono, fontSize: 10, letterSpacing: '0.14em', color: C.cream, opacity: 0.5, marginBottom: 8 }}>
                 {card.especialidad.toUpperCase()} · {card.tipoExamen}
               </div>
-              <div style={{ width: 32, height: 3, background: '#E84A1F', marginBottom: 24 }} />
+              <div style={{ width: 32, height: 3, background: '#C9376B', marginBottom: 24 }} />
             </div>
             <div style={{ flex: 1, overflowY: 'auto' }}>
               <div style={{ ...bodyFont, fontSize: 17, color: C.cream, lineHeight: 1.6 }}>

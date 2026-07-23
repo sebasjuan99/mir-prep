@@ -1,20 +1,24 @@
 @import "tailwindcss";
 
+/* Tokens de Revive Design System (tokens/colors.css, tokens/effects.css). */
 :root {
-  --bg-primary: #FAFAF7;
-  --bg-secondary: #F5F0E8;
+  --bg-primary: #FAFAFB;
+  --bg-secondary: #F3F1F5;
   --bg-card: #FFFFFF;
-  --accent: #C17E4A;
-  --accent-dark: #A66832;
-  --accent-light: #F0E0CC;
-  --success: #4A7C59;
-  --success-light: #DCF0E3;
-  --error: #B85C4A;
-  --error-light: #FCDDD9;
-  --text-primary: #1A1A18;
-  --text-muted: #6B6560;
-  --border: #E8E0D5;
-  --shadow: 0 1px 3px rgba(26,26,24,0.08);
+  --accent: #71367F;
+  --accent-dark: #442C71;
+  --accent-light: #F5F1F9;
+  --success: #2F9E6F;
+  --success-light: #E7F5EE;
+  --error: #D23B4E;
+  --error-light: #FBE9EB;
+  --text-primary: #1C1B1F;
+  --text-muted: #565060;
+  --border: #E6E3EA;
+  --shadow: 0 2px 6px rgba(47,31,77,0.07);
+  --shadow-md: 0 8px 24px rgba(47,31,77,0.10);
+  --radius: 16px;
+  --gradient-brand: linear-gradient(120deg, #AF296D 0%, #663D88 100%);
 }
 
 * {
@@ -79,7 +83,7 @@ body {
 .grid-charts > .chart-cell:last-child { border-right: none; }
 /* apiladas en movil: separador inferior en vez del derecho */
 @media (max-width: 767px) {
-  .grid-charts > .chart-cell { border-right: none; border-bottom: 4px solid #0F0F0F; }
+  .grid-charts > .chart-cell { border-right: none; border-bottom: 1px solid var(--border); }
   .grid-charts > .chart-cell:last-child { border-bottom: none; }
 }
 
@@ -231,7 +235,7 @@ body {
   align-items: flex-start;
   gap: 16px;
   padding: 32px clamp(16px, 4vw, 40px);
-  background: #0F0F0F;
+  background: var(--gradient-ink, linear-gradient(160deg, #2F1F4D 0%, #1C1B1F 100%));
 }
 @media (min-width: 560px) {
   .landing-footer {

@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { C, disp, mono, bodyFont, inkBorder } from '@/lib/cm'
+import { C, G, R, S, disp, mono, bodyFont, inkBorder } from '@/lib/cm'
 import { trackEvent, trackMetaEvent } from '@/lib/analytics'
 
 const FEATURES = [
@@ -87,7 +87,7 @@ export default function SuscripcionPage() {
                 ...mono, fontSize: 10, flexShrink: 0,
                 width: 22, height: 22, display: 'flex',
                 alignItems: 'center', justifyContent: 'center',
-                background: C.green, color: C.cream, borderRadius: 0,
+                background: G.brandVivid, color: '#FFFFFF', borderRadius: R.sm, boxShadow: S.brand,
               }}>
                 +
               </div>

@@ -2,7 +2,7 @@
 
 import { useCallback, useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
-import { C, disp, mono, bodyFont, kicker, inkBorder } from '@/lib/cm'
+import { C, G, R, S, disp, mono, bodyFont, kicker, inkBorder } from '@/lib/cm'
 
 type Estado = { status: string; expira: string | null }
 
@@ -179,7 +179,7 @@ export default function CuentaPage() {
                 </p>
                 <button
                   onClick={() => router.push('/suscripcion')}
-                  style={{ ...disp, fontSize: 16, padding: '14px 28px', background: C.green, color: C.cream, border: 'none', cursor: 'pointer', width: '100%' }}
+                  style={{ ...disp, fontSize: 16, padding: '14px 28px', background: G.brandVivid, color: '#FFFFFF', borderRadius: R.sm, boxShadow: S.brand, border: 'none', cursor: 'pointer', width: '100%' }}
                 >
                   REACTIVAR SUSCRIPCIÓN
                 </button>
@@ -189,7 +189,7 @@ export default function CuentaPage() {
             {!activa && !cancelada && (
               <button
                 onClick={() => router.push('/suscripcion')}
-                style={{ ...disp, fontSize: 16, padding: '14px 28px', background: C.green, color: C.cream, border: 'none', cursor: 'pointer', width: '100%' }}
+                style={{ ...disp, fontSize: 16, padding: '14px 28px', background: G.brandVivid, color: '#FFFFFF', borderRadius: R.sm, boxShadow: S.brand, border: 'none', cursor: 'pointer', width: '100%' }}
               >
                 VER PLANES
               </button>

@@ -209,7 +209,7 @@ export default function FlashcardsPage() {
               disabled={saving}
               style={{
                 ...mono, fontSize: 11, letterSpacing: '0.08em',
-                background: C.ink, color: C.cream, border: inkBorder,
+                background: C.ink, color: '#FFFFFF', border: inkBorder, borderRadius: 8,
                 padding: '12px 28px', cursor: saving ? 'not-allowed' : 'pointer',
               }}
             >
@@ -254,7 +254,7 @@ export default function FlashcardsPage() {
               disabled
               style={{
                 ...mono, fontSize: 10, letterSpacing: '0.08em',
-                background: '#ccc', color: C.cream, border: inkBorder,
+                background: C.cream2, color: C.ink2, border: inkBorder, borderRadius: 8,
                 padding: '8px 20px', cursor: 'not-allowed', opacity: 0.5,
               }}
               title="Próximamente"

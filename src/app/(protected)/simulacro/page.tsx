@@ -5,7 +5,7 @@ import { useSimulacro } from '@/hooks/useSimulacro'
 import { useEffect, useState, Suspense } from 'react'
 import FlashCard from '@/components/FlashCard'
 import ResultadoSimulacro from '@/components/ResultadoSimulacro'
-import { C, mono, disp, bodyFont, inkBorder } from '@/lib/cm'
+import { C, R, S, mono, disp, bodyFont, inkBorder, card } from '@/lib/cm'
 
 const EXAM_ID_TO_UNIVERSIDAD: Record<string, string> = {
   unal:    'UNAL',
@@ -17,14 +17,15 @@ const EXAM_ID_TO_UNIVERSIDAD: Record<string, string> = {
   enarm:   'ENARM',
 }
 
+// Franja de color por examen en la escala del manual; el fondo es blanco.
 const UNIVERSIDADES = [
-  { id: 'mir',      label: 'EXAMEN MIR',     pais: 'ESPAÑA',   bg: C.ink,      color: C.cream },
-  { id: 'enarm',    label: 'EXAMEN ENARM',   pais: 'MÉXICO',   bg: C.pink,     color: C.ink   },
-  { id: 'unal',     label: 'UNIV. NACIONAL', pais: 'COLOMBIA', bg: C.green,    color: C.cream },
-  { id: 'ubosque',  label: 'UNIV. BOSQUE',   pais: 'COLOMBIA', bg: C.cream2,   color: C.ink   },
-  { id: 'urosario', label: 'UNIV. ROSARIO',  pais: 'COLOMBIA', bg: C.orange,   color: C.cream },
-  { id: 'uces',     label: 'UNIV. CES',      pais: 'COLOMBIA', bg: '#2E4057', color: C.cream },
-  { id: 'udea',     label: 'UNIV. ANTIOQUIA',pais: 'COLOMBIA', bg: C.greenDark, color: C.cream },
+  { id: 'mir',      label: 'Examen MIR',     pais: 'ESPAÑA',   ac: '#9B2461' },
+  { id: 'enarm',    label: 'Examen ENARM',   pais: 'MÉXICO',   ac: '#8D63A6' },
+  { id: 'unal',     label: 'Univ. Nacional', pais: 'COLOMBIA', ac: '#71367F' },
+  { id: 'ubosque',  label: 'Univ. Bosque',   pais: 'COLOMBIA', ac: '#C9376B' },
+  { id: 'urosario', label: 'Univ. Rosario',  pais: 'COLOMBIA', ac: '#663D88' },
+  { id: 'uces',     label: 'Univ. CES',      pais: 'COLOMBIA', ac: '#AF296D' },
+  { id: 'udea',     label: 'Univ. Antioquia',pais: 'COLOMBIA', ac: '#442C71' },
 ]
 
 interface EnCurso { sesion_id: string; tipo: string; universidad: string | null; total: number; respondidas: number }
@@ -76,10 +77,10 @@ function SimulacroContent() {
     return (
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '60vh' }}>
         <div style={{ textAlign: 'center' }}>
-          <div style={{ ...disp, fontSize: 'clamp(2rem, 5vw, 4rem)', color: C.ink, marginBottom: 12 }}>
-            PREPARANDO...
+          <div style={{ ...disp, fontSize: 'clamp(2rem, 5vw, 3.4rem)', color: C.ink, marginBottom: 12 }}>
+            Preparando...
           </div>
-          <div style={{ ...mono, fontSize: 10, letterSpacing: '0.12em', color: C.ink, opacity: 0.45 }}>
+          <div style={{ ...mono, fontSize: 10, letterSpacing: '0.12em', color: C.ink2 }}>
             SELECCIONANDO 20 PREGUNTAS
           </div>
         </div>
@@ -122,15 +123,15 @@ function SimulacroContent() {
     return (
       <div style={{ maxWidth: 640, margin: '0 auto' }}>
         <div style={{ marginBottom: 48 }}>
-          <div style={{ ...mono, fontSize: 10, letterSpacing: '0.12em', color: C.ink, opacity: 0.45, marginBottom: 10 }}>
+          <div style={{ ...mono, fontSize: 10, letterSpacing: '0.12em', color: C.ink2, marginBottom: 10 }}>
             {modoCompleto ? 'SIMULACRO COMPLETO / 100 PREGUNTAS' : 'SIMULACRO / POR UNIVERSIDAD'}
           </div>
-          <h1 style={{ ...disp, fontSize: 'clamp(2.5rem, 5vw, 5rem)', color: C.ink, margin: 0 }}>
-            ELIGE UNIVERSIDAD
+          <h1 style={{ ...disp, fontSize: 'clamp(2.2rem, 5vw, 3.6rem)', color: C.ink, margin: 0 }}>
+            Elige universidad
           </h1>
         </div>
 
-        <div style={{ border: inkBorder, marginBottom: 24 }}>
+        <div style={{ ...card, overflow: 'hidden', marginBottom: 24 }}>
           {UNIVERSIDADES.map((univ, i) => (
             <button
               key={univ.id}
@@ -138,20 +139,21 @@ function SimulacroContent() {
               style={{
                 display: 'flex', alignItems: 'center', gap: 24,
                 width: '100%', padding: '22px 28px', textAlign: 'left',
-                background: univ.bg, cursor: 'pointer',
+                background: C.card, cursor: 'pointer',
                 border: 'none',
-                borderBottom: i < UNIVERSIDADES.length - 1 ? `3px solid ${C.ink}` : 'none',
+                borderLeft: `3px solid ${univ.ac}`,
+                borderBottom: i < UNIVERSIDADES.length - 1 ? inkBorder : 'none',
               }}
             >
               <div style={{ flex: 1 }}>
-                <div style={{ ...mono, fontSize: 9, letterSpacing: '0.14em', color: univ.color, opacity: 0.65, marginBottom: 4 }}>
+                <div style={{ ...mono, fontSize: 9, letterSpacing: '0.14em', color: C.ink2, marginBottom: 4 }}>
                   {univ.pais}
                 </div>
-                <div style={{ ...disp, fontSize: 'clamp(1rem, 2.5vw, 1.4rem)', color: univ.color }}>
+                <div style={{ ...disp, fontSize: 'clamp(1rem, 2.5vw, 1.35rem)', color: C.ink }}>
                   {univ.label}
                 </div>
               </div>
-              <div style={{ ...mono, fontSize: 9, letterSpacing: '0.1em', color: univ.color, opacity: 0.55 }}>
+              <div style={{ ...mono, fontSize: 9, letterSpacing: '0.1em', color: univ.ac }}>
                 {modoCompleto ? '100 PREGUNTAS →' : 'INICIAR →'}
               </div>
             </button>
@@ -162,8 +164,8 @@ function SimulacroContent() {
           onClick={() => { setShowUnivSelect(false); setModoCompleto(false) }}
           style={{
             ...mono, fontSize: 10, letterSpacing: '0.1em',
-            background: 'transparent', border: inkBorder, padding: '10px 20px',
-            cursor: 'pointer', color: C.ink,
+            background: 'transparent', border: inkBorder, borderRadius: R.sm, padding: '10px 20px',
+            cursor: 'pointer', color: C.ink2,
           }}
         >
           ← VOLVER
@@ -176,31 +178,31 @@ function SimulacroContent() {
   const opciones = [
     {
       num: '01',
-      label: 'ALEATORIO',
+      label: 'Aleatorio',
       desc: '20 preguntas de todas las especialidades al azar',
       action: () => iniciarSimulacro('aleatorio'),
     },
     {
       num: '02',
-      label: 'REPASAR ERRORES',
+      label: 'Repasar errores',
       desc: 'Solo preguntas que has fallado anteriormente',
       action: () => iniciarSimulacro('repaso_errores'),
     },
     {
       num: '03',
-      label: 'POR ESPECIALIDAD',
+      label: 'Por especialidad',
       desc: 'Elige una especialidad para practicar en profundidad',
       action: () => router.push('/especialidades'),
     },
     {
       num: '04',
-      label: 'POR UNIVERSIDAD',
+      label: 'Por universidad',
       desc: 'Practica con preguntas reales de MIR, ENARM, UNAL, El Bosque o Rosario',
       action: () => { setModoCompleto(false); setShowUnivSelect(true) },
     },
     {
       num: '05',
-      label: 'SIMULACRO COMPLETO',
+      label: 'Simulacro completo',
       desc: '100 preguntas de una universidad. Puedes pausarlo y continuar luego.',
       action: () => { setModoCompleto(true); setShowUnivSelect(true) },
     },
@@ -209,11 +211,11 @@ function SimulacroContent() {
   return (
     <div style={{ maxWidth: 640, margin: '0 auto' }}>
       <div style={{ marginBottom: 48 }}>
-        <div style={{ ...mono, fontSize: 10, letterSpacing: '0.12em', color: C.ink, opacity: 0.45, marginBottom: 10 }}>
+        <div style={{ ...mono, fontSize: 10, letterSpacing: '0.12em', color: C.ink2, marginBottom: 10 }}>
           SIMULACRO
         </div>
-        <h1 style={{ ...disp, fontSize: 'clamp(2.5rem, 5vw, 5rem)', color: C.ink, margin: 0 }}>
-          NUEVO SIMULACRO
+        <h1 style={{ ...disp, fontSize: 'clamp(2.2rem, 5vw, 3.6rem)', color: C.ink, margin: 0 }}>
+          Nuevo simulacro
         </h1>
       </div>
 
@@ -223,25 +225,26 @@ function SimulacroContent() {
           style={{
             display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 16,
             width: '100%', textAlign: 'left', cursor: 'pointer',
-            background: C.green, color: C.cream, border: inkBorder, padding: '20px 24px', marginBottom: 24,
+            background: C.greenSoft, color: C.ink, border: '1px solid #BFE3D1',
+            borderRadius: R.lg, boxShadow: S.sm, padding: '20px 24px', marginBottom: 24,
           }}
         >
           <div>
-            <div style={{ ...mono, fontSize: 9, letterSpacing: '0.14em', opacity: 0.7, marginBottom: 6 }}>
+            <div style={{ ...mono, fontSize: 9, letterSpacing: '0.14em', color: C.greenDark, marginBottom: 6 }}>
               SIMULACRO EN CURSO{enCurso.universidad ? ` · ${enCurso.universidad}` : ''}
             </div>
-            <div style={{ ...disp, fontSize: 'clamp(1.1rem, 2.5vw, 1.5rem)' }}>
-              CONTINUAR DONDE QUEDASTE
+            <div style={{ ...disp, fontSize: 'clamp(1.1rem, 2.5vw, 1.4rem)' }}>
+              Continuar donde quedaste
             </div>
-            <div style={{ ...mono, fontSize: 10, letterSpacing: '0.06em', opacity: 0.8, marginTop: 4 }}>
+            <div style={{ ...mono, fontSize: 10, letterSpacing: '0.06em', color: C.ink2, marginTop: 4 }}>
               {enCurso.respondidas}/{enCurso.total} RESPONDIDAS
             </div>
           </div>
-          <div style={{ ...mono, fontSize: 11, letterSpacing: '0.1em' }}>CONTINUAR →</div>
+          <div style={{ ...mono, fontSize: 11, letterSpacing: '0.1em', color: C.greenDark }}>CONTINUAR →</div>
         </button>
       )}
 
-      <div style={{ border: inkBorder }}>
+      <div style={{ ...card, overflow: 'hidden' }}>
         {opciones.map((op, i) => (
           <button
             key={op.num}
@@ -249,24 +252,24 @@ function SimulacroContent() {
             style={{
               display: 'flex', alignItems: 'flex-start', gap: 24,
               width: '100%', padding: '28px 32px', textAlign: 'left',
-              background: C.cream, cursor: 'pointer',
+              background: C.card, cursor: 'pointer',
               border: 'none', borderTop: 'none', borderLeft: 'none', borderRight: 'none',
-              borderBottomWidth: i < opciones.length - 1 ? 3 : 0,
+              borderBottomWidth: i < opciones.length - 1 ? 1 : 0,
               borderBottomStyle: 'solid',
-              borderBottomColor: C.ink,
+              borderBottomColor: C.line,
             }}
           >
             <div style={{
-              ...disp, fontSize: 'clamp(2.5rem, 6vw, 4rem)', color: C.ink,
-              opacity: 0.12, lineHeight: 1, flexShrink: 0, width: 72,
+              ...disp, fontSize: 'clamp(2rem, 6vw, 3rem)', color: C.purple,
+              opacity: 0.22, lineHeight: 1, flexShrink: 0, width: 72,
             }}>
               {op.num}
             </div>
             <div style={{ paddingTop: 6 }}>
-              <div style={{ ...disp, fontSize: 'clamp(1.1rem, 2.5vw, 1.5rem)', color: C.ink, marginBottom: 8 }}>
+              <div style={{ ...disp, fontSize: 'clamp(1.1rem, 2.5vw, 1.4rem)', color: C.ink, marginBottom: 8 }}>
                 {op.label}
               </div>
-              <div style={{ ...bodyFont, fontSize: 14, color: C.ink, opacity: 0.55, lineHeight: 1.5 }}>
+              <div style={{ ...bodyFont, fontSize: 14, color: C.ink2, lineHeight: 1.6 }}>
                 {op.desc}
               </div>
             </div>
@@ -281,8 +284,8 @@ export default function SimulacroPage() {
   return (
     <Suspense fallback={
       <div style={{ display: 'flex', justifyContent: 'center', paddingTop: 80 }}>
-        <div style={{ fontFamily: "'Archivo Black', sans-serif", fontSize: '2rem', textTransform: 'uppercase', color: C.ink, opacity: 0.3 }}>
-          CARGANDO...
+        <div style={{ ...disp, fontSize: '2rem', color: C.ink2 }}>
+          Cargando...
         </div>
       </div>
     }>

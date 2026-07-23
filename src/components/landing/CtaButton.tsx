@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import { useState, type CSSProperties } from 'react'
-import { C, disp, mono, inkBorder } from '@/lib/cm'
+import { C, G, R, S, bodyFont, mono } from '@/lib/cm'
 import { CTA_HREF, CTA_LABEL, CTA_MICROCOPY } from './config'
 
 type CtaButtonProps = {
@@ -31,10 +31,11 @@ export default function CtaButton({
 }: CtaButtonProps) {
   const [hover, setHover] = useState(false)
 
+  // 'dark' = degradado de marca sobre fondo claro.
+  // 'cream' = botón blanco sólido para secciones de fondo oscuro.
   const isDark = variant === 'dark'
-  const bg = isDark ? C.ink : C.cream
-  const fg = isDark ? C.cream : C.ink
-  const shadowColor = C.pink
+  const bg = isDark ? G.brandVivid : '#FFFFFF'
+  const fg = isDark ? '#FFFFFF' : C.purpleDeep
 
   return (
     <div style={{ textAlign: align, ...style }}>
@@ -44,17 +45,19 @@ export default function CtaButton({
         onMouseLeave={() => setHover(false)}
         data-cta="trial"
         style={{
-          ...disp,
-          fontSize: 'clamp(15px, 1.1vw, 19px)',
+          ...bodyFont,
+          fontWeight: 600,
+          fontSize: 'clamp(15px, 1.1vw, 18px)',
           display: 'inline-block',
-          border: inkBorder,
+          border: '1px solid transparent',
+          borderRadius: R.sm,
           background: bg,
           color: fg,
-          padding: '18px 34px',
+          padding: '17px 32px',
           textDecoration: 'none',
-          transform: hover ? 'translate(-3px, -3px)' : 'translate(0, 0)',
-          boxShadow: hover ? `6px 6px 0 ${shadowColor}, 6px 6px 0 4px ${C.ink}` : '0 0 0 rgba(0,0,0,0)',
-          transition: 'transform 0.15s ease, box-shadow 0.15s ease',
+          transform: hover ? 'translateY(-2px)' : 'translateY(0)',
+          boxShadow: hover ? S.lg : (isDark ? S.brand : S.md),
+          transition: 'transform 0.2s ease, box-shadow 0.2s ease',
         }}
       >
         {label} →

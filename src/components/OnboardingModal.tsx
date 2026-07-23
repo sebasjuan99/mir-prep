@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import { C, disp, mono, bodyFont, inkBorder } from '@/lib/cm'
+import { C, G, R, S, disp, mono, bodyFont, inkBorder } from '@/lib/cm'
 
 interface Perfil {
   nombre: string | null
@@ -104,7 +104,7 @@ export default function OnboardingModal() {
           <button
             type="submit"
             disabled={saving}
-            style={{ ...disp, fontSize: 16, padding: '14px 28px', background: C.green, color: C.cream, border: 'none', cursor: saving ? 'wait' : 'pointer', marginTop: 4 }}
+            style={{ ...disp, fontSize: 16, padding: '14px 28px', background: G.brandVivid, color: '#FFFFFF', borderRadius: R.sm, boxShadow: S.brand, border: 'none', cursor: saving ? 'wait' : 'pointer', marginTop: 4 }}
           >
             {saving ? 'GUARDANDO...' : 'GUARDAR Y CONTINUAR'}
           </button>
