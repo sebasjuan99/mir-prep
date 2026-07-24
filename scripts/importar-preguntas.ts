@@ -104,9 +104,19 @@ function normDificultad(raw?: string): string {
   return 'media'
 }
 
+// Una pregunta de 2 opciones se acepta SOLO si es Verdadero/Falso (o Sí/No).
+function esVerdaderoFalso(q: Pregunta): boolean {
+  if (!Array.isArray(q.opciones) || q.opciones.length !== 2) return false
+  const t = q.opciones.map((o) => (o?.texto || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').trim())
+  const set = new Set(t)
+  return (set.has('verdadero') && set.has('falso')) || (set.has('si') && set.has('no'))
+}
+
 function valida(q: Pregunta): string | null {
   if (!q.enunciado || q.enunciado.length < 20) return 'enunciado corto/ausente'
-  if (!Array.isArray(q.opciones) || q.opciones.length < 4 || q.opciones.length > 5) return `opciones=${q.opciones?.length}`
+  const n = Array.isArray(q.opciones) ? q.opciones.length : 0
+  const okLen = (n >= 4 && n <= 5) || (n === 2 && esVerdaderoFalso(q))
+  if (!okLen) return `opciones=${n}`
   const letras = q.opciones.map((o) => o?.letra)
   if (q.opciones.some((o) => !o?.letra || !o?.texto)) return 'opción con letra/texto vacío'
   if (!/^[A-E]$/.test(q.respuesta_correcta || '')) return `respuesta_correcta="${q.respuesta_correcta}"`

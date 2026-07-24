@@ -1,0 +1,4227 @@
+{
+  "examen": "UNIVALLE",
+  "nombre": "Univalle",
+  "anio": 2024,
+  "fuente": "Reconstrucciones Univalle 2016 y 2024",
+  "preguntas": [
+    {
+      "enunciado": "La concentración intracelular (mM) del HCO3- es aproximadamente:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "1"
+        },
+        {
+          "letra": "B",
+          "texto": "4"
+        },
+        {
+          "letra": "C",
+          "texto": "7"
+        },
+        {
+          "letra": "D",
+          "texto": "10"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Fisiología",
+      "tema": "Equilibrio ácido-base y bicarbonato intracelular",
+      "dificultad": "alta",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "Es inhibidor de la bomba Na/K:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Tapsigargina"
+        },
+        {
+          "letra": "B",
+          "texto": "Digital"
+        },
+        {
+          "letra": "C",
+          "texto": "Omeprazol"
+        },
+        {
+          "letra": "D",
+          "texto": "Oligomicina"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Farmacología",
+      "tema": "Bomba Na/K-ATPasa y glucósidos cardíacos",
+      "dificultad": "media",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "La fibra tipo I del músculo esquelético tiene un metabolismo GLUCOLÍTICO.",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Verdadero"
+        },
+        {
+          "letra": "B",
+          "texto": "Falso"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Fisiología",
+      "tema": "Tipos de fibra muscular esquelética",
+      "dificultad": "media",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "Par craneal cuya función sensorial sobre el gusto proviene de la parte posterior de la lengua y cavidad oral:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Trigémino"
+        },
+        {
+          "letra": "B",
+          "texto": "Glosofaríngeo"
+        },
+        {
+          "letra": "C",
+          "texto": "Vago"
+        },
+        {
+          "letra": "D",
+          "texto": "Hipogloso"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Anatomía",
+      "tema": "Pares craneales y gusto",
+      "dificultad": "media",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "Paciente con sordera a quien se le realiza la prueba de Weber (base del diapasón vibratorio sobre el vértex del cráneo) y relata un sonido más fuerte en el oído normal; su sordera es del tipo NEUROSENSORIAL.",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Verdadero"
+        },
+        {
+          "letra": "B",
+          "texto": "Falso"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Otorrinolaringología",
+      "tema": "Prueba de Weber e hipoacusia",
+      "dificultad": "media",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "Provoca vasoconstricción sobre el músculo liso vascular:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Óxido nítrico"
+        },
+        {
+          "letra": "B",
+          "texto": "Tromboxano"
+        },
+        {
+          "letra": "C",
+          "texto": "Acetilcolina"
+        },
+        {
+          "letra": "D",
+          "texto": "Sustancia P"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Fisiología",
+      "tema": "Mediadores vasoactivos del músculo liso vascular",
+      "dificultad": "media",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "Durante la espiración ocurre lo siguiente, EXCEPTO:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "El volumen torácico aumenta"
+        },
+        {
+          "letra": "B",
+          "texto": "La presión intrapleural se hace más negativa"
+        },
+        {
+          "letra": "C",
+          "texto": "El gradiente de presión transmural alveolar disminuye"
+        },
+        {
+          "letra": "D",
+          "texto": "La presión alveolar cae por debajo de la presión atmosférica"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Fisiología",
+      "tema": "Mecánica ventilatoria de la espiración",
+      "dificultad": "alta",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "La presión alveolar aumentada durante la ventilación con presión positiva DISMINUYE el efecto sobre la resistencia vascular pulmonar.",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Verdadero"
+        },
+        {
+          "letra": "B",
+          "texto": "Falso"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Fisiología",
+      "tema": "Resistencia vascular pulmonar y ventilación con presión positiva",
+      "dificultad": "alta",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "Es causa común de acidosis respiratoria la miastenia grave.",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Verdadero"
+        },
+        {
+          "letra": "B",
+          "texto": "Falso"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neumología",
+      "tema": "Causas de acidosis respiratoria",
+      "dificultad": "media",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "La somatostatina es un regulador neurohormonal fisiológico PARACRINO en la función gastrointestinal.",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Verdadero"
+        },
+        {
+          "letra": "B",
+          "texto": "Falso"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Fisiología",
+      "tema": "Regulación paracrina gastrointestinal (somatostatina)",
+      "dificultad": "media",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "La vía aferente del vago participa en los siguientes reflejos respiratorios, EXCEPTO:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "De inflación de Hering-Breuer"
+        },
+        {
+          "letra": "B",
+          "texto": "Paradójico"
+        },
+        {
+          "letra": "C",
+          "texto": "Quimiorreceptor arterial"
+        },
+        {
+          "letra": "D",
+          "texto": "Dilatador arterial"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Fisiología",
+      "tema": "Reflejos respiratorios y nervio vago",
+      "dificultad": "alta",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "Son carbohidratos importantes desde el punto de vista nutricional, EXCEPTO:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Amilopectina"
+        },
+        {
+          "letra": "B",
+          "texto": "Soya"
+        },
+        {
+          "letra": "C",
+          "texto": "Sacarosa"
+        },
+        {
+          "letra": "D",
+          "texto": "Lactosa"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Bioquímica",
+      "tema": "Carbohidratos de importancia nutricional",
+      "dificultad": "media",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "En la regulación del calcio y en el metabolismo óseo, la paratohormona incrementa la resorción ósea y el calcio plasmático.",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Verdadero"
+        },
+        {
+          "letra": "B",
+          "texto": "Falso"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Endocrinología",
+      "tema": "Paratohormona y metabolismo del calcio",
+      "dificultad": "baja",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "La insulina estimula los siguientes procesos, EXCEPTO:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Transporte de la glucosa en tejido adiposo y el músculo"
+        },
+        {
+          "letra": "B",
+          "texto": "Formación de urea"
+        },
+        {
+          "letra": "C",
+          "texto": "Transporte de aminoácidos en los tejidos"
+        },
+        {
+          "letra": "D",
+          "texto": "Captación de los triglicéridos de la sangre hacia el tejido adiposo y músculo"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Endocrinología",
+      "tema": "Acciones metabólicas de la insulina",
+      "dificultad": "media",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "Son funciones del epidídimo, EXCEPTO:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Fagocitosis de los espermatozoides envejecidos"
+        },
+        {
+          "letra": "B",
+          "texto": "Secreción y almacenamiento del sustrato energético preferido por los espermatozoides"
+        },
+        {
+          "letra": "C",
+          "texto": "Glucoconjugación de los espermatozoides"
+        },
+        {
+          "letra": "D",
+          "texto": "Reservorio para espermatozoides maduros"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Fisiología",
+      "tema": "Funciones del epidídimo",
+      "dificultad": "alta",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "La mifepristona es un antiprogestágeno que produce incremento en la síntesis de prostaglandina F2 alfa, lo que ocasiona la expulsión del embrión.",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Verdadero"
+        },
+        {
+          "letra": "B",
+          "texto": "Falso"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Farmacología",
+      "tema": "Mecanismo de acción de la mifepristona",
+      "dificultad": "media",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "La desaminación es una reacción oxidativa de cuál de los siguientes fármacos:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Imipramina"
+        },
+        {
+          "letra": "B",
+          "texto": "Codeína"
+        },
+        {
+          "letra": "C",
+          "texto": "Diazepam"
+        },
+        {
+          "letra": "D",
+          "texto": "Cimetidina"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Farmacología",
+      "tema": "Metabolismo de fármacos (desaminación oxidativa)",
+      "dificultad": "alta",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "A una dosis de 0.5 mg de atropina, sus efectos son los siguientes, EXCEPTO:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Disminución leve de la frecuencia cardiaca"
+        },
+        {
+          "letra": "B",
+          "texto": "Ataxia"
+        },
+        {
+          "letra": "C",
+          "texto": "Cierta sequedad bucal"
+        },
+        {
+          "letra": "D",
+          "texto": "Inhibición de la sudación"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Farmacología",
+      "tema": "Efectos de la atropina según dosis",
+      "dificultad": "media",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "Luego de la administración de una solución intravenosa de adrenalina se presentan aumentados (+++) los siguientes efectos, EXCEPTO:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Gasto cardiaco"
+        },
+        {
+          "letra": "B",
+          "texto": "Resistencia periférica total"
+        },
+        {
+          "letra": "C",
+          "texto": "Presión arterial sistólica"
+        },
+        {
+          "letra": "D",
+          "texto": "Flujo sanguíneo muscular"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Farmacología",
+      "tema": "Efectos cardiovasculares de la adrenalina",
+      "dificultad": "alta",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "Clínicamente la fluoxetina puede ser utilizada en las siguientes indicaciones, EXCEPTO:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Depresión"
+        },
+        {
+          "letra": "B",
+          "texto": "Trastorno obsesivo compulsivo"
+        },
+        {
+          "letra": "C",
+          "texto": "Migraña"
+        },
+        {
+          "letra": "D",
+          "texto": "Trastorno de pánico"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Farmacología",
+      "tema": "Indicaciones clínicas de la fluoxetina",
+      "dificultad": "media",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "Las siguientes benzodiacepinas pueden ser indicadas en insomnio, EXCEPTO:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Quazepam"
+        },
+        {
+          "letra": "B",
+          "texto": "Oxazepam"
+        },
+        {
+          "letra": "C",
+          "texto": "Flurazepam"
+        },
+        {
+          "letra": "D",
+          "texto": "Triazolam"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Farmacología",
+      "tema": "Benzodiacepinas hipnóticas en insomnio",
+      "dificultad": "alta",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "La carbamazepina puede ser utilizada como anticonvulsivante epiléptico en las siguientes crisis, EXCEPTO:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Convulsión parcial simple"
+        },
+        {
+          "letra": "B",
+          "texto": "Crisis de ausencia"
+        },
+        {
+          "letra": "C",
+          "texto": "Convulsión parcial compleja"
+        },
+        {
+          "letra": "D",
+          "texto": "Convulsión generalizada tónico clónica"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Farmacología",
+      "tema": "Indicaciones de la carbamazepina",
+      "dificultad": "media",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "Son síntomas del síndrome de abstinencia de alcohol, EXCEPTO:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Taquicardia"
+        },
+        {
+          "letra": "B",
+          "texto": "Náusea"
+        },
+        {
+          "letra": "C",
+          "texto": "Miosis"
+        },
+        {
+          "letra": "D",
+          "texto": "Diarrea"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Psiquiatría",
+      "tema": "Síndrome de abstinencia alcohólica",
+      "dificultad": "media",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "El tratamiento recomendado (y alternativas) contra la angina en un paciente con hipertensión general son los antagonistas de canales de calcio.",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Verdadero"
+        },
+        {
+          "letra": "B",
+          "texto": "Falso"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cardiología",
+      "tema": "Tratamiento de angina en hipertensos",
+      "dificultad": "media",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "La milrinona, como vasodilatador en el manejo de la insuficiencia cardiaca, lo hace estimulando la degradación de AMP cíclico.",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Verdadero"
+        },
+        {
+          "letra": "B",
+          "texto": "Falso"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Farmacología",
+      "tema": "Mecanismo de acción de la milrinona (inhibidor de fosfodiesterasa)",
+      "dificultad": "alta",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "Es un factor de riesgo para cardiopatía coronaria:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Varones < 45 años"
+        },
+        {
+          "letra": "B",
+          "texto": "HDL-C > 40 mg / 100 ml"
+        },
+        {
+          "letra": "C",
+          "texto": "Índice de masa corporal > 25 Kg/m2"
+        },
+        {
+          "letra": "D",
+          "texto": "Circunferencia de la cintura menor de 101.6 cm en varones"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Cardiología",
+      "tema": "Factores de riesgo de cardiopatía coronaria",
+      "dificultad": "media",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "Entre los fármacos laxantes estimulantes o irritantes inespecíficos (con efectos en la secreción de líquido y la motilidad) están los siguientes, EXCEPTO:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Difenilmetanos"
+        },
+        {
+          "letra": "B",
+          "texto": "Antraquinonas"
+        },
+        {
+          "letra": "C",
+          "texto": "Aceite de ricino"
+        },
+        {
+          "letra": "D",
+          "texto": "Agonistas del receptor 5-HT4"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Farmacología",
+      "tema": "Clasificación de laxantes",
+      "dificultad": "alta",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "En una paciente a quien se le practicará una cesárea de alto riesgo se recomienda profilácticamente cefazolina 1 g IV durante la inducción de la anestesia o luego de la ligadura del cordón.",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Verdadero"
+        },
+        {
+          "letra": "B",
+          "texto": "Falso"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Profilaxis antibiótica en cesárea",
+      "dificultad": "media",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "Es una sulfonamida de absorción y excreción rápida:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Sulfasalazina"
+        },
+        {
+          "letra": "B",
+          "texto": "Sulfacetamida"
+        },
+        {
+          "letra": "C",
+          "texto": "Sulfisoxazol"
+        },
+        {
+          "letra": "D",
+          "texto": "Sulfadoxina"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Farmacología",
+      "tema": "Clasificación de las sulfonamidas",
+      "dificultad": "alta",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "El tratamiento de primera línea para tuberculosis por M. tuberculosis incluye:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Isoniazida + Rifampicina + Pirazinamida + Etambutol o estreptomicina"
+        },
+        {
+          "letra": "B",
+          "texto": "Claritromicina o azitromicina + etambutol con o sin rifabutina"
+        },
+        {
+          "letra": "C",
+          "texto": "Isoniazida + Rifampicina + Etambutol"
+        },
+        {
+          "letra": "D",
+          "texto": "Amikacina + Doxiciclina"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Infectología",
+      "tema": "Tratamiento de primera línea de tuberculosis",
+      "dificultad": "media",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "El itraconazol aumenta la concentración de los siguientes fármacos, EXCEPTO:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Diazepam"
+        },
+        {
+          "letra": "B",
+          "texto": "Fenitoína"
+        },
+        {
+          "letra": "C",
+          "texto": "Digoxina"
+        },
+        {
+          "letra": "D",
+          "texto": "Haloperidol"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Farmacología",
+      "tema": "Interacciones farmacológicas del itraconazol",
+      "dificultad": "alta",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "La eritropoyetina estimula la proliferación y maduración de progenitores eritroides comprometidos para aumentar la producción de eritrocitos.",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Verdadero"
+        },
+        {
+          "letra": "B",
+          "texto": "Falso"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Hematología",
+      "tema": "Eritropoyetina y eritropoyesis",
+      "dificultad": "baja",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "Es el organelo más grande de la célula, con límites bien definidos:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Núcleo"
+        },
+        {
+          "letra": "B",
+          "texto": "Nucléolo"
+        },
+        {
+          "letra": "C",
+          "texto": "Membrana plasmática"
+        },
+        {
+          "letra": "D",
+          "texto": "Aparato de Golgi"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Patología",
+      "tema": "Estructura celular y organelos",
+      "dificultad": "baja",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "Es característica de apoptosis:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Tumefacción celular"
+        },
+        {
+          "letra": "B",
+          "texto": "Retracción celular"
+        },
+        {
+          "letra": "C",
+          "texto": "Lesión de la membrana plasmática"
+        },
+        {
+          "letra": "D",
+          "texto": "Degradación aleatoria del DNA"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Patología",
+      "tema": "Características de la apoptosis",
+      "dificultad": "media",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "Típicamente el epitelio de revestimiento estratificado cilíndrico está en:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "La unión anorrectal"
+        },
+        {
+          "letra": "B",
+          "texto": "La vejiga"
+        },
+        {
+          "letra": "C",
+          "texto": "El conducto deferente"
+        },
+        {
+          "letra": "D",
+          "texto": "La vesícula biliar"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Anatomía",
+      "tema": "Histología de epitelios de revestimiento",
+      "dificultad": "alta",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "Paciente con fracturas a repetición luego de traumatismos leves, huesos quebradizos, dientes anormales, piel delgada, tendones débiles, escleróticas azules, hipoacusia progresiva y colágeno tipo I alterado. Tipo de colagenosis humana:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Osteogénesis imperfecta"
+        },
+        {
+          "letra": "B",
+          "texto": "Acondrogénesis tipo 2"
+        },
+        {
+          "letra": "C",
+          "texto": "Condroplasia metafisiaria de Schmid"
+        },
+        {
+          "letra": "D",
+          "texto": "Displasia epifisiaria múltiple"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Genética",
+      "tema": "Osteogénesis imperfecta y colágeno tipo I",
+      "dificultad": "media",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "Su principal función o efecto es regular el apetito y el consumo energético del organismo:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Adipsina"
+        },
+        {
+          "letra": "B",
+          "texto": "Leptina"
+        },
+        {
+          "letra": "C",
+          "texto": "Resistina"
+        },
+        {
+          "letra": "D",
+          "texto": "Adipofilina"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Endocrinología",
+      "tema": "Adipoquinas y regulación del apetito (leptina)",
+      "dificultad": "media",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "Paciente con tipo de sangre A que requiere ser transfundido. Podría recibir sangre de:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "A"
+        },
+        {
+          "letra": "B",
+          "texto": "B"
+        },
+        {
+          "letra": "C",
+          "texto": "AB"
+        },
+        {
+          "letra": "D",
+          "texto": "Solo O"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Hematología",
+      "tema": "Compatibilidad de grupos sanguíneos ABO",
+      "dificultad": "baja",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "Estimula la liberación de histamina, heparina, leucotrienos y factor quimiotáctico eosinofílico de la anafilaxia por los mastocitos:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "IgG"
+        },
+        {
+          "letra": "B",
+          "texto": "IgM"
+        },
+        {
+          "letra": "C",
+          "texto": "IgA"
+        },
+        {
+          "letra": "D",
+          "texto": "IgE"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Inmunología",
+      "tema": "Inmunoglobulinas y degranulación de mastocitos",
+      "dificultad": "baja",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "Estimula la secreción ácida gástrica:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Gastrina"
+        },
+        {
+          "letra": "B",
+          "texto": "Motilina"
+        },
+        {
+          "letra": "C",
+          "texto": "Secretina"
+        },
+        {
+          "letra": "D",
+          "texto": "Colecistocinina"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Fisiología",
+      "tema": "Hormonas gastrointestinales y secreción ácida",
+      "dificultad": "baja",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "Estimula el desarrollo folicular en el ovario y la espermatogénesis en el testículo:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Hormona tiroestimulante"
+        },
+        {
+          "letra": "B",
+          "texto": "Hormona foliculoestimulante"
+        },
+        {
+          "letra": "C",
+          "texto": "Hormona del crecimiento"
+        },
+        {
+          "letra": "D",
+          "texto": "Hormona adenocorticotrófica"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Endocrinología",
+      "tema": "Hormonas hipofisarias y función gonadal (FSH)",
+      "dificultad": "baja",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "La exactitud se refiere a cuánto concuerdan dos o más mediciones de una misma cantidad.",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Verdadero"
+        },
+        {
+          "letra": "B",
+          "texto": "Falso"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Exactitud y precisión en mediciones",
+      "dificultad": "media",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "La precisión indica cuán cerca está una medición del valor real de la cantidad medida.",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Verdadero"
+        },
+        {
+          "letra": "B",
+          "texto": "Falso"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Concepto de precisión en mediciones",
+      "dificultad": "media",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "La confiabilidad es el grado en el cual una variable tiene el mismo valor cuando se mide varias veces.",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Verdadero"
+        },
+        {
+          "letra": "B",
+          "texto": "Falso"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Confiabilidad de variables",
+      "dificultad": "baja",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "La validez se refiere al grado en el cual una variable realmente representa lo que se supone que representa.",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Verdadero"
+        },
+        {
+          "letra": "B",
+          "texto": "Falso"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Validez de variables",
+      "dificultad": "baja",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "El grupo sanguíneo (A, B, AB, O) es una variable:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Cualitativa"
+        },
+        {
+          "letra": "B",
+          "texto": "Ordinal"
+        },
+        {
+          "letra": "C",
+          "texto": "Numérica discreta"
+        },
+        {
+          "letra": "D",
+          "texto": "Numérica continua"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Clasificación de variables estadísticas",
+      "dificultad": "media",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "La prevalencia es la medición de la frecuencia con la que se encuentra la enfermedad.",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Verdadero"
+        },
+        {
+          "letra": "B",
+          "texto": "Falso"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Concepto de prevalencia",
+      "dificultad": "baja",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "El riesgo relativo mide qué tanto riesgo tienen los expuestos comparados con los no expuestos.",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Verdadero"
+        },
+        {
+          "letra": "B",
+          "texto": "Falso"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Riesgo relativo",
+      "dificultad": "baja",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "Fármacos antivirales con fuerte asociación con trombocitopenia, EXCEPTO:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Linezolid"
+        },
+        {
+          "letra": "B",
+          "texto": "Valaciclovir"
+        },
+        {
+          "letra": "C",
+          "texto": "Ganciclovir"
+        },
+        {
+          "letra": "D",
+          "texto": "Ribavirina"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Farmacología",
+      "tema": "Antivirales y trombocitopenia",
+      "dificultad": "alta",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "Trazado electrocardiográfico que corresponde a:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Una arritmia sinusal"
+        },
+        {
+          "letra": "B",
+          "texto": "Una bradicardia sinusal"
+        },
+        {
+          "letra": "C",
+          "texto": "Un síndrome de taquicardia-bradicardia"
+        },
+        {
+          "letra": "D",
+          "texto": "Un bloqueo sinoauricular"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Cardiología",
+      "tema": "Interpretación electrocardiográfica de arritmias sinusales",
+      "dificultad": "alta",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "La gota es una enfermedad sistémica asociada con bajo riesgo de litogénesis.",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Verdadero"
+        },
+        {
+          "letra": "B",
+          "texto": "Falso"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Reumatología",
+      "tema": "Gota y riesgo de litiasis",
+      "dificultad": "media",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "La intoxicación por sotalol puede ocasionar un segmento QT prolongado.",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Verdadero"
+        },
+        {
+          "letra": "B",
+          "texto": "Falso"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cardiología",
+      "tema": "Sotalol y prolongación del QT",
+      "dificultad": "media",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "Mujer con lupus eritematoso sistémico a quien la biopsia renal reporta: glomérulos normales con microscopía óptica, pero depósitos inmunitarios mesangiales por inmunofluorescencia. Su diagnóstico más probable sería una nefritis lúpica:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Mínima mesangial"
+        },
+        {
+          "letra": "B",
+          "texto": "Proliferativa mesangial"
+        },
+        {
+          "letra": "C",
+          "texto": "Focal"
+        },
+        {
+          "letra": "D",
+          "texto": "Difusa"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Nefrología",
+      "tema": "Clasificación de la nefritis lúpica",
+      "dificultad": "alta",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "Paciente con 3 episodios de vértigo espontáneo de 30 minutos de duración, con hipoacusia neurosensorial de frecuencias bajas y medias en el oído derecho, acompañado de hipoacusia y acúfenos fluctuantes en el oído derecho, sin otro diagnóstico vestibular que explique sus síntomas. Su diagnóstico probable es:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Enfermedad autoinmune del oído interno"
+        },
+        {
+          "letra": "B",
+          "texto": "Enfermedad cerebral vascular"
+        },
+        {
+          "letra": "C",
+          "texto": "Tumor de saco endolinfático"
+        },
+        {
+          "letra": "D",
+          "texto": "Enfermedad de Ménière"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Otorrinolaringología",
+      "tema": "Enfermedad de Ménière",
+      "dificultad": "media",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "Paciente con telangiectasias en ambas extremidades inferiores (vénulas intradérmicas dilatadas de 1 mm que confluyen). Según la clasificación CEAP presentaría una insuficiencia venosa:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "C0"
+        },
+        {
+          "letra": "B",
+          "texto": "C1"
+        },
+        {
+          "letra": "C",
+          "texto": "C2"
+        },
+        {
+          "letra": "D",
+          "texto": "C3"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Cirugía General",
+      "tema": "Clasificación CEAP de insuficiencia venosa",
+      "dificultad": "media",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "El signo de Dennie-Morgan (doble pliegue en el párpado inferior) hace pensar en un niño con lupus eritematoso sistémico.",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Verdadero"
+        },
+        {
+          "letra": "B",
+          "texto": "Falso"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Dermatología",
+      "tema": "Signo de Dennie-Morgan y dermatitis atópica",
+      "dificultad": "media",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "Se define amenorrea primaria en una mujer joven cuando no ha tenido aún la menstruación a los 15 años, con desarrollo normal de los caracteres sexuales secundarios a los 13 años.",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Verdadero"
+        },
+        {
+          "letra": "B",
+          "texto": "Falso"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Definición de amenorrea primaria",
+      "dificultad": "media",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "La epilepsia de ausencia infantil también es conocida como picnolepsia.",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Verdadero"
+        },
+        {
+          "letra": "B",
+          "texto": "Falso"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neurología",
+      "tema": "Epilepsia de ausencia infantil (picnolepsia)",
+      "dificultad": "media",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "La curva flujo-volumen inspiratoria en reposo, con el ejercicio y con el esfuerzo máximo superior, corresponde a una paciente con:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Asma"
+        },
+        {
+          "letra": "B",
+          "texto": "Enfermedad pulmonar obstructiva crónica"
+        },
+        {
+          "letra": "C",
+          "texto": "Enfisema"
+        },
+        {
+          "letra": "D",
+          "texto": "Sarcoidosis"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Neumología",
+      "tema": "Curva flujo-volumen en patología obstructiva",
+      "dificultad": "alta",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "Son características de la endometriosis interna, EXCEPTO:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Los focos ectópicos de endometrio se localizan en el espesor del miometrio"
+        },
+        {
+          "letra": "B",
+          "texto": "Los focos de endometriosis se localizan fuera del útero, en la pelvis, en el abdomen o en lugares más lejanos"
+        },
+        {
+          "letra": "C",
+          "texto": "Miden más de 2.5 mm por dentro de la capa basal"
+        },
+        {
+          "letra": "D",
+          "texto": "Sinónimo de adenomiosis"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Endometriosis interna (adenomiosis)",
+      "dificultad": "alta",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "Son características patológicas de la mola completa, EXCEPTO:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Falta de tejido embrionario o fetal identificable"
+        },
+        {
+          "letra": "B",
+          "texto": "Edema hidrópico de las vellosidades"
+        },
+        {
+          "letra": "C",
+          "texto": "Hiperplasia difusa del trofoblasto"
+        },
+        {
+          "letra": "D",
+          "texto": "Atipia focal y moderada en el lugar de implantación de la mola"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Características patológicas de la mola completa",
+      "dificultad": "alta",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "La preeclampsia es la principal causa de mortalidad materna y perinatal, restricción del crecimiento intrauterino y bajo peso al nacer en países en vías de desarrollo.",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Verdadero"
+        },
+        {
+          "letra": "B",
+          "texto": "Falso"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Preeclampsia y morbimortalidad materno-perinatal",
+      "dificultad": "media",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "Aunque una variedad de microorganismos puede causar endocarditis infecciosa, las especies de virus y coliformes son los patógenos más comunes asociados con endocarditis en niños.",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Verdadero"
+        },
+        {
+          "letra": "B",
+          "texto": "Falso"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Infectología",
+      "tema": "Etiología de la endocarditis infecciosa en niños",
+      "dificultad": "media",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "Estructura protegida por el clivus anteriormente, la parte petrosa del temporal lateralmente, el diencéfalo en la cara superior y la médula espinal caudalmente:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Tallo cerebral"
+        },
+        {
+          "letra": "B",
+          "texto": "Hipotálamo"
+        },
+        {
+          "letra": "C",
+          "texto": "Tálamo"
+        },
+        {
+          "letra": "D",
+          "texto": "Cerebelo"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anatomía",
+      "tema": "Relaciones anatómicas del tallo cerebral",
+      "dificultad": "alta",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "Son suturas mayores del recién nacido, EXCEPTO:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Metópica"
+        },
+        {
+          "letra": "B",
+          "texto": "Coronal"
+        },
+        {
+          "letra": "C",
+          "texto": "Sagital"
+        },
+        {
+          "letra": "D",
+          "texto": "Fronto-nasal"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Anatomía",
+      "tema": "Suturas craneales del recién nacido",
+      "dificultad": "media",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "Sir Harold Delf Gillies (1882-1960), otorrinolaringólogo, es considerado el padre de la cirugía plástica.",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Verdadero"
+        },
+        {
+          "letra": "B",
+          "texto": "Falso"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cirugía General",
+      "tema": "Historia de la cirugía plástica",
+      "dificultad": "baja",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "Paul Tessier (1917-2008), cirujano plástico francés, es considerado el padre de la cirugía craneofacial moderna.",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Verdadero"
+        },
+        {
+          "letra": "B",
+          "texto": "Falso"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cirugía General",
+      "tema": "Historia de la cirugía craneofacial",
+      "dificultad": "baja",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "El mínimo número de tomas requeridas para la medición de la presión arterial son al menos 15 a 20 tomas en diferentes momentos.",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Verdadero"
+        },
+        {
+          "letra": "B",
+          "texto": "Falso"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Cardiología",
+      "tema": "Medición de la presión arterial",
+      "dificultad": "media",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "La presión arterial tiende a aumentar a medida que el número de tomas se incrementa.",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Verdadero"
+        },
+        {
+          "letra": "B",
+          "texto": "Falso"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Cardiología",
+      "tema": "Medición de la presión arterial",
+      "dificultad": "media",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "Entre los factores de riesgo para presentar una primera convulsión febril en niños está la hospitalización neonatal prolongada.",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Verdadero"
+        },
+        {
+          "letra": "B",
+          "texto": "Falso"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Pediatría",
+      "tema": "Factores de riesgo de convulsión febril",
+      "dificultad": "media",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "Entre los factores de riesgo para recurrencia de crisis convulsivas en niños está el antecedente familiar en primer grado.",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Verdadero"
+        },
+        {
+          "letra": "B",
+          "texto": "Falso"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Pediatría",
+      "tema": "Recurrencia de crisis convulsivas en niños",
+      "dificultad": "media",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "Entre los riesgos potenciales que genera el delirium se encuentra la demencia.",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Verdadero"
+        },
+        {
+          "letra": "B",
+          "texto": "Falso"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Psiquiatría",
+      "tema": "Complicaciones del delirium",
+      "dificultad": "media",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "Son factores predisponentes para delirium, EXCEPTO:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Edad ≥ 65 años"
+        },
+        {
+          "letra": "B",
+          "texto": "Sexo femenino"
+        },
+        {
+          "letra": "C",
+          "texto": "Dependencia funcional"
+        },
+        {
+          "letra": "D",
+          "texto": "Déficit auditivo"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Psiquiatría",
+      "tema": "Factores predisponentes de delirium",
+      "dificultad": "media",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "Las principales causas de defunción en el Valle del Cauca incluyen las siguientes, EXCEPTO:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Infarto agudo de miocardio"
+        },
+        {
+          "letra": "B",
+          "texto": "Agresión con disparo de otras armas de fuego, y las no especificadas"
+        },
+        {
+          "letra": "C",
+          "texto": "Otras enfermedades pulmonares obstructivas crónicas"
+        },
+        {
+          "letra": "D",
+          "texto": "Tumor maligno de mama"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Principales causas de mortalidad en el Valle del Cauca",
+      "dificultad": "media",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "\"Todo debe ser hecho tan simple como sea posible… pero no más simple\"; es una frase de:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Albert Einstein"
+        },
+        {
+          "letra": "B",
+          "texto": "Frank Kafka"
+        },
+        {
+          "letra": "C",
+          "texto": "Gabriel García Márquez"
+        },
+        {
+          "letra": "D",
+          "texto": "Pablo Neruda"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Cultura general y método científico",
+      "dificultad": "baja",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "El límite de resistencia (en libras) de los huesos nasales es de:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "25 - 75"
+        },
+        {
+          "letra": "B",
+          "texto": "100 - 600"
+        },
+        {
+          "letra": "C",
+          "texto": "600 - 900"
+        },
+        {
+          "letra": "D",
+          "texto": "1000 - 1600"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Otorrinolaringología",
+      "tema": "Resistencia de los huesos nasales",
+      "dificultad": "alta",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "El trazo de la fractura es horizontal, por encima de los ápices de los dientes superiores; corresponde a un Le Fort tipo:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "I"
+        },
+        {
+          "letra": "B",
+          "texto": "II"
+        },
+        {
+          "letra": "C",
+          "texto": "III"
+        },
+        {
+          "letra": "D",
+          "texto": "IV"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cirugía General",
+      "tema": "Clasificación de fracturas de Le Fort",
+      "dificultad": "media",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "¿Qué NO se busca (identifica) cuando se lee (interpreta) una tomografía computarizada abdominal?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Grasa"
+        },
+        {
+          "letra": "B",
+          "texto": "Líquido"
+        },
+        {
+          "letra": "C",
+          "texto": "Intestinos"
+        },
+        {
+          "letra": "D",
+          "texto": "Músculos"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Radiología",
+      "tema": "Interpretación de TC abdominal",
+      "dificultad": "media",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "Son hallazgos a la tomografía computarizada en un paciente con apendicitis, EXCEPTO:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Grasa normal"
+        },
+        {
+          "letra": "B",
+          "texto": "Apendicolito"
+        },
+        {
+          "letra": "C",
+          "texto": "Diámetro luminal inferior a 4 mm"
+        },
+        {
+          "letra": "D",
+          "texto": "Aire extraluminal"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Radiología",
+      "tema": "Hallazgos tomográficos de apendicitis",
+      "dificultad": "media",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "La causa más frecuente de micosis superficiales son las dermatofitosis.",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Verdadero"
+        },
+        {
+          "letra": "B",
+          "texto": "Falso"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Micosis superficiales",
+      "dificultad": "baja",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "La pitiriasis versicolor es causada por Saccharomyces boulardii.",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Verdadero"
+        },
+        {
+          "letra": "B",
+          "texto": "Falso"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Dermatología",
+      "tema": "Etiología de la pitiriasis versicolor (Malassezia)",
+      "dificultad": "media",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "La prevalencia en Colombia para niños menores de 4 años para desórdenes gastrointestinales menores es del 21.5%.",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Verdadero"
+        },
+        {
+          "letra": "B",
+          "texto": "Falso"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Pediatría",
+      "tema": "Epidemiología de trastornos gastrointestinales en niños",
+      "dificultad": "media",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "La lactasa desdobla a la lactosa en:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Glucosa - Glucosa"
+        },
+        {
+          "letra": "B",
+          "texto": "Glucosa - Galactosa"
+        },
+        {
+          "letra": "C",
+          "texto": "Glucosa - Fructosa"
+        },
+        {
+          "letra": "D",
+          "texto": "Galactosa - Fructosa"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Bioquímica",
+      "tema": "Digestión de disacáridos (lactasa)",
+      "dificultad": "baja",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "Son factores que favorecen la transmisión vertical para adquirir infección por VIH/SIDA, EXCEPTO:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Carga viral"
+        },
+        {
+          "letra": "B",
+          "texto": "Genotipo"
+        },
+        {
+          "letra": "C",
+          "texto": "Fenotipo"
+        },
+        {
+          "letra": "D",
+          "texto": "Cesárea"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Infectología",
+      "tema": "Transmisión vertical del VIH",
+      "dificultad": "media",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "Una recomendación preconcepcional para evitar la infección por VIH/SIDA es que, si la mujer es positiva, debe planificar hasta que tenga carga viral indetectable.",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Verdadero"
+        },
+        {
+          "letra": "B",
+          "texto": "Falso"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Infectología",
+      "tema": "Recomendaciones preconcepcionales en VIH",
+      "dificultad": "media",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "Según la clasificación de Fraser para rodilla flotante, un paciente con fractura de la diáfisis femoral con fractura homolateral del platillo tibial sería:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Tipo I"
+        },
+        {
+          "letra": "B",
+          "texto": "Tipo II A"
+        },
+        {
+          "letra": "C",
+          "texto": "Tipo II B"
+        },
+        {
+          "letra": "D",
+          "texto": "Tipo II C"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Traumatología y Ortopedia",
+      "tema": "Clasificación de Fraser de la rodilla flotante",
+      "dificultad": "alta",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "Un valor MESS (Mangled Extremity Severity Score) superior a 7 implica amputación.",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Verdadero"
+        },
+        {
+          "letra": "B",
+          "texto": "Falso"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Traumatología y Ortopedia",
+      "tema": "Score MESS e indicación de amputación",
+      "dificultad": "media",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "Tumor maligno más frecuente en humanos que se deriva de la célula pluripotencial:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Carcinoma basocelular"
+        },
+        {
+          "letra": "B",
+          "texto": "Carcinoma epidermoide"
+        },
+        {
+          "letra": "C",
+          "texto": "Carcinoma de células de Merkel"
+        },
+        {
+          "letra": "D",
+          "texto": "Dermatofibrosarcoma protuberans"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Carcinoma basocelular",
+      "dificultad": "media",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "El melanoma en pacientes en estadio III tiene una sobrevida prolongada libre de enfermedad o incluso cura.",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Verdadero"
+        },
+        {
+          "letra": "B",
+          "texto": "Falso"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Oncología",
+      "tema": "Pronóstico del melanoma según estadio",
+      "dificultad": "media",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "Se define screening como la identificación presuntiva de enfermedad no manifiesta mediante la historia clínica, examen físico, pruebas de laboratorio u otros procedimientos.",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Verdadero"
+        },
+        {
+          "letra": "B",
+          "texto": "Falso"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Definición de tamizaje (screening)",
+      "dificultad": "baja",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "Es un criterio para tamizar una patología identificar la carga en términos de prevalencia, incidencia e incapacidad.",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Verdadero"
+        },
+        {
+          "letra": "B",
+          "texto": "Falso"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Criterios de tamizaje",
+      "dificultad": "media",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "El signo de Hutchinson es un hallazgo sospechoso de carcinoma basocelular.",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Verdadero"
+        },
+        {
+          "letra": "B",
+          "texto": "Falso"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Dermatología",
+      "tema": "Signo de Hutchinson y melanoma",
+      "dificultad": "media",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "La sulfadiazina de plata no sirve para epitelizar.",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Verdadero"
+        },
+        {
+          "letra": "B",
+          "texto": "Falso"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cirugía General",
+      "tema": "Manejo tópico de heridas y quemaduras",
+      "dificultad": "media",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "Los puntos tomados en el cuerpo deben retirarse a los 5 días.",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Verdadero"
+        },
+        {
+          "letra": "B",
+          "texto": "Falso"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Cirugía General",
+      "tema": "Retiro de suturas según localización",
+      "dificultad": "media",
+      "anio": 2016,
+      "fuente": "Examen Univalle 2016"
+    },
+    {
+      "enunciado": "Manejo inicial de las mordeduras de perro:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Lavado con agua y jabón yodado"
+        },
+        {
+          "letra": "B",
+          "texto": "Lavado con solución salina y no suturar"
+        },
+        {
+          "letra": "C",
+          "texto": "Lavado con jabón detergente"
+        },
+        {
+          "letra": "D",
+          "texto": "Antibiótico profiláctico como única medida"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Medicina de Urgencias",
+      "tema": "Manejo de heridas por mordedura",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "Niño con fibrilación ventricular en quien se inicia reanimación (primera descarga). ¿Cuál es el manejo a seguir?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Desfibrilar 2 joules/kg"
+        },
+        {
+          "letra": "B",
+          "texto": "Desfibrilar 20 joules/kg"
+        },
+        {
+          "letra": "C",
+          "texto": "Cardiovertir 2 joules/kg"
+        },
+        {
+          "letra": "D",
+          "texto": "Administrar sólo atropina"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Pediatría",
+      "tema": "Reanimación cardiopulmonar pediátrica",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "¿Cuál es el mejor estudio para clasificar y confirmar el diagnóstico de diverticulitis?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Clínica"
+        },
+        {
+          "letra": "B",
+          "texto": "TAC de abdomen"
+        },
+        {
+          "letra": "C",
+          "texto": "Gammagrafía"
+        },
+        {
+          "letra": "D",
+          "texto": "Ecografía abdominal"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Cirugía General",
+      "tema": "Diverticulitis - diagnóstico por imagen",
+      "dificultad": "baja",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "¿Cuáles son los líquidos basales en una niña de 10 kg?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "20 cc/kg/hora"
+        },
+        {
+          "letra": "B",
+          "texto": "42 cc/hora (Holliday-Segar, 100 cc/kg/día)"
+        },
+        {
+          "letra": "C",
+          "texto": "60 cc/kg/hora"
+        },
+        {
+          "letra": "D",
+          "texto": "15 cc/kg/hora"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Pediatría",
+      "tema": "Líquidos de mantenimiento (Holliday-Segar)",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "¿Cuál vacuna NO está contraindicada en embarazadas?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Sarampión"
+        },
+        {
+          "letra": "B",
+          "texto": "Rubéola"
+        },
+        {
+          "letra": "C",
+          "texto": "Hepatitis B"
+        },
+        {
+          "letra": "D",
+          "texto": "Parotiditis"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Vacunación en el embarazo",
+      "dificultad": "baja",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "¿Qué antibiótico NO cubre Pseudomonas?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Piperacilina-tazobactam"
+        },
+        {
+          "letra": "B",
+          "texto": "Tigeciclina"
+        },
+        {
+          "letra": "C",
+          "texto": "Ciprofloxacina"
+        },
+        {
+          "letra": "D",
+          "texto": "Doripenem"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Infectología",
+      "tema": "Espectro antibiótico frente a Pseudomonas",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "¿Cuál de los siguientes tiene acción sobre los receptores 5-HT?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Serotonina"
+        },
+        {
+          "letra": "B",
+          "texto": "Acetilcolina"
+        },
+        {
+          "letra": "C",
+          "texto": "GABA"
+        },
+        {
+          "letra": "D",
+          "texto": "Glutamato"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Farmacología",
+      "tema": "Neurotransmisores y receptores",
+      "dificultad": "baja",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "Paciente de 34 años con mordedura de gato hace 5 días, recibió tratamiento antibiótico previo, reconsulta por 36 horas de signos inflamatorios. ¿Qué microorganismo crecería en la biopsia/cultivo de la herida por mordedura de gato?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "S. aureus"
+        },
+        {
+          "letra": "B",
+          "texto": "S. pyogenes"
+        },
+        {
+          "letra": "C",
+          "texto": "S. epidermidis"
+        },
+        {
+          "letra": "D",
+          "texto": "Pasteurella multocida"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Infectología",
+      "tema": "Infección por mordedura de gato",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "Estudio más costo-efectivo para el diagnóstico de colelitiasis:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Ecografía de abdomen"
+        },
+        {
+          "letra": "B",
+          "texto": "TAC"
+        },
+        {
+          "letra": "C",
+          "texto": "Enzimas hepáticas"
+        },
+        {
+          "letra": "D",
+          "texto": "Examen clínico seriado"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cirugía General",
+      "tema": "Colelitiasis - diagnóstico",
+      "dificultad": "baja",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "Patrón de herencia en la cardiomiopatía hipertrófica:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Autosómica dominante"
+        },
+        {
+          "letra": "B",
+          "texto": "Autosómica recesiva"
+        },
+        {
+          "letra": "C",
+          "texto": "Ligada a X"
+        },
+        {
+          "letra": "D",
+          "texto": "Penetrancia parcial exclusivamente"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cardiología",
+      "tema": "Genética de la miocardiopatía hipertrófica",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "¿Cuál NO es un signo de alarma en el dengue?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "ALT/AST > 1000"
+        },
+        {
+          "letra": "B",
+          "texto": "Alteración de la conciencia y letargia"
+        },
+        {
+          "letra": "C",
+          "texto": "Vómito persistente"
+        },
+        {
+          "letra": "D",
+          "texto": "Acumulación de líquido al final de la fase febril"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Infectología",
+      "tema": "Dengue - signos de alarma vs dengue grave",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "Mujer con síntomas tiroideos, antecedente de infección respiratoria hace meses, con masa tiroidea dolorosa, palpitaciones, taquicardia, sin nódulos, sin oftalmopatía, TSH disminuida y T3 total elevada, T4 libre normal. Diagnóstico:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Enfermedad de Graves"
+        },
+        {
+          "letra": "B",
+          "texto": "Tiroiditis subaguda (De Quervain)"
+        },
+        {
+          "letra": "C",
+          "texto": "Bocio tóxico multinodular"
+        },
+        {
+          "letra": "D",
+          "texto": "Adenoma tóxico"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Endocrinología",
+      "tema": "Tiroiditis subaguda",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "Ventana de trombólisis con r-tPA con nivel de evidencia IA para stroke isquémico:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Menos de 4,5 horas"
+        },
+        {
+          "letra": "B",
+          "texto": "9 horas"
+        },
+        {
+          "letra": "C",
+          "texto": "3 horas"
+        },
+        {
+          "letra": "D",
+          "texto": "1 hora"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Neurología",
+      "tema": "Trombólisis en ACV isquémico",
+      "dificultad": "alta",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "Reanimación en niño de 7 meses, ¿cómo se verifica el pulso?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Verificar pulso durante 20-30 segundos"
+        },
+        {
+          "letra": "B",
+          "texto": "Verificar pulso carotídeo"
+        },
+        {
+          "letra": "C",
+          "texto": "Verificar pulso braquial"
+        },
+        {
+          "letra": "D",
+          "texto": "Verificar pulso poplíteo"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Pediatría",
+      "tema": "Reanimación en lactante",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "Paciente en UCI con tuberculosis meníngea en tratamiento tetraconjugado. Paraclínicos: Na 186 y diuresis 5 cc/kg/hora. ¿Cuál es la respuesta más acertada?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Síndrome cerebral perdedor de sal, tratar con líquidos isotónicos"
+        },
+        {
+          "letra": "B",
+          "texto": "Diabetes insípida, tratar con desmopresina y cuantificar líquidos"
+        },
+        {
+          "letra": "C",
+          "texto": "Hipernatremia inducida por etambutol, cambiar esquema"
+        },
+        {
+          "letra": "D",
+          "texto": "Restricción hídrica e iniciar medicamento"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Nefrología",
+      "tema": "Diabetes insípida / trastornos del sodio",
+      "dificultad": "alta",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "Dosis de adenosina para el manejo de taquicardias supraventriculares en el adulto:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Iniciar 6 mg y repetir 12 mg a los 2 minutos"
+        },
+        {
+          "letra": "B",
+          "texto": "Iniciar 1 mg/kg y repetir cada 2 minutos"
+        },
+        {
+          "letra": "C",
+          "texto": "300 mg en bolo único"
+        },
+        {
+          "letra": "D",
+          "texto": "Iniciar 12 mg y repetir 6 mg a los 2 minutos"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cardiología",
+      "tema": "Manejo de taquicardia supraventricular",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "Signo de Trendelenburg positivo, ¿a qué músculo corresponde la lesión?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Glúteo medio"
+        },
+        {
+          "letra": "B",
+          "texto": "Glúteo mayor"
+        },
+        {
+          "letra": "C",
+          "texto": "Obturador interno"
+        },
+        {
+          "letra": "D",
+          "texto": "Tensor de la fascia lata"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Traumatología y Ortopedia",
+      "tema": "Semiología de la marcha - glúteo medio",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "¿Cuál es la mejor indicación para transfundir?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Paciente de 25 años con Hb 8.0 asintomático que va a cirugía mayor"
+        },
+        {
+          "letra": "B",
+          "texto": "Paciente con Hb 7.5 con disnea leve y que recibe vasopresores"
+        },
+        {
+          "letra": "C",
+          "texto": "Paciente oncológico en quimioterapia con Hb 7.5"
+        },
+        {
+          "letra": "D",
+          "texto": "Paciente con Hb 8.5 sintomático que acaba de donar sangre"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Hematología",
+      "tema": "Indicaciones de transfusión de glóbulos rojos",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "Paciente con prostatitis crónica en quien se aísla Klebsiella pneumoniae resistente a ampicilina, aztreonam y cefuroxima, sensible a cefoxitin. ¿Cuál antibiótico es la primera opción?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Meropenem"
+        },
+        {
+          "letra": "B",
+          "texto": "Ceftriaxona"
+        },
+        {
+          "letra": "C",
+          "texto": "Cefepime"
+        },
+        {
+          "letra": "D",
+          "texto": "Piperacilina/tazobactam"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Infectología",
+      "tema": "Enterobacterias productoras de BLEE - tratamiento",
+      "dificultad": "alta",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "Paciente con fiebre de 3 días, mialgias, artralgias, dolor retroauricular y brote morbiliforme en miembros inferiores. Diagnóstico y estudio:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Dengue - antígeno NS1 (ELISA) + IgM + IgG"
+        },
+        {
+          "letra": "B",
+          "texto": "Malaria"
+        },
+        {
+          "letra": "C",
+          "texto": "Chikungunya - IgM"
+        },
+        {
+          "letra": "D",
+          "texto": "Meningitis"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Infectología",
+      "tema": "Arbovirosis - diagnóstico de dengue",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "Acerca de la salud mental, ¿qué afirmación es cierta?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Mayor tasa de suicidio consumado en mujeres que en hombres"
+        },
+        {
+          "letra": "B",
+          "texto": "El 25% de la población tendrá una o más enfermedades de salud mental en su vida"
+        },
+        {
+          "letra": "C",
+          "texto": "El TAB tipo II se asocia con depresión mayor y manía"
+        },
+        {
+          "letra": "D",
+          "texto": "Las pruebas neuropsicológicas miden cualitativamente la cognición"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Psiquiatría",
+      "tema": "Epidemiología de los trastornos mentales",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "Niña con polidipsia, poliuria y pérdida de peso de 10 kg. ¿Qué se esperaría encontrar en paraclínicos?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Alcalosis"
+        },
+        {
+          "letra": "B",
+          "texto": "Cetonuria"
+        },
+        {
+          "letra": "C",
+          "texto": "Osmolaridad baja"
+        },
+        {
+          "letra": "D",
+          "texto": "Hiperinsulinemia"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Endocrinología",
+      "tema": "Debut de diabetes mellitus tipo 1 / cetoacidosis",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "Tríada infeliz (unhappy triad) de lesiones de rodilla:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "LCA + menisco medial + ligamento colateral medial"
+        },
+        {
+          "letra": "B",
+          "texto": "Menisco medial + ligamento cruzado anterior + ligamento cruzado posterior"
+        },
+        {
+          "letra": "C",
+          "texto": "Patela + ligamento colateral lateral + menisco lateral"
+        },
+        {
+          "letra": "D",
+          "texto": "LCA + LCP + menisco medial"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Traumatología y Ortopedia",
+      "tema": "Lesiones ligamentarias de rodilla",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "¿Cuál práctica NO se recomienda en el manejo activo de la tercera fase del trabajo de parto?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Ácido tranexámico"
+        },
+        {
+          "letra": "B",
+          "texto": "Oxitocina"
+        },
+        {
+          "letra": "C",
+          "texto": "Misoprostol"
+        },
+        {
+          "letra": "D",
+          "texto": "Tracción controlada del cordón y contratracción"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Manejo activo del alumbramiento",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "Manejo inicial e importante en paciente con quemadura del 28% de superficie corporal:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Cálculo de líquidos de acuerdo al peso y porcentaje de SCT afectado"
+        },
+        {
+          "letra": "B",
+          "texto": "Antibiótico profiláctico"
+        },
+        {
+          "letra": "C",
+          "texto": "Nada vía oral para preparación quirúrgica"
+        },
+        {
+          "letra": "D",
+          "texto": "Inmovilizar la extremidad"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Medicina de Urgencias",
+      "tema": "Manejo inicial del quemado",
+      "dificultad": "baja",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "Gestante de 30 semanas que sufre trauma al caer del bus, presenta sangrado rutilante con hipertonía uterina y frecuencia cardiaca fetal de 0 lpm. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Drepanocitosis"
+        },
+        {
+          "letra": "B",
+          "texto": "Placenta previa con feto muerto"
+        },
+        {
+          "letra": "C",
+          "texto": "Amenaza de parto pretérmino"
+        },
+        {
+          "letra": "D",
+          "texto": "Desprendimiento de placenta normoinserta (abruptio)"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Abruptio placentae",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "Marcador hormonal/tisular que representa sobrecarga de volumen en el sistema periférico y no hemodinámico:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "VeXUS (Venous Excess Ultrasound Grading System)"
+        },
+        {
+          "letra": "B",
+          "texto": "NT-proBNP"
+        },
+        {
+          "letra": "C",
+          "texto": "CA 125"
+        },
+        {
+          "letra": "D",
+          "texto": "Rx de tórax"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Cardiología",
+      "tema": "Marcadores de congestión / sobrecarga de volumen",
+      "dificultad": "alta",
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "Paciente femenina con dolor en región lumbosacra, en decúbito lateral izquierdo, con limitación y dolor a la abducción de la pierna derecha, dolor a la rotación externa y dolor reproducible al presionar sobre la cresta iliaca derecha (maniobra de Patrick/FABER positiva). Diagnóstico:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Sacroileítis derecha"
+        },
+        {
+          "letra": "B",
+          "texto": "Pinzamiento acetabular"
+        },
+        {
+          "letra": "C",
+          "texto": "Meralgia parestésica"
+        },
+        {
+          "letra": "D",
+          "texto": "Bursitis trocantérica"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Reumatología",
+      "tema": "Sacroileítis - maniobra de Patrick",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "Paciente con pérdida de memoria, confusión, eritema en cara y diarrea (pelagra). ¿Deficiencia de qué vitamina?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Niacina (B3)"
+        },
+        {
+          "letra": "B",
+          "texto": "Tiamina (B1)"
+        },
+        {
+          "letra": "C",
+          "texto": "Vitamina A"
+        },
+        {
+          "letra": "D",
+          "texto": "Piridoxina (B6)"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Medicina Interna",
+      "tema": "Pelagra - deficiencia de niacina",
+      "dificultad": "baja",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "Mujer de 38 años, con migraña con aura, obesa, fumadora, con antecedente de diabetes gestacional e IMC > 34. ¿Qué anticonceptivo le indica según la Resolución 3280?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "DIU: T de cobre"
+        },
+        {
+          "letra": "B",
+          "texto": "Acetato de medroxiprogesterona IM"
+        },
+        {
+          "letra": "C",
+          "texto": "ACO combinados"
+        },
+        {
+          "letra": "D",
+          "texto": "Parches transdérmicos"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Criterios de elegibilidad anticonceptiva (OMS/MEC)",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "Paciente de 38 años, fumadora activa desde hace más de 15 años. ¿Qué examen se solicita para detección temprana según la Resolución 3280 de Colombia?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Radiografía de tórax"
+        },
+        {
+          "letra": "B",
+          "texto": "Espirometría pre y post broncodilatador"
+        },
+        {
+          "letra": "C",
+          "texto": "Prueba rápida de hepatitis B"
+        },
+        {
+          "letra": "D",
+          "texto": "Detartraje gingival"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Detección temprana (Resolución 3280)",
+      "dificultad": "alta",
+      "_resuelta_por_ia": true,
+      "_confianza": "baja",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "Paciente pediátrico con 6 días de fiebre, eritema, inyección conjuntival, adenopatía, ahora con lengua en fresa, estable, taquicárdico y con edema en miembros inferiores. ¿Qué vasculitis se debe sospechar?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Enfermedad de Kawasaki"
+        },
+        {
+          "letra": "B",
+          "texto": "Vasculitis por IgA (Henoch-Schönlein)"
+        },
+        {
+          "letra": "C",
+          "texto": "Poliangeítis microscópica"
+        },
+        {
+          "letra": "D",
+          "texto": "Granulomatosis con poliangeítis"
+        },
+        {
+          "letra": "E",
+          "texto": "Enfermedad de Takayasu"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Pediatría",
+      "tema": "Enfermedad de Kawasaki",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "Mujer con lesión poligonal, violácea, pruriginosa, con compromiso en miembros inferiores. Diagnóstico:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Liquen plano"
+        },
+        {
+          "letra": "B",
+          "texto": "Pitiriasis rosada"
+        },
+        {
+          "letra": "C",
+          "texto": "Eccema numular"
+        },
+        {
+          "letra": "D",
+          "texto": "Psoriasis"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Liquen plano",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "Paciente con tuberculosis pulmonar en tratamiento tetraconjugado, sin resistencia a isoniacida ni rifampicina, con tratamiento efectivo. ¿Cuándo debe levantar el aislamiento respiratorio?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "A las 2 semanas de tratamiento efectivo"
+        },
+        {
+          "letra": "B",
+          "texto": "A las 4 semanas"
+        },
+        {
+          "letra": "C",
+          "texto": "No requiere aislamiento respiratorio"
+        },
+        {
+          "letra": "D",
+          "texto": "Al finalizar la primera fase"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Infectología",
+      "tema": "Aislamiento respiratorio en tuberculosis",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "¿Cuál escala de riesgo cardiovascular se usa en Colombia?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "ASCVD/AHA sin corrección"
+        },
+        {
+          "letra": "B",
+          "texto": "Framingham con corrección al 0,85"
+        },
+        {
+          "letra": "C",
+          "texto": "PROCAM con corrección al 0,75"
+        },
+        {
+          "letra": "D",
+          "texto": "Test SCORE"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cardiología",
+      "tema": "Estratificación del riesgo cardiovascular",
+      "dificultad": "alta",
+      "_resuelta_por_ia": true,
+      "_confianza": "baja",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "Paciente con HTA, DM e infarto reciente. ¿Qué conducta de estratificación de riesgo cardiovascular se aplica?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Framingham x 0,8"
+        },
+        {
+          "letra": "B",
+          "texto": "Framingham x 0,75"
+        },
+        {
+          "letra": "C",
+          "texto": "ASCVD/AHA"
+        },
+        {
+          "letra": "D",
+          "texto": "No requiere estadificación de riesgo para dar estatinas (ya es riesgo alto establecido)"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Cardiología",
+      "tema": "Prevención secundaria - indicación de estatinas",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "Radiografía de hombro con imagen en forma de luna llena (bombilla), sin rotación externa ni abducción y acromion prominente. ¿Qué tipo de luxación es?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Luxación anterior"
+        },
+        {
+          "letra": "B",
+          "texto": "Luxación posterior"
+        },
+        {
+          "letra": "C",
+          "texto": "Luxación acromioclavicular"
+        },
+        {
+          "letra": "D",
+          "texto": "Luxación inferior (luxatio erecta)"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Traumatología y Ortopedia",
+      "tema": "Luxación posterior de hombro",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "Paciente de 93 años con tos, fiebre y esputo por S. aureus, tratada. Vuelve con fiebre pero sin tos ni esputo. En la radiografía imagen nodular con nivel hidroaéreo. Se explica por:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Cavitación granulomatosa"
+        },
+        {
+          "letra": "B",
+          "texto": "Reversión de la consolidación"
+        },
+        {
+          "letra": "C",
+          "texto": "Carcinoma broncogénico"
+        },
+        {
+          "letra": "D",
+          "texto": "Formación de abscesos"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Neumología",
+      "tema": "Absceso pulmonar / embolismo séptico por S. aureus",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "Paciente masculino diabético insulinorrequirente de larga data, con hemoglobina glicosilada en 10 y dolor abdominal posprandial de 6 meses de evolución. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Oclusión de arteria mesentérica (isquemia mesentérica crónica)"
+        },
+        {
+          "letra": "B",
+          "texto": "Pancreatitis aguda"
+        },
+        {
+          "letra": "C",
+          "texto": "Isquemia hepática y ERC"
+        },
+        {
+          "letra": "D",
+          "texto": "Aneurisma de aorta roto"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cirugía General",
+      "tema": "Isquemia mesentérica crónica (angina abdominal)",
+      "dificultad": "media",
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "Mujer con parálisis de Bell. ¿Qué afirmación es cierta?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Es causada por adenovirus"
+        },
+        {
+          "letra": "B",
+          "texto": "El tratamiento con antirretrovirales es efectivo"
+        },
+        {
+          "letra": "C",
+          "texto": "Se maneja en las primeras 72 horas con corticoesteroides"
+        },
+        {
+          "letra": "D",
+          "texto": "Compromete los 2/3 inferiores de la cara"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Neurología",
+      "tema": "Parálisis facial periférica (de Bell)",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "Mujer embarazada con náuseas y emesis. ¿Cuál afirmación sobre el tratamiento NO es correcta?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "La metoclopramida no se debe dar en el primer trimestre"
+        },
+        {
+          "letra": "B",
+          "texto": "El ondansetrón no es primera línea de manejo"
+        },
+        {
+          "letra": "C",
+          "texto": "A las embarazadas no se les debería dar manejo farmacológico para las náuseas y vómito"
+        },
+        {
+          "letra": "D",
+          "texto": "Doxilamina/Piridoxina es la primera línea"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Manejo de náuseas y vómito en el embarazo",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "Fractura de tibia expuesta con defecto de cobertura, contaminada moderadamente, llevada a cirugía con tutor externo y queda expuesto el paquete neurovascular sin daño vascular. Según Gustilo-Anderson corresponde a:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "II"
+        },
+        {
+          "letra": "B",
+          "texto": "IIIA"
+        },
+        {
+          "letra": "C",
+          "texto": "IIIB"
+        },
+        {
+          "letra": "D",
+          "texto": "IIIC"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Traumatología y Ortopedia",
+      "tema": "Clasificación de Gustilo-Anderson",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "Paciente que después de cirugía presenta pie caído a las tres horas. ¿Cuál de los siguientes signos es más probable encontrar?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Pérdida del reflejo aquiliano"
+        },
+        {
+          "letra": "B",
+          "texto": "Incapacidad para la eversión"
+        },
+        {
+          "letra": "C",
+          "texto": "Pérdida de sensibilidad del tercio medial del pie"
+        },
+        {
+          "letra": "D",
+          "texto": "Extensión del extensor largo del hallux conservada"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Neurología",
+      "tema": "Lesión del nervio peroneo común - pie caído",
+      "dificultad": "media",
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "Monitoría fetal en sospecha de estado fetal insatisfactorio intraparto: actividad uterina regular, FCF de 140, variabilidad moderada, aceleraciones presentes, sin desaceleraciones tras la contracción. Clasificación:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Reactiva"
+        },
+        {
+          "letra": "B",
+          "texto": "Categoría I"
+        },
+        {
+          "letra": "C",
+          "texto": "Categoría II"
+        },
+        {
+          "letra": "D",
+          "texto": "No satisfactoria"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Monitoreo fetal intraparto - categorías",
+      "dificultad": "media",
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "Paciente con paraclínicos: anti-core total positivo, antígeno de superficie (HBsAg) negativo, anti-core IgM negativo, anticuerpo anti-HBs negativo, sífilis negativa. ¿Cuál es la interpretación y conducta?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Tiene hepatitis B aguda y hay que repetir el anticuerpo"
+        },
+        {
+          "letra": "B",
+          "texto": "Tuvo hepatitis B en el pasado, ahora sólo seguimiento"
+        },
+        {
+          "letra": "C",
+          "texto": "Tiene hepatitis B oculta, se deben repetir los exámenes y solicitar carga viral"
+        },
+        {
+          "letra": "D",
+          "texto": "Tiene hepatitis D"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Infectología",
+      "tema": "Interpretación de serología de hepatitis B (anti-HBc aislado)",
+      "dificultad": "alta",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "Paciente VIH positivo desde hace 3 meses, CD4 de 48 células/µL, relaciones sin protección desde los 16 años, acude con RPR 1:256. ¿Cuál es la mejor conducta?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Penicilina 2.4 millones de unidades IM en dosis única"
+        },
+        {
+          "letra": "B",
+          "texto": "Penicilina 2.4 millones de unidades IM una dosis semanal por tres semanas"
+        },
+        {
+          "letra": "C",
+          "texto": "Solicitar punción lumbar para descartar neurolúes y realizar el manejo"
+        },
+        {
+          "letra": "D",
+          "texto": "Doxiciclina 100 mg cada 12 horas"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Infectología",
+      "tema": "Sífilis latente tardía en paciente VIH",
+      "dificultad": "alta",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "Mujer con parto de bebé a término con adecuado peso y talla, pero sin controles prenatales, con alta sospecha de sífilis. ¿Qué se debe hacer?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "VDRL a la madre"
+        },
+        {
+          "letra": "B",
+          "texto": "Prueba rápida, RPR o VDRL en la madre"
+        },
+        {
+          "letra": "C",
+          "texto": "VDRL al bebé y a la madre"
+        },
+        {
+          "letra": "D",
+          "texto": "Penicilina benzatínica 1 dosis a madre y bebé, y salida"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Tamizaje de sífilis gestacional/congénita",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "Paciente con afasia: no nomina, tiene fluidez del lenguaje conservada, no repite y al nombrar cosas les cambia los nombres (parafasias). ¿Cuál afasia podría padecer?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Afasia de Wernicke"
+        },
+        {
+          "letra": "B",
+          "texto": "Afasia de Broca"
+        },
+        {
+          "letra": "C",
+          "texto": "Afasia transcortical sensitiva"
+        },
+        {
+          "letra": "D",
+          "texto": "Afasia talámica"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neurología",
+      "tema": "Clasificación de afasias",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "Paciente con cuadro gripal que se automedicó con dipirona y betametasona, acude por pústulas de 7 días de evolución en cara y pecho. ¿Qué puede tener?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Pitiriasis rosada"
+        },
+        {
+          "letra": "B",
+          "texto": "Impétigo"
+        },
+        {
+          "letra": "C",
+          "texto": "Reacción acneiforme (por corticoide)"
+        },
+        {
+          "letra": "D",
+          "texto": "Psoriasis"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Dermatología",
+      "tema": "Acné/erupción acneiforme por corticoides",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "Paciente de 30 años con convulsiones en tratamiento con fenitoína y carbamazepina, que desarrolla eritema en cara y tórax con pruebas hepáticas alteradas. El diagnóstico más probable es:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "DRESS"
+        },
+        {
+          "letra": "B",
+          "texto": "Síndrome de Stevens-Johnson"
+        },
+        {
+          "letra": "C",
+          "texto": "Hepatitis viral"
+        },
+        {
+          "letra": "D",
+          "texto": "Necrólisis epidérmica tóxica"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "DRESS por anticonvulsivantes",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "Paciente con una semana de evolución de pérdida de fuerza en miembros inferiores, déficit neurológico 3/5 proximal y 2/5 distal, reflejos aquilianos abolidos, sin compromiso de la sensibilidad. ¿Cuál sería su manejo inicial?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Inmunoglobulina 0.4 g/kg/día"
+        },
+        {
+          "letra": "B",
+          "texto": "Pedir laboratorios"
+        },
+        {
+          "letra": "C",
+          "texto": "Iniciar esteroides"
+        },
+        {
+          "letra": "D",
+          "texto": "Metilprednisolona"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neurología",
+      "tema": "Síndrome de Guillain-Barré - tratamiento",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "Paciente con EKG que muestra bajo voltaje del complejo QRS. ¿Cuál NO es una causa probable?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Hipertensión arterial"
+        },
+        {
+          "letra": "B",
+          "texto": "EPOC"
+        },
+        {
+          "letra": "C",
+          "texto": "Obesidad"
+        },
+        {
+          "letra": "D",
+          "texto": "Derrame pericárdico"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cardiología",
+      "tema": "Bajo voltaje en el electrocardiograma",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "Paciente con compromiso motor (caída de comisura labial) izquierdo, hipoestesia izquierda de la cara e hipoacusia izquierda, con lesión en el ángulo pontocerebeloso. ¿Qué pares craneales están comprometidos?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Pares V, VII y VIII"
+        },
+        {
+          "letra": "B",
+          "texto": "Pares III, IV y VI"
+        },
+        {
+          "letra": "C",
+          "texto": "Pares IX, X y XI"
+        },
+        {
+          "letra": "D",
+          "texto": "Pares II, III y V"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neurología",
+      "tema": "Síndrome del ángulo pontocerebeloso",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "Respecto a los síntomas positivos de la esquizofrenia, ¿qué es cierto?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Se deben a liberación exagerada de dopamina (vía mesolímbica)"
+        },
+        {
+          "letra": "B",
+          "texto": "Aumentan de intensidad con el tiempo"
+        },
+        {
+          "letra": "C",
+          "texto": "Se deben a alteración de las vías dopaminérgicas en el desarrollo de la corteza prefrontal"
+        },
+        {
+          "letra": "D",
+          "texto": "Se deben a alteración en la formación del circuito de recompensa"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Psiquiatría",
+      "tema": "Fisiopatología de la esquizofrenia",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "Mujer joven con dolor submandibular crónico y recurrente, típico de neuralgia del trigémino. Lo más probable es que tenga:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Asa vascular en contacto con el ganglio/nervio del trigémino"
+        },
+        {
+          "letra": "B",
+          "texto": "Schwannoma del trigémino"
+        },
+        {
+          "letra": "C",
+          "texto": "Herpes zóster"
+        },
+        {
+          "letra": "D",
+          "texto": "Esclerosis múltiple"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neurología",
+      "tema": "Neuralgia del trigémino - etiología",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "Paciente con hipotiroidismo, lóbulo tiroideo derecho de mayor tamaño y nódulo tiroideo de 2 cm en la región inferior del lóbulo izquierdo, móvil, no doloroso, con TSH normal. ¿Cuál es la conducta?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "BACAF"
+        },
+        {
+          "letra": "B",
+          "texto": "Ecografía de cuello"
+        },
+        {
+          "letra": "C",
+          "texto": "TAC de cuello"
+        },
+        {
+          "letra": "D",
+          "texto": "Gammagrafía con I-131"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Endocrinología",
+      "tema": "Estudio del nódulo tiroideo",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "Paciente gestante G3P1A1 de 30 semanas, con prueba treponémica rápida positiva y RPR 1/2 diluciones. ¿Cuál es la respuesta correcta?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Tratar con penicilina"
+        },
+        {
+          "letra": "B",
+          "texto": "Es un falso positivo"
+        },
+        {
+          "letra": "C",
+          "texto": "Repetir RPR en 2 semanas"
+        },
+        {
+          "letra": "D",
+          "texto": "Tratar a la madre y dar salida"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Sífilis gestacional - tratamiento",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "Recomendaciones que se deben hacer para un paciente con hemorroides:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "No tardar mucho tiempo sentado en el baño"
+        },
+        {
+          "letra": "B",
+          "texto": "Sentarse en el baño sin banquillo"
+        },
+        {
+          "letra": "C",
+          "texto": "Estar mucho tiempo en el baño insistiendo"
+        },
+        {
+          "letra": "D",
+          "texto": "Ante antecedente de constipación aplicarse lidocaína cuando vaya a defecar"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cirugía General",
+      "tema": "Enfermedad hemorroidal - recomendaciones",
+      "dificultad": "baja",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "Recién nacido de 30 semanas con peso de 1300 gramos. ¿Cuál afirmación es cierta respecto a la termorregulación?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "La pérdida de calor es por irradiación"
+        },
+        {
+          "letra": "B",
+          "texto": "Meterlo en una bolsa plástica sin secar"
+        },
+        {
+          "letra": "C",
+          "texto": "Usar compresas precalentadas para evitar pérdida por convección"
+        },
+        {
+          "letra": "D",
+          "texto": "Favorecer la humedad para evitar pérdidas por conducción"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Pediatría",
+      "tema": "Termorregulación del prematuro",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "Orden de la conducción eléctrica del corazón para el ritmo sinusal:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Haz de His, Purkinje, nodo AV, nodo SA"
+        },
+        {
+          "letra": "B",
+          "texto": "Nodo SA, haz de His, nodo AV, Purkinje"
+        },
+        {
+          "letra": "C",
+          "texto": "Nodo SA, nodo AV, haz de His, Purkinje"
+        },
+        {
+          "letra": "D",
+          "texto": "Purkinje, nodo SA, nodo AV, haz de His"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Fisiología",
+      "tema": "Sistema de conducción cardiaco",
+      "dificultad": "baja",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "Paciente con hemorragia de vías digestivas altas y antecedente de cardiopatía isquémica, hospitalizado, con hemoglobina inicial de 7.5 que tras 24 horas desciende a 7 g/dL. ¿Qué consideraciones debe tener el equipo médico?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Sopesar los riesgos y beneficios de la transfusión"
+        },
+        {
+          "letra": "B",
+          "texto": "Tomar en cuenta las comorbilidades"
+        },
+        {
+          "letra": "C",
+          "texto": "Evaluar la velocidad y el tiempo del descenso de la Hb"
+        },
+        {
+          "letra": "D",
+          "texto": "Transfundir de inmediato sin otras consideraciones"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Hematología",
+      "tema": "Umbral transfusional en HVDA con cardiopatía",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "Paciente con accidente de tránsito y múltiples abrasiones en extremidades superiores. Respecto al manejo de las lesiones, la intervención con evidencia científica que se recomienda es:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Lavar heridas con SSN o agua estéril"
+        },
+        {
+          "letra": "B",
+          "texto": "Agua corriente y lavado a presión"
+        },
+        {
+          "letra": "C",
+          "texto": "Lavar heridas con yodados"
+        },
+        {
+          "letra": "D",
+          "texto": "Aplicar antibiótico tópico"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Medicina de Urgencias",
+      "tema": "Lavado y manejo de heridas por abrasión",
+      "dificultad": "alta",
+      "_resuelta_por_ia": true,
+      "_confianza": "baja",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "¿Cuál NO es un síntoma de abstinencia a la nicotina?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Aumento del apetito"
+        },
+        {
+          "letra": "B",
+          "texto": "Irritabilidad"
+        },
+        {
+          "letra": "C",
+          "texto": "Depresión/distimia"
+        },
+        {
+          "letra": "D",
+          "texto": "Broncoespasmo"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Psiquiatría",
+      "tema": "Síndrome de abstinencia a la nicotina",
+      "dificultad": "baja",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "Paciente con melanoma. ¿Cuál es una característica de malignidad?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Bordes irregulares y asimetría"
+        },
+        {
+          "letra": "B",
+          "texto": "Color homogéneo"
+        },
+        {
+          "letra": "C",
+          "texto": "No produce sangrado a la manipulación"
+        },
+        {
+          "letra": "D",
+          "texto": "Diámetro menor de 6 mm"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Criterios ABCDE del melanoma",
+      "dificultad": "baja",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "Paciente con antecedente de hemorragias en núcleos basales e isquemia renal asociados a hipertensión arterial. ¿Qué marcador esperaría encontrar elevado en sangre?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Amonio"
+        },
+        {
+          "letra": "B",
+          "texto": "Calcio"
+        },
+        {
+          "letra": "C",
+          "texto": "Renina"
+        },
+        {
+          "letra": "D",
+          "texto": "PCR"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Nefrología",
+      "tema": "Sistema renina-angiotensina en HTA/isquemia renal",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "Mujer mayor con fractura de cadera, 2 semanas hospitalizada, que presenta edema en pierna izquierda, dolor a la movilización y sensibilidad a la palpación. ¿Qué complicación puede tener?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Necrosis del pie"
+        },
+        {
+          "letra": "B",
+          "texto": "Tromboembolismo pulmonar (secundario a TVP)"
+        },
+        {
+          "letra": "C",
+          "texto": "CID"
+        },
+        {
+          "letra": "D",
+          "texto": "Síndrome compartimental"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Medicina Interna",
+      "tema": "Trombosis venosa profunda y TEP",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    },
+    {
+      "enunciado": "Paciente con lumbalgia severa que cursa con incontinencia urinaria. ¿Cuál es la bandera roja en este caso?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Compromiso de esfínteres"
+        },
+        {
+          "letra": "B",
+          "texto": "Dolor que empeora con el movimiento"
+        },
+        {
+          "letra": "C",
+          "texto": "Dolor que mejora con el reposo"
+        },
+        {
+          "letra": "D",
+          "texto": "Dolor de más de una semana de evolución"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neurología",
+      "tema": "Banderas rojas de lumbalgia / síndrome de cauda equina",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Univalle 2024-1"
+    }
+  ]
+}
