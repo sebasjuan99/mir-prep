@@ -1,0 +1,6686 @@
+{
+  "examen": "FUCS",
+  "nombre": "FUCS",
+  "anio": 2025,
+  "fuente": "Reconstrucciones FUCS 2022-2025",
+  "preguntas": [
+    {
+      "enunciado": "¿Cuál es la forma infectante de la malaria en el ser humano?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Esporozoito"
+        },
+        {
+          "letra": "B",
+          "texto": "Hipnozoito"
+        },
+        {
+          "letra": "C",
+          "texto": "Merozoito"
+        },
+        {
+          "letra": "D",
+          "texto": "Esquizonte"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Infectología",
+      "tema": "Malaria",
+      "dificultad": "baja",
+      "anio": 2025,
+      "fuente": "Reconstrucción FUCS 2025-2"
+    },
+    {
+      "enunciado": "¿Cuál es el germen responsable de la infección de la glándula de Bartolino?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Staphylococcus"
+        },
+        {
+          "letra": "B",
+          "texto": "Neisseria"
+        },
+        {
+          "letra": "C",
+          "texto": "Chlamydia"
+        },
+        {
+          "letra": "D",
+          "texto": "Gardnerella vaginalis"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Bartolinitis",
+      "dificultad": "media",
+      "anio": 2025,
+      "fuente": "Reconstrucción FUCS 2025-2"
+    },
+    {
+      "enunciado": "La codeleción 1p/19q es un marcador característico de qué tumor cerebral.",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Oligodendroglioma"
+        },
+        {
+          "letra": "B",
+          "texto": "Astrocitoma difuso"
+        },
+        {
+          "letra": "C",
+          "texto": "Glioblastoma"
+        },
+        {
+          "letra": "D",
+          "texto": "Ependimoma"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Oncología",
+      "tema": "Marcadores moleculares en tumores del SNC",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción FUCS 2025-2"
+    },
+    {
+      "enunciado": "¿Cuándo se considera que una persona presenta infección urinaria (IVU) recurrente?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Más de 2 episodios en 6 meses o más de 3 en 1 año"
+        },
+        {
+          "letra": "B",
+          "texto": "Un único episodio con fiebre en el año"
+        },
+        {
+          "letra": "C",
+          "texto": "Más de 1 episodio a lo largo de toda la vida"
+        },
+        {
+          "letra": "D",
+          "texto": "Cualquier episodio que requiera antibiótico"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Urología",
+      "tema": "Infección urinaria recurrente",
+      "dificultad": "baja",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción FUCS 2025-2"
+    },
+    {
+      "enunciado": "La clasificación de Roper-Hall se utiliza para evaluar la gravedad de qué lesión.",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Quemadura corneal (ocular química)"
+        },
+        {
+          "letra": "B",
+          "texto": "Quemadura cutánea por escaldadura"
+        },
+        {
+          "letra": "C",
+          "texto": "Fractura del piso orbitario"
+        },
+        {
+          "letra": "D",
+          "texto": "Úlcera péptica gástrica"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Oftalmología",
+      "tema": "Quemaduras oculares",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción FUCS 2025-2"
+    },
+    {
+      "enunciado": "¿Cuál de los siguientes NO se presenta en la enfermedad de Kawasaki?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Exantema vesicular"
+        },
+        {
+          "letra": "B",
+          "texto": "Lengua aframbuesada"
+        },
+        {
+          "letra": "C",
+          "texto": "Descamación ungueal"
+        },
+        {
+          "letra": "D",
+          "texto": "Adenopatía cervical"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Pediatría",
+      "tema": "Enfermedad de Kawasaki",
+      "dificultad": "media",
+      "anio": 2025,
+      "fuente": "Reconstrucción FUCS 2025-2"
+    },
+    {
+      "enunciado": "Hombre de 50 años con convulsión; la TAC muestra un tumor de bordes irregulares en el lóbulo parietal izquierdo, con aparente contenido hemorrágico, líquido y necrótico. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Glioblastoma"
+        },
+        {
+          "letra": "B",
+          "texto": "Meduloblastoma"
+        },
+        {
+          "letra": "C",
+          "texto": "Craneofaringioma"
+        },
+        {
+          "letra": "D",
+          "texto": "Oligodendroglioma"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Oncología",
+      "tema": "Tumores cerebrales",
+      "dificultad": "media",
+      "anio": 2025,
+      "fuente": "Reconstrucción FUCS 2025-2"
+    },
+    {
+      "enunciado": "¿Qué tipo de hernia inguinal pasa por el triángulo de Hesselbach?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Directa"
+        },
+        {
+          "letra": "B",
+          "texto": "Indirecta"
+        },
+        {
+          "letra": "C",
+          "texto": "De Spiegel"
+        },
+        {
+          "letra": "D",
+          "texto": "Femoral"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cirugía General",
+      "tema": "Hernias de la pared abdominal",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción FUCS 2025-2"
+    },
+    {
+      "enunciado": "¿En qué hueso se inserta el músculo tibial posterior?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Escafoides"
+        },
+        {
+          "letra": "B",
+          "texto": "Navicular"
+        },
+        {
+          "letra": "C",
+          "texto": "Calcáneo"
+        },
+        {
+          "letra": "D",
+          "texto": "Cuboides"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anatomía",
+      "tema": "Anatomía del pie",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción FUCS 2025-2"
+    },
+    {
+      "enunciado": "Niño de 4 años con dificultad respiratoria de 24 horas sin fiebre, con 4 eventos sibilantes en el año; ingresa estable, taquipneico, con tirajes subcostales y SatO2 95%. ¿Cuál es la conducta?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Salbutamol con cámara espaciadora"
+        },
+        {
+          "letra": "B",
+          "texto": "Salbutamol nebulizado a 0.15 mg/kg"
+        },
+        {
+          "letra": "C",
+          "texto": "Radiografía de tórax inmediata por presentar múltiples episodios"
+        },
+        {
+          "letra": "D",
+          "texto": "Adrenalina"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Pediatría",
+      "tema": "Crisis sibilante / asma en pediatría",
+      "dificultad": "media",
+      "anio": 2025,
+      "fuente": "Reconstrucción FUCS 2025-2"
+    },
+    {
+      "enunciado": "En un paciente con TEP que requiere definir manejo ambulatorio, ¿qué escala se utiliza?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Wells simplificado"
+        },
+        {
+          "letra": "B",
+          "texto": "Hestia"
+        },
+        {
+          "letra": "C",
+          "texto": "Ginebra"
+        },
+        {
+          "letra": "D",
+          "texto": "PERC"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Neumología",
+      "tema": "Tromboembolismo pulmonar",
+      "dificultad": "media",
+      "anio": 2025,
+      "fuente": "Reconstrucción FUCS 2025-2"
+    },
+    {
+      "enunciado": "¿Cuál es la característica del cefalohematoma?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Colección subperióstica que no supera las líneas de sutura, no patológica"
+        },
+        {
+          "letra": "B",
+          "texto": "Colección que sí atraviesa las líneas de sutura"
+        },
+        {
+          "letra": "C",
+          "texto": "Colección subgaleal difusa y extensa"
+        },
+        {
+          "letra": "D",
+          "texto": "Colección que siempre requiere drenaje quirúrgico"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Pediatría",
+      "tema": "Traumatismo obstétrico del recién nacido",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción FUCS 2025-2"
+    },
+    {
+      "enunciado": "¿Cuál es el mecanismo de acción del ticagrelor?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Bloquear el receptor P2Y12"
+        },
+        {
+          "letra": "B",
+          "texto": "Inhibir irreversiblemente la COX-1"
+        },
+        {
+          "letra": "C",
+          "texto": "Bloquear el receptor GP IIb/IIIa"
+        },
+        {
+          "letra": "D",
+          "texto": "Inhibir directamente la trombina"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Farmacología",
+      "tema": "Antiagregantes plaquetarios",
+      "dificultad": "baja",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción FUCS 2025-2"
+    },
+    {
+      "enunciado": "¿Cuál es una cardiopatía congénita cianosante tardía (cortocircuito de izquierda a derecha)?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Tetralogía de Fallot"
+        },
+        {
+          "letra": "B",
+          "texto": "Ductus arterioso persistente"
+        },
+        {
+          "letra": "C",
+          "texto": "Transposición de grandes vasos"
+        },
+        {
+          "letra": "D",
+          "texto": "Comunicación interventricular aislada"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Cardiología",
+      "tema": "Cardiopatías congénitas",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción FUCS 2025-2"
+    },
+    {
+      "enunciado": "¿Con qué se relaciona la prueba de Ortolani?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Displasia del desarrollo de cadera"
+        },
+        {
+          "letra": "B",
+          "texto": "Cadera luxada irreductible"
+        },
+        {
+          "letra": "C",
+          "texto": "Abducción normal de cadera"
+        },
+        {
+          "letra": "D",
+          "texto": "Asimetría de pliegues o de extremidad"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Pediatría",
+      "tema": "Displasia del desarrollo de cadera",
+      "dificultad": "baja",
+      "anio": 2025,
+      "fuente": "Reconstrucción FUCS 2025-2"
+    },
+    {
+      "enunciado": "La clasificación de Hinchey se utiliza para estadificar qué patología.",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Diverticulitis"
+        },
+        {
+          "letra": "B",
+          "texto": "Pancreatitis aguda"
+        },
+        {
+          "letra": "C",
+          "texto": "Apendicitis aguda"
+        },
+        {
+          "letra": "D",
+          "texto": "Colecistitis aguda"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cirugía General",
+      "tema": "Enfermedad diverticular",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción FUCS 2025-2"
+    },
+    {
+      "enunciado": "En la diabetes mellitus tipo 2, ¿qué proceso predomina en el tejido adiposo?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Lipogénesis"
+        },
+        {
+          "letra": "B",
+          "texto": "Lipólisis"
+        },
+        {
+          "letra": "C",
+          "texto": "Captación de ácidos grasos"
+        },
+        {
+          "letra": "D",
+          "texto": "Aumento de la glucosa intracelular"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Endocrinología",
+      "tema": "Fisiopatología de la diabetes tipo 2",
+      "dificultad": "media",
+      "anio": 2025,
+      "fuente": "Reconstrucción FUCS 2025-2"
+    },
+    {
+      "enunciado": "¿Cuál NO es un criterio semiológico (de Jones) de fiebre reumática?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Carditis"
+        },
+        {
+          "letra": "B",
+          "texto": "Nódulos dolorosos"
+        },
+        {
+          "letra": "C",
+          "texto": "Eritema marginado"
+        },
+        {
+          "letra": "D",
+          "texto": "Corea"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Reumatología",
+      "tema": "Fiebre reumática / criterios de Jones",
+      "dificultad": "media",
+      "anio": 2025,
+      "fuente": "Reconstrucción FUCS 2025-2"
+    },
+    {
+      "enunciado": "Si falla la autofagia, ¿qué estructura celular se ve afectada principalmente?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Retículo endoplásmico rugoso"
+        },
+        {
+          "letra": "B",
+          "texto": "Mitocondrias"
+        },
+        {
+          "letra": "C",
+          "texto": "Lisosomas"
+        },
+        {
+          "letra": "D",
+          "texto": "Peroxisomas"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Fisiología",
+      "tema": "Biología celular / autofagia",
+      "dificultad": "media",
+      "anio": 2025,
+      "fuente": "Reconstrucción FUCS 2025-2"
+    },
+    {
+      "enunciado": "La clasificación o escala de Alvarado se utiliza para el diagnóstico de qué patología.",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Apendicitis aguda"
+        },
+        {
+          "letra": "B",
+          "texto": "Colecistitis aguda"
+        },
+        {
+          "letra": "C",
+          "texto": "Diverticulitis"
+        },
+        {
+          "letra": "D",
+          "texto": "Pancreatitis aguda"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cirugía General",
+      "tema": "Apendicitis aguda / escala de Alvarado",
+      "dificultad": "baja",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción FUCS 2025-2"
+    },
+    {
+      "enunciado": "¿Cuál es el principal sustrato del metabolismo placentario?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Glucosa"
+        },
+        {
+          "letra": "B",
+          "texto": "Lactógeno placentario"
+        },
+        {
+          "letra": "C",
+          "texto": "Ácidos grasos"
+        },
+        {
+          "letra": "D",
+          "texto": "Progesterona"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Fisiología placentaria",
+      "dificultad": "media",
+      "anio": 2025,
+      "fuente": "Reconstrucción FUCS 2025-2"
+    },
+    {
+      "enunciado": "¿Cuántas kcal aporta 1 gramo de grasa?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "9 kcal"
+        },
+        {
+          "letra": "B",
+          "texto": "4 kcal"
+        },
+        {
+          "letra": "C",
+          "texto": "2 kcal"
+        },
+        {
+          "letra": "D",
+          "texto": "20 kcal"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Bioquímica",
+      "tema": "Metabolismo energético",
+      "dificultad": "baja",
+      "anio": 2025,
+      "fuente": "Reconstrucción FUCS 2025-2"
+    },
+    {
+      "enunciado": "La unión de la vena mesentérica superior con la vena esplénica forma, ¿qué vena?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Vena porta"
+        },
+        {
+          "letra": "B",
+          "texto": "Vena ácigos"
+        },
+        {
+          "letra": "C",
+          "texto": "Vena hepática común"
+        },
+        {
+          "letra": "D",
+          "texto": "Vena cava inferior"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anatomía",
+      "tema": "Sistema venoso portal",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción FUCS 2025-2"
+    },
+    {
+      "enunciado": "Si se quiere evaluar el riesgo (incidencia) en dos poblaciones, ¿qué tipo de estudio se debe usar?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Estudio de cohorte"
+        },
+        {
+          "letra": "B",
+          "texto": "Estudio de casos y controles"
+        },
+        {
+          "letra": "C",
+          "texto": "Estudio de corte transversal"
+        },
+        {
+          "letra": "D",
+          "texto": "Ensayo clínico aleatorizado"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Diseños de estudio epidemiológico",
+      "dificultad": "baja",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción FUCS 2025-2"
+    },
+    {
+      "enunciado": "Calcule la sensibilidad de una prueba con verdaderos positivos 180, falsos positivos 120, falsos negativos 110 y verdaderos negativos 1100. ¿Cuál es la fórmula correcta?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "180 / (180 + 110)"
+        },
+        {
+          "letra": "B",
+          "texto": "180 / (180 + 120)"
+        },
+        {
+          "letra": "C",
+          "texto": "1100 / (1100 + 120)"
+        },
+        {
+          "letra": "D",
+          "texto": "1100 / (1100 + 110)"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Pruebas diagnósticas / sensibilidad",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción FUCS 2025-2"
+    },
+    {
+      "enunciado": "Respecto a las zonas de Jackson para las quemaduras, ¿cuál de las siguientes NO pertenece a esta clasificación?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Flictena"
+        },
+        {
+          "letra": "B",
+          "texto": "Zona de coagulación"
+        },
+        {
+          "letra": "C",
+          "texto": "Zona de estasis"
+        },
+        {
+          "letra": "D",
+          "texto": "Zona de hiperemia"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cirugía General",
+      "tema": "Quemaduras / zonas de Jackson",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción FUCS 2025-2"
+    },
+    {
+      "enunciado": "¿Cuál es el medicamento de elección para la cefalea tensional crónica?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Amitriptilina"
+        },
+        {
+          "letra": "B",
+          "texto": "Sumatriptán"
+        },
+        {
+          "letra": "C",
+          "texto": "Naproxeno"
+        },
+        {
+          "letra": "D",
+          "texto": "Carbamazepina"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neurología",
+      "tema": "Cefalea tensional",
+      "dificultad": "media",
+      "anio": 2025,
+      "fuente": "Reconstrucción FUCS 2025-2"
+    },
+    {
+      "enunciado": "En un estudio de 1.000 personas la incidencia es de 20 casos nuevos en un año y previamente había 100 personas con la enfermedad. ¿Cuál es la prevalencia al final de ese año?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Prevalencia al inicio del año 11%"
+        },
+        {
+          "letra": "B",
+          "texto": "Prevalencia del 12%"
+        },
+        {
+          "letra": "C",
+          "texto": "Incidencia acumulada 2.2%"
+        },
+        {
+          "letra": "D",
+          "texto": "Prevalencia acumulada 0.2%"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Prevalencia e incidencia",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción FUCS 2025-2"
+    },
+    {
+      "enunciado": "Ante un paciente politraumatizado, ¿cuál es la conducta inicial adecuada?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Estabilizar y trasladar a cuidados intensivos"
+        },
+        {
+          "letra": "B",
+          "texto": "Llevar a cirugía inmediata sin estabilizar"
+        },
+        {
+          "letra": "C",
+          "texto": "Dar de alta con analgesia"
+        },
+        {
+          "letra": "D",
+          "texto": "Observación domiciliaria"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Medicina de Urgencias",
+      "tema": "Manejo del politraumatismo",
+      "dificultad": "baja",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción FUCS 2025-2"
+    },
+    {
+      "enunciado": "¿Con qué estructura se relaciona anatómicamente la cara del ventrículo izquierdo del corazón?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Diafragma"
+        },
+        {
+          "letra": "B",
+          "texto": "Esternón"
+        },
+        {
+          "letra": "C",
+          "texto": "Pulmón derecho"
+        },
+        {
+          "letra": "D",
+          "texto": "Vena cava superior"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anatomía",
+      "tema": "Anatomía del corazón",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción FUCS 2025-2"
+    },
+    {
+      "enunciado": "En el trauma cerrado de abdomen, ¿cuál es el órgano lesionado con mayor frecuencia?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Hígado"
+        },
+        {
+          "letra": "B",
+          "texto": "Bazo"
+        },
+        {
+          "letra": "C",
+          "texto": "Intestino delgado"
+        },
+        {
+          "letra": "D",
+          "texto": "Riñón"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Cirugía General",
+      "tema": "Trauma abdominal cerrado",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción FUCS 2025-2"
+    },
+    {
+      "enunciado": "¿Cuál es un ejemplo de cardiopatía congénita cianosante tardía?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Ductus arterioso persistente"
+        },
+        {
+          "letra": "B",
+          "texto": "Tetralogía de Fallot"
+        },
+        {
+          "letra": "C",
+          "texto": "Transposición de grandes vasos"
+        },
+        {
+          "letra": "D",
+          "texto": "Atresia tricuspídea"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cardiología",
+      "tema": "Cardiopatías congénitas cianosantes",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción FUCS 2025-2"
+    },
+    {
+      "enunciado": "¿Cuál es un signo característico del síndrome compartimental?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Dolor al movimiento pasivo que no cede con analgesia"
+        },
+        {
+          "letra": "B",
+          "texto": "Ausencia precoz de pulso distal"
+        },
+        {
+          "letra": "C",
+          "texto": "Palidez cutánea aislada"
+        },
+        {
+          "letra": "D",
+          "texto": "Anestesia completa de la extremidad"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Traumatología y Ortopedia",
+      "tema": "Síndrome compartimental",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción FUCS 2025-2"
+    },
+    {
+      "enunciado": "¿Cuál es el anticoagulante de elección en pacientes con IAM sin elevación del ST que van a angioplastia?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Heparina no fraccionada"
+        },
+        {
+          "letra": "B",
+          "texto": "Warfarina"
+        },
+        {
+          "letra": "C",
+          "texto": "Enoxaparina"
+        },
+        {
+          "letra": "D",
+          "texto": "Fondaparinux"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cardiología",
+      "tema": "Síndrome coronario agudo sin elevación del ST",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción FUCS 2025-2"
+    },
+    {
+      "enunciado": "¿Cómo se define el expulsivo (trabajo de parto) prolongado o retenido?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Multípara que demora más de 1 hora y nulípara que demora más de 3 horas"
+        },
+        {
+          "letra": "B",
+          "texto": "Multípara que demora más de 3 horas y nulípara más de 5 horas"
+        },
+        {
+          "letra": "C",
+          "texto": "Cualquier parto que demore más de 30 minutos"
+        },
+        {
+          "letra": "D",
+          "texto": "Nulípara que demora más de 1 hora y multípara más de 2 horas"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Trabajo de parto prolongado",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción FUCS 2025-2"
+    },
+    {
+      "enunciado": "En cuanto a los líquidos basales del paciente preanestésico, ¿cuáles son los valores correctos de agua, sodio y potasio?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "10-15 cc/kg de H2O"
+        },
+        {
+          "letra": "B",
+          "texto": "30-35 cc de H2O + Na 1-2 + K 0.75-1"
+        },
+        {
+          "letra": "C",
+          "texto": "40 cc"
+        },
+        {
+          "letra": "D",
+          "texto": "60 cc/kg de H2O + Na 1-2 meq + K 3-5 meq"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Anestesiología",
+      "tema": "Líquidos basales / valoración preanestésica",
+      "dificultad": "alta",
+      "anio": 2025,
+      "fuente": "Reconstrucción FUCS 2025-2"
+    },
+    {
+      "enunciado": "¿Cuál es la droga de mayor consumo en la población adolescente?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Alcohol"
+        },
+        {
+          "letra": "B",
+          "texto": "Cannabis"
+        },
+        {
+          "letra": "C",
+          "texto": "Cocaína"
+        },
+        {
+          "letra": "D",
+          "texto": "Tabaco"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Psiquiatría",
+      "tema": "Consumo de sustancias en adolescentes",
+      "dificultad": "baja",
+      "anio": 2025,
+      "fuente": "Reconstrucción FUCS 2025-2"
+    },
+    {
+      "enunciado": "¿En cuál de las siguientes situaciones el objetivo terapéutico de LDL es < 55 mg/dl?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Enfermedad cardiovascular prematura"
+        },
+        {
+          "letra": "B",
+          "texto": "Diabetes tipo 1 de larga data"
+        },
+        {
+          "letra": "C",
+          "texto": "TFG < 45"
+        },
+        {
+          "letra": "D",
+          "texto": "LDL > 180 mg/dl"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Cardiología",
+      "tema": "Metas de LDL y riesgo cardiovascular",
+      "dificultad": "media",
+      "anio": 2025,
+      "fuente": "Reconstrucción FUCS 2025-2"
+    },
+    {
+      "enunciado": "En tuberculosis, ¿a quién está indicada la quimioprofilaxis?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Asintomáticos con PPD negativa y alto riesgo por contacto con bacilíferos"
+        },
+        {
+          "letra": "B",
+          "texto": "Sintomáticos con tuberculina positiva y alto riesgo"
+        },
+        {
+          "letra": "C",
+          "texto": "Asintomáticos con tuberculina negativa sin factores de riesgo"
+        },
+        {
+          "letra": "D",
+          "texto": "Pacientes con tuberculosis activa confirmada"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Infectología",
+      "tema": "Tuberculosis / quimioprofilaxis",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción FUCS 2025-2"
+    },
+    {
+      "enunciado": "¿Qué se logra auscultar en el vértice superior de la escápula?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Lóbulo superior"
+        },
+        {
+          "letra": "B",
+          "texto": "Ápice pulmonar"
+        },
+        {
+          "letra": "C",
+          "texto": "Segmento posterior"
+        },
+        {
+          "letra": "D",
+          "texto": "Segmento apicoposterior"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Neumología",
+      "tema": "Auscultación pulmonar",
+      "dificultad": "media",
+      "anio": 2025,
+      "fuente": "Reconstrucción FUCS 2025-2"
+    },
+    {
+      "enunciado": "¿Cuál es el principal mediador de la respuesta metabólica al trauma?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Cortisol"
+        },
+        {
+          "letra": "B",
+          "texto": "Adrenalina"
+        },
+        {
+          "letra": "C",
+          "texto": "Glucagón"
+        },
+        {
+          "letra": "D",
+          "texto": "Insulina"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Fisiología",
+      "tema": "Respuesta metabólica al trauma",
+      "dificultad": "media",
+      "anio": 2025,
+      "fuente": "Reconstrucción FUCS 2025-2"
+    },
+    {
+      "enunciado": "¿Qué estructura se encuentra situada entre ambos tálamos?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Tercer ventrículo"
+        },
+        {
+          "letra": "B",
+          "texto": "Cuerpo calloso"
+        },
+        {
+          "letra": "C",
+          "texto": "Ínsula"
+        },
+        {
+          "letra": "D",
+          "texto": "Glándula pineal"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anatomía",
+      "tema": "Anatomía del diencéfalo",
+      "dificultad": "baja",
+      "anio": 2025,
+      "fuente": "Reconstrucción FUCS 2025-2"
+    },
+    {
+      "enunciado": "En la cetoacidosis diabética, respecto a la corrección de líquidos, ¿cuál es el objetivo de la reposición de volemia?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Repleción de líquidos para garantizar la perfusión tisular"
+        },
+        {
+          "letra": "B",
+          "texto": "Disminuir los niveles de glucosa"
+        },
+        {
+          "letra": "C",
+          "texto": "Administrar bicarbonato para corregir la cetoacidosis"
+        },
+        {
+          "letra": "D",
+          "texto": "Iniciar insulina antes que los líquidos"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Endocrinología",
+      "tema": "Cetoacidosis diabética",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción FUCS 2025-2"
+    },
+    {
+      "enunciado": "¿Cuál NO es un cambio esperado en niños y adolescentes con hipertensión arterial primaria?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Aumento de la frecuencia cardiaca"
+        },
+        {
+          "letra": "B",
+          "texto": "Aumento de la resistencia vascular periférica"
+        },
+        {
+          "letra": "C",
+          "texto": "Elevación de la contracción ventricular"
+        },
+        {
+          "letra": "D",
+          "texto": "Aumento de la velocidad de pulso"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Pediatría",
+      "tema": "Hipertensión arterial primaria en pediatría",
+      "dificultad": "media",
+      "anio": 2025,
+      "fuente": "Reconstrucción FUCS 2025-2"
+    },
+    {
+      "enunciado": "¿Cuáles son factores de riesgo para la trombosis venosa mesentérica?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Sepsis"
+        },
+        {
+          "letra": "B",
+          "texto": "Cirrosis hepática"
+        },
+        {
+          "letra": "C",
+          "texto": "Embarazo"
+        },
+        {
+          "letra": "D",
+          "texto": "Todas las anteriores"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Gastroenterología",
+      "tema": "Trombosis venosa mesentérica",
+      "dificultad": "media",
+      "anio": 2025,
+      "fuente": "Reconstrucción FUCS 2025-2"
+    },
+    {
+      "enunciado": "¿Cuál es el factor de riesgo principal de enfermedad cardiovascular en Latinoamérica?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Hipertensión"
+        },
+        {
+          "letra": "B",
+          "texto": "Obesidad"
+        },
+        {
+          "letra": "C",
+          "texto": "Dislipidemia"
+        },
+        {
+          "letra": "D",
+          "texto": "Tabaquismo"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cardiología",
+      "tema": "Factores de riesgo cardiovascular",
+      "dificultad": "baja",
+      "anio": 2025,
+      "fuente": "Reconstrucción FUCS 2025-2"
+    },
+    {
+      "enunciado": "¿Cuál es la forma más frecuente de hiperplasia suprarrenal congénita?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "No clásica"
+        },
+        {
+          "letra": "B",
+          "texto": "Perdedora de sal"
+        },
+        {
+          "letra": "C",
+          "texto": "Clásica virilizante simple"
+        },
+        {
+          "letra": "D",
+          "texto": "Por déficit de 11-beta-hidroxilasa"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Endocrinología",
+      "tema": "Hiperplasia suprarrenal congénita",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción FUCS 2025-2"
+    },
+    {
+      "enunciado": "¿Cuál es la definición aceptada de mortalidad materna tardía según la OMS y el CIE-10?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Del día 43 posparto hasta un año después."
+        },
+        {
+          "letra": "B",
+          "texto": "Desde el tercer trimestre del embarazo hasta el puerperio (día 42)."
+        },
+        {
+          "letra": "C",
+          "texto": "Desde el momento del parto hasta el puerperio (día 42)."
+        },
+        {
+          "letra": "D",
+          "texto": "Del día 42 posparto hasta seis meses después."
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Mortalidad materna",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción FUCS 2024-02"
+    },
+    {
+      "enunciado": "¿Cuál es la principal causa de hemorragia posparto tardía que justifica solicitar laboratorios e imágenes?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Lesión uterina durante el parto."
+        },
+        {
+          "letra": "B",
+          "texto": "Desgarros del cuello uterino."
+        },
+        {
+          "letra": "C",
+          "texto": "Enfermedad trofoblástica."
+        },
+        {
+          "letra": "D",
+          "texto": "Alteraciones de la coagulación."
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Hemorragia posparto tardía",
+      "dificultad": "alta",
+      "_resuelta_por_ia": true,
+      "_confianza": "baja",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción FUCS 2024-02"
+    },
+    {
+      "enunciado": "¿A partir de qué semana de gestación se diagnostica la preeclampsia?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Semana 20."
+        },
+        {
+          "letra": "B",
+          "texto": "Semana 18."
+        },
+        {
+          "letra": "C",
+          "texto": "Semana 24."
+        },
+        {
+          "letra": "D",
+          "texto": "Semana 26."
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Preeclampsia",
+      "dificultad": "baja",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción FUCS 2024-02"
+    },
+    {
+      "enunciado": "Según la ADA, ¿cuál es el porcentaje ideal de tiempo en rango normal para las glucometrías?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "70%."
+        },
+        {
+          "letra": "B",
+          "texto": "80%."
+        },
+        {
+          "letra": "C",
+          "texto": "90%."
+        },
+        {
+          "letra": "D",
+          "texto": "60%."
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Endocrinología",
+      "tema": "Diabetes mellitus - tiempo en rango",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción FUCS 2024-02"
+    },
+    {
+      "enunciado": "El absceso de Bezold es una complicación de:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Otitis."
+        },
+        {
+          "letra": "B",
+          "texto": "Amigdalitis."
+        },
+        {
+          "letra": "C",
+          "texto": "Trauma nasal."
+        },
+        {
+          "letra": "D",
+          "texto": "Trauma auricular."
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Otorrinolaringología",
+      "tema": "Mastoiditis - complicaciones",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción FUCS 2024-02"
+    },
+    {
+      "enunciado": "En un niño de 6 años con fiebre subaguda, tos crónica, manifestaciones extrapulmonares y patrón intersticial en la radiografía, ¿cuál es el antibiótico inicial más adecuado?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Amoxicilina."
+        },
+        {
+          "letra": "B",
+          "texto": "Tetraciclina."
+        },
+        {
+          "letra": "C",
+          "texto": "Eritromicina."
+        },
+        {
+          "letra": "D",
+          "texto": "Penicilina."
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Pediatría",
+      "tema": "Neumonía atípica",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción FUCS 2024-02"
+    },
+    {
+      "enunciado": "¿Cuándo se realiza tamizaje de ITS en adolescentes?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "A todos los que ya iniciaron vida sexual (según AIEPI)."
+        },
+        {
+          "letra": "B",
+          "texto": "Solo si tienen conductas sexuales de riesgo (según RIAS)."
+        },
+        {
+          "letra": "C",
+          "texto": "A mayores de 15 años."
+        },
+        {
+          "letra": "D",
+          "texto": "Solo si presentan síntomas genitales."
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Pediatría",
+      "tema": "Tamizaje de ITS en adolescentes",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "_distractores_ia": true,
+      "_recuperada": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción FUCS 2024-02"
+    },
+    {
+      "enunciado": "¿Cuál es el primer signo de pubertad en los hombres?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Aumento del tamaño testicular."
+        },
+        {
+          "letra": "B",
+          "texto": "Engrosamiento de la voz."
+        },
+        {
+          "letra": "C",
+          "texto": "Crecimiento del vello."
+        },
+        {
+          "letra": "D",
+          "texto": "Aparición de acné."
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Pediatría",
+      "tema": "Desarrollo puberal",
+      "dificultad": "baja",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción FUCS 2024-02"
+    },
+    {
+      "enunciado": "¿Para qué se utilizan las maniobras HINTS?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Evaluar síndrome vestibular agudo."
+        },
+        {
+          "letra": "B",
+          "texto": "Diagnosticar absceso periamigdalino."
+        },
+        {
+          "letra": "C",
+          "texto": "Evaluar enfermedad de Ménière."
+        },
+        {
+          "letra": "D",
+          "texto": "Detectar parálisis facial periférica."
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neurología",
+      "tema": "Síndrome vestibular agudo",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "_distractores_ia": true,
+      "_recuperada": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción FUCS 2024-02"
+    },
+    {
+      "enunciado": "¿Cuál de las siguientes es una característica del hematoma subdural?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Origen venoso."
+        },
+        {
+          "letra": "B",
+          "texto": "Trauma de alto impacto."
+        },
+        {
+          "letra": "C",
+          "texto": "Déficit motor en las primeras 24 horas."
+        },
+        {
+          "letra": "D",
+          "texto": "No cronifica."
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neurocirugía",
+      "tema": "Hematoma subdural",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción FUCS 2024-02"
+    },
+    {
+      "enunciado": "En una cistografía, el signo de llamarada en trauma de vejiga indica:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Lesión extraperitoneal."
+        },
+        {
+          "letra": "B",
+          "texto": "Lesión intraperitoneal."
+        },
+        {
+          "letra": "C",
+          "texto": "Rotura del cuello vesical."
+        },
+        {
+          "letra": "D",
+          "texto": "Hematoma en la pared de la vejiga."
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Urología",
+      "tema": "Trauma vesical",
+      "dificultad": "alta",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción FUCS 2024-02"
+    },
+    {
+      "enunciado": "En trauma uretral, el signo radiológico de \"sol naciente\" indica:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Lesión extraperitoneal."
+        },
+        {
+          "letra": "B",
+          "texto": "Lesión intraperitoneal."
+        },
+        {
+          "letra": "C",
+          "texto": "Hematoma de la vejiga."
+        },
+        {
+          "letra": "D",
+          "texto": "Lesión completa de la uretra posterior."
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Urología",
+      "tema": "Trauma uretral",
+      "dificultad": "alta",
+      "_resuelta_por_ia": true,
+      "_confianza": "baja",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción FUCS 2024-02"
+    },
+    {
+      "enunciado": "Un niño con cuatro deposiciones líquidas sin sangre ni moco en 24 horas, ojos hundidos, toma de líquidos rápida e irritabilidad presenta:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Deshidratación grave."
+        },
+        {
+          "letra": "B",
+          "texto": "Algún grado de deshidratación."
+        },
+        {
+          "letra": "C",
+          "texto": "Deshidratación moderada."
+        },
+        {
+          "letra": "D",
+          "texto": "Diarrea de alto gasto."
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Pediatría",
+      "tema": "Enfermedad diarreica aguda - AIEPI",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción FUCS 2024-02"
+    },
+    {
+      "enunciado": "En una niña de 3 años con hipertrofia de gastrocnemios y dificultad para caminar, ¿cuál es el gen que debe estudiarse?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "XP21."
+        },
+        {
+          "letra": "B",
+          "texto": "BRCA1."
+        },
+        {
+          "letra": "C",
+          "texto": "P53."
+        },
+        {
+          "letra": "D",
+          "texto": "Kras."
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Genética",
+      "tema": "Distrofia muscular de Duchenne",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción FUCS 2024-02"
+    },
+    {
+      "enunciado": "¿Cuál es un tumor benigno de células mesenquimales?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Lipoma."
+        },
+        {
+          "letra": "B",
+          "texto": "Teratoma."
+        },
+        {
+          "letra": "C",
+          "texto": "Glioma."
+        },
+        {
+          "letra": "D",
+          "texto": "Fibroma."
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Patología",
+      "tema": "Tumores mesenquimales benignos",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "baja",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción FUCS 2024-02"
+    },
+    {
+      "enunciado": "Según la guía europea 2023, la hipertensión arterial grado I se define como:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "140-159 y/o 90-99 mmHg."
+        },
+        {
+          "letra": "B",
+          "texto": "160-179 y/o 100-109 mmHg."
+        },
+        {
+          "letra": "C",
+          "texto": "Mayor a 180 y/o mayor a 110 mmHg."
+        },
+        {
+          "letra": "D",
+          "texto": "130-140 y/o 80-90 mmHg."
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cardiología",
+      "tema": "Clasificación de hipertensión arterial",
+      "dificultad": "baja",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción FUCS 2024-02"
+    },
+    {
+      "enunciado": "En una paciente con ACV, elevación de BUN y creatinina, y cambios de esclerosis en los riñones con hipertrofia de las arterias aferentes y atrofia glomerular, ¿cuál es la patología de base?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Diabetes mellitus."
+        },
+        {
+          "letra": "B",
+          "texto": "Hipertensión arterial."
+        },
+        {
+          "letra": "C",
+          "texto": "Glomerulonefritis."
+        },
+        {
+          "letra": "D",
+          "texto": "Síndrome nefrótico."
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Nefrología",
+      "tema": "Nefroesclerosis hipertensiva",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción FUCS 2024-02"
+    },
+    {
+      "enunciado": "¿Cuál es el tipo de cáncer de pulmón más estrechamente asociado al tabaquismo?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Adenocarcinoma tipo usual."
+        },
+        {
+          "letra": "B",
+          "texto": "Carcinoma escamocelular."
+        },
+        {
+          "letra": "C",
+          "texto": "Carcinoma broncoalveolar."
+        },
+        {
+          "letra": "D",
+          "texto": "Hamartoma."
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Neumología",
+      "tema": "Cáncer de pulmón",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción FUCS 2024-02"
+    },
+    {
+      "enunciado": "Embriológicamente, ¿qué estructura migra primero?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Notocorda."
+        },
+        {
+          "letra": "B",
+          "texto": "Somitas."
+        },
+        {
+          "letra": "C",
+          "texto": "Placa neural."
+        },
+        {
+          "letra": "D",
+          "texto": "Hipoblasto."
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anatomía",
+      "tema": "Embriología - gastrulación",
+      "dificultad": "alta",
+      "_resuelta_por_ia": true,
+      "_confianza": "baja",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción FUCS 2024-02"
+    },
+    {
+      "enunciado": "¿Cuál es la única parte ósea que deriva de la cresta neural?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Cara y bóveda craneana anterior."
+        },
+        {
+          "letra": "B",
+          "texto": "Bóveda craneana posterior."
+        },
+        {
+          "letra": "C",
+          "texto": "Pelvis."
+        },
+        {
+          "letra": "D",
+          "texto": "Columna cervical y clavícula."
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anatomía",
+      "tema": "Cresta neural - derivados óseos",
+      "dificultad": "alta",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción FUCS 2024-02"
+    },
+    {
+      "enunciado": "En un niño con taquicardia supraventricular, ¿qué aspecto es importante preguntar en la valoración inicial prehospitalaria?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Frecuencia cardíaca mayor a 220."
+        },
+        {
+          "letra": "B",
+          "texto": "Deshidratación."
+        },
+        {
+          "letra": "C",
+          "texto": "Presencia de ondas P."
+        },
+        {
+          "letra": "D",
+          "texto": "Consumo de AINEs."
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Pediatría",
+      "tema": "Taquicardia supraventricular",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción FUCS 2024-02"
+    },
+    {
+      "enunciado": "¿Cuál es un factor de riesgo para retinopatía del prematuro?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Mayor a 34 semanas y/o menor a 1800 g."
+        },
+        {
+          "letra": "B",
+          "texto": "Mayor a 32 semanas y/o mayor a 1500 g."
+        },
+        {
+          "letra": "C",
+          "texto": "Menor a 32 semanas y menor a 1500 g."
+        },
+        {
+          "letra": "D",
+          "texto": "Recién nacido con uso de oxígeno."
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Pediatría",
+      "tema": "Retinopatía del prematuro",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción FUCS 2024-02"
+    },
+    {
+      "enunciado": "¿Cuál es la dosis de adrenalina para reanimación en un niño?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "1 mcg/kg."
+        },
+        {
+          "letra": "B",
+          "texto": "0.1 mg/kg."
+        },
+        {
+          "letra": "C",
+          "texto": "0.01 mg/kg."
+        },
+        {
+          "letra": "D",
+          "texto": "1 mg/kg."
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Pediatría",
+      "tema": "Reanimación cardiopulmonar pediátrica",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción FUCS 2024-02"
+    },
+    {
+      "enunciado": "Definición de laceración ocular traumática:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Pérdida del epitelio corneal."
+        },
+        {
+          "letra": "B",
+          "texto": "Herida superficial de la conjuntiva."
+        },
+        {
+          "letra": "C",
+          "texto": "Herida de espesor completo en la pared ocular."
+        },
+        {
+          "letra": "D",
+          "texto": "Excoriación en la piel del párpado."
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Oftalmología",
+      "tema": "Trauma ocular",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción FUCS 2024-02"
+    },
+    {
+      "enunciado": "En la tetralogía de Fallot, ¿cuál de las siguientes NO está relacionada?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Coartación de la aorta."
+        },
+        {
+          "letra": "B",
+          "texto": "Estenosis pulmonar."
+        },
+        {
+          "letra": "C",
+          "texto": "Hipertrofia del ventrículo derecho."
+        },
+        {
+          "letra": "D",
+          "texto": "Comunicación interventricular."
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cardiología",
+      "tema": "Tetralogía de Fallot",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción FUCS 2024-02"
+    },
+    {
+      "enunciado": "Según la resolución 3280, ¿cuál es el test cognitivo para la infancia?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Instrumento VALE."
+        },
+        {
+          "letra": "B",
+          "texto": "Dibujito de un niño."
+        },
+        {
+          "letra": "C",
+          "texto": "Cuestionario ASIST."
+        },
+        {
+          "letra": "D",
+          "texto": "Test de Goodenough-Harris."
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Pediatría",
+      "tema": "Valoración del desarrollo - Resolución 3280",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción FUCS 2024-02"
+    },
+    {
+      "enunciado": "¿Cuál hepatitis eleva más las enzimas hepáticas?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Hepatitis A."
+        },
+        {
+          "letra": "B",
+          "texto": "Hepatitis B."
+        },
+        {
+          "letra": "C",
+          "texto": "Hepatitis tóxica."
+        },
+        {
+          "letra": "D",
+          "texto": "Hepatitis autoinmune."
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Gastroenterología",
+      "tema": "Hepatitis - patrón enzimático",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción FUCS 2024-02"
+    },
+    {
+      "enunciado": "En un trauma ocular con hifema del 60%, ¿cuál es el manejo contraindicado?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Elevar la cabecera a 30°."
+        },
+        {
+          "letra": "B",
+          "texto": "Uso de AINEs sistémicos."
+        },
+        {
+          "letra": "C",
+          "texto": "Midriático y corticoide tópico."
+        },
+        {
+          "letra": "D",
+          "texto": "Evitar maniobras de Valsalva."
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Oftalmología",
+      "tema": "Hifema traumático",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción FUCS 2024-02"
+    },
+    {
+      "enunciado": "Según el CDC 2017, ¿cuándo se considera positiva la prueba de tuberculina en personal de salud?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Mayor a 5 mm."
+        },
+        {
+          "letra": "B",
+          "texto": "Mayor a 10 mm."
+        },
+        {
+          "letra": "C",
+          "texto": "Mayor a 15 mm."
+        },
+        {
+          "letra": "D",
+          "texto": "Mayor a 20 mm."
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Infectología",
+      "tema": "Prueba de tuberculina",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción FUCS 2024-02"
+    },
+    {
+      "enunciado": "Fractura abierta de tibia con exposición ósea de 3 cm, con sensibilidad y motilidad conservadas, ¿cuál es la clasificación de Gustilo-Anderson?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Grado I."
+        },
+        {
+          "letra": "B",
+          "texto": "Grado II."
+        },
+        {
+          "letra": "C",
+          "texto": "Grado IIIA."
+        },
+        {
+          "letra": "D",
+          "texto": "Grado IIIB."
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Traumatología y Ortopedia",
+      "tema": "Clasificación de Gustilo-Anderson",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción FUCS 2024-02"
+    },
+    {
+      "enunciado": "¿Cuál estatina es de alta potencia?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Lovastatina 20 mg."
+        },
+        {
+          "letra": "B",
+          "texto": "Atorvastatina 20 mg."
+        },
+        {
+          "letra": "C",
+          "texto": "Pravastatina 20 mg."
+        },
+        {
+          "letra": "D",
+          "texto": "Rosuvastatina 40 mg."
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Farmacología",
+      "tema": "Estatinas - potencia",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción FUCS 2024-02"
+    },
+    {
+      "enunciado": "¿Dónde se encuentra la aldehído deshidrogenasa que metaboliza el alcohol?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "En la mitocondria."
+        },
+        {
+          "letra": "B",
+          "texto": "Retículo endoplásmico liso."
+        },
+        {
+          "letra": "C",
+          "texto": "Lisosomas."
+        },
+        {
+          "letra": "D",
+          "texto": "Exosomas."
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Bioquímica",
+      "tema": "Metabolismo del etanol",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción FUCS 2024-02"
+    },
+    {
+      "enunciado": "¿Qué órgano produce el 10-15% de la eritropoyetina además del riñón?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Hígado."
+        },
+        {
+          "letra": "B",
+          "texto": "Timo."
+        },
+        {
+          "letra": "C",
+          "texto": "Médula ósea."
+        },
+        {
+          "letra": "D",
+          "texto": "Pulmón."
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Fisiología",
+      "tema": "Eritropoyetina",
+      "dificultad": "baja",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción FUCS 2024-02"
+    },
+    {
+      "enunciado": "Según la clasificación de gliomas de la OMS, ¿cuál tiene menor morbimortalidad y recurrencia?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Astrocitoma pilocítico juvenil."
+        },
+        {
+          "letra": "B",
+          "texto": "Glioblastoma multiforme."
+        },
+        {
+          "letra": "C",
+          "texto": "Astrocitoma grado 2 IDH salvaje."
+        },
+        {
+          "letra": "D",
+          "texto": "Astrocitoma grado III."
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neurocirugía",
+      "tema": "Clasificación de gliomas OMS",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción FUCS 2024-02"
+    },
+    {
+      "enunciado": "¿Cuál es la clasificación fisiopatológica de la diarrea?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Secretora, osmótica e inflamatoria."
+        },
+        {
+          "letra": "B",
+          "texto": "Aguda, subaguda y crónica."
+        },
+        {
+          "letra": "C",
+          "texto": "Coleriforme y disentérica."
+        },
+        {
+          "letra": "D",
+          "texto": "Infecciosa, malabsorción y carencial."
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Gastroenterología",
+      "tema": "Clasificación de la diarrea",
+      "dificultad": "baja",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción FUCS 2024-02"
+    },
+    {
+      "enunciado": "¿Cuál es la clasificación fisiológica de la falla ventilatoria?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Aguda y crónica."
+        },
+        {
+          "letra": "B",
+          "texto": "Hipercapnia e hipoxemia."
+        },
+        {
+          "letra": "C",
+          "texto": "Restrictiva, distributiva y obstructiva."
+        },
+        {
+          "letra": "D",
+          "texto": "Leve, moderada y severa."
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Neumología",
+      "tema": "Insuficiencia respiratoria",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción FUCS 2024-02"
+    },
+    {
+      "enunciado": "En la estrategia Salud P.A.I.S., las acciones están divididas en:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Poblacionales, colectivas e individuales."
+        },
+        {
+          "letra": "B",
+          "texto": "Primarias, secundarias y terciarias."
+        },
+        {
+          "letra": "C",
+          "texto": "Preventivas, curativas y paliativas."
+        },
+        {
+          "letra": "D",
+          "texto": "Poblacionales, individuales y mixtas."
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Modelo de Atención Integral - MIAS/PAIS",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción FUCS 2024-02"
+    },
+    {
+      "enunciado": "Vacunación del PAI para niños de 6 meses:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Polio, pentavalente, neumococo y rotavirus."
+        },
+        {
+          "letra": "B",
+          "texto": "Polio, pentavalente e influenza estacional."
+        },
+        {
+          "letra": "C",
+          "texto": "Polio, pentavalente y rotavirus."
+        },
+        {
+          "letra": "D",
+          "texto": "Triple viral y rotavirus."
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Pediatría",
+      "tema": "Programa Ampliado de Inmunizaciones",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción FUCS 2024-02"
+    },
+    {
+      "enunciado": "En la medicina centrada en el paciente y sus familiares, ¿cuál NO es un enfoque principal?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Evaluar gestión del riesgo."
+        },
+        {
+          "letra": "B",
+          "texto": "Manejo integral."
+        },
+        {
+          "letra": "C",
+          "texto": "Buscar un punto común entre el personal de salud."
+        },
+        {
+          "letra": "D",
+          "texto": "Optimizar la productividad del equipo médico."
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Medicina Interna",
+      "tema": "Medicina centrada en el paciente",
+      "dificultad": "baja",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción FUCS 2024-02"
+    },
+    {
+      "enunciado": "Los sensores otolíticos que nos permiten percibir la ubicación espacial de la cabeza son:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Utrículo y sáculo."
+        },
+        {
+          "letra": "B",
+          "texto": "Semicirculares superior y lateral."
+        },
+        {
+          "letra": "C",
+          "texto": "Ventanas oval y redonda."
+        },
+        {
+          "letra": "D",
+          "texto": "Cóclea y vestíbulo."
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Otorrinolaringología",
+      "tema": "Sistema vestibular - órganos otolíticos",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción FUCS 2024-02"
+    },
+    {
+      "enunciado": "En un paciente con osteopenia, ¿qué componente de la dieta se recomienda reducir debido al contenido de ácido sulfhídrico y fosfórico?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Grasas saturadas."
+        },
+        {
+          "letra": "B",
+          "texto": "Proteínas."
+        },
+        {
+          "letra": "C",
+          "texto": "Carbohidratos complejos."
+        },
+        {
+          "letra": "D",
+          "texto": "Cítricos."
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Reumatología",
+      "tema": "Osteopenia - factores dietéticos",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción FUCS 2024-02"
+    },
+    {
+      "enunciado": "¿Cuál es la diferencia entre la presión arterial diastólica y la presión de fin de diástole del ventrículo izquierdo?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Perfusión coronaria."
+        },
+        {
+          "letra": "B",
+          "texto": "Tensión del ventrículo izquierdo."
+        },
+        {
+          "letra": "C",
+          "texto": "Velocidad de acortamiento del ventrículo izquierdo."
+        },
+        {
+          "letra": "D",
+          "texto": "Postcarga ventricular."
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cardiología",
+      "tema": "Presión de perfusión coronaria",
+      "dificultad": "alta",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción FUCS 2024-02"
+    },
+    {
+      "enunciado": "¿Qué es un entropión?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Inversión del párpado hacia adentro."
+        },
+        {
+          "letra": "B",
+          "texto": "Eversión del párpado hacia afuera."
+        },
+        {
+          "letra": "C",
+          "texto": "Atrofia del músculo orbicular."
+        },
+        {
+          "letra": "D",
+          "texto": "Protrusión del globo ocular."
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Oftalmología",
+      "tema": "Malposiciones palpebrales",
+      "dificultad": "baja",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción FUCS 2024-02"
+    },
+    {
+      "enunciado": "¿Qué tumor deriva de ectodermo, mesodermo y endodermo?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Sarcoma."
+        },
+        {
+          "letra": "B",
+          "texto": "Teratoma."
+        },
+        {
+          "letra": "C",
+          "texto": "Hamartoma."
+        },
+        {
+          "letra": "D",
+          "texto": "Adenoma."
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Patología",
+      "tema": "Teratoma - tumores de células germinales",
+      "dificultad": "baja",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción FUCS 2024-02"
+    },
+    {
+      "enunciado": "¿Qué alteración causa una muestra hemodiluida en gases arteriales?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Acidosis metabólica."
+        },
+        {
+          "letra": "B",
+          "texto": "Alcalosis metabólica."
+        },
+        {
+          "letra": "C",
+          "texto": "Acidosis respiratoria."
+        },
+        {
+          "letra": "D",
+          "texto": "Alcalosis respiratoria."
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neumología",
+      "tema": "Gases arteriales - artefactos preanalíticos",
+      "dificultad": "alta",
+      "_resuelta_por_ia": true,
+      "_confianza": "baja",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción FUCS 2024-02"
+    },
+    {
+      "enunciado": "¿Cuál lesión es más frecuente que evoluciona a cáncer de colon?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Pólipo hiperplásico."
+        },
+        {
+          "letra": "B",
+          "texto": "Adenoma velloso."
+        },
+        {
+          "letra": "C",
+          "texto": "Pólipo fibroide inflamatorio."
+        },
+        {
+          "letra": "D",
+          "texto": "Pólipo sésil serrado."
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Gastroenterología",
+      "tema": "Pólipos colónicos y riesgo de malignidad",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción FUCS 2024-02"
+    },
+    {
+      "enunciado": "En un paciente con exoftalmos al toser, edema palpebral y enfisema tras trauma facial, ¿cuál es la causa más probable?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Fractura de una pared orbitaria con comunicación a la órbita."
+        },
+        {
+          "letra": "B",
+          "texto": "Hematoma subperióstico."
+        },
+        {
+          "letra": "C",
+          "texto": "Sobreinfección con celulitis orbitaria."
+        },
+        {
+          "letra": "D",
+          "texto": "Comunicación directa con la fosa craneal media."
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Oftalmología",
+      "tema": "Fractura orbitaria - enfisema",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción FUCS 2024-02"
+    },
+    {
+      "enunciado": "¿Cuáles son los postulados del enfoque del curso de vida?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Trayectoria, transición y turning point."
+        },
+        {
+          "letra": "B",
+          "texto": "Turning point, desarrollo a lo largo de la vida y timming."
+        },
+        {
+          "letra": "C",
+          "texto": "Transición, trayectoria y vida útil."
+        },
+        {
+          "letra": "D",
+          "texto": "Continuidad, adaptación y trayectorias múltiples."
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Enfoque de curso de vida",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "baja",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción FUCS 2024-02"
+    },
+    {
+      "enunciado": "Según la guía GOLD 2024, un paciente con EPOC se clasifica en grupo E si tiene:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Dos hospitalizaciones o más, sin importar el mMRC."
+        },
+        {
+          "letra": "B",
+          "texto": "Una hospitalización con mMRC de 2 o más."
+        },
+        {
+          "letra": "C",
+          "texto": "Ninguna hospitalización, pero exacerbaciones frecuentes."
+        },
+        {
+          "letra": "D",
+          "texto": "Exacerbaciones leves sin hospitalización."
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neumología",
+      "tema": "Clasificación GOLD de la EPOC",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción FUCS 2024-02"
+    },
+    {
+      "enunciado": "En una fractura abierta de tibia con exposición ósea de 3 cm, ¿qué grado de clasificación de Gustilo-Anderson corresponde?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Grado I."
+        },
+        {
+          "letra": "B",
+          "texto": "Grado II."
+        },
+        {
+          "letra": "C",
+          "texto": "Grado IIIA."
+        },
+        {
+          "letra": "D",
+          "texto": "Grado IIIB."
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Traumatología y Ortopedia",
+      "tema": "Clasificación de Gustilo-Anderson",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción FUCS 2024-02"
+    },
+    {
+      "enunciado": "Las guías de Jerusalem (WSES) se utilizan para el manejo de:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Isquemia mesentérica"
+        },
+        {
+          "letra": "B",
+          "texto": "Apendicitis"
+        },
+        {
+          "letra": "C",
+          "texto": "Colecistitis"
+        },
+        {
+          "letra": "D",
+          "texto": "Pancreatitis"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Cirugía General",
+      "tema": "Apendicitis aguda",
+      "dificultad": "media",
+      "anio": 2023,
+      "fuente": "FUCS 2023-2"
+    },
+    {
+      "enunciado": "Según las guías ADA para Diabetes Mellitus, ¿cuál de los siguientes NO es un parámetro de seguimiento de la enfermedad?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Hemoglobina glicosilada"
+        },
+        {
+          "letra": "B",
+          "texto": "Complicaciones microvasculares"
+        },
+        {
+          "letra": "C",
+          "texto": "Adherencia al tratamiento"
+        },
+        {
+          "letra": "D",
+          "texto": "Tiempo de evolución de la enfermedad"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Endocrinología",
+      "tema": "Seguimiento de diabetes mellitus",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2023,
+      "fuente": "FUCS 2023-2"
+    },
+    {
+      "enunciado": "Medicamento que inhibe la conversión periférica de T4 a T3:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Propiltiouracilo"
+        },
+        {
+          "letra": "B",
+          "texto": "Lugol"
+        },
+        {
+          "letra": "C",
+          "texto": "Propranolol"
+        },
+        {
+          "letra": "D",
+          "texto": "Midazolam"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Endocrinología",
+      "tema": "Fármacos antitiroideos",
+      "dificultad": "media",
+      "anio": 2023,
+      "fuente": "FUCS 2023-2"
+    },
+    {
+      "enunciado": "Paciente masculino que presenta ruptura espontánea del tendón de Aquiles al bajar escaleras, recibiendo por cuarta vez manejo para IVU complicada. El grupo antibiótico responsable es:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Aminoglucósidos"
+        },
+        {
+          "letra": "B",
+          "texto": "Aminopenicilinas"
+        },
+        {
+          "letra": "C",
+          "texto": "Quinolonas"
+        },
+        {
+          "letra": "D",
+          "texto": "Cefalosporinas de 2da generación"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Farmacología",
+      "tema": "Reacciones adversas a quinolonas",
+      "dificultad": "media",
+      "anio": 2023,
+      "fuente": "FUCS 2023-2"
+    },
+    {
+      "enunciado": "Ante un reporte de mamografía BIRADS 0, la conducta corresponde a:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Benigno 2%, seguimiento a 6 meses"
+        },
+        {
+          "letra": "B",
+          "texto": "Sospecha de malignidad, tomar biopsia"
+        },
+        {
+          "letra": "C",
+          "texto": "Hallazgo inconcluso"
+        },
+        {
+          "letra": "D",
+          "texto": "Estudio incompleto, repetir la prueba / imágenes adicionales"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Radiología",
+      "tema": "Clasificación BIRADS",
+      "dificultad": "media",
+      "anio": 2023,
+      "fuente": "FUCS 2023-2"
+    },
+    {
+      "enunciado": "Paciente femenina de 55 años que asiste a consulta sin antecedentes patológicos; como médico general indica tamización para cáncer de mama con:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Examen manual anual"
+        },
+        {
+          "letra": "B",
+          "texto": "Mamografía cada 2 años"
+        },
+        {
+          "letra": "C",
+          "texto": "Ecografía anual"
+        },
+        {
+          "letra": "D",
+          "texto": "RMN de mama"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Tamización de cáncer de mama",
+      "dificultad": "media",
+      "anio": 2023,
+      "fuente": "FUCS 2023-2"
+    },
+    {
+      "enunciado": "Dosis de descarga de desfibrilación según las últimas guías de reanimación pediátrica:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "160 J"
+        },
+        {
+          "letra": "B",
+          "texto": "2 J por kg"
+        },
+        {
+          "letra": "C",
+          "texto": "5 J por kg"
+        },
+        {
+          "letra": "D",
+          "texto": "10 J por kg"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Pediatría",
+      "tema": "Reanimación cardiopulmonar pediátrica",
+      "dificultad": "media",
+      "anio": 2023,
+      "fuente": "FUCS 2023-2"
+    },
+    {
+      "enunciado": "Paciente con enfermedad hepática que inicia con ictericia y a las 3 semanas presenta encefalopatía. Este periodo se denomina falla hepática:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Aguda"
+        },
+        {
+          "letra": "B",
+          "texto": "Hiperaguda"
+        },
+        {
+          "letra": "C",
+          "texto": "Subaguda"
+        },
+        {
+          "letra": "D",
+          "texto": "Crónica"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Gastroenterología",
+      "tema": "Falla hepática aguda (clasificación de O'Grady)",
+      "dificultad": "alta",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2023,
+      "fuente": "FUCS 2023-2"
+    },
+    {
+      "enunciado": "En cuanto a la ubicación de las glándulas paratiroides, ¿cuál grupo presenta la relación anatómica más variable?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Predominio superior"
+        },
+        {
+          "letra": "B",
+          "texto": "Predominio inferior"
+        },
+        {
+          "letra": "C",
+          "texto": "Predominio derecho"
+        },
+        {
+          "letra": "D",
+          "texto": "No tiene predominio"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Anatomía",
+      "tema": "Anatomía de las glándulas paratiroides",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2023,
+      "fuente": "FUCS 2023-2"
+    },
+    {
+      "enunciado": "Con respecto al manejo renal fisiológico normal de glucosa y proteínas, ¿cuál afirmación es correcta?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Se filtran en el glomérulo y se reabsorben en el túbulo"
+        },
+        {
+          "letra": "B",
+          "texto": "Se filtran en el glomérulo y no se reabsorben"
+        },
+        {
+          "letra": "C",
+          "texto": "No se filtran y no se reabsorben"
+        },
+        {
+          "letra": "D",
+          "texto": "Son siempre hallazgos patológicos"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Fisiología",
+      "tema": "Función renal glomérulo-tubular",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2023,
+      "fuente": "FUCS 2023-2"
+    },
+    {
+      "enunciado": "Paciente masculino de 35 años que responde al dolor y presenta apertura ocular; el puntaje aproximado en la escala de Glasgow es:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "8"
+        },
+        {
+          "letra": "B",
+          "texto": "10"
+        },
+        {
+          "letra": "C",
+          "texto": "12"
+        },
+        {
+          "letra": "D",
+          "texto": "11"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neurología",
+      "tema": "Escala de coma de Glasgow",
+      "dificultad": "alta",
+      "_resuelta_por_ia": true,
+      "_confianza": "baja",
+      "_revisar": true,
+      "anio": 2023,
+      "fuente": "FUCS 2023-2"
+    },
+    {
+      "enunciado": "Paciente de 45 años con colelitiasis, fumador activo, sin otras comorbilidades. Clasificación de riesgo ASA:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "ASA 1"
+        },
+        {
+          "letra": "B",
+          "texto": "ASA 2"
+        },
+        {
+          "letra": "C",
+          "texto": "ASA 3"
+        },
+        {
+          "letra": "D",
+          "texto": "ASA 4"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Anestesiología",
+      "tema": "Clasificación ASA",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2023,
+      "fuente": "FUCS 2023-2"
+    },
+    {
+      "enunciado": "Paciente femenina con DM tipo 2, TA de 175/90 mmHg sin medicación previa. ¿Cuál es la intervención farmacológica indicada?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "IECA o ARA II"
+        },
+        {
+          "letra": "B",
+          "texto": "Cambios del estilo de vida y evaluar en 3 meses"
+        },
+        {
+          "letra": "C",
+          "texto": "IECA o ARA II más diurético"
+        },
+        {
+          "letra": "D",
+          "texto": "Inhibidores de los canales de calcio"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Cardiología",
+      "tema": "Manejo de HTA en paciente diabético",
+      "dificultad": "alta",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2023,
+      "fuente": "FUCS 2023-2"
+    },
+    {
+      "enunciado": "En una fractura abierta grado III de Gustilo, ¿con cuántos litros de solución se debe realizar el lavado?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "3 litros"
+        },
+        {
+          "letra": "B",
+          "texto": "6 litros"
+        },
+        {
+          "letra": "C",
+          "texto": "9 litros"
+        },
+        {
+          "letra": "D",
+          "texto": "12 litros"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Traumatología y Ortopedia",
+      "tema": "Manejo de fractura abierta",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2023,
+      "fuente": "FUCS 2023-2"
+    },
+    {
+      "enunciado": "La clasificación de Salter-Harris se aplica a las fracturas que comprometen:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Arcos costales"
+        },
+        {
+          "letra": "B",
+          "texto": "Diáfisis femoral"
+        },
+        {
+          "letra": "C",
+          "texto": "La fisis (placa de crecimiento)"
+        },
+        {
+          "letra": "D",
+          "texto": "La cortical diafisaria"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Traumatología y Ortopedia",
+      "tema": "Clasificación de Salter-Harris",
+      "dificultad": "baja",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_distractores_ia": true,
+      "_recuperada": true,
+      "_revisar": true,
+      "anio": 2023,
+      "fuente": "FUCS 2023-2"
+    },
+    {
+      "enunciado": "Paciente de 30 años con amenorrea de 3 meses asociada a cefalea de semanas de evolución y hemianopsia bitemporal. La patología más probable es:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Glaucoma"
+        },
+        {
+          "letra": "B",
+          "texto": "Craneofaringioma"
+        },
+        {
+          "letra": "C",
+          "texto": "Tumor hipofisario (prolactinoma)"
+        },
+        {
+          "letra": "D",
+          "texto": "Glioma"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Endocrinología",
+      "tema": "Adenoma hipofisario",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2023,
+      "fuente": "FUCS 2023-2"
+    },
+    {
+      "enunciado": "En un paciente en quien se sospecha luxación congénita de cadera fuera del periodo neonatal, ¿qué signo o maniobra buscaría?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Limitación a la abducción de cadera"
+        },
+        {
+          "letra": "B",
+          "texto": "Maniobra de Galeazzi"
+        },
+        {
+          "letra": "C",
+          "texto": "Maniobra de Ortolani"
+        },
+        {
+          "letra": "D",
+          "texto": "Maniobra de Barlow"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Traumatología y Ortopedia",
+      "tema": "Displasia del desarrollo de cadera",
+      "dificultad": "alta",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2023,
+      "fuente": "FUCS 2023-2"
+    },
+    {
+      "enunciado": "Respecto al daño renal por uso crónico de antipsicóticos de segunda generación, ¿cuál se considera excepción por su perfil más favorable?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Aripiprazol"
+        },
+        {
+          "letra": "B",
+          "texto": "Clozapina"
+        },
+        {
+          "letra": "C",
+          "texto": "Olanzapina"
+        },
+        {
+          "letra": "D",
+          "texto": "Risperidona"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Psiquiatría",
+      "tema": "Antipsicóticos de segunda generación",
+      "dificultad": "alta",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_distractores_ia": true,
+      "_recuperada": true,
+      "_revisar": true,
+      "anio": 2023,
+      "fuente": "FUCS 2023-2"
+    },
+    {
+      "enunciado": "Paciente universitario de 19 años con ardor vaginal, flujo amarillo de olor fétido y frotis que reporta 'microorganismos con flagelo'. El diagnóstico es:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Vaginosis bacteriana"
+        },
+        {
+          "letra": "B",
+          "texto": "Tricomoniasis"
+        },
+        {
+          "letra": "C",
+          "texto": "Infección viral"
+        },
+        {
+          "letra": "D",
+          "texto": "Cáncer de cérvix"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Infecciones vaginales / tricomoniasis",
+      "dificultad": "baja",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2023,
+      "fuente": "FUCS 2023-2"
+    },
+    {
+      "enunciado": "La causa más común de amenorrea en una paciente con síndrome de Turner es:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Alteración hipofisaria/hipotalámica"
+        },
+        {
+          "letra": "B",
+          "texto": "Disfunción ovárica (disgenesia gonadal)"
+        },
+        {
+          "letra": "C",
+          "texto": "Disfunción anatómica"
+        },
+        {
+          "letra": "D",
+          "texto": "Disfunción genética aislada"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Síndrome de Turner y amenorrea",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2023,
+      "fuente": "FUCS 2023-2"
+    },
+    {
+      "enunciado": "¿Cuál de las siguientes es causa de bajo peso al nacer?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Desnutrición materna"
+        },
+        {
+          "letra": "B",
+          "texto": "Infección materna"
+        },
+        {
+          "letra": "C",
+          "texto": "Hipertensión arterial"
+        },
+        {
+          "letra": "D",
+          "texto": "Todas las anteriores"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Pediatría",
+      "tema": "Bajo peso al nacer",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_distractores_ia": true,
+      "_recuperada": true,
+      "_revisar": true,
+      "anio": 2023,
+      "fuente": "FUCS 2023-2"
+    },
+    {
+      "enunciado": "Según las RIAS, la desparasitación indicada en niños de 1 a 5 años es:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Mebendazol"
+        },
+        {
+          "letra": "B",
+          "texto": "Albendazol 400 mg dosis única"
+        },
+        {
+          "letra": "C",
+          "texto": "Albendazol 400 mg por 15 días"
+        },
+        {
+          "letra": "D",
+          "texto": "Pamoato de pirantel"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Pediatría",
+      "tema": "Desparasitación en la primera infancia",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2023,
+      "fuente": "FUCS 2023-2"
+    },
+    {
+      "enunciado": "¿Cada cuánto tiempo se realiza la aplicación de flúor (fluorización) en la consulta odontológica pediátrica?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Cada 6 meses"
+        },
+        {
+          "letra": "B",
+          "texto": "Cada 18 meses"
+        },
+        {
+          "letra": "C",
+          "texto": "Cada 3 meses"
+        },
+        {
+          "letra": "D",
+          "texto": "Cada 12 meses"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Pediatría",
+      "tema": "Salud oral / aplicación de flúor",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2023,
+      "fuente": "FUCS 2023-2"
+    },
+    {
+      "enunciado": "Ante un paciente de 57 años con pénfigo paraneoplásico, ¿cuál es la neoplasia más frecuentemente asociada?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Melanoma"
+        },
+        {
+          "letra": "B",
+          "texto": "Carcinoma epidermoide"
+        },
+        {
+          "letra": "C",
+          "texto": "Angiosarcoma"
+        },
+        {
+          "letra": "D",
+          "texto": "Linfoma"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Dermatología",
+      "tema": "Pénfigo paraneoplásico",
+      "dificultad": "alta",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2023,
+      "fuente": "FUCS 2023-2"
+    },
+    {
+      "enunciado": "Mujer con ritmo regular, onda delta y empastamiento del inicio del QRS en el electrocardiograma. El diagnóstico es:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Síndrome de Wolff-Parkinson-White"
+        },
+        {
+          "letra": "B",
+          "texto": "Taquicardia ventricular"
+        },
+        {
+          "letra": "C",
+          "texto": "Bloqueo AV de primer grado"
+        },
+        {
+          "letra": "D",
+          "texto": "Síndrome de Lown-Ganong-Levine"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cardiología",
+      "tema": "Síndrome de preexcitación (WPW)",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_distractores_ia": true,
+      "_recuperada": true,
+      "_revisar": true,
+      "anio": 2023,
+      "fuente": "FUCS 2023-2"
+    },
+    {
+      "enunciado": "Respecto a las zonas de Jackson en las quemaduras, ¿cuál de las siguientes NO hace parte de ellas?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Zona de coagulación"
+        },
+        {
+          "letra": "B",
+          "texto": "Zona de estasis"
+        },
+        {
+          "letra": "C",
+          "texto": "Zona de hiperemia"
+        },
+        {
+          "letra": "D",
+          "texto": "Zona de vesícula"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Cirugía General",
+      "tema": "Fisiopatología de las quemaduras",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2023,
+      "fuente": "FUCS 2023-2"
+    },
+    {
+      "enunciado": "Meta de presión arterial en un paciente hipertenso sin comorbilidades:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "120/80 mmHg"
+        },
+        {
+          "letra": "B",
+          "texto": "140/90 mmHg"
+        },
+        {
+          "letra": "C",
+          "texto": "170 mmHg sistólica"
+        },
+        {
+          "letra": "D",
+          "texto": "150 mmHg sistólica"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Cardiología",
+      "tema": "Metas de control en HTA",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2023,
+      "fuente": "FUCS 2023-2"
+    },
+    {
+      "enunciado": "Ante la tipificación de un VPH tipo 39 (alto riesgo oncogénico), la conducta indicada es:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Remisión a ginecología para colposcopia"
+        },
+        {
+          "letra": "B",
+          "texto": "Ver CCV para definir si requiere biopsia y conización"
+        },
+        {
+          "letra": "C",
+          "texto": "Esquema 1-3-3"
+        },
+        {
+          "letra": "D",
+          "texto": "Esquema 1-5-5"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Tamización de cáncer de cérvix / VPH de alto riesgo",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2023,
+      "fuente": "FUCS 2023-2"
+    },
+    {
+      "enunciado": "Gasometría con pH 7.35, exceso de base -3 y pCO2 normal. La interpretación corresponde a:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Acidosis respiratoria totalmente compensada"
+        },
+        {
+          "letra": "B",
+          "texto": "Acidosis respiratoria parcialmente compensada"
+        },
+        {
+          "letra": "C",
+          "texto": "Acidosis metabólica parcialmente compensada"
+        },
+        {
+          "letra": "D",
+          "texto": "Acidosis mixta"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Neumología",
+      "tema": "Interpretación de gases arteriales",
+      "dificultad": "alta",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2023,
+      "fuente": "FUCS 2023-2"
+    },
+    {
+      "enunciado": "Tipo de estudio en el que ni el investigador ni el participante conocen la asignación de los grupos:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Doble ciego"
+        },
+        {
+          "letra": "B",
+          "texto": "Simple ciego"
+        },
+        {
+          "letra": "C",
+          "texto": "Triple ciego"
+        },
+        {
+          "letra": "D",
+          "texto": "Abierto (sin enmascaramiento)"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Enmascaramiento en estudios clínicos",
+      "dificultad": "baja",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_distractores_ia": true,
+      "_recuperada": true,
+      "_revisar": true,
+      "anio": 2023,
+      "fuente": "FUCS 2023-2"
+    },
+    {
+      "enunciado": "Un estudio de cáncer de cuello uterino realizado solo en mujeres pobres atendidas en un hospital de referencia presenta principalmente un problema de:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Sesgo de selección"
+        },
+        {
+          "letra": "B",
+          "texto": "Error de muestra"
+        },
+        {
+          "letra": "C",
+          "texto": "Error de población"
+        },
+        {
+          "letra": "D",
+          "texto": "Sesgo de información"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Sesgos en epidemiología",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_distractores_ia": true,
+      "_recuperada": true,
+      "_revisar": true,
+      "anio": 2023,
+      "fuente": "FUCS 2023-2"
+    },
+    {
+      "enunciado": "Se revisan historias clínicas de cáncer de mama comparando pacientes con y sin cáncer. ¿Qué tipo de estudio es?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Cohorte"
+        },
+        {
+          "letra": "B",
+          "texto": "Transversal"
+        },
+        {
+          "letra": "C",
+          "texto": "Casos y controles"
+        },
+        {
+          "letra": "D",
+          "texto": "Cohorte histórica"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Diseños de estudios epidemiológicos",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2023,
+      "fuente": "FUCS 2023-2"
+    },
+    {
+      "enunciado": "¿Cuál de las siguientes NO está relacionada con la fisiopatología del acné?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Ingesta de grasas en la dieta"
+        },
+        {
+          "letra": "B",
+          "texto": "Aumento de la producción de sebo"
+        },
+        {
+          "letra": "C",
+          "texto": "Hiperqueratinización folicular"
+        },
+        {
+          "letra": "D",
+          "texto": "Colonización bacteriana cutánea (C. acnes)"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Fisiopatología del acné",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2023,
+      "fuente": "FUCS 2023-2"
+    },
+    {
+      "enunciado": "En la hemocromatosis se produce acumulación de:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Hierro"
+        },
+        {
+          "letra": "B",
+          "texto": "Cobre"
+        },
+        {
+          "letra": "C",
+          "texto": "Cobalto"
+        },
+        {
+          "letra": "D",
+          "texto": "Zinc"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Gastroenterología",
+      "tema": "Hemocromatosis",
+      "dificultad": "baja",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_distractores_ia": true,
+      "_recuperada": true,
+      "_revisar": true,
+      "anio": 2023,
+      "fuente": "FUCS 2023-2"
+    },
+    {
+      "enunciado": "El factor tisular, junto con el factor VIIa, activa directamente al factor X y también, de manera indirecta, ¿a cuál factor de la coagulación?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Factor V"
+        },
+        {
+          "letra": "B",
+          "texto": "Factor II"
+        },
+        {
+          "letra": "C",
+          "texto": "Factor IX"
+        },
+        {
+          "letra": "D",
+          "texto": "Factor XI"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Hematología",
+      "tema": "Cascada de la coagulación / vía extrínseca",
+      "dificultad": "alta",
+      "_resuelta_por_ia": true,
+      "_confianza": "baja",
+      "_distractores_ia": true,
+      "_recuperada": true,
+      "_revisar": true,
+      "anio": 2023,
+      "fuente": "FUCS 2023-2"
+    },
+    {
+      "enunciado": "¿Cuál es la escala utilizada para el tamizaje de depresión postparto?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Escala de Edimburgo"
+        },
+        {
+          "letra": "B",
+          "texto": "Escala de Hamilton"
+        },
+        {
+          "letra": "C",
+          "texto": "Inventario de depresión de Beck"
+        },
+        {
+          "letra": "D",
+          "texto": "Escala de Yesavage"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Psiquiatría",
+      "tema": "Depresión postparto",
+      "dificultad": "baja",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_distractores_ia": true,
+      "_recuperada": true,
+      "_revisar": true,
+      "anio": 2023,
+      "fuente": "FUCS 2023-2"
+    },
+    {
+      "enunciado": "Manejo del lumbago agudo inespecífico en un paciente joven sin signos de alarma:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "AINES más relajante muscular"
+        },
+        {
+          "letra": "B",
+          "texto": "Opioides"
+        },
+        {
+          "letra": "C",
+          "texto": "Reposo absoluto en cama"
+        },
+        {
+          "letra": "D",
+          "texto": "Corticoides sistémicos"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Traumatología y Ortopedia",
+      "tema": "Manejo del lumbago agudo",
+      "dificultad": "baja",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_distractores_ia": true,
+      "_recuperada": true,
+      "_revisar": true,
+      "anio": 2023,
+      "fuente": "FUCS 2023-2"
+    },
+    {
+      "enunciado": "¿Qué estudio se debe solicitar inicialmente en un paciente joven con dolor lumbar agudo sin signos de alarma?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Radiografía"
+        },
+        {
+          "letra": "B",
+          "texto": "Resonancia magnética"
+        },
+        {
+          "letra": "C",
+          "texto": "Tomografía axial computarizada"
+        },
+        {
+          "letra": "D",
+          "texto": "Ningún estudio de imagen"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Traumatología y Ortopedia",
+      "tema": "Estudio del dolor lumbar agudo",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2023,
+      "fuente": "FUCS 2023-2"
+    },
+    {
+      "enunciado": "La mamografía como método de tamización corresponde a un tipo de prevención:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Primaria"
+        },
+        {
+          "letra": "B",
+          "texto": "Secundaria"
+        },
+        {
+          "letra": "C",
+          "texto": "Terciaria"
+        },
+        {
+          "letra": "D",
+          "texto": "Cuaternaria"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Niveles de prevención",
+      "dificultad": "baja",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2023,
+      "fuente": "FUCS 2023-2"
+    },
+    {
+      "enunciado": "La arteria gastroduodenal es rama de:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Arteria hepática común"
+        },
+        {
+          "letra": "B",
+          "texto": "Arteria esplénica"
+        },
+        {
+          "letra": "C",
+          "texto": "Arteria mesentérica superior"
+        },
+        {
+          "letra": "D",
+          "texto": "Arteria gástrica izquierda"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anatomía",
+      "tema": "Irrigación del tracto digestivo superior",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_distractores_ia": true,
+      "_recuperada": true,
+      "_revisar": true,
+      "anio": 2023,
+      "fuente": "FUCS 2023-2"
+    },
+    {
+      "enunciado": "Durante una transfusión sanguínea masiva, la intoxicación por citrato produce principalmente:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Hipocalcemia"
+        },
+        {
+          "letra": "B",
+          "texto": "Hipercalcemia"
+        },
+        {
+          "letra": "C",
+          "texto": "Acidosis metabólica"
+        },
+        {
+          "letra": "D",
+          "texto": "Alcalosis respiratoria"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Hematología",
+      "tema": "Complicaciones de la transfusión / toxicidad por citrato",
+      "dificultad": "alta",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_distractores_ia": true,
+      "_recuperada": true,
+      "_revisar": true,
+      "anio": 2023,
+      "fuente": "FUCS 2023-2"
+    },
+    {
+      "enunciado": "La kisspeptina está relacionada principalmente con la regulación del eje:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Crecimiento óseo"
+        },
+        {
+          "letra": "B",
+          "texto": "Reproductor (eje gonadal)"
+        },
+        {
+          "letra": "C",
+          "texto": "Muscular"
+        },
+        {
+          "letra": "D",
+          "texto": "Tiroideo"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Fisiología",
+      "tema": "Regulación del eje reproductivo (kisspeptina)",
+      "dificultad": "alta",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_distractores_ia": true,
+      "_recuperada": true,
+      "_revisar": true,
+      "anio": 2023,
+      "fuente": "FUCS 2023-2"
+    },
+    {
+      "enunciado": "Nervio que con mayor frecuencia se lesiona durante la tiroidectomía:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Nervio laríngeo superior"
+        },
+        {
+          "letra": "B",
+          "texto": "Nervio laríngeo recurrente"
+        },
+        {
+          "letra": "C",
+          "texto": "Nervio vago"
+        },
+        {
+          "letra": "D",
+          "texto": "Nervio frénico"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Cirugía General",
+      "tema": "Complicaciones de la tiroidectomía",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_distractores_ia": true,
+      "_recuperada": true,
+      "_revisar": true,
+      "anio": 2023,
+      "fuente": "FUCS 2023-2"
+    },
+    {
+      "enunciado": "¿Cuál de los siguientes vasos NO posee capa elástica en su pared?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Arteria"
+        },
+        {
+          "letra": "B",
+          "texto": "Arteriola"
+        },
+        {
+          "letra": "C",
+          "texto": "Vena"
+        },
+        {
+          "letra": "D",
+          "texto": "Capilar"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Anatomía",
+      "tema": "Histología del sistema vascular",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2023,
+      "fuente": "FUCS 2023-2"
+    },
+    {
+      "enunciado": "¿Cuál prueba auditiva NO está indicada de rutina en niños de 6 a 9 años?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Otoscopia"
+        },
+        {
+          "letra": "B",
+          "texto": "Audiometría tonal"
+        },
+        {
+          "letra": "C",
+          "texto": "Logoaudiometría"
+        },
+        {
+          "letra": "D",
+          "texto": "Potenciales evocados auditivos"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Otorrinolaringología",
+      "tema": "Evaluación auditiva en pediatría",
+      "dificultad": "alta",
+      "_resuelta_por_ia": true,
+      "_confianza": "baja",
+      "_distractores_ia": true,
+      "_recuperada": true,
+      "_revisar": true,
+      "anio": 2023,
+      "fuente": "FUCS 2023-2"
+    },
+    {
+      "enunciado": "Niño de 13 años con herida por reja (oxidada), con última vacuna de tétanos aplicada a los 10 años de edad. La conducta se basa en que:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "La vacuna protege por 10 años"
+        },
+        {
+          "letra": "B",
+          "texto": "La vacuna protege por 5 años"
+        },
+        {
+          "letra": "C",
+          "texto": "La vacuna protege de forma anual"
+        },
+        {
+          "letra": "D",
+          "texto": "La vacuna protege para toda la vida"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Infectología",
+      "tema": "Profilaxis antitetánica",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2023,
+      "fuente": "FUCS 2023-2"
+    },
+    {
+      "enunciado": "Un paciente con historia de abuso y adicción a la morfina consulta a un médico, preocupado por su adicción. Advierte además que se encuentra tomando buprenorfina; la acción de la buprenorfina puede tener efecto sobre la acción de la morfina, ya que la buprenorfina se comporta, con respecto al receptor de opiáceos, como:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Agonista parcial"
+        },
+        {
+          "letra": "B",
+          "texto": "Antagonista total"
+        },
+        {
+          "letra": "C",
+          "texto": "Antagonista parcial"
+        },
+        {
+          "letra": "D",
+          "texto": "Agonista inverso"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Farmacología",
+      "tema": "Opioides: buprenorfina y receptores de opiáceos",
+      "dificultad": "media",
+      "anio": 2023,
+      "fuente": "FUCS 06 mayo 2023"
+    },
+    {
+      "enunciado": "En el contexto del estudio de una urolitiasis, un paciente presenta hipercalcemia persistente con niveles elevados de PTH. El médico tratante considera que la densidad ósea de este paciente debe estar afectada, ya que la PTH afecta el balance entre la osteoprotegerina y el ligando RANK; estos mediadores son secretados principalmente por:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Osteoclastos"
+        },
+        {
+          "letra": "B",
+          "texto": "Osteoblastos"
+        },
+        {
+          "letra": "C",
+          "texto": "Osteocitos"
+        },
+        {
+          "letra": "D",
+          "texto": "Células mesenquimales"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Endocrinología",
+      "tema": "Remodelado óseo: sistema RANK/RANKL/osteoprotegerina",
+      "dificultad": "alta",
+      "anio": 2023,
+      "fuente": "FUCS 06 mayo 2023"
+    },
+    {
+      "enunciado": "En una paciente de 26 años con antecedente de dos cesáreas, durante el trabajo de parto usted identifica dolor abdominal agudo asociado a hemorragia vaginal moderada y signos clínicos de shock. El diagnóstico más probable es:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Embolia de líquido amniótico"
+        },
+        {
+          "letra": "B",
+          "texto": "Trombólisis de ligamentos pélvicos"
+        },
+        {
+          "letra": "C",
+          "texto": "Ruptura uterina"
+        },
+        {
+          "letra": "D",
+          "texto": "Inversión uterina"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Ruptura uterina en paciente con cesárea previa",
+      "dificultad": "media",
+      "anio": 2023,
+      "fuente": "FUCS 06 mayo 2023"
+    },
+    {
+      "enunciado": "En una paciente de 14 años que consulta por odinofagia, dolor para hablar, sialorrea, fiebre y malestar general, usted encuentra el pilar periamigdalino abombado y la úvula desplazada. Usted procede a manejarlo con:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Hospitalizar e iniciar aminoglucósidos"
+        },
+        {
+          "letra": "B",
+          "texto": "Hospitalizar, iniciar fluoroquinolona y realizar drenaje"
+        },
+        {
+          "letra": "C",
+          "texto": "Administrar penicilina benzatínica y citar en dos días para drenaje"
+        },
+        {
+          "letra": "D",
+          "texto": "Administrar ampicilina sulbactam y realizar drenaje con salida y control en tres días"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Otorrinolaringología",
+      "tema": "Absceso periamigdalino: manejo",
+      "dificultad": "media",
+      "anio": 2023,
+      "fuente": "FUCS 06 mayo 2023"
+    },
+    {
+      "enunciado": "Durante el desarrollo cardiaco, su crecimiento a expensas de la hiperplasia es predominante en la vida:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Neonatal"
+        },
+        {
+          "letra": "B",
+          "texto": "Fetal temprana"
+        },
+        {
+          "letra": "C",
+          "texto": "Fetal tardía"
+        },
+        {
+          "letra": "D",
+          "texto": "Embrionaria"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Fisiología",
+      "tema": "Crecimiento cardiaco: hiperplasia vs hipertrofia",
+      "dificultad": "alta",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2023,
+      "fuente": "FUCS 06 mayo 2023"
+    },
+    {
+      "enunciado": "Un niño presenta déficit cognitivo asociado a una epilepsia de difícil manejo; las imágenes diagnósticas muestran un surco encefálico profundo que llega al ventrículo lateral derecho (esquizencefalia). Esta malformación corresponde a un trastorno del neurodesarrollo en la fase de:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Proliferación celular"
+        },
+        {
+          "letra": "B",
+          "texto": "Sinaptogénesis"
+        },
+        {
+          "letra": "C",
+          "texto": "Migración celular"
+        },
+        {
+          "letra": "D",
+          "texto": "Poda neural"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Neurología",
+      "tema": "Trastornos de la migración neuronal: esquizencefalia",
+      "dificultad": "media",
+      "anio": 2023,
+      "fuente": "FUCS 06 mayo 2023"
+    },
+    {
+      "enunciado": "Asiste a consulta una paciente con diabetes tipo 2; su tensión arterial (confirmada en dos tomas) es de 175/90 mmHg y sin medicación previa. ¿Cuál de las siguientes intervenciones de tratamiento farmacológico es la indicada?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Formular cambios del estilo de vida y reevaluar en tres meses"
+        },
+        {
+          "letra": "B",
+          "texto": "Inicio de diurético"
+        },
+        {
+          "letra": "C",
+          "texto": "Inicio de IECA o ARA II"
+        },
+        {
+          "letra": "D",
+          "texto": "Iniciar IECA o ARA II combinado con un diurético o bloqueador de los canales de calcio"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Cardiología",
+      "tema": "HTA en paciente diabético: tratamiento farmacológico",
+      "dificultad": "media",
+      "_revisar": true,
+      "anio": 2023,
+      "fuente": "FUCS 06 mayo 2023"
+    },
+    {
+      "enunciado": "Dentro de las terapias no farmacológicas para promover la salud mental y la prevención del deterioro cognoscitivo está la actividad física. Un mecanismo molecular involucrado consiste en la liberación de miokinas que contribuyen a fortalecer la plasticidad sináptica, destacándose:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "El factor de crecimiento derivado del endotelio"
+        },
+        {
+          "letra": "B",
+          "texto": "El factor neurotrófico derivado del cerebro"
+        },
+        {
+          "letra": "C",
+          "texto": "Las somatomedinas"
+        },
+        {
+          "letra": "D",
+          "texto": "La dehidroepiandrosterona"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Fisiología",
+      "tema": "Ejercicio, miokinas y plasticidad sináptica (BDNF)",
+      "dificultad": "media",
+      "anio": 2023,
+      "fuente": "FUCS 06 mayo 2023"
+    },
+    {
+      "enunciado": "Para la población obesa infantil y adolescente, uno de los siguientes índices es el que menos se correlaciona con el síndrome metabólico:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Índice cardiometabólico"
+        },
+        {
+          "letra": "B",
+          "texto": "Razón de perímetro cintura/cadera"
+        },
+        {
+          "letra": "C",
+          "texto": "Razón de triglicéridos/colesterol HDL"
+        },
+        {
+          "letra": "D",
+          "texto": "Índice de adiposidad visceral"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Endocrinología",
+      "tema": "Índices antropométricos y síndrome metabólico en pediatría",
+      "dificultad": "alta",
+      "_revisar": true,
+      "anio": 2023,
+      "fuente": "FUCS 06 mayo 2023"
+    },
+    {
+      "enunciado": "En relación con la inmunosenescencia, el evento más precoz esperado es:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Reducción en la diferenciación de células NK"
+        },
+        {
+          "letra": "B",
+          "texto": "Reducción de la secreción de factores tímicos"
+        },
+        {
+          "letra": "C",
+          "texto": "Cambios en la producción de anticuerpos"
+        },
+        {
+          "letra": "D",
+          "texto": "Incremento en la tolerancia a los trasplantes"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Inmunología",
+      "tema": "Inmunosenescencia: involución tímica",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2023,
+      "fuente": "FUCS 06 mayo 2023"
+    },
+    {
+      "enunciado": "Una paciente de 19 años que sufrió una herida en la pierna derecha presenta movimientos anormales e inquietud durante la administración del anestésico local previo a la sutura; tras 25 minutos mejora espontáneamente sin evidencia de déficit neurológico. Usted considera que la sintomatología es secundaria a:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Posible idiosincrasia farmacológica"
+        },
+        {
+          "letra": "B",
+          "texto": "Alergia al anestésico local que se debe advertir para eventos posteriores"
+        },
+        {
+          "letra": "C",
+          "texto": "Posible toxicidad sistémica por anestésico local"
+        },
+        {
+          "letra": "D",
+          "texto": "Problemas durante la fabricación del anestésico local"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Farmacología",
+      "tema": "Reacciones a anestésicos locales",
+      "dificultad": "alta",
+      "anio": 2023,
+      "fuente": "FUCS 06 mayo 2023"
+    },
+    {
+      "enunciado": "En cuanto a los criterios de Paradise para la realización de amigdalectomía, no está indicada en los pacientes que tengan:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Cinco episodios de amigdalitis al año durante los últimos dos años"
+        },
+        {
+          "letra": "B",
+          "texto": "Tres episodios de amigdalitis al año durante los tres últimos años"
+        },
+        {
+          "letra": "C",
+          "texto": "Linfadenopatía"
+        },
+        {
+          "letra": "D",
+          "texto": "Siete o más episodios de amigdalitis en el último año"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Otorrinolaringología",
+      "tema": "Criterios de Paradise para amigdalectomía",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2023,
+      "fuente": "FUCS 06 mayo 2023"
+    },
+    {
+      "enunciado": "En el desarrollo psicomotor, algunas pautas reflejas como la reacción de sostén o la de dar pasos con apoyo deben desaparecer después del:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Tercer mes de vida postnatal"
+        },
+        {
+          "letra": "B",
+          "texto": "Primer año de vida postnatal"
+        },
+        {
+          "letra": "C",
+          "texto": "Primer mes de vida postnatal"
+        },
+        {
+          "letra": "D",
+          "texto": "Sexto mes de vida postnatal"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Pediatría",
+      "tema": "Reflejos primitivos del desarrollo psicomotor",
+      "dificultad": "media",
+      "anio": 2023,
+      "fuente": "FUCS 06 mayo 2023"
+    },
+    {
+      "enunciado": "Uno de los siguientes procesos podría amortiguar la velocidad de senescencia celular:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "La disfunción mitocondrial"
+        },
+        {
+          "letra": "B",
+          "texto": "La inflamación crónica de baja intensidad"
+        },
+        {
+          "letra": "C",
+          "texto": "Incremento de la autofagia"
+        },
+        {
+          "letra": "D",
+          "texto": "Acortamiento de los telómeros"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Fisiología",
+      "tema": "Senescencia celular: mecanismos moduladores",
+      "dificultad": "alta",
+      "_revisar": true,
+      "anio": 2023,
+      "fuente": "FUCS 06 mayo 2023"
+    },
+    {
+      "enunciado": "Con el proceso de envejecimiento, uno de los siguientes parámetros antropométricos no disminuye con la edad:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Talla sentada"
+        },
+        {
+          "letra": "B",
+          "texto": "Diámetro biacromial"
+        },
+        {
+          "letra": "C",
+          "texto": "Peso corporal"
+        },
+        {
+          "letra": "D",
+          "texto": "Anchura de la nariz"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Medicina Interna",
+      "tema": "Cambios antropométricos en el envejecimiento",
+      "dificultad": "media",
+      "anio": 2023,
+      "fuente": "FUCS 06 mayo 2023"
+    },
+    {
+      "enunciado": "Un paciente de 46 años presenta síntomas urinarios obstructivos ocasionales, sin antecedentes de importancia, cuyo padre falleció de carcinoma de próstata; le pregunta qué examen se debe realizar debido a sus síntomas. Usted le indica:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "PSA, pues está indicado en pacientes mayores de 45 años con antecedentes familiares"
+        },
+        {
+          "letra": "B",
+          "texto": "Una ecografía para evaluar el volumen prostático por alto riesgo de HPB"
+        },
+        {
+          "letra": "C",
+          "texto": "Parcial de orina, pues esos síntomas a su edad corresponden a infecciones urinarias"
+        },
+        {
+          "letra": "D",
+          "texto": "Una urografía excretora que busca urolitiasis obstructiva"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Urología",
+      "tema": "Tamización de cáncer de próstata con antecedente familiar",
+      "dificultad": "media",
+      "anio": 2023,
+      "fuente": "FUCS 06 mayo 2023"
+    },
+    {
+      "enunciado": "La mortalidad materna se da principalmente en:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "El preparto"
+        },
+        {
+          "letra": "B",
+          "texto": "Sin diferencia entre las tres fases"
+        },
+        {
+          "letra": "C",
+          "texto": "En el posparto"
+        },
+        {
+          "letra": "D",
+          "texto": "Durante el parto"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Epidemiología de la mortalidad materna",
+      "dificultad": "media",
+      "anio": 2023,
+      "fuente": "FUCS 06 mayo 2023"
+    },
+    {
+      "enunciado": "En el contexto del choque traumático, la principal causa de coagulopatía es la:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Politransfusión"
+        },
+        {
+          "letra": "B",
+          "texto": "Hipotermia"
+        },
+        {
+          "letra": "C",
+          "texto": "Acidosis"
+        },
+        {
+          "letra": "D",
+          "texto": "Coagulopatía de consumo"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Medicina de Urgencias",
+      "tema": "Coagulopatía del trauma y tríada letal",
+      "dificultad": "alta",
+      "_resuelta_por_ia": true,
+      "_confianza": "baja",
+      "_revisar": true,
+      "anio": 2023,
+      "fuente": "FUCS 06 mayo 2023"
+    },
+    {
+      "enunciado": "En la transición metabólica perinatal, el hígado se reprograma debido al ajuste hormonal caracterizado por:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Disminución de los niveles tanto de glucagón como de insulina"
+        },
+        {
+          "letra": "B",
+          "texto": "Aumento de los niveles de glucagón y disminución de los niveles de insulina"
+        },
+        {
+          "letra": "C",
+          "texto": "Aumento de los niveles tanto de glucagón como de insulina"
+        },
+        {
+          "letra": "D",
+          "texto": "Disminución de los niveles de glucagón y aumento de los niveles de insulina"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Fisiología",
+      "tema": "Transición metabólica perinatal: eje glucagón/insulina",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2023,
+      "fuente": "FUCS 06 mayo 2023"
+    },
+    {
+      "enunciado": "Una de las siguientes NO es determinante de la tasa de filtración glomerular:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "El coeficiente de ultrafiltración"
+        },
+        {
+          "letra": "B",
+          "texto": "La diferencia de presión hidráulica transcapilar"
+        },
+        {
+          "letra": "C",
+          "texto": "La presión oncótica capilar final"
+        },
+        {
+          "letra": "D",
+          "texto": "El flujo plasmático glomerular inicial"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Fisiología",
+      "tema": "Determinantes de la tasa de filtración glomerular",
+      "dificultad": "alta",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2023,
+      "fuente": "FUCS 06 mayo 2023"
+    },
+    {
+      "enunciado": "En un niño de 12 años que llega a su consulta rural, usted sospecha luxación o displasia de cadera, motivo por el cual busca:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "El signo de Galeazzi"
+        },
+        {
+          "letra": "B",
+          "texto": "La maniobra de Barlow"
+        },
+        {
+          "letra": "C",
+          "texto": "La limitación de la aducción de las caderas"
+        },
+        {
+          "letra": "D",
+          "texto": "La maniobra de Ortolani"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Traumatología y Ortopedia",
+      "tema": "Displasia del desarrollo de cadera: exploración",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2023,
+      "fuente": "FUCS 06 mayo 2023"
+    },
+    {
+      "enunciado": "Según las recomendaciones de la National Sleep Foundation para la prevención de la enfermedad y la accidentalidad, los adolescentes (11 a 14 años) deben tener una duración de sueño diaria entre:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "9-11 horas"
+        },
+        {
+          "letra": "B",
+          "texto": "8-10 horas"
+        },
+        {
+          "letra": "C",
+          "texto": "10-13 horas"
+        },
+        {
+          "letra": "D",
+          "texto": "12-15 horas"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Pediatría",
+      "tema": "Higiene del sueño en adolescentes",
+      "dificultad": "media",
+      "anio": 2023,
+      "fuente": "FUCS 06 mayo 2023"
+    },
+    {
+      "enunciado": "A su consulta llega una paciente de 30 años que refiere amenorrea de tres meses de evolución, sumado a alteraciones en su campo visual acompañadas de cefalea de algunas semanas. En campimetría se observa hemianopsia bitemporal; la patología más probable responsable de este cuadro sería:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Glaucoma crónico"
+        },
+        {
+          "letra": "B",
+          "texto": "Craneofaringioma"
+        },
+        {
+          "letra": "C",
+          "texto": "Adenoma hipofisiario"
+        },
+        {
+          "letra": "D",
+          "texto": "Glioma de nervio óptico"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Endocrinología",
+      "tema": "Adenoma hipofisiario: amenorrea y hemianopsia bitemporal",
+      "dificultad": "media",
+      "anio": 2023,
+      "fuente": "FUCS 06 mayo 2023"
+    },
+    {
+      "enunciado": "Tras una tiroidectomía, a una paciente de 48 años usted le diagnostica disfonía y supone que se deba a la compresión de la arteria tiroidea superior, pues está en relación con el nervio:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Laríngeo superior"
+        },
+        {
+          "letra": "B",
+          "texto": "Hipogloso"
+        },
+        {
+          "letra": "C",
+          "texto": "Laríngeo recurrente"
+        },
+        {
+          "letra": "D",
+          "texto": "Ansa cervicalis"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cirugía General",
+      "tema": "Anatomía quirúrgica de la tiroides y nervio laríngeo superior",
+      "dificultad": "media",
+      "anio": 2023,
+      "fuente": "FUCS 06 mayo 2023"
+    },
+    {
+      "enunciado": "Paciente de 60 años previamente asintomático, con diagnóstico de NAC sin criterios de gravedad ni comorbilidades; hemograma con leucocitos 12.000, PMN 80%, cayados 10%, linfocitos 10%; esputo con diplococos gram positivos ++++ y bacilos gram negativos +; Rx de tórax con consolidación apical derecha con broncograma aéreo. Usted consideraría como alternativa microbiológica causante de la NAC:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Moraxella catarrhalis"
+        },
+        {
+          "letra": "B",
+          "texto": "Staphylococcus aureus"
+        },
+        {
+          "letra": "C",
+          "texto": "Haemophilus influenzae"
+        },
+        {
+          "letra": "D",
+          "texto": "Streptococcus pneumoniae"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Neumología",
+      "tema": "Neumonía adquirida en la comunidad: etiología",
+      "dificultad": "baja",
+      "anio": 2023,
+      "fuente": "FUCS 06 mayo 2023"
+    },
+    {
+      "enunciado": "Un paciente de 72 años presenta hallazgos clínicos compatibles con una demencia tipo Alzheimer. El médico tratante propone tratamiento con tacrina, buscando mejorar la condición cognitiva. Este fármaco tiene como efecto incrementar a nivel cerebral los niveles:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Colinérgicos"
+        },
+        {
+          "letra": "B",
+          "texto": "Dopaminérgicos"
+        },
+        {
+          "letra": "C",
+          "texto": "Noradrenérgicos"
+        },
+        {
+          "letra": "D",
+          "texto": "Serotoninérgicos"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Farmacología",
+      "tema": "Inhibidores de la colinesterasa en Alzheimer (tacrina)",
+      "dificultad": "media",
+      "anio": 2023,
+      "fuente": "FUCS 06 mayo 2023"
+    },
+    {
+      "enunciado": "Una mujer de 29 años ingresa a urgencias por mareo de 45 minutos, con antecedente de prolapso de válvula mitral sin tratamiento. Al examen físico: frecuencia cardiaca de 170 lpm y TA 105/55 mmHg; el EKG muestra taquicardia supraventricular con RR regular, acortamiento del intervalo PR y onda delta al inicio de los complejos QRS. ¿Cuál sería el diagnóstico más probable?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Taquicardia ventricular"
+        },
+        {
+          "letra": "B",
+          "texto": "Taquicardia sinusal"
+        },
+        {
+          "letra": "C",
+          "texto": "Flutter auricular con bloqueo 3:1"
+        },
+        {
+          "letra": "D",
+          "texto": "Síndrome de Wolff-Parkinson-White"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Cardiología",
+      "tema": "Síndrome de Wolff-Parkinson-White (onda delta, PR corto)",
+      "dificultad": "media",
+      "anio": 2023,
+      "fuente": "FUCS 06 mayo 2023"
+    },
+    {
+      "enunciado": "Las redes encefálicas muestran que las lesiones cerebelosas se pueden manifestar como trastornos cognoscitivos similares a los observados en la demencia frontotemporal. Estas lesiones se ubican principalmente en:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Lóbulo anterior del cerebelo"
+        },
+        {
+          "letra": "B",
+          "texto": "Lóbulo floculo-nodular del cerebelo"
+        },
+        {
+          "letra": "C",
+          "texto": "Vermis cerebeloso"
+        },
+        {
+          "letra": "D",
+          "texto": "Lóbulo posterior del cerebelo"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Neurología",
+      "tema": "Síndrome cognitivo-afectivo cerebeloso",
+      "dificultad": "alta",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2023,
+      "fuente": "FUCS 06 mayo 2023"
+    },
+    {
+      "enunciado": "Un paciente sometido a cirugía intestinal presenta un síndrome de intestino corto con malabsorción. Durante su hospitalización se documenta una acidosis metabólica que curiosamente mejora con el uso de antibióticos; lo más probable es que se haya tratado de una acidosis metabólica por:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Cuerpos cetónicos"
+        },
+        {
+          "letra": "B",
+          "texto": "L-lactato"
+        },
+        {
+          "letra": "C",
+          "texto": "D-lactato"
+        },
+        {
+          "letra": "D",
+          "texto": "Hipercloremia"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Gastroenterología",
+      "tema": "Acidosis D-láctica en síndrome de intestino corto",
+      "dificultad": "alta",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2023,
+      "fuente": "FUCS 06 mayo 2023"
+    },
+    {
+      "enunciado": "Una de las siguientes sustancias no cumple función vasoconstrictora a nivel de la vasculatura renal:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Angiotensina II"
+        },
+        {
+          "letra": "B",
+          "texto": "Endotelina"
+        },
+        {
+          "letra": "C",
+          "texto": "Prostaglandinas"
+        },
+        {
+          "letra": "D",
+          "texto": "Noradrenalina"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Fisiología",
+      "tema": "Regulación vascular renal: vasoconstrictores y vasodilatadores",
+      "dificultad": "media",
+      "anio": 2023,
+      "fuente": "FUCS 06 mayo 2023"
+    },
+    {
+      "enunciado": "La causa de amenorrea más común en una paciente con síndrome de Turner de 18 años está dada por:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Disfunción genética"
+        },
+        {
+          "letra": "B",
+          "texto": "Disfunción anatómica"
+        },
+        {
+          "letra": "C",
+          "texto": "Disfunción hipotálamo-hipofisiaria"
+        },
+        {
+          "letra": "D",
+          "texto": "Disfunción ovárica"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Amenorrea en síndrome de Turner (disgenesia gonadal)",
+      "dificultad": "media",
+      "anio": 2023,
+      "fuente": "FUCS 06 mayo 2023"
+    },
+    {
+      "enunciado": "A su consulta asiste una estudiante universitaria de 19 años con un cuadro de tres días de ardor vaginal acompañado por exudado de color amarillo y olor fétido; trae un frotis de flujo vaginal que informa \"microorganismos con flagelos\". El diagnóstico presuntivo más probable es:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Vaginitis por herpes virus"
+        },
+        {
+          "letra": "B",
+          "texto": "Neoplasia de cuello uterino"
+        },
+        {
+          "letra": "C",
+          "texto": "Vaginosis bacteriana"
+        },
+        {
+          "letra": "D",
+          "texto": "Vaginitis por trichomonas"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Vaginitis por Trichomonas vaginalis",
+      "dificultad": "baja",
+      "anio": 2023,
+      "fuente": "FUCS 06 mayo 2023"
+    },
+    {
+      "enunciado": "Uno de los siguientes cambios NO es esperable con el envejecimiento del sistema hematopoyético:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Incremento de la función de las células madre individuales"
+        },
+        {
+          "letra": "B",
+          "texto": "Disminución de la linfopoyesis"
+        },
+        {
+          "letra": "C",
+          "texto": "Expansión del número de células madre"
+        },
+        {
+          "letra": "D",
+          "texto": "Incremento del sesgo mieloide"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Hematología",
+      "tema": "Envejecimiento hematopoyético y células madre",
+      "dificultad": "alta",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2023,
+      "fuente": "FUCS 06 mayo 2023"
+    },
+    {
+      "enunciado": "La complicación cerebral más frecuente por el abuso de fumar bazuco es:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Infartos periventriculares"
+        },
+        {
+          "letra": "B",
+          "texto": "Leucoencefalopatía multifocal"
+        },
+        {
+          "letra": "C",
+          "texto": "Vasoespasmo de la arteria cerebral anterior"
+        },
+        {
+          "letra": "D",
+          "texto": "Hemorragia intraparenquimatosa"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Neurología",
+      "tema": "Complicaciones neurológicas del consumo de cocaína/bazuco",
+      "dificultad": "alta",
+      "_resuelta_por_ia": true,
+      "_confianza": "baja",
+      "_revisar": true,
+      "anio": 2023,
+      "fuente": "FUCS 06 mayo 2023"
+    },
+    {
+      "enunciado": "Un paciente ingresa al servicio de urgencias con aliento alcohólico, confusión mental y diaforesis. Se documenta una glicemia de 35 mg/dl; la hipoglicemia en este caso puede deberse a que el alcohol tiene un efecto:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Excitatorio sobre la secreción de insulina"
+        },
+        {
+          "letra": "B",
+          "texto": "Excitatorio sobre la glucogenólisis"
+        },
+        {
+          "letra": "C",
+          "texto": "Inhibitorio sobre la gluconeogénesis"
+        },
+        {
+          "letra": "D",
+          "texto": "Inhibitorio sobre la secreción de glucagón"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Bioquímica",
+      "tema": "Hipoglicemia alcohólica: inhibición de la gluconeogénesis",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2023,
+      "fuente": "FUCS 06 mayo 2023"
+    },
+    {
+      "enunciado": "Un paciente presenta un trastorno de la hemostasia debido a la Enfermedad de Von Willebrand. Las células que sintetizan el factor de Von Willebrand son:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Trombocitos y mastocitos"
+        },
+        {
+          "letra": "B",
+          "texto": "Células endoteliales y megacariocitos"
+        },
+        {
+          "letra": "C",
+          "texto": "Fibroblastos y mastocitos"
+        },
+        {
+          "letra": "D",
+          "texto": "Neutrófilos y basófilos"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Hematología",
+      "tema": "Enfermedad de Von Willebrand y hemostasia",
+      "dificultad": "media",
+      "_revisar": true,
+      "anio": 2022,
+      "fuente": "Examen FUCS 07 mayo 2022"
+    },
+    {
+      "enunciado": "Para la interpretación de un uroanálisis, hay que tener en cuenta que el límite aceptable para proteinuria se ha establecido en:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "600 mg/L"
+        },
+        {
+          "letra": "B",
+          "texto": "300 mg/L"
+        },
+        {
+          "letra": "C",
+          "texto": "900 mg/L"
+        },
+        {
+          "letra": "D",
+          "texto": "150 mg/L"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Nefrología",
+      "tema": "Uroanálisis y proteinuria",
+      "dificultad": "media",
+      "anio": 2022,
+      "fuente": "Examen FUCS 07 mayo 2022"
+    },
+    {
+      "enunciado": "Las mutaciones genéticas que afectan la síntesis de heparán sulfato se correlacionan con distress respiratorio neonatal. En el epitelio respiratorio, el heparán sulfato se ubica en:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Citoesqueleto"
+        },
+        {
+          "letra": "B",
+          "texto": "Glucocálix"
+        },
+        {
+          "letra": "C",
+          "texto": "Mitocondrias"
+        },
+        {
+          "letra": "D",
+          "texto": "Complejo de Golgi"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Bioquímica",
+      "tema": "Proteoglicanos y glucocálix del epitelio respiratorio",
+      "dificultad": "alta",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2022,
+      "fuente": "Examen FUCS 07 mayo 2022"
+    },
+    {
+      "enunciado": "Un paciente de 46 años tiene antecedentes de gastritis desde hace 8 años y de ingesta frecuente de antiácidos. La presión arterial es de 90/60 mmHg y al examen se encuentra debilidad muscular generalizada e hiporreflexia. El electrocardiograma evidencia prolongación de los intervalos PR y QT. Ante este cuadro el médico tratante sospecha:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Hipocalcemia"
+        },
+        {
+          "letra": "B",
+          "texto": "Hipermagnesemia"
+        },
+        {
+          "letra": "C",
+          "texto": "Hipercalcemia"
+        },
+        {
+          "letra": "D",
+          "texto": "Hipomagnesemia"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Medicina Interna",
+      "tema": "Trastornos electrolíticos y ECG",
+      "dificultad": "alta",
+      "_revisar": true,
+      "anio": 2022,
+      "fuente": "Examen FUCS 07 mayo 2022"
+    },
+    {
+      "enunciado": "De los siguientes medicamentos, ¿cuál es recomendable suspender al menos 24 horas antes de la cirugía?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Gotas oftálmicas"
+        },
+        {
+          "letra": "B",
+          "texto": "Sildenafil"
+        },
+        {
+          "letra": "C",
+          "texto": "Carbamazepina"
+        },
+        {
+          "letra": "D",
+          "texto": "Esomeprazol"
+        },
+        {
+          "letra": "E",
+          "texto": "Levotiroxina"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Anestesiología",
+      "tema": "Manejo preoperatorio de medicación",
+      "dificultad": "media",
+      "anio": 2022,
+      "fuente": "Examen FUCS 07 mayo 2022"
+    },
+    {
+      "enunciado": "En los pacientes con deterioro importante de la función ventricular, ¿cuál es el agente preferido para la inducción de anestesia general?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Etomidato"
+        },
+        {
+          "letra": "B",
+          "texto": "Ketamina"
+        },
+        {
+          "letra": "C",
+          "texto": "Propofol"
+        },
+        {
+          "letra": "D",
+          "texto": "Dexmedetomidina"
+        },
+        {
+          "letra": "E",
+          "texto": "Tiopental"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anestesiología",
+      "tema": "Inducción anestésica en disfunción ventricular",
+      "dificultad": "media",
+      "anio": 2022,
+      "fuente": "Examen FUCS 07 mayo 2022"
+    },
+    {
+      "enunciado": "La célula endotelial quiescente utiliza la captación de glucosa para activar diferentes rutas metabólicas. Para la síntesis de nucleótidos la ruta involucrada es la de:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Glucólisis anaerobia"
+        },
+        {
+          "letra": "B",
+          "texto": "Glucogenogénesis"
+        },
+        {
+          "letra": "C",
+          "texto": "Hexosamina"
+        },
+        {
+          "letra": "D",
+          "texto": "Pentosa fosfato"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Bioquímica",
+      "tema": "Vía de las pentosas fosfato",
+      "dificultad": "media",
+      "anio": 2022,
+      "fuente": "Examen FUCS 07 mayo 2022"
+    },
+    {
+      "enunciado": "Para el tratamiento de la DM tipo 2, las investigaciones con fármacos inhibidores de la degradación de GLP-1 buscan uno de los siguientes efectos:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Inhibir la secreción de insulina"
+        },
+        {
+          "letra": "B",
+          "texto": "Estimular el vaciamiento gástrico"
+        },
+        {
+          "letra": "C",
+          "texto": "Inhibir el apetito"
+        },
+        {
+          "letra": "D",
+          "texto": "Inhibir la síntesis de glucógeno"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Farmacología",
+      "tema": "Incretinas y tratamiento de DM2",
+      "dificultad": "alta",
+      "_revisar": true,
+      "anio": 2022,
+      "fuente": "Examen FUCS 07 mayo 2022"
+    },
+    {
+      "enunciado": "En pacientes con falla cardiaca se puede presentar un aumento de la actividad simpática por un reflejo que está mediado por:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Neuronas quimiosensibles"
+        },
+        {
+          "letra": "B",
+          "texto": "Barorreceptores de alta presión"
+        },
+        {
+          "letra": "C",
+          "texto": "Cuerpos carotídeos"
+        },
+        {
+          "letra": "D",
+          "texto": "Barorreceptores auriculares"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Fisiología",
+      "tema": "Regulación simpática en falla cardiaca",
+      "dificultad": "media",
+      "anio": 2022,
+      "fuente": "Examen FUCS 07 mayo 2022"
+    },
+    {
+      "enunciado": "¿Cómo se denomina al volumen pulmonar de reposo, definido como el que se tiene al final de una espiración normal?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Capacidad pulmonar total"
+        },
+        {
+          "letra": "B",
+          "texto": "Capacidad residual funcional"
+        },
+        {
+          "letra": "C",
+          "texto": "Volumen residual"
+        },
+        {
+          "letra": "D",
+          "texto": "Volumen corriente"
+        },
+        {
+          "letra": "E",
+          "texto": "Capacidad vital"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Neumología",
+      "tema": "Volúmenes y capacidades pulmonares",
+      "dificultad": "media",
+      "anio": 2022,
+      "fuente": "Examen FUCS 07 mayo 2022"
+    },
+    {
+      "enunciado": "La autofagia es un mecanismo celular necesario para la suplencia energética. Las enfermedades degenerativas que involucran una deficiente autofagia implican una alteración en:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Retículo endoplásmico rugoso"
+        },
+        {
+          "letra": "B",
+          "texto": "Peroxisomas"
+        },
+        {
+          "letra": "C",
+          "texto": "Lisosomas"
+        },
+        {
+          "letra": "D",
+          "texto": "Mitocondrias"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Bioquímica",
+      "tema": "Autofagia y lisosomas",
+      "dificultad": "media",
+      "anio": 2022,
+      "fuente": "Examen FUCS 07 mayo 2022"
+    },
+    {
+      "enunciado": "¿Cuál de las siguientes no es una causa de desplazamiento de la curva de disociación de la hemoglobina a la derecha (disminución de la afinidad por el O2)?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Disminución del pH"
+        },
+        {
+          "letra": "B",
+          "texto": "Aumento de la concentración de 2,3-DPG"
+        },
+        {
+          "letra": "C",
+          "texto": "Disminución de la concentración de hidrogeniones"
+        },
+        {
+          "letra": "D",
+          "texto": "Aumento de la PCO2"
+        },
+        {
+          "letra": "E",
+          "texto": "Aumento de la temperatura"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Fisiología",
+      "tema": "Curva de disociación de la hemoglobina",
+      "dificultad": "media",
+      "anio": 2022,
+      "fuente": "Examen FUCS 07 mayo 2022"
+    },
+    {
+      "enunciado": "La diferencia entre infección y colonización es:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "La presencia de signos locales o sistémicos de inflamación"
+        },
+        {
+          "letra": "B",
+          "texto": "La gravedad clínica de la infección"
+        },
+        {
+          "letra": "C",
+          "texto": "La presencia de alteraciones hemodinámicas"
+        },
+        {
+          "letra": "D",
+          "texto": "La multiplicación de microorganismos patógenos o de flora normal"
+        },
+        {
+          "letra": "E",
+          "texto": "La presencia de fiebre o febrícula"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Infectología",
+      "tema": "Infección versus colonización",
+      "dificultad": "media",
+      "anio": 2022,
+      "fuente": "Examen FUCS 07 mayo 2022"
+    },
+    {
+      "enunciado": "En un recién nacido, el tejido adiposo pardo tiene como principal función:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Aislante térmico"
+        },
+        {
+          "letra": "B",
+          "texto": "Termogénesis"
+        },
+        {
+          "letra": "C",
+          "texto": "Conducción térmica"
+        },
+        {
+          "letra": "D",
+          "texto": "Convección de calor"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Pediatría",
+      "tema": "Termorregulación neonatal y tejido adiposo pardo",
+      "dificultad": "alta",
+      "_revisar": true,
+      "anio": 2022,
+      "fuente": "Examen FUCS 07 mayo 2022"
+    },
+    {
+      "enunciado": "Las lipoproteínas son discriminadas dentro del organismo gracias a:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "La cantidad de ésteres de colesterol transportado"
+        },
+        {
+          "letra": "B",
+          "texto": "Su contenido proporcional de triglicéridos"
+        },
+        {
+          "letra": "C",
+          "texto": "Su densidad y diámetro"
+        },
+        {
+          "letra": "D",
+          "texto": "El tipo de apoproteínas asociadas"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Bioquímica",
+      "tema": "Clasificación de lipoproteínas",
+      "dificultad": "media",
+      "_revisar": true,
+      "anio": 2022,
+      "fuente": "Examen FUCS 07 mayo 2022"
+    },
+    {
+      "enunciado": "Paciente de 55 años valorado por cansancio y edema en extremidades inferiores de varios meses. Paraclínicos: creatinina sérica 2,2 mg/dl, colesterol total 350 mg/dl, triglicéridos 604 mg/dl. Proteínas plasmáticas, volumen urinario y depuración de creatinina normales. Para aclarar la elevación de creatinina sérica es indispensable solicitar:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "TSH"
+        },
+        {
+          "letra": "B",
+          "texto": "Sedimento urinario"
+        },
+        {
+          "letra": "C",
+          "texto": "Cortisol"
+        },
+        {
+          "letra": "D",
+          "texto": "Hemoglobina glicosilada"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Endocrinología",
+      "tema": "Hipotiroidismo, dislipidemia y creatinina",
+      "dificultad": "alta",
+      "anio": 2022,
+      "fuente": "Examen FUCS 07 mayo 2022"
+    },
+    {
+      "enunciado": "Dentro de los siguientes antibióticos, posee actividad frente a carbapenemasas:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Cefazolina"
+        },
+        {
+          "letra": "B",
+          "texto": "Ceftriaxona"
+        },
+        {
+          "letra": "C",
+          "texto": "Ceftazidime/avibactam"
+        },
+        {
+          "letra": "D",
+          "texto": "Ceftolozane/tazobactam"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Infectología",
+      "tema": "Antibióticos frente a carbapenemasas",
+      "dificultad": "alta",
+      "anio": 2022,
+      "fuente": "Examen FUCS 07 mayo 2022"
+    },
+    {
+      "enunciado": "Un niño de 4 meses presenta un cuadro respiratorio agudo con rinorrea, tos seca en accesos, disnea e irritabilidad. Al examen físico se auscultan sibilancias y uso de músculos accesorios. El diagnóstico más probable tiene que ver con lesiones anatómicas caracterizadas por:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Apoptosis de neumocitos tipo I"
+        },
+        {
+          "letra": "B",
+          "texto": "Hiperplasia de células ciliadas"
+        },
+        {
+          "letra": "C",
+          "texto": "Metaplasia de neumocitos tipo II"
+        },
+        {
+          "letra": "D",
+          "texto": "Necrosis y edema del epitelio bronquial"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Pediatría",
+      "tema": "Bronquiolitis y lesión de la vía aérea",
+      "dificultad": "alta",
+      "_revisar": true,
+      "anio": 2022,
+      "fuente": "Examen FUCS 07 mayo 2022"
+    },
+    {
+      "enunciado": "A un paciente con sospecha de disfunción tiroidea se le solicita la medición de TSH. Uno de los siguientes factores estimula la secreción de TSH:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "T3"
+        },
+        {
+          "letra": "B",
+          "texto": "Citocinas proinflamatorias"
+        },
+        {
+          "letra": "C",
+          "texto": "Cortisol"
+        },
+        {
+          "letra": "D",
+          "texto": "GH"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Endocrinología",
+      "tema": "Regulación de la secreción de TSH",
+      "dificultad": "media",
+      "_revisar": true,
+      "anio": 2022,
+      "fuente": "Examen FUCS 07 mayo 2022"
+    },
+    {
+      "enunciado": "La siguiente es la función biológica natural de las proteínas de unión a penicilinas (PBP):",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Oxidasa"
+        },
+        {
+          "letra": "B",
+          "texto": "Transpeptidasa"
+        },
+        {
+          "letra": "C",
+          "texto": "Catalasa"
+        },
+        {
+          "letra": "D",
+          "texto": "Fosforilasa"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Farmacología",
+      "tema": "Proteínas de unión a penicilinas",
+      "dificultad": "media",
+      "anio": 2022,
+      "fuente": "Examen FUCS 07 mayo 2022"
+    },
+    {
+      "enunciado": "El médico tratante considera una miositis por estatinas, ya que estos fármacos tienen impacto dentro de la fibra muscular principalmente en:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Túbulos T"
+        },
+        {
+          "letra": "B",
+          "texto": "Mitocondrias"
+        },
+        {
+          "letra": "C",
+          "texto": "Lisosomas"
+        },
+        {
+          "letra": "D",
+          "texto": "Retículo sarcoplasmático"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Farmacología",
+      "tema": "Miopatía por estatinas",
+      "dificultad": "alta",
+      "_revisar": true,
+      "anio": 2022,
+      "fuente": "Examen FUCS 07 mayo 2022"
+    },
+    {
+      "enunciado": "Un paciente presenta osteoporosis relacionada con la prescripción de glucocorticoides. El riesgo de fracturas disminuye después de retirar los glucocorticoides a los:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "3 meses"
+        },
+        {
+          "letra": "B",
+          "texto": "2 años"
+        },
+        {
+          "letra": "C",
+          "texto": "1 año"
+        },
+        {
+          "letra": "D",
+          "texto": "6 meses"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Reumatología",
+      "tema": "Osteoporosis inducida por glucocorticoides",
+      "dificultad": "alta",
+      "_revisar": true,
+      "anio": 2022,
+      "fuente": "Examen FUCS 07 mayo 2022"
+    },
+    {
+      "enunciado": "Una paciente de 25 años está programada para cirugía de urgencia por hemorragia intracraneal que amenaza su vida, sin comorbilidades aparentes. Al determinar el riesgo ASA, el anestesiólogo concluye que se trata de un riesgo ASA:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "III"
+        },
+        {
+          "letra": "B",
+          "texto": "II"
+        },
+        {
+          "letra": "C",
+          "texto": "I"
+        },
+        {
+          "letra": "D",
+          "texto": "V"
+        },
+        {
+          "letra": "E",
+          "texto": "IV"
+        }
+      ],
+      "respuesta_correcta": "E",
+      "especialidad": "Anestesiología",
+      "tema": "Clasificación de riesgo ASA",
+      "dificultad": "media",
+      "_revisar": true,
+      "anio": 2022,
+      "fuente": "Examen FUCS 07 mayo 2022"
+    },
+    {
+      "enunciado": "La clasificación actual establecida por la OMS para los adenomas hipofisarios, que mide la expresión de factores de transcripción, tiene la ventaja principal de:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Corroborar que se trata de un adenoma hipofisario y no de un tumor de la neurohipófisis"
+        },
+        {
+          "letra": "B",
+          "texto": "Disminuir el número de adenomas de células nulas"
+        },
+        {
+          "letra": "C",
+          "texto": "Correlacionar con los niveles hormonales en sangre"
+        },
+        {
+          "letra": "D",
+          "texto": "No tener la necesidad de realizar marcación de hormonas con inmunohistoquímica"
+        },
+        {
+          "letra": "E",
+          "texto": "Determinar la tasa de recurrencia del tumor"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Patología",
+      "tema": "Clasificación OMS de adenomas hipofisarios",
+      "dificultad": "alta",
+      "_revisar": true,
+      "anio": 2022,
+      "fuente": "Examen FUCS 07 mayo 2022"
+    },
+    {
+      "enunciado": "Los siguientes antibióticos son bloqueados por BLEES (betalactamasas de espectro extendido):",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Cefalosporinas de primera, segunda y tercera generación"
+        },
+        {
+          "letra": "B",
+          "texto": "Penicilinas G cristalina y benzatínica"
+        },
+        {
+          "letra": "C",
+          "texto": "Piperacilina tazobactam y ampicilina sulbactam"
+        },
+        {
+          "letra": "D",
+          "texto": "Penicilinas naturales y cefalosporinas de primera"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Infectología",
+      "tema": "Betalactamasas de espectro extendido",
+      "dificultad": "alta",
+      "_revisar": true,
+      "anio": 2022,
+      "fuente": "Examen FUCS 07 mayo 2022"
+    },
+    {
+      "enunciado": "El retardo fisiológico en la conducción cardiaca que asegura que los ventrículos se llenen adecuadamente antes de su contracción está representado en el electrocardiograma por:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "El segmento P-R"
+        },
+        {
+          "letra": "B",
+          "texto": "La amplitud del complejo QRS"
+        },
+        {
+          "letra": "C",
+          "texto": "La onda P"
+        },
+        {
+          "letra": "D",
+          "texto": "El segmento Q-T"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cardiología",
+      "tema": "Electrocardiograma y conducción AV",
+      "dificultad": "media",
+      "anio": 2022,
+      "fuente": "Examen FUCS 07 mayo 2022"
+    },
+    {
+      "enunciado": "Un paciente masculino presenta osteoporosis. Al respecto, en los hombres la adquisición de masa ósea durante la pubertad depende principalmente de:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Testosterona"
+        },
+        {
+          "letra": "B",
+          "texto": "Dihidrotestosterona"
+        },
+        {
+          "letra": "C",
+          "texto": "Androstenediona"
+        },
+        {
+          "letra": "D",
+          "texto": "Estradiol"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Endocrinología",
+      "tema": "Masa ósea y hormonas sexuales",
+      "dificultad": "media",
+      "_revisar": true,
+      "anio": 2022,
+      "fuente": "Examen FUCS 07 mayo 2022"
+    },
+    {
+      "enunciado": "Un paciente de 46 años con diabetes mellitus tipo 2 e insuficiencia renal crónica tiene prescrita metformina, medicamento que es posible utilizar en este contexto siempre y cuando la tasa de filtración glomerular no sea igual o inferior a:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "75 ml/min"
+        },
+        {
+          "letra": "B",
+          "texto": "45 ml/min"
+        },
+        {
+          "letra": "C",
+          "texto": "60 ml/min"
+        },
+        {
+          "letra": "D",
+          "texto": "15 ml/min"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Farmacología",
+      "tema": "Metformina y función renal",
+      "dificultad": "alta",
+      "_revisar": true,
+      "anio": 2022,
+      "fuente": "Examen FUCS 07 mayo 2022"
+    },
+    {
+      "enunciado": "A un paciente de 70 años con diagnóstico confirmado de osteomielitis, el infectólogo ordena iniciar manejo con quinolonas durante 4 semanas. Ante dicha situación, debido al fármaco a formular, usted decide previamente solicitar:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Electrocardiograma para establecer el intervalo QT"
+        },
+        {
+          "letra": "B",
+          "texto": "Bilirrubinas para hacer seguimiento a la ictericia que puede presentar"
+        },
+        {
+          "letra": "C",
+          "texto": "Transaminasas para determinar el estado inicial de función hepática y vigilar hepatotoxicidad"
+        },
+        {
+          "letra": "D",
+          "texto": "Hemoglobina, pues las quinolonas producen anemia tras su uso prolongado"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Farmacología",
+      "tema": "Seguridad de quinolonas y QT",
+      "dificultad": "alta",
+      "_revisar": true,
+      "anio": 2022,
+      "fuente": "Examen FUCS 07 mayo 2022"
+    },
+    {
+      "enunciado": "Dentro de los mediadores de la inflamación y la angiogénesis derivados del ácido araquidónico están el ácido hidroxieicosatetraenoico (HETE) y el ácido epoxieicosatrienoico (EET). Un fármaco que incide en su producción deberá actuar sobre la enzima:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Fosfolipasa D"
+        },
+        {
+          "letra": "B",
+          "texto": "Lipooxigenasa (LOX)"
+        },
+        {
+          "letra": "C",
+          "texto": "CYP 450"
+        },
+        {
+          "letra": "D",
+          "texto": "Ciclooxigenasa (COX)"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Bioquímica",
+      "tema": "Metabolismo del ácido araquidónico",
+      "dificultad": "alta",
+      "_revisar": true,
+      "anio": 2022,
+      "fuente": "Examen FUCS 07 mayo 2022"
+    },
+    {
+      "enunciado": "¿Cuáles son las fibras nerviosas de conducción más lenta a nivel cardiaco?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Auriculares de conducción"
+        },
+        {
+          "letra": "B",
+          "texto": "Células del nodo sinusal"
+        },
+        {
+          "letra": "C",
+          "texto": "Células del sistema His-Purkinje"
+        },
+        {
+          "letra": "D",
+          "texto": "Células ventriculares de trabajo"
+        },
+        {
+          "letra": "E",
+          "texto": "Células del nodo AV"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Fisiología",
+      "tema": "Velocidad de conducción del sistema cardiaco",
+      "dificultad": "media",
+      "_revisar": true,
+      "anio": 2022,
+      "fuente": "Examen FUCS 07 mayo 2022"
+    },
+    {
+      "enunciado": "A un paciente con imagen diagnóstica compatible con adenoma hipofisario se le solicita la medición de prolactina. Para evitar errores en su medición, la toma de muestra debe realizarse en las primeras 3 horas después de:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Guardar reposo"
+        },
+        {
+          "letra": "B",
+          "texto": "Comer"
+        },
+        {
+          "letra": "C",
+          "texto": "Ayuno"
+        },
+        {
+          "letra": "D",
+          "texto": "Despertar"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Endocrinología",
+      "tema": "Medición de prolactina",
+      "dificultad": "media",
+      "anio": 2022,
+      "fuente": "Examen FUCS 07 mayo 2022"
+    },
+    {
+      "enunciado": "Las lipoproteínas de alta densidad (HDL) transfieren ésteres de colesterol que intercambian por triglicéridos con:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Los hepatocitos en el transporte retrógrado"
+        },
+        {
+          "letra": "B",
+          "texto": "Las células epiteliales intestinales (enterocitos)"
+        },
+        {
+          "letra": "C",
+          "texto": "Las VLDL y los quilomicrones"
+        },
+        {
+          "letra": "D",
+          "texto": "Los macrófagos intersticiales"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Bioquímica",
+      "tema": "Metabolismo de HDL y CETP",
+      "dificultad": "media",
+      "anio": 2022,
+      "fuente": "Examen FUCS 07 mayo 2022"
+    },
+    {
+      "enunciado": "¿Cuál de los siguientes antibióticos no tiene acción sobre un Enterococcus faecium resistente a la vancomicina?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Daptomicina"
+        },
+        {
+          "letra": "B",
+          "texto": "Tigeciclina"
+        },
+        {
+          "letra": "C",
+          "texto": "Linezolid"
+        },
+        {
+          "letra": "D",
+          "texto": "Colistina"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Infectología",
+      "tema": "Tratamiento de enterococo resistente a vancomicina",
+      "dificultad": "alta",
+      "anio": 2022,
+      "fuente": "Examen FUCS 07 mayo 2022"
+    },
+    {
+      "enunciado": "Una paciente de 45 años con hipertensión arterial presenta ocasionalmente edema leve en pies para lo que toma diuréticos 3-4 veces por semana. Los paraclínicos muestran hipokalemia e hiperkaliuria. Para diferenciar un posible hiperaldosteronismo primario de un efecto de los diuréticos, el biomarcador necesario a valorar es:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Sodio urinario"
+        },
+        {
+          "letra": "B",
+          "texto": "Catecolaminas plasmáticas"
+        },
+        {
+          "letra": "C",
+          "texto": "Sodio plasmático"
+        },
+        {
+          "letra": "D",
+          "texto": "Renina plasmática"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Endocrinología",
+      "tema": "Hiperaldosteronismo primario",
+      "dificultad": "alta",
+      "anio": 2022,
+      "fuente": "Examen FUCS 07 mayo 2022"
+    },
+    {
+      "enunciado": "Un paciente presenta isquemia en el territorio de la arteria lumbar magna (de Adamkiewicz); un riesgo importante es el infarto de:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Una suprarrenal"
+        },
+        {
+          "letra": "B",
+          "texto": "Médula espinal"
+        },
+        {
+          "letra": "C",
+          "texto": "Íleon"
+        },
+        {
+          "letra": "D",
+          "texto": "Páncreas"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Anatomía",
+      "tema": "Arteria de Adamkiewicz e irrigación medular",
+      "dificultad": "media",
+      "anio": 2022,
+      "fuente": "Examen FUCS 07 mayo 2022"
+    },
+    {
+      "enunciado": "Un paciente de 45 años presenta fatiga muscular, desánimo, hiporexia, tristeza persistente; al examen físico hay glositis, palidez mucocutánea y pérdida de la sensibilidad vibratoria con mínima ataxia. El hemograma evidencia anemia con incremento del volumen corpuscular medio, leucopenia y trombocitopenia. Antes de iniciar suplencia nutricional, dar ácido fólico sin conocer el déficit específico puede:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Intensificar los síntomas neurológicos"
+        },
+        {
+          "letra": "B",
+          "texto": "Anular el efecto de la cobalamina"
+        },
+        {
+          "letra": "C",
+          "texto": "Anular el efecto del hierro"
+        },
+        {
+          "letra": "D",
+          "texto": "Empeorar la anemia"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Hematología",
+      "tema": "Anemia megaloblástica y déficit de B12",
+      "dificultad": "alta",
+      "anio": 2022,
+      "fuente": "Examen FUCS 07 mayo 2022"
+    },
+    {
+      "enunciado": "Un paciente de 21 años tiene historia de parestesias peribucales y en manos desde la infancia; al examen físico se evidencia signo de Chvostek positivo. Los paraclínicos muestran hipocalcemia, hiperfosfatemia y concentraciones elevadas de PTH. Estos hallazgos permiten concluir que la paciente presenta una disfunción relacionada con:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Hipoparatiroidismo"
+        },
+        {
+          "letra": "B",
+          "texto": "Mutación del receptor de PTH"
+        },
+        {
+          "letra": "C",
+          "texto": "Adenoma de glándula paratiroides"
+        },
+        {
+          "letra": "D",
+          "texto": "Mutación del sensor de calcio en células paratiroideas"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Endocrinología",
+      "tema": "Pseudohipoparatiroidismo y resistencia a PTH",
+      "dificultad": "alta",
+      "anio": 2022,
+      "fuente": "Examen FUCS 07 mayo 2022"
+    },
+    {
+      "enunciado": "Un paciente masculino de 35 años hospitalizado por presunta encefalitis viral presenta sodio plasmático de 152 mmol/l, poliuria con orina hipotónica. En este contexto está indicado hacer una prueba de estimulación con:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Furosemida"
+        },
+        {
+          "letra": "B",
+          "texto": "Solución salina hipertónica"
+        },
+        {
+          "letra": "C",
+          "texto": "Desmopresina"
+        },
+        {
+          "letra": "D",
+          "texto": "Manitol"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Endocrinología",
+      "tema": "Diabetes insípida y prueba de desmopresina",
+      "dificultad": "media",
+      "anio": 2022,
+      "fuente": "Examen FUCS 07 mayo 2022"
+    },
+    {
+      "enunciado": "La principal interacción entre el sistema inmune innato y el sistema inmune adaptativo se da entre:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Granulocito eosinófilo y linfocito NK"
+        },
+        {
+          "letra": "B",
+          "texto": "Macrófago y linfocito T"
+        },
+        {
+          "letra": "C",
+          "texto": "Monocito y célula dendrítica"
+        },
+        {
+          "letra": "D",
+          "texto": "Granulocito neutrófilo y linfocito B"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Inmunología",
+      "tema": "Interacción inmunidad innata y adaptativa",
+      "dificultad": "media",
+      "anio": 2022,
+      "fuente": "Examen FUCS 07 mayo 2022"
+    },
+    {
+      "enunciado": "Si se prescribe un fármaco que bloquea los canales de calcio tipo L de los ventrículos cardíacos, el efecto en el potencial de acción es:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Alargamiento del tiempo de repolarización"
+        },
+        {
+          "letra": "B",
+          "texto": "Prolongación de la fase de meseta"
+        },
+        {
+          "letra": "C",
+          "texto": "Acortamiento de la fase de meseta"
+        },
+        {
+          "letra": "D",
+          "texto": "Producir una repolarización transitoria"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Fisiología",
+      "tema": "Canales de calcio tipo L y potencial de acción cardiaco",
+      "dificultad": "alta",
+      "anio": 2022,
+      "fuente": "Examen FUCS 07 mayo 2022"
+    },
+    {
+      "enunciado": "Un paciente de 26 años ha sido diagnosticado con un trastorno de ansiedad generalizada, para el que se le prescribe buspirona. El mecanismo de acción de este fármaco consiste en actuar como:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Bloqueador de receptores de glutamato"
+        },
+        {
+          "letra": "B",
+          "texto": "Agonista de receptores de serotonina"
+        },
+        {
+          "letra": "C",
+          "texto": "Agonista de receptores de GABA"
+        },
+        {
+          "letra": "D",
+          "texto": "Bloqueador de receptores de dopamina"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Farmacología",
+      "tema": "Mecanismo de acción de la buspirona",
+      "dificultad": "media",
+      "anio": 2022,
+      "fuente": "Examen FUCS 07 mayo 2022"
+    },
+    {
+      "enunciado": "Usted es el médico hospitalario de neurología y tiene un paciente de 4 meses a quien le realizará una RMN bajo anestesia general. La madre pregunta si puede lactar a su hijo de forma usual pues es lo único que consume, ante lo cual usted le indica que:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Puede darle seno hasta 2 horas antes del traslado a salas"
+        },
+        {
+          "letra": "B",
+          "texto": "Puede darle seno hasta 4 horas antes del traslado a salas"
+        },
+        {
+          "letra": "C",
+          "texto": "Puede darle seno hasta 1 hora antes del traslado a salas"
+        },
+        {
+          "letra": "D",
+          "texto": "Puede darle seno hasta 8 horas antes del traslado a salas"
+        },
+        {
+          "letra": "E",
+          "texto": "Puede darle seno hasta el momento del traslado a salas"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Anestesiología",
+      "tema": "Ayuno preoperatorio de leche materna",
+      "dificultad": "media",
+      "anio": 2022,
+      "fuente": "Examen FUCS 07 mayo 2022"
+    },
+    {
+      "enunciado": "En el síndrome metabólico se presenta una disminución de la síntesis de adipocinas antiinflamatorias como la:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Leptina"
+        },
+        {
+          "letra": "B",
+          "texto": "Adiponectina"
+        },
+        {
+          "letra": "C",
+          "texto": "Resistina"
+        },
+        {
+          "letra": "D",
+          "texto": "Angiotensina"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Endocrinología",
+      "tema": "Adipocinas y síndrome metabólico",
+      "dificultad": "media",
+      "anio": 2022,
+      "fuente": "Examen FUCS 07 mayo 2022"
+    },
+    {
+      "enunciado": "La clasificación de Roper-Hall gradúa:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Quemaduras oculares"
+        },
+        {
+          "letra": "B",
+          "texto": "Tumores de ovario"
+        },
+        {
+          "letra": "C",
+          "texto": "La intensidad del acné"
+        },
+        {
+          "letra": "D",
+          "texto": "Sensación de vértigo"
+        },
+        {
+          "letra": "E",
+          "texto": "Tumores testiculares"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Oftalmología",
+      "tema": "Clasificación de quemaduras oculares (Roper-Hall)",
+      "dificultad": "media",
+      "anio": 2022,
+      "fuente": "Examen FUCS 07 mayo 2022"
+    },
+    {
+      "enunciado": "Uno de los siguientes explica el porqué de la importancia de la medición de la creatinina para determinar el estado de la función renal de los pacientes:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Esta molécula se filtra y se secreta pero no se reabsorbe"
+        },
+        {
+          "letra": "B",
+          "texto": "Esta molécula estima la capacidad de la concentración de la orina"
+        },
+        {
+          "letra": "C",
+          "texto": "Esta molécula puede ser filtrada, reabsorbida y procesada, por lo cual estima con precisión la función glomerular y tubular renal"
+        },
+        {
+          "letra": "D",
+          "texto": "Esta molécula, al intercambiarse con la urea en la médula renal, valora los procesos de filtración glomerular y reabsorción tubular"
+        },
+        {
+          "letra": "E",
+          "texto": "Esta molécula se filtra, no se reabsorbe y tampoco se secreta en los túbulos renales"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Fisiología",
+      "tema": "Manejo renal de la creatinina",
+      "dificultad": "media",
+      "_revisar": true,
+      "anio": 2022,
+      "fuente": "Examen FUCS 07 mayo 2022"
+    },
+    {
+      "enunciado": "Uno de los siguientes factores no hace parte de los criterios qSOFA para concluir la presencia de sepsis:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Tensión arterial sistólica < 100"
+        },
+        {
+          "letra": "B",
+          "texto": "Frecuencia respiratoria > 22"
+        },
+        {
+          "letra": "C",
+          "texto": "SO2 < 90%"
+        },
+        {
+          "letra": "D",
+          "texto": "Condición mental alterada"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Medicina de Urgencias",
+      "tema": "Criterios qSOFA en sepsis",
+      "dificultad": "media",
+      "anio": 2022,
+      "fuente": "Examen FUCS 07 mayo 2022"
+    },
+    {
+      "enunciado": "Uno de los siguientes factores no se considera determinante del volumen telediastólico ventricular:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Postcarga ventricular"
+        },
+        {
+          "letra": "B",
+          "texto": "Retorno venoso"
+        },
+        {
+          "letra": "C",
+          "texto": "Frecuencia cardiaca"
+        },
+        {
+          "letra": "D",
+          "texto": "Contracción auricular"
+        },
+        {
+          "letra": "E",
+          "texto": "Relajación ventricular"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Fisiología",
+      "tema": "Determinantes de la precarga ventricular",
+      "dificultad": "media",
+      "anio": 2022,
+      "fuente": "Examen FUCS 07 mayo 2022"
+    },
+    {
+      "enunciado": "La presión máxima del ventrículo izquierdo del corazón ocurre, con respecto al electrocardiograma, en:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Segmento ST"
+        },
+        {
+          "letra": "B",
+          "texto": "Segmento PR"
+        },
+        {
+          "letra": "C",
+          "texto": "Onda P"
+        },
+        {
+          "letra": "D",
+          "texto": "Onda T"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Fisiología",
+      "tema": "Ciclo cardiaco y electrocardiograma",
+      "dificultad": "media",
+      "_revisar": true,
+      "anio": 2022,
+      "fuente": "Examen FUCS 07 mayo 2022"
+    },
+    {
+      "enunciado": "¿Cuál es el primer órgano donde actúa la insulina?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Hígado"
+        },
+        {
+          "letra": "B",
+          "texto": "Duodeno"
+        },
+        {
+          "letra": "C",
+          "texto": "Páncreas"
+        },
+        {
+          "letra": "D",
+          "texto": "Músculo esquelético"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Fisiología",
+      "tema": "Acción hepática de la insulina",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2022,
+      "fuente": "Examen FUCS 07 mayo 2022"
+    },
+    {
+      "enunciado": "Si una persona diabética cambia el azúcar de mesa por fructosa, la absorción de esta a nivel del borde en cepillo del enterocito requiere la presencia del siguiente transportador:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "GLUT-1"
+        },
+        {
+          "letra": "B",
+          "texto": "GLUT-2"
+        },
+        {
+          "letra": "C",
+          "texto": "GLUT-3"
+        },
+        {
+          "letra": "D",
+          "texto": "GLUT-4"
+        },
+        {
+          "letra": "E",
+          "texto": "GLUT-5"
+        }
+      ],
+      "respuesta_correcta": "E",
+      "especialidad": "Bioquímica",
+      "tema": "Absorción intestinal de fructosa (GLUT-5)",
+      "dificultad": "media",
+      "anio": 2022,
+      "fuente": "Examen FUCS 07 mayo 2022"
+    }
+  ]
+}

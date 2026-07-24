@@ -15,6 +15,7 @@ const EXAM_ID_TO_UNIVERSIDAD: Record<string, string> = {
   udea:    'UdeA',
   ucaldas: 'Caldas',
   ucartagena: 'Cartagena',
+  ufucs:   'FUCS',
   mir:     'MIR',
   enarm:   'ENARM',
 }
@@ -30,6 +31,7 @@ const UNIVERSIDADES = [
   { id: 'udea',     label: 'Univ. Antioquia',pais: 'COLOMBIA', ac: '#442C71' },
   { id: 'ucaldas',  label: 'Univ. Caldas',   pais: 'COLOMBIA', ac: '#8E2F6B' },
   { id: 'ucartagena',label:'Univ. Cartagena',pais: 'COLOMBIA', ac: '#A62E5C' },
+  { id: 'ufucs',    label: 'FUCS',           pais: 'COLOMBIA', ac: '#6E3A8C' },
 ]
 
 interface EnCurso { sesion_id: string; tipo: string; universidad: string | null; total: number; respondidas: number }

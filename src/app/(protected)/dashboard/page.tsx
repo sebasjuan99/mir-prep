@@ -17,6 +17,7 @@ const EXAM_TYPES = [
   { id: 'udea',    label: 'Univ. Antioquia', pais: 'COLOMBIA', ac: '#442C71' },
   { id: 'ucaldas', label: 'Univ. Caldas',    pais: 'COLOMBIA', ac: '#8E2F6B' },
   { id: 'ucartagena',label:'Univ. Cartagena',pais: 'COLOMBIA', ac: '#A62E5C' },
+  { id: 'ufucs',   label: 'FUCS',            pais: 'COLOMBIA', ac: '#6E3A8C' },
   { id: 'mir',     label: 'Examen MIR',      pais: 'ESPAÑA',   ac: '#9B2461' },
   { id: 'enarm',   label: 'Examen ENARM',    pais: 'MÉXICO',   ac: '#8D63A6' },
 ] as const
@@ -120,6 +121,7 @@ export default function DashboardPage() {
           'UdeA':      { ac: '#442C71', label: 'UNIV. ANTIOQUIA' },
           'Caldas':    { ac: '#8E2F6B', label: 'UNIV. CALDAS'    },
           'Cartagena': { ac: '#A62E5C', label: 'UNIV. CARTAGENA' },
+          'FUCS':      { ac: '#6E3A8C', label: 'FUCS'            },
         }
         const sorted = [...universidades].sort((a, b) => b.porcentaje - a.porcentaje)
         const best = sorted[0]
