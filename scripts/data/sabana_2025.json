@@ -1,0 +1,310 @@
+{
+  "examen": "SABANA",
+  "anio": 2025,
+  "fuente": "Examen Sabana 2025",
+  "preguntas": [
+    {
+      "enunciado": "Con respecto a la vancomicina, señale lo verdadero:",
+      "opciones": [
+        {"letra": "A", "texto": "Produce trombocitopenia"},
+        {"letra": "B", "texto": "Se deben vigilar los niveles plasmáticos en pacientes críticos"},
+        {"letra": "C", "texto": "Inhibe la síntesis de peptidoglicanos"},
+        {"letra": "D", "texto": "Todas las anteriores"}
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Farmacología",
+      "tema": "Vancomicina",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Respecto a la anfotericina B, es falso que:",
+      "opciones": [
+        {"letra": "A", "texto": "La formulación liposomal es menos tóxica"},
+        {"letra": "B", "texto": "Solo tiene actividad contra Cryptococcus neoformans"},
+        {"letra": "C", "texto": "Puede usarse para el tratamiento contra hongos, mohos y parásitos"},
+        {"letra": "D", "texto": "Se une al ergosterol de la membrana del hongo formando poros"}
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Farmacología",
+      "tema": "Anfotericina B",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente con hematemesis y melenas, hipotensa, anticoagulada con enoxaparina 70 mg subcutánea, con última dosis hace 9 horas. ¿Cuál es la mejor opción?",
+      "opciones": [
+        {"letra": "A", "texto": "Protamina 70 mg"},
+        {"letra": "B", "texto": "Protamina 50 mg"},
+        {"letra": "C", "texto": "No hay que dar antídoto porque ya pasaron 9 horas"},
+        {"letra": "D", "texto": "Administrar plasma fresco congelado"}
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Medicina de Urgencias",
+      "tema": "Reversión de anticoagulación con protamina",
+      "dificultad": "alta",
+      "_resuelta_por_ia": true,
+      "_confianza": "baja",
+      "_revisar": true
+    },
+    {
+      "enunciado": "En cuanto al mecanismo de las vacunas de ARNm, es cierto que:",
+      "opciones": [
+        {"letra": "A", "texto": "Codifican antígenos virales para inducir una respuesta inmune adaptativa humoral y celular"},
+        {"letra": "B", "texto": "Se integran de forma permanente al genoma del huésped"},
+        {"letra": "C", "texto": "Contienen virus vivos atenuados"},
+        {"letra": "D", "texto": "Solo inducen respuesta de anticuerpos, sin participación de células T"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Inmunología",
+      "tema": "Vacunas de ARNm",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "En cuanto a los mecanismos compensatorios de la falla cardiaca, ¿cuál(es) es(son) correcto(s)?",
+      "opciones": [
+        {"letra": "A", "texto": "Hipertrofia ventricular"},
+        {"letra": "B", "texto": "Vasoconstricción periférica"},
+        {"letra": "C", "texto": "Aumento del inotropismo en los miocardiocitos"},
+        {"letra": "D", "texto": "Todas las anteriores"}
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Cardiología",
+      "tema": "Insuficiencia cardiaca: mecanismos compensatorios",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿En qué consiste el proceso de opsonización?",
+      "opciones": [
+        {"letra": "A", "texto": "Recubrimiento de patógenos por anticuerpos (IgG) o complemento (C3b) que facilita su fagocitosis"},
+        {"letra": "B", "texto": "Destrucción directa de patógenos mediante el complejo de ataque a la membrana"},
+        {"letra": "C", "texto": "Presentación de antígenos por las moléculas del MHC clase II"},
+        {"letra": "D", "texto": "Liberación de histamina por los mastocitos"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Inmunología",
+      "tema": "Opsonización",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es un efecto secundario de los antidepresivos atípicos (mirtazapina, bupropión, trazodona)?",
+      "opciones": [
+        {"letra": "A", "texto": "Priapismo (con trazodona)"},
+        {"letra": "B", "texto": "Síndrome extrapiramidal agudo"},
+        {"letra": "C", "texto": "Crisis hipertensiva maligna"},
+        {"letra": "D", "texto": "Agranulocitosis irreversible"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Psiquiatría",
+      "tema": "Antidepresivos atípicos: efectos adversos",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es una ventaja de los estudios de cohorte?",
+      "opciones": [
+        {"letra": "A", "texto": "Permiten calcular incidencia, riesgo relativo y establecer temporalidad causa-efecto"},
+        {"letra": "B", "texto": "Son el diseño ideal para el estudio de enfermedades raras"},
+        {"letra": "C", "texto": "Son más económicos y rápidos que los demás diseños"},
+        {"letra": "D", "texto": "Establecen causalidad definitiva por sí solos"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Estudios de cohorte",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Mujer de 79 años, testigo de Jehová, que requiere una transfusión urgente. La familia es católica y desea que el médico la salve. ¿Cuál es la conducta correcta?",
+      "opciones": [
+        {"letra": "A", "texto": "Respetar su autonomía y ofrecer cuidados paliativos"},
+        {"letra": "B", "texto": "Salvarla transfundiéndola"},
+        {"letra": "C", "texto": "Argumentar que tiene delirium por hipoxia y dar la potestad de decisión al hijo"},
+        {"letra": "D", "texto": "Solicitar una orden judicial para transfundir en contra de su voluntad"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Medicina de Urgencias",
+      "tema": "Bioética: autonomía y rechazo de transfusión",
+      "dificultad": "media",
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuáles son las células efectoras en la infección contra Mycobacterium leprae?",
+      "opciones": [
+        {"letra": "A", "texto": "Linfocitos T CD4+ (Th1) y macrófagos"},
+        {"letra": "B", "texto": "Linfocitos B y células plasmáticas"},
+        {"letra": "C", "texto": "Neutrófilos y eosinófilos"},
+        {"letra": "D", "texto": "Células NK y basófilos"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Infectología",
+      "tema": "Lepra: respuesta inmune celular",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Qué células producen la IgE?",
+      "opciones": [
+        {"letra": "A", "texto": "Linfocitos B (plasmocitos)"},
+        {"letra": "B", "texto": "Linfocitos T"},
+        {"letra": "C", "texto": "Eosinófilos"},
+        {"letra": "D", "texto": "Mastocitos"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Inmunología",
+      "tema": "Inmunoglobulina E",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente con problemas de cicatrización en quien se diagnostica escorbuto (déficit de vitamina C). ¿Qué explica su cuadro clínico?",
+      "opciones": [
+        {"letra": "A", "texto": "Defecto en la síntesis de colágeno por alteración de la hidroxilación de prolina y lisina"},
+        {"letra": "B", "texto": "Déficit en la síntesis del grupo hemo"},
+        {"letra": "C", "texto": "Alteración de la coagulación por déficit de vitamina K"},
+        {"letra": "D", "texto": "Defecto en la mineralización ósea por déficit de vitamina D"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Bioquímica",
+      "tema": "Escorbuto: síntesis de colágeno",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es la definición de bronquiolitis?",
+      "opciones": [
+        {"letra": "A", "texto": "Infección viral aguda de la vía aérea inferior en menores de 2 años, causada principalmente por VRS"},
+        {"letra": "B", "texto": "Inflamación crónica de los bronquios secundaria al tabaquismo"},
+        {"letra": "C", "texto": "Infección bacteriana del parénquima pulmonar"},
+        {"letra": "D", "texto": "Obstrucción reversible de la vía aérea de origen alérgico"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Pediatría",
+      "tema": "Bronquiolitis",
+      "dificultad": "baja",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Señora que va a alquilar su vientre a una familia en Cali. ¿Cuál es el principal problema ético?",
+      "opciones": [
+        {"letra": "A", "texto": "El riesgo de explotación por necesidad económica, que compromete su autonomía y dignidad"},
+        {"letra": "B", "texto": "La imposibilidad legal absoluta de la gestación subrogada"},
+        {"letra": "C", "texto": "La ausencia total de dilemas bioéticos en la maternidad subrogada"},
+        {"letra": "D", "texto": "Que la pareja contratante actúa con maleficencia hacia el feto"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Bioética: maternidad subrogada",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuáles son las características del síndrome de lisis tumoral?",
+      "opciones": [
+        {"letra": "A", "texto": "Hiperpotasemia, hiperfosfatemia, hipocalcemia e hiperuricemia con insuficiencia renal aguda"},
+        {"letra": "B", "texto": "Hipopotasemia, hipofosfatemia e hipercalcemia"},
+        {"letra": "C", "texto": "Hipernatremia e hipocloremia"},
+        {"letra": "D", "texto": "Hipoglucemia y alcalosis metabólica"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Oncología",
+      "tema": "Síndrome de lisis tumoral",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es la principal alteración de líquidos y electrolitos en un paciente con shock séptico?",
+      "opciones": [
+        {"letra": "A", "texto": "Acidosis metabólica con anión gap elevado (lactato) e hiponatremia dilucional"},
+        {"letra": "B", "texto": "Alcalosis metabólica con hipernatremia"},
+        {"letra": "C", "texto": "Alcalosis respiratoria compensada con hipercalcemia"},
+        {"letra": "D", "texto": "Acidosis metabólica con anión gap normal e hiperkalemia aislada"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Medicina de Urgencias",
+      "tema": "Alteraciones hidroelectrolíticas en shock séptico",
+      "dificultad": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente de 112 kg con IMC de 43 que requiere anticoagulación. ¿Cuál es la mejor opción de dosificación de heparina?",
+      "opciones": [
+        {"letra": "A", "texto": "40 mg subcutáneos al día"},
+        {"letra": "B", "texto": "112 mg cada 12 horas"},
+        {"letra": "C", "texto": "90 mg cada 12 horas"},
+        {"letra": "D", "texto": "Por el IMC, infusión de heparina no fraccionada ajustada a peso"}
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Hematología",
+      "tema": "Anticoagulación en el paciente obeso",
+      "dificultad": "alta",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es un síntoma negativo de la esquizofrenia?",
+      "opciones": [
+        {"letra": "A", "texto": "Abulia"},
+        {"letra": "B", "texto": "Alucinaciones auditivas"},
+        {"letra": "C", "texto": "Delirios persecutorios"},
+        {"letra": "D", "texto": "Conducta desorganizada"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Psiquiatría",
+      "tema": "Esquizofrenia: síntomas negativos",
+      "dificultad": "baja",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es la definición de distimia?",
+      "opciones": [
+        {"letra": "A", "texto": "Trastorno depresivo crónico de más de 2 años, con síntomas persistentes más leves que la depresión mayor"},
+        {"letra": "B", "texto": "Episodio depresivo mayor de menos de 2 semanas de duración"},
+        {"letra": "C", "texto": "Alternancia de episodios maníacos y depresivos"},
+        {"letra": "D", "texto": "Depresión estacional que remite en verano"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Psiquiatría",
+      "tema": "Distimia",
+      "dificultad": "baja",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    }
+  ]
+}

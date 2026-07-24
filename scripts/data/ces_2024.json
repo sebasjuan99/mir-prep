@@ -1,0 +1,888 @@
+{
+  "examen": "CES",
+  "anio": 2024,
+  "fuente": "Reconstrucción CES 2024 - 2",
+  "preguntas": [
+    {
+      "enunciado": "¿Cuál es el músculo del manguito rotador que, al afectarse, limita la abducción del brazo en los primeros grados?",
+      "opciones": [
+        {"letra": "A", "texto": "Supraespinoso"},
+        {"letra": "B", "texto": "Infraespinoso"},
+        {"letra": "C", "texto": "Redondo menor"},
+        {"letra": "D", "texto": "Subescapular"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anatomía",
+      "tema": "Manguito rotador",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Recién nacido con pulmón hipoplásico y asas intestinales en el tórax. ¿Qué estructura embriológica está afectada?",
+      "opciones": [
+        {"letra": "A", "texto": "Pliegue pleuroperitoneal"},
+        {"letra": "B", "texto": "Septo transverso"},
+        {"letra": "C", "texto": "Membrana pleuropericárdica"},
+        {"letra": "D", "texto": "Mesenterio dorsal del esófago"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anatomía",
+      "tema": "Desarrollo del diafragma y hernia diafragmática congénita",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuáles son los componentes de la tríada portal hepática?",
+      "opciones": [
+        {"letra": "A", "texto": "Arteriola hepática, vénula hepática y conductillo biliar"},
+        {"letra": "B", "texto": "Vena cava, aorta y colédoco"},
+        {"letra": "C", "texto": "Arteria esplénica, vena porta y conducto pancreático"},
+        {"letra": "D", "texto": "Vena hepática, arteria gástrica y conducto cístico"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anatomía",
+      "tema": "Tríada portal hepática",
+      "dificultad": "baja",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Sobre el esqueleto fibroso (citoesqueleto) del corazón, ¿cuál de las siguientes afirmaciones NO es cierta?",
+      "opciones": [
+        {"letra": "A", "texto": "Está en contacto con todas las válvulas"},
+        {"letra": "B", "texto": "Sirve para modificar/aislar la conducción eléctrica entre aurículas y ventrículos"},
+        {"letra": "C", "texto": "Se modifica con la contracción ventricular"},
+        {"letra": "D", "texto": "Está compuesto por tejido conectivo fibroso denso"}
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Cardiología",
+      "tema": "Esqueleto fibroso cardíaco",
+      "dificultad": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál de los siguientes fármacos NO estimula la liberación de insulina?",
+      "opciones": [
+        {"letra": "A", "texto": "Pioglitazona"},
+        {"letra": "B", "texto": "Glibenclamida"},
+        {"letra": "C", "texto": "Gliclazida"},
+        {"letra": "D", "texto": "Repaglinida"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Farmacología",
+      "tema": "Antidiabéticos orales",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "En la enfermedad de Gaucher, ¿qué sustrato se acumula?",
+      "opciones": [
+        {"letra": "A", "texto": "Glucocerebrósidos"},
+        {"letra": "B", "texto": "Esfingomielina"},
+        {"letra": "C", "texto": "Gangliósido GM2"},
+        {"letra": "D", "texto": "Sulfátidos"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Bioquímica",
+      "tema": "Enfermedades por depósito lisosomal",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente con alteración de la visión periférica bilateral. ¿Qué área de la corteza está comprometida?",
+      "opciones": [
+        {"letra": "A", "texto": "Corteza occipital bilateral"},
+        {"letra": "B", "texto": "Corteza occipital unilateral"},
+        {"letra": "C", "texto": "Corteza parietal"},
+        {"letra": "D", "texto": "Corteza temporal"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neurología",
+      "tema": "Vías y corteza visual",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Qué tipo de unión conecta las células epiteliales basales de la epidermis a la membrana basal?",
+      "opciones": [
+        {"letra": "A", "texto": "Hemidesmosomas"},
+        {"letra": "B", "texto": "Desmosomas"},
+        {"letra": "C", "texto": "Uniones estrechas (zonula occludens)"},
+        {"letra": "D", "texto": "Uniones comunicantes (gap)"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Uniones celulares en la epidermis",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "En el síndrome de Zellweger, ¿qué organelo está afectado?",
+      "opciones": [
+        {"letra": "A", "texto": "Peroxisomas"},
+        {"letra": "B", "texto": "Lisosomas"},
+        {"letra": "C", "texto": "Mitocondrias"},
+        {"letra": "D", "texto": "Retículo endoplásmico"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Genética",
+      "tema": "Síndrome de Zellweger",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente con tumor de la pared del estómago y reporte histopatológico positivo para CD117 (c-KIT). ¿Cuál es el diagnóstico?",
+      "opciones": [
+        {"letra": "A", "texto": "Tumor del estroma gastrointestinal (GIST)"},
+        {"letra": "B", "texto": "Adenocarcinoma gástrico"},
+        {"letra": "C", "texto": "Linfoma MALT"},
+        {"letra": "D", "texto": "Leiomioma"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Oncología",
+      "tema": "Tumor del estroma gastrointestinal (GIST)",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Compromiso sensitivo del cuero cabelludo y la frente. ¿Qué rama está alterada?",
+      "opciones": [
+        {"letra": "A", "texto": "Rama oftálmica (V1)"},
+        {"letra": "B", "texto": "Rama maxilar (V2)"},
+        {"letra": "C", "texto": "Rama mandibular (V3)"},
+        {"letra": "D", "texto": "Ramo cervical"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anatomía",
+      "tema": "Inervación sensitiva de la cabeza (nervio trigémino)",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente con parálisis de Bell y sospecha de lesión del VII par craneal. ¿Qué otra alteración presentaría?",
+      "opciones": [
+        {"letra": "A", "texto": "Alteración de la salivación"},
+        {"letra": "B", "texto": "Pérdida del gusto en los 2/3 posteriores de la lengua"},
+        {"letra": "C", "texto": "Alteración de la deglución"},
+        {"letra": "D", "texto": "Parálisis de los músculos de la masticación"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neurología",
+      "tema": "Nervio facial (VII par)",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente con sospecha de lesión del XI par craneal. ¿Qué músculos estarían afectados?",
+      "opciones": [
+        {"letra": "A", "texto": "Esternocleidomastoideo y trapecio"},
+        {"letra": "B", "texto": "Masetero y temporal"},
+        {"letra": "C", "texto": "Digástrico y milohioideo"},
+        {"letra": "D", "texto": "Platisma y buccinador"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anatomía",
+      "tema": "Nervio accesorio (XI par)",
+      "dificultad": "baja",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Qué alteración se produce cuando se afecta la mitosis (proliferación) de los condrocitos del cartílago de crecimiento?",
+      "opciones": [
+        {"letra": "A", "texto": "Acondroplasia"},
+        {"letra": "B", "texto": "Condromalacia"},
+        {"letra": "C", "texto": "Osteocondroma"},
+        {"letra": "D", "texto": "Condrometaplasia"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Traumatología y Ortopedia",
+      "tema": "Trastornos del cartílago de crecimiento",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es el órgano más frecuentemente lesionado en el trauma abdominal por arma de fuego?",
+      "opciones": [
+        {"letra": "A", "texto": "Intestino delgado"},
+        {"letra": "B", "texto": "Intestino grueso"},
+        {"letra": "C", "texto": "Hígado"},
+        {"letra": "D", "texto": "Páncreas"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cirugía General",
+      "tema": "Trauma abdominal penetrante",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Respecto al manejo de la ruptura prematura de membranas (RPM) en el embarazo, elija la afirmación FALSA.",
+      "opciones": [
+        {"letra": "A", "texto": "Entre las semanas 24-30 se realiza manejo expectante"},
+        {"letra": "B", "texto": "En gestaciones mayores de 36 semanas se administra antibiótico durante 5 días"},
+        {"letra": "C", "texto": "Uso de esteroides más antibiótico en gestaciones pretérmino"},
+        {"letra": "D", "texto": "Antes de las 34 semanas se prefiere manejo expectante con corticoides"}
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Ruptura prematura de membranas",
+      "dificultad": "alta",
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "baja",
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Qué escalas se emplean para evaluar la sensación de disnea en el paciente?",
+      "opciones": [
+        {"letra": "A", "texto": "NYHA"},
+        {"letra": "B", "texto": "mMRC"},
+        {"letra": "C", "texto": "A y B son correctas"},
+        {"letra": "D", "texto": "Ninguna de las anteriores"}
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Neumología",
+      "tema": "Escalas de disnea",
+      "dificultad": "baja",
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es la duración recomendada del DIU Kyleena (levonorgestrel 19,5 mg)?",
+      "opciones": [
+        {"letra": "A", "texto": "5 años"},
+        {"letra": "B", "texto": "3 años"},
+        {"letra": "C", "texto": "6 años"},
+        {"letra": "D", "texto": "8 años"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Anticoncepción con DIU",
+      "dificultad": "baja",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es el manejo de elección para un mioma uterino FIGO tipo 0?",
+      "opciones": [
+        {"letra": "A", "texto": "Miomectomía por histeroscopia"},
+        {"letra": "B", "texto": "Miomectomía abdominal"},
+        {"letra": "C", "texto": "Histerectomía"},
+        {"letra": "D", "texto": "Embolización de arterias uterinas"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Manejo de la miomatosis uterina",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es la primera línea de tratamiento del síndrome de ovario poliquístico?",
+      "opciones": [
+        {"letra": "A", "texto": "Cambios en el estilo de vida (dieta y ejercicio)"},
+        {"letra": "B", "texto": "Metformina"},
+        {"letra": "C", "texto": "Anticonceptivos orales combinados"},
+        {"letra": "D", "texto": "Citrato de clomifeno"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Síndrome de ovario poliquístico",
+      "dificultad": "baja",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Signo ecográfico caracterizado por hipocinesia o acinesia de los segmentos basales y medios de la pared libre del ventrículo derecho con preservación relativa de la región apical. ¿Cuál es?",
+      "opciones": [
+        {"letra": "A", "texto": "Signo de McConnell"},
+        {"letra": "B", "texto": "Signo de la D"},
+        {"letra": "C", "texto": "Signo 60/60"},
+        {"letra": "D", "texto": "Signo de Kussmaul"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cardiología",
+      "tema": "Ecocardiografía en tromboembolismo pulmonar",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Con respecto a la vacuna contra el dengue (Qdenga), escoja la opción correcta.",
+      "opciones": [
+        {"letra": "A", "texto": "Es una vacuna tetravalente de virus vivos atenuados"},
+        {"letra": "B", "texto": "Es una vacuna monovalente inactivada"},
+        {"letra": "C", "texto": "Es una vacuna de ARN mensajero"},
+        {"letra": "D", "texto": "Es una vacuna de subunidades proteicas"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Infectología",
+      "tema": "Vacuna contra el dengue (Qdenga)",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Todas las siguientes afirmaciones sobre el prolactinoma son ciertas, EXCEPTO:",
+      "opciones": [
+        {"letra": "A", "texto": "La bromocriptina se prefiere sobre la cabergolina porque tiene menos efectos adversos"},
+        {"letra": "B", "texto": "El tratamiento de elección son los agonistas dopaminérgicos"},
+        {"letra": "C", "texto": "La cabergolina es más eficaz y mejor tolerada que la bromocriptina"},
+        {"letra": "D", "texto": "Puede causar alteraciones del campo visual por compresión del quiasma óptico"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Endocrinología",
+      "tema": "Prolactinoma",
+      "dificultad": "media",
+      "_distractores_ia": true,
+      "_recuperada": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Gestante con IVU a repetición y episodios gripales durante la gestación; el producto nace con microcefalia. ¿Cuál es la causa?",
+      "opciones": [
+        {"letra": "A", "texto": "Zika"},
+        {"letra": "B", "texto": "Citomegalovirus"},
+        {"letra": "C", "texto": "Toxoplasma"},
+        {"letra": "D", "texto": "Rubéola"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Infectología",
+      "tema": "Infección congénita por Zika",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál de las siguientes afirmaciones sobre el síndrome de Lynch es correcta?",
+      "opciones": [
+        {"letra": "A", "texto": "No es autosómico recesivo, es autosómico dominante"},
+        {"letra": "B", "texto": "Avanza a cáncer más rápido que el cáncer no relacionado con el síndrome"},
+        {"letra": "C", "texto": "Presenta pólipos con predilección por el colon derecho"},
+        {"letra": "D", "texto": "Se asocia a mutaciones en genes reparadores del ADN (MMR)"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Oncología",
+      "tema": "Síndrome de Lynch",
+      "dificultad": "media",
+      "_distractores_ia": true,
+      "_recuperada": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuáles son los componentes del triángulo de evaluación pediátrica?",
+      "opciones": [
+        {"letra": "A", "texto": "Apariencia, trabajo respiratorio y circulación (color de la piel)"},
+        {"letra": "B", "texto": "Vía aérea, ventilación y circulación"},
+        {"letra": "C", "texto": "Frecuencia cardíaca, presión arterial y temperatura"},
+        {"letra": "D", "texto": "Consciencia, pupilas y reflejos"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Pediatría",
+      "tema": "Triángulo de evaluación pediátrica",
+      "dificultad": "baja",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Mastitis con secreción de coloración rosada. ¿Cuál es el germen implicado?",
+      "opciones": [
+        {"letra": "A", "texto": "Serratia marcescens"},
+        {"letra": "B", "texto": "Staphylococcus aureus"},
+        {"letra": "C", "texto": "Streptococcus agalactiae"},
+        {"letra": "D", "texto": "Escherichia coli"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Infectología",
+      "tema": "Mastitis por Serratia marcescens",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente con antecedente de manejo de una ITS que posteriormente presenta ictericia. ¿Cuál fue el medicamento implicado?",
+      "opciones": [
+        {"letra": "A", "texto": "Doxiciclina"},
+        {"letra": "B", "texto": "Ceftriaxona"},
+        {"letra": "C", "texto": "Metronidazol"},
+        {"letra": "D", "texto": "Ciprofloxacino"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Infectología",
+      "tema": "Hepatotoxicidad por antibióticos",
+      "dificultad": "media",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente con neumonía; en la muestra se evidencian bacilos gramnegativos cortos con tinción de Dieterle. ¿Cuál es el agente causal?",
+      "opciones": [
+        {"letra": "A", "texto": "Legionella pneumophila"},
+        {"letra": "B", "texto": "Mycoplasma pneumoniae"},
+        {"letra": "C", "texto": "Streptococcus pneumoniae"},
+        {"letra": "D", "texto": "Chlamydophila pneumoniae"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neumología",
+      "tema": "Neumonía por Legionella",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente con antecedente de tabaquismo y trauma torácico cerrado; en la TAC se evidencia un nódulo pulmonar de 7 mm. ¿Cuál es la conducta?",
+      "opciones": [
+        {"letra": "A", "texto": "TAC de control en 6 meses"},
+        {"letra": "B", "texto": "Biopsia inmediata"},
+        {"letra": "C", "texto": "PET-CT"},
+        {"letra": "D", "texto": "Resección quirúrgica"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neumología",
+      "tema": "Nódulo pulmonar solitario",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Mujer con antecedente familiar de cáncer de pulmón y nódulo pulmonar de 1 cm. ¿Cuál es la conducta?",
+      "opciones": [
+        {"letra": "A", "texto": "Hacer un PET-CT"},
+        {"letra": "B", "texto": "Repetir TC en 1 mes"},
+        {"letra": "C", "texto": "Hacer biopsia por radiología"},
+        {"letra": "D", "texto": "TAC de control en 12 meses"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neumología",
+      "tema": "Nódulo pulmonar solitario",
+      "dificultad": "media",
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Todas las siguientes son indicaciones de terapia hormonal en la menopausia según la FDA, EXCEPTO:",
+      "opciones": [
+        {"letra": "A", "texto": "Prevención del Alzheimer"},
+        {"letra": "B", "texto": "Síntomas vasomotores"},
+        {"letra": "C", "texto": "Atrofia vulvovaginal"},
+        {"letra": "D", "texto": "Prevención de la osteoporosis"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Terapia hormonal en la menopausia",
+      "dificultad": "media",
+      "_distractores_ia": true,
+      "_recuperada": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Niño con dolor articular y hemartrosis de rodilla. ¿Cuál sería el diagnóstico?",
+      "opciones": [
+        {"letra": "A", "texto": "Enfermedad de Von Willebrand"},
+        {"letra": "B", "texto": "Hemofilia A"},
+        {"letra": "C", "texto": "Púrpura trombocitopénica idiopática"},
+        {"letra": "D", "texto": "Artritis idiopática juvenil"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Hematología",
+      "tema": "Trastornos de la coagulación",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente con enfermedad renal crónica estadio IV y anemia. ¿Cuál es la causa?",
+      "opciones": [
+        {"letra": "A", "texto": "Deficiencia de eritropoyetina"},
+        {"letra": "B", "texto": "Deficiencia de hierro"},
+        {"letra": "C", "texto": "Deficiencia de vitamina B12"},
+        {"letra": "D", "texto": "Hemólisis"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Nefrología",
+      "tema": "Anemia en la enfermedad renal crónica",
+      "dificultad": "baja",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es un criterio bioquímico diagnóstico de pancreatitis aguda?",
+      "opciones": [
+        {"letra": "A", "texto": "Amilasa y lipasa 3 veces por encima del valor normal"},
+        {"letra": "B", "texto": "Elevación de transaminasas"},
+        {"letra": "C", "texto": "Leucocitosis mayor de 15.000"},
+        {"letra": "D", "texto": "Proteína C reactiva elevada"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Gastroenterología",
+      "tema": "Diagnóstico de pancreatitis aguda",
+      "dificultad": "baja",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente con fiebre, ictericia y dolor abdominal en hipocondrio derecho. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        {"letra": "A", "texto": "Colangitis ascendente"},
+        {"letra": "B", "texto": "Colecistitis aguda"},
+        {"letra": "C", "texto": "Coledocolitiasis"},
+        {"letra": "D", "texto": "Hepatitis aguda"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Gastroenterología",
+      "tema": "Colangitis aguda (tríada de Charcot)",
+      "dificultad": "baja",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿En cuál de las siguientes situaciones NO está indicado el manejo con sonda nasogástrica y líquidos endovenosos?",
+      "opciones": [
+        {"letra": "A", "texto": "Pancreatitis"},
+        {"letra": "B", "texto": "Obstrucción en asa cerrada"},
+        {"letra": "C", "texto": "Obstrucción por bridas"},
+        {"letra": "D", "texto": "Íleo paralítico"}
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Cirugía General",
+      "tema": "Manejo de la obstrucción intestinal",
+      "dificultad": "media",
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Niño de 16 meses con 6 días de fiebre sin foco al examen físico. ¿Cuál sería la primera sospecha?",
+      "opciones": [
+        {"letra": "A", "texto": "Infección de vías urinarias"},
+        {"letra": "B", "texto": "Enfermedad de Kawasaki"},
+        {"letra": "C", "texto": "Otitis media"},
+        {"letra": "D", "texto": "Neumonía"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Pediatría",
+      "tema": "Fiebre sin foco en el lactante",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente con depresión y cardiopatía que ingresa por intoxicación (50 tabletas) con bloqueo AV y posterior taquicardia ventricular. ¿Cuál es el medicamento causante?",
+      "opciones": [
+        {"letra": "A", "texto": "Digoxina"},
+        {"letra": "B", "texto": "Amiodarona"},
+        {"letra": "C", "texto": "Metoprolol"},
+        {"letra": "D", "texto": "Verapamilo"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Farmacología",
+      "tema": "Intoxicación digitálica",
+      "dificultad": "media",
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Caso de ACV con compromiso motor (parálisis espástica de hemicuerpo derecho) y afasia (no acata órdenes). ¿Qué arteria/área está comprometida?",
+      "opciones": [
+        {"letra": "A", "texto": "Arteria cerebral media (segmento M4)"},
+        {"letra": "B", "texto": "Arteria cerebral anterior"},
+        {"letra": "C", "texto": "Arteria cerebral posterior"},
+        {"letra": "D", "texto": "Arterias lenticuloestriadas"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neurología",
+      "tema": "Enfermedad cerebrovascular (territorio de la ACM)",
+      "dificultad": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál de las siguientes afirmaciones sobre la diabetes gestacional es FALSA?",
+      "opciones": [
+        {"letra": "A", "texto": "Se diagnostica con una carga de 75 g de carbohidratos"},
+        {"letra": "B", "texto": "El tamizaje se realiza entre las semanas 24-28"},
+        {"letra": "C", "texto": "Aumenta el riesgo de macrosomía fetal"},
+        {"letra": "D", "texto": "Puede requerir manejo con insulina"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Diabetes gestacional",
+      "dificultad": "media",
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente con cáncer de cuello uterino y TVP que recibió apixabán 5 mg cada 12 horas durante 6 meses. ¿Cuál es la conducta?",
+      "opciones": [
+        {"letra": "A", "texto": "Reducir dosis"},
+        {"letra": "B", "texto": "Cambiar a dabigatrán"},
+        {"letra": "C", "texto": "Suspender"},
+        {"letra": "D", "texto": "Filtro de vena cava"},
+        {"letra": "E", "texto": "Continuar igual"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Oncología",
+      "tema": "Anticoagulación en tromboembolismo asociado a cáncer",
+      "dificultad": "alta",
+      "_resuelta_por_ia": true,
+      "_confianza": "baja",
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es la primera causa de pancreatitis aguda en el mundo?",
+      "opciones": [
+        {"letra": "A", "texto": "Litiasis biliar"},
+        {"letra": "B", "texto": "Alcohol"},
+        {"letra": "C", "texto": "Hipertrigliceridemia"},
+        {"letra": "D", "texto": "Idiopática"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Gastroenterología",
+      "tema": "Etiología de la pancreatitis aguda",
+      "dificultad": "baja",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Con respecto a la vacuna contra la influenza 2024, ¿cuál afirmación es correcta?",
+      "opciones": [
+        {"letra": "A", "texto": "Incluye cepas H1N1, H3N2 y linaje B Victoria"},
+        {"letra": "B", "texto": "Es una vacuna trivalente sin componente B"},
+        {"letra": "C", "texto": "Solo protege contra influenza A"},
+        {"letra": "D", "texto": "Contiene exclusivamente virus vivos atenuados intranasales"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Infectología",
+      "tema": "Vacuna contra la influenza",
+      "dificultad": "media",
+      "_distractores_ia": true,
+      "_recuperada": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente pediátrico con proteinuria persistente. ¿Cuál sería la principal sospecha diagnóstica?",
+      "opciones": [
+        {"letra": "A", "texto": "Nefropatía por IgA"},
+        {"letra": "B", "texto": "Enfermedad de cambios mínimos"},
+        {"letra": "C", "texto": "Glomeruloesclerosis focal y segmentaria"},
+        {"letra": "D", "texto": "Nefritis lúpica"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Nefrología",
+      "tema": "Glomerulopatías (nefropatía por IgA)",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál de las siguientes NO es una contraindicación de la lactancia materna?",
+      "opciones": [
+        {"letra": "A", "texto": "Hepatitis B"},
+        {"letra": "B", "texto": "Infección por VIH"},
+        {"letra": "C", "texto": "Galactosemia del lactante"},
+        {"letra": "D", "texto": "Quimioterapia materna"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Pediatría",
+      "tema": "Contraindicaciones de la lactancia materna",
+      "dificultad": "media",
+      "_distractores_ia": true,
+      "_recuperada": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál de los siguientes NO presenta fase de esporozoíto en su ciclo de vida?",
+      "opciones": [
+        {"letra": "A", "texto": "Cryptococcus"},
+        {"letra": "B", "texto": "Toxoplasma"},
+        {"letra": "C", "texto": "Trypanosoma"},
+        {"letra": "D", "texto": "Plasmodium"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Infectología",
+      "tema": "Ciclos de vida de parásitos",
+      "dificultad": "media",
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál de los siguientes NO es un signo duro (indicación de cirugía urgente) en el trauma de cuello?",
+      "opciones": [
+        {"letra": "A", "texto": "Enfisema subcutáneo"},
+        {"letra": "B", "texto": "Salida de comida por la herida"},
+        {"letra": "C", "texto": "Herida soplante"},
+        {"letra": "D", "texto": "Hematoma expansivo"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cirugía General",
+      "tema": "Trauma de cuello (signos duros)",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente con malaria por P. falciparum y P. vivax que regresa al mes con aumento de los síntomas y gota gruesa positiva para P. falciparum. ¿Cuál sería el diagnóstico?",
+      "opciones": [
+        {"letra": "A", "texto": "Recrudescencia"},
+        {"letra": "B", "texto": "Recaída"},
+        {"letra": "C", "texto": "Reinfección"},
+        {"letra": "D", "texto": "Resistencia antimalárica"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Infectología",
+      "tema": "Malaria (recrudescencia)",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente con disnea súbita y dolor torácico; realizas ecocardiograma transtorácico. ¿Qué buscas?",
+      "opciones": [
+        {"letra": "A", "texto": "Hipertensión pulmonar"},
+        {"letra": "B", "texto": "FEVI reducida"},
+        {"letra": "C", "texto": "FEVI preservada"},
+        {"letra": "D", "texto": "Trombos intracavitarios"},
+        {"letra": "E", "texto": "Signos de TEP"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cardiología",
+      "tema": "Ecocardiografía en tromboembolismo pulmonar",
+      "dificultad": "media",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente diabético con fiebre y tumoración perianal con necrosis. ¿Cuál es la conducta?",
+      "opciones": [
+        {"letra": "A", "texto": "Drenaje quirúrgico"},
+        {"letra": "B", "texto": "Antibiótico y esperar evolución"},
+        {"letra": "C", "texto": "Drenaje percutáneo"},
+        {"letra": "D", "texto": "Hospitalizar y observar"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cirugía General",
+      "tema": "Gangrena de Fournier",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Recién nacido en casa sin cuidados posnatales que presenta letargia y piel moteada con equimosis. ¿Cuál es la causa?",
+      "opciones": [
+        {"letra": "A", "texto": "Deficiencia de vitamina K"},
+        {"letra": "B", "texto": "Sepsis neonatal"},
+        {"letra": "C", "texto": "Hemofilia"},
+        {"letra": "D", "texto": "Trombocitopenia neonatal aloinmune"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Pediatría",
+      "tema": "Enfermedad hemorrágica del recién nacido",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente con antecedente de cáncer y TEP extenso, con 6 meses de anticoagulación con apixabán 5 mg cada 12 horas. ¿Cuál sería la conducta?",
+      "opciones": [
+        {"letra": "A", "texto": "Continuar igual"},
+        {"letra": "B", "texto": "Disminuir apixabán a 2,5 mg cada 12 horas"},
+        {"letra": "C", "texto": "Suspender la anticoagulación"},
+        {"letra": "D", "texto": "Colocar filtro de vena cava"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Oncología",
+      "tema": "Anticoagulación en tromboembolismo asociado a cáncer",
+      "dificultad": "media",
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál de los siguientes cursa con hipogonadismo primario?",
+      "opciones": [
+        {"letra": "A", "texto": "Síndrome de Klinefelter"},
+        {"letra": "B", "texto": "Síndrome de Turner"},
+        {"letra": "C", "texto": "Síndrome de Down"},
+        {"letra": "D", "texto": "Síndrome de Kallmann"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Endocrinología",
+      "tema": "Hipogonadismo primario",
+      "dificultad": "media",
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "baja",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Adolescente (16-18 años) con hipertensión tras el ejercicio, presión elevada en miembros superiores y muy disminuida en miembros inferiores; la angiografía muestra un hallazgo en la zona costal. ¿Dónde se localiza la lesión?",
+      "opciones": [
+        {"letra": "A", "texto": "Distal al origen de la arteria subclavia izquierda (istmo aórtico)"},
+        {"letra": "B", "texto": "Cayado aórtico proximal a la subclavia izquierda"},
+        {"letra": "C", "texto": "Aorta abdominal infrarrenal"},
+        {"letra": "D", "texto": "Unión aortopulmonar"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cardiología",
+      "tema": "Coartación de la aorta",
+      "dificultad": "media",
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true
+    }
+  ]
+}

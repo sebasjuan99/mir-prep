@@ -1,0 +1,798 @@
+{
+  "examen": "LIBRECALI",
+  "anio": 2025,
+  "fuente": "Unilibre Cali 2025-1",
+  "preguntas": [
+    {
+      "enunciado": "Paciente postmenopáusica con nódulo tiroideo hipoecoico, quistes renales, densitometría con T-score <-2.6 y Z-score <-2, calcio 14 mg/dL, fósforo 2 mg/dL y PTH 96 pg/mL. ¿Cuál es la causa de la alteración del calcio?",
+      "opciones": [
+        {"letra": "A", "texto": "Hipercalcemia por hiperparatiroidismo"},
+        {"letra": "B", "texto": "Hipercalcemia por hipoparatiroidismo"},
+        {"letra": "C", "texto": "Hipercalcemia por pseudohiperparatiroidismo"},
+        {"letra": "D", "texto": "Hipercalcemia por malignidad mediada por PTHrP"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Endocrinología",
+      "tema": "Hipercalcemia por hiperparatiroidismo",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "En un paciente con falla cardíaca derecha, ¿cuál afirmación sobre el ProBNP es correcta?",
+      "opciones": [
+        {"letra": "A", "texto": "Aumenta con la edad"},
+        {"letra": "B", "texto": "Aumenta en la obesidad"},
+        {"letra": "C", "texto": "Los valores difieren según el sexo"},
+        {"letra": "D", "texto": "No se modifica con la función renal"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cardiología",
+      "tema": "Péptidos natriuréticos (ProBNP)",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es el mecanismo de la anemia ferropénica en el paciente con falla cardíaca?",
+      "opciones": [
+        {"letra": "A", "texto": "Los leucotrienos afectan la saturación de transferrina"},
+        {"letra": "B", "texto": "Aumento de la hepcidina"},
+        {"letra": "C", "texto": "Aumento de la ferroportina"},
+        {"letra": "D", "texto": "Disminución de la eritropoyetina por hemodilución"}
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Hematología",
+      "tema": "Metabolismo del hierro y hepcidina",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es el mecanismo de la elevación de transaminasas en la falla cardíaca derecha?",
+      "opciones": [
+        {"letra": "A", "texto": "Aumento de la perfusión venosa y atrofia de hepatocitos"},
+        {"letra": "B", "texto": "Aumento de la perfusión venosa y alteración de la transaminación"},
+        {"letra": "C", "texto": "Edema de los sinusoides hepáticos"},
+        {"letra": "D", "texto": "Necrosis centrolobulillar por hipoperfusión arterial"}
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Gastroenterología",
+      "tema": "Hígado de congestión",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente con síndrome de Horner, compromiso de fuerza en pierna izquierda, disfagia, disgeusia y náuseas. ¿Cuál es la causa?",
+      "opciones": [
+        {"letra": "A", "texto": "Síndrome de Wallenberg"},
+        {"letra": "B", "texto": "Neuromielitis óptica"},
+        {"letra": "C", "texto": "Esclerosis sistémica aguda"},
+        {"letra": "D", "texto": "Síndrome medular anterior"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neurología",
+      "tema": "Síndrome de Wallenberg",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "En el paciente con sospecha de síndrome de Horner, ¿qué hallazgos y mecanismo corresponden?",
+      "opciones": [
+        {"letra": "A", "texto": "Miosis, ptosis y anhidrosis por compromiso simpático"},
+        {"letra": "B", "texto": "Tinnitus, hiperhidrosis y midriasis por compromiso parasimpático"},
+        {"letra": "C", "texto": "Midriasis, exoftalmos y taquicardia por compromiso simpático"},
+        {"letra": "D", "texto": "Miosis, ptosis y anhidrosis por compromiso parasimpático"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neurología",
+      "tema": "Síndrome de Horner",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "En el paciente con síndrome bulbar lateral, la pérdida del gusto se explica por afectación de:",
+      "opciones": [
+        {"letra": "A", "texto": "Núcleo ambiguo"},
+        {"letra": "B", "texto": "Fibras descendentes del trigémino"},
+        {"letra": "C", "texto": "Lesión espinotalámica izquierda"},
+        {"letra": "D", "texto": "Núcleo del tracto solitario"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neurología",
+      "tema": "Vía gustativa y tronco encefálico",
+      "dificultad": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente masculino llevado a urgencias tras un episodio de amnesia, sin focalización neurológica, orientado, con neuroimagen normal y tóxicos negativos. ¿Qué presentó?",
+      "opciones": [
+        {"letra": "A", "texto": "Amnesia global transitoria"},
+        {"letra": "B", "texto": "Amnesia disociativa"},
+        {"letra": "C", "texto": "Amnesia por evento emocional fuerte"},
+        {"letra": "D", "texto": "Amnesia posconmocional"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neurología",
+      "tema": "Amnesia global transitoria",
+      "dificultad": "media"
+    },
+    {
+      "enunciado": "Respecto al pronóstico del paciente con amnesia global transitoria, la conclusión es:",
+      "opciones": [
+        {"letra": "A", "texto": "El paciente no volverá a presentar el evento en el futuro"},
+        {"letra": "B", "texto": "Puede presentar secuelas a largo plazo"},
+        {"letra": "C", "texto": "Requiere anticoagulación de por vida"},
+        {"letra": "D", "texto": "Evolucionará a demencia en la mayoría de los casos"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neurología",
+      "tema": "Amnesia global transitoria (pronóstico)",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente mayor de 60 años con clínica de demencia tipo Alzheimer. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        {"letra": "A", "texto": "Enfermedad de Alzheimer"},
+        {"letra": "B", "texto": "Trastorno del ánimo"},
+        {"letra": "C", "texto": "Demencia vascular"},
+        {"letra": "D", "texto": "Delirium"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neurología",
+      "tema": "Demencia tipo Alzheimer",
+      "dificultad": "baja",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Qué instrumento aplicaría para apoyar el diagnóstico de demencia tipo Alzheimer?",
+      "opciones": [
+        {"letra": "A", "texto": "Aplicar el Mini-Mental"},
+        {"letra": "B", "texto": "Aplicar la escala de Hamilton"},
+        {"letra": "C", "texto": "Aplicar el índice de Hachinski"},
+        {"letra": "D", "texto": "Aplicar la escala de Glasgow"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neurología",
+      "tema": "Evaluación cognitiva",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es el tratamiento del paciente con demencia tipo Alzheimer?",
+      "opciones": [
+        {"letra": "A", "texto": "Estimulación cognitiva e inicio de inhibidores de la colinesterasa"},
+        {"letra": "B", "texto": "Antipsicóticos de depósito"},
+        {"letra": "C", "texto": "Benzodiacepinas a dosis altas"},
+        {"letra": "D", "texto": "Levodopa"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neurología",
+      "tema": "Tratamiento de la enfermedad de Alzheimer",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente con VIH en tratamiento con tenofovir, atazanavir y emtricitabina, anticoagulada con warfarina, con neumonía por P. jirovecii e ITU; recibe trimetoprim-sulfametoxazol y meropenem. Respecto a las interacciones medicamentosas:",
+      "opciones": [
+        {"letra": "A", "texto": "El atazanavir debe administrarse con las comidas"},
+        {"letra": "B", "texto": "La prednisolona disminuye la glucosa por el tenofovir"},
+        {"letra": "C", "texto": "Aumentar la dosis de trimetoprim por su metabolismo biliar"},
+        {"letra": "D", "texto": "La warfarina no interactúa con el meropenem"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Farmacología",
+      "tema": "Interacciones de antirretrovirales",
+      "dificultad": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "En el mismo paciente con VIH, respecto al manejo, ¿qué explica el sangrado (heces negras) y la elevación del TP-INR?",
+      "opciones": [
+        {"letra": "A", "texto": "Interacción medicamentosa entre meropenem y warfarina que eleva el TP-INR"},
+        {"letra": "B", "texto": "Ajustar la dosis de metronidazol"},
+        {"letra": "C", "texto": "Sobredosis de emtricitabina"},
+        {"letra": "D", "texto": "Déficit de vitamina K por el trimetoprim"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Farmacología",
+      "tema": "Interacción meropenem-warfarina",
+      "dificultad": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente con neumonía tratado con azitromicina que empeora, desarrolla empiema y es alérgico a betalactámicos. Tratamiento inicial:",
+      "opciones": [
+        {"letra": "A", "texto": "No usar claritromicina porque no tiene acción a nivel pulmonar"},
+        {"letra": "B", "texto": "Azitromicina"},
+        {"letra": "C", "texto": "Amoxicilina por buen cubrimiento"},
+        {"letra": "D", "texto": "Ceftriaxona a dosis altas"}
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Neumología",
+      "tema": "Neumonía y antibioticoterapia",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Al empeorar el cuadro y evidenciarse empiema en el paciente con neumonía, ¿cuál es la conducta?",
+      "opciones": [
+        {"letra": "A", "texto": "Dar vancomicina"},
+        {"letra": "B", "texto": "Agregar cefalosporina de 4ª generación"},
+        {"letra": "C", "texto": "Suspender antibióticos y observar"},
+        {"letra": "D", "texto": "Iniciar antifúngicos"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neumología",
+      "tema": "Manejo del empiema",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "En una población de 5000 habitantes, 300 con HTA (60 mayores de 50 años con obesidad) y 10 con eventos isquémicos (la mitad fallecidos), ¿cuál es la interpretación del OR?",
+      "opciones": [
+        {"letra": "A", "texto": "Por cada paciente con evento isquémico hay 59.3 hipertensos"},
+        {"letra": "B", "texto": "Por cada paciente hipertenso, 1.56 sufre un evento isquémico"},
+        {"letra": "C", "texto": "El riesgo relativo es de 2.0"},
+        {"letra": "D", "texto": "No hay asociación entre HTA y evento isquémico"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Medidas de asociación (OR)",
+      "dificultad": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Para el estudio poblacional de HTA, ¿qué tipo de muestreo se debe realizar?",
+      "opciones": [
+        {"letra": "A", "texto": "Por conglomerados"},
+        {"letra": "B", "texto": "Muestreo aleatorio simple"},
+        {"letra": "C", "texto": "Por conveniencia"},
+        {"letra": "D", "texto": "Muestreo por cuotas"}
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Tipos de muestreo",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es la intervención para disminuir la prevalencia de HTA en la población estudiada?",
+      "opciones": [
+        {"letra": "A", "texto": "Modificar los estilos de vida para disminuir el 20%"},
+        {"letra": "B", "texto": "Iniciar antihipertensivos en toda la población"},
+        {"letra": "C", "texto": "Tamización con electrocardiograma anual"},
+        {"letra": "D", "texto": "Restringir la atención a los mayores de 50 años"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Prevención y promoción",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Estudio que evalúa la mortalidad por riesgo de cáncer laríngeo en dos grupos (fumadores y no fumadores). ¿Qué análisis estadístico se usa?",
+      "opciones": [
+        {"letra": "A", "texto": "ANOVA"},
+        {"letra": "B", "texto": "Chi cuadrado"},
+        {"letra": "C", "texto": "Regresión lineal"},
+        {"letra": "D", "texto": "Prueba t de Student"}
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Análisis estadístico",
+      "dificultad": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "En el estudio de cohorte de fumadores y cáncer laríngeo, ¿cuál es la medida de asociación?",
+      "opciones": [
+        {"letra": "A", "texto": "Riesgo relativo (RR)"},
+        {"letra": "B", "texto": "Odds ratio (OR)"},
+        {"letra": "C", "texto": "Razón de prevalencias"},
+        {"letra": "D", "texto": "Diferencia de medias"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Medidas de asociación (RR)",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Qué tipo de estudio es más conveniente para evaluar el riesgo de cáncer laríngeo por tabaquismo?",
+      "opciones": [
+        {"letra": "A", "texto": "Casos y controles"},
+        {"letra": "B", "texto": "Cohortes"},
+        {"letra": "C", "texto": "Ensayo clínico"},
+        {"letra": "D", "texto": "Estudio ecológico"}
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Diseños de estudio",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Brote de Salmonella typhi en un hospital con mortalidad de 3 gestantes. ¿Cuál es la intervención preventiva para la infección?",
+      "opciones": [
+        {"letra": "A", "texto": "Inmunización preconcepcional a todas"},
+        {"letra": "B", "texto": "Inmunización en el primer trimestre"},
+        {"letra": "C", "texto": "Inmunización en el segundo trimestre"},
+        {"letra": "D", "texto": "Inmunización en el tercer trimestre"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Infectología",
+      "tema": "Inmunización y fiebre tifoidea",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente con síndrome del manguito rotador, drop arm test positivo y dificultad para la abducción después de 90°. ¿Qué músculo podría estar implicado?",
+      "opciones": [
+        {"letra": "A", "texto": "Redondo menor, ubicado en la fosa infraespinosa"},
+        {"letra": "B", "texto": "Músculo subescapular, ubicado en la fosa subescapular"},
+        {"letra": "C", "texto": "Músculo supraespinoso, ubicado en la fosa infraespinosa"},
+        {"letra": "D", "texto": "Músculo infraespinoso, ubicado en la fosa supraespinosa"}
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Traumatología y Ortopedia",
+      "tema": "Manguito rotador",
+      "dificultad": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "En el paciente con patología del manguito rotador, ¿qué maniobra emplearía para valorar el supraespinoso?",
+      "opciones": [
+        {"letra": "A", "texto": "Test de Patte"},
+        {"letra": "B", "texto": "Test de Jobe"},
+        {"letra": "C", "texto": "Test de Napoleón"},
+        {"letra": "D", "texto": "Test de Gerber"}
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Traumatología y Ortopedia",
+      "tema": "Maniobras del hombro",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente masculino con supradesnivel del ST en DI, aVL y precordiales V1-V5 con patrón qRS. Los hallazgos electrocardiográficos sugieren:",
+      "opciones": [
+        {"letra": "A", "texto": "Bloqueo de rama derecha del haz de His por afectación de las ramas septales"},
+        {"letra": "B", "texto": "Bloqueo de rama derecha del haz de His por afectación de la rama del nodo sinoauricular"},
+        {"letra": "C", "texto": "Bloqueo de rama izquierda del haz de His por afectación de la circunfleja"},
+        {"letra": "D", "texto": "Hemibloqueo anterior izquierdo por afectación de la coronaria derecha"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cardiología",
+      "tema": "Electrocardiografía y bloqueos de rama",
+      "dificultad": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Qué arteria está afectada en el paciente con supradesnivel del ST en cara anteroseptal?",
+      "opciones": [
+        {"letra": "A", "texto": "Arteria descendente anterior"},
+        {"letra": "B", "texto": "Arteria circunfleja"},
+        {"letra": "C", "texto": "Arteria coronaria derecha"},
+        {"letra": "D", "texto": "Arteria marginal obtusa"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cardiología",
+      "tema": "Anatomía coronaria e infarto",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Qué cara del corazón está afectada en el paciente con supradesnivel del ST en V1-V5?",
+      "opciones": [
+        {"letra": "A", "texto": "Cara anteroseptal"},
+        {"letra": "B", "texto": "Cara inferior"},
+        {"letra": "C", "texto": "Cara lateral"},
+        {"letra": "D", "texto": "Cara posterior"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cardiología",
+      "tema": "Localización del infarto",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente con enfermedad grave que solicita eutanasia mediante carta a un médico que, por objeción moral, no puede tomar la decisión. Respecto a la actitud del primer médico:",
+      "opciones": [
+        {"letra": "A", "texto": "Debe remitirlo de forma oportuna al proceso debido"},
+        {"letra": "B", "texto": "Sus consideraciones morales importan más que la solicitud"},
+        {"letra": "C", "texto": "Puede ignorar la solicitud del paciente"},
+        {"letra": "D", "texto": "Debe denunciar al paciente ante las autoridades"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Bioética y eutanasia",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true
+    },
+    {
+      "enunciado": "En el caso de solicitud de eutanasia, ¿qué debe hacer el segundo médico?",
+      "opciones": [
+        {"letra": "A", "texto": "Llevar el caso a un comité científico para discutirlo"},
+        {"letra": "B", "texto": "Practicar la eutanasia de inmediato sin evaluación"},
+        {"letra": "C", "texto": "Negar la solicitud sin justificación"},
+        {"letra": "D", "texto": "Remitir únicamente a trabajo social"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Bioética y eutanasia",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Caso de solicitud de IVE. Respecto a los derechos del médico y de la paciente:",
+      "opciones": [
+        {"letra": "A", "texto": "Ambos son prioridad"},
+        {"letra": "B", "texto": "Es prioridad la gestante"},
+        {"letra": "C", "texto": "Es prioridad el médico en objeción de conciencia"},
+        {"letra": "D", "texto": "Ninguno tiene prioridad sobre la ley"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "IVE y bioética",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente con psoriasis (HTA, obesidad, placas grandes y signo de Auspitz positivo) que no responde a tratamiento tópico. ¿Qué manejo daría?",
+      "opciones": [
+        {"letra": "A", "texto": "Manejo con corticosteroides tópicos"},
+        {"letra": "B", "texto": "Uso de ciclosporina"},
+        {"letra": "C", "texto": "En casos moderados a graves considerar terapia biológica"},
+        {"letra": "D", "texto": "Continuar solo con emolientes"}
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Dermatología",
+      "tema": "Psoriasis y tratamiento",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true
+    },
+    {
+      "enunciado": "En el paciente con psoriasis, ¿qué le indicaría respecto a sus antecedentes?",
+      "opciones": [
+        {"letra": "A", "texto": "Control de la obesidad y del riesgo cardiovascular"},
+        {"letra": "B", "texto": "Suspender toda actividad física"},
+        {"letra": "C", "texto": "Iniciar dieta libre de gluten"},
+        {"letra": "D", "texto": "Restringir la ingesta de líquidos"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Psoriasis y comorbilidades",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Mujer de edad media con placas eritematosas en mejillas y frente, prurito, descamación y fotosensibilidad, con estudio de autoinmunidad. ¿Cuál es el tratamiento?",
+      "opciones": [
+        {"letra": "A", "texto": "Antimalárico y seguimiento por oftalmología"},
+        {"letra": "B", "texto": "Hidroxicloroquina"},
+        {"letra": "C", "texto": "Antibioticoterapia para disminuir la inflamación y prevenir infecciones"},
+        {"letra": "D", "texto": "Corticoide oral en caso de enfermedad severa"}
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Dermatología",
+      "tema": "Rosácea (tratamiento)",
+      "dificultad": "media",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Lactante con dermatitis atópica y antecedente familiar de rinitis. ¿Cuál es el manejo crónico?",
+      "opciones": [
+        {"letra": "A", "texto": "Uso de inhibidores de calcineurina tópicos"},
+        {"letra": "B", "texto": "Quitar carbohidratos y grasas saturadas"},
+        {"letra": "C", "texto": "Control de la obesidad y del síndrome metabólico"},
+        {"letra": "D", "texto": "Antibióticos sistémicos permanentes"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Dermatitis atópica",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true
+    },
+    {
+      "enunciado": "En el paciente con dermatitis atópica, ¿cuál es una medida terapéutica de base?",
+      "opciones": [
+        {"letra": "A", "texto": "Uso de emolientes"},
+        {"letra": "B", "texto": "Corticoides sistémicos de por vida"},
+        {"letra": "C", "texto": "Fototerapia en todos los casos"},
+        {"letra": "D", "texto": "Antihistamínicos tópicos"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Dermatitis atópica (tratamiento)",
+      "dificultad": "baja",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Lactante de 10 meses con pápulas y vesículas en tronco y pliegues, con prurito nocturno intenso. ¿Qué tratamiento ofrecería?",
+      "opciones": [
+        {"letra": "A", "texto": "Uso de antiparasitarios (escabicidas)"},
+        {"letra": "B", "texto": "Uso de corticoides tópicos"},
+        {"letra": "C", "texto": "Uso de antibióticos"},
+        {"letra": "D", "texto": "Uso de antimicóticos"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Escabiosis",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Si el lactante con escabiosis no mejora con el tratamiento, ¿qué se le indica primero?",
+      "opciones": [
+        {"letra": "A", "texto": "Verificar la adecuada adherencia al tratamiento actual"},
+        {"letra": "B", "texto": "Suspender todo tratamiento"},
+        {"letra": "C", "texto": "Iniciar corticoides sistémicos"},
+        {"letra": "D", "texto": "Cambiar a antibióticos orales"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Escabiosis (seguimiento)",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Además del tratamiento del lactante con escabiosis, ¿qué se debe hacer?",
+      "opciones": [
+        {"letra": "A", "texto": "Tratar a la familia aunque esté asintomática"},
+        {"letra": "B", "texto": "Limpieza de las superficies del hogar"},
+        {"letra": "C", "texto": "Aislar al paciente por 30 días"},
+        {"letra": "D", "texto": "Administrar inmunoglobulina"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Escabiosis (medidas de control)",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Mujer de edad media con placas descamativas de bordes mal definidos en frente y mejillas que empeoran con la exposición al sol. ¿Cuál es el manejo?",
+      "opciones": [
+        {"letra": "A", "texto": "Antipalúdicos"},
+        {"letra": "B", "texto": "Antimicóticos"},
+        {"letra": "C", "texto": "Antibióticos"},
+        {"letra": "D", "texto": "Corticoides tópicos de alta potencia"}
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Dermatología",
+      "tema": "Micosis superficial de la cara",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Mujer de 30 años con amenorrea secundaria de 1 año, obesidad, hirsutismo y ecografía con poliquistosis del ovario derecho (izquierdo normal). ¿Cuál es la conducta diagnóstica?",
+      "opciones": [
+        {"letra": "A", "texto": "El diagnóstico de SOP es suficiente con estos datos"},
+        {"letra": "B", "texto": "Se requieren testosterona, prolactina, glicemia y remitir a endocrinología ginecológica"},
+        {"letra": "C", "texto": "Solicitar únicamente una laparoscopia diagnóstica"},
+        {"letra": "D", "texto": "Repetir la ecografía en 6 meses sin más estudios"}
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Síndrome de ovario poliquístico",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true
+    },
+    {
+      "enunciado": "La misma paciente de 30 años nunca se ha realizado una citología. ¿Qué hacer?",
+      "opciones": [
+        {"letra": "A", "texto": "Ordenar prueba de VPH y seguimiento según resultados"},
+        {"letra": "B", "texto": "Iniciar tamización con citología solo a partir de los 35 años"},
+        {"letra": "C", "texto": "No requiere tamización por ser asintomática"},
+        {"letra": "D", "texto": "Realizar colposcopia de entrada"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Tamización de cáncer de cérvix",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Adolescente de 14,2 años con dismenorrea, sangrado abundante, relación sexual hace un mes y deseo de planificar. ¿Qué hacer?",
+      "opciones": [
+        {"letra": "A", "texto": "Prueba de embarazo, informar sobre métodos y no aplicar ninguno sin consentimiento"},
+        {"letra": "B", "texto": "Prueba de embarazo y colocar un dispositivo subdérmico"},
+        {"letra": "C", "texto": "Llenar ficha de abuso sexual, consentimiento y administrar anticonceptivos"},
+        {"letra": "D", "texto": "Remitir a psiquiatría antes de cualquier medida"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Anticoncepción en la adolescente",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Respecto a los métodos anticonceptivos y su efectividad en la adolescente, ¿cuál afirmación es correcta?",
+      "opciones": [
+        {"letra": "A", "texto": "Los hormonales prolongados disminuyen el sangrado y la anemia y son de elección por la edad"},
+        {"letra": "B", "texto": "La T de cobre no se recomienda en nulíparas por riesgo de cáncer"},
+        {"letra": "C", "texto": "Los ACO son la única opción recomendada"},
+        {"letra": "D", "texto": "Ningún método está indicado en menores de edad"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Métodos anticonceptivos",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Embarazada en tercer trimestre con crisis hipertensiva, síntomas premonitorios y ausencia de fetocardia audible. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        {"letra": "A", "texto": "Hipertensión crónica"},
+        {"letra": "B", "texto": "Hipertensión gestacional"},
+        {"letra": "C", "texto": "Preeclampsia grave"},
+        {"letra": "D", "texto": "Hipertensión de bata blanca"}
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Trastornos hipertensivos del embarazo",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true
+    },
+    {
+      "enunciado": "En la gestante con preeclampsia grave, ¿cuál es el tratamiento?",
+      "opciones": [
+        {"letra": "A", "texto": "Midazolam"},
+        {"letra": "B", "texto": "Fenitoína"},
+        {"letra": "C", "texto": "Sulfato de magnesio más nifedipino"},
+        {"letra": "D", "texto": "Furosemida en bolo"}
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Manejo de la preeclampsia grave",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Embarazada de 9 semanas, G2P1, con antecedente de preeclampsia, obesidad (IMC 35), glicemia al azar de 126 mg/dL, várices grado III y prueba treponémica positiva. ¿Cuáles son las medidas preventivas?",
+      "opciones": [
+        {"letra": "A", "texto": "ASA 150 mg desde la semana 14 hasta la 36, dieta y remisión a nutrición"},
+        {"letra": "B", "texto": "Vitamina C"},
+        {"letra": "C", "texto": "Iniciar tratamiento antidiabético de entrada"},
+        {"letra": "D", "texto": "Reposo absoluto durante todo el embarazo"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Prevención de preeclampsia",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true
+    },
+    {
+      "enunciado": "En la gestante con prueba treponémica positiva, ¿cuál es la conducta respecto a la sífilis?",
+      "opciones": [
+        {"letra": "A", "texto": "Tratar con penicilina benzatínica 2.4 millones UI y solicitar VDRL en consulta"},
+        {"letra": "B", "texto": "Solicitar prueba treponémica confirmatoria y control en 4 semanas"},
+        {"letra": "C", "texto": "Solicitar únicamente VDRL"},
+        {"letra": "D", "texto": "Iniciar doxiciclina durante el embarazo"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Sífilis gestacional",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true
+    }
+  ]
+}

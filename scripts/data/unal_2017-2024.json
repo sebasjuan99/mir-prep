@@ -1,0 +1,3735 @@
+{
+  "examen": "UNAL",
+  "nombre": "UNAL",
+  "anio": 2024,
+  "fuente": "Reconstrucciones UNAL 2017 y 2024",
+  "preguntas": [
+    {
+      "enunciado": "¿Qué examen es más específico para ACV isquémico agudo?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Tomografía simple"
+        },
+        {
+          "letra": "B",
+          "texto": "Tomografía con contraste"
+        },
+        {
+          "letra": "C",
+          "texto": "Resonancia con difusión"
+        },
+        {
+          "letra": "D",
+          "texto": "Resonancia con tractografía"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Radiología",
+      "tema": "Neuroimagen en ACV isquémico agudo",
+      "dificultad": "media",
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "¿Qué hormona no tiene subunidad alfa?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Gonadotropina coriónica"
+        },
+        {
+          "letra": "B",
+          "texto": "LH"
+        },
+        {
+          "letra": "C",
+          "texto": "FSH"
+        },
+        {
+          "letra": "D",
+          "texto": "GnRH"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Endocrinología",
+      "tema": "Estructura de hormonas glucoproteicas",
+      "dificultad": "media",
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "¿Cuál es una contraindicación de la vacuna triple viral?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Trombocitopenia o PTI"
+        },
+        {
+          "letra": "B",
+          "texto": "Leucemia linfoide aguda"
+        },
+        {
+          "letra": "C",
+          "texto": "Tuberculosis"
+        },
+        {
+          "letra": "D",
+          "texto": "Historia personal o familiar de convulsiones"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Pediatría",
+      "tema": "Contraindicaciones de vacunas de virus vivos",
+      "dificultad": "media",
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "Adulto mayor con lesión ulcerada en labio inferior con descamación, biopsia con proliferación de queratinocitos con atipia. Diagnóstico:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Carcinoma escamocelular in situ"
+        },
+        {
+          "letra": "B",
+          "texto": "Queilitis actínica"
+        },
+        {
+          "letra": "C",
+          "texto": "Dermatitis de contacto"
+        },
+        {
+          "letra": "D",
+          "texto": "Queratitis actínica"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Lesiones premalignas y malignas cutáneas",
+      "dificultad": "media",
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "Acerca de los desechos contaminantes orgánicos persistentes (COP), ¿cuál afirmación es falsa?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Daños en la salud con bajas dosis por mucho tiempo"
+        },
+        {
+          "letra": "B",
+          "texto": "Depende del pH y liposolubilidad para su degradación"
+        },
+        {
+          "letra": "C",
+          "texto": "Pueden viajar a través del aire y el agua hacia regiones muy distantes de su fuente original"
+        },
+        {
+          "letra": "D",
+          "texto": "Dependen de químicos para su degradación"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Contaminantes orgánicos persistentes",
+      "dificultad": "media",
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "Principal causa de migraña persistente en paciente sin factores de riesgo y examen físico normal:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Abuso de analgésicos"
+        },
+        {
+          "letra": "B",
+          "texto": "Depresión crónica"
+        },
+        {
+          "letra": "C",
+          "texto": "Cefalea autonómica"
+        },
+        {
+          "letra": "D",
+          "texto": "Hipoglicemia"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neurología",
+      "tema": "Cefalea por abuso de analgésicos",
+      "dificultad": "media",
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "¿Qué tipo de hemorragia causa un aneurisma cerebral?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Intraventricular"
+        },
+        {
+          "letra": "B",
+          "texto": "Intraparenquimatosa"
+        },
+        {
+          "letra": "C",
+          "texto": "Subdural"
+        },
+        {
+          "letra": "D",
+          "texto": "Subaracnoidea"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Neurología",
+      "tema": "Hemorragia subaracnoidea aneurismática",
+      "dificultad": "baja",
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "¿Cuál es el origen del sarcoma de Kaposi?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Vascular"
+        },
+        {
+          "letra": "B",
+          "texto": "Epitelial"
+        },
+        {
+          "letra": "C",
+          "texto": "Muscular"
+        },
+        {
+          "letra": "D",
+          "texto": "Neuronal"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Patología",
+      "tema": "Sarcoma de Kaposi (HHV-8)",
+      "dificultad": "media",
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "¿Cuál es una contraindicación del azul de metileno?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Deficiencia de glucosa 6 fosfato deshidrogenasa"
+        },
+        {
+          "letra": "B",
+          "texto": "Anemia megaloblástica"
+        },
+        {
+          "letra": "C",
+          "texto": "Hipertensión arterial controlada"
+        },
+        {
+          "letra": "D",
+          "texto": "Sensibilidad a protamina"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Farmacología",
+      "tema": "Contraindicaciones del azul de metileno",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "En relación al nervio laríngeo recurrente, ¿cuál afirmación es cierta?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Posterior a la arteria tiroidea superior"
+        },
+        {
+          "letra": "B",
+          "texto": "Laríngeo superior derecho"
+        },
+        {
+          "letra": "C",
+          "texto": "El laríngeo recurrente izquierdo se encuentra medial y posterior a la arteria tiroidea superior"
+        },
+        {
+          "letra": "D",
+          "texto": "El laríngeo recurrente izquierdo se encuentra inferior a la arteria tiroidea inferior"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Anatomía",
+      "tema": "Nervio laríngeo recurrente y reparos tiroideos",
+      "dificultad": "alta",
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "¿Cuál es el examen de elección en un niño con dolor ocular, proptosis, fiebre y ptosis?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "TAC de órbitas simple"
+        },
+        {
+          "letra": "B",
+          "texto": "TAC de órbitas con contraste"
+        },
+        {
+          "letra": "C",
+          "texto": "Rx de órbitas"
+        },
+        {
+          "letra": "D",
+          "texto": "Ecografía ocular"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Oftalmología",
+      "tema": "Celulitis orbitaria: diagnóstico por imagen",
+      "dificultad": "media",
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "Paciente con sintomatología física que no corresponde con patología orgánica. Diagnóstico:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Trastorno conversivo"
+        },
+        {
+          "letra": "B",
+          "texto": "Hipocondría"
+        },
+        {
+          "letra": "C",
+          "texto": "Trastorno facticio"
+        },
+        {
+          "letra": "D",
+          "texto": "Simulación"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Psiquiatría",
+      "tema": "Trastornos somatomorfos",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "Paciente con episodios maníacos y depresivos al mismo tiempo. Diagnóstico:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Bipolar tipo I"
+        },
+        {
+          "letra": "B",
+          "texto": "Bipolar tipo II"
+        },
+        {
+          "letra": "C",
+          "texto": "Ciclotimia"
+        },
+        {
+          "letra": "D",
+          "texto": "Trastorno depresivo sobreagregado a episodio psicótico"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Psiquiatría",
+      "tema": "Trastorno afectivo bipolar",
+      "dificultad": "media",
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "Niña consentida por los padres, lleva 2 semanas en el jardín, siempre llora cuando la dejan y en la noche quiere dormir en la cama de sus padres. Diagnóstico:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Ansiedad de separación"
+        },
+        {
+          "letra": "B",
+          "texto": "Estrés postraumático"
+        },
+        {
+          "letra": "C",
+          "texto": "Reacción de separación"
+        },
+        {
+          "letra": "D",
+          "texto": "Trastorno adaptativo"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Psiquiatría",
+      "tema": "Trastorno de ansiedad de separación",
+      "dificultad": "baja",
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "Señor que vivía en el sótano y decía que lo espiaban los extraterrestres. ¿Qué tipo de alteración del pensamiento presenta?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Idea delirante extraña"
+        },
+        {
+          "letra": "B",
+          "texto": "Idea sobrevalorada"
+        },
+        {
+          "letra": "C",
+          "texto": "Idea de los ovnis"
+        },
+        {
+          "letra": "D",
+          "texto": "Ilusión delirante"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Psiquiatría",
+      "tema": "Alteraciones del contenido del pensamiento",
+      "dificultad": "media",
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "Gestante de 38 semanas ingresa para analgesia obstétrica; por inadecuada monitorización presenta estado fetal insatisfactorio y se traslada a cesárea. Administran anestesia raquídea pero durante el procedimiento refiere dolor en el sitio de la incisión, por lo que deciden anestesia general. En este caso:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Dar cualquier relajante: succinilcolina 1 mg/kg o rocuronio 1-1,2 mg/kg"
+        },
+        {
+          "letra": "B",
+          "texto": "Dar solo succinilcolina"
+        },
+        {
+          "letra": "C",
+          "texto": "Usar opioide"
+        },
+        {
+          "letra": "D",
+          "texto": "No dar succinilcolina por contraindicación en embarazo"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anestesiología",
+      "tema": "Inducción de secuencia rápida en cesárea",
+      "dificultad": "alta",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "Mujer con verruga en vagina. ¿Qué tipo de VPH la causa?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "6 y 11"
+        },
+        {
+          "letra": "B",
+          "texto": "16 y 18"
+        },
+        {
+          "letra": "C",
+          "texto": "31 y 45"
+        },
+        {
+          "letra": "D",
+          "texto": "52 y 58"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Genotipos de VPH y verrugas genitales",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "Respecto al hipotiroidismo subclínico, ¿cuál afirmación es falsa?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "En jóvenes sin factores de RCV iniciar a dosis de 1.6 mcg/kg/día"
+        },
+        {
+          "letra": "B",
+          "texto": "Medir anti-TPO en pacientes con múltiples abortos"
+        },
+        {
+          "letra": "C",
+          "texto": "El hipotiroidismo subclínico cursa con TSH alta y T4 disminuida"
+        },
+        {
+          "letra": "D",
+          "texto": "Se asocia a mayor riesgo cardiovascular"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Endocrinología",
+      "tema": "Hipotiroidismo subclínico",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "¿Cuál corresponde a la inmunidad innata?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Receptores tipo Toll"
+        },
+        {
+          "letra": "B",
+          "texto": "Linfocitos T"
+        },
+        {
+          "letra": "C",
+          "texto": "Anticuerpos IgG"
+        },
+        {
+          "letra": "D",
+          "texto": "Linfocitos B de memoria"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Inmunología",
+      "tema": "Inmunidad innata vs adaptativa",
+      "dificultad": "baja",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "¿Qué célula es la principal encargada de la producción de lípidos?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Macrófagos"
+        },
+        {
+          "letra": "B",
+          "texto": "Hepatocito"
+        },
+        {
+          "letra": "C",
+          "texto": "Enterocito"
+        },
+        {
+          "letra": "D",
+          "texto": "Adipocito"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Fisiología",
+      "tema": "Metabolismo lipídico",
+      "dificultad": "media",
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "¿Cuáles son contraindicaciones de la metformina?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Dislipidemia, enfermedad hepática, insuficiencia cardíaca descompensada"
+        },
+        {
+          "letra": "B",
+          "texto": "Divertículos del colon, enfermedad hepática, insuficiencia cardíaca descompensada"
+        },
+        {
+          "letra": "C",
+          "texto": "EPOC exacerbado, enfermedad hepática, insuficiencia cardíaca descompensada y alcoholismo crónico"
+        },
+        {
+          "letra": "D",
+          "texto": "Hipertiroidismo, obesidad y diabetes tipo 2"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Farmacología",
+      "tema": "Contraindicaciones de metformina",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "Paciente con alteración en la dorsiflexión y sensibilidad del dorso del pie. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Radiculopatía L5"
+        },
+        {
+          "letra": "B",
+          "texto": "Lesión del tibial anterior"
+        },
+        {
+          "letra": "C",
+          "texto": "Ciática"
+        },
+        {
+          "letra": "D",
+          "texto": "Radiculopatía S1"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neurología",
+      "tema": "Radiculopatía L5",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "Paciente joven que tras accidente en motocicleta está en UCI; no puede abducir el brazo ni flexionar el codo, tiene hipoestesia en dedos 1-2, pero sin alteración en la flexión de los dedos. Diagnóstico:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Lesión de C7, C8, T1"
+        },
+        {
+          "letra": "B",
+          "texto": "Lesión del plexo C5, C6, C7"
+        },
+        {
+          "letra": "C",
+          "texto": "Lesión del tronco superior"
+        },
+        {
+          "letra": "D",
+          "texto": "Lesión aislada del nervio axilar"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Neurología",
+      "tema": "Lesiones del plexo braquial",
+      "dificultad": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "Paciente con intoxicación por anestésicos locales. ¿Cuál es el antídoto?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Emulsión lipídica al 20% en bolo de 1,5 ml/kg seguida de infusión a 0,25 ml/kg/min"
+        },
+        {
+          "letra": "B",
+          "texto": "Glucagón"
+        },
+        {
+          "letra": "C",
+          "texto": "Gluconato de calcio"
+        },
+        {
+          "letra": "D",
+          "texto": "Bicarbonato de sodio"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anestesiología",
+      "tema": "Toxicidad sistémica por anestésicos locales",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "¿Por qué aumenta el gasto cardíaco después de una transfusión?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Aumento del volumen de llenado diastólico"
+        },
+        {
+          "letra": "B",
+          "texto": "Cronotropismo"
+        },
+        {
+          "letra": "C",
+          "texto": "Disminución de la resistencia del retorno venoso"
+        },
+        {
+          "letra": "D",
+          "texto": "Aumento de la poscarga"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Fisiología",
+      "tema": "Determinantes del gasto cardíaco",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "Respecto al shock cardiogénico, ¿cuál afirmación es falsa?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Taponamiento cardíaco"
+        },
+        {
+          "letra": "B",
+          "texto": "Hemorragia masiva"
+        },
+        {
+          "letra": "C",
+          "texto": "IAM"
+        },
+        {
+          "letra": "D",
+          "texto": "Ruptura ventricular"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Cardiología",
+      "tema": "Clasificación de los tipos de shock",
+      "dificultad": "media",
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "¿Qué defecto campimétrico produce una lesión del quiasma óptico?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Ceguera"
+        },
+        {
+          "letra": "B",
+          "texto": "Hemianopsia derecha"
+        },
+        {
+          "letra": "C",
+          "texto": "Hemianopsia izquierda"
+        },
+        {
+          "letra": "D",
+          "texto": "Hemianopsia homónima bitemporal"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Oftalmología",
+      "tema": "Vías visuales y defectos campimétricos",
+      "dificultad": "media",
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "En apendicitis, ¿cuál afirmación es falsa?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "La necrosis transmural de la pared es gangrenosa"
+        },
+        {
+          "letra": "B",
+          "texto": "El 70% de la obstrucción es por tumor carcinoide y litiasis biliar"
+        },
+        {
+          "letra": "C",
+          "texto": "Hay leucocitosis y neutrofilia"
+        },
+        {
+          "letra": "D",
+          "texto": "Puede haber peritonitis"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Cirugía General",
+      "tema": "Fisiopatología de la apendicitis aguda",
+      "dificultad": "media",
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "Respecto al fibroadenoma, ¿cuál afirmación es falsa?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Hasta 50% pueden malignizarse"
+        },
+        {
+          "letra": "B",
+          "texto": "Son más frecuentes en mujeres jóvenes"
+        },
+        {
+          "letra": "C",
+          "texto": "Están formados por tejido fibroso"
+        },
+        {
+          "letra": "D",
+          "texto": "Suelen ser móviles a la palpación"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cirugía General",
+      "tema": "Patología mamaria benigna",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "Paciente con vólvulo del sigmoides complicado. ¿Qué arteria irriga este segmento colónico?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Mesentérica inferior"
+        },
+        {
+          "letra": "B",
+          "texto": "Mesentérica superior"
+        },
+        {
+          "letra": "C",
+          "texto": "Ilíaca común"
+        },
+        {
+          "letra": "D",
+          "texto": "Ilíaca interna"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cirugía General",
+      "tema": "Irrigación del colon sigmoides",
+      "dificultad": "media",
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "En una episiotomía medio-lateral, ¿qué músculo no se afecta?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Transverso superficial del periné"
+        },
+        {
+          "letra": "B",
+          "texto": "Isquiocavernoso"
+        },
+        {
+          "letra": "C",
+          "texto": "Músculo transverso profundo del periné"
+        },
+        {
+          "letra": "D",
+          "texto": "Bulboesponjoso"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Anatomía perineal y episiotomía",
+      "dificultad": "media",
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "Paciente de 13 años llevada por su madre a consulta por sospecha de relaciones sexuales. Conducta:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Consejo y educación"
+        },
+        {
+          "letra": "B",
+          "texto": "Remisión a psicología"
+        },
+        {
+          "letra": "C",
+          "texto": "Remisión a ginecoobstetra"
+        },
+        {
+          "letra": "D",
+          "texto": "Denuncia por presunta violación"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Pediatría",
+      "tema": "Abuso sexual en menores: notificación obligatoria",
+      "dificultad": "media",
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "Niño menor de 3 años con NAC que no tiene intolerancia a la vía oral pero requiere O2 suplementario. Antibiótico indicado:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Penicilina cristalina"
+        },
+        {
+          "letra": "B",
+          "texto": "Ampicilina 900 mg/kg/día c/4 h IV"
+        },
+        {
+          "letra": "C",
+          "texto": "Amoxicilina 90 mg/kg/día c/12 h VO"
+        },
+        {
+          "letra": "D",
+          "texto": "Amoxicilina/clavulanato VO"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Pediatría",
+      "tema": "Manejo antibiótico de la NAC pediátrica",
+      "dificultad": "alta",
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "Lactante de 16 meses con vacunas hasta los 2 meses, con fiebre y desaturación de 82%. ¿Cuál es la etiología probable de la NAC?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Streptococcus pneumoniae y Haemophilus influenzae tipo B"
+        },
+        {
+          "letra": "B",
+          "texto": "Influenza y virus sincitial respiratorio"
+        },
+        {
+          "letra": "C",
+          "texto": "Staphylococcus aureus y Klebsiella pneumoniae"
+        },
+        {
+          "letra": "D",
+          "texto": "Mycoplasma pneumoniae y Chlamydia pneumoniae"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Pediatría",
+      "tema": "Etiología de NAC en lactantes no vacunados",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "Paciente diabético con lesión en pie, productora de gas, con germen gram positivo anaerobio. ¿Qué germen es?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Clostridium perfringens"
+        },
+        {
+          "letra": "B",
+          "texto": "Nocardia"
+        },
+        {
+          "letra": "C",
+          "texto": "Bacillus anthracis"
+        },
+        {
+          "letra": "D",
+          "texto": "Bacillus cereus"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Infectología",
+      "tema": "Gangrena gaseosa por Clostridium",
+      "dificultad": "media",
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "¿En cuál de las siguientes patologías no está indicada la plasmaféresis?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Esclerosis lateral amiotrófica"
+        },
+        {
+          "letra": "B",
+          "texto": "Miastenia gravis"
+        },
+        {
+          "letra": "C",
+          "texto": "Neuromielitis óptica"
+        },
+        {
+          "letra": "D",
+          "texto": "Síndrome de Guillain-Barré"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neurología",
+      "tema": "Indicaciones de plasmaféresis",
+      "dificultad": "media",
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "¿Cuál no produce derrame pleural tipo exudado en patología pediátrica?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Infección"
+        },
+        {
+          "letra": "B",
+          "texto": "Cirrosis hepática"
+        },
+        {
+          "letra": "C",
+          "texto": "Pancreatitis"
+        },
+        {
+          "letra": "D",
+          "texto": "Enfermedad autoinmune"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Pediatría",
+      "tema": "Derrame pleural: exudado vs trasudado",
+      "dificultad": "media",
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "Niño con test de cloro en sudor positivo y mutación del cromosoma 7. Diagnóstico:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Bronquiectasias por fibrosis quística"
+        },
+        {
+          "letra": "B",
+          "texto": "Déficit de alfa-1 antitripsina"
+        },
+        {
+          "letra": "C",
+          "texto": "Fibrosis pulmonar idiopática"
+        },
+        {
+          "letra": "D",
+          "texto": "Discinesia ciliar primaria"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neumología",
+      "tema": "Fibrosis quística",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "Dolor en región inguinal izquierda con irradiación a la rodilla que aumenta al subir y bajar escaleras, de 2 semanas de evolución. Diagnóstico:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Sacroileítis"
+        },
+        {
+          "letra": "B",
+          "texto": "Radiculopatía L5"
+        },
+        {
+          "letra": "C",
+          "texto": "Osteoartrosis de cadera"
+        },
+        {
+          "letra": "D",
+          "texto": "Tendinitis del glúteo medio"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Traumatología y Ortopedia",
+      "tema": "Osteoartrosis de cadera",
+      "dificultad": "media",
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "Signos radiológicos de neumoperitoneo, excepto:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Signo del grano de café"
+        },
+        {
+          "letra": "B",
+          "texto": "Signo de doble burbuja"
+        },
+        {
+          "letra": "C",
+          "texto": "Signo de la doble pared"
+        },
+        {
+          "letra": "D",
+          "texto": "Signo de la cúpula"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Radiología",
+      "tema": "Signos radiológicos de neumoperitoneo",
+      "dificultad": "media",
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "¿Cuáles son los signos clínicos de una buena radiografía de tórax, excepto:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Inspirada"
+        },
+        {
+          "letra": "B",
+          "texto": "Penetración adecuada"
+        },
+        {
+          "letra": "C",
+          "texto": "Proyección oblicua"
+        },
+        {
+          "letra": "D",
+          "texto": "Centrada"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Radiología",
+      "tema": "Criterios de calidad de la radiografía de tórax",
+      "dificultad": "baja",
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "Niño que ingirió una moneda hace 6 horas. ¿Qué imagen inicial pedir?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Radiografía de vías digestivas altas"
+        },
+        {
+          "letra": "B",
+          "texto": "Radiografía simple de abdomen y pelvis, AP y lateral"
+        },
+        {
+          "letra": "C",
+          "texto": "Endoscopia de vías digestivas"
+        },
+        {
+          "letra": "D",
+          "texto": "Tomografía de abdomen contrastada"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Pediatría",
+      "tema": "Ingesta de cuerpo extraño radiopaco",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "Paciente de 85 años con antecedente de litiasis biliar, hiperbilirrubinemia directa, ecografía con leve dilatación de la vía biliar y signos clínicos de respuesta inflamatoria sistémica. ¿Cuál es el diagnóstico de trabajo?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Colangitis aguda"
+        },
+        {
+          "letra": "B",
+          "texto": "Obstrucción biliar"
+        },
+        {
+          "letra": "C",
+          "texto": "Abdomen agudo"
+        },
+        {
+          "letra": "D",
+          "texto": "Colecistitis aguda"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Gastroenterología",
+      "tema": "Colangitis aguda (tríada de Charcot)",
+      "dificultad": "media",
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "¿Cuál de los siguientes factores de coagulación está asociado a la vitamina K?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "II"
+        },
+        {
+          "letra": "B",
+          "texto": "VIII"
+        },
+        {
+          "letra": "C",
+          "texto": "XI"
+        },
+        {
+          "letra": "D",
+          "texto": "XII"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Hematología",
+      "tema": "Factores dependientes de vitamina K",
+      "dificultad": "baja",
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "En la enfermedad de Wilson, ¿qué sustancia se acumula?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Cobre"
+        },
+        {
+          "letra": "B",
+          "texto": "Hierro"
+        },
+        {
+          "letra": "C",
+          "texto": "Calcio"
+        },
+        {
+          "letra": "D",
+          "texto": "Zinc"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Gastroenterología",
+      "tema": "Enfermedad de Wilson",
+      "dificultad": "baja",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "¿Cuáles son las medidas primarias en accidente ofídico?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Fasciotomía"
+        },
+        {
+          "letra": "B",
+          "texto": "Demarcar la lesión y pedir exámenes"
+        },
+        {
+          "letra": "C",
+          "texto": "Dar suero anticoral"
+        },
+        {
+          "letra": "D",
+          "texto": "Dar suero antiofídico"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Medicina de Urgencias",
+      "tema": "Manejo inicial del accidente ofídico",
+      "dificultad": "media",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "Señora con sensación de parestesias en miembros superiores. Diagnóstico más probable:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Neuropatía diabética"
+        },
+        {
+          "letra": "B",
+          "texto": "Síndrome del túnel del carpo en fase inicial"
+        },
+        {
+          "letra": "C",
+          "texto": "Polineuropatía"
+        },
+        {
+          "letra": "D",
+          "texto": "Síndrome radicular cervical"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Neurología",
+      "tema": "Síndrome del túnel del carpo",
+      "dificultad": "media",
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "¿Cuáles son las referencias anatómicas para la toma del pulso radial?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Estiloides radial y extensor largo del pulgar"
+        },
+        {
+          "letra": "B",
+          "texto": "Tendón del flexor radial del carpo y tendón del braquiorradial"
+        },
+        {
+          "letra": "C",
+          "texto": "Escafoides y extensor largo del pulgar"
+        },
+        {
+          "letra": "D",
+          "texto": "Braquiorradial y flexor radial del carpo"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Anatomía",
+      "tema": "Referencias anatómicas de la arteria radial",
+      "dificultad": "media",
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "Paciente con varicocele izquierdo. Respecto al drenaje de las venas testiculares:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "La vena testicular izquierda drena hacia la vena renal izquierda en un ángulo de 90°"
+        },
+        {
+          "letra": "B",
+          "texto": "Las 2 venas drenan en la aorta"
+        },
+        {
+          "letra": "C",
+          "texto": "Es más común el derecho porque la vena testicular derecha drena a la vena renal"
+        },
+        {
+          "letra": "D",
+          "texto": "Es más común el izquierdo por congestión del plexo pampiniforme"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Urología",
+      "tema": "Drenaje venoso testicular y varicocele",
+      "dificultad": "media",
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "¿En qué caso no se deben pedir hemocultivos?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Fiebre tifoidea"
+        },
+        {
+          "letra": "B",
+          "texto": "Sepsis"
+        },
+        {
+          "letra": "C",
+          "texto": "Endocarditis"
+        },
+        {
+          "letra": "D",
+          "texto": "Shigellosis"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Infectología",
+      "tema": "Indicaciones de hemocultivos",
+      "dificultad": "media",
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "¿Cuáles son efectos adversos de los IECA?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Tos productiva, hipocalcemia"
+        },
+        {
+          "letra": "B",
+          "texto": "Tos seca, hipercalemia, disgeusia, malformaciones congénitas"
+        },
+        {
+          "letra": "C",
+          "texto": "Tos productiva e hipernatremia"
+        },
+        {
+          "letra": "D",
+          "texto": "Tos productiva e hipoglicemia"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Farmacología",
+      "tema": "Efectos adversos de los IECA",
+      "dificultad": "media",
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "¿Qué nombres reciben las lesiones del cuerpo neuronal, el axón y las células de Schwann respectivamente?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Neuronopatía, axonopatía y mielinopatía"
+        },
+        {
+          "letra": "B",
+          "texto": "Neuropatía, axonopatía, gliosis"
+        },
+        {
+          "letra": "C",
+          "texto": "Neuropatía, desmielinización, gliosis"
+        },
+        {
+          "letra": "D",
+          "texto": "Neuronopatía, daño axonal difuso, mielopatía"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neurología",
+      "tema": "Clasificación de las lesiones del nervio periférico",
+      "dificultad": "alta",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "El diapasón, ¿qué tipo de fibras evalúa?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Fibras lentas"
+        },
+        {
+          "letra": "B",
+          "texto": "Fibras rápidas"
+        },
+        {
+          "letra": "C",
+          "texto": "Fibras tipo C"
+        },
+        {
+          "letra": "D",
+          "texto": "Fibras tipo A delta"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Neurología",
+      "tema": "Exploración de la sensibilidad vibratoria",
+      "dificultad": "media",
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "Paciente con crisis hipertensiva por cocaína. ¿Cuál afirmación es falsa?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Uso de propranolol IV"
+        },
+        {
+          "letra": "B",
+          "texto": "Uso de benzodiacepinas"
+        },
+        {
+          "letra": "C",
+          "texto": "Uso de nitroglicerina"
+        },
+        {
+          "letra": "D",
+          "texto": "Uso de fentolamina"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cardiología",
+      "tema": "Manejo de la crisis hipertensiva por cocaína",
+      "dificultad": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "¿Cuál de las siguientes afirmaciones es verdadera respecto a la hipertensión arterial?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Una presión arterial de 150/100 mmHg es estadio II"
+        },
+        {
+          "letra": "B",
+          "texto": "Entre nitroprusiato y nitroglicerina en SCA es mejor el nitroprusiato"
+        },
+        {
+          "letra": "C",
+          "texto": "Se recomienda el uso de nifedipina en HTA severa"
+        },
+        {
+          "letra": "D",
+          "texto": "El uso de clonidina en HTA severa puede generar hipotensión"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cardiología",
+      "tema": "Clasificación y manejo de la HTA",
+      "dificultad": "media",
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "¿Cuál es la imagen inicial en urolitiasis?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "UroTC"
+        },
+        {
+          "letra": "B",
+          "texto": "Ecografía"
+        },
+        {
+          "letra": "C",
+          "texto": "Radiografía"
+        },
+        {
+          "letra": "D",
+          "texto": "Resonancia magnética"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Urología",
+      "tema": "Diagnóstico por imagen de la urolitiasis",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "Niña ASA I previamente sana llevada a procedimiento programado; intraoperatoriamente usan propofol, succinilcolina y fentanilo, presentando temperatura de 39°C, rigidez, hipercalcemia y acidosis. Diagnóstico:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Hipertermia maligna"
+        },
+        {
+          "letra": "B",
+          "texto": "Despertar intraoperatorio"
+        },
+        {
+          "letra": "C",
+          "texto": "Reacción alérgica"
+        },
+        {
+          "letra": "D",
+          "texto": "Sepsis intraoperatoria"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anestesiología",
+      "tema": "Hipertermia maligna",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "Imagen de elección en neonato pretérmino en quien se sospecha hidrocefalia:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Ecografía transfontanelar"
+        },
+        {
+          "letra": "B",
+          "texto": "TAC de cráneo"
+        },
+        {
+          "letra": "C",
+          "texto": "Radiografía"
+        },
+        {
+          "letra": "D",
+          "texto": "Resonancia magnética cerebral"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Pediatría",
+      "tema": "Neuroimagen en el neonato pretérmino",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "Paciente femenina que investiga con membranas de E. coli; por accidente se pincha la muñeca y en la tarde presenta eritema, dolor y fiebre de 39°C. ¿Cuál es el mecanismo por el que se produce la fiebre?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Lípido A"
+        },
+        {
+          "letra": "B",
+          "texto": "Peptidoglicano"
+        },
+        {
+          "letra": "C",
+          "texto": "Reconocimiento por receptores Toll"
+        },
+        {
+          "letra": "D",
+          "texto": "IgG que reconoce el antígeno O"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Inmunología",
+      "tema": "Reconocimiento de PAMPs y respuesta febril",
+      "dificultad": "alta",
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "¿Cuál de los siguientes tiene toxicidad sobre la tiroides?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Ftalatos"
+        },
+        {
+          "letra": "B",
+          "texto": "Bisfenol A"
+        },
+        {
+          "letra": "C",
+          "texto": "Dioxinas"
+        },
+        {
+          "letra": "D",
+          "texto": "Neonicotinoides"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Farmacología",
+      "tema": "Disruptores endocrinos y toxicidad tiroidea",
+      "dificultad": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "¿Cuál de las siguientes afirmaciones es verdadera respecto al cáncer gástrico?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "El H. pylori se relaciona con el 90% de los adenocarcinomas"
+        },
+        {
+          "letra": "B",
+          "texto": "Es la primera causa de mortalidad por cáncer en el mundo"
+        },
+        {
+          "letra": "C",
+          "texto": "La localización antral viene en aumento"
+        },
+        {
+          "letra": "D",
+          "texto": "El virus de Epstein-Barr causa el 30% de los casos"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Gastroenterología",
+      "tema": "Epidemiología del cáncer gástrico",
+      "dificultad": "alta",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "Paciente con más de 6 semanas de evolución con dolor articular en hombro y rodilla, rigidez matutina que mejora antes de 1 hora, edema y dolor en rodilla, líquido sinovial con 10.000 leucocitos a expensas de neutrófilos. ¿Qué examen pediría para confirmar el diagnóstico?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Factor reumatoide"
+        },
+        {
+          "letra": "B",
+          "texto": "Anticuerpos antinucleares"
+        },
+        {
+          "letra": "C",
+          "texto": "VSG"
+        },
+        {
+          "letra": "D",
+          "texto": "Coombs directo"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Reumatología",
+      "tema": "Diagnóstico de artritis reumatoide",
+      "dificultad": "media",
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "Niño con dientes frágiles, escleras color azulado y lesiones óseas con patrón en vidrio esmerilado en la radiografía. Diagnóstico:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Osteogénesis imperfecta"
+        },
+        {
+          "letra": "B",
+          "texto": "Raquitismo"
+        },
+        {
+          "letra": "C",
+          "texto": "Síndrome de Marfan"
+        },
+        {
+          "letra": "D",
+          "texto": "Acondroplasia"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Genética",
+      "tema": "Osteogénesis imperfecta",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "Paciente con pensamientos obsesivos y comportamientos que son compulsiones. Diagnóstico:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Trastorno obsesivo compulsivo"
+        },
+        {
+          "letra": "B",
+          "texto": "Trastorno de ansiedad generalizado"
+        },
+        {
+          "letra": "C",
+          "texto": "Trastorno de pánico"
+        },
+        {
+          "letra": "D",
+          "texto": "Trastorno delirante"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Psiquiatría",
+      "tema": "Trastorno obsesivo compulsivo",
+      "dificultad": "baja",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "Paciente con preocupación constante por estar enfermo. Diagnóstico:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Hipocondría"
+        },
+        {
+          "letra": "B",
+          "texto": "Trastorno de somatización"
+        },
+        {
+          "letra": "C",
+          "texto": "Trastorno conversivo"
+        },
+        {
+          "letra": "D",
+          "texto": "Trastorno de pánico"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Psiquiatría",
+      "tema": "Hipocondría / ansiedad por enfermedad",
+      "dificultad": "baja",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "¿Cuál es un hallazgo patognomónico en el TDAH?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Hipersomnia"
+        },
+        {
+          "letra": "B",
+          "texto": "Alteración de la atención"
+        },
+        {
+          "letra": "C",
+          "texto": "Alteración comportamental"
+        },
+        {
+          "letra": "D",
+          "texto": "Déficit intelectual"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Psiquiatría",
+      "tema": "Trastorno por déficit de atención e hiperactividad",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "Paciente que se cayó de la moto y consultó 1 semana después por eritema y limitación de movimientos. El cartílago no mejora por daño en:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Condroitín sulfato"
+        },
+        {
+          "letra": "B",
+          "texto": "La ausencia de inervación del pericondrio"
+        },
+        {
+          "letra": "C",
+          "texto": "Colágeno"
+        },
+        {
+          "letra": "D",
+          "texto": "Pericondrio"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Traumatología y Ortopedia",
+      "tema": "Fisiología de la reparación del cartílago",
+      "dificultad": "alta",
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "¿Qué se evalúa en la fase I de un estudio clínico?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "La dosis del medicamento"
+        },
+        {
+          "letra": "B",
+          "texto": "La indicación"
+        },
+        {
+          "letra": "C",
+          "texto": "La prueba en humanos"
+        },
+        {
+          "letra": "D",
+          "texto": "Las reacciones adversas"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Fases de los ensayos clínicos",
+      "dificultad": "media",
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "La biodisponibilidad es un concepto farmacocinético que se da principalmente por:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Vía de administración"
+        },
+        {
+          "letra": "B",
+          "texto": "Propiedades químicas del fármaco y vida media de eliminación"
+        },
+        {
+          "letra": "C",
+          "texto": "Volumen de distribución, velocidad de eliminación y forma farmacéutica"
+        },
+        {
+          "letra": "D",
+          "texto": "Peso corporal del paciente"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Farmacología",
+      "tema": "Biodisponibilidad y farmacocinética",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "¿Cuál de las siguientes no es causa de edema?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Obstrucción arterial"
+        },
+        {
+          "letra": "B",
+          "texto": "Hipoalbuminemia"
+        },
+        {
+          "letra": "C",
+          "texto": "Aumento de la presión hidrostática"
+        },
+        {
+          "letra": "D",
+          "texto": "Aumento de la permeabilidad vascular"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Fisiología",
+      "tema": "Fisiopatología del edema",
+      "dificultad": "media",
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "¿Cuál es una medida ambiental para prevenir la tuberculosis?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Aislamiento respiratorio del paciente"
+        },
+        {
+          "letra": "B",
+          "texto": "Uso de tapabocas N95"
+        },
+        {
+          "letra": "C",
+          "texto": "Ventilación de espacios donde exista riesgo de contagio de pacientes y personal de salud"
+        },
+        {
+          "letra": "D",
+          "texto": "Inicio inmediato del tratamiento"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Infectología",
+      "tema": "Medidas de control ambiental de la tuberculosis",
+      "dificultad": "media",
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "¿Sobre qué neurotransmisor actúan las benzodiacepinas?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "GABA"
+        },
+        {
+          "letra": "B",
+          "texto": "Glutamato"
+        },
+        {
+          "letra": "C",
+          "texto": "Acetilcolina"
+        },
+        {
+          "letra": "D",
+          "texto": "Dopamina"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Farmacología",
+      "tema": "Mecanismo de acción de las benzodiacepinas",
+      "dificultad": "baja",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "¿Cuál corresponde a un método de detección indirecta de partículas virales?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Cultivo"
+        },
+        {
+          "letra": "B",
+          "texto": "IgM específica"
+        },
+        {
+          "letra": "C",
+          "texto": "Aislamiento de ADN viral"
+        },
+        {
+          "letra": "D",
+          "texto": "Antígenos virales"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Infectología",
+      "tema": "Métodos diagnósticos en virología",
+      "dificultad": "media",
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "Respecto a la presentación antigénica, ¿cuál afirmación es falsa?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Los linfocitos T no necesitan presentación del antígeno"
+        },
+        {
+          "letra": "B",
+          "texto": "Los macrófagos fagocitan y presentan el antígeno"
+        },
+        {
+          "letra": "C",
+          "texto": "Las células dendríticas son presentadoras profesionales de antígeno"
+        },
+        {
+          "letra": "D",
+          "texto": "El MHC clase I presenta antígenos endógenos"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Inmunología",
+      "tema": "Presentación antigénica y MHC",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "Respecto a la intubación orotraqueal (IOT), ¿cuál afirmación es correcta?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Ingresar el laringoscopio por la comisura labial izquierda para retirar la lengua"
+        },
+        {
+          "letra": "B",
+          "texto": "La maniobra de BURP puede presionar la glotis y cerrarla"
+        },
+        {
+          "letra": "C",
+          "texto": "Es indispensable pisar la epiglotis"
+        },
+        {
+          "letra": "D",
+          "texto": "Flexión del cuello contra el tronco y extensión de la cabeza"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Anestesiología",
+      "tema": "Técnica de intubación orotraqueal",
+      "dificultad": "media",
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "Niño de 6 meses con macroglosia, piel seca, debilidad muscular y llanto débil. Pensar en:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Parálisis cerebral"
+        },
+        {
+          "letra": "B",
+          "texto": "Hipotiroidismo congénito"
+        },
+        {
+          "letra": "C",
+          "texto": "Síndrome de Down"
+        },
+        {
+          "letra": "D",
+          "texto": "Enfermedad de Hirschsprung"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Pediatría",
+      "tema": "Hipotiroidismo congénito",
+      "dificultad": "media",
+      "anio": 2024,
+      "fuente": "Reconstrucción UNAL 2024-1"
+    },
+    {
+      "enunciado": "Hombre de 39 años llega a urgencias con IAM confirmado por EKG y troponinas. Fallece una hora después. Le solicitan hacer el certificado de defunción; usted:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Lo hace por considerar que se trata de una muerte natural"
+        },
+        {
+          "letra": "B",
+          "texto": "Informa a medicina legal porque se requiere autopsia medicolegal"
+        },
+        {
+          "letra": "C",
+          "texto": "Remite el cuerpo a Fiscalía por muerte violenta"
+        },
+        {
+          "letra": "D",
+          "texto": "No certifica y solicita necropsia clínica hospitalaria"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Certificado de defunción",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2017,
+      "fuente": "Examen UNAL 2017"
+    },
+    {
+      "enunciado": "Niña de 7 años consulta a urgencias por presentar flujo vaginal fétido. Su diagnóstico más probable es:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Mala higiene personal"
+        },
+        {
+          "letra": "B",
+          "texto": "Manipulaciones sexuales repetidas"
+        },
+        {
+          "letra": "C",
+          "texto": "Acceso carnal abusivo"
+        },
+        {
+          "letra": "D",
+          "texto": "Contagio sexual"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Pediatría",
+      "tema": "Vulvovaginitis prepuberal",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2017,
+      "fuente": "Examen UNAL 2017"
+    },
+    {
+      "enunciado": "Niño fallece; en la autopsia se encuentran fracturas en diferentes estados de evolución y hemorragia intracraneana. Su diagnóstico es:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Maltrato infantil"
+        },
+        {
+          "letra": "B",
+          "texto": "Osteogénesis imperfecta"
+        },
+        {
+          "letra": "C",
+          "texto": "Trastorno hemorrágico congénito"
+        },
+        {
+          "letra": "D",
+          "texto": "Accidente doméstico"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Pediatría",
+      "tema": "Maltrato infantil",
+      "dificultad": "baja",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2017,
+      "fuente": "Examen UNAL 2017"
+    },
+    {
+      "enunciado": "Hombre de 68 años con EPOC y DM2 presenta fiebre. En gases arteriales: pH 7.25, pCO2 45, HCO3 12. Se considera que tiene un trastorno mixto tipo:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Acidosis metabólica con acidosis respiratoria"
+        },
+        {
+          "letra": "B",
+          "texto": "Acidosis metabólica con alcalosis respiratoria"
+        },
+        {
+          "letra": "C",
+          "texto": "Alcalosis metabólica con acidosis respiratoria"
+        },
+        {
+          "letra": "D",
+          "texto": "Acidosis respiratoria compensada"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Medicina Interna",
+      "tema": "Trastornos ácido-base",
+      "dificultad": "alta",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2017,
+      "fuente": "Examen UNAL 2017"
+    },
+    {
+      "enunciado": "La dosis letal 50 (DL50) se define como la dosis de una sustancia que causa la muerte del 50% de la población de prueba; sus unidades se expresan habitualmente en:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "mg/kg de peso corporal"
+        },
+        {
+          "letra": "B",
+          "texto": "mL por hora"
+        },
+        {
+          "letra": "C",
+          "texto": "mmol/L plasmático"
+        },
+        {
+          "letra": "D",
+          "texto": "Unidades internacionales"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Farmacología",
+      "tema": "Toxicología",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2017,
+      "fuente": "Examen UNAL 2017"
+    },
+    {
+      "enunciado": "La intoxicación por monóxido de carbono NO afecta al siguiente órgano o sistema:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Miocardio"
+        },
+        {
+          "letra": "B",
+          "texto": "Epitelio de vías respiratorias altas"
+        },
+        {
+          "letra": "C",
+          "texto": "Sistema nervioso central"
+        },
+        {
+          "letra": "D",
+          "texto": "Sistema hematopoyético"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Farmacología",
+      "tema": "Intoxicación por monóxido de carbono",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2017,
+      "fuente": "Examen UNAL 2017"
+    },
+    {
+      "enunciado": "El microorganismo más frecuentemente encontrado en infección de vías urinarias en mujeres es:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Escherichia coli"
+        },
+        {
+          "letra": "B",
+          "texto": "Staphylococcus saprophyticus"
+        },
+        {
+          "letra": "C",
+          "texto": "Klebsiella pneumoniae"
+        },
+        {
+          "letra": "D",
+          "texto": "Proteus mirabilis"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Infectología",
+      "tema": "Infección de vías urinarias",
+      "dificultad": "baja",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2017,
+      "fuente": "Examen UNAL 2017"
+    },
+    {
+      "enunciado": "Mujer en quien a la especuloscopia se evidencia flujo vaginal verdoso, fétido y abundante. El tratamiento sindrómico de primera línea es:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Metronidazol 2 g VO dosis única"
+        },
+        {
+          "letra": "B",
+          "texto": "Ceftriaxona IM dosis única + azitromicina 1 g VO dosis única"
+        },
+        {
+          "letra": "C",
+          "texto": "Penicilina benzatínica dosis única + azitromicina 1 g VO dosis única"
+        },
+        {
+          "letra": "D",
+          "texto": "Fluconazol 150 mg VO dosis única"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Síndrome de flujo vaginal",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "baja",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2017,
+      "fuente": "Examen UNAL 2017"
+    },
+    {
+      "enunciado": "En trabajo de parto se evidencia estado fetal insatisfactorio; se realiza amniotomía evidenciando meconio reciente, logrando descenso a estación +3. La conducta a seguir es:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Parto instrumentado con espátulas"
+        },
+        {
+          "letra": "B",
+          "texto": "Cesárea de urgencia"
+        },
+        {
+          "letra": "C",
+          "texto": "Aumentar dosis de oxitocina"
+        },
+        {
+          "letra": "D",
+          "texto": "Observación y monitoreo continuo"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Estado fetal insatisfactorio",
+      "dificultad": "alta",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2017,
+      "fuente": "Examen UNAL 2017"
+    },
+    {
+      "enunciado": "El bajo peso al nacer se define como un peso por debajo de:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "2500 g"
+        },
+        {
+          "letra": "B",
+          "texto": "2400 g"
+        },
+        {
+          "letra": "C",
+          "texto": "2000 g"
+        },
+        {
+          "letra": "D",
+          "texto": "1500 g"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Pediatría",
+      "tema": "Bajo peso al nacer",
+      "dificultad": "baja",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2017,
+      "fuente": "Examen UNAL 2017"
+    },
+    {
+      "enunciado": "Un niño de 7 años debe haber recibido como actividades de promoción y prevención según la normativa:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Tamizaje visual y auditivo"
+        },
+        {
+          "letra": "B",
+          "texto": "Radiografía de cadera y tamizaje visual y auditivo"
+        },
+        {
+          "letra": "C",
+          "texto": "Ecografía abdominal total y tamizaje visual y auditivo"
+        },
+        {
+          "letra": "D",
+          "texto": "Tamización de hemoglobina glicosilada"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Promoción y prevención en la infancia",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "baja",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2017,
+      "fuente": "Examen UNAL 2017"
+    },
+    {
+      "enunciado": "El FTA-ABS es una prueba utilizada en el diagnóstico de sífilis y se define como:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Prueba treponémica confirmatoria"
+        },
+        {
+          "letra": "B",
+          "texto": "Prueba no treponémica de tamizaje"
+        },
+        {
+          "letra": "C",
+          "texto": "Prueba de aglutinación inespecífica"
+        },
+        {
+          "letra": "D",
+          "texto": "Cultivo de Treponema pallidum"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Infectología",
+      "tema": "Diagnóstico de sífilis",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2017,
+      "fuente": "Examen UNAL 2017"
+    },
+    {
+      "enunciado": "Gestante de 24 semanas en control prenatal, asintomática, presenta serología reactiva 1:16 diluciones. El diagnóstico y tratamiento es:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Sífilis latente – penicilina benzatínica 2.400.000 UI semanal por 3 semanas"
+        },
+        {
+          "letra": "B",
+          "texto": "Sífilis primaria – penicilina benzatínica 2.400.000 UI dosis única"
+        },
+        {
+          "letra": "C",
+          "texto": "Sífilis secundaria – penicilina benzatínica 2.400.000 UI dosis única"
+        },
+        {
+          "letra": "D",
+          "texto": "Sífilis latente temprana – penicilina benzatínica 2.400.000 UI dosis única"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Sífilis gestacional",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2017,
+      "fuente": "Examen UNAL 2017"
+    },
+    {
+      "enunciado": "El signo radiológico más temprano de edema pulmonar cardiogénico en la radiografía de tórax es:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Cefalización del flujo pulmonar"
+        },
+        {
+          "letra": "B",
+          "texto": "Manguitos peribronquiales"
+        },
+        {
+          "letra": "C",
+          "texto": "Líneas A"
+        },
+        {
+          "letra": "D",
+          "texto": "Derrame pleural bilateral"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Radiología",
+      "tema": "Edema pulmonar",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2017,
+      "fuente": "Examen UNAL 2017"
+    },
+    {
+      "enunciado": "Niño llega a urgencias por ingestión de cuerpo extraño con sialorrea. En la radiografía se evidencia imagen redonda con halo doble compatible con pila de botón. La conducta a seguir es:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Esofagoscopia urgente para extracción"
+        },
+        {
+          "letra": "B",
+          "texto": "Manejo ambulatorio con abundantes líquidos vía oral"
+        },
+        {
+          "letra": "C",
+          "texto": "Observación y radiografía de control en 24 horas"
+        },
+        {
+          "letra": "D",
+          "texto": "Inducción del vómito"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Medicina de Urgencias",
+      "tema": "Ingestión de cuerpo extraño",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2017,
+      "fuente": "Examen UNAL 2017"
+    },
+    {
+      "enunciado": "En la radiografía de tórax, la imagen que NO presenta aumento de densidad es:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Enfisema"
+        },
+        {
+          "letra": "B",
+          "texto": "Atelectasia"
+        },
+        {
+          "letra": "C",
+          "texto": "Neumonía"
+        },
+        {
+          "letra": "D",
+          "texto": "Derrame pleural"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Radiología",
+      "tema": "Semiología radiológica",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2017,
+      "fuente": "Examen UNAL 2017"
+    },
+    {
+      "enunciado": "En una taquicardia, la adenosina está contraindicada si:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Complejo QRS ancho, paciente inestable"
+        },
+        {
+          "letra": "B",
+          "texto": "Complejo QRS ancho, paciente estable"
+        },
+        {
+          "letra": "C",
+          "texto": "Complejo QRS estrecho, paciente estable"
+        },
+        {
+          "letra": "D",
+          "texto": "Complejo QRS estrecho, paciente inestable"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cardiología",
+      "tema": "Taquiarritmias",
+      "dificultad": "alta",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2017,
+      "fuente": "Examen UNAL 2017"
+    },
+    {
+      "enunciado": "En la entrevista del paciente con depresión severa se debe:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "El entrevistador debe asumir una actitud cálida y empática"
+        },
+        {
+          "letra": "B",
+          "texto": "El entrevistador debe mantener una actitud distante y silenciosa"
+        },
+        {
+          "letra": "C",
+          "texto": "La entrevista debe ser corta"
+        },
+        {
+          "letra": "D",
+          "texto": "Se deben evitar las preguntas sobre ideación suicida"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Psiquiatría",
+      "tema": "Entrevista psiquiátrica",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2017,
+      "fuente": "Examen UNAL 2017"
+    },
+    {
+      "enunciado": "En la radiografía de tórax, el engrosamiento intersticial axial se manifiesta como:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Patrón en vidrio esmerilado"
+        },
+        {
+          "letra": "B",
+          "texto": "Consolidación alveolar"
+        },
+        {
+          "letra": "C",
+          "texto": "Hiperclaridad pulmonar"
+        },
+        {
+          "letra": "D",
+          "texto": "Broncograma aéreo"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Radiología",
+      "tema": "Patrones radiológicos intersticiales",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "baja",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2017,
+      "fuente": "Examen UNAL 2017"
+    },
+    {
+      "enunciado": "En la entrevista del paciente psicótico, el examinador debe:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Realizar preguntas cerradas y cortas"
+        },
+        {
+          "letra": "B",
+          "texto": "Realizar preguntas abiertas y extensas"
+        },
+        {
+          "letra": "C",
+          "texto": "Confrontar directamente los delirios del paciente"
+        },
+        {
+          "letra": "D",
+          "texto": "Evitar el contacto visual"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Psiquiatría",
+      "tema": "Entrevista psiquiátrica",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2017,
+      "fuente": "Examen UNAL 2017"
+    },
+    {
+      "enunciado": "Violonchelista que en los conciertos empieza a presentar gran estrés y dificultad para concentrarse, mientras que el resto de su vida es normal. El diagnóstico es:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Fobia social específica (de ejecución)"
+        },
+        {
+          "letra": "B",
+          "texto": "Agorafobia"
+        },
+        {
+          "letra": "C",
+          "texto": "Trastorno de pánico"
+        },
+        {
+          "letra": "D",
+          "texto": "Trastorno de ansiedad generalizada"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Psiquiatría",
+      "tema": "Fobia social",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2017,
+      "fuente": "Examen UNAL 2017"
+    },
+    {
+      "enunciado": "El déficit del contenido o de la velocidad del pensamiento se denomina:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Alogia"
+        },
+        {
+          "letra": "B",
+          "texto": "Taquipsiquia"
+        },
+        {
+          "letra": "C",
+          "texto": "Fuga de ideas"
+        },
+        {
+          "letra": "D",
+          "texto": "Bloqueo del pensamiento"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Psiquiatría",
+      "tema": "Trastornos del pensamiento",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2017,
+      "fuente": "Examen UNAL 2017"
+    },
+    {
+      "enunciado": "Paciente masculino joven que tras la exposición a un antígeno presenta edema generalizado, eritema, voz ronca y disnea. El tratamiento de elección es:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Epinefrina"
+        },
+        {
+          "letra": "B",
+          "texto": "Antihistamínico"
+        },
+        {
+          "letra": "C",
+          "texto": "Corticoide sistémico"
+        },
+        {
+          "letra": "D",
+          "texto": "Broncodilatador inhalado"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Medicina de Urgencias",
+      "tema": "Anafilaxia",
+      "dificultad": "baja",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2017,
+      "fuente": "Examen UNAL 2017"
+    },
+    {
+      "enunciado": "La lesión medular cervical aguda genera:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Hiporreflexia e hipotensión (shock neurogénico)"
+        },
+        {
+          "letra": "B",
+          "texto": "Hiperreflexia e hipertensión"
+        },
+        {
+          "letra": "C",
+          "texto": "Hiperreflexia con hipotensión"
+        },
+        {
+          "letra": "D",
+          "texto": "Reflejos normales con hipertensión"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neurología",
+      "tema": "Shock neurogénico / lesión medular",
+      "dificultad": "alta",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2017,
+      "fuente": "Examen UNAL 2017"
+    },
+    {
+      "enunciado": "El compromiso menos frecuentemente encontrado en el choque es:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Necrosis suprarrenal bilateral"
+        },
+        {
+          "letra": "B",
+          "texto": "Necrosis del segmento I del hígado"
+        },
+        {
+          "letra": "C",
+          "texto": "Insuficiencia renal aguda"
+        },
+        {
+          "letra": "D",
+          "texto": "Necrosis tubular renal"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Medicina de Urgencias",
+      "tema": "Choque / hipoperfusión",
+      "dificultad": "alta",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2017,
+      "fuente": "Examen UNAL 2017"
+    },
+    {
+      "enunciado": "El paciente con trauma severo presentará las siguientes alteraciones, EXCEPTO:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Hipertermia"
+        },
+        {
+          "letra": "B",
+          "texto": "Hipotermia"
+        },
+        {
+          "letra": "C",
+          "texto": "Hipoxemia"
+        },
+        {
+          "letra": "D",
+          "texto": "Acidosis metabólica"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Medicina de Urgencias",
+      "tema": "Tríada letal del trauma",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "baja",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2017,
+      "fuente": "Examen UNAL 2017"
+    },
+    {
+      "enunciado": "Paciente masculino con herida cortante en el cuello y hematoma que presenta ptosis, miosis y anhidrosis. Su diagnóstico es:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Síndrome de Horner"
+        },
+        {
+          "letra": "B",
+          "texto": "Lesión del III par craneano"
+        },
+        {
+          "letra": "C",
+          "texto": "Parálisis facial periférica"
+        },
+        {
+          "letra": "D",
+          "texto": "Lesión del plexo braquial"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neurología",
+      "tema": "Síndrome de Horner",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2017,
+      "fuente": "Examen UNAL 2017"
+    },
+    {
+      "enunciado": "Hombre de 30 años que regresa del Amazonas con fiebre cuantificada. Usted debe:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Realizar gota gruesa"
+        },
+        {
+          "letra": "B",
+          "texto": "Solicitar cultivo para Rickettsias"
+        },
+        {
+          "letra": "C",
+          "texto": "Iniciar antibiótico empírico de amplio espectro"
+        },
+        {
+          "letra": "D",
+          "texto": "Solicitar hemocultivos seriados únicamente"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Infectología",
+      "tema": "Malaria / síndrome febril del viajero",
+      "dificultad": "baja",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2017,
+      "fuente": "Examen UNAL 2017"
+    },
+    {
+      "enunciado": "La anorexia verdadera se presenta característicamente en:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Anemia megaloblástica"
+        },
+        {
+          "letra": "B",
+          "texto": "Anemia ferropénica"
+        },
+        {
+          "letra": "C",
+          "texto": "Anemia aplásica"
+        },
+        {
+          "letra": "D",
+          "texto": "Anemia hemolítica"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Hematología",
+      "tema": "Anemias",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "baja",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2017,
+      "fuente": "Examen UNAL 2017"
+    },
+    {
+      "enunciado": "Respecto a la anemia ferropénica, es FALSO que:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Tiene componente familiar/hereditario"
+        },
+        {
+          "letra": "B",
+          "texto": "Es la anemia más común a nivel mundial"
+        },
+        {
+          "letra": "C",
+          "texto": "Se puede iniciar tratamiento si la clínica lo sugiere con o sin paraclínicos confirmatorios"
+        },
+        {
+          "letra": "D",
+          "texto": "Cursa con disminución de la ferritina sérica"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Hematología",
+      "tema": "Anemia ferropénica",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2017,
+      "fuente": "Examen UNAL 2017"
+    },
+    {
+      "enunciado": "Respecto a la clínica de la diarrea por Vibrio cholerae, es cierto que:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Cursa con diarrea acuosa profusa (en agua de arroz)"
+        },
+        {
+          "letra": "B",
+          "texto": "Cursa con diarrea sanguinolenta"
+        },
+        {
+          "letra": "C",
+          "texto": "Cursa característicamente con insuficiencia renal"
+        },
+        {
+          "letra": "D",
+          "texto": "Se acompaña de disentería con moco y pujo"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Infectología",
+      "tema": "Cólera",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2017,
+      "fuente": "Examen UNAL 2017"
+    },
+    {
+      "enunciado": "De las siguientes afirmaciones sobre la otitis media, ¿cuál es verdadera?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "La mastoiditis es una de sus complicaciones"
+        },
+        {
+          "letra": "B",
+          "texto": "Comer en decúbito la aumenta"
+        },
+        {
+          "letra": "C",
+          "texto": "Es más frecuente en adultos que en niños"
+        },
+        {
+          "letra": "D",
+          "texto": "No requiere seguimiento clínico"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Otorrinolaringología",
+      "tema": "Otitis media",
+      "dificultad": "baja",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2017,
+      "fuente": "Examen UNAL 2017"
+    },
+    {
+      "enunciado": "La causa más común de sangrado de vías digestivas altas es:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Enfermedad ulcerosa péptica"
+        },
+        {
+          "letra": "B",
+          "texto": "Várices esofágicas"
+        },
+        {
+          "letra": "C",
+          "texto": "Desgarro de Mallory-Weiss"
+        },
+        {
+          "letra": "D",
+          "texto": "Gastritis erosiva"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Gastroenterología",
+      "tema": "Hemorragia digestiva alta",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2017,
+      "fuente": "Examen UNAL 2017"
+    },
+    {
+      "enunciado": "El uso de epinefrina en el embarazo se considera seguro debido a:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Su alta unión a proteínas plasmáticas que limita el paso placentario"
+        },
+        {
+          "letra": "B",
+          "texto": "Su alta liposolubilidad"
+        },
+        {
+          "letra": "C",
+          "texto": "Su eliminación renal rápida"
+        },
+        {
+          "letra": "D",
+          "texto": "Su bajo peso molecular"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Farmacología",
+      "tema": "Fármacos en el embarazo",
+      "dificultad": "alta",
+      "_resuelta_por_ia": true,
+      "_confianza": "baja",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2017,
+      "fuente": "Examen UNAL 2017"
+    },
+    {
+      "enunciado": "Respecto a la intoxicación por aspirina (salicilatos), es cierto que:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Se debe realizar hemodiálisis en las intoxicaciones graves"
+        },
+        {
+          "letra": "B",
+          "texto": "Se debe realizar hemodiálisis siempre"
+        },
+        {
+          "letra": "C",
+          "texto": "Nunca está indicada la hemodiálisis"
+        },
+        {
+          "letra": "D",
+          "texto": "El manejo es únicamente con carbón activado"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Farmacología",
+      "tema": "Intoxicación por salicilatos",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2017,
+      "fuente": "Examen UNAL 2017"
+    },
+    {
+      "enunciado": "Respecto al bronquio fuente derecho, es cierto que:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Es más vertical que el izquierdo"
+        },
+        {
+          "letra": "B",
+          "texto": "Es más delgado que el izquierdo"
+        },
+        {
+          "letra": "C",
+          "texto": "Es más largo que el izquierdo"
+        },
+        {
+          "letra": "D",
+          "texto": "Forma un ángulo más agudo con la tráquea"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anatomía",
+      "tema": "Vía aérea",
+      "dificultad": "baja",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2017,
+      "fuente": "Examen UNAL 2017"
+    },
+    {
+      "enunciado": "La clínica de la glomerulonefritis postestreptocócica incluye característicamente:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Edema, hematuria e hipertensión arterial"
+        },
+        {
+          "letra": "B",
+          "texto": "Edema, púrpura y artralgias"
+        },
+        {
+          "letra": "C",
+          "texto": "Nicturia y proteinuria en rango nefrótico aislada"
+        },
+        {
+          "letra": "D",
+          "texto": "Poliuria e hipotensión"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Nefrología",
+      "tema": "Glomerulonefritis postestreptocócica",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2017,
+      "fuente": "Examen UNAL 2017"
+    },
+    {
+      "enunciado": "En los pacientes ancianos la polimedicación es frecuente y una de sus complicaciones es:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "El aumento de interacciones medicamentosas y reacciones adversas"
+        },
+        {
+          "letra": "B",
+          "texto": "El aumento de la biodisponibilidad por aumento del tránsito intestinal"
+        },
+        {
+          "letra": "C",
+          "texto": "La disminución de la vida media de todos los fármacos"
+        },
+        {
+          "letra": "D",
+          "texto": "La mejoría de la adherencia terapéutica"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Farmacología",
+      "tema": "Polifarmacia en el anciano",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "baja",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2017,
+      "fuente": "Examen UNAL 2017"
+    },
+    {
+      "enunciado": "Antihipertensivo contraindicado en un paciente con antecedente de EPOC:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Carvedilol"
+        },
+        {
+          "letra": "B",
+          "texto": "Verapamilo"
+        },
+        {
+          "letra": "C",
+          "texto": "Losartán"
+        },
+        {
+          "letra": "D",
+          "texto": "Amlodipino"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Farmacología",
+      "tema": "Antihipertensivos",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2017,
+      "fuente": "Examen UNAL 2017"
+    },
+    {
+      "enunciado": "Paciente asintomática con perfil tiroideo normal en quien al examen físico se palpa un nódulo tiroideo. La conducta inmediata a seguir es:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Ecografía tiroidea"
+        },
+        {
+          "letra": "B",
+          "texto": "TAC de cuello"
+        },
+        {
+          "letra": "C",
+          "texto": "Biopsia del nódulo"
+        },
+        {
+          "letra": "D",
+          "texto": "Gammagrafía tiroidea"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Endocrinología",
+      "tema": "Nódulo tiroideo",
+      "dificultad": "baja",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2017,
+      "fuente": "Examen UNAL 2017"
+    },
+    {
+      "enunciado": "Para el estudio de una gestante con patología mamaria está indicado como primera opción:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Ecografía mamaria"
+        },
+        {
+          "letra": "B",
+          "texto": "Mamografía"
+        },
+        {
+          "letra": "C",
+          "texto": "Resonancia magnética"
+        },
+        {
+          "letra": "D",
+          "texto": "Tomografía de tórax"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Patología mamaria en el embarazo",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2017,
+      "fuente": "Examen UNAL 2017"
+    },
+    {
+      "enunciado": "La lactancia materna (secreción de prolactina) es inhibida por:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Los agonistas dopaminérgicos (bromocriptina/cabergolina)"
+        },
+        {
+          "letra": "B",
+          "texto": "La succión del pezón"
+        },
+        {
+          "letra": "C",
+          "texto": "La oxitocina"
+        },
+        {
+          "letra": "D",
+          "texto": "La hormona liberadora de tirotropina (TRH)"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Lactancia / prolactina",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2017,
+      "fuente": "Examen UNAL 2017"
+    },
+    {
+      "enunciado": "La uveítis anterior está frecuentemente asociada con:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Glaucoma secundario"
+        },
+        {
+          "letra": "B",
+          "texto": "Toxoplasmosis"
+        },
+        {
+          "letra": "C",
+          "texto": "Tracoma ocular"
+        },
+        {
+          "letra": "D",
+          "texto": "Retinopatía diabética"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Oftalmología",
+      "tema": "Uveítis anterior",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "baja",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2017,
+      "fuente": "Examen UNAL 2017"
+    },
+    {
+      "enunciado": "La presión intraocular normal se encuentra en el rango de:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Entre 10 y 21 mmHg"
+        },
+        {
+          "letra": "B",
+          "texto": "Menor a 9 mmHg"
+        },
+        {
+          "letra": "C",
+          "texto": "Entre 15 y 25 mmHg"
+        },
+        {
+          "letra": "D",
+          "texto": "Mayor a 30 mmHg"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Oftalmología",
+      "tema": "Presión intraocular",
+      "dificultad": "baja",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2017,
+      "fuente": "Examen UNAL 2017"
+    },
+    {
+      "enunciado": "Gestante en día 4 posparto presenta fiebre, tensión arterial de 80/50, útero a 1 cm infraumbilical y loquios fétidos. El diagnóstico topográfico más probable es:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Endometritis"
+        },
+        {
+          "letra": "B",
+          "texto": "Miometritis"
+        },
+        {
+          "letra": "C",
+          "texto": "Parametritis"
+        },
+        {
+          "letra": "D",
+          "texto": "Salpingitis"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Endometritis puerperal",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2017,
+      "fuente": "Examen UNAL 2017"
+    },
+    {
+      "enunciado": "Respecto a la anatomía del aparato genital masculino, es cierto que:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "El conducto deferente se une a la vesícula seminal para formar el conducto eyaculador"
+        },
+        {
+          "letra": "B",
+          "texto": "El conducto deferente pasa por debajo del uréter formando el conducto eyaculador"
+        },
+        {
+          "letra": "C",
+          "texto": "Los conductos deferentes desembocan directamente en la uretra prostática"
+        },
+        {
+          "letra": "D",
+          "texto": "El epidídimo forma el conducto eyaculador"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anatomía",
+      "tema": "Aparato genital masculino",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2017,
+      "fuente": "Examen UNAL 2017"
+    },
+    {
+      "enunciado": "En la intoxicación por organofosforados es cierto que:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Produce un síndrome colinérgico y su tratamiento incluye atropina y pralidoxima"
+        },
+        {
+          "letra": "B",
+          "texto": "Produce un síndrome anticolinérgico y se trata con fisostigmina"
+        },
+        {
+          "letra": "C",
+          "texto": "Cursa con midriasis y sequedad de mucosas"
+        },
+        {
+          "letra": "D",
+          "texto": "No requiere manejo antidotal"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Farmacología",
+      "tema": "Intoxicación por organofosforados",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2017,
+      "fuente": "Examen UNAL 2017"
+    },
+    {
+      "enunciado": "Los vasodilatadores endógenos más potentes son:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "La histamina y el óxido nítrico"
+        },
+        {
+          "letra": "B",
+          "texto": "La interleucina y el factor de necrosis tumoral"
+        },
+        {
+          "letra": "C",
+          "texto": "La adrenalina y la angiotensina II"
+        },
+        {
+          "letra": "D",
+          "texto": "El tromboxano y la endotelina"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Fisiología",
+      "tema": "Regulación vascular",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2017,
+      "fuente": "Examen UNAL 2017"
+    },
+    {
+      "enunciado": "El esquema MAGPIE de sulfato de magnesio para la preeclampsia consta de una dosis de impregnación de:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "4 gramos intravenosos"
+        },
+        {
+          "letra": "B",
+          "texto": "1 gramo intravenoso"
+        },
+        {
+          "letra": "C",
+          "texto": "10 gramos intramusculares"
+        },
+        {
+          "letra": "D",
+          "texto": "20 gramos intravenosos"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Preeclampsia / sulfato de magnesio",
+      "dificultad": "alta",
+      "_resuelta_por_ia": true,
+      "_confianza": "baja",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2017,
+      "fuente": "Examen UNAL 2017"
+    },
+    {
+      "enunciado": "Respecto al complejo mayor de histocompatibilidad tipo I, señale la afirmación FALSA:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Presenta péptidos de 15 a 22 aminoácidos"
+        },
+        {
+          "letra": "B",
+          "texto": "Está en todas las células nucleadas excepto los eritrocitos"
+        },
+        {
+          "letra": "C",
+          "texto": "Activa la respuesta citotóxica (linfocitos T CD8)"
+        },
+        {
+          "letra": "D",
+          "texto": "Presenta péptidos de origen endógeno"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Inmunología",
+      "tema": "Complejo mayor de histocompatibilidad",
+      "dificultad": "alta",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2017,
+      "fuente": "Examen UNAL 2017"
+    }
+  ]
+}

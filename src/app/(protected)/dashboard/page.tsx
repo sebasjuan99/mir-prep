@@ -19,6 +19,10 @@ const EXAM_TYPES = [
   { id: 'ucartagena',label:'Univ. Cartagena',pais: 'COLOMBIA', ac: '#A62E5C' },
   { id: 'ufucs',   label: 'FUCS',            pais: 'COLOMBIA', ac: '#6E3A8C' },
   { id: 'univalle',label: 'Univ. del Valle', pais: 'COLOMBIA', ac: '#B83A4B' },
+  { id: 'usabana', label: 'Univ. La Sabana', pais: 'COLOMBIA', ac: '#574AA0' },
+  { id: 'ulibrecali',label:'Univ. Libre Cali',pais:'COLOMBIA', ac: '#A0416B' },
+  { id: 'uupb',    label: 'UPB',             pais: 'COLOMBIA', ac: '#7E2F73' },
+  { id: 'ujaveriana',label:'Univ. Javeriana',pais: 'COLOMBIA', ac: '#4C3A86' },
   { id: 'mir',     label: 'Examen MIR',      pais: 'ESPAÑA',   ac: '#9B2461' },
   { id: 'enarm',   label: 'Examen ENARM',    pais: 'MÉXICO',   ac: '#8D63A6' },
 ] as const
@@ -124,6 +128,10 @@ export default function DashboardPage() {
           'Cartagena': { ac: '#A62E5C', label: 'UNIV. CARTAGENA' },
           'FUCS':      { ac: '#6E3A8C', label: 'FUCS'            },
           'Univalle':  { ac: '#B83A4B', label: 'UNIV. DEL VALLE' },
+          'Sabana':    { ac: '#574AA0', label: 'UNIV. LA SABANA' },
+          'Libre Cali':{ ac: '#A0416B', label: 'UNIV. LIBRE CALI'},
+          'UPB':       { ac: '#7E2F73', label: 'UPB'             },
+          'Javeriana': { ac: '#4C3A86', label: 'UNIV. JAVERIANA' },
         }
         const sorted = [...universidades].sort((a, b) => b.porcentaje - a.porcentaje)
         const best = sorted[0]

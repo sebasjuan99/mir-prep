@@ -1,0 +1,563 @@
+{
+  "examen": "ROSARIO",
+  "anio": 2024,
+  "fuente": "Preguntas Rosario",
+  "preguntas": [
+    {
+      "enunciado": "Respecto a la fisiología cardíaca y el manejo iónico celular, señale la afirmación FALSA:",
+      "opciones": [
+        {"letra": "A", "texto": "El calcio responde a concentraciones elevadas de sodio extracelular"},
+        {"letra": "B", "texto": "La insulina activa la ATPasa Na/K"},
+        {"letra": "C", "texto": "La calsecuestrina es la encargada de almacenar calcio en el retículo sarcoplásmico"},
+        {"letra": "D", "texto": "La troponina C fija el calcio para iniciar la contracción"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Fisiología",
+      "tema": "Fisiología cardíaca y manejo del calcio",
+      "dificultad": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Qué porcentaje de los cálculos biliares se observan en una radiografía simple de abdomen?",
+      "opciones": [
+        {"letra": "A", "texto": "10%"},
+        {"letra": "B", "texto": "20%"},
+        {"letra": "C", "texto": "30%"},
+        {"letra": "D", "texto": "40%"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Radiología",
+      "tema": "Colelitiasis en radiología abdominal",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Qué porcentaje de tejido pancreático debe conservarse para evitar el desarrollo de diabetes mellitus?",
+      "opciones": [
+        {"letra": "A", "texto": "20%"},
+        {"letra": "B", "texto": "30%"},
+        {"letra": "C", "texto": "40%"},
+        {"letra": "D", "texto": "5%"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cirugía General",
+      "tema": "Pancreatectomía y diabetes mellitus",
+      "dificultad": "alta",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Cuando no se realiza la reparación de la arteria poplítea, ¿qué porcentaje de amputación se presenta?",
+      "opciones": [
+        {"letra": "A", "texto": "70%"},
+        {"letra": "B", "texto": "30%"},
+        {"letra": "C", "texto": "50%"},
+        {"letra": "D", "texto": "20%"}
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Cirugía General",
+      "tema": "Trauma vascular de la arteria poplítea",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Qué vena une la safena interna (magna) con la safena externa (menor)?",
+      "opciones": [
+        {"letra": "A", "texto": "Vena de Hunter"},
+        {"letra": "B", "texto": "Vena de Giacomini"},
+        {"letra": "C", "texto": "Vena de Boyd"},
+        {"letra": "D", "texto": "Vena de Cockett"}
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Anatomía",
+      "tema": "Anatomía venosa de miembros inferiores",
+      "dificultad": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuáles son las principales citocinas proinflamatorias?",
+      "opciones": [
+        {"letra": "A", "texto": "IL-1 e IL-6"},
+        {"letra": "B", "texto": "FNT alfa e IL-1"},
+        {"letra": "C", "texto": "IL-1 e IL-8"},
+        {"letra": "D", "texto": "FNT e IL-6"}
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Inmunología",
+      "tema": "Citocinas proinflamatorias",
+      "dificultad": "media"
+    },
+    {
+      "enunciado": "¿Cuál de las siguientes es una causa de disfunción diastólica?",
+      "opciones": [
+        {"letra": "A", "texto": "Miocarditis"},
+        {"letra": "B", "texto": "Hipertrofia ventricular izquierda"},
+        {"letra": "C", "texto": "Hipertiroidismo"},
+        {"letra": "D", "texto": "Insuficiencia mitral"}
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Cardiología",
+      "tema": "Disfunción diastólica",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es el tumor más frecuente del mediastino posterior?",
+      "opciones": [
+        {"letra": "A", "texto": "Teratoma"},
+        {"letra": "B", "texto": "Tumores esofágicos"},
+        {"letra": "C", "texto": "Timoma"},
+        {"letra": "D", "texto": "Tumores neurales"},
+        {"letra": "E", "texto": "Linfoma"}
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Cirugía General",
+      "tema": "Tumores del mediastino posterior",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es la causa más frecuente de retención de restos alimentarios en el esófago?",
+      "opciones": [
+        {"letra": "A", "texto": "Divertículo de Zenker"},
+        {"letra": "B", "texto": "Estrechez aortoesofágica"},
+        {"letra": "C", "texto": "Acalasia"},
+        {"letra": "D", "texto": "Estenosis péptica"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Gastroenterología",
+      "tema": "Divertículo de Zenker",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es la enzima alterada en la fenilcetonuria?",
+      "opciones": [
+        {"letra": "A", "texto": "Fenilalanina hidroxilasa"},
+        {"letra": "B", "texto": "Tirosinasa"},
+        {"letra": "C", "texto": "Homogentisato oxidasa"},
+        {"letra": "D", "texto": "Fenilalanina deshidrogenasa"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Bioquímica",
+      "tema": "Fenilcetonuria",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Qué medicamento produce prolongación del intervalo QT, EXCEPTO?",
+      "opciones": [
+        {"letra": "A", "texto": "Adenosina"},
+        {"letra": "B", "texto": "Sotalol"},
+        {"letra": "C", "texto": "Amiodarona"},
+        {"letra": "D", "texto": "Procainamida"},
+        {"letra": "E", "texto": "Quinidina"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Farmacología",
+      "tema": "Antiarrítmicos y QT prolongado",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Causas de fiebre en las primeras 6 horas del posoperatorio, EXCEPTO:",
+      "opciones": [
+        {"letra": "A", "texto": "Atelectasia"},
+        {"letra": "B", "texto": "Insuficiencia adrenocortical"},
+        {"letra": "C", "texto": "Tormenta tiroidea"},
+        {"letra": "D", "texto": "Relajantes musculares"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cirugía General",
+      "tema": "Fiebre posoperatoria",
+      "dificultad": "alta",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es la tasa de recurrencia del neumotórax espontáneo?",
+      "opciones": [
+        {"letra": "A", "texto": "2%"},
+        {"letra": "B", "texto": "5%"},
+        {"letra": "C", "texto": "30%"},
+        {"letra": "D", "texto": "50%"}
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Neumología",
+      "tema": "Neumotórax espontáneo",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "La enfermedad inflamatoria intestinal se asocia con:",
+      "opciones": [
+        {"letra": "A", "texto": "Colangitis esclerosante primaria"},
+        {"letra": "B", "texto": "Colangitis biliar primaria"},
+        {"letra": "C", "texto": "Hepatitis autoinmune"},
+        {"letra": "D", "texto": "Síndrome de Budd-Chiari"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Gastroenterología",
+      "tema": "EII y manifestaciones hepatobiliares",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true
+    },
+    {
+      "enunciado": "En la amiloidosis es frecuente encontrar asociación con las siguientes entidades, EXCEPTO:",
+      "opciones": [
+        {"letra": "A", "texto": "Lupus eritematoso sistémico"},
+        {"letra": "B", "texto": "Tuberculosis"},
+        {"letra": "C", "texto": "Artritis reumatoide"},
+        {"letra": "D", "texto": "Mieloma múltiple"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Medicina Interna",
+      "tema": "Amiloidosis y sus asociaciones",
+      "dificultad": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true
+    },
+    {
+      "enunciado": "El edema agudo de pulmón por altura en un joven puede producir los siguientes síntomas, EXCEPTO:",
+      "opciones": [
+        {"letra": "A", "texto": "Disnea"},
+        {"letra": "B", "texto": "Tos"},
+        {"letra": "C", "texto": "Cor pulmonale"},
+        {"letra": "D", "texto": "Infiltrados pulmonares"}
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Neumología",
+      "tema": "Edema pulmonar de altura",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Fumador pesado con hemoptisis de 2 meses de evolución, tos, transaminasas elevadas y masa en tórax derecho. El diagnóstico más probable es:",
+      "opciones": [
+        {"letra": "A", "texto": "Carcinoma broncogénico con metástasis"},
+        {"letra": "B", "texto": "Neumonía"},
+        {"letra": "C", "texto": "Tuberculosis pulmonar"},
+        {"letra": "D", "texto": "Absceso pulmonar"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neumología",
+      "tema": "Cáncer de pulmón",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Niña de 4 años diagnosticada con meningitis meningocócica; tiene un hermano de 14 meses y asiste a la guardería. ¿Qué se debe hacer de manera profiláctica?",
+      "opciones": [
+        {"letra": "A", "texto": "Rifampicina"},
+        {"letra": "B", "texto": "Inmunoglobulina"},
+        {"letra": "C", "texto": "Sulfadiazina"},
+        {"letra": "D", "texto": "Amoxicilina"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Infectología",
+      "tema": "Profilaxis de meningitis meningocócica",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál de los siguientes medicamentos se asocia a retinopatía?",
+      "opciones": [
+        {"letra": "A", "texto": "Metotrexate"},
+        {"letra": "B", "texto": "Ciclosporina"},
+        {"letra": "C", "texto": "D-penicilamina"},
+        {"letra": "D", "texto": "Cloroquina"}
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Farmacología",
+      "tema": "Retinopatía por cloroquina",
+      "dificultad": "media"
+    },
+    {
+      "enunciado": "Niña con infección viral hace 15 días que consulta por plaquetas de 30.000, megacariocitos en médula ósea y hemoglobina de 13. ¿Qué conducta se debe tomar?",
+      "opciones": [
+        {"letra": "A", "texto": "Transfundir"},
+        {"letra": "B", "texto": "Observación"},
+        {"letra": "C", "texto": "Esplenectomía"},
+        {"letra": "D", "texto": "Iniciar quimioterapia"}
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Hematología",
+      "tema": "Púrpura trombocitopénica inmune",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente con infección respiratoria hace 15 días que presenta parálisis de extremidades sin alteraciones de la sensibilidad. El diagnóstico más probable es:",
+      "opciones": [
+        {"letra": "A", "texto": "Polimiositis"},
+        {"letra": "B", "texto": "Síndrome de Guillain-Barré"},
+        {"letra": "C", "texto": "Miastenia gravis"},
+        {"letra": "D", "texto": "Poliomielitis"}
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Neurología",
+      "tema": "Síndrome de Guillain-Barré",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Con qué mecanismo el neutrófilo destruye la bacteria fagocitada?",
+      "opciones": [
+        {"letra": "A", "texto": "Radicales libres de oxígeno"},
+        {"letra": "B", "texto": "Peroxidasas y mieloperoxidasas"},
+        {"letra": "C", "texto": "Lisozima"},
+        {"letra": "D", "texto": "Óxido nítrico"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Inmunología",
+      "tema": "Estallido respiratorio del neutrófilo",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es la vida media (VM) de la inmunoglobulina G (IgG)?",
+      "opciones": [
+        {"letra": "A", "texto": "7 días"},
+        {"letra": "B", "texto": "23 días"},
+        {"letra": "C", "texto": "5 días"},
+        {"letra": "D", "texto": "3 días"}
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Inmunología",
+      "tema": "Inmunoglobulina G",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "El condiloma plano es producido por:",
+      "opciones": [
+        {"letra": "A", "texto": "Treponema pallidum (sífilis)"},
+        {"letra": "B", "texto": "Virus del papiloma humano"},
+        {"letra": "C", "texto": "Virus del herpes simple"},
+        {"letra": "D", "texto": "Chlamydia trachomatis"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Infectología",
+      "tema": "Sífilis secundaria",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es un efecto anticolinérgico ocasionado por la amitriptilina?",
+      "opciones": [
+        {"letra": "A", "texto": "Visión borrosa"},
+        {"letra": "B", "texto": "Diarrea"},
+        {"letra": "C", "texto": "Bradicardia"},
+        {"letra": "D", "texto": "Polaquiuria"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Farmacología",
+      "tema": "Efectos anticolinérgicos de antidepresivos tricíclicos",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es la bacteria más frecuente en la luz apendicular?",
+      "opciones": [
+        {"letra": "A", "texto": "Escherichia coli"},
+        {"letra": "B", "texto": "Bacteroides fragilis"},
+        {"letra": "C", "texto": "Enterococcus faecalis"},
+        {"letra": "D", "texto": "Klebsiella pneumoniae"}
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Cirugía General",
+      "tema": "Microbiología de la apendicitis",
+      "dificultad": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál de los siguientes es un mecanismo de compensación en la insuficiencia cardíaca congestiva?",
+      "opciones": [
+        {"letra": "A", "texto": "Activación del sistema renina-angiotensina-aldosterona"},
+        {"letra": "B", "texto": "Activación del sistema adrenérgico"},
+        {"letra": "C", "texto": "Activación del péptido natriurético auricular"},
+        {"letra": "D", "texto": "Disminución de la contractilidad miocárdica"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cardiología",
+      "tema": "Mecanismos compensatorios en la insuficiencia cardíaca",
+      "dificultad": "alta",
+      "_resuelta_por_ia": true,
+      "_confianza": "baja",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Las manchas café con leche son características de:",
+      "opciones": [
+        {"letra": "A", "texto": "Neurofibromatosis"},
+        {"letra": "B", "texto": "Esclerosis tuberosa"},
+        {"letra": "C", "texto": "Síndrome de Sturge-Weber"},
+        {"letra": "D", "texto": "Vitíligo"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neurología",
+      "tema": "Neurofibromatosis",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Un nucleótido está formado por:",
+      "opciones": [
+        {"letra": "A", "texto": "Azúcar"},
+        {"letra": "B", "texto": "Base nitrogenada"},
+        {"letra": "C", "texto": "Azúcar + base nitrogenada + grupo fosfato"},
+        {"letra": "D", "texto": "Únicamente un grupo fosfato"}
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Bioquímica",
+      "tema": "Estructura de los nucleótidos",
+      "dificultad": "baja",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true
+    },
+    {
+      "enunciado": "El RNA pequeño nuclear (RNAsn) hace parte del procesamiento de qué tipo de RNA?",
+      "opciones": [
+        {"letra": "A", "texto": "RNA mensajero"},
+        {"letra": "B", "texto": "RNA ribosomal"},
+        {"letra": "C", "texto": "RNA de transferencia"},
+        {"letra": "D", "texto": "RNA de interferencia"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Bioquímica",
+      "tema": "RNA pequeño nuclear y splicing",
+      "dificultad": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "baja",
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Qué prueba de laboratorio analiza el DNA?",
+      "opciones": [
+        {"letra": "A", "texto": "Northern blot"},
+        {"letra": "B", "texto": "Southern blot"},
+        {"letra": "C", "texto": "Western blot"},
+        {"letra": "D", "texto": "Eastern blot"}
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Bioquímica",
+      "tema": "Técnicas de biología molecular",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál de las siguientes entidades produce síndrome nefrótico?",
+      "opciones": [
+        {"letra": "A", "texto": "Glomerulonefritis estreptocócica"},
+        {"letra": "B", "texto": "Glomerulopatía membranosa"},
+        {"letra": "C", "texto": "Lupus eritematoso sistémico"},
+        {"letra": "D", "texto": "Glomerulonefritis rápidamente progresiva"}
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Nefrología",
+      "tema": "Síndrome nefrótico",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es la prostaglandina más importante en la inflamación?",
+      "opciones": [
+        {"letra": "A", "texto": "PGI2"},
+        {"letra": "B", "texto": "PGE2"},
+        {"letra": "C", "texto": "PGF2"},
+        {"letra": "D", "texto": "PGD2"}
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Farmacología",
+      "tema": "Prostaglandinas en la inflamación",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true
+    }
+  ]
+}

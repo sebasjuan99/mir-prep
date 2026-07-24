@@ -1,0 +1,3412 @@
+{
+  "examen": "ELBOSQUE",
+  "nombre": "El Bosque",
+  "anio": 2025,
+  "fuente": "Reconstrucciones Bosque 2024-2025",
+  "preguntas": [
+    {
+      "enunciado": "La prueba de torniquete en el dengue evalúa:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Funcionalidad de plaquetas"
+        },
+        {
+          "letra": "B",
+          "texto": "Tiempo de sangría"
+        },
+        {
+          "letra": "C",
+          "texto": "Permeabilidad capilar"
+        },
+        {
+          "letra": "D",
+          "texto": "Recuento plaquetario"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Infectología",
+      "tema": "Dengue",
+      "dificultad": "media",
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "Respecto a la ubicación del riñón según altura y tamaño (comparando con el derecho), ¿cuál afirmación es correcta?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Riñón derecho: más alto y más pequeño"
+        },
+        {
+          "letra": "B",
+          "texto": "Riñón izquierdo es más alto y más grande"
+        },
+        {
+          "letra": "C",
+          "texto": "Riñón derecho es más bajo y más grande"
+        },
+        {
+          "letra": "D",
+          "texto": "Riñón derecho más bajo y más pequeño"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Anatomía",
+      "tema": "Anatomía renal",
+      "dificultad": "media",
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "Respecto al electrocardiograma (EKG), ¿cuál afirmación es cierta?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "El QRS es más positivo en V1"
+        },
+        {
+          "letra": "B",
+          "texto": "PR de 120 a 200 ms"
+        },
+        {
+          "letra": "C",
+          "texto": "P negativa en DII"
+        },
+        {
+          "letra": "D",
+          "texto": "Eje normal entre -15 y 90"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Cardiología",
+      "tema": "Electrocardiografía",
+      "dificultad": "media",
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "La tríada de Charcot es característica de:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Carcinoma de páncreas"
+        },
+        {
+          "letra": "B",
+          "texto": "Colangitis"
+        },
+        {
+          "letra": "C",
+          "texto": "Colecistitis"
+        },
+        {
+          "letra": "D",
+          "texto": "Pancreatitis"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Gastroenterología",
+      "tema": "Colangitis",
+      "dificultad": "baja",
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "¿Cuál de las siguientes afirmaciones es falsa respecto a la Tungiasis?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "El mecanismo de contagio implica caminar descalzo en la tierra"
+        },
+        {
+          "letra": "B",
+          "texto": "Tiene reservorio en diversos mamíferos como roedores"
+        },
+        {
+          "letra": "C",
+          "texto": "La primera línea de manejo es con ivermectina"
+        },
+        {
+          "letra": "D",
+          "texto": "Es causada por el microorganismo Tunga penetrans"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Infectología",
+      "tema": "Tungiasis",
+      "dificultad": "media",
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "Paciente de 65 años con sospecha de TVP y score de Wells de 6. Respecto al dímero D en este caso, ¿cuál afirmación es correcta?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "No es aplicable a este contexto"
+        },
+        {
+          "letra": "B",
+          "texto": "Un resultado negativo descarta la TVP"
+        },
+        {
+          "letra": "C",
+          "texto": "Un resultado negativo confirma la TVP"
+        },
+        {
+          "letra": "D",
+          "texto": "Un resultado positivo confirma la TVP"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Medicina Interna",
+      "tema": "Enfermedad tromboembólica venosa",
+      "dificultad": "media",
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "¿Cuál de las siguientes enfermedades NO es transmitida por piojos?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Fiebre tifoidea"
+        },
+        {
+          "letra": "B",
+          "texto": "Tifo epidémico"
+        },
+        {
+          "letra": "C",
+          "texto": "Fiebre recidivante"
+        },
+        {
+          "letra": "D",
+          "texto": "Fiebre de las trincheras"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Infectología",
+      "tema": "Enfermedades transmitidas por vectores",
+      "dificultad": "media",
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "¿Cuál medicamento NO tiene evidencia para el manejo de la falla cardiaca con FEVI conservada (diastólica)?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Candesartán"
+        },
+        {
+          "letra": "B",
+          "texto": "Eplerenona"
+        },
+        {
+          "letra": "C",
+          "texto": "Nebivolol"
+        },
+        {
+          "letra": "D",
+          "texto": "Ramipril"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Cardiología",
+      "tema": "Insuficiencia cardíaca",
+      "dificultad": "alta",
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "La definición de HTA refractaria (resistente) es:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Paciente con cifras tensionales mayores a 130/80 con tres antihipertensivos de los que tiene al menos un tiazídico"
+        },
+        {
+          "letra": "B",
+          "texto": "Paciente con cifras tensionales mayores a 140/90 con tres antihipertensivos a dosis tope y con al menos un tiazídico"
+        },
+        {
+          "letra": "C",
+          "texto": "Paciente con cifras tensionales mayores a 140/90 con tres antihipertensivos a dosis óptima y con al menos un IECA"
+        },
+        {
+          "letra": "D",
+          "texto": "Paciente con cifras tensionales mayores a 140/90 mmHg con tres antihipertensivos y con al menos un tiazídico"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Cardiología",
+      "tema": "Hipertensión arterial",
+      "dificultad": "media",
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "Un test que es altamente sensible, con resultado negativo, sirve para:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Determinar el valor predictivo positivo"
+        },
+        {
+          "letra": "B",
+          "texto": "Determinar el valor predictivo negativo"
+        },
+        {
+          "letra": "C",
+          "texto": "Confirmar enfermedad"
+        },
+        {
+          "letra": "D",
+          "texto": "Descartar enfermedad"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Pruebas diagnósticas",
+      "dificultad": "media",
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "Un test que es altamente específico, con resultado positivo, sirve para:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Determinar el valor predictivo positivo"
+        },
+        {
+          "letra": "B",
+          "texto": "Determinar el valor predictivo negativo"
+        },
+        {
+          "letra": "C",
+          "texto": "Confirmar enfermedad"
+        },
+        {
+          "letra": "D",
+          "texto": "Descartar enfermedad"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Pruebas diagnósticas",
+      "dificultad": "media",
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "¿Cuál es un efecto adverso de los bifosfonatos?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Esofagitis"
+        },
+        {
+          "letra": "B",
+          "texto": "Hipercalcemia"
+        },
+        {
+          "letra": "C",
+          "texto": "Hiperfosfatemia"
+        },
+        {
+          "letra": "D",
+          "texto": "Hipertricosis"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Farmacología",
+      "tema": "Bifosfonatos",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "El nomograma de Rumack-Matthew sirve para:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Determinar la hepatotoxicidad por intoxicación con acetaminofén en un momento específico del tiempo"
+        },
+        {
+          "letra": "B",
+          "texto": "Ser una escala pronóstica de mortalidad"
+        },
+        {
+          "letra": "C",
+          "texto": "Estimar la función renal en intoxicaciones"
+        },
+        {
+          "letra": "D",
+          "texto": "Clasificar la gravedad de la intoxicación por salicilatos"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Farmacología",
+      "tema": "Intoxicación por acetaminofén",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "¿Cuál de las siguientes opciones NO es una manifestación del síndrome de Fanconi completo (p. ej. inducido por tenofovir)?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Acidosis tubular tipo 2"
+        },
+        {
+          "letra": "B",
+          "texto": "Proteinuria de bajo peso molecular"
+        },
+        {
+          "letra": "C",
+          "texto": "Glucosuria"
+        },
+        {
+          "letra": "D",
+          "texto": "Hematuria"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Nefrología",
+      "tema": "Síndrome de Fanconi",
+      "dificultad": "media",
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "Para el estudio de la disnea, ¿cuál de las siguientes afirmaciones es cierta?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "La espirometría es útil para definir el origen de la disnea, por lo que se debe pedir siempre en urgencias"
+        },
+        {
+          "letra": "B",
+          "texto": "La radiografía de tórax no tiene utilidad"
+        },
+        {
+          "letra": "C",
+          "texto": "El BNP sirve para determinar si es de origen cardíaco o no"
+        },
+        {
+          "letra": "D",
+          "texto": "La radiografía de tórax es útil en los casos en que se sospecha metahemoglobinemia"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Neumología",
+      "tema": "Disnea",
+      "dificultad": "media",
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "¿Cuál de las siguientes NO es una indicación en el manejo de la ascitis?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Restricción de sodio"
+        },
+        {
+          "letra": "B",
+          "texto": "Espironolactona 100 mg - 400 mg como primera línea"
+        },
+        {
+          "letra": "C",
+          "texto": "Furosemida 160 mg día como segunda línea"
+        },
+        {
+          "letra": "D",
+          "texto": "Reposo en cama"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Gastroenterología",
+      "tema": "Ascitis",
+      "dificultad": "media",
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "Consecuencias del uso crónico de AINES, excepto una:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Nefritis tubulointersticial aguda"
+        },
+        {
+          "letra": "B",
+          "texto": "Glomerulonefrosis"
+        },
+        {
+          "letra": "C",
+          "texto": "Enfermedad de cambios mínimos"
+        },
+        {
+          "letra": "D",
+          "texto": "Necrosis tubular aguda"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Nefrología",
+      "tema": "Nefrotoxicidad por AINES",
+      "dificultad": "media",
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "¿Cuál de las siguientes patologías NO eleva la troponina?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Enfermedad renal crónica"
+        },
+        {
+          "letra": "B",
+          "texto": "Falla cardíaca"
+        },
+        {
+          "letra": "C",
+          "texto": "Tromboembolismo pulmonar (TEP)"
+        },
+        {
+          "letra": "D",
+          "texto": "Trombosis venosa profunda (TVP)"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Cardiología",
+      "tema": "Biomarcadores cardíacos",
+      "dificultad": "media",
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "Paciente de 76 años con exposición a humo de leña de larga data y falla cardíaca, que llega a urgencias con disnea, picos febriles no cuantificados, edema leve en miembros inferiores, cardiomegalia leve y secreciones mucopurulentas. Radiografía de tórax con cardiomegalia, atrapamiento aéreo e infiltrados con tendencia a la consolidación en base derecha. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "EPOC exacerbado"
+        },
+        {
+          "letra": "B",
+          "texto": "Falla cardíaca aguda"
+        },
+        {
+          "letra": "C",
+          "texto": "Neumonía adquirida en la comunidad"
+        },
+        {
+          "letra": "D",
+          "texto": "Crisis asmática"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Neumología",
+      "tema": "Neumonía adquirida en la comunidad",
+      "dificultad": "media",
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "Paciente de 78 años hospitalizado por EPOC exacerbado con infección sobreagregada y bronquiectasias. Al momento de escoger el antibiótico, ¿en cuál microorganismo se debe pensar?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Pseudomonas aeruginosa"
+        },
+        {
+          "letra": "B",
+          "texto": "Haemophilus influenzae"
+        },
+        {
+          "letra": "C",
+          "texto": "Legionella"
+        },
+        {
+          "letra": "D",
+          "texto": "Staphylococcus aureus"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neumología",
+      "tema": "EPOC exacerbado / bronquiectasias",
+      "dificultad": "media",
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "¿Cuál es la diferencia entre la glomerulonefritis mediada por IgA (Berger) y la glomerulonefritis post-infecciosa?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Hematuria sinfaringítica"
+        },
+        {
+          "letra": "B",
+          "texto": "Proteinuria < 1 gramo en 24 horas"
+        },
+        {
+          "letra": "C",
+          "texto": "Hipertensión arterial"
+        },
+        {
+          "letra": "D",
+          "texto": "Hematuria"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Nefrología",
+      "tema": "Glomerulonefritis",
+      "dificultad": "alta",
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "¿Cuál hallazgo permite diferenciar el SIADH del riñón perdedor de sal?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Potasio sérico normal"
+        },
+        {
+          "letra": "B",
+          "texto": "Aumento en la capacidad de excreción de sodio"
+        },
+        {
+          "letra": "C",
+          "texto": "Aumento de la urea y el fosfato urinarios"
+        },
+        {
+          "letra": "D",
+          "texto": "Los niveles de ácido úrico séricos"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Nefrología",
+      "tema": "Trastornos del sodio",
+      "dificultad": "alta",
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "Paciente HTA con hipokalemia, alcalosis metabólica, actividad de la renina plasmática suprimida y aldosterona plasmática elevada. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Estenosis de la arteria renal"
+        },
+        {
+          "letra": "B",
+          "texto": "Síndrome de Cushing"
+        },
+        {
+          "letra": "C",
+          "texto": "Aldosteronismo mediado por glucocorticoides"
+        },
+        {
+          "letra": "D",
+          "texto": "Síndrome de Gordon"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Endocrinología",
+      "tema": "Hiperaldosteronismo",
+      "dificultad": "alta",
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "Paciente HTA con hipokalemia, actividad de la renina plasmática y aldosterona plasmática suprimidas. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Intoxicación por regaliz (SAME)"
+        },
+        {
+          "letra": "B",
+          "texto": "Uso de inhibidor de calcineurina"
+        },
+        {
+          "letra": "C",
+          "texto": "Hiperaldosteronismo secundario"
+        },
+        {
+          "letra": "D",
+          "texto": "Síndrome de Gitelman"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Endocrinología",
+      "tema": "Exceso aparente de mineralocorticoides",
+      "dificultad": "alta",
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "En un paciente con salmonelosis (fiebre tifoidea), ¿cuál de los siguientes NO hace parte del cuadro clínico?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Bradicardia relativa"
+        },
+        {
+          "letra": "B",
+          "texto": "Fiebre"
+        },
+        {
+          "letra": "C",
+          "texto": "Diarrea"
+        },
+        {
+          "letra": "D",
+          "texto": "Manchas rosadas (rose spots)"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Infectología",
+      "tema": "Fiebre tifoidea",
+      "dificultad": "media",
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "Respecto a los biomarcadores cardíacos, ¿cuál afirmación es verdadera?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "La mioglobina es el primer marcador que se eleva"
+        },
+        {
+          "letra": "B",
+          "texto": "La troponina T puede durar elevada por 48 a 72 horas"
+        },
+        {
+          "letra": "C",
+          "texto": "La troponina I se eleva después de 1 hora del IAM"
+        },
+        {
+          "letra": "D",
+          "texto": "La CK total es más específica que la CK-MB"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cardiología",
+      "tema": "Biomarcadores cardíacos",
+      "dificultad": "media",
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "¿Cuál de las siguientes NO es causa de acidosis metabólica con anión GAP aumentado?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Cetoacidosis diabética"
+        },
+        {
+          "letra": "B",
+          "texto": "Intoxicación por metanol"
+        },
+        {
+          "letra": "C",
+          "texto": "Lactato elevado"
+        },
+        {
+          "letra": "D",
+          "texto": "Ayuno prolongado"
+        },
+        {
+          "letra": "E",
+          "texto": "Diarrea"
+        }
+      ],
+      "respuesta_correcta": "E",
+      "especialidad": "Nefrología",
+      "tema": "Trastornos ácido-base",
+      "dificultad": "media",
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "En un shock hemorrágico, ¿qué estructura renal se ve afectada principalmente?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Endotelio glomerular"
+        },
+        {
+          "letra": "B",
+          "texto": "Asa de Henle"
+        },
+        {
+          "letra": "C",
+          "texto": "Túbulo contorneado proximal"
+        },
+        {
+          "letra": "D",
+          "texto": "Aparato yuxtaglomerular"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Nefrología",
+      "tema": "Injuria renal aguda",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "El daño en los podocitos produce principalmente:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Proteinuria"
+        },
+        {
+          "letra": "B",
+          "texto": "Hematuria"
+        },
+        {
+          "letra": "C",
+          "texto": "Cilindros leucocitarios"
+        },
+        {
+          "letra": "D",
+          "texto": "Glucosuria"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Nefrología",
+      "tema": "Fisiopatología glomerular",
+      "dificultad": "baja",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "En la tungiasis (Tunga penetrans), ¿cuál es el tratamiento de elección?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Fluconazol"
+        },
+        {
+          "letra": "B",
+          "texto": "Terbinafina"
+        },
+        {
+          "letra": "C",
+          "texto": "Extracción directa"
+        },
+        {
+          "letra": "D",
+          "texto": "Azitromicina"
+        },
+        {
+          "letra": "E",
+          "texto": "Claritromicina"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Dermatología",
+      "tema": "Tungiasis",
+      "dificultad": "media",
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "¿Cuál es la fase más contagiosa de la sífilis?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Sífilis primaria"
+        },
+        {
+          "letra": "B",
+          "texto": "Sífilis secundaria"
+        },
+        {
+          "letra": "C",
+          "texto": "Sífilis terciaria"
+        },
+        {
+          "letra": "D",
+          "texto": "Fase precoz"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Infectología",
+      "tema": "Sífilis",
+      "dificultad": "media",
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "¿Cuál es la dosis de aciclovir para el manejo del herpes zóster?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Aciclovir tópico"
+        },
+        {
+          "letra": "B",
+          "texto": "400 mg cada 8 horas por 5 días"
+        },
+        {
+          "letra": "C",
+          "texto": "800 mg 5 veces al día por 7 días"
+        },
+        {
+          "letra": "D",
+          "texto": "200 mg 5 veces al día por 7 días"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Dermatología",
+      "tema": "Herpes zóster",
+      "dificultad": "media",
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "El eritrasma es causado por cuál de los siguientes agentes:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Staphylococcus aureus"
+        },
+        {
+          "letra": "B",
+          "texto": "Corynebacterium minutissimum"
+        },
+        {
+          "letra": "C",
+          "texto": "Mycobacterium"
+        },
+        {
+          "letra": "D",
+          "texto": "Malassezia furfur"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Dermatología",
+      "tema": "Eritrasma",
+      "dificultad": "media",
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "Mujer de 40 años que desde hace 10 años presenta dolor en articulaciones interfalángicas y cambios en las uñas (cambio de color, onicólisis). ¿Cuál es el diagnóstico?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Artritis psoriásica"
+        },
+        {
+          "letra": "B",
+          "texto": "Artritis reumatoide"
+        },
+        {
+          "letra": "C",
+          "texto": "Tiña corporis"
+        },
+        {
+          "letra": "D",
+          "texto": "Candidiasis"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Artritis psoriásica",
+      "dificultad": "media",
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "En cuanto a la alopecia androgenética, señale el enunciado FALSO:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "DHT aumentada de forma local"
+        },
+        {
+          "letra": "B",
+          "texto": "Fase anágena disminuida y predispone a alopecia cicatricial"
+        },
+        {
+          "letra": "C",
+          "texto": "Fase anágena disminuida y telógena aumentada"
+        },
+        {
+          "letra": "D",
+          "texto": "Afecta al sexo femenino"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Dermatología",
+      "tema": "Alopecia androgenética",
+      "dificultad": "media",
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "¿Cuál es el mecanismo patogénico de la hiperhidrosis axilar primaria?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Sistema nervioso simpático con receptores de acetilcolina"
+        },
+        {
+          "letra": "B",
+          "texto": "Sistema nervioso simpático con receptores de adrenalina"
+        },
+        {
+          "letra": "C",
+          "texto": "Sistema nervioso central con serotonina"
+        },
+        {
+          "letra": "D",
+          "texto": "Sistema nervioso parasimpático con receptores muscarínicos"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Hiperhidrosis",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "Niño que recibe un arañazo de gato y posteriormente desarrolla fiebre, adenopatía ipsilateral y distensión abdominal. ¿Cuál es la etiología probable?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Bartonella henselae"
+        },
+        {
+          "letra": "B",
+          "texto": "Bartonella quintana"
+        },
+        {
+          "letra": "C",
+          "texto": "Pasteurella"
+        },
+        {
+          "letra": "D",
+          "texto": "Francisella tularensis"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Infectología",
+      "tema": "Enfermedad por arañazo de gato",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "Diagnóstico diferencial de placas verrucosas en un paciente procedente de zona tropical:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Esporotricosis"
+        },
+        {
+          "letra": "B",
+          "texto": "Cromoblastomicosis"
+        },
+        {
+          "letra": "C",
+          "texto": "Leishmaniasis cutánea"
+        },
+        {
+          "letra": "D",
+          "texto": "A y C son correctas"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Dermatología",
+      "tema": "Micosis y lesiones tropicales",
+      "dificultad": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "Paciente con eritema violáceo en párpados bilateral de larga data, asociado a lesiones eritematosas en articulaciones interfalángicas y telangiectasias periungueales. ¿Cuál es el diagnóstico probable?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Dermatomiositis"
+        },
+        {
+          "letra": "B",
+          "texto": "Esclerosis sistémica"
+        },
+        {
+          "letra": "C",
+          "texto": "Artritis psoriásica"
+        },
+        {
+          "letra": "D",
+          "texto": "Artritis reumatoide"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Dermatomiositis",
+      "dificultad": "media",
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "El virus del herpes humano 8 se asocia especialmente con qué tipo de lesiones en piel:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Sarcoma de Kaposi"
+        },
+        {
+          "letra": "B",
+          "texto": "Molusco contagioso"
+        },
+        {
+          "letra": "C",
+          "texto": "Verrugas vulgares"
+        },
+        {
+          "letra": "D",
+          "texto": "Linfoma de Burkitt"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Sarcoma de Kaposi",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "¿Cómo se manifiesta la escabiosis en un paciente con VIH?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Sarna costrosa (noruega)"
+        },
+        {
+          "letra": "B",
+          "texto": "Dermatitis folicular severa"
+        },
+        {
+          "letra": "C",
+          "texto": "Urticaria papular"
+        },
+        {
+          "letra": "D",
+          "texto": "Prurigo nodular"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Escabiosis",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "Paciente masculino, agricultor, que desarrolla lesiones en la planta de los pies y entre los dedos; la biopsia evidencia cuerpos escleróticos o de Medlar. ¿Cuál es el agente etiológico?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Fonsecaea pedrosoi (cromoblastomicosis)"
+        },
+        {
+          "letra": "B",
+          "texto": "Sporothrix schenckii"
+        },
+        {
+          "letra": "C",
+          "texto": "Madurella mycetomatis"
+        },
+        {
+          "letra": "D",
+          "texto": "Malassezia furfur"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Cromoblastomicosis",
+      "dificultad": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "El signo de Nikolsky es positivo en cuál de las siguientes enfermedades:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Pénfigo vulgar"
+        },
+        {
+          "letra": "B",
+          "texto": "Necrólisis epidérmica tóxica (NET)"
+        },
+        {
+          "letra": "C",
+          "texto": "Pénfigo foliáceo"
+        },
+        {
+          "letra": "D",
+          "texto": "Todas las anteriores"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Dermatología",
+      "tema": "Enfermedades ampollosas",
+      "dificultad": "media",
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "Paciente masculino de 78 años, diabético, con ampollas subepidérmicas y depósito de IgG en la membrana basal. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Penfigoide ampolloso"
+        },
+        {
+          "letra": "B",
+          "texto": "Pénfigo vulgar"
+        },
+        {
+          "letra": "C",
+          "texto": "Dermatitis herpetiforme"
+        },
+        {
+          "letra": "D",
+          "texto": "Epidermólisis bullosa adquirida"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Penfigoide ampolloso",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "Paciente femenina de 17 años con acné vulgar moderado en tratamiento con doxiciclina; tras realizar una caminata a la montaña le aparecen lesiones eritematosas en cara, pecho y manos. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Eritrodermia por fármaco"
+        },
+        {
+          "letra": "B",
+          "texto": "Erupción polimorfa lumínica"
+        },
+        {
+          "letra": "C",
+          "texto": "Urticaria solar"
+        },
+        {
+          "letra": "D",
+          "texto": "Fotosensibilidad inducida por fármacos"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Dermatología",
+      "tema": "Fotosensibilidad por fármacos",
+      "dificultad": "media",
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "Trabajador de una veterinaria que limpia acuarios y jaulas. ¿Qué enfermedad puede producir esta exposición?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Granuloma por micobacterias atípicas"
+        },
+        {
+          "letra": "B",
+          "texto": "Carbunclo"
+        },
+        {
+          "letra": "C",
+          "texto": "Esporotricosis"
+        },
+        {
+          "letra": "D",
+          "texto": "Nódulo de Orf"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Micobacterias atípicas",
+      "dificultad": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "En la histopatología de la micosis fungoide se observa:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Linfocitos superficiales con patrón en banda"
+        },
+        {
+          "letra": "B",
+          "texto": "Granulomas no caseificantes"
+        },
+        {
+          "letra": "C",
+          "texto": "Linfocitos atípicos en dermis con epidermotropismo"
+        },
+        {
+          "letra": "D",
+          "texto": "Hifas y levaduras"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Dermatología",
+      "tema": "Micosis fungoide",
+      "dificultad": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "Paciente con demencia, diarrea y dermatitis (pelagra). ¿Qué déficit vitamínico tiene?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Niacina"
+        },
+        {
+          "letra": "B",
+          "texto": "Riboflavina"
+        },
+        {
+          "letra": "C",
+          "texto": "Cianocobalamina"
+        },
+        {
+          "letra": "D",
+          "texto": "Tiamina"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Pelagra / déficit de niacina",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "¿Cuál de los siguientes músculos NO se inserta en el trocánter mayor del fémur?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Gémino"
+        },
+        {
+          "letra": "B",
+          "texto": "Obturador externo"
+        },
+        {
+          "letra": "C",
+          "texto": "Glúteo medio"
+        },
+        {
+          "letra": "D",
+          "texto": "Piriforme"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Traumatología y Ortopedia",
+      "tema": "Anatomía de la cadera",
+      "dificultad": "media",
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "¿Cuál de los siguientes músculos NO se inserta en la tuberosidad isquiática?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Semimembranoso"
+        },
+        {
+          "letra": "B",
+          "texto": "Semitendinoso"
+        },
+        {
+          "letra": "C",
+          "texto": "Aductor mayor"
+        },
+        {
+          "letra": "D",
+          "texto": "Cabeza corta del bíceps femoral"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Traumatología y Ortopedia",
+      "tema": "Anatomía del muslo",
+      "dificultad": "media",
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "¿Cuál es la función del músculo poplíteo?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Desbloquear (rotar internamente) la rodilla al iniciar la flexión"
+        },
+        {
+          "letra": "B",
+          "texto": "Estabilizar la esquina posterolateral de la rodilla"
+        },
+        {
+          "letra": "C",
+          "texto": "Retraer el menisco lateral durante la flexión"
+        },
+        {
+          "letra": "D",
+          "texto": "Todas las anteriores"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Traumatología y Ortopedia",
+      "tema": "Anatomía de la rodilla",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "¿Cómo se llama el procedimiento quirúrgico mediante el cual se fija una articulación?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Artrodesis"
+        },
+        {
+          "letra": "B",
+          "texto": "Artroplastia"
+        },
+        {
+          "letra": "C",
+          "texto": "Artroscopia"
+        },
+        {
+          "letra": "D",
+          "texto": "Osteotomía"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Traumatología y Ortopedia",
+      "tema": "Procedimientos ortopédicos",
+      "dificultad": "baja",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "¿Qué criterios se utilizan para evaluar la hiperlaxitud articular?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Criterios de Beighton"
+        },
+        {
+          "letra": "B",
+          "texto": "Criterios de Jones"
+        },
+        {
+          "letra": "C",
+          "texto": "Criterios de Wells"
+        },
+        {
+          "letra": "D",
+          "texto": "Escala de Tanner"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Traumatología y Ortopedia",
+      "tema": "Hiperlaxitud articular",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "¿Cuál maniobra se utiliza para la evaluación de la displasia del desarrollo de cadera?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Maniobra de Ortolani"
+        },
+        {
+          "letra": "B",
+          "texto": "Prueba de Lachman"
+        },
+        {
+          "letra": "C",
+          "texto": "Prueba de McMurray"
+        },
+        {
+          "letra": "D",
+          "texto": "Prueba de Thomas"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Traumatología y Ortopedia",
+      "tema": "Displasia del desarrollo de cadera",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "¿Cuál es el uso de la prueba de FABER (Patrick)?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Evaluar patología de cadera"
+        },
+        {
+          "letra": "B",
+          "texto": "Evaluar la articulación sacroilíaca"
+        },
+        {
+          "letra": "C",
+          "texto": "Evaluar pinzamiento femoroacetabular"
+        },
+        {
+          "letra": "D",
+          "texto": "Todas las anteriores"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Traumatología y Ortopedia",
+      "tema": "Semiología de cadera",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "¿Cuál ligamento NO hace parte de la sindesmosis del tobillo?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Ligamento tibioperoneo anteroinferior"
+        },
+        {
+          "letra": "B",
+          "texto": "Ligamento tibioperoneo posteroinferior"
+        },
+        {
+          "letra": "C",
+          "texto": "Membrana interósea"
+        },
+        {
+          "letra": "D",
+          "texto": "Ligamento colateral (deltoideo)"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Traumatología y Ortopedia",
+      "tema": "Anatomía del tobillo",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "Signo relevante en la luxación posterior del codo:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Pérdida del triángulo de Nelaton (Hüter)"
+        },
+        {
+          "letra": "B",
+          "texto": "Deformidad en dorso de tenedor"
+        },
+        {
+          "letra": "C",
+          "texto": "Signo de la tecla"
+        },
+        {
+          "letra": "D",
+          "texto": "Signo de Froment"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Traumatología y Ortopedia",
+      "tema": "Luxación de codo",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "En un politraumatismo, ¿qué NO evalúa la nemotecnia AMPLIA?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Alergias"
+        },
+        {
+          "letra": "B",
+          "texto": "Medicamentos"
+        },
+        {
+          "letra": "C",
+          "texto": "Patologías previas"
+        },
+        {
+          "letra": "D",
+          "texto": "Metas a obtener en el tratamiento"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Medicina de Urgencias",
+      "tema": "Valoración del politraumatizado",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "¿Qué medicamento está contraindicado (no se usa) en el paciente con asma?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Tiopental"
+        },
+        {
+          "letra": "B",
+          "texto": "Ketamina"
+        },
+        {
+          "letra": "C",
+          "texto": "Propofol"
+        },
+        {
+          "letra": "D",
+          "texto": "Sevoflurano"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anestesiología",
+      "tema": "Anestesia en el paciente asmático",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "¿Qué ley regula el ejercicio de la anestesiología en Colombia?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Ley 6ª de 1991"
+        },
+        {
+          "letra": "B",
+          "texto": "Ley 100 de 1993"
+        },
+        {
+          "letra": "C",
+          "texto": "Ley 23 de 1981"
+        },
+        {
+          "letra": "D",
+          "texto": "Ley 911 de 2004"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anestesiología",
+      "tema": "Normatividad en anestesia",
+      "dificultad": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "La clasificación de Cormack-Lehane se relaciona con:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "La clasificación de Mallampati"
+        },
+        {
+          "letra": "B",
+          "texto": "La escala de Glasgow"
+        },
+        {
+          "letra": "C",
+          "texto": "La clasificación ASA"
+        },
+        {
+          "letra": "D",
+          "texto": "La escala de Aldrete"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anestesiología",
+      "tema": "Vía aérea difícil",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "La dexmedetomidina actúa como:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Agonista de los receptores alfa-2 adrenérgicos"
+        },
+        {
+          "letra": "B",
+          "texto": "Antagonista de receptores NMDA"
+        },
+        {
+          "letra": "C",
+          "texto": "Agonista de receptores GABA"
+        },
+        {
+          "letra": "D",
+          "texto": "Antagonista de receptores muscarínicos"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anestesiología",
+      "tema": "Farmacología anestésica",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "La clasificación ASA VI corresponde a:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Paciente donante de órganos (muerte cerebral)"
+        },
+        {
+          "letra": "B",
+          "texto": "Paciente moribundo que no se espera sobreviva sin cirugía"
+        },
+        {
+          "letra": "C",
+          "texto": "Paciente sano"
+        },
+        {
+          "letra": "D",
+          "texto": "Paciente con enfermedad sistémica grave"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anestesiología",
+      "tema": "Clasificación ASA",
+      "dificultad": "baja",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "¿Cuál anestésico inhalado (hipnótico) es el menos fisiológico?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Desflurano"
+        },
+        {
+          "letra": "B",
+          "texto": "Sevoflurano"
+        },
+        {
+          "letra": "C",
+          "texto": "Isoflurano"
+        },
+        {
+          "letra": "D",
+          "texto": "Óxido nitroso"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anestesiología",
+      "tema": "Anestésicos inhalados",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "¿Cuál AINE se asocia a mayor riesgo de sangrado intestinal?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Ketorolaco"
+        },
+        {
+          "letra": "B",
+          "texto": "Ibuprofeno"
+        },
+        {
+          "letra": "C",
+          "texto": "Acetaminofén"
+        },
+        {
+          "letra": "D",
+          "texto": "Celecoxib"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anestesiología",
+      "tema": "Analgesia perioperatoria",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "Según el SCARE y la sociedad de anestesiología, ¿cuál de los siguientes NO es obligatorio en la monitoría de la anestesia?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Monitoreo electrocardiográfico"
+        },
+        {
+          "letra": "B",
+          "texto": "Índice biespectral (BIS)"
+        },
+        {
+          "letra": "C",
+          "texto": "Monitoreo de presión arterial"
+        },
+        {
+          "letra": "D",
+          "texto": "Oximetría de pulso"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Anestesiología",
+      "tema": "Monitoría anestésica",
+      "dificultad": "media",
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "¿Cuál anestésico inhalado no es el ideal por sus efectos adversos?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Enflurano"
+        },
+        {
+          "letra": "B",
+          "texto": "Sevoflurano"
+        },
+        {
+          "letra": "C",
+          "texto": "Isoflurano"
+        },
+        {
+          "letra": "D",
+          "texto": "Desflurano"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anestesiología",
+      "tema": "Anestésicos inhalados",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "¿Qué característica hace referencia a la relajación del miocardio?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Lusitropía"
+        },
+        {
+          "letra": "B",
+          "texto": "Inotropía"
+        },
+        {
+          "letra": "C",
+          "texto": "Cronotropía"
+        },
+        {
+          "letra": "D",
+          "texto": "Dromotropía"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Fisiología",
+      "tema": "Fisiología cardíaca",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "La capacidad residual funcional es igual a:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Volumen de reserva espiratoria + volumen residual"
+        },
+        {
+          "letra": "B",
+          "texto": "Volumen corriente + volumen de reserva inspiratoria"
+        },
+        {
+          "letra": "C",
+          "texto": "Volumen residual + volumen corriente"
+        },
+        {
+          "letra": "D",
+          "texto": "Capacidad vital + volumen residual"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Fisiología",
+      "tema": "Volúmenes pulmonares",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "En la consulta preanestésica, ¿qué exámenes debe solicitar el anestesiólogo?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Exámenes de acuerdo con los antecedentes del paciente"
+        },
+        {
+          "letra": "B",
+          "texto": "Siempre exámenes de rutina completos a todos los pacientes"
+        },
+        {
+          "letra": "C",
+          "texto": "Ningún examen"
+        },
+        {
+          "letra": "D",
+          "texto": "Únicamente electrocardiograma"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anestesiología",
+      "tema": "Valoración preanestésica",
+      "dificultad": "baja",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "¿Cuál anestésico local es de tipo éster?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Procaína"
+        },
+        {
+          "letra": "B",
+          "texto": "Lidocaína"
+        },
+        {
+          "letra": "C",
+          "texto": "Bupivacaína"
+        },
+        {
+          "letra": "D",
+          "texto": "Ropivacaína"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anestesiología",
+      "tema": "Anestésicos locales",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "Las zonas de West describen:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "La circulación pulmonar (relación ventilación/perfusión)"
+        },
+        {
+          "letra": "B",
+          "texto": "La circulación coronaria"
+        },
+        {
+          "letra": "C",
+          "texto": "El flujo sanguíneo cerebral"
+        },
+        {
+          "letra": "D",
+          "texto": "La circulación renal"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Fisiología",
+      "tema": "Fisiología respiratoria",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "La escala de Apfel se utiliza para:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Predecir náuseas y vómito postoperatorio"
+        },
+        {
+          "letra": "B",
+          "texto": "Predecir vía aérea difícil"
+        },
+        {
+          "letra": "C",
+          "texto": "Evaluar el nivel de sedación"
+        },
+        {
+          "letra": "D",
+          "texto": "Estimar el riesgo cardiovascular perioperatorio"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anestesiología",
+      "tema": "Náusea y vómito postoperatorio",
+      "dificultad": "baja",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "Paciente gestante con preeclampsia (TA 140/90), signos de falla hepática y creatinina 1.4, en tratamiento con sulfato de magnesio, que va a cesárea con anestesia general. Si se le administra rocuronio:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Prolonga el efecto del bloqueo neuromuscular"
+        },
+        {
+          "letra": "B",
+          "texto": "Compite por el calcio y disminuye el efecto del bloqueo neuromuscular"
+        },
+        {
+          "letra": "C",
+          "texto": "No tiene ninguna interacción con el sulfato de magnesio"
+        },
+        {
+          "letra": "D",
+          "texto": "Acorta el efecto del bloqueo neuromuscular"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anestesiología",
+      "tema": "Bloqueo neuromuscular y sulfato de magnesio",
+      "dificultad": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "¿Por qué no se recomienda iniciar la alimentación complementaria antes de los 6 meses?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Por riesgo de atragantamiento"
+        },
+        {
+          "letra": "B",
+          "texto": "Por disminución de la biodisponibilidad del zinc y el hierro de la leche materna"
+        },
+        {
+          "letra": "C",
+          "texto": "Por aumento del riesgo de diabetes mellitus tipo 2"
+        },
+        {
+          "letra": "D",
+          "texto": "Por cambio a un alimento menos nutritivo"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Pediatría",
+      "tema": "Alimentación complementaria",
+      "dificultad": "media",
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "¿Cuál de los siguientes virus NO es un virus ARN?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Virus sincitial respiratorio"
+        },
+        {
+          "letra": "B",
+          "texto": "Coronavirus"
+        },
+        {
+          "letra": "C",
+          "texto": "Bocavirus"
+        },
+        {
+          "letra": "D",
+          "texto": "Rotavirus"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Pediatría",
+      "tema": "Virología / infecciones respiratorias",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "¿En cuál de las siguientes cardiopatías congénitas NO se presenta compromiso/hiperflujo pulmonar?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Estenosis pulmonar"
+        },
+        {
+          "letra": "B",
+          "texto": "Transposición de grandes vasos"
+        },
+        {
+          "letra": "C",
+          "texto": "Coartación de la aorta"
+        },
+        {
+          "letra": "D",
+          "texto": "Comunicación interventricular"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Pediatría",
+      "tema": "Cardiopatías congénitas",
+      "dificultad": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "Respecto a la anatomía de la pared abdominal, ¿cuál de las siguientes afirmaciones es correcta?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "El conducto inguinal profundo es medial a la arteria epigástrica inferior"
+        },
+        {
+          "letra": "B",
+          "texto": "La fascia de Camper recubre el escroto y el periné"
+        },
+        {
+          "letra": "C",
+          "texto": "El oblicuo interno se inserta en las 8 costillas inferiores"
+        },
+        {
+          "letra": "D",
+          "texto": "El músculo piramidal da soporte a la línea alba"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Anatomía",
+      "tema": "Pared abdominal",
+      "dificultad": "media",
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "Paciente con emergencia hipertensiva y edema pulmonar. ¿Qué medicamento se debe administrar?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Nitroglicerina"
+        },
+        {
+          "letra": "B",
+          "texto": "Nifedipino sublingual"
+        },
+        {
+          "letra": "C",
+          "texto": "Furosemida oral"
+        },
+        {
+          "letra": "D",
+          "texto": "Betabloqueador"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Medicina de Urgencias",
+      "tema": "Emergencia hipertensiva",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "Paciente con dolor torácico y elevación transitoria del segmento ST que normaliza el EKG tras la administración de nitroglicerina. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Angina de Prinzmetal (vasoespástica)"
+        },
+        {
+          "letra": "B",
+          "texto": "Infarto agudo de miocardio con elevación del ST"
+        },
+        {
+          "letra": "C",
+          "texto": "Angina estable"
+        },
+        {
+          "letra": "D",
+          "texto": "Pericarditis aguda"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cardiología",
+      "tema": "Angina vasoespástica",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "Paciente con viaje reciente al Tolima, fiebre, hepatomegalia, función hepática y renal alteradas y hemorragia gingival, con IgM para dengue negativa y gota gruesa negativa. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Fiebre amarilla"
+        },
+        {
+          "letra": "B",
+          "texto": "Dengue grave"
+        },
+        {
+          "letra": "C",
+          "texto": "Malaria"
+        },
+        {
+          "letra": "D",
+          "texto": "Leptospirosis"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Infectología",
+      "tema": "Fiebre amarilla",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "Paciente con VIH (CD4 aproximadamente 260) que presenta una placa blanca indolora en el borde lateral de la lengua que no se desprende al raspado. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Leucoplasia vellosa oral"
+        },
+        {
+          "letra": "B",
+          "texto": "Candidiasis oral"
+        },
+        {
+          "letra": "C",
+          "texto": "Liquen plano oral"
+        },
+        {
+          "letra": "D",
+          "texto": "Carcinoma escamocelular"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Infectología",
+      "tema": "Leucoplasia vellosa oral (VIH)",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "Paciente con gammapatía monoclonal de significado incierto (MGUS). ¿Cuál es la conducta a seguir?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Seguimiento periódico con exámenes"
+        },
+        {
+          "letra": "B",
+          "texto": "Quimioterapia inmediata"
+        },
+        {
+          "letra": "C",
+          "texto": "Trasplante de médula ósea"
+        },
+        {
+          "letra": "D",
+          "texto": "Radioterapia"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Hematología",
+      "tema": "Gammapatía monoclonal de significado incierto",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "Paciente con antecedente de accidente automovilístico, intubación y traqueostomía temporal, que consulta por disnea, tos y estridor audible. La espirometría muestra un patrón de:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Obstrucción fija de la vía aérea superior"
+        },
+        {
+          "letra": "B",
+          "texto": "Patrón restrictivo"
+        },
+        {
+          "letra": "C",
+          "texto": "Patrón obstructivo reversible"
+        },
+        {
+          "letra": "D",
+          "texto": "Espirometría normal"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neumología",
+      "tema": "Obstrucción de vía aérea superior",
+      "dificultad": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2025,
+      "fuente": "Reconstrucción Bosque 2025-1"
+    },
+    {
+      "enunciado": "El signo de Cullen es sugestivo de trauma de tipo:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Cerrado de abdomen"
+        },
+        {
+          "letra": "B",
+          "texto": "Pélvico"
+        },
+        {
+          "letra": "C",
+          "texto": "Torácico"
+        },
+        {
+          "letra": "D",
+          "texto": "Cervical"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cirugía General",
+      "tema": "Trauma abdominal / signo de Cullen",
+      "dificultad": "media",
+      "anio": 2024,
+      "fuente": "Reconstrucción Bosque 2024-1"
+    },
+    {
+      "enunciado": "¿Cuál es el origen embrionario del sarcoma?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Células mesenquimales"
+        },
+        {
+          "letra": "B",
+          "texto": "Cresta neural"
+        },
+        {
+          "letra": "C",
+          "texto": "Células mesoteliales"
+        },
+        {
+          "letra": "D",
+          "texto": "Mesénquima mesonéfrico"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Oncología",
+      "tema": "Sarcomas / origen embrionario",
+      "dificultad": "media",
+      "anio": 2024,
+      "fuente": "Reconstrucción Bosque 2024-1"
+    },
+    {
+      "enunciado": "La ivabradina es un medicamento del tipo:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Bloqueador beta 1 selectivo"
+        },
+        {
+          "letra": "B",
+          "texto": "Bloqueador beta 1 selectivo y antagonista alfa 1"
+        },
+        {
+          "letra": "C",
+          "texto": "Inhibidor de la corriente If del nodo sinusal"
+        },
+        {
+          "letra": "D",
+          "texto": "Digitálico"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Farmacología",
+      "tema": "Ivabradina / corriente If",
+      "dificultad": "media",
+      "anio": 2024,
+      "fuente": "Reconstrucción Bosque 2024-1"
+    },
+    {
+      "enunciado": "¿Cuál es el anticoagulante de elección en un paciente con trombocitopenia (inducida por heparina)?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Fondaparinux"
+        },
+        {
+          "letra": "B",
+          "texto": "Warfarina"
+        },
+        {
+          "letra": "C",
+          "texto": "Rivaroxabán"
+        },
+        {
+          "letra": "D",
+          "texto": "Argatrobán"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Hematología",
+      "tema": "Trombocitopenia inducida por heparina / anticoagulación",
+      "dificultad": "media",
+      "anio": 2024,
+      "fuente": "Reconstrucción Bosque 2024-1"
+    },
+    {
+      "enunciado": "¿Cuál es el sitio más frecuente de la coartación aórtica?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Tronco de la aorta ascendente"
+        },
+        {
+          "letra": "B",
+          "texto": "Cerca al origen de la arteria carótida común izquierda"
+        },
+        {
+          "letra": "C",
+          "texto": "Entre el tronco braquiocefálico izquierdo y la subclavia izquierda"
+        },
+        {
+          "letra": "D",
+          "texto": "Entre la carótida común izquierda y la subclavia izquierda"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Cardiología",
+      "tema": "Coartación aórtica",
+      "dificultad": "media",
+      "anio": 2024,
+      "fuente": "Reconstrucción Bosque 2024-1"
+    },
+    {
+      "enunciado": "¿Cuál de los siguientes antibióticos NO tiene acción frente a Pseudomonas?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Ampicilina/sulbactam"
+        },
+        {
+          "letra": "B",
+          "texto": "Piperacilina/tazobactam"
+        },
+        {
+          "letra": "C",
+          "texto": "Meropenem"
+        },
+        {
+          "letra": "D",
+          "texto": "Cefepime"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Farmacología",
+      "tema": "Antibióticos antipseudomonas",
+      "dificultad": "media",
+      "anio": 2024,
+      "fuente": "Reconstrucción Bosque 2024-1"
+    },
+    {
+      "enunciado": "¿Cuál antibiótico abre poros en la membrana de las bacterias gram negativas?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Meropenem"
+        },
+        {
+          "letra": "B",
+          "texto": "Polimixina"
+        },
+        {
+          "letra": "C",
+          "texto": "Daptomicina"
+        },
+        {
+          "letra": "D",
+          "texto": "Rifampicina"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Farmacología",
+      "tema": "Polimixinas / mecanismo de acción",
+      "dificultad": "media",
+      "anio": 2024,
+      "fuente": "Reconstrucción Bosque 2024-1"
+    },
+    {
+      "enunciado": "¿Cuál es un efecto secundario característico de los bifosfonatos?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Esofagitis"
+        },
+        {
+          "letra": "B",
+          "texto": "Hipercalcemia"
+        },
+        {
+          "letra": "C",
+          "texto": "Hiperfosfatemia"
+        },
+        {
+          "letra": "D",
+          "texto": "Hepatotoxicidad"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Farmacología",
+      "tema": "Bifosfonatos / efectos adversos",
+      "dificultad": "baja",
+      "anio": 2024,
+      "fuente": "Reconstrucción Bosque 2024-1"
+    },
+    {
+      "enunciado": "¿Cuál de las siguientes fracturas genera más comúnmente embolia grasa?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Fractura de diáfisis de fémur"
+        },
+        {
+          "letra": "B",
+          "texto": "Fractura de cadera"
+        },
+        {
+          "letra": "C",
+          "texto": "Fractura de húmero"
+        },
+        {
+          "letra": "D",
+          "texto": "Fractura de tibia"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Traumatología y Ortopedia",
+      "tema": "Embolia grasa / fracturas",
+      "dificultad": "media",
+      "anio": 2024,
+      "fuente": "Reconstrucción Bosque 2024-1"
+    },
+    {
+      "enunciado": "¿A dónde genera principalmente metástasis el osteosarcoma?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Cerebro"
+        },
+        {
+          "letra": "B",
+          "texto": "Pulmón"
+        },
+        {
+          "letra": "C",
+          "texto": "Hueso"
+        },
+        {
+          "letra": "D",
+          "texto": "Hígado"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Oncología",
+      "tema": "Osteosarcoma / metástasis",
+      "dificultad": "baja",
+      "anio": 2024,
+      "fuente": "Reconstrucción Bosque 2024-1"
+    },
+    {
+      "enunciado": "¿Qué ligamento le da más estabilidad a la rodilla?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Cruzado anterior"
+        },
+        {
+          "letra": "B",
+          "texto": "Colateral medial"
+        },
+        {
+          "letra": "C",
+          "texto": "Colateral lateral"
+        },
+        {
+          "letra": "D",
+          "texto": "Cruzado posterior"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Traumatología y Ortopedia",
+      "tema": "Estabilidad de la rodilla / ligamentos",
+      "dificultad": "baja",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Bosque 2024-1"
+    },
+    {
+      "enunciado": "¿Cuál es la víscera hueca más frecuentemente lesionada en el trauma abdominal por herida por arma de fuego (HPAF)?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Intestino delgado"
+        },
+        {
+          "letra": "B",
+          "texto": "Estómago"
+        },
+        {
+          "letra": "C",
+          "texto": "Colon transverso"
+        },
+        {
+          "letra": "D",
+          "texto": "Esófago"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cirugía General",
+      "tema": "Trauma abdominal por arma de fuego",
+      "dificultad": "media",
+      "anio": 2024,
+      "fuente": "Reconstrucción Bosque 2024-1"
+    },
+    {
+      "enunciado": "¿Cuál de los siguientes es un choque de tipo distributivo?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Hemorrágico y cardiogénico"
+        },
+        {
+          "letra": "B",
+          "texto": "Traumático y hemorrágico"
+        },
+        {
+          "letra": "C",
+          "texto": "Neurogénico y anafiláctico"
+        },
+        {
+          "letra": "D",
+          "texto": "Séptico y anafiláctico"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Medicina de Urgencias",
+      "tema": "Clasificación del choque",
+      "dificultad": "media",
+      "anio": 2024,
+      "fuente": "Reconstrucción Bosque 2024-1"
+    },
+    {
+      "enunciado": "¿Cuál es el mecanismo de acción del linezolid?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Subunidad 50S, sitio A"
+        },
+        {
+          "letra": "B",
+          "texto": "Subunidad 50S, sitio P"
+        },
+        {
+          "letra": "C",
+          "texto": "Inhibe la topoisomerasa tipo II"
+        },
+        {
+          "letra": "D",
+          "texto": "Inhibe la ARN polimerasa"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Farmacología",
+      "tema": "Linezolid / mecanismo de acción",
+      "dificultad": "media",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Bosque 2024-1"
+    },
+    {
+      "enunciado": "¿Cuál es el mecanismo de acción de la eritromicina?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Subunidad 50S, sitio A"
+        },
+        {
+          "letra": "B",
+          "texto": "Subunidad 50S, sitio P"
+        },
+        {
+          "letra": "C",
+          "texto": "Inhibe la topoisomerasa tipo II"
+        },
+        {
+          "letra": "D",
+          "texto": "Inhibe la ARN polimerasa"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Farmacología",
+      "tema": "Macrólidos / mecanismo de acción",
+      "dificultad": "media",
+      "anio": 2024,
+      "fuente": "Reconstrucción Bosque 2024-1"
+    },
+    {
+      "enunciado": "Respecto al denosumab en osteoporosis, ¿cuál afirmación NO es cierta?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Actúa sobre RANK-L"
+        },
+        {
+          "letra": "B",
+          "texto": "Es un medicamento antirresortivo"
+        },
+        {
+          "letra": "C",
+          "texto": "Aumenta la densidad ósea y su geometría"
+        },
+        {
+          "letra": "D",
+          "texto": "Es un anticuerpo monoclonal quimérico (humano/murino)"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Farmacología",
+      "tema": "Denosumab / osteoporosis",
+      "dificultad": "media",
+      "anio": 2024,
+      "fuente": "Reconstrucción Bosque 2024-1"
+    },
+    {
+      "enunciado": "Sobre la warfarina, ¿cuál de las siguientes afirmaciones NO es cierta?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Tiene unión a proteínas plasmáticas del 99%"
+        },
+        {
+          "letra": "B",
+          "texto": "Inhibe la epóxido reductasa, inhibiendo la oxidación de la vitamina K e inhibe la síntesis hepática de proteína S, C y Z"
+        },
+        {
+          "letra": "C",
+          "texto": "Se ve afectada por factores farmacocinéticos, farmacotécnicos y farmacogenéticos"
+        },
+        {
+          "letra": "D",
+          "texto": "Tiene una fase procoagulante"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Farmacología",
+      "tema": "Warfarina / farmacología",
+      "dificultad": "alta",
+      "anio": 2024,
+      "fuente": "Reconstrucción Bosque 2024-1"
+    },
+    {
+      "enunciado": "Sobre el idarucizumab, ¿cuál de las siguientes afirmaciones es correcta?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Inhibe al rivaroxabán y a la trombina"
+        },
+        {
+          "letra": "B",
+          "texto": "Inhibe al dabigatrán y su unión al factor Xa"
+        },
+        {
+          "letra": "C",
+          "texto": "Inhibe al dabigatrán y su unión a la trombina"
+        },
+        {
+          "letra": "D",
+          "texto": "Inhibe al apixabán y su unión al factor X"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Farmacología",
+      "tema": "Idarucizumab / reversión de anticoagulación",
+      "dificultad": "media",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Bosque 2024-1"
+    },
+    {
+      "enunciado": "Paciente de 50 años con antecedente de diabetes mellitus, cursando con infección de tejidos blandos. Según el microorganismo que usted sospecha, ¿cuál de los siguientes antibióticos inhibe las toxinas?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Piperacilina/tazobactam"
+        },
+        {
+          "letra": "B",
+          "texto": "Vancomicina"
+        },
+        {
+          "letra": "C",
+          "texto": "Clindamicina"
+        },
+        {
+          "letra": "D",
+          "texto": "Daptomicina"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Infectología",
+      "tema": "Clindamicina / inhibición de toxinas",
+      "dificultad": "media",
+      "anio": 2024,
+      "fuente": "Reconstrucción Bosque 2024-1"
+    },
+    {
+      "enunciado": "¿Cuál de las siguientes es causa de preeclampsia antes de las 20 semanas de gestación?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Embarazo múltiple"
+        },
+        {
+          "letra": "B",
+          "texto": "Enfermedad trofoblástica"
+        },
+        {
+          "letra": "C",
+          "texto": "Hiperemesis gravídica"
+        },
+        {
+          "letra": "D",
+          "texto": "Hipertensión arterial crónica"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Preeclampsia temprana / causas",
+      "dificultad": "media",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Bosque 2024-1"
+    },
+    {
+      "enunciado": "Respecto a los antituberculosos, ¿qué medicamentos generan, respectivamente, déficit de piridoxina y afectación de la agudeza visual?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Rifampicina / rifabutina"
+        },
+        {
+          "letra": "B",
+          "texto": "Isoniacida / etambutol"
+        },
+        {
+          "letra": "C",
+          "texto": "Etambutol y pirazinamida"
+        },
+        {
+          "letra": "D",
+          "texto": "Amikacina / estreptomicina"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Farmacología",
+      "tema": "Antituberculosos / efectos adversos",
+      "dificultad": "media",
+      "anio": 2024,
+      "fuente": "Reconstrucción Bosque 2024-1"
+    },
+    {
+      "enunciado": "Respecto a los nuevos anticoagulantes orales (directos), ¿cuál afirmación es correcta?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Dosis fija oral y vida media corta"
+        },
+        {
+          "letra": "B",
+          "texto": "Requieren evaluación constante para monitorizar su efecto anticoagulante"
+        },
+        {
+          "letra": "C",
+          "texto": "Su efecto anticoagulante es impredecible"
+        },
+        {
+          "letra": "D",
+          "texto": "Interactúan con muchos fármacos y alimentos"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Farmacología",
+      "tema": "Anticoagulantes orales directos",
+      "dificultad": "media",
+      "anio": 2024,
+      "fuente": "Reconstrucción Bosque 2024-1"
+    },
+    {
+      "enunciado": "¿Qué grado de quemadura cursa con hipoestesia?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Grado 1"
+        },
+        {
+          "letra": "B",
+          "texto": "Grado 2 superficial"
+        },
+        {
+          "letra": "C",
+          "texto": "Grado 2 profundo"
+        },
+        {
+          "letra": "D",
+          "texto": "Grado 3"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Cirugía General",
+      "tema": "Quemaduras / clasificación",
+      "dificultad": "media",
+      "anio": 2024,
+      "fuente": "Reconstrucción Bosque 2024-1"
+    },
+    {
+      "enunciado": "¿Qué estructura diferencia una quemadura de grado superficial de una profunda?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Dermis reticular"
+        },
+        {
+          "letra": "B",
+          "texto": "Dermis papilar"
+        },
+        {
+          "letra": "C",
+          "texto": "Estrato granuloso"
+        },
+        {
+          "letra": "D",
+          "texto": "Estrato espinoso"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cirugía General",
+      "tema": "Quemaduras / profundidad dérmica",
+      "dificultad": "media",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Bosque 2024-1"
+    },
+    {
+      "enunciado": "La infección por el virus del herpes zóster en el nervio facial, ¿qué NO produce?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Hiperacusia"
+        },
+        {
+          "letra": "B",
+          "texto": "Otalgia"
+        },
+        {
+          "letra": "C",
+          "texto": "Vértigo"
+        },
+        {
+          "letra": "D",
+          "texto": "Parálisis facial"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Otorrinolaringología",
+      "tema": "Síndrome de Ramsay Hunt",
+      "dificultad": "media",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Bosque 2024-1"
+    },
+    {
+      "enunciado": "Una enfermera embarazada tuvo contacto reciente con un caso de Neisseria meningitidis. ¿Qué profilaxis se le debe dar?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Ceftriaxona 250 mg IM en dosis única"
+        },
+        {
+          "letra": "B",
+          "texto": "Doxiciclina 100 mg VO cada 12 horas por 3 días"
+        },
+        {
+          "letra": "C",
+          "texto": "Ciprofloxacina 500 mg en dosis única"
+        },
+        {
+          "letra": "D",
+          "texto": "Rifampicina 600 mg cada 12 horas por 48 horas"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Infectología",
+      "tema": "Profilaxis de meningococo en el embarazo",
+      "dificultad": "media",
+      "anio": 2024,
+      "fuente": "Reconstrucción Bosque 2024-1"
+    },
+    {
+      "enunciado": "¿Cuál es el lugar más frecuente de quemaduras?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Miembros superiores"
+        },
+        {
+          "letra": "B",
+          "texto": "Miembros inferiores"
+        },
+        {
+          "letra": "C",
+          "texto": "Tronco anterior"
+        },
+        {
+          "letra": "D",
+          "texto": "Tronco posterior"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cirugía General",
+      "tema": "Epidemiología de las quemaduras",
+      "dificultad": "baja",
+      "anio": 2024,
+      "fuente": "Reconstrucción Bosque 2024-1"
+    },
+    {
+      "enunciado": "Respecto a los huesecillos del oído, ¿cuál afirmación es correcta?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "El yunque es oblicuo"
+        },
+        {
+          "letra": "B",
+          "texto": "El manubrio del martillo está en contacto con la membrana timpánica"
+        },
+        {
+          "letra": "C",
+          "texto": "El estribo se articula con la ventana oval"
+        },
+        {
+          "letra": "D",
+          "texto": "Todas las articulaciones son sindesmosis"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Anatomía",
+      "tema": "Anatomía del oído medio",
+      "dificultad": "media",
+      "anio": 2024,
+      "fuente": "Reconstrucción Bosque 2024-1"
+    },
+    {
+      "enunciado": "¿Cuál de las siguientes afirmaciones NO es cierta sobre las heparinas de bajo peso molecular (HBPM)?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Tienen vida media larga"
+        },
+        {
+          "letra": "B",
+          "texto": "Biodisponibilidad del 99%"
+        },
+        {
+          "letra": "C",
+          "texto": "No se reabsorben"
+        },
+        {
+          "letra": "D",
+          "texto": "Tienen alta unión a proteínas plasmáticas"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Farmacología",
+      "tema": "Heparinas de bajo peso molecular",
+      "dificultad": "media",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Bosque 2024-1"
+    },
+    {
+      "enunciado": "Hombre de 50 años con dolor en columna lumbar, HLA-B27 negativo y radiografía con puentes óseos. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Espondilitis anquilosante"
+        },
+        {
+          "letra": "B",
+          "texto": "Enfermedad de Paget"
+        },
+        {
+          "letra": "C",
+          "texto": "Hiperostosis esquelética idiopática difusa (DISH)"
+        },
+        {
+          "letra": "D",
+          "texto": "Artrosis lumbar"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Reumatología",
+      "tema": "Espondiloartropatías / diagnóstico diferencial",
+      "dificultad": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Bosque 2024-1"
+    },
+    {
+      "enunciado": "¿Qué hormona está implicada en la fase proliferativa del endometrio?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Estrógenos"
+        },
+        {
+          "letra": "B",
+          "texto": "Progesterona"
+        },
+        {
+          "letra": "C",
+          "texto": "LH"
+        },
+        {
+          "letra": "D",
+          "texto": "Hormona liberadora de gonadotropina"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Ciclo endometrial",
+      "dificultad": "baja",
+      "anio": 2024,
+      "fuente": "Reconstrucción Bosque 2024-1"
+    },
+    {
+      "enunciado": "Paciente de 19 años, atleta, con hipertensión arterial (cifras alrededor de 180/90), pulsos pedios saltones y antecedente de cifras tensionales elevadas; uroanálisis normal, perfil metabólico normal y perfil endocrinológico normal. ¿Cuál es la sospecha diagnóstica?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Feocromocitoma"
+        },
+        {
+          "letra": "B",
+          "texto": "Hiperaldosteronismo primario"
+        },
+        {
+          "letra": "C",
+          "texto": "Displasia fibromuscular de la arteria renal"
+        },
+        {
+          "letra": "D",
+          "texto": "SAHOS"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Medicina Interna",
+      "tema": "Hipertensión arterial secundaria en el joven",
+      "dificultad": "alta",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Bosque 2024-1"
+    },
+    {
+      "enunciado": "Paciente de 80 años con antecedente reciente de manejo endovascular con stent por enfermedad arterial en miembros inferiores. Paraclínicos: colesterol total 140, HDL 40, LDL 85, triglicéridos 156. ¿Cuál sería el manejo más ideal?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Omega 3"
+        },
+        {
+          "letra": "B",
+          "texto": "Ezetimibe con rosuvastatina"
+        },
+        {
+          "letra": "C",
+          "texto": "Niacina"
+        },
+        {
+          "letra": "D",
+          "texto": "Rosuvastatina a dosis moderadas"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Cardiología",
+      "tema": "Manejo de dislipidemia en enfermedad ateroesclerótica establecida",
+      "dificultad": "alta",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Bosque 2024-1"
+    },
+    {
+      "enunciado": "Paciente adulto con antecedente de EPOC en manejo con salmeterol, que usaba rescate inicialmente 1-2 veces por semana y luego 4-5 veces incluso en la noche, con 2 exacerbaciones en el año, tos y hemograma con eosinófilos en 113. ¿Qué terapia se adicionaría?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Montelukast"
+        },
+        {
+          "letra": "B",
+          "texto": "Budesonida"
+        },
+        {
+          "letra": "C",
+          "texto": "Tiotropio"
+        },
+        {
+          "letra": "D",
+          "texto": "Prednisona"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Neumología",
+      "tema": "EPOC / terapia inhalada con corticoide",
+      "dificultad": "alta",
+      "anio": 2024,
+      "fuente": "Reconstrucción Bosque 2024-1"
+    },
+    {
+      "enunciado": "Paciente masculino de 50 años con antecedente de sinusitis recurrente y neumonía tratada con levofloxacina sin mejoría, que consulta por epistaxis de 2 meses. Signos vitales: TA 144/89, taquipnea, saturación normal, oliguria; hemograma con anemia, uroanálisis con sangre y glóbulos rojos dismórficos, creatinina en 1.8 y radiografía de tórax con infiltrados lobares bilaterales. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Síndrome hemolítico urémico"
+        },
+        {
+          "letra": "B",
+          "texto": "Síndrome de Goodpasture"
+        },
+        {
+          "letra": "C",
+          "texto": "Granulomatosis con poliangeítis"
+        },
+        {
+          "letra": "D",
+          "texto": "Granulomatosis eosinofílica con poliangeítis"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Reumatología",
+      "tema": "Vasculitis ANCA / granulomatosis con poliangeítis",
+      "dificultad": "alta",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true,
+      "anio": 2024,
+      "fuente": "Reconstrucción Bosque 2024-1"
+    },
+    {
+      "enunciado": "Paciente adulto mayor, residente en hogar geriátrico, en tratamiento con prednisolona por patología de base, que consulta por alteración del estado de conciencia y cefalea. Punción lumbar: presión de apertura 130, tinción de Gram negativa, glucosa 45. ¿Cuál es el agente etiológico más probable?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Cryptococcus neoformans"
+        },
+        {
+          "letra": "B",
+          "texto": "Herpesvirus"
+        },
+        {
+          "letra": "C",
+          "texto": "Neumococo"
+        },
+        {
+          "letra": "D",
+          "texto": "Meningococo"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Infectología",
+      "tema": "Meningitis por Cryptococcus en inmunosuprimido",
+      "dificultad": "media",
+      "anio": 2024,
+      "fuente": "Reconstrucción Bosque 2024-1"
+    }
+  ]
+}

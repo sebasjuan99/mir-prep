@@ -61,6 +61,14 @@ const NOMBRES_CONOCIDOS: Record<string, string> = {
   CES: 'CES',
   MIR: 'MIR',
   CALDAS: 'Caldas',
+  CARTAGENA: 'Cartagena',
+  FUCS: 'FUCS',
+  UNIVALLE: 'Univalle',
+  SABANA: 'Sabana',
+  LIBRECALI: 'Libre Cali',
+  UPB: 'UPB',
+  JAVERIANA: 'Javeriana',
+  SINU: 'UniSinú',
 }
 
 interface Opcion { letra: string; texto: string }

@@ -1,0 +1,558 @@
+{
+  "examen": "JAVERIANA",
+  "anio": 2023,
+  "fuente": "Preguntas Javeriana 2023-2",
+  "preguntas": [
+    {
+      "enunciado": "Todos los siguientes libros son escritos por el autor correspondiente, excepto:",
+      "opciones": [
+        {"letra": "A", "texto": "Los Buddenbrook: Thomas Mann"},
+        {"letra": "B", "texto": "El Idiota: Abdulrazak Gurnah"},
+        {"letra": "C", "texto": "Rayuela: Julio Cortázar"},
+        {"letra": "D", "texto": "La Isla: Aldous Huxley"}
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Cultura general - Literatura",
+      "dificultad": "media"
+    },
+    {
+      "enunciado": "El planeta más cercano a la Tierra es:",
+      "opciones": [
+        {"letra": "A", "texto": "Mercurio"},
+        {"letra": "B", "texto": "Venus"},
+        {"letra": "C", "texto": "Marte"},
+        {"letra": "D", "texto": "Neptuno"}
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Cultura general - Astronomía",
+      "dificultad": "baja",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Alejandro Giammattei es presidente de:",
+      "opciones": [
+        {"letra": "A", "texto": "Nicaragua"},
+        {"letra": "B", "texto": "Guatemala"},
+        {"letra": "C", "texto": "Costa Rica"},
+        {"letra": "D", "texto": "Bolivia"}
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Cultura general - Actualidad",
+      "dificultad": "baja",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuántos habitantes tiene la India aproximadamente?",
+      "opciones": [
+        {"letra": "A", "texto": "800 millones"},
+        {"letra": "B", "texto": "1100 millones"},
+        {"letra": "C", "texto": "1380 millones"},
+        {"letra": "D", "texto": "1600 millones"}
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Cultura general - Demografía",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuántas facultades de Medicina tiene Colombia?",
+      "opciones": [
+        {"letra": "A", "texto": "21"},
+        {"letra": "B", "texto": "34"},
+        {"letra": "C", "texto": "52"},
+        {"letra": "D", "texto": "64"}
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Educación médica en Colombia",
+      "dificultad": "media"
+    },
+    {
+      "enunciado": "¿Cuánto es el 25% de 2000?",
+      "opciones": [
+        {"letra": "A", "texto": "500"},
+        {"letra": "B", "texto": "250"},
+        {"letra": "C", "texto": "750"},
+        {"letra": "D", "texto": "1000"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Matemáticas básicas",
+      "dificultad": "baja",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true
+    },
+    {
+      "enunciado": "En 60 años (1958-2018), ¿alrededor de cuántas muertes se han reportado por el conflicto armado en Colombia?",
+      "opciones": [
+        {"letra": "A", "texto": "30000"},
+        {"letra": "B", "texto": "100000"},
+        {"letra": "C", "texto": "270000"},
+        {"letra": "D", "texto": "520000"}
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Cultura general - Colombia",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true
+    },
+    {
+      "enunciado": "La escala de Jadad, descrita por el médico javeriano Alejandro Jadad, sirve para evaluar:",
+      "opciones": [
+        {"letra": "A", "texto": "Experimentos clínicos controlados"},
+        {"letra": "B", "texto": "Casos y controles"},
+        {"letra": "C", "texto": "Cohortes"},
+        {"letra": "D", "texto": "Ninguna de las anteriores"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Medicina basada en la evidencia",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es la cifra de la pobreza monetaria en Colombia?",
+      "opciones": [
+        {"letra": "A", "texto": "15%"},
+        {"letra": "B", "texto": "30%"},
+        {"letra": "C", "texto": "40%"},
+        {"letra": "D", "texto": "60%"}
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Determinantes sociales en salud",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Platón fue todo lo siguiente, excepto:",
+      "opciones": [
+        {"letra": "A", "texto": "Discípulo de Aristóteles"},
+        {"letra": "B", "texto": "Estudiante de Aristóteles"},
+        {"letra": "C", "texto": "Autor de La República"},
+        {"letra": "D", "texto": "Describió objetos abstractos llamados Ideas"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Cultura general - Filosofía",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "baja",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Si en una paciente embarazada la curva de disociación de la hemoglobina del feto se acercara a la de la madre, ¿qué efecto podría traer este cambio sobre la madre o el feto?",
+      "opciones": [
+        {"letra": "A", "texto": "El feto sufriría de anemia"},
+        {"letra": "B", "texto": "La hemoglobina fetal sería más ávida por el oxígeno"},
+        {"letra": "C", "texto": "La madre sufriría de hipotermia"},
+        {"letra": "D", "texto": "Podría generar hipoxia en el feto"}
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Fisiología",
+      "tema": "Transporte de oxígeno materno-fetal",
+      "dificultad": "alta",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál de las siguientes NO es una célula propia de la dermis?",
+      "opciones": [
+        {"letra": "A", "texto": "Fibroblastos"},
+        {"letra": "B", "texto": "Plasmocitos"},
+        {"letra": "C", "texto": "Células dendríticas"},
+        {"letra": "D", "texto": "Monocitos"}
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Dermatología",
+      "tema": "Histología de la piel",
+      "dificultad": "media"
+    },
+    {
+      "enunciado": "¿Cuál neurotransmisor es el principal modulador del dolor e inhibidor de la transmisión neuronal?",
+      "opciones": [
+        {"letra": "A", "texto": "Dopamina"},
+        {"letra": "B", "texto": "Serotonina"},
+        {"letra": "C", "texto": "Beta endorfinas"},
+        {"letra": "D", "texto": "Glutamato"}
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Fisiología",
+      "tema": "Neurofisiología del dolor",
+      "dificultad": "media",
+      "_revisar": true
+    },
+    {
+      "enunciado": "En un estudio, respecto al valor P que indica significancia estadística (mayor fuerza de la asociación), ¿cuál de las siguientes opciones es correcta?",
+      "opciones": [
+        {"letra": "A", "texto": "Menor a 0,05"},
+        {"letra": "B", "texto": "Mayor a 0,05"},
+        {"letra": "C", "texto": "95%"},
+        {"letra": "D", "texto": "No se puede saber"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Bioestadística - Valor P",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuántos habitantes tiene aproximadamente la Tierra?",
+      "opciones": [
+        {"letra": "A", "texto": "5.500 millones"},
+        {"letra": "B", "texto": "6.900 millones"},
+        {"letra": "C", "texto": "7.900 millones"},
+        {"letra": "D", "texto": "9.500 millones"}
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Cultura general - Demografía",
+      "dificultad": "baja",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuáles son los hallazgos electrocardiográficos característicos de la hipokalemia?",
+      "opciones": [
+        {"letra": "A", "texto": "Depresión del segmento ST, disminución de la amplitud de la onda T y ondas U prominentes"},
+        {"letra": "B", "texto": "Ondas T picudas y ensanchamiento del QRS"},
+        {"letra": "C", "texto": "Elevación del segmento ST en cara anterior"},
+        {"letra": "D", "texto": "Onda delta e intervalo PR corto"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cardiología",
+      "tema": "Trastornos electrolíticos en el EKG",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿A qué valor de P corresponde un intervalo de confianza del 99%?",
+      "opciones": [
+        {"letra": "A", "texto": "0,01"},
+        {"letra": "B", "texto": "0,05"},
+        {"letra": "C", "texto": "0,10"},
+        {"letra": "D", "texto": "0,99"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Bioestadística - Intervalos de confianza",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es la causa más frecuente de hipertensión arterial secundaria?",
+      "opciones": [
+        {"letra": "A", "texto": "Enfermedad renal parenquimatosa"},
+        {"letra": "B", "texto": "Feocromocitoma"},
+        {"letra": "C", "texto": "Hiperaldosteronismo primario"},
+        {"letra": "D", "texto": "Coartación de aorta"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Nefrología",
+      "tema": "Hipertensión arterial secundaria",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es la capital de Honduras?",
+      "opciones": [
+        {"letra": "A", "texto": "Tegucigalpa"},
+        {"letra": "B", "texto": "San Salvador"},
+        {"letra": "C", "texto": "Managua"},
+        {"letra": "D", "texto": "Ciudad de Guatemala"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Cultura general - Geografía",
+      "dificultad": "baja",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿De qué país es presidente Nayib Bukele?",
+      "opciones": [
+        {"letra": "A", "texto": "El Salvador"},
+        {"letra": "B", "texto": "Guatemala"},
+        {"letra": "C", "texto": "Honduras"},
+        {"letra": "D", "texto": "Nicaragua"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Cultura general - Actualidad",
+      "dificultad": "baja",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Según el modelo celular de la hemostasia, ¿cuáles son las fases de la cascada de la coagulación?",
+      "opciones": [
+        {"letra": "A", "texto": "Iniciación, amplificación y propagación"},
+        {"letra": "B", "texto": "Vía intrínseca, extrínseca y común"},
+        {"letra": "C", "texto": "Adhesión, activación y agregación"},
+        {"letra": "D", "texto": "Vasoconstricción, tapón plaquetario y coágulo definitivo"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Hematología",
+      "tema": "Hemostasia y coagulación",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es el mecanismo de acción del fluconazol?",
+      "opciones": [
+        {"letra": "A", "texto": "Inhibe la síntesis de ergosterol al bloquear la 14-alfa-desmetilasa"},
+        {"letra": "B", "texto": "Se une al ergosterol formando poros en la membrana"},
+        {"letra": "C", "texto": "Inhibe la síntesis de beta-glucano de la pared celular"},
+        {"letra": "D", "texto": "Inhibe la síntesis de ácidos nucleicos fúngicos"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Farmacología",
+      "tema": "Antifúngicos azólicos",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es el tratamiento de elección de la parálisis facial periférica (parálisis de Bell)?",
+      "opciones": [
+        {"letra": "A", "texto": "Corticoide sistémico"},
+        {"letra": "B", "texto": "Aciclovir en monoterapia"},
+        {"letra": "C", "texto": "Antibiótico oral"},
+        {"letra": "D", "texto": "Observación sin tratamiento farmacológico"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neurología",
+      "tema": "Parálisis facial periférica",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿En cuál de las siguientes estructuras predomina el colágeno tipo I?",
+      "opciones": [
+        {"letra": "A", "texto": "Ligamento"},
+        {"letra": "B", "texto": "Cartílago hialino"},
+        {"letra": "C", "texto": "Tendón"},
+        {"letra": "D", "texto": "Músculo esquelético"}
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Anatomía",
+      "tema": "Tejido conectivo - Colágeno",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Quién ocupa el cargo de vicepresidente de los Estados Unidos (periodo 2021-2025)?",
+      "opciones": [
+        {"letra": "A", "texto": "Kamala Harris"},
+        {"letra": "B", "texto": "Mike Pence"},
+        {"letra": "C", "texto": "Joe Biden"},
+        {"letra": "D", "texto": "Nancy Pelosi"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Cultura general - Actualidad",
+      "dificultad": "baja",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿De qué país es presidente Luis Arce?",
+      "opciones": [
+        {"letra": "A", "texto": "Bolivia"},
+        {"letra": "B", "texto": "Perú"},
+        {"letra": "C", "texto": "Ecuador"},
+        {"letra": "D", "texto": "Paraguay"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Cultura general - Actualidad",
+      "dificultad": "baja",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Respecto a la nitrofurantoína, ¿cuál es su comportamiento antimicrobiano?",
+      "opciones": [
+        {"letra": "A", "texto": "Bactericida"},
+        {"letra": "B", "texto": "Bacteriostático"},
+        {"letra": "C", "texto": "Antifúngico"},
+        {"letra": "D", "texto": "Antiviral"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Farmacología",
+      "tema": "Antibióticos - Nitrofurantoína",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál fue aproximadamente la inflación de Colombia en el año 2022?",
+      "opciones": [
+        {"letra": "A", "texto": "4,1%"},
+        {"letra": "B", "texto": "7,5%"},
+        {"letra": "C", "texto": "13,25%"},
+        {"letra": "D", "texto": "20,4%"}
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Cultura general - Economía",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "La lesión que produce escápula alada se debe a la afectación de ¿cuál nervio?",
+      "opciones": [
+        {"letra": "A", "texto": "Nervio torácico largo"},
+        {"letra": "B", "texto": "Nervio axilar"},
+        {"letra": "C", "texto": "Nervio supraescapular"},
+        {"letra": "D", "texto": "Nervio espinal accesorio"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Traumatología y Ortopedia",
+      "tema": "Lesiones nerviosas periféricas",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál algoritmo o escala está validado para el diagnóstico de tromboembolismo pulmonar (TEP) en la gestante?",
+      "opciones": [
+        {"letra": "A", "texto": "Algoritmo YEARS adaptado para el embarazo"},
+        {"letra": "B", "texto": "Escala de Wells"},
+        {"letra": "C", "texto": "Escala de Ginebra (Geneva)"},
+        {"letra": "D", "texto": "Criterios PERC"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neumología",
+      "tema": "Tromboembolismo pulmonar en el embarazo",
+      "dificultad": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Niña de 8 años con corea de Sydenham y cultivo de hisopado faríngeo negativo; ¿qué examen apoya el diagnóstico de infección estreptocócica previa?",
+      "opciones": [
+        {"letra": "A", "texto": "Antiestreptolisinas O (ASTO)"},
+        {"letra": "B", "texto": "Proteína C reactiva"},
+        {"letra": "C", "texto": "Hemocultivo"},
+        {"letra": "D", "texto": "Factor reumatoide"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Pediatría",
+      "tema": "Fiebre reumática - Corea de Sydenham",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente con anisocoria que se hace más evidente en la oscuridad; ¿cuál es el diagnóstico más probable?",
+      "opciones": [
+        {"letra": "A", "texto": "Síndrome de Horner"},
+        {"letra": "B", "texto": "Pupila de Adie"},
+        {"letra": "C", "texto": "Parálisis del III par craneal"},
+        {"letra": "D", "texto": "Pupila de Argyll-Robertson"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neurología",
+      "tema": "Alteraciones pupilares - Anisocoria",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Qué evalúa la escala AUDIT (Alcohol Use Disorders Identification Test)?",
+      "opciones": [
+        {"letra": "A", "texto": "Los trastornos por consumo de alcohol"},
+        {"letra": "B", "texto": "El riesgo de suicidio"},
+        {"letra": "C", "texto": "La dependencia a opioides"},
+        {"letra": "D", "texto": "El deterioro cognitivo"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Psiquiatría",
+      "tema": "Escalas - Consumo de alcohol",
+      "dificultad": "baja",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Para qué se utiliza la escala de Glasgow-Blatchford?",
+      "opciones": [
+        {"letra": "A", "texto": "Evaluar la hemorragia digestiva alta"},
+        {"letra": "B", "texto": "Evaluar la hemorragia digestiva baja"},
+        {"letra": "C", "texto": "Estratificar la gravedad de la pancreatitis"},
+        {"letra": "D", "texto": "Valorar la encefalopatía hepática"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Gastroenterología",
+      "tema": "Hemorragia digestiva alta",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuánto es el 9% de 800?",
+      "opciones": [
+        {"letra": "A", "texto": "72"},
+        {"letra": "B", "texto": "7,2"},
+        {"letra": "C", "texto": "80"},
+        {"letra": "D", "texto": "720"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Matemáticas básicas",
+      "dificultad": "baja",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    }
+  ]
+}

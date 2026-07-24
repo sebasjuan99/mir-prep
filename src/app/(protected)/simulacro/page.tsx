@@ -17,6 +17,10 @@ const EXAM_ID_TO_UNIVERSIDAD: Record<string, string> = {
   ucartagena: 'Cartagena',
   ufucs:   'FUCS',
   univalle:'Univalle',
+  usabana: 'Sabana',
+  ulibrecali:'Libre Cali',
+  uupb:    'UPB',
+  ujaveriana:'Javeriana',
   mir:     'MIR',
   enarm:   'ENARM',
 }
@@ -34,6 +38,10 @@ const UNIVERSIDADES = [
   { id: 'ucartagena',label:'Univ. Cartagena',pais: 'COLOMBIA', ac: '#A62E5C' },
   { id: 'ufucs',    label: 'FUCS',           pais: 'COLOMBIA', ac: '#6E3A8C' },
   { id: 'univalle', label: 'Univ. del Valle',pais: 'COLOMBIA', ac: '#B83A4B' },
+  { id: 'usabana',  label: 'Univ. La Sabana',pais: 'COLOMBIA', ac: '#574AA0' },
+  { id: 'ulibrecali',label:'Univ. Libre Cali',pais:'COLOMBIA', ac: '#A0416B' },
+  { id: 'uupb',     label: 'UPB',            pais: 'COLOMBIA', ac: '#7E2F73' },
+  { id: 'ujaveriana',label:'Univ. Javeriana',pais: 'COLOMBIA', ac: '#4C3A86' },
 ]
 
 interface EnCurso { sesion_id: string; tipo: string; universidad: string | null; total: number; respondidas: number }

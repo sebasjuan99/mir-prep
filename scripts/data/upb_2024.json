@@ -1,0 +1,1237 @@
+{
+  "examen": "UPB",
+  "anio": 2024,
+  "fuente": "Reconstrucción UPB 2024",
+  "preguntas": [
+    {
+      "enunciado": "¿Qué parte del cerebro se ve afectada por la hipoglucemia en el neonato?",
+      "opciones": [
+        {"letra": "A", "texto": "Núcleos basales"},
+        {"letra": "B", "texto": "Corteza sensitiva"},
+        {"letra": "C", "texto": "Corteza motora"},
+        {"letra": "D", "texto": "CA1 del hipocampo"}
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Pediatría",
+      "tema": "Hipoglucemia neonatal",
+      "dificultad": "media"
+    },
+    {
+      "enunciado": "Entre los desencadenantes del vértigo, ¿cuál NO se encuentra habitualmente?",
+      "opciones": [
+        {"letra": "A", "texto": "Actividad física moderada"},
+        {"letra": "B", "texto": "Cambios bruscos de posición cefálica"},
+        {"letra": "C", "texto": "Infecciones virales del oído interno"},
+        {"letra": "D", "texto": "Ansiedad y estrés"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Otorrinolaringología",
+      "tema": "Vértigo",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es el riesgo de psoriasis si uno de los progenitores la padece y cómo influye la expresión de HLA-Cw6?",
+      "opciones": [
+        {"letra": "A", "texto": "Probabilidad del 20% y riesgo 10-20 veces mayor"},
+        {"letra": "B", "texto": "Probabilidad del 5% y riesgo 2 veces mayor"},
+        {"letra": "C", "texto": "Probabilidad del 50% y riesgo 30 veces mayor"},
+        {"letra": "D", "texto": "Probabilidad del 75% y riesgo 40 veces mayor"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Psoriasis (genética)",
+      "dificultad": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "En la clasificación de Gustilo y Anderson, ¿cuál es el criterio de mayor importancia?",
+      "opciones": [
+        {"letra": "A", "texto": "El defecto de partes blandas"},
+        {"letra": "B", "texto": "La tasa de infección"},
+        {"letra": "C", "texto": "El tamaño del hueso expuesto"},
+        {"letra": "D", "texto": "El grado de contaminación exclusivamente"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Traumatología y Ortopedia",
+      "tema": "Fractura abierta",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es el antibiótico de elección en un paciente con fractura abierta por mina antipersonal?",
+      "opciones": [
+        {"letra": "A", "texto": "Ampicilina/sulbactam más quinolona"},
+        {"letra": "B", "texto": "Cefalexina"},
+        {"letra": "C", "texto": "Amoxicilina"},
+        {"letra": "D", "texto": "Metronidazol solo"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Traumatología y Ortopedia",
+      "tema": "Profilaxis en fractura abierta",
+      "dificultad": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "En la clasificación de Salter-Harris, ¿qué estructuras afecta el tipo IV?",
+      "opciones": [
+        {"letra": "A", "texto": "Epífisis, fisis y metáfisis"},
+        {"letra": "B", "texto": "Solo la fisis"},
+        {"letra": "C", "texto": "Fisis y metáfisis"},
+        {"letra": "D", "texto": "Solo epífisis y fisis"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Traumatología y Ortopedia",
+      "tema": "Fracturas fisarias",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Entre las causas dinámicas de distocia, ¿cuál constituye una EXCEPCIÓN?",
+      "opciones": [
+        {"letra": "A", "texto": "Desproporción cefalopélvica"},
+        {"letra": "B", "texto": "Hipocontractilidad uterina"},
+        {"letra": "C", "texto": "Taquisistolia"},
+        {"letra": "D", "texto": "Hipertonía uterina"},
+        {"letra": "E", "texto": "Mala presentación fetal"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Distocia dinámica",
+      "dificultad": "media"
+    },
+    {
+      "enunciado": "¿Cuál es la causa más común de trauma en cuello?",
+      "opciones": [
+        {"letra": "A", "texto": "Trauma penetrante por objeto cortopunzante"},
+        {"letra": "B", "texto": "Trauma cerrado por accidente de tránsito"},
+        {"letra": "C", "texto": "Onda expansiva"},
+        {"letra": "D", "texto": "Estrangulamiento"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cirugía General",
+      "tema": "Trauma cervical",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es la causa menos común de trauma en cuello?",
+      "opciones": [
+        {"letra": "A", "texto": "Trauma cerrado (onda expansiva y presión)"},
+        {"letra": "B", "texto": "Herida por arma cortopunzante"},
+        {"letra": "C", "texto": "Herida por arma de fuego"},
+        {"letra": "D", "texto": "Trauma penetrante directo"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cirugía General",
+      "tema": "Trauma cervical",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "En el derrame pleural maligno, ¿cuál es el beneficio del tubo de tórax frente a la toracoscopia?",
+      "opciones": [
+        {"letra": "A", "texto": "Menor riesgo de infecciones, menor tiempo y costos"},
+        {"letra": "B", "texto": "Mayor tasa de pleurodesis"},
+        {"letra": "C", "texto": "Mejor visualización directa de la pleura"},
+        {"letra": "D", "texto": "Mayor necesidad de anestesia general"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neumología",
+      "tema": "Derrame pleural maligno",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Qué maniobra se realiza cuando el hombro anterior queda impactado tras la sínfisis del pubis?",
+      "opciones": [
+        {"letra": "A", "texto": "Maniobra de McRoberts"},
+        {"letra": "B", "texto": "Maniobra de Zavanelli"},
+        {"letra": "C", "texto": "Maniobra de Kristeller"},
+        {"letra": "D", "texto": "Maniobra de Ritgen"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Distocia de hombros",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Qué enfermedad fue declarada erradicada a nivel mundial en 1980?",
+      "opciones": [
+        {"letra": "A", "texto": "Viruela"},
+        {"letra": "B", "texto": "Poliomielitis"},
+        {"letra": "C", "texto": "Sarampión"},
+        {"letra": "D", "texto": "Difteria"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Erradicación de enfermedades",
+      "dificultad": "baja",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es la principal causa de muerte en gemelos monoamnióticos?",
+      "opciones": [
+        {"letra": "A", "texto": "Entrecruzamiento de cordones umbilicales"},
+        {"letra": "B", "texto": "Síndrome de transfusión feto-fetal"},
+        {"letra": "C", "texto": "Prematuridad extrema"},
+        {"letra": "D", "texto": "Malformaciones congénitas"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Embarazo gemelar monoamniótico",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es la principal complicación del tratamiento quirúrgico de la fractura de clavícula?",
+      "opciones": [
+        {"letra": "A", "texto": "Pseudoartrosis"},
+        {"letra": "B", "texto": "Lesión del plexo braquial"},
+        {"letra": "C", "texto": "Infección de la herida"},
+        {"letra": "D", "texto": "Refractura"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Traumatología y Ortopedia",
+      "tema": "Fractura de clavícula",
+      "dificultad": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es el tratamiento antibiótico de la amigdalitis en un paciente alérgico a la penicilina?",
+      "opciones": [
+        {"letra": "A", "texto": "Azitromicina"},
+        {"letra": "B", "texto": "Amoxicilina"},
+        {"letra": "C", "texto": "Penicilina benzatínica"},
+        {"letra": "D", "texto": "Ceftriaxona"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Otorrinolaringología",
+      "tema": "Amigdalitis bacteriana",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es el tratamiento antibiótico empírico de la artritis séptica en menores de 5 años sin factores de riesgo?",
+      "opciones": [
+        {"letra": "A", "texto": "Ceftriaxona más vancomicina"},
+        {"letra": "B", "texto": "Ampicilina más gentamicina"},
+        {"letra": "C", "texto": "Amoxicilina oral"},
+        {"letra": "D", "texto": "Clindamicina sola"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Pediatría",
+      "tema": "Artritis séptica",
+      "dificultad": "alta",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿En qué tiempo debe llevarse a cirugía una fractura con compromiso vascular?",
+      "opciones": [
+        {"letra": "A", "texto": "En menos de 6 horas (idealmente de forma inmediata)"},
+        {"letra": "B", "texto": "En menos de 24 horas"},
+        {"letra": "C", "texto": "En menos de 48 horas"},
+        {"letra": "D", "texto": "De forma electiva"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Traumatología y Ortopedia",
+      "tema": "Fractura con trauma vascular",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál NO es causa de vértigo espontáneo agudo?",
+      "opciones": [
+        {"letra": "A", "texto": "Enfermedades autoinmunes"},
+        {"letra": "B", "texto": "Neuritis vestibular"},
+        {"letra": "C", "texto": "ACV de fosa posterior"},
+        {"letra": "D", "texto": "Migraña vestibular"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Otorrinolaringología",
+      "tema": "Vértigo espontáneo agudo",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Ante un paciente con absceso hepático roto, ¿cuál es la conducta a seguir?",
+      "opciones": [
+        {"letra": "A", "texto": "Laparotomía exploratoria más drenaje del absceso"},
+        {"letra": "B", "texto": "Antibióticos exclusivamente"},
+        {"letra": "C", "texto": "Drenaje percutáneo ambulatorio"},
+        {"letra": "D", "texto": "Observación y control"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cirugía General",
+      "tema": "Absceso hepático",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "En una lesión cervical sugestiva de trauma vascular/aerodigestivo, ¿qué hallazgo implica cirugía emergente?",
+      "opciones": [
+        {"letra": "A", "texto": "Sangrado pulsátil activo o ausencia de pulso carotídeo"},
+        {"letra": "B", "texto": "Enfisema subcutáneo leve"},
+        {"letra": "C", "texto": "Dolor local"},
+        {"letra": "D", "texto": "Hematoma estable no expansivo"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cirugía General",
+      "tema": "Trauma cervical",
+      "dificultad": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál de los siguientes genes NO está asociado a la enfermedad de Parkinson?",
+      "opciones": [
+        {"letra": "A", "texto": "APP"},
+        {"letra": "B", "texto": "LRRK2"},
+        {"letra": "C", "texto": "SNCA"},
+        {"letra": "D", "texto": "PRKN (Parkin)"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neurología",
+      "tema": "Genética del Parkinson",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿En qué parte del UPDRS-MDS NO se evalúan los síntomas motores de la enfermedad de Parkinson?",
+      "opciones": [
+        {"letra": "A", "texto": "Parte I"},
+        {"letra": "B", "texto": "Parte II"},
+        {"letra": "C", "texto": "Parte III"},
+        {"letra": "D", "texto": "Parte IV"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neurología",
+      "tema": "Escala UPDRS",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es la utilidad del balón de contrapulsación aórtico?",
+      "opciones": [
+        {"letra": "A", "texto": "Favorecer la perfusión coronaria en diástole"},
+        {"letra": "B", "texto": "Aumentar la poscarga ventricular"},
+        {"letra": "C", "texto": "Reducir la precarga en sístole"},
+        {"letra": "D", "texto": "Sustituir la función ventricular"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cardiología",
+      "tema": "Balón de contrapulsación aórtico",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Choque con gasto cardiaco normal y presión de llenado disminuida corresponde a:",
+      "opciones": [
+        {"letra": "A", "texto": "Choque hipovolémico"},
+        {"letra": "B", "texto": "Choque distributivo"},
+        {"letra": "C", "texto": "Choque cardiogénico"},
+        {"letra": "D", "texto": "Choque obstructivo"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cardiología",
+      "tema": "Tipos de choque",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es la mortalidad aproximada del choque séptico?",
+      "opciones": [
+        {"letra": "A", "texto": "50-80%"},
+        {"letra": "B", "texto": "10-20%"},
+        {"letra": "C", "texto": "20-30%"},
+        {"letra": "D", "texto": "90-100%"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Medicina de Urgencias",
+      "tema": "Choque séptico",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es la característica cardinal o diferencial de la viruela del mono (mpox)?",
+      "opciones": [
+        {"letra": "A", "texto": "Compromiso de palmas y plantas"},
+        {"letra": "B", "texto": "Prurito intenso"},
+        {"letra": "C", "texto": "Compromiso exclusivo de mucosas"},
+        {"letra": "D", "texto": "Ausencia de fiebre"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Infectología",
+      "tema": "Viruela del mono (mpox)",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es el hallazgo histopatológico característico de la dermatitis herpetiforme?",
+      "opciones": [
+        {"letra": "A", "texto": "Depósitos granulares de IgA en las papilas dérmicas"},
+        {"letra": "B", "texto": "Depósitos de IgG en patrón en red"},
+        {"letra": "C", "texto": "Acantólisis suprabasal"},
+        {"letra": "D", "texto": "Depósito lineal de C3 en la membrana basal"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Dermatitis herpetiforme",
+      "dificultad": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál de los siguientes medicamentos NO se asocia a exacerbación de la psoriasis?",
+      "opciones": [
+        {"letra": "A", "texto": "Inhibidores de IL-4R (dupilumab)"},
+        {"letra": "B", "texto": "Betabloqueadores"},
+        {"letra": "C", "texto": "Litio"},
+        {"letra": "D", "texto": "Antimaláricos"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Psoriasis (fármacos desencadenantes)",
+      "dificultad": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál NO está asociado a psicosis inducida por sustancias?",
+      "opciones": [
+        {"letra": "A", "texto": "Metotrexato"},
+        {"letra": "B", "texto": "Ketamina"},
+        {"letra": "C", "texto": "Fenciclidina"},
+        {"letra": "D", "texto": "Cannabis"},
+        {"letra": "E", "texto": "Cocaína"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Psiquiatría",
+      "tema": "Psicosis inducida por sustancias",
+      "dificultad": "media"
+    },
+    {
+      "enunciado": "Paciente de 5 años con fimosis fisiológica sin respuesta a esteroides que reconsulta con el glande atrapado y requiere reducción manual. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        {"letra": "A", "texto": "Parafimosis"},
+        {"letra": "B", "texto": "Balanitis"},
+        {"letra": "C", "texto": "Fimosis patológica"},
+        {"letra": "D", "texto": "Priapismo"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Urología",
+      "tema": "Parafimosis",
+      "dificultad": "baja",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es la acción de las toxinas alfa del escorpión?",
+      "opciones": [
+        {"letra": "A", "texto": "Bloquean el cierre de los canales rápidos de sodio"},
+        {"letra": "B", "texto": "Abren los canales de potasio"},
+        {"letra": "C", "texto": "Bloquean los canales de calcio"},
+        {"letra": "D", "texto": "Inhiben la acetilcolinesterasa"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Farmacología",
+      "tema": "Toxinología (escorpión)",
+      "dificultad": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es la acción de las toxinas beta del escorpión?",
+      "opciones": [
+        {"letra": "A", "texto": "Producen apertura de los canales de sodio"},
+        {"letra": "B", "texto": "Cierran los canales de sodio"},
+        {"letra": "C", "texto": "Bloquean los canales de potasio"},
+        {"letra": "D", "texto": "Inhiben los canales de calcio"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Farmacología",
+      "tema": "Toxinología (escorpión)",
+      "dificultad": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es el mecanismo de acción del antiveneno (alacramyn) en el accidente por escorpión?",
+      "opciones": [
+        {"letra": "A", "texto": "Se une al veneno y lo neutraliza"},
+        {"letra": "B", "texto": "Bloquea los canales de sodio"},
+        {"letra": "C", "texto": "Estimula la degradación hepática del veneno"},
+        {"letra": "D", "texto": "Antagoniza los receptores adrenérgicos"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Farmacología",
+      "tema": "Antiveneno (escorpión)",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Qué signo clínico indica disfunción neuromuscular severa en la picadura de escorpión?",
+      "opciones": [
+        {"letra": "A", "texto": "Fasciculaciones y descoordinación"},
+        {"letra": "B", "texto": "Contracturas musculares y disfagia"},
+        {"letra": "C", "texto": "Contracturas musculares y debilidad"},
+        {"letra": "D", "texto": "Dolor torácico y palpitaciones"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Medicina de Urgencias",
+      "tema": "Escorpionismo",
+      "dificultad": "alta",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Neonato con hipoglucemia, hipotermia y dificultades en la alimentación. ¿Cuál es la medida de prevención de hipoglucemia a seguir?",
+      "opciones": [
+        {"letra": "A", "texto": "Corregir la temperatura/ambiente térmico y revalorar"},
+        {"letra": "B", "texto": "Administrar glucosa endovenosa si la alimentación no funciona"},
+        {"letra": "C", "texto": "Administrar lactancia materna y/o fórmula"},
+        {"letra": "D", "texto": "Iniciar corticoides"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Pediatría",
+      "tema": "Hipoglucemia neonatal",
+      "dificultad": "alta",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿En cuál de las siguientes situaciones NO está indicada la TAC simple de cráneo?",
+      "opciones": [
+        {"letra": "A", "texto": "Migraña típica"},
+        {"letra": "B", "texto": "Trauma craneoencefálico moderado"},
+        {"letra": "C", "texto": "Sospecha de ACV"},
+        {"letra": "D", "texto": "Cefalea súbita en trueno"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Radiología",
+      "tema": "TAC de cráneo (indicaciones)",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es una indicación de la radiografía simple de tórax?",
+      "opciones": [
+        {"letra": "A", "texto": "Dolor torácico de baja probabilidad coronaria"},
+        {"letra": "B", "texto": "IAM con elevación del ST"},
+        {"letra": "C", "texto": "Sospecha de disección aórtica"},
+        {"letra": "D", "texto": "TEP de alta probabilidad"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Radiología",
+      "tema": "Radiografía de tórax (indicaciones)",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es la mejor imagen diagnóstica, con mayor sensibilidad y especificidad, para el tromboembolismo pulmonar (TEP)?",
+      "opciones": [
+        {"letra": "A", "texto": "AngioTAC de tórax"},
+        {"letra": "B", "texto": "Radiografía de tórax"},
+        {"letra": "C", "texto": "Gammagrafía de ventilación/perfusión"},
+        {"letra": "D", "texto": "Ecocardiograma"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Radiología",
+      "tema": "Diagnóstico por imagen del TEP",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Respecto al efecto postantibiótico de betalactámicos y aminoglucósidos, ¿cuál afirmación es correcta?",
+      "opciones": [
+        {"letra": "A", "texto": "En betalactámicos es nulo para gramnegativos y de unas 2 horas para grampositivos"},
+        {"letra": "B", "texto": "Es prolongado para todos los betalactámicos"},
+        {"letra": "C", "texto": "Los aminoglucósidos carecen de efecto postantibiótico"},
+        {"letra": "D", "texto": "Es nulo para aminoglucósidos frente a gramnegativos"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Farmacología",
+      "tema": "Efecto postantibiótico",
+      "dificultad": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es la principal complicación materna asociada al síndrome de transfusión feto-fetal (STFF)?",
+      "opciones": [
+        {"letra": "A", "texto": "Preeclampsia (síndrome en espejo)"},
+        {"letra": "B", "texto": "Diabetes gestacional"},
+        {"letra": "C", "texto": "Colestasis intrahepática"},
+        {"letra": "D", "texto": "Hipotiroidismo"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Síndrome de transfusión feto-fetal",
+      "dificultad": "alta",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Parto en posición occípito-posterior con mala dinámica uterina pese al manejo con oxitocina. ¿Qué se realiza?",
+      "opciones": [
+        {"letra": "A", "texto": "Rotación interna manual"},
+        {"letra": "B", "texto": "Cesárea inmediata"},
+        {"letra": "C", "texto": "Aumentar la dosis de oxitocina"},
+        {"letra": "D", "texto": "Maniobra de Kristeller"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Distocia de rotación",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Presentación fetal longitudinal cefálica en la que el feto queda perpendicular al eje materno. ¿A qué corresponde?",
+      "opciones": [
+        {"letra": "A", "texto": "Situación transversa"},
+        {"letra": "B", "texto": "Presentación podálica"},
+        {"letra": "C", "texto": "Presentación de cara"},
+        {"letra": "D", "texto": "Situación longitudinal"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Estática fetal",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente con demencia de reciente diagnóstico que desea cambiar su testamento. ¿Qué se debe hacer?",
+      "opciones": [
+        {"letra": "A", "texto": "Evaluación neuropsicológica para determinar su autonomía"},
+        {"letra": "B", "texto": "Impedir el cambio de testamento"},
+        {"letra": "C", "texto": "Autorizar el cambio sin evaluación"},
+        {"letra": "D", "texto": "Derivar solo a trabajo social"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Psiquiatría",
+      "tema": "Capacidad y autonomía",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente diabético que ya no desea tomar sus medicamentos. ¿Cuál es la conducta a seguir?",
+      "opciones": [
+        {"letra": "A", "texto": "Evaluar si comprende la información y su patología"},
+        {"letra": "B", "texto": "Obligarlo a tomar el tratamiento"},
+        {"letra": "C", "texto": "Suspender el seguimiento"},
+        {"letra": "D", "texto": "Notificar a la familia sin su consentimiento"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Psiquiatría",
+      "tema": "Autonomía y consentimiento",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente con alucinaciones, delirios y comportamiento desorganizado con conductas peligrosas. ¿Cuál es el manejo inicial?",
+      "opciones": [
+        {"letra": "A", "texto": "Iniciar antipsicóticos"},
+        {"letra": "B", "texto": "Psicoterapia exclusiva"},
+        {"letra": "C", "texto": "Benzodiacepinas exclusivamente"},
+        {"letra": "D", "texto": "Observación sin tratamiento"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Psiquiatría",
+      "tema": "Psicosis aguda",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente con temblor progresivo y antecedente de depresión. ¿Cuál es el manejo farmacológico inicial de sus síntomas motores?",
+      "opciones": [
+        {"letra": "A", "texto": "Levodopa"},
+        {"letra": "B", "texto": "Antidopaminérgicos"},
+        {"letra": "C", "texto": "Propranolol"},
+        {"letra": "D", "texto": "Anticolinérgicos exclusivamente"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neurología",
+      "tema": "Enfermedad de Parkinson (tratamiento)",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es el antipsicótico con mayor efecto sedante, capaz de producir sedación extrema y aumento de peso?",
+      "opciones": [
+        {"letra": "A", "texto": "Quetiapina"},
+        {"letra": "B", "texto": "Haloperidol"},
+        {"letra": "C", "texto": "Risperidona"},
+        {"letra": "D", "texto": "Aripiprazol"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Psiquiatría",
+      "tema": "Antipsicóticos",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "La escala de MacArthur evalúa principalmente:",
+      "opciones": [
+        {"letra": "A", "texto": "La capacidad para la toma de decisiones (evalúa cuatro áreas)"},
+        {"letra": "B", "texto": "El riesgo de suicidio"},
+        {"letra": "C", "texto": "La gravedad de la depresión"},
+        {"letra": "D", "texto": "El deterioro cognitivo global"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Psiquiatría",
+      "tema": "Capacidad decisional",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál NO forma parte de los cuatro principios de la ética médica?",
+      "opciones": [
+        {"letra": "A", "texto": "Equidad"},
+        {"letra": "B", "texto": "Autonomía"},
+        {"letra": "C", "texto": "Beneficencia"},
+        {"letra": "D", "texto": "Justicia"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Bioética (principios)",
+      "dificultad": "baja",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es la principal complicación de la mola completa?",
+      "opciones": [
+        {"letra": "A", "texto": "Neoplasia trofoblástica gestacional"},
+        {"letra": "B", "texto": "Preeclampsia"},
+        {"letra": "C", "texto": "Hemorragia"},
+        {"letra": "D", "texto": "Anemia"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Enfermedad trofoblástica gestacional",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es un factor que puede empeorar el pronóstico en un paciente pediátrico con epilepsia?",
+      "opciones": [
+        {"letra": "A", "texto": "Antecedente de trastornos neurológicos"},
+        {"letra": "B", "texto": "Buena respuesta al primer fármaco"},
+        {"letra": "C", "texto": "EEG normal"},
+        {"letra": "D", "texto": "Crisis única no provocada"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neurología",
+      "tema": "Epilepsia pediátrica",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál fue el principal aporte de Paracelso a la medicina?",
+      "opciones": [
+        {"letra": "A", "texto": "La terapia química (iatroquímica)"},
+        {"letra": "B", "texto": "La teoría de los humores"},
+        {"letra": "C", "texto": "La descripción de la circulación sanguínea"},
+        {"letra": "D", "texto": "La antisepsia quirúrgica"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Farmacología",
+      "tema": "Historia de la farmacología",
+      "dificultad": "baja",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Por qué han aumentado los embarazos gemelares?",
+      "opciones": [
+        {"letra": "A", "texto": "Por las técnicas de reproducción asistida y la mayor edad materna"},
+        {"letra": "B", "texto": "Por factores dietéticos"},
+        {"letra": "C", "texto": "Por disminución de la edad materna"},
+        {"letra": "D", "texto": "Por causas infecciosas"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Embarazo múltiple",
+      "dificultad": "baja",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente en manejo con levodopa que presenta aumento de los síntomas motores (fenómeno wearing-off). ¿Qué se sugiere?",
+      "opciones": [
+        {"letra": "A", "texto": "Adicionar un agonista dopaminérgico"},
+        {"letra": "B", "texto": "Reducir la dosis de levodopa"},
+        {"letra": "C", "texto": "Suspender la levodopa"},
+        {"letra": "D", "texto": "Iniciar anticolinérgicos"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neurología",
+      "tema": "Parkinson (fluctuaciones motoras)",
+      "dificultad": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿En cuál situación NO está indicada la radiografía de columna lumbosacra?",
+      "opciones": [
+        {"letra": "A", "texto": "Dolor lumbar sin banderas rojas"},
+        {"letra": "B", "texto": "Sospecha de mielopatía subaguda"},
+        {"letra": "C", "texto": "Trauma con sospecha de fractura"},
+        {"letra": "D", "texto": "Sospecha de espondilodiscitis"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Radiología",
+      "tema": "Imagen de columna lumbosacra",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "En la clasificación de Tile de la fractura de pelvis, ¿cuál corresponde a inestabilidad rotacional con estabilidad vertical?",
+      "opciones": [
+        {"letra": "A", "texto": "Tipo B"},
+        {"letra": "B", "texto": "Tipo A"},
+        {"letra": "C", "texto": "Tipo C"},
+        {"letra": "D", "texto": "Tipo D"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Traumatología y Ortopedia",
+      "tema": "Fractura de pelvis (clasificación de Tile)",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es el mecanismo fisiopatológico del infarto agudo de miocardio con elevación del ST?",
+      "opciones": [
+        {"letra": "A", "texto": "Ruptura de placa ateroesclerótica con trombosis oclusiva"},
+        {"letra": "B", "texto": "Vasoespasmo coronario transitorio"},
+        {"letra": "C", "texto": "Embolia paradójica"},
+        {"letra": "D", "texto": "Disección coronaria espontánea"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cardiología",
+      "tema": "Infarto agudo de miocardio (IAMCEST)",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Qué tipo de melanoma se caracteriza por un crecimiento predominante en fase vertical?",
+      "opciones": [
+        {"letra": "A", "texto": "Melanoma nodular"},
+        {"letra": "B", "texto": "Melanoma de extensión superficial"},
+        {"letra": "C", "texto": "Lentigo maligno melanoma"},
+        {"letra": "D", "texto": "Melanoma lentiginoso acral"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Melanoma",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Qué patología vestibular se diagnostica con una maniobra de Dix-Hallpike positiva?",
+      "opciones": [
+        {"letra": "A", "texto": "Vértigo posicional paroxístico benigno (VPPB)"},
+        {"letra": "B", "texto": "Enfermedad de Ménière"},
+        {"letra": "C", "texto": "Neuritis vestibular"},
+        {"letra": "D", "texto": "Laberintitis"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Otorrinolaringología",
+      "tema": "Vértigo posicional paroxístico benigno",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Trastorno vestibular que cursa con vértigo episódico asociado a síntomas audiológicos (hipoacusia y acúfenos). ¿Cuál es?",
+      "opciones": [
+        {"letra": "A", "texto": "Enfermedad de Ménière"},
+        {"letra": "B", "texto": "Vértigo posicional paroxístico benigno"},
+        {"letra": "C", "texto": "Neuritis vestibular"},
+        {"letra": "D", "texto": "Migraña vestibular"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Otorrinolaringología",
+      "tema": "Enfermedad de Ménière",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Vértigo agudo persistente precedido de un cuadro respiratorio, sin síntomas auditivos. ¿A qué corresponde?",
+      "opciones": [
+        {"letra": "A", "texto": "Neuritis vestibular"},
+        {"letra": "B", "texto": "Vértigo posicional paroxístico benigno"},
+        {"letra": "C", "texto": "Enfermedad de Ménière"},
+        {"letra": "D", "texto": "Laberintitis"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Otorrinolaringología",
+      "tema": "Neuritis vestibular",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es el error de prescripción de antibiótico en un paciente con enfermedad renal crónica?",
+      "opciones": [
+        {"letra": "A", "texto": "No ajustar la dosis a la función renal"},
+        {"letra": "B", "texto": "Elegir un antibiótico de amplio espectro"},
+        {"letra": "C", "texto": "Usar la vía oral"},
+        {"letra": "D", "texto": "Administrar en dosis única diaria"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Nefrología",
+      "tema": "Ajuste renal de fármacos",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál NO es una característica de la psoriasis pustulosa de Von Zumbusch?",
+      "opciones": [
+        {"letra": "A", "texto": "Compromiso palmoplantar localizado"},
+        {"letra": "B", "texto": "Fiebre"},
+        {"letra": "C", "texto": "Pústulas estériles generalizadas"},
+        {"letra": "D", "texto": "Eritrodermia"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Psoriasis pustulosa de Von Zumbusch",
+      "dificultad": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál de las siguientes situaciones corresponde a coerción?",
+      "opciones": [
+        {"letra": "A", "texto": "Amenazar al paciente para que acepte"},
+        {"letra": "B", "texto": "Persuadir con argumentos"},
+        {"letra": "C", "texto": "Ofrecer información equilibrada"},
+        {"letra": "D", "texto": "Manipular con información sesgada"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Bioética (coerción)",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Qué porcentaje de pacientes son verdaderamente alérgicos a los betalactámicos?",
+      "opciones": [
+        {"letra": "A", "texto": "Menos del 3%"},
+        {"letra": "B", "texto": "Cerca del 10%"},
+        {"letra": "C", "texto": "Cerca del 20%"},
+        {"letra": "D", "texto": "Más del 50%"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Inmunología",
+      "tema": "Alergia a betalactámicos",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es el proceso metabólico que aporta energía al neonato en las primeras 24 horas de vida?",
+      "opciones": [
+        {"letra": "A", "texto": "Glucogenólisis"},
+        {"letra": "B", "texto": "Gluconeogénesis"},
+        {"letra": "C", "texto": "Lipólisis"},
+        {"letra": "D", "texto": "Glucólisis anaerobia"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Bioquímica",
+      "tema": "Metabolismo energético neonatal",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Qué enzima de la gluconeogénesis se encuentra a bajas concentraciones al nacer?",
+      "opciones": [
+        {"letra": "A", "texto": "Piruvato carboxilasa"},
+        {"letra": "B", "texto": "Fosfoenolpiruvato carboxiquinasa"},
+        {"letra": "C", "texto": "Fructosa-1,6-bifosfatasa"},
+        {"letra": "D", "texto": "Glucosa-6-fosfatasa"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Bioquímica",
+      "tema": "Gluconeogénesis",
+      "dificultad": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Qué documento rige los principios éticos de la investigación en seres humanos?",
+      "opciones": [
+        {"letra": "A", "texto": "Declaración de Helsinki"},
+        {"letra": "B", "texto": "Código de Núremberg"},
+        {"letra": "C", "texto": "Informe Belmont"},
+        {"letra": "D", "texto": "Declaración de Ginebra"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Ética de la investigación",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "En un paciente con psicosis, ¿cuál es el paso inicial del manejo?",
+      "opciones": [
+        {"letra": "A", "texto": "Evaluar el riesgo"},
+        {"letra": "B", "texto": "Iniciar antipsicótico de inmediato"},
+        {"letra": "C", "texto": "Hospitalizar de entrada"},
+        {"letra": "D", "texto": "Solicitar neuroimagen"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Psiquiatría",
+      "tema": "Psicosis (abordaje inicial)",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "En un paciente con psicosis, ¿qué es lo fundamental a realizar?",
+      "opciones": [
+        {"letra": "A", "texto": "Diagnosticar adecuadamente e iniciar tratamiento"},
+        {"letra": "B", "texto": "Solo observar la evolución"},
+        {"letra": "C", "texto": "Derivar sin evaluación"},
+        {"letra": "D", "texto": "Iniciar únicamente psicoterapia"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Psiquiatría",
+      "tema": "Psicosis (manejo)",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Accidente por escorpión con síntomas adrenérgicos. ¿Cuál es el manejo?",
+      "opciones": [
+        {"letra": "A", "texto": "Prazosina"},
+        {"letra": "B", "texto": "Atropina"},
+        {"letra": "C", "texto": "Propranolol"},
+        {"letra": "D", "texto": "Adrenalina"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Medicina de Urgencias",
+      "tema": "Escorpionismo (manejo)",
+      "dificultad": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente con herida en el triángulo cervical anterior izquierdo con sangrado activo. ¿Qué hacer con la herida?",
+      "opciones": [
+        {"letra": "A", "texto": "Compresión directa"},
+        {"letra": "B", "texto": "Explorar digitalmente la herida"},
+        {"letra": "C", "texto": "Pinzar a ciegas"},
+        {"letra": "D", "texto": "Retirar coágulos"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cirugía General",
+      "tema": "Trauma cervical (control de hemorragia)",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "En el paciente en choque, ¿cómo se monitorean las variables hemodinámicas y la función cardíaca a pie de cama?",
+      "opciones": [
+        {"letra": "A", "texto": "Con POCUS (ecografía a pie de cama)"},
+        {"letra": "B", "texto": "Con catéter de Swan-Ganz de rutina"},
+        {"letra": "C", "texto": "Con radiografía de tórax seriada"},
+        {"letra": "D", "texto": "Con presión venosa central aislada"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Medicina de Urgencias",
+      "tema": "Monitorización del choque",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál de los siguientes NO es un criterio para rotar el antibiótico de vía venosa a vía oral?",
+      "opciones": [
+        {"letra": "A", "texto": "Hiperglucemia"},
+        {"letra": "B", "texto": "Estar afebril"},
+        {"letra": "C", "texto": "Tolerar la vía oral"},
+        {"letra": "D", "texto": "Estabilidad hemodinámica"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Infectología",
+      "tema": "Terapia antibiótica secuencial",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál de los siguientes NO es un síntoma prodrómico de la enfermedad de Parkinson?",
+      "opciones": [
+        {"letra": "A", "texto": "Demencia"},
+        {"letra": "B", "texto": "Hiposmia"},
+        {"letra": "C", "texto": "Depresión"},
+        {"letra": "D", "texto": "Ansiedad"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neurología",
+      "tema": "Parkinson (fase prodrómica)",
+      "dificultad": "media"
+    },
+    {
+      "enunciado": "En un embarazo gemelar con insuficiencia placentaria, ¿qué se observa en el estudio Doppler?",
+      "opciones": [
+        {"letra": "A", "texto": "Aumento de la resistencia de las arterias uterinas"},
+        {"letra": "B", "texto": "Flujo reverso en la vena umbilical"},
+        {"letra": "C", "texto": "Disminución de la resistencia umbilical"},
+        {"letra": "D", "texto": "Flujo diastólico aumentado"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Doppler obstétrico",
+      "dificultad": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es la principal complicación del parto gemelar?",
+      "opciones": [
+        {"letra": "A", "texto": "Bajo peso al nacer de ambos neonatos"},
+        {"letra": "B", "texto": "Ruptura prematura de membranas"},
+        {"letra": "C", "texto": "Desprendimiento de placenta"},
+        {"letra": "D", "texto": "Macrosomía"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Parto gemelar",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    }
+  ]
+}
