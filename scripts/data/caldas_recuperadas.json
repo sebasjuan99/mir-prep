@@ -1,0 +1,5887 @@
+{
+  "examen": "CALDAS",
+  "nombre": "Caldas",
+  "anio": 2025,
+  "fuente": "Reconstrucciones U. Caldas (recuperadas)",
+  "preguntas": [
+    {
+      "enunciado": "Paciente con diagnóstico de cirrosis hepática, hematomas repetitivos, tiempo de protrombina prolongado e ictericia. ¿A qué déficit vitamínico se asocian dichos hallazgos?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Vitamina C"
+        },
+        {
+          "letra": "B",
+          "texto": "Vitamina D"
+        },
+        {
+          "letra": "C",
+          "texto": "Vitamina K"
+        },
+        {
+          "letra": "D",
+          "texto": "Vitamina A"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Gastroenterología",
+      "tema": "Déficit de vitamina K en cirrosis",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "1 distractor generado; enunciado y respuesta según la fuente",
+      "fuente": "Reconstrucción U. Caldas 2025 (recuperada)",
+      "anio": 2025
+    },
+    {
+      "enunciado": "En el síndrome de Turner, ¿qué tipo de mutación o alteración genética se encuentra habitualmente?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Mutación puntual"
+        },
+        {
+          "letra": "B",
+          "texto": "Mutación en una región intrónica"
+        },
+        {
+          "letra": "C",
+          "texto": "Aneuploidía (monosomía del cromosoma X)"
+        },
+        {
+          "letra": "D",
+          "texto": "Expansión de tripletes de nucleótidos"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Genética",
+      "tema": "Síndrome de Turner (aneuploidía)",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "1 distractor generado; enunciado y respuesta según la fuente",
+      "fuente": "Reconstrucción U. Caldas 2025 (recuperada)",
+      "anio": 2025
+    },
+    {
+      "enunciado": "¿Cuál es el tratamiento de primera línea para la vaginosis bacteriana?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Fluconazol 150 mg VO dosis única"
+        },
+        {
+          "letra": "B",
+          "texto": "Metronidazol 500 mg VO cada 12 horas por 7 días"
+        },
+        {
+          "letra": "C",
+          "texto": "Clindamicina más clotrimazol en crema vaginal"
+        },
+        {
+          "letra": "D",
+          "texto": "Doxiciclina 100 mg VO cada 12 horas por 7 días"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Manejo de vaginosis bacteriana",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "1 distractor generado; enunciado y respuesta según la fuente",
+      "fuente": "Reconstrucción U. Caldas 2025 (recuperada)",
+      "anio": 2025
+    },
+    {
+      "enunciado": "Un trabajador de salud se resbala en el área de preparación de medicamentos por piso mojado, pero recupera el equilibrio sin caer ni sufrir lesión. ¿Cuál es la clasificación más adecuada de este evento en seguridad y salud en el trabajo?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Evento adverso"
+        },
+        {
+          "letra": "B",
+          "texto": "Riesgo"
+        },
+        {
+          "letra": "C",
+          "texto": "Incidente"
+        },
+        {
+          "letra": "D",
+          "texto": "Accidente de trabajo"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Clasificación de eventos en seguridad laboral",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "1 distractor generado; enunciado y respuesta según la fuente",
+      "fuente": "Reconstrucción U. Caldas 2025 (recuperada)",
+      "anio": 2025
+    },
+    {
+      "enunciado": "Paciente que consulta por lesiones vulvares múltiples, de tipo ampolloso y ulceradas, muy dolorosas, eritematosas y de aparición reciente. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Sífilis"
+        },
+        {
+          "letra": "B",
+          "texto": "Herpes simple genital"
+        },
+        {
+          "letra": "C",
+          "texto": "Infección por Clamidia"
+        },
+        {
+          "letra": "D",
+          "texto": "Chancroide (Haemophilus ducreyi)"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Úlceras genitales dolorosas (herpes)",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "1 distractor generado; enunciado y respuesta según la fuente",
+      "fuente": "Reconstrucción U. Caldas 2025 (recuperada)",
+      "anio": 2025
+    },
+    {
+      "enunciado": "Paciente con anemia hemolítica microangiopática, esplenomegalia y trombocitopenia, sin antecedente de gastroenteritis ni toxina Shiga, con alteración de la vía del complemento. ¿Cuál es el tratamiento de elección?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Plasmaféresis"
+        },
+        {
+          "letra": "B",
+          "texto": "Eculizumab"
+        },
+        {
+          "letra": "C",
+          "texto": "Corticoides"
+        },
+        {
+          "letra": "D",
+          "texto": "Rituximab"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Nefrología",
+      "tema": "Síndrome hemolítico urémico atípico",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "1 distractor generado; respuesta marcada en la fuente",
+      "fuente": "Reconstrucción U. Caldas 2025 (recuperada)",
+      "anio": 2025
+    },
+    {
+      "enunciado": "Embarazo de 35.5 semanas con trabajo de parto pretérmino y membranas íntegras; el cultivo rectovaginal para estreptococo del grupo B está pendiente. ¿Cuál es el esquema antibiótico de profilaxis intraparto de elección?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Penicilina benzatínica 2.400.000 UI y continuar con 1.200.000 UI"
+        },
+        {
+          "letra": "B",
+          "texto": "Penicilina cristalina 5.000.000 UI IV y continuar 2.500.000 UI cada 4 horas hasta el parto"
+        },
+        {
+          "letra": "C",
+          "texto": "Ampicilina 2 g IV de carga y continuar 1 g cada 6 horas"
+        },
+        {
+          "letra": "D",
+          "texto": "Clindamicina 900 mg IV cada 8 horas"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Profilaxis intraparto de EGB",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "1 distractor generado; respuesta marcada en la fuente",
+      "fuente": "Reconstrucción U. Caldas 2025 (recuperada)",
+      "anio": 2025
+    },
+    {
+      "enunciado": "¿Cuál de las siguientes constituye una contraindicación para la trombólisis intravenosa en un paciente con ataque cerebrovascular isquémico agudo?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Presión arterial sostenida mayor de 185/110 mmHg pese a manejo"
+        },
+        {
+          "letra": "B",
+          "texto": "ASPECTS de 9/10 en la tomografía"
+        },
+        {
+          "letra": "C",
+          "texto": "Inicio de los síntomas hace 90 minutos"
+        },
+        {
+          "letra": "D",
+          "texto": "Edad de 70 años"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neurología",
+      "tema": "Contraindicaciones de trombólisis en ACV isquémico",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "baja",
+      "_nota": "respuesta y opciones creadas por IA (fragmento con opciones incompletas)",
+      "fuente": "Reconstrucción U. Caldas 2025 (recuperada)",
+      "anio": 2025
+    },
+    {
+      "enunciado": "Mujer de 44 años, diabética y obesa, con hirsutismo, obesidad central y fractura vertebral tras caída de su propia altura. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Hiperaldosteronismo primario"
+        },
+        {
+          "letra": "B",
+          "texto": "Hipercortisolismo (síndrome de Cushing)"
+        },
+        {
+          "letra": "C",
+          "texto": "Síndrome posmenopáusico"
+        },
+        {
+          "letra": "D",
+          "texto": "Hipotiroidismo primario"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Endocrinología",
+      "tema": "Síndrome de Cushing",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_nota": "respuesta deducida por IA; distractor añadido",
+      "fuente": "Reconstrucción U. Caldas 2025 (recuperada)",
+      "anio": 2025
+    },
+    {
+      "enunciado": "Paciente procedente de zona endémica con cefalea, fiebre de 40°C, malestar general y petequias en el tórax. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Malaria"
+        },
+        {
+          "letra": "B",
+          "texto": "Dengue con signos de alarma"
+        },
+        {
+          "letra": "C",
+          "texto": "Leptospirosis"
+        },
+        {
+          "letra": "D",
+          "texto": "Fiebre amarilla"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Infectología",
+      "tema": "Dengue con signos de alarma",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_nota": "respuesta deducida por IA; distractor añadido",
+      "fuente": "Reconstrucción U. Caldas 2025 (recuperada)",
+      "anio": 2025
+    },
+    {
+      "enunciado": "Paciente con lesiones ulceradas de fondo limpio, bordes elevados e indoloras. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Leishmaniasis cutánea"
+        },
+        {
+          "letra": "B",
+          "texto": "Esporotricosis"
+        },
+        {
+          "letra": "C",
+          "texto": "Carcinoma basocelular ulcerado"
+        },
+        {
+          "letra": "D",
+          "texto": "Úlcera piógena por Staphylococcus aureus"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Infectología",
+      "tema": "Leishmaniasis cutánea",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_nota": "respuesta y opciones creadas por IA",
+      "fuente": "Reconstrucción U. Caldas 2025 (recuperada)",
+      "anio": 2025
+    },
+    {
+      "enunciado": "Adulta mayor institucionalizada, en terapia de reemplazo renal y diabética, con fiebre de un mes de evolución y lesiones cutáneas compatibles con eritema nodoso. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Lupus eritematoso sistémico"
+        },
+        {
+          "letra": "B",
+          "texto": "Endocarditis infecciosa"
+        },
+        {
+          "letra": "C",
+          "texto": "Neoplasia oculta"
+        },
+        {
+          "letra": "D",
+          "texto": "Sarcoidosis"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Infectología",
+      "tema": "Fiebre prolongada y endocarditis infecciosa",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "baja",
+      "_nota": "respuesta deducida por IA; distractor añadido",
+      "fuente": "Reconstrucción U. Caldas 2025 (recuperada)",
+      "anio": 2025
+    },
+    {
+      "enunciado": "¿Cuál de las siguientes células de la inmunidad innata está implicada en la desregulación de la respuesta inflamatoria en la sepsis?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Macrófagos y neutrófilos"
+        },
+        {
+          "letra": "B",
+          "texto": "Células dendríticas"
+        },
+        {
+          "letra": "C",
+          "texto": "Linfocitos Th1"
+        },
+        {
+          "letra": "D",
+          "texto": "Linfocitos B"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Inmunología",
+      "tema": "Inmunidad innata en sepsis",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_nota": "respuesta deducida por IA; distractor añadido",
+      "fuente": "Reconstrucción U. Caldas 2025 (recuperada)",
+      "anio": 2025
+    },
+    {
+      "enunciado": "Paciente con tromboembolismo pulmonar hemodinámicamente inestable, hipotensa, con patrón S1Q3T3 en el ECG. ¿Cuál es la conducta más adecuada?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Trombólisis sistémica con alteplasa"
+        },
+        {
+          "letra": "B",
+          "texto": "Embolectomía quirúrgica"
+        },
+        {
+          "letra": "C",
+          "texto": "Anticoagulación con enoxaparina a dosis terapéutica"
+        },
+        {
+          "letra": "D",
+          "texto": "Colocación de filtro de vena cava inferior"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neumología",
+      "tema": "TEP de alto riesgo (masivo)",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_nota": "respuesta y opciones creadas por IA",
+      "fuente": "Reconstrucción U. Caldas 2025 (recuperada)",
+      "anio": 2025
+    },
+    {
+      "enunciado": "En un paciente con infarto agudo de miocardio con elevación del ST candidato a fibrinólisis, ¿cuál es el esquema de dosificación de alteplasa en régimen acelerado?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "15 mg en bolo, luego 0,75 mg/kg en 30 min y 0,5 mg/kg en 60 min (máximo 100 mg)"
+        },
+        {
+          "letra": "B",
+          "texto": "0,9 mg/kg con 10% en bolo y el resto en 60 min (máximo 90 mg)"
+        },
+        {
+          "letra": "C",
+          "texto": "100 mg en bolo único intravenoso"
+        },
+        {
+          "letra": "D",
+          "texto": "1.500.000 UI en infusión en 60 min"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cardiología",
+      "tema": "Fibrinólisis en IAMCEST (alteplasa)",
+      "dificultad": "alta",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_nota": "respuesta y opciones creadas por IA (enunciado fragmentario en la fuente)",
+      "fuente": "Reconstrucción U. Caldas 2025 (recuperada)",
+      "anio": 2025
+    },
+    {
+      "enunciado": "Paciente con síndrome mielodisplásico que presenta 24% de blastos, Hb 7,4 g/dL y plaquetas de 95.000. ¿Cuál es la interpretación más probable?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Recaída del síndrome mielodisplásico"
+        },
+        {
+          "letra": "B",
+          "texto": "Progresión a leucemia mieloide aguda"
+        },
+        {
+          "letra": "C",
+          "texto": "Citopenias por enfermedad viral"
+        },
+        {
+          "letra": "D",
+          "texto": "Anemia ferropénica"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Hematología",
+      "tema": "Progresión de SMD a leucemia mieloide aguda",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_nota": "respuesta deducida por IA (blastos >=20%); distractor añadido",
+      "fuente": "Reconstrucción U. Caldas 2025 (recuperada)",
+      "anio": 2025
+    },
+    {
+      "enunciado": "¿En qué consiste la enfermedad relacionada con IgG4?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Enfermedad fibroinflamatoria sistémica con infiltración tisular de plasmocitos IgG4+ y fibrosis estoriforme"
+        },
+        {
+          "letra": "B",
+          "texto": "Vasculitis de pequeño vaso asociada a ANCA"
+        },
+        {
+          "letra": "C",
+          "texto": "Enfermedad por depósito de inmunocomplejos de IgA"
+        },
+        {
+          "letra": "D",
+          "texto": "Neoplasia hematológica de células plasmáticas monoclonales"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Reumatología",
+      "tema": "Enfermedad relacionada con IgG4",
+      "dificultad": "alta",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_nota": "respuesta y opciones creadas por IA",
+      "fuente": "Reconstrucción U. Caldas 2025 (recuperada)",
+      "anio": 2025
+    },
+    {
+      "enunciado": "Paciente con placas eritemato-parduzcas en pliegues axilares e inguinales, con fluorescencia rojo coral bajo la luz de Wood. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Eritrasma (Corynebacterium minutissimum)"
+        },
+        {
+          "letra": "B",
+          "texto": "Tiña inguinal (dermatofitosis)"
+        },
+        {
+          "letra": "C",
+          "texto": "Candidiasis intertriginosa"
+        },
+        {
+          "letra": "D",
+          "texto": "Psoriasis invertida"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Eritrasma",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "enunciado y distractores reconstruidos; diagnóstico según la fuente",
+      "fuente": "Reconstrucción U. Caldas 2025 (recuperada)",
+      "anio": 2025
+    },
+    {
+      "enunciado": "Jardinero que tras un trauma con una espina de rosa desarrolla un nódulo que progresa con lesiones que ascienden en trayecto lineal siguiendo la vía linfática. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Esporotricosis"
+        },
+        {
+          "letra": "B",
+          "texto": "Leishmaniasis cutánea"
+        },
+        {
+          "letra": "C",
+          "texto": "Micobacteriosis atípica"
+        },
+        {
+          "letra": "D",
+          "texto": "Nocardiosis cutánea"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Esporotricosis linfocutánea",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "enunciado y distractores reconstruidos; diagnóstico según la fuente",
+      "fuente": "Reconstrucción U. Caldas 2025 (recuperada)",
+      "anio": 2025
+    },
+    {
+      "enunciado": "Paciente con VIH que presenta lesiones cutáneas con proliferación de vasos ectásicos y bacilos visibles con tinción de Warthin-Starry. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Angiomatosis bacilar (Bartonella)"
+        },
+        {
+          "letra": "B",
+          "texto": "Sarcoma de Kaposi"
+        },
+        {
+          "letra": "C",
+          "texto": "Granuloma piógeno"
+        },
+        {
+          "letra": "D",
+          "texto": "Hemangioma cutáneo"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Angiomatosis bacilar en VIH",
+      "dificultad": "alta",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "baja",
+      "_nota": "fuente ambigua entre angiomatosis bacilar y Kaposi; tinción Warthin-Starry orienta a Bartonella",
+      "fuente": "Reconstrucción U. Caldas 2025 (recuperada)",
+      "anio": 2025
+    },
+    {
+      "enunciado": "Paciente con lepra que presenta una única lesión anidrótica y una placa de aspecto empedrado. ¿Cuál es la forma clínica más probable?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Lepra tuberculoide"
+        },
+        {
+          "letra": "B",
+          "texto": "Lepra lepromatosa"
+        },
+        {
+          "letra": "C",
+          "texto": "Lepra dimorfa (borderline)"
+        },
+        {
+          "letra": "D",
+          "texto": "Lepra indeterminada"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Lepra tuberculoide",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "enunciado y distractores reconstruidos; diagnóstico según la fuente",
+      "fuente": "Reconstrucción U. Caldas 2025 (recuperada)",
+      "anio": 2025
+    },
+    {
+      "enunciado": "En la biopsia de una lesión cutánea verrucosa crónica se observan cuerpos de Medlar (células escleróticas o fumagoides). ¿Cuál es el diagnóstico?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Cromoblastomicosis"
+        },
+        {
+          "letra": "B",
+          "texto": "Esporotricosis"
+        },
+        {
+          "letra": "C",
+          "texto": "Paracoccidioidomicosis"
+        },
+        {
+          "letra": "D",
+          "texto": "Micetoma eumicótico"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Cromoblastomicosis (cuerpos de Medlar)",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_nota": "respuesta deducida por IA a partir del hallazgo histológico",
+      "fuente": "Reconstrucción U. Caldas 2025 (recuperada)",
+      "anio": 2025
+    },
+    {
+      "enunciado": "En la biopsia de una lesión se observan levaduras con múltiples gemaciones en disposición de rueda de timón (timón de barco). ¿Cuál es el diagnóstico?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Paracoccidioidomicosis"
+        },
+        {
+          "letra": "B",
+          "texto": "Histoplasmosis"
+        },
+        {
+          "letra": "C",
+          "texto": "Criptococosis"
+        },
+        {
+          "letra": "D",
+          "texto": "Blastomicosis"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Infectología",
+      "tema": "Paracoccidioidomicosis",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "enunciado y distractores reconstruidos; diagnóstico según la fuente",
+      "fuente": "Reconstrucción U. Caldas 2025 (recuperada)",
+      "anio": 2025
+    },
+    {
+      "enunciado": "Paciente con una úlcera genital dolorosa en el pene, de bordes irregulares y fondo sucio. ¿Cuál es el agente etiológico más probable?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Haemophilus ducreyi (chancroide)"
+        },
+        {
+          "letra": "B",
+          "texto": "Treponema pallidum (sífilis)"
+        },
+        {
+          "letra": "C",
+          "texto": "Chlamydia trachomatis (LGV)"
+        },
+        {
+          "letra": "D",
+          "texto": "Klebsiella granulomatis (donovanosis)"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Infectología",
+      "tema": "Chancroide (úlcera genital dolorosa)",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "enunciado y distractores reconstruidos; agente según la fuente",
+      "fuente": "Reconstrucción U. Caldas 2025 (recuperada)",
+      "anio": 2025
+    },
+    {
+      "enunciado": "Paciente con acné comedogénico que usa un retinoide tópico a diario y presenta descamación e irritación cutánea. ¿Cuál es el paso a seguir más adecuado?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Continuar el retinoide espaciando la aplicación a noches alternas e hidratar la piel"
+        },
+        {
+          "letra": "B",
+          "texto": "Suspender definitivamente el retinoide"
+        },
+        {
+          "letra": "C",
+          "texto": "Cambiar a corticoide tópico de alta potencia"
+        },
+        {
+          "letra": "D",
+          "texto": "Iniciar isotretinoína oral de inmediato"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Dermatitis por retinoides (manejo)",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_nota": "respuesta y opciones creadas por IA",
+      "fuente": "Reconstrucción U. Caldas 2025 (recuperada)",
+      "anio": 2025
+    },
+    {
+      "enunciado": "Paciente pediátrica con lesiones eritemato-descamativas y pruriginosas localizadas en pliegues (flexuras). ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Dermatitis atópica"
+        },
+        {
+          "letra": "B",
+          "texto": "Dermatitis seborreica"
+        },
+        {
+          "letra": "C",
+          "texto": "Psoriasis"
+        },
+        {
+          "letra": "D",
+          "texto": "Dermatitis de contacto"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Dermatitis atópica",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "enunciado y distractores reconstruidos; diagnóstico según la fuente",
+      "fuente": "Reconstrucción U. Caldas 2025 (recuperada)",
+      "anio": 2025
+    },
+    {
+      "enunciado": "Paciente pediátrica con lesiones descamativas en pliegues que ahora presentan costras melicéricas. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Dermatitis atópica sobreinfectada (impetiginizada)"
+        },
+        {
+          "letra": "B",
+          "texto": "Dermatitis atópica no complicada"
+        },
+        {
+          "letra": "C",
+          "texto": "Tiña corporis"
+        },
+        {
+          "letra": "D",
+          "texto": "Dermatitis herpetiforme"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Dermatitis atópica sobreinfectada",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "enunciado y distractores reconstruidos; diagnóstico según la fuente",
+      "fuente": "Reconstrucción U. Caldas 2025 (recuperada)",
+      "anio": 2025
+    },
+    {
+      "enunciado": "Paciente con VIH y CD4 menor de 85 que presenta pápulas umbilicadas, translúcidas, algunas mayores de 1 cm. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Molusco contagioso gigante"
+        },
+        {
+          "letra": "B",
+          "texto": "Criptococosis cutánea diseminada"
+        },
+        {
+          "letra": "C",
+          "texto": "Verrugas virales (VPH)"
+        },
+        {
+          "letra": "D",
+          "texto": "Histoplasmosis cutánea"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Molusco contagioso en VIH avanzado",
+      "dificultad": "alta",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_nota": "respuesta deducida por IA; considerar criptococosis como diferencial",
+      "fuente": "Reconstrucción U. Caldas 2025 (recuperada)",
+      "anio": 2025
+    },
+    {
+      "enunciado": "Paciente que trabaja como mecánico en una fábrica, con una lesión cutánea de larga data que se presenta como una placa con punteados negros. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Carcinoma escamocelular"
+        },
+        {
+          "letra": "B",
+          "texto": "Queratosis seborreica"
+        },
+        {
+          "letra": "C",
+          "texto": "Verruga vulgar"
+        },
+        {
+          "letra": "D",
+          "texto": "Melanoma acral"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Lesión cutánea crónica ocupacional",
+      "dificultad": "alta",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "baja",
+      "_nota": "respuesta y opciones creadas por IA (enunciado poco específico en la fuente)",
+      "fuente": "Reconstrucción U. Caldas 2025 (recuperada)",
+      "anio": 2025
+    },
+    {
+      "enunciado": "Paciente que venía en tratamiento con corticoides sistémicos y los suspendió de forma abrupta hace 4 meses, presentando ahora lesiones cutáneas generalizadas. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Brote de psoriasis por rebote tras suspensión de corticoides"
+        },
+        {
+          "letra": "B",
+          "texto": "Dermatitis atópica del adulto"
+        },
+        {
+          "letra": "C",
+          "texto": "Pitiriasis rosada"
+        },
+        {
+          "letra": "D",
+          "texto": "Eritema multiforme"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Psoriasis (rebote por corticoides)",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_nota": "respuesta deducida por IA (rebote por retiro de corticoides)",
+      "fuente": "Reconstrucción U. Caldas 2025 (recuperada)",
+      "anio": 2025
+    },
+    {
+      "enunciado": "Paciente pediátrico con lesiones papulosas umbilicadas en la piel. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Molusco contagioso"
+        },
+        {
+          "letra": "B",
+          "texto": "Verrugas virales"
+        },
+        {
+          "letra": "C",
+          "texto": "Varicela"
+        },
+        {
+          "letra": "D",
+          "texto": "Foliculitis"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Molusco contagioso pediátrico",
+      "dificultad": "baja",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_nota": "respuesta deducida por IA (pápulas umbilicadas)",
+      "fuente": "Reconstrucción U. Caldas 2025 (recuperada)",
+      "anio": 2025
+    },
+    {
+      "enunciado": "¿Cuál es el mecanismo de acción del ondansetrón?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Antagonista de los receptores de serotonina 5-HT3"
+        },
+        {
+          "letra": "B",
+          "texto": "Antagonista de los receptores dopaminérgicos D2"
+        },
+        {
+          "letra": "C",
+          "texto": "Antagonista de los receptores histaminérgicos H1"
+        },
+        {
+          "letra": "D",
+          "texto": "Antagonista de los receptores muscarínicos"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anestesiología",
+      "tema": "Mecanismo de acción del ondansetrón",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_nota": "respuesta y opciones creadas por IA",
+      "fuente": "Reconstrucción U. Caldas 2025 (recuperada)",
+      "anio": 2025
+    },
+    {
+      "enunciado": "¿Cuál es el mecanismo de acción de la ketamina como anestésico?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Antagonismo de los receptores NMDA del glutamato"
+        },
+        {
+          "letra": "B",
+          "texto": "Agonismo de los receptores GABA-A"
+        },
+        {
+          "letra": "C",
+          "texto": "Agonismo de los receptores opioides mu"
+        },
+        {
+          "letra": "D",
+          "texto": "Bloqueo de los canales de sodio dependientes de voltaje"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anestesiología",
+      "tema": "Mecanismo de acción de la ketamina",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_nota": "respuesta y opciones creadas por IA",
+      "fuente": "Reconstrucción U. Caldas 2025 (recuperada)",
+      "anio": 2025
+    },
+    {
+      "enunciado": "En un paciente con trauma encefalocraneano severo, hipotenso y con frecuencia cardíaca de 54-58 lpm, ¿cuál es el inductor de elección para la intubación?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Etomidato"
+        },
+        {
+          "letra": "B",
+          "texto": "Propofol"
+        },
+        {
+          "letra": "C",
+          "texto": "Tiopental sódico"
+        },
+        {
+          "letra": "D",
+          "texto": "Midazolam en bolo alto"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anestesiología",
+      "tema": "Inductor en TEC severo con inestabilidad",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_nota": "respuesta y opciones creadas por IA",
+      "fuente": "Reconstrucción U. Caldas 2025 (recuperada)",
+      "anio": 2025
+    },
+    {
+      "enunciado": "¿Cuál es el relajante muscular de elección para la inducción de secuencia rápida en un paciente con trauma encefalocraneano severo?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Rocuronio"
+        },
+        {
+          "letra": "B",
+          "texto": "Cisatracurio"
+        },
+        {
+          "letra": "C",
+          "texto": "Vecuronio"
+        },
+        {
+          "letra": "D",
+          "texto": "Pancuronio"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anestesiología",
+      "tema": "Relajante muscular en TEC severo",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_nota": "respuesta y opciones creadas por IA (succinilcolina es alternativa válida)",
+      "fuente": "Reconstrucción U. Caldas 2025 (recuperada)",
+      "anio": 2025
+    },
+    {
+      "enunciado": "¿Cuál es la fórmula del contenido arterial de oxígeno (CaO2)?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "(1,34 x Hb x SaO2) + (0,003 x PaO2)"
+        },
+        {
+          "letra": "B",
+          "texto": "(Hb x SaO2) + PaO2"
+        },
+        {
+          "letra": "C",
+          "texto": "Gasto cardíaco x diferencia arteriovenosa de O2"
+        },
+        {
+          "letra": "D",
+          "texto": "(1,34 x PaO2) + (0,003 x Hb)"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anestesiología",
+      "tema": "Contenido arterial de oxígeno",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_nota": "respuesta y opciones creadas por IA",
+      "fuente": "Reconstrucción U. Caldas 2025 (recuperada)",
+      "anio": 2025
+    },
+    {
+      "enunciado": "¿Cuál es el mecanismo de acción de la buprenorfina?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Agonista parcial de los receptores opioides mu"
+        },
+        {
+          "letra": "B",
+          "texto": "Agonista puro de los receptores opioides mu"
+        },
+        {
+          "letra": "C",
+          "texto": "Antagonista puro de los receptores opioides"
+        },
+        {
+          "letra": "D",
+          "texto": "Agonista de los receptores GABA-B"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anestesiología",
+      "tema": "Mecanismo de acción de la buprenorfina",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_nota": "respuesta y opciones creadas por IA",
+      "fuente": "Reconstrucción U. Caldas 2025 (recuperada)",
+      "anio": 2025
+    },
+    {
+      "enunciado": "En fisiología respiratoria, ¿cómo se define el shunt (cortocircuito) intrapulmonar?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Zonas perfundidas pero no ventiladas, donde la sangre no se oxigena"
+        },
+        {
+          "letra": "B",
+          "texto": "Zonas ventiladas pero no perfundidas (espacio muerto)"
+        },
+        {
+          "letra": "C",
+          "texto": "Aumento uniforme de la relación ventilación/perfusión"
+        },
+        {
+          "letra": "D",
+          "texto": "Disminución global de la difusión alveolo-capilar"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anestesiología",
+      "tema": "Definición de shunt intrapulmonar",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_nota": "respuesta y opciones creadas por IA",
+      "fuente": "Reconstrucción U. Caldas 2025 (recuperada)",
+      "anio": 2025
+    },
+    {
+      "enunciado": "¿Qué mide la oximetría de pulso?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "La saturación de oxígeno de la hemoglobina (SpO2)"
+        },
+        {
+          "letra": "B",
+          "texto": "La presión parcial de oxígeno arterial (PaO2)"
+        },
+        {
+          "letra": "C",
+          "texto": "El contenido total de oxígeno en sangre"
+        },
+        {
+          "letra": "D",
+          "texto": "La presión parcial de dióxido de carbono"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anestesiología",
+      "tema": "Oximetría de pulso",
+      "dificultad": "baja",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_nota": "respuesta y opciones creadas por IA",
+      "fuente": "Reconstrucción U. Caldas 2025 (recuperada)",
+      "anio": 2025
+    },
+    {
+      "enunciado": "¿Cuál de las siguientes afirmaciones define correctamente la saturación venosa central de oxígeno (ScvO2)?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Es la saturación de oxígeno medida en la sangre de la vena cava superior (aurícula derecha)"
+        },
+        {
+          "letra": "B",
+          "texto": "Es la saturación de oxígeno medida en la arteria pulmonar"
+        },
+        {
+          "letra": "C",
+          "texto": "Es la saturación arterial de oxígeno periférica"
+        },
+        {
+          "letra": "D",
+          "texto": "Es la diferencia arteriovenosa de oxígeno"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anestesiología",
+      "tema": "Saturación venosa central de oxígeno",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_nota": "respuesta y opciones creadas por IA",
+      "fuente": "Reconstrucción U. Caldas 2025 (recuperada)",
+      "anio": 2025
+    },
+    {
+      "enunciado": "¿Cuál de las siguientes afirmaciones es correcta respecto a la medición del dióxido de carbono mediante capnografía?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Mide la concentración de CO2 en el aire espirado (EtCO2)"
+        },
+        {
+          "letra": "B",
+          "texto": "Mide la presión parcial de oxígeno inspirado"
+        },
+        {
+          "letra": "C",
+          "texto": "Mide el pH sanguíneo directamente"
+        },
+        {
+          "letra": "D",
+          "texto": "Mide la saturación de oxígeno arterial"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anestesiología",
+      "tema": "Capnografía (EtCO2)",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_nota": "respuesta y opciones creadas por IA",
+      "fuente": "Reconstrucción U. Caldas 2025 (recuperada)",
+      "anio": 2025
+    },
+    {
+      "enunciado": "¿Cuál es el inductor de elección para la colocación de una máscara laríngea, por su capacidad de suprimir los reflejos de la vía aérea?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Propofol"
+        },
+        {
+          "letra": "B",
+          "texto": "Etomidato"
+        },
+        {
+          "letra": "C",
+          "texto": "Ketamina"
+        },
+        {
+          "letra": "D",
+          "texto": "Tiopental"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anestesiología",
+      "tema": "Inductor para máscara laríngea",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_nota": "respuesta y opciones creadas por IA",
+      "fuente": "Reconstrucción U. Caldas 2025 (recuperada)",
+      "anio": 2025
+    },
+    {
+      "enunciado": "¿Cuál de las siguientes afirmaciones es correcta respecto a la máscara laríngea?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Es un dispositivo supraglótico que no protege completamente frente a la broncoaspiración"
+        },
+        {
+          "letra": "B",
+          "texto": "Aísla por completo la vía aérea como un tubo endotraqueal"
+        },
+        {
+          "letra": "C",
+          "texto": "Está indicada de primera línea en el estómago lleno"
+        },
+        {
+          "letra": "D",
+          "texto": "Se coloca por debajo de las cuerdas vocales"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anestesiología",
+      "tema": "Máscara laríngea (dispositivo supraglótico)",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_nota": "respuesta y opciones creadas por IA",
+      "fuente": "Reconstrucción U. Caldas 2025 (recuperada)",
+      "anio": 2025
+    },
+    {
+      "enunciado": "En el contexto de un anestésico local con vasoconstrictor, ¿qué significa una concentración de 1:100.000 de adrenalina?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "1 gramo en 100.000 mL, equivalente a 10 microgramos por mL"
+        },
+        {
+          "letra": "B",
+          "texto": "100.000 gramos por litro de solución"
+        },
+        {
+          "letra": "C",
+          "texto": "1 miligramo por cada 100.000 mL"
+        },
+        {
+          "letra": "D",
+          "texto": "100 microgramos por mL"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anestesiología",
+      "tema": "Concentración de adrenalina 1:100.000",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_nota": "respuesta y opciones creadas por IA",
+      "fuente": "Reconstrucción U. Caldas 2025 (recuperada)",
+      "anio": 2025
+    },
+    {
+      "enunciado": "Un paciente presenta apnea tras la administración conjunta de fentanilo y midazolam. ¿Cuál es la causa más probable?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Depresión respiratoria por sinergismo entre opioide y benzodiacepina"
+        },
+        {
+          "letra": "B",
+          "texto": "Reacción anafiláctica al fentanilo"
+        },
+        {
+          "letra": "C",
+          "texto": "Bloqueo neuromuscular residual"
+        },
+        {
+          "letra": "D",
+          "texto": "Broncoespasmo agudo"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anestesiología",
+      "tema": "Sinergismo opioide-benzodiacepina",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_nota": "respuesta y opciones creadas por IA",
+      "fuente": "Reconstrucción U. Caldas 2025 (recuperada)",
+      "anio": 2025
+    },
+    {
+      "enunciado": "¿Qué agente, al alcalinizar la solución, aumenta la fracción no ionizada del anestésico local y acelera su inicio de acción?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Bicarbonato de sodio"
+        },
+        {
+          "letra": "B",
+          "texto": "Epinefrina"
+        },
+        {
+          "letra": "C",
+          "texto": "Hialuronidasa"
+        },
+        {
+          "letra": "D",
+          "texto": "Cloruro de potasio"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anestesiología",
+      "tema": "Bicarbonato y anestésicos locales",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_nota": "respuesta y opciones creadas por IA (fuente señala bicarbonato)",
+      "fuente": "Reconstrucción U. Caldas 2025 (recuperada)",
+      "anio": 2025
+    },
+    {
+      "enunciado": "¿Cuál es el mecanismo de acción de los relajantes musculares no despolarizantes?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Antagonismo competitivo del receptor nicotínico de acetilcolina en la placa motora"
+        },
+        {
+          "letra": "B",
+          "texto": "Agonismo persistente del receptor nicotínico con despolarización mantenida"
+        },
+        {
+          "letra": "C",
+          "texto": "Inhibición de la acetilcolinesterasa"
+        },
+        {
+          "letra": "D",
+          "texto": "Bloqueo de los canales de calcio presinápticos"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anestesiología",
+      "tema": "Relajantes musculares no despolarizantes",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_nota": "respuesta y opciones creadas por IA",
+      "fuente": "Reconstrucción U. Caldas 2025 (recuperada)",
+      "anio": 2025
+    },
+    {
+      "enunciado": "Paciente obeso con EPOC en quien, en el primer intento de intubación, no se logra el procedimiento y desatura rápidamente. ¿Cómo se clasifica esta situación?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Vía aérea difícil fisiológica"
+        },
+        {
+          "letra": "B",
+          "texto": "Intubación fallida"
+        },
+        {
+          "letra": "C",
+          "texto": "Vía aérea difícil anatómica"
+        },
+        {
+          "letra": "D",
+          "texto": "Vía aérea no cooperadora"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anestesiología",
+      "tema": "Vía aérea difícil fisiológica",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_nota": "respuesta y opciones creadas por IA (fragmento con 2 opciones)",
+      "fuente": "Reconstrucción U. Caldas 2025 (recuperada)",
+      "anio": 2025
+    },
+    {
+      "enunciado": "Paciente de 80 años que viene presentando alteraciones de la memoria con deterioro de su funcionalidad para las actividades de la vida diaria. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Trastorno neurocognitivo leve"
+        },
+        {
+          "letra": "B",
+          "texto": "Trastorno neurocognitivo mayor"
+        },
+        {
+          "letra": "C",
+          "texto": "Delirium"
+        },
+        {
+          "letra": "D",
+          "texto": "Trastorno depresivo mayor (pseudodemencia)"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Psiquiatría",
+      "tema": "Trastorno neurocognitivo mayor",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_nota": "respuesta deducida por IA (compromiso funcional = mayor)",
+      "fuente": "Reconstrucción U. Caldas 2025 (recuperada)",
+      "anio": 2025
+    },
+    {
+      "enunciado": "Mujer de 18 años llevada por su familia por ánimo triste, pérdida de peso y alteración de la autoestima; refiere que no la dejan asistir al gimnasio para embellecer su cuerpo. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Bulimia nerviosa"
+        },
+        {
+          "letra": "B",
+          "texto": "Anorexia nerviosa"
+        },
+        {
+          "letra": "C",
+          "texto": "Trastorno depresivo mayor"
+        },
+        {
+          "letra": "D",
+          "texto": "Trastorno dismórfico corporal"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Psiquiatría",
+      "tema": "Anorexia nerviosa",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_nota": "respuesta deducida por IA; distractor añadido",
+      "fuente": "Reconstrucción U. Caldas 2025 (recuperada)",
+      "anio": 2025
+    },
+    {
+      "enunciado": "¿Qué síntoma es característico de un paciente con trastorno de ansiedad generalizada?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Hipersomnia"
+        },
+        {
+          "letra": "B",
+          "texto": "Temblor"
+        },
+        {
+          "letra": "C",
+          "texto": "Disminución del apetito"
+        },
+        {
+          "letra": "D",
+          "texto": "Alucinaciones auditivas"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Psiquiatría",
+      "tema": "Trastorno de ansiedad generalizada",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_nota": "respuesta deducida por IA; distractor añadido",
+      "fuente": "Reconstrucción U. Caldas 2025 (recuperada)",
+      "anio": 2025
+    },
+    {
+      "enunciado": "Paciente de 12 semanas de gestación que acude a control prenatal con IgM e IgG para toxoplasma positivas. ¿Cuál es el paso a seguir?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Iniciar tratamiento de inmediato"
+        },
+        {
+          "letra": "B",
+          "texto": "Solicitar test de avidez de IgG"
+        },
+        {
+          "letra": "C",
+          "texto": "Repetir la IgM en dos semanas"
+        },
+        {
+          "letra": "D",
+          "texto": "Amniocentesis con PCR para toxoplasma"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Toxoplasmosis en el embarazo (test de avidez)",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_nota": "respuesta deducida por IA; distractor añadido",
+      "fuente": "Reconstrucción U. Caldas 2025 (recuperada)",
+      "anio": 2025
+    },
+    {
+      "enunciado": "Paciente con antecedente de SOP, usuaria de metformina 850 mg dos veces al día, con embarazo de 6.5 semanas y control prenatal con paraclínicos normales y ecografía con embarazo intrauterino. ¿Qué recomendación se le da respecto a la metformina?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Suspender la metformina de inmediato"
+        },
+        {
+          "letra": "B",
+          "texto": "Continuar la metformina hasta finalizar el primer trimestre y luego suspenderla"
+        },
+        {
+          "letra": "C",
+          "texto": "Continuar la metformina durante todo el embarazo"
+        },
+        {
+          "letra": "D",
+          "texto": "Cambiar la metformina por insulina"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Metformina en el embarazo (SOP)",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_nota": "respuesta deducida por IA; distractor añadido",
+      "fuente": "Reconstrucción U. Caldas 2025 (recuperada)",
+      "anio": 2025
+    },
+    {
+      "enunciado": "Gestante que acude con prueba treponémica positiva y prueba no treponémica positiva en cualquier dilución, sin antecedente de tratamiento previo para sífilis. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Caso confirmado de sífilis"
+        },
+        {
+          "letra": "B",
+          "texto": "Caso sospechoso de sífilis"
+        },
+        {
+          "letra": "C",
+          "texto": "No requiere tratamiento"
+        },
+        {
+          "letra": "D",
+          "texto": "Falso positivo serológico"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Diagnóstico de sífilis gestacional",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_nota": "respuesta y opciones creadas por IA",
+      "fuente": "Reconstrucción U. Caldas 2025 (recuperada)",
+      "anio": 2025
+    },
+    {
+      "enunciado": "¿En cuál de las siguientes situaciones está contraindicado el uso de metilergonovina en una gestante o puérpera?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Trastorno hipertensivo del embarazo"
+        },
+        {
+          "letra": "B",
+          "texto": "Diabetes gestacional"
+        },
+        {
+          "letra": "C",
+          "texto": "Anemia ferropénica"
+        },
+        {
+          "letra": "D",
+          "texto": "Edad materna avanzada"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Contraindicaciones de metilergonovina",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_nota": "respuesta y opciones creadas por IA",
+      "fuente": "Reconstrucción U. Caldas 2025 (recuperada)",
+      "anio": 2025
+    },
+    {
+      "enunciado": "¿Cuál de los siguientes exámenes NO se solicita de rutina en una consulta preconcepcional?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Mamografía de tamizaje"
+        },
+        {
+          "letra": "B",
+          "texto": "Hemograma"
+        },
+        {
+          "letra": "C",
+          "texto": "Serología para sífilis (VDRL)"
+        },
+        {
+          "letra": "D",
+          "texto": "Glicemia en ayunas"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Evaluación preconcepcional",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_nota": "respuesta y opciones creadas por IA (enunciado sin opciones en la fuente)",
+      "fuente": "Reconstrucción U. Caldas 2025 (recuperada)",
+      "anio": 2025
+    },
+    {
+      "enunciado": "¿Cuál de los siguientes es un factor de riesgo para hemorragia postparto?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Corioamnionitis"
+        },
+        {
+          "letra": "B",
+          "texto": "Hipertensión gestacional"
+        },
+        {
+          "letra": "C",
+          "texto": "Oligohidramnios"
+        },
+        {
+          "letra": "D",
+          "texto": "Edad materna menor de 20 años"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Factores de riesgo de hemorragia postparto",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_nota": "respuesta deducida por IA; distractor añadido",
+      "fuente": "Reconstrucción U. Caldas 2025 (recuperada)",
+      "anio": 2025
+    },
+    {
+      "enunciado": "Paciente de 28 años que ingresa a control preconcepcional porque desea embarazo. ¿Cuál de las siguientes conductas NO se debería indicar?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Ácido fólico"
+        },
+        {
+          "letra": "B",
+          "texto": "Continuar con la planificación familiar"
+        },
+        {
+          "letra": "C",
+          "texto": "Tamizaje de infecciones (VIH, sífilis)"
+        },
+        {
+          "letra": "D",
+          "texto": "Actualización del esquema de vacunación"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Consulta preconcepcional",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_nota": "respuesta deducida por IA; distractor añadido",
+      "fuente": "Reconstrucción U. Caldas 2025 (recuperada)",
+      "anio": 2025
+    },
+    {
+      "enunciado": "Paciente joven con farmacodependencia y administración de drogas endovenosas, acude por 3 semanas de fiebre, con dolor de región interescapular y al examen físico soplo sistólico mitral; hemocultivos negativos. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Tuberculosis vertebral"
+        },
+        {
+          "letra": "B",
+          "texto": "Endocarditis infecciosa"
+        },
+        {
+          "letra": "C",
+          "texto": "Infección por VIH"
+        },
+        {
+          "letra": "D",
+          "texto": "Mixoma auricular"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Cardiología",
+      "tema": "Endocarditis infecciosa con hemocultivos negativos",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "1 distractor generado (mixoma auricular); respuesta marcada en la fuente.",
+      "fuente": "Reconstrucción U. Caldas 2024 (recuperada)",
+      "anio": 2024
+    },
+    {
+      "enunciado": "Paciente femenina de 66 años con 2 años de evolución de artralgias matutinas que resuelven en 30 minutos, con dolor en articulaciones interfalángicas distales. VSG 30, factor reumatoideo 70, ANA 1:90. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Artritis reumatoidea"
+        },
+        {
+          "letra": "B",
+          "texto": "Artrosis"
+        },
+        {
+          "letra": "C",
+          "texto": "Osteoartritis primaria"
+        },
+        {
+          "letra": "D",
+          "texto": "Artritis psoriásica"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Reumatología",
+      "tema": "Osteoartritis primaria (compromiso de IFD)",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "1 distractor generado (artritis psoriásica); la fuente incluye tanto 'artrosis' como 'osteoartritis primaria' como opciones separadas.",
+      "fuente": "Reconstrucción U. Caldas 2024 (recuperada)",
+      "anio": 2024
+    },
+    {
+      "enunciado": "Femenina de 24 años (antecedente familiar: hermana con artritis reumatoide) con dolor articular matutino de 30 minutos, dolor en interfalángicas proximales y metacarpofalángicas, ANA 1:180, leucocitos 4000, linfocitos 800, plaquetas 114.000. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Artritis reumatoidea"
+        },
+        {
+          "letra": "B",
+          "texto": "Artrosis"
+        },
+        {
+          "letra": "C",
+          "texto": "Lupus eritematoso sistémico"
+        },
+        {
+          "letra": "D",
+          "texto": "Síndrome de Sjögren"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Reumatología",
+      "tema": "Lupus eritematoso sistémico (criterios ACR/EULAR)",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "1 distractor generado (síndrome de Sjögren); respuesta marcada en la fuente.",
+      "fuente": "Reconstrucción U. Caldas 2024 (recuperada)",
+      "anio": 2024
+    },
+    {
+      "enunciado": "¿Cuál es el aporte calórico por gramo de los macronutrientes?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Lípidos 4 kcal, carbohidratos 9 kcal, proteínas 6 kcal"
+        },
+        {
+          "letra": "B",
+          "texto": "Lípidos 9 kcal, carbohidratos 4 kcal, proteínas 4 kcal"
+        },
+        {
+          "letra": "C",
+          "texto": "Lípidos 7 kcal, carbohidratos 4 kcal, proteínas 4 kcal"
+        },
+        {
+          "letra": "D",
+          "texto": "Lípidos 9 kcal, carbohidratos 7 kcal, proteínas 4 kcal"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Bioquímica",
+      "tema": "Aporte calórico de macronutrientes",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "2 distractores generados; respuesta marcada en la fuente.",
+      "fuente": "Reconstrucción U. Caldas 2024 (recuperada)",
+      "anio": 2024
+    },
+    {
+      "enunciado": "Paciente masculino ingresa a urgencias con dolor torácico de 15 minutos de evolución, EKG con ondas T picudas e infradesnivel del ST en AVL y DI. ¿Cuál de las siguientes es criterio para intervención coronaria percutánea (ICP) emergente?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Primer episodio de dolor torácico"
+        },
+        {
+          "letra": "B",
+          "texto": "Persistencia de los cambios electrocardiográficos"
+        },
+        {
+          "letra": "C",
+          "texto": "Falla cardíaca aguda"
+        },
+        {
+          "letra": "D",
+          "texto": "Dolor torácico de más de 24 horas de evolución"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Cardiología",
+      "tema": "Síndrome coronario agudo / indicación de ICP emergente",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "1 distractor generado; respuesta marcada en la fuente.",
+      "fuente": "Reconstrucción U. Caldas 2024 (recuperada)",
+      "anio": 2024
+    },
+    {
+      "enunciado": "Paciente con vaginosis bacteriana. ¿Cuál es el manejo indicado?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Clotrimazol óvulos"
+        },
+        {
+          "letra": "B",
+          "texto": "Metronidazol 500 mg cada 12 horas por 7 días"
+        },
+        {
+          "letra": "C",
+          "texto": "Doxiciclina 100 mg cada 12 horas por 21 días"
+        },
+        {
+          "letra": "D",
+          "texto": "Fluconazol 150 mg dosis única"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Tratamiento de la vaginosis bacteriana",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "1 distractor generado (fluconazol); respuesta marcada en la fuente.",
+      "fuente": "Reconstrucción U. Caldas 2024 (recuperada)",
+      "anio": 2024
+    },
+    {
+      "enunciado": "Paciente con flujo maloliente y abundante, con dolor a la movilización del cuello uterino. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Enfermedad pélvica inflamatoria (EPI)"
+        },
+        {
+          "letra": "B",
+          "texto": "Vaginosis bacteriana"
+        },
+        {
+          "letra": "C",
+          "texto": "Candidiasis vulvovaginal"
+        },
+        {
+          "letra": "D",
+          "texto": "Tricomoniasis"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Enfermedad pélvica inflamatoria",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "2 distractores generados; respuesta marcada en la fuente.",
+      "fuente": "Reconstrucción U. Caldas 2024 (recuperada)",
+      "anio": 2024
+    },
+    {
+      "enunciado": "Paciente con menstruaciones irregulares, ciclos de 30-60 días, hirsutismo y obesidad. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Síndrome de ovario poliquístico"
+        },
+        {
+          "letra": "B",
+          "texto": "Hirsutismo idiopático"
+        },
+        {
+          "letra": "C",
+          "texto": "Hiperprolactinemia"
+        },
+        {
+          "letra": "D",
+          "texto": "Hipotiroidismo"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Síndrome de ovario poliquístico",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "2 distractores generados; respuesta marcada en la fuente.",
+      "fuente": "Reconstrucción U. Caldas 2024 (recuperada)",
+      "anio": 2024
+    },
+    {
+      "enunciado": "¿A través de qué estructura anatómica protruyen las hernias inguinales directas?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Anillo inguinal profundo"
+        },
+        {
+          "letra": "B",
+          "texto": "Triángulo de Hesselbach"
+        },
+        {
+          "letra": "C",
+          "texto": "Aponeurosis del oblicuo externo"
+        },
+        {
+          "letra": "D",
+          "texto": "Anillo crural (femoral)"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Cirugía General",
+      "tema": "Anatomía de las hernias inguinales",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "1 distractor generado (anillo crural); respuesta marcada en la fuente.",
+      "fuente": "Reconstrucción U. Caldas 2024 (recuperada)",
+      "anio": 2024
+    },
+    {
+      "enunciado": "Lactante menor que inicia con rinorrea, fiebre y tos, con posteriores sibilancias y crépitos; vacunas PAI completas; lo visitó un familiar con gripe. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Bronquiolitis"
+        },
+        {
+          "letra": "B",
+          "texto": "Fibrosis quística"
+        },
+        {
+          "letra": "C",
+          "texto": "Laringomalacia"
+        },
+        {
+          "letra": "D",
+          "texto": "Crisis asmática"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Pediatría",
+      "tema": "Bronquiolitis del lactante",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "1 distractor generado (crisis asmática); respuesta marcada en la fuente.",
+      "fuente": "Reconstrucción U. Caldas 2024 (recuperada)",
+      "anio": 2024
+    },
+    {
+      "enunciado": "Paciente con DM tipo 1 presenta hipoglucemia tras uso de insulina. ¿Cuál es el mecanismo del glucagón para contrarrestar la hipoglucemia?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Gluconeogénesis y glucogenólisis hepáticas"
+        },
+        {
+          "letra": "B",
+          "texto": "Lipólisis"
+        },
+        {
+          "letra": "C",
+          "texto": "Aumento de la sensibilidad a la insulina en el músculo esquelético"
+        },
+        {
+          "letra": "D",
+          "texto": "Aumento de la captación de glucosa por el tejido adiposo"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Endocrinología",
+      "tema": "Glucagón y regulación de la glucemia",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "1 distractor generado; respuesta marcada en la fuente.",
+      "fuente": "Reconstrucción U. Caldas 2024 (recuperada)",
+      "anio": 2024
+    },
+    {
+      "enunciado": "Paciente con 3 días de fiebre, mialgias, artralgias y emesis, procedente de zona cálida con presencia de mosquitos. ¿Cuál es la conducta a seguir?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Clasificar como caso sospechoso de leptospirosis"
+        },
+        {
+          "letra": "B",
+          "texto": "Solicitar IgM para dengue"
+        },
+        {
+          "letra": "C",
+          "texto": "Clasificar como caso sospechoso de dengue"
+        },
+        {
+          "letra": "D",
+          "texto": "Iniciar doxiciclina empírica"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Infectología",
+      "tema": "Dengue: definición de caso sospechoso",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "1 distractor generado (doxiciclina empírica); respuesta marcada en la fuente. IgM se indica tras el 5º día.",
+      "fuente": "Reconstrucción U. Caldas 2024 (recuperada)",
+      "anio": 2024
+    },
+    {
+      "enunciado": "Paciente con EKG que muestra intervalos R-R irregulares y ausencia de ondas P. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Fibrilación auricular"
+        },
+        {
+          "letra": "B",
+          "texto": "Flutter (aleteo) auricular"
+        },
+        {
+          "letra": "C",
+          "texto": "Taquicardia sinusal"
+        },
+        {
+          "letra": "D",
+          "texto": "Bloqueo auriculoventricular de primer grado"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cardiología",
+      "tema": "Fibrilación auricular en el EKG",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "3 distractores generados; la fuente solo traía la respuesta correcta.",
+      "fuente": "Reconstrucción U. Caldas 2024 (recuperada)",
+      "anio": 2024
+    },
+    {
+      "enunciado": "Paciente mayor de edad con edema facial sin fóvea, astenia y estreñimiento. ¿Qué paraclínicos esperaría encontrar?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "TSH 25 con T4 libre baja"
+        },
+        {
+          "letra": "B",
+          "texto": "TSH 0.03 y T4 libre 2.8"
+        },
+        {
+          "letra": "C",
+          "texto": "TSH 7 y T4 libre 1.3"
+        },
+        {
+          "letra": "D",
+          "texto": "TSH y T4 libre dentro de rangos normales"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Endocrinología",
+      "tema": "Hipotiroidismo primario",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "1 distractor generado (perfil tiroideo normal); respuesta marcada en la fuente (TSH 25).",
+      "fuente": "Reconstrucción U. Caldas 2024 (recuperada)",
+      "anio": 2024
+    },
+    {
+      "enunciado": "Son causas de hemorragia digestiva alta, excepto:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Várices esofágicas"
+        },
+        {
+          "letra": "B",
+          "texto": "Síndrome de Mallory-Weiss"
+        },
+        {
+          "letra": "C",
+          "texto": "Úlcera péptica gástrica"
+        },
+        {
+          "letra": "D",
+          "texto": "Angiodisplasia duodenal"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Gastroenterología",
+      "tema": "Causas de hemorragia digestiva alta",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "1 distractor generado (úlcera péptica gástrica); respuesta marcada en la fuente.",
+      "fuente": "Reconstrucción U. Caldas 2024 (recuperada)",
+      "anio": 2024
+    },
+    {
+      "enunciado": "¿Para qué se utilizan los antibióticos profilácticos en cirugía?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Esterilizar la zona quirúrgica"
+        },
+        {
+          "letra": "B",
+          "texto": "Evitar la infección del sitio operatorio"
+        },
+        {
+          "letra": "C",
+          "texto": "Detener el crecimiento bacteriano"
+        },
+        {
+          "letra": "D",
+          "texto": "Tratar una infección ya establecida"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Cirugía General",
+      "tema": "Profilaxis antibiótica quirúrgica",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "1 distractor generado; respuesta marcada en la fuente.",
+      "fuente": "Reconstrucción U. Caldas 2024 (recuperada)",
+      "anio": 2024
+    },
+    {
+      "enunciado": "En el trauma de cuello, ¿qué límites comprende la zona I?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Del cricoides al ángulo de la mandíbula"
+        },
+        {
+          "letra": "B",
+          "texto": "Del cricoides al cartílago tiroides"
+        },
+        {
+          "letra": "C",
+          "texto": "De la horquilla esternal al cricoides"
+        },
+        {
+          "letra": "D",
+          "texto": "Del ángulo de la mandíbula a la base del cráneo"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Cirugía General",
+      "tema": "Zonas del cuello en trauma",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "1 distractor generado (zona III); respuesta marcada en la fuente.",
+      "fuente": "Reconstrucción U. Caldas 2024 (recuperada)",
+      "anio": 2024
+    },
+    {
+      "enunciado": "Paciente con antecedente de laparotomía por herida por arma de fuego, consulta por dolor abdominal, distensión, emesis y ausencia de flatos. ¿Cuál es la conducta diagnóstica inicial?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Radiografía de abdomen simple de pie y decúbito"
+        },
+        {
+          "letra": "B",
+          "texto": "TAC abdominal contrastado"
+        },
+        {
+          "letra": "C",
+          "texto": "Ecografía abdominal"
+        },
+        {
+          "letra": "D",
+          "texto": "Colonoscopia"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cirugía General",
+      "tema": "Obstrucción intestinal: estudio inicial",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "1 distractor generado (colonoscopia); respuesta marcada en la fuente.",
+      "fuente": "Reconstrucción U. Caldas 2024 (recuperada)",
+      "anio": 2024
+    },
+    {
+      "enunciado": "La úlcera de Marjolin es:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Úlcera vasculítica"
+        },
+        {
+          "letra": "B",
+          "texto": "Úlcera por neoplasia (transformación maligna sobre cicatriz o quemadura crónica)"
+        },
+        {
+          "letra": "C",
+          "texto": "Úlcera por decúbito"
+        },
+        {
+          "letra": "D",
+          "texto": "Úlcera venosa"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Cirugía General",
+      "tema": "Úlcera de Marjolin",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "1 distractor generado (úlcera venosa); respuesta marcada en la fuente.",
+      "fuente": "Reconstrucción U. Caldas 2024 (recuperada)",
+      "anio": 2024
+    },
+    {
+      "enunciado": "¿Cuál es el estudio indicado para el diagnóstico de diverticulitis aguda?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "TAC abdominal contrastado"
+        },
+        {
+          "letra": "B",
+          "texto": "Colonoscopia"
+        },
+        {
+          "letra": "C",
+          "texto": "Radiografía simple de abdomen"
+        },
+        {
+          "letra": "D",
+          "texto": "Enema baritado"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Gastroenterología",
+      "tema": "Diverticulitis aguda: diagnóstico",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "2 distractores generados; la colonoscopia está contraindicada en la fase aguda. Respuesta marcada en la fuente.",
+      "fuente": "Reconstrucción U. Caldas 2024 (recuperada)",
+      "anio": 2024
+    },
+    {
+      "enunciado": "¿Cuál es el factor de mayor valor pronóstico en el cáncer de colon?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Antígeno carcinoembrionario"
+        },
+        {
+          "letra": "B",
+          "texto": "Compromiso de las paredes del colon (profundidad de invasión y estadio TNM)"
+        },
+        {
+          "letra": "C",
+          "texto": "Grado de diferenciación histológica"
+        },
+        {
+          "letra": "D",
+          "texto": "Tamaño del tumor"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Oncología",
+      "tema": "Factores pronósticos en cáncer de colon",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "1 distractor generado (tamaño del tumor); respuesta marcada en la fuente.",
+      "fuente": "Reconstrucción U. Caldas 2024 (recuperada)",
+      "anio": 2024
+    },
+    {
+      "enunciado": "Según la clasificación de Hinchey, ¿a qué corresponde el estadio Ib?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Absceso pericólico (< 5 cm)"
+        },
+        {
+          "letra": "B",
+          "texto": "Inflamación pericólica sin absceso"
+        },
+        {
+          "letra": "C",
+          "texto": "Absceso pélvico a distancia (> 5 cm)"
+        },
+        {
+          "letra": "D",
+          "texto": "Peritonitis generalizada"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cirugía General",
+      "tema": "Clasificación de Hinchey en diverticulitis",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "1 distractor generado (peritonitis generalizada); respuesta marcada en la fuente.",
+      "fuente": "Reconstrucción U. Caldas 2024 (recuperada)",
+      "anio": 2024
+    },
+    {
+      "enunciado": "Paciente de 70 años, masculino, con DM, HTA y fibrilación auricular mal adherente al manejo; dolor súbito en fosa ilíaca derecha con emesis. FC 140, TA 96/70. Al examen físico masa inguinal derecha dolorosa no reducible. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Hernia inguinal encarcelada/estrangulada"
+        },
+        {
+          "letra": "B",
+          "texto": "Isquemia mesentérica"
+        },
+        {
+          "letra": "C",
+          "texto": "Apendicitis aguda"
+        },
+        {
+          "letra": "D",
+          "texto": "Adenopatía inguinal infecciosa"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cirugía General",
+      "tema": "Hernia inguinal complicada",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "2 distractores generados; respuesta marcada en la fuente.",
+      "fuente": "Reconstrucción U. Caldas 2024 (recuperada)",
+      "anio": 2024
+    },
+    {
+      "enunciado": "¿En cuál de las siguientes situaciones NO está indicado iniciar nutrición parenteral en las primeras 72 horas?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Paciente con patología o cirugía a nivel abdominal"
+        },
+        {
+          "letra": "B",
+          "texto": "Paciente con sepsis o proceso infeccioso no controlado"
+        },
+        {
+          "letra": "C",
+          "texto": "Paciente con síndrome de intestino corto"
+        },
+        {
+          "letra": "D",
+          "texto": "Paciente con fístula enterocutánea de alto gasto"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Cirugía General",
+      "tema": "Nutrición parenteral: indicaciones y contraindicaciones",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "2 distractores generados; respuesta señalada en la fuente (sepsis/proceso infeccioso). Verificar redacción de la pregunta original.",
+      "fuente": "Reconstrucción U. Caldas 2024 (recuperada)",
+      "anio": 2024
+    },
+    {
+      "enunciado": "Paciente con contusión pulmonar que compromete más del 30% del pulmón. ¿Cuál es la conducta más importante?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Terapia respiratoria e ingreso a cuidado intensivo respiratorio"
+        },
+        {
+          "letra": "B",
+          "texto": "Iniciar antibiótico profiláctico"
+        },
+        {
+          "letra": "C",
+          "texto": "Asegurar la vía aérea"
+        },
+        {
+          "letra": "D",
+          "texto": "Colocar tubo de tórax (toracostomía cerrada)"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Medicina de Urgencias",
+      "tema": "Trauma torácico: contusión pulmonar",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "1 distractor generado (tubo de tórax); en la fuente aparecían marcadas tanto 'asegurar vía aérea' como 'terapia respiratoria'. Se conservó la de mayor énfasis (vía aérea). Revisar.",
+      "fuente": "Reconstrucción U. Caldas 2024 (recuperada)",
+      "anio": 2024
+    },
+    {
+      "enunciado": "¿Cuál de los siguientes hallazgos ecográficos NO hace parte del diagnóstico de trombosis venosa aguda (insuficiencia venosa aguda)?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Presencia de trombo en el lumen del vaso"
+        },
+        {
+          "letra": "B",
+          "texto": "Aumento del calibre del vaso"
+        },
+        {
+          "letra": "C",
+          "texto": "Ausencia de compresibilidad de la vena"
+        },
+        {
+          "letra": "D",
+          "texto": "Ausencia de flujo venoso en Doppler"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Cirugía General",
+      "tema": "Trombosis venosa: hallazgos ecográficos",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "1 distractor generado (ausencia de flujo Doppler); respuesta marcada en la fuente.",
+      "fuente": "Reconstrucción U. Caldas 2024 (recuperada)",
+      "anio": 2024
+    },
+    {
+      "enunciado": "Paciente con antecedente de síndrome de ovario poliquístico en manejo con metformina, cursando con 7 semanas de gestación. ¿Qué se indica?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Suspender de inmediato la metformina"
+        },
+        {
+          "letra": "B",
+          "texto": "Continuar la metformina hasta finalizar el primer trimestre y luego suspender"
+        },
+        {
+          "letra": "C",
+          "texto": "Continuar la metformina durante todo el embarazo"
+        },
+        {
+          "letra": "D",
+          "texto": "Cambiar de inmediato la metformina por insulina"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "SOP y embarazo: manejo con metformina",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "2 distractores generados; respuesta marcada en la fuente.",
+      "fuente": "Reconstrucción U. Caldas 2024 (recuperada)",
+      "anio": 2024
+    },
+    {
+      "enunciado": "¿Cuál de las siguientes hace parte de la categoría III del monitoreo fetal, además de la ausencia de variabilidad de la FCF?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Taquicardia fetal"
+        },
+        {
+          "letra": "B",
+          "texto": "Desaceleraciones tardías recurrentes"
+        },
+        {
+          "letra": "C",
+          "texto": "Desaceleraciones tempranas"
+        },
+        {
+          "letra": "D",
+          "texto": "Aceleraciones periódicas"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Monitoreo fetal: categorías de la FCF",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "1 distractor generado (aceleraciones periódicas); respuesta marcada en la fuente.",
+      "fuente": "Reconstrucción U. Caldas 2024 (recuperada)",
+      "anio": 2024
+    },
+    {
+      "enunciado": "Según las guías colombianas, ¿en qué grupo de edad se realiza el tamizaje con mamografía?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "50 a 69 años"
+        },
+        {
+          "letra": "B",
+          "texto": "40 a 49 años"
+        },
+        {
+          "letra": "C",
+          "texto": "45 a 74 años"
+        },
+        {
+          "letra": "D",
+          "texto": "55 a 70 años"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Tamizaje de cáncer de mama",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "3 distractores generados; la fuente solo traía la respuesta correcta.",
+      "fuente": "Reconstrucción U. Caldas 2024 (recuperada)",
+      "anio": 2024
+    },
+    {
+      "enunciado": "Paciente de 26 años con dolor pélvico de años de evolución, inicialmente cíclico durante los dos primeros años tras la menarca y ahora intenso y no cíclico, con dispareunia profunda y disuria. ¿Cuál es el diagnóstico probable?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Enfermedad pélvica inflamatoria"
+        },
+        {
+          "letra": "B",
+          "texto": "Endometriosis"
+        },
+        {
+          "letra": "C",
+          "texto": "Síndrome de ovario poliquístico"
+        },
+        {
+          "letra": "D",
+          "texto": "Adenomiosis"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Endometriosis",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "1 distractor generado (adenomiosis); respuesta marcada en la fuente.",
+      "fuente": "Reconstrucción U. Caldas 2024 (recuperada)",
+      "anio": 2024
+    },
+    {
+      "enunciado": "Paciente joven con sangrado uterino anormal agudo y mareo; la hemoglobina descendió a 9.6 g/dL, tiempos de coagulación normales, ecografía normal y se encuentra hemodinámicamente estable. ¿Cuál es el manejo del sangrado agudo?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Medroxiprogesterona 50 mg cada 8 horas"
+        },
+        {
+          "letra": "B",
+          "texto": "Estrógenos conjugados 0.625 mg/día por 7 días"
+        },
+        {
+          "letra": "C",
+          "texto": "ACO combinado con etinilestradiol 35 mcg cada 8 horas por 7 días"
+        },
+        {
+          "letra": "D",
+          "texto": "Legrado uterino de urgencia"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Sangrado uterino anormal agudo: manejo médico",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "1 distractor generado (legrado de urgencia); respuesta marcada en la fuente.",
+      "fuente": "Reconstrucción U. Caldas 2024 (recuperada)",
+      "anio": 2024
+    },
+    {
+      "enunciado": "Paciente con test de VPH positivo y citología cervicovaginal sin cambios anormales. ¿Cuál es la conducta?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Repetir el test de VPH en 18 meses"
+        },
+        {
+          "letra": "B",
+          "texto": "Realizar colposcopia inmediata"
+        },
+        {
+          "letra": "C",
+          "texto": "Realizar conización cervical"
+        },
+        {
+          "letra": "D",
+          "texto": "Repetir la citología en 6 meses"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Tamizaje de cáncer de cuello uterino: VPH positivo/citología negativa",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "2 distractores generados; respuesta marcada en la fuente.",
+      "fuente": "Reconstrucción U. Caldas 2024 (recuperada)",
+      "anio": 2024
+    },
+    {
+      "enunciado": "Según el esquema de vacunación colombiano, una paciente de 10 años asiste con su madre para vacunación contra el VPH. Se le informa que:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "En menores de 13 años se aplica la dosis inicial y luego a los 6 y 12 meses"
+        },
+        {
+          "letra": "B",
+          "texto": "En menores de 3 años se aplica la dosis inicial y luego a los 12 y 18 meses"
+        },
+        {
+          "letra": "C",
+          "texto": "En mayores de 18 años se aplican dos dosis separadas por 2 meses"
+        },
+        {
+          "letra": "D",
+          "texto": "En menores de 5 años se aplica una dosis única anual"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Esquema de vacunación contra el VPH",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "2 distractores generados. La fuente marca el esquema 0-6-12 meses, pero su propia nota indica que el esquema vigente en Colombia (Minsalud 2024) es dosis única para inmunocompetentes de 9-17 años. REVISAR respuesta correcta.",
+      "fuente": "Reconstrucción U. Caldas 2024 (recuperada)",
+      "anio": 2024
+    },
+    {
+      "enunciado": "Paciente en control prenatal de 12 semanas, con reporte de toxoplasma IgG e IgM positivos. ¿Qué conducta se debe tomar?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Solicitar IgA"
+        },
+        {
+          "letra": "B",
+          "texto": "Solicitar test de avidez de IgG"
+        },
+        {
+          "letra": "C",
+          "texto": "Solicitar ecografía obstétrica"
+        },
+        {
+          "letra": "D",
+          "texto": "Iniciar espiramicina empírica sin más estudios"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Toxoplasmosis en el embarazo",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "1 distractor generado; respuesta marcada en la fuente.",
+      "fuente": "Reconstrucción U. Caldas 2024 (recuperada)",
+      "anio": 2024
+    },
+    {
+      "enunciado": "Paciente que consulta por lesiones en vulva tipo vesículas confluentes, muy dolorosas, con úlceras. ¿Cuál es el diagnóstico probable?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Virus del herpes simple"
+        },
+        {
+          "letra": "B",
+          "texto": "Sífilis primaria"
+        },
+        {
+          "letra": "C",
+          "texto": "Chancroide (Haemophilus ducreyi)"
+        },
+        {
+          "letra": "D",
+          "texto": "Condilomas por VPH"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Infectología",
+      "tema": "Úlceras genitales: herpes genital",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "1 distractor generado (condilomas por VPH); respuesta marcada en la fuente.",
+      "fuente": "Reconstrucción U. Caldas 2024 (recuperada)",
+      "anio": 2024
+    },
+    {
+      "id": 1,
+      "enunciado": "Hombre con arresto cardiaco y taquicardia ventricular en el que no se cuenta con amiodarona. ¿Qué antiarrítmico se debe utilizar?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Adenosina"
+        },
+        {
+          "letra": "B",
+          "texto": "Sulfato de magnesio"
+        },
+        {
+          "letra": "C",
+          "texto": "Lidocaína"
+        },
+        {
+          "letra": "D",
+          "texto": "Procainamida"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Medicina de Urgencias",
+      "tema": "TV/paro cardiaco sin amiodarona",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_nota": "El documento tenía 3 opciones sin respuesta marcada; respuesta determinada por IA (lidocaína como alternativa a amiodarona) y 1 distractor añadido.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 2,
+      "enunciado": "¿Cuál es el antiarrítmico de elección en las torsades de pointes (taquicardia ventricular polimorfa con QT largo)?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Sulfato de magnesio"
+        },
+        {
+          "letra": "B",
+          "texto": "Amiodarona"
+        },
+        {
+          "letra": "C",
+          "texto": "Lidocaína"
+        },
+        {
+          "letra": "D",
+          "texto": "Adenosina"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cardiología",
+      "tema": "Torsades de pointes",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "Respuesta ya presente en el documento (sulfato de magnesio); 3 distractores generados por IA.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 3,
+      "enunciado": "Hombre con sialorrea, diaforesis y alteración del estado de consciencia. ¿Qué intoxicación presenta?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Intoxicación por paraquat"
+        },
+        {
+          "letra": "B",
+          "texto": "Inhibidores de la colinesterasa (organofosforados)"
+        },
+        {
+          "letra": "C",
+          "texto": "Fluoroacetato de sodio"
+        },
+        {
+          "letra": "D",
+          "texto": "Intoxicación por hierro"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Medicina de Urgencias",
+      "tema": "Intoxicación por organofosforados",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "Respuesta marcada en el documento (inhibidores de colinesterasa); 1 distractor añadido para completar 4 opciones.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 4,
+      "enunciado": "¿Cuál de los siguientes anestésicos inhalados tiene mayor impacto contaminante ambiental?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Sevoflurano"
+        },
+        {
+          "letra": "B",
+          "texto": "Isoflurano"
+        },
+        {
+          "letra": "C",
+          "texto": "Óxido nitroso"
+        },
+        {
+          "letra": "D",
+          "texto": "Halotano"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Anestesiología",
+      "tema": "Impacto ambiental de anestésicos inhalados",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "baja",
+      "_nota": "El documento solo daba un orden de daño (isoflurano primero); respuesta y opciones creadas por IA. Nota: clínicamente el desflurano suele citarse como el más contaminante.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 5,
+      "enunciado": "¿Qué tamaño de máscara laríngea corresponde a un paciente adulto de 50-70 kg?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Nº 2"
+        },
+        {
+          "letra": "B",
+          "texto": "Nº 3"
+        },
+        {
+          "letra": "C",
+          "texto": "Nº 4"
+        },
+        {
+          "letra": "D",
+          "texto": "Nº 5"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Anestesiología",
+      "tema": "Máscara laríngea según peso",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_nota": "El enunciado original estaba incompleto (sin peso ni opciones); pregunta reconstruida con criterio estándar y opciones creadas por IA.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 6,
+      "enunciado": "¿Qué cantidad de adrenalina hay en una dilución 1:100.000?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "1 mg/mL"
+        },
+        {
+          "letra": "B",
+          "texto": "0.1 mg/mL"
+        },
+        {
+          "letra": "C",
+          "texto": "0.01 mg/mL"
+        },
+        {
+          "letra": "D",
+          "texto": "0.001 mg/mL"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Farmacología",
+      "tema": "Diluciones de adrenalina",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_nota": "Valor calculado por IA (0.01 mg/mL = 10 mcg/mL) a partir de las equivalencias del documento; opciones creadas por IA.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 7,
+      "enunciado": "¿Cuál es el mecanismo de acción del etanol en la intoxicación por metanol?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Inhibidor competitivo de la alcohol deshidrogenasa"
+        },
+        {
+          "letra": "B",
+          "texto": "Inductor enzimático del citocromo P450"
+        },
+        {
+          "letra": "C",
+          "texto": "Quelante directo del metanol"
+        },
+        {
+          "letra": "D",
+          "texto": "Inhibidor irreversible de la aldehído deshidrogenasa"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Farmacología",
+      "tema": "Antídoto en intoxicación por metanol",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "Respuesta presente en el documento (inhibidor competitivo); 3 distractores generados por IA.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 8,
+      "enunciado": "¿Cuál es el marcador tumoral asociado al cáncer de colon?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "CA 125"
+        },
+        {
+          "letra": "B",
+          "texto": "Antígeno carcinoembrionario (CEA)"
+        },
+        {
+          "letra": "C",
+          "texto": "Alfafetoproteína"
+        },
+        {
+          "letra": "D",
+          "texto": "CA 15-3"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Oncología",
+      "tema": "Marcadores tumorales",
+      "dificultad": "facil",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "Respuesta presente en el documento (antígeno carcinoembrionario); 3 distractores generados por IA.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 9,
+      "enunciado": "En la dosis de prueba de una anestesia epidural con bupivacaína y epinefrina, ¿qué hallazgo indica inyección intravascular?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Aumento de la frecuencia cardiaca >15% respecto a la basal"
+        },
+        {
+          "letra": "B",
+          "texto": "Descenso de la presión arterial >20%"
+        },
+        {
+          "letra": "C",
+          "texto": "Bloqueo motor inmediato de miembros inferiores"
+        },
+        {
+          "letra": "D",
+          "texto": "Ausencia de cualquier cambio hemodinámico"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anestesiología",
+      "tema": "Dosis de prueba epidural",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "Respuesta presente en el documento (ascenso de FC >15%); 3 distractores generados por IA.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 10,
+      "enunciado": "¿Cuál es la definición de espacio muerto respiratorio?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Volumen de gas que se ventila pero no participa en el intercambio gaseoso"
+        },
+        {
+          "letra": "B",
+          "texto": "Volumen de alvéolos perfundidos pero no ventilados"
+        },
+        {
+          "letra": "C",
+          "texto": "Volumen residual tras una espiración forzada"
+        },
+        {
+          "letra": "D",
+          "texto": "Volumen corriente en reposo"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Fisiología",
+      "tema": "Espacio muerto",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "Definición presente en el documento; 3 distractores generados por IA.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 11,
+      "enunciado": "¿Cuál es la definición de shunt (cortocircuito) pulmonar?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Alvéolo ventilado pero no perfundido"
+        },
+        {
+          "letra": "B",
+          "texto": "Alvéolo no ventilado pero perfundido"
+        },
+        {
+          "letra": "C",
+          "texto": "Aumento del espacio muerto anatómico"
+        },
+        {
+          "letra": "D",
+          "texto": "Zona de West tipo 1"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Fisiología",
+      "tema": "Shunt pulmonar",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "Definición presente en el documento (alvéolo no ventilado pero perfundido); 3 distractores generados por IA.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 12,
+      "enunciado": "Joven de 23 años con irritación ocular y secreción; en el Gram se observan diplococos gram negativos intracelulares. ¿Cuál es el tratamiento?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Ceftriaxona IM más antibiótico oftálmico tópico"
+        },
+        {
+          "letra": "B",
+          "texto": "Tobramicina tópica aislada"
+        },
+        {
+          "letra": "C",
+          "texto": "Aciclovir oftálmico"
+        },
+        {
+          "letra": "D",
+          "texto": "Corticoide tópico solo"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Oftalmología",
+      "tema": "Conjuntivitis gonocócica",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "Respuesta presente en el documento (ceftriaxona IM + AB oftálmico); 3 distractores generados por IA.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 13,
+      "enunciado": "Mujer con cuadro de tristeza y labilidad emocional. ¿Cuál es el tratamiento farmacológico de elección?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Benzodiacepina"
+        },
+        {
+          "letra": "B",
+          "texto": "Inhibidor selectivo de la recaptación de serotonina (ISRS)"
+        },
+        {
+          "letra": "C",
+          "texto": "Antipsicótico típico"
+        },
+        {
+          "letra": "D",
+          "texto": "Litio"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Psiquiatría",
+      "tema": "Tratamiento de la depresión",
+      "dificultad": "facil",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "Respuesta presente en el documento (ISRS); 3 distractores generados por IA.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 14,
+      "enunciado": "Niño de 4 años con síntomas respiratorios que presenta una convulsión en el contexto de fiebre. Tipo de convulsión más probable:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Convulsión febril simple"
+        },
+        {
+          "letra": "B",
+          "texto": "Convulsión febril compleja"
+        },
+        {
+          "letra": "C",
+          "texto": "Epilepsia"
+        },
+        {
+          "letra": "D",
+          "texto": "Crisis de ausencia"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Pediatría",
+      "tema": "Convulsión febril",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_nota": "El documento daba solo 2 opciones sin respuesta; resuelta por IA (convulsión febril simple por edad y características) y distractores añadidos.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 15,
+      "enunciado": "La bupivacaína al 0.5% corresponde a una concentración de:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "0.5 mg/mL"
+        },
+        {
+          "letra": "B",
+          "texto": "5 mg/mL"
+        },
+        {
+          "letra": "C",
+          "texto": "50 mg/mL"
+        },
+        {
+          "letra": "D",
+          "texto": "0.05 mg/mL"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Anestesiología",
+      "tema": "Concentración de anestésicos locales",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "Respuesta presente en el documento (5 mg/mL); 3 distractores generados por IA.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 16,
+      "enunciado": "¿Cuál es el relajante muscular no despolarizante de acción ultralarga?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Succinilcolina"
+        },
+        {
+          "letra": "B",
+          "texto": "Rocuronio"
+        },
+        {
+          "letra": "C",
+          "texto": "Pancuronio"
+        },
+        {
+          "letra": "D",
+          "texto": "Atracurio"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Anestesiología",
+      "tema": "Relajantes musculares",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "Respuesta presente en el documento (pancuronio); 3 distractores generados por IA.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 17,
+      "enunciado": "En la clasificación de Hinchey de la diverticulitis, ¿a qué corresponde el estadio Ia?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Edema/flemón pericólico sin absceso"
+        },
+        {
+          "letra": "B",
+          "texto": "Absceso pélvico"
+        },
+        {
+          "letra": "C",
+          "texto": "Peritonitis purulenta generalizada"
+        },
+        {
+          "letra": "D",
+          "texto": "Peritonitis fecal"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cirugía General",
+      "tema": "Clasificación de Hinchey",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "Respuesta presente en el documento (edema pericólico); 3 distractores generados por IA.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 18,
+      "enunciado": "¿Cuál es el manejo de la diverticulitis no complicada (grado 1)?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Cirugía urgente"
+        },
+        {
+          "letra": "B",
+          "texto": "Dieta y antibiótico"
+        },
+        {
+          "letra": "C",
+          "texto": "Colostomía derivativa"
+        },
+        {
+          "letra": "D",
+          "texto": "Drenaje percutáneo"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Cirugía General",
+      "tema": "Manejo de diverticulitis",
+      "dificultad": "facil",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "Respuesta presente en el documento (dieta y antibiótico); 3 distractores generados por IA.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 19,
+      "enunciado": "Paciente con trauma en cadera que presenta el miembro en rotación externa, acortamiento y abducción. Diagnóstico más probable:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Fractura de cadera"
+        },
+        {
+          "letra": "B",
+          "texto": "Luxación posterior de cadera"
+        },
+        {
+          "letra": "C",
+          "texto": "Esguince de cadera"
+        },
+        {
+          "letra": "D",
+          "texto": "Contusión de partes blandas"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Traumatología y Ortopedia",
+      "tema": "Trauma de cadera",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "Respuesta presente en el documento (fractura de cadera); 3 distractores generados por IA.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 20,
+      "enunciado": "Según las guías AHA 2020, ¿cuál es la frecuencia recomendada de compresiones torácicas en una RCP de calidad?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "60-80 por minuto"
+        },
+        {
+          "letra": "B",
+          "texto": "80-100 por minuto"
+        },
+        {
+          "letra": "C",
+          "texto": "100-120 por minuto"
+        },
+        {
+          "letra": "D",
+          "texto": "120-140 por minuto"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Medicina de Urgencias",
+      "tema": "RCP de calidad",
+      "dificultad": "facil",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "Respuesta presente en el documento (100-120/min); 3 distractores generados por IA.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 21,
+      "enunciado": "¿Cuál es el examen con mayor sensibilidad y especificidad para el diagnóstico de obstrucción intestinal?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Radiografía simple de abdomen"
+        },
+        {
+          "letra": "B",
+          "texto": "TAC de abdomen contrastada"
+        },
+        {
+          "letra": "C",
+          "texto": "Ecografía abdominal"
+        },
+        {
+          "letra": "D",
+          "texto": "Colon por enema"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Cirugía General",
+      "tema": "Diagnóstico de obstrucción intestinal",
+      "dificultad": "facil",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "Respuesta presente en el documento (TAC de abdomen contrastada); 3 distractores generados por IA.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 22,
+      "enunciado": "¿Cuál fue la modificación del esquema PAI en Colombia a partir de abril de 2023?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "El refuerzo de polio a los 5 años pasa de polio oral (gotas) a polio inyectable"
+        },
+        {
+          "letra": "B",
+          "texto": "Se elimina la vacuna contra el sarampión"
+        },
+        {
+          "letra": "C",
+          "texto": "Se adelanta la BCG al mes de vida"
+        },
+        {
+          "letra": "D",
+          "texto": "Se retira la vacuna contra rotavirus"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Esquema PAI",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "Respuesta presente en el documento (polio oral a inyectable en refuerzo de 5 años); 3 distractores generados por IA.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 23,
+      "enunciado": "Paciente posesplenectomía. Se debe vacunar contra los siguientes gérmenes, EXCEPTO:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Streptococcus pneumoniae"
+        },
+        {
+          "letra": "B",
+          "texto": "Neisseria meningitidis"
+        },
+        {
+          "letra": "C",
+          "texto": "Haemophilus influenzae tipo b"
+        },
+        {
+          "letra": "D",
+          "texto": "Klebsiella pneumoniae"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Infectología",
+      "tema": "Vacunación en asplenia",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "Respuesta presente en el documento (Klebsiella pneumoniae); 3 distractores generados por IA.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 24,
+      "enunciado": "¿Cuál es la definición de caso índice en epidemiología?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Primera persona que acude o en quien se detecta la enfermedad en una población"
+        },
+        {
+          "letra": "B",
+          "texto": "Persona con la forma más grave de la enfermedad"
+        },
+        {
+          "letra": "C",
+          "texto": "Portador asintomático de la enfermedad"
+        },
+        {
+          "letra": "D",
+          "texto": "Último caso registrado de un brote"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Caso índice",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "Respuesta presente en el documento; 3 distractores generados por IA.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 25,
+      "enunciado": "¿Cuál antihistamínico se considera seguro durante la lactancia?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Loratadina"
+        },
+        {
+          "letra": "B",
+          "texto": "Difenhidramina"
+        },
+        {
+          "letra": "C",
+          "texto": "Hidroxicina"
+        },
+        {
+          "letra": "D",
+          "texto": "Clorfeniramina"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Farmacología",
+      "tema": "Fármacos en lactancia",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "Respuesta presente en el documento (loratadina permitida en lactancia); 3 distractores generados por IA.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 26,
+      "enunciado": "Respecto a la acción de la acetilcolina sobre las células del nodo sinusal, ¿cuál afirmación es correcta?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Abre canales de potasio (GIRK) produciendo hiperpolarización"
+        },
+        {
+          "letra": "B",
+          "texto": "Depende exclusivamente de canales de sodio rápidos"
+        },
+        {
+          "letra": "C",
+          "texto": "Aumenta la frecuencia de despolarización espontánea"
+        },
+        {
+          "letra": "D",
+          "texto": "No tiene efecto sobre el nodo sinusal"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Fisiología",
+      "tema": "Acetilcolina y automatismo cardiaco",
+      "dificultad": "alta",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_nota": "Las opciones originales estaban confusas; enunciado reformulado y respuesta resuelta por IA (activación de canales de K+ por acetilcolina).",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 27,
+      "enunciado": "Tras un evento de estrés (asalto), paciente con dolor torácico, EKG con supradesnivel del ST de V1 a V6 sin obstrucción coronaria y ecocardiograma con disfunción ventricular izquierda severa. Diagnóstico:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Miocardiopatía de Takotsubo (vasoespasmo/estrés)"
+        },
+        {
+          "letra": "B",
+          "texto": "IAM con elevación del ST por trombosis"
+        },
+        {
+          "letra": "C",
+          "texto": "Pericarditis aguda"
+        },
+        {
+          "letra": "D",
+          "texto": "Miocarditis viral"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cardiología",
+      "tema": "Miocardiopatía de Takotsubo",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "Respuesta presente en el documento (Takotsubo/vasoespasmo); 3 distractores generados por IA.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 28,
+      "enunciado": "En la intoxicación por metanol se utiliza etanol porque:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Compite por la alcohol deshidrogenasa impidiendo la formación de metabolitos tóxicos"
+        },
+        {
+          "letra": "B",
+          "texto": "Neutraliza químicamente al metanol"
+        },
+        {
+          "letra": "C",
+          "texto": "Aumenta la excreción renal del metanol"
+        },
+        {
+          "letra": "D",
+          "texto": "Inhibe la absorción intestinal del metanol"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Farmacología",
+      "tema": "Antídoto en intoxicación por metanol",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "Respuesta presente en el documento (competidor por la enzima); 3 distractores generados por IA.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 29,
+      "enunciado": "Paciente con trauma torácico y múltiples fracturas costales que mejora con analgesia y oxígeno; posteriormente presenta desaturación. Causa más probable:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Contusión pulmonar"
+        },
+        {
+          "letra": "B",
+          "texto": "Inestabilidad de la reja costal"
+        },
+        {
+          "letra": "C",
+          "texto": "Neumotórax a tensión"
+        },
+        {
+          "letra": "D",
+          "texto": "Embolia grasa"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Medicina de Urgencias",
+      "tema": "Trauma torácico",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_nota": "El documento daba 2 opciones sin respuesta; resuelta por IA (contusión pulmonar por desaturación tardía) y distractores añadidos.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 30,
+      "enunciado": "Paciente con HTA desde los 32 años, en tratamiento con irbesartán, hidroclorotiazida y amlodipino, con potasio 3.1 mEq/L y sodio 140 mEq/L. Causa más probable de HTA secundaria:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Hiperaldosteronismo primario"
+        },
+        {
+          "letra": "B",
+          "texto": "Feocromocitoma"
+        },
+        {
+          "letra": "C",
+          "texto": "Estenosis de arteria renal"
+        },
+        {
+          "letra": "D",
+          "texto": "Coartación aórtica"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Endocrinología",
+      "tema": "HTA secundaria",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_nota": "El documento listaba feocromocitoma e hiperaldosteronismo sin respuesta; resuelta por IA (hiperaldosteronismo por HTA resistente + hipopotasemia) y distractores añadidos.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 31,
+      "enunciado": "Paciente con parestesias en el miembro inferior derecho. ¿Qué vía sensitiva se encuentra afectada?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Columnas dorsales (fascículo grácil)"
+        },
+        {
+          "letra": "B",
+          "texto": "Tracto corticoespinal lateral"
+        },
+        {
+          "letra": "C",
+          "texto": "Tracto espinocerebeloso"
+        },
+        {
+          "letra": "D",
+          "texto": "Vía piramidal directa"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neurología",
+      "tema": "Vías sensitivas medulares",
+      "dificultad": "alta",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "baja",
+      "_nota": "El enunciado original no traía opciones ni respuesta; resuelta por IA (parestesias/tacto por columnas dorsales) con confianza baja por ambigüedad del enunciado.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 32,
+      "enunciado": "Paciente con taquicardia ventricular sin disponibilidad de amiodarona. ¿Qué otro fármaco antiarrítmico puede administrarse?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Lidocaína"
+        },
+        {
+          "letra": "B",
+          "texto": "Verapamilo"
+        },
+        {
+          "letra": "C",
+          "texto": "Digoxina"
+        },
+        {
+          "letra": "D",
+          "texto": "Adenosina"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Medicina de Urgencias",
+      "tema": "Antiarrítmicos en TV",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "Respuesta presente en el documento (lidocaína); 3 distractores generados por IA.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 33,
+      "enunciado": "Paciente politraumatizado con murmullo vesicular ausente en un hemitórax, timpanismo a la percusión e inestabilidad hemodinámica. Diagnóstico:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Neumotórax a tensión"
+        },
+        {
+          "letra": "B",
+          "texto": "Hemotórax masivo"
+        },
+        {
+          "letra": "C",
+          "texto": "Taponamiento cardiaco"
+        },
+        {
+          "letra": "D",
+          "texto": "Contusión pulmonar"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Medicina de Urgencias",
+      "tema": "Neumotórax a tensión",
+      "dificultad": "facil",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "Respuesta presente en el documento (neumotórax a tensión); 3 distractores generados por IA.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 34,
+      "enunciado": "Paciente con hemianopsia homónima izquierda. ¿Dónde se localiza la lesión?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Radiaciones ópticas / haz parietotemporal derecho"
+        },
+        {
+          "letra": "B",
+          "texto": "Quiasma óptico"
+        },
+        {
+          "letra": "C",
+          "texto": "Nervio óptico izquierdo"
+        },
+        {
+          "letra": "D",
+          "texto": "Retina derecha"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neurología",
+      "tema": "Defectos campimétricos",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "Respuesta presente en el documento (haz parietotemporal derecho); 3 distractores generados por IA.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 35,
+      "enunciado": "Paciente con TEC severo que posteriormente presenta ptosis palpebral izquierda, midriasis izquierda y hemiplejía derecha. Diagnóstico más probable:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Herniación del uncus (transtentorial)"
+        },
+        {
+          "letra": "B",
+          "texto": "Hematoma subdural izquierdo sin herniación"
+        },
+        {
+          "letra": "C",
+          "texto": "Hemorragia subaracnoidea difusa"
+        },
+        {
+          "letra": "D",
+          "texto": "Contusión frontal bilateral"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neurocirugía",
+      "tema": "Herniación uncal",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "Respuesta marcada en el documento (hernia del uncus); 3 distractores generados por IA.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 36,
+      "enunciado": "¿Cuál es la primera línea de manejo de la úlcera venosa?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Terapia de compresión"
+        },
+        {
+          "letra": "B",
+          "texto": "Antibiótico tópico"
+        },
+        {
+          "letra": "C",
+          "texto": "Injerto cutáneo"
+        },
+        {
+          "letra": "D",
+          "texto": "Escleroterapia"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cirugía General",
+      "tema": "Úlcera venosa",
+      "dificultad": "facil",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "Respuesta presente en el documento (compresión); 3 distractores generados por IA.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 37,
+      "enunciado": "¿A partir de qué tamaño de un pólipo vesicular está indicada la colecistectomía?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "≥ 4 mm"
+        },
+        {
+          "letra": "B",
+          "texto": "≥ 8 mm"
+        },
+        {
+          "letra": "C",
+          "texto": "≥ 10 mm"
+        },
+        {
+          "letra": "D",
+          "texto": "≥ 20 mm"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Cirugía General",
+      "tema": "Pólipos vesiculares",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_nota": "El documento daba solo tamaños como opciones sin respuesta; resuelta por IA (≥10 mm indica cirugía).",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 38,
+      "enunciado": "¿Cuál método de planificación en el puerperio NO interfiere con la lactancia?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Implante subdérmico (progestágeno solo)"
+        },
+        {
+          "letra": "B",
+          "texto": "Anillo vaginal combinado"
+        },
+        {
+          "letra": "C",
+          "texto": "Anticonceptivos orales combinados"
+        },
+        {
+          "letra": "D",
+          "texto": "Parche transdérmico combinado"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Anticoncepción en el puerperio",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "Respuesta presente en el documento (métodos con progestágeno, implante subdérmico); 3 distractores generados por IA.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 39,
+      "enunciado": "Paciente con obstrucción intestinal por vólvulo de sigmoides, hemodinámicamente estable. Conducta inicial:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Descompresión endoscópica (colonoscopia)"
+        },
+        {
+          "letra": "B",
+          "texto": "Cirugía urgente con resección"
+        },
+        {
+          "letra": "C",
+          "texto": "Manejo expectante domiciliario"
+        },
+        {
+          "letra": "D",
+          "texto": "Enema baritado terapéutico"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cirugía General",
+      "tema": "Vólvulo de sigmoides",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "Respuesta presente en el documento (colonoscopia si está estable); 3 distractores generados por IA.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 40,
+      "enunciado": "Respecto al uso de antihistamínicos de segunda generación durante la lactancia, ¿cuál afirmación es correcta?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Son seguros y se puede continuar la lactancia"
+        },
+        {
+          "letra": "B",
+          "texto": "Están absolutamente contraindicados"
+        },
+        {
+          "letra": "C",
+          "texto": "Obligan a suspender la lactancia por 48 horas"
+        },
+        {
+          "letra": "D",
+          "texto": "Solo se permiten por vía tópica"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Farmacología",
+      "tema": "Antihistamínicos en lactancia",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "Respuesta presente en el documento (es segura, se puede continuar); 3 distractores generados por IA.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 41,
+      "enunciado": "¿Cuál es el manejo farmacológico de primera línea del trastorno de ansiedad generalizada?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Sertralina (ISRS)"
+        },
+        {
+          "letra": "B",
+          "texto": "Diazepam de forma crónica"
+        },
+        {
+          "letra": "C",
+          "texto": "Quetiapina"
+        },
+        {
+          "letra": "D",
+          "texto": "Propranolol"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Psiquiatría",
+      "tema": "Trastorno de ansiedad",
+      "dificultad": "facil",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "Respuesta presente en el documento (sertralina); 3 distractores generados por IA.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 42,
+      "enunciado": "En una intervención de APS en población rural sin agua potable con riesgo de infección por Entamoeba, ¿qué estrategia corresponde?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Acción intersectorial (coordinación con saneamiento y agua potable)"
+        },
+        {
+          "letra": "B",
+          "texto": "Atención curativa individual"
+        },
+        {
+          "letra": "C",
+          "texto": "Rehabilitación funcional"
+        },
+        {
+          "letra": "D",
+          "texto": "Manejo hospitalario especializado"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Atención primaria en salud",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_nota": "El documento daba opciones parciales (promoción/intersectorial); resuelta por IA (acción intersectorial) y distractores añadidos.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 43,
+      "enunciado": "¿Cuál es la manifestación clínica más común del cáncer de esófago?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Disfagia progresiva"
+        },
+        {
+          "letra": "B",
+          "texto": "Hematemesis"
+        },
+        {
+          "letra": "C",
+          "texto": "Dolor abdominal difuso"
+        },
+        {
+          "letra": "D",
+          "texto": "Ictericia"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Gastroenterología",
+      "tema": "Cáncer de esófago",
+      "dificultad": "facil",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "Respuesta presente en el documento (disfagia); 3 distractores generados por IA.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 44,
+      "enunciado": "¿Cuáles son los signos clásicos (triada de Beck) del taponamiento cardiaco?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Hipotensión, ruidos cardiacos velados e ingurgitación yugular"
+        },
+        {
+          "letra": "B",
+          "texto": "Fiebre, soplo y esplenomegalia"
+        },
+        {
+          "letra": "C",
+          "texto": "Hipertensión, bradicardia y respiración irregular"
+        },
+        {
+          "letra": "D",
+          "texto": "Disnea, ortopnea y edema de miembros"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cardiología",
+      "tema": "Taponamiento cardiaco",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "Respuesta presente en el documento (triada de Beck); 3 distractores generados por IA.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 45,
+      "enunciado": "Niño con leucemia linfoide que presenta fiebre e hipotensión. Manejo en primer nivel de atención:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Hidratar, iniciar antibiótico de amplio espectro y remitir a tercer nivel"
+        },
+        {
+          "letra": "B",
+          "texto": "Observación domiciliaria con antipirético"
+        },
+        {
+          "letra": "C",
+          "texto": "Dar de alta con analgésico"
+        },
+        {
+          "letra": "D",
+          "texto": "Iniciar quimioterapia en el primer nivel"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Pediatría",
+      "tema": "Neutropenia febril / sepsis",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "Respuesta presente en el documento (hidratar, antibiótico y remitir); 3 distractores generados por IA.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 46,
+      "enunciado": "Paciente con dolor abdominal epigástrico lancinante que irradia a dorso, sin signos de irritación peritoneal pero hemodinámicamente inestable. Diagnóstico más probable:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Pancreatitis aguda"
+        },
+        {
+          "letra": "B",
+          "texto": "Úlcera péptica perforada"
+        },
+        {
+          "letra": "C",
+          "texto": "Diverticulosis"
+        },
+        {
+          "letra": "D",
+          "texto": "Colecistitis aguda"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Gastroenterología",
+      "tema": "Dolor abdominal / pancreatitis",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_nota": "El documento daba 3 opciones sin respuesta; resuelta por IA (pancreatitis por irradiación dorsal) y 1 distractor añadido.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 47,
+      "enunciado": "Paciente con náuseas, emesis y fiebre, sin irritación peritoneal, con dolor epigástrico irradiado en banda a la región dorsal que aumenta con el decúbito. Diagnóstico:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Pancreatitis aguda"
+        },
+        {
+          "letra": "B",
+          "texto": "Úlcera gástrica perforada"
+        },
+        {
+          "letra": "C",
+          "texto": "Diverticulosis"
+        },
+        {
+          "letra": "D",
+          "texto": "Apendicitis aguda"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Gastroenterología",
+      "tema": "Pancreatitis aguda",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_nota": "El documento daba 3 opciones sin respuesta; resuelta por IA (pancreatitis, dolor en banda a dorso) y 1 distractor añadido.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 48,
+      "enunciado": "Mujer con amenorrea de 7 semanas y sangrado vaginal escaso. ¿Cuál es la conducta inicial más apropiada?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Ecografía transvaginal"
+        },
+        {
+          "letra": "B",
+          "texto": "Legrado uterino inmediato"
+        },
+        {
+          "letra": "C",
+          "texto": "Reposo sin estudios adicionales"
+        },
+        {
+          "letra": "D",
+          "texto": "Histerectomía"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Sangrado del primer trimestre",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "Respuesta presente en el documento (ECO TV); 3 distractores generados por IA.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 49,
+      "enunciado": "Paciente con antecedente familiar de cáncer de mama en primer grado que consulta por anticoncepción. ¿Cuál es la conducta?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Anticonceptivos orales combinados"
+        },
+        {
+          "letra": "B",
+          "texto": "No dar ningún método hormonal por estar contraindicado"
+        },
+        {
+          "letra": "C",
+          "texto": "Estrógenos vaginales"
+        },
+        {
+          "letra": "D",
+          "texto": "Solo DIU de cobre"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Anticoncepción y riesgo de cáncer de mama",
+      "dificultad": "alta",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "Respuesta marcada en el documento (ACO combinados, el antecedente familiar por sí solo no contraindica); enunciado del documento con inconsistencia ('menopausia') que se sugiere revisar. 1 distractor añadido.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 50,
+      "enunciado": "El signo de la 'bañista impúdica' clásicamente corresponde a:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Luxación anterior (obturatriz) de cadera"
+        },
+        {
+          "letra": "B",
+          "texto": "Luxación posterior de cadera"
+        },
+        {
+          "letra": "C",
+          "texto": "Fractura de cuello femoral"
+        },
+        {
+          "letra": "D",
+          "texto": "Luxación de rodilla"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Traumatología y Ortopedia",
+      "tema": "Luxación de cadera",
+      "dificultad": "alta",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_nota": "El documento dudaba entre luxación anterior/posterior; resuelta por IA (luxación anterior: flexión, abducción y rotación externa) y distractores añadidos.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 51,
+      "enunciado": "¿Cuál de los siguientes fármacos NO actúa sobre los receptores GABA?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Ketamina (antagonista NMDA)"
+        },
+        {
+          "letra": "B",
+          "texto": "Midazolam"
+        },
+        {
+          "letra": "C",
+          "texto": "Propofol"
+        },
+        {
+          "letra": "D",
+          "texto": "Tiopental"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anestesiología",
+      "tema": "Mecanismo de anestésicos",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "Respuesta presente en el documento (ketamina/NMDA); 3 distractores generados por IA.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 52,
+      "enunciado": "Paciente con trauma que presenta abducción, acortamiento y rotación externa del miembro inferior. Diagnóstico más probable:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Fractura de cadera"
+        },
+        {
+          "letra": "B",
+          "texto": "Luxación anterior de cadera"
+        },
+        {
+          "letra": "C",
+          "texto": "Luxación posterior de cadera"
+        },
+        {
+          "letra": "D",
+          "texto": "Esguince de tobillo"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Traumatología y Ortopedia",
+      "tema": "Trauma de cadera",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_nota": "El documento traía discusión sin respuesta cerrada; resuelta por IA (fractura por acortamiento y ausencia de flexión) y opciones creadas.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 53,
+      "enunciado": "Paciente con VIH, infiltrados pulmonares reticulares bilaterales y CD4 < 100. Agente etiológico más probable:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Pneumocystis jirovecii"
+        },
+        {
+          "letra": "B",
+          "texto": "Mycobacterium tuberculosis"
+        },
+        {
+          "letra": "C",
+          "texto": "Streptococcus pneumoniae"
+        },
+        {
+          "letra": "D",
+          "texto": "Aspergillus fumigatus"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Infectología",
+      "tema": "Infecciones oportunistas en VIH",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "Respuesta presente en el documento (P. jirovecii); 3 distractores generados por IA.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 54,
+      "enunciado": "Embarazada de 7 semanas con dolor abdominal y sangrado vaginal, con prueba de embarazo positiva. Conducta inicial:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Ecografía transvaginal"
+        },
+        {
+          "letra": "B",
+          "texto": "Legrado uterino"
+        },
+        {
+          "letra": "C",
+          "texto": "Solo reposo y repetir prueba en 1 semana"
+        },
+        {
+          "letra": "D",
+          "texto": "Laparotomía exploratoria"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Amenaza de aborto / gestación temprana",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_nota": "El documento listaba varias conductas sin respuesta clara; resuelta por IA (ECO TV como primer paso) y distractores ordenados.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 55,
+      "enunciado": "Paciente con supradesnivel del ST de V1 a V6 y troponinas por debajo del percentil 99. Diagnóstico más probable:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Miocardiopatía de estrés (Takotsubo)"
+        },
+        {
+          "letra": "B",
+          "texto": "IAM con elevación del ST por trombosis"
+        },
+        {
+          "letra": "C",
+          "texto": "Angina estable"
+        },
+        {
+          "letra": "D",
+          "texto": "Estenosis mitral"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cardiología",
+      "tema": "ST elevado con troponina normal",
+      "dificultad": "alta",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "baja",
+      "_nota": "El documento no daba respuesta; resuelta por IA en el contexto del examen (Takotsubo, otra opción a considerar es repolarización precoz). Confianza baja.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 56,
+      "enunciado": "¿Qué número de máscara laríngea corresponde a un paciente de 25 kg?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Nº 2"
+        },
+        {
+          "letra": "B",
+          "texto": "Nº 2.5"
+        },
+        {
+          "letra": "C",
+          "texto": "Nº 3"
+        },
+        {
+          "letra": "D",
+          "texto": "Nº 4"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Anestesiología",
+      "tema": "Máscara laríngea según peso",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "Respuesta marcada en el documento (Nº 2.5); 1 distractor añadido para completar 4 opciones.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 57,
+      "enunciado": "¿Cómo produce cardiotoxicidad la bupivacaína?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Bloqueo de los canales de sodio cardiacos"
+        },
+        {
+          "letra": "B",
+          "texto": "Bloqueo exclusivo de canales de potasio"
+        },
+        {
+          "letra": "C",
+          "texto": "Estímulo betaadrenérgico"
+        },
+        {
+          "letra": "D",
+          "texto": "Inhibición de la bomba Na/K ATPasa"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anestesiología",
+      "tema": "Toxicidad por anestésicos locales",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "Respuesta presente en el documento (bloqueo de canales de sodio); 3 distractores generados por IA.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 58,
+      "enunciado": "¿Cuál es el anticonvulsivante de elección en las convulsiones por intoxicación por anestésicos locales (LAST)?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Midazolam (benzodiacepina)"
+        },
+        {
+          "letra": "B",
+          "texto": "Tiopental"
+        },
+        {
+          "letra": "C",
+          "texto": "Propofol a dosis altas"
+        },
+        {
+          "letra": "D",
+          "texto": "Fenitoína"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anestesiología",
+      "tema": "Manejo de LAST",
+      "dificultad": "alta",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_nota": "El documento daba tiopental/propofol sin respuesta; resuelta por IA (benzodiacepina de primera línea para las convulsiones del LAST). Revisar según las opciones originales del examen.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 59,
+      "enunciado": "¿Cuál es el objetivo principal de la preoxigenación antes de la inducción anestésica?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Aumentar la reserva de oxígeno (desnitrogenación) y prolongar el tiempo de apnea segura"
+        },
+        {
+          "letra": "B",
+          "texto": "Disminuir la producción de CO2"
+        },
+        {
+          "letra": "C",
+          "texto": "Prevenir la hipotensión durante la inducción"
+        },
+        {
+          "letra": "D",
+          "texto": "Relajar la musculatura esquelética"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anestesiología",
+      "tema": "Preoxigenación",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_nota": "El enunciado no traía opciones ni respuesta; resuelta por IA (aumentar reserva de O2 y tiempo de apnea segura) y opciones creadas.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 60,
+      "enunciado": "¿Por qué se difiere la cirugía electiva en un niño con infección respiratoria aguda (gripa)?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Por hiperreactividad de la vía aérea con riesgo de laringoespasmo/broncoespasmo"
+        },
+        {
+          "letra": "B",
+          "texto": "Por riesgo de sangrado excesivo"
+        },
+        {
+          "letra": "C",
+          "texto": "Por interferencia con la anestesia local"
+        },
+        {
+          "letra": "D",
+          "texto": "Por riesgo de hipertermia maligna"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anestesiología",
+      "tema": "Riesgo perioperatorio en IRA",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_nota": "El enunciado no traía opciones ni respuesta; resuelta por IA (hiperreactividad de la vía aérea) y opciones creadas.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 61,
+      "enunciado": "¿Cuál anticoagulante requiere terapia puente en el perioperatorio?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Warfarina"
+        },
+        {
+          "letra": "B",
+          "texto": "Rivaroxabán"
+        },
+        {
+          "letra": "C",
+          "texto": "Apixabán"
+        },
+        {
+          "letra": "D",
+          "texto": "Dabigatrán"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Hematología",
+      "tema": "Manejo perioperatorio de anticoagulación",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "Respuesta presente en el documento (warfarina); 3 distractores generados por IA.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 62,
+      "enunciado": "Paciente con prurito generalizado de predominio nocturno; varios miembros de la familia presentan síntomas similares. Diagnóstico más probable:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Escabiosis"
+        },
+        {
+          "letra": "B",
+          "texto": "Candidiasis"
+        },
+        {
+          "letra": "C",
+          "texto": "Tungiasis"
+        },
+        {
+          "letra": "D",
+          "texto": "Dermatitis de contacto"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Escabiosis",
+      "dificultad": "facil",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "Respuesta presente en el documento (escabiosis); 1 distractor añadido para completar 4 opciones.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 63,
+      "enunciado": "Paciente con cáncer de colon. ¿Qué marcador tumoral se solicita para su seguimiento?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Antígeno carcinoembrionario (CEA)"
+        },
+        {
+          "letra": "B",
+          "texto": "CA 125"
+        },
+        {
+          "letra": "C",
+          "texto": "Alfafetoproteína"
+        },
+        {
+          "letra": "D",
+          "texto": "CA 19-9"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Oncología",
+      "tema": "Marcadores tumorales",
+      "dificultad": "facil",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "Respuesta presente en el documento (antígeno carcinoembrionario); 1 distractor añadido para completar 4 opciones.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 64,
+      "enunciado": "Paciente con secreción ocular purulenta y cultivo con diplococos gram negativos intracelulares. Conducta:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Ceftriaxona 1 g DU IM más doxiciclina"
+        },
+        {
+          "letra": "B",
+          "texto": "Gentamicina en gotas de forma aislada"
+        },
+        {
+          "letra": "C",
+          "texto": "Dexametasona-neomicina en gotas"
+        },
+        {
+          "letra": "D",
+          "texto": "Aciclovir tópico"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Oftalmología",
+      "tema": "Conjuntivitis gonocócica",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "Respuesta presente en el documento (ceftriaxona + doxiciclina); 1 distractor añadido para completar 4 opciones.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 65,
+      "enunciado": "Gestante con IMC de 22 kg/m² (peso normal). ¿Cuántos kilogramos debe ganar durante el embarazo?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "11.5 a 16 kg"
+        },
+        {
+          "letra": "B",
+          "texto": "5 a 9 kg"
+        },
+        {
+          "letra": "C",
+          "texto": "7 a 11.5 kg"
+        },
+        {
+          "letra": "D",
+          "texto": "16 a 20 kg"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Ganancia de peso en el embarazo",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "Respuesta presente en el documento (11.5-16 kg); 3 distractores generados por IA.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 66,
+      "enunciado": "Niña de 4 años con rinorrea y fiebre de 39°C que presenta un único episodio convulsivo tónico-clónico generalizado con recuperación posterior completa. Diagnóstico:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Crisis febril simple (única, generalizada y autolimitada)"
+        },
+        {
+          "letra": "B",
+          "texto": "Crisis febril compleja por ser mayor de 3 años"
+        },
+        {
+          "letra": "C",
+          "texto": "Crisis febril compleja por la pérdida de consciencia"
+        },
+        {
+          "letra": "D",
+          "texto": "Epilepsia"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Pediatría",
+      "tema": "Crisis febril",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_nota": "El documento daba 3 opciones sin respuesta; resuelta por IA (crisis febril simple: única, generalizada, breve) y 1 distractor añadido.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 67,
+      "enunciado": "¿Qué estructura produce la hormona gonadotropina coriónica humana (BHCG)?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Sincitiotrofoblasto"
+        },
+        {
+          "letra": "B",
+          "texto": "Citotrofoblasto"
+        },
+        {
+          "letra": "C",
+          "texto": "Cuerpo lúteo"
+        },
+        {
+          "letra": "D",
+          "texto": "Endometrio decidual"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Fisiología del embarazo",
+      "dificultad": "facil",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "Respuesta presente en el documento (sincitiotrofoblasto); 3 distractores generados por IA.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 68,
+      "enunciado": "Paciente con cefalea de 2 semanas de evolución en región orbitaria derecha, con congestión nasal, episodios de aproximadamente 40 minutos, 2 veces al día. Diagnóstico:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Cefalea en racimos (cluster)"
+        },
+        {
+          "letra": "B",
+          "texto": "Migraña con aura"
+        },
+        {
+          "letra": "C",
+          "texto": "Sinusitis aguda"
+        },
+        {
+          "letra": "D",
+          "texto": "Cefalea tensional"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neurología",
+      "tema": "Cefalea en racimos",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "Respuesta presente en el documento (cefalea en racimos); 1 distractor añadido para completar 4 opciones.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 69,
+      "enunciado": "Además del infarto agudo de miocardio, las siguientes condiciones pueden elevar las troponinas, EXCEPTO:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Diabetes mellitus no complicada"
+        },
+        {
+          "letra": "B",
+          "texto": "Hematoma subdural"
+        },
+        {
+          "letra": "C",
+          "texto": "Hipotiroidismo"
+        },
+        {
+          "letra": "D",
+          "texto": "Sepsis"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Medicina Interna",
+      "tema": "Causas de elevación de troponinas",
+      "dificultad": "alta",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_nota": "El documento tenía opciones incompletas; resuelta por IA (la DM no complicada no eleva troponinas per se). Revisar contra la opción original faltante.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 70,
+      "enunciado": "Paciente con TSH suprimida en 0.005 que recibe levotiroxina 88 mcg. ¿Cuál es la conducta terapéutica?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Disminuir la dosis de levotiroxina y controlar en 6-8 semanas"
+        },
+        {
+          "letra": "B",
+          "texto": "Aumentar la dosis de levotiroxina"
+        },
+        {
+          "letra": "C",
+          "texto": "Suspender definitivamente la levotiroxina"
+        },
+        {
+          "letra": "D",
+          "texto": "Agregar metimazol"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Endocrinología",
+      "tema": "Ajuste de levotiroxina",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "Respuesta presente en el documento (disminuir dosis y control en 6-8 semanas); 3 distractores generados por IA.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 71,
+      "enunciado": "¿Cómo se determina la desviación del eje eléctrico cardiaco en el electrocardiograma?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Analizando la polaridad de las derivaciones DI y aVF"
+        },
+        {
+          "letra": "B",
+          "texto": "Midiendo el intervalo QT en V2"
+        },
+        {
+          "letra": "C",
+          "texto": "Con la derivación V6 de forma aislada"
+        },
+        {
+          "letra": "D",
+          "texto": "Contando la frecuencia cardiaca"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cardiología",
+      "tema": "Eje eléctrico cardiaco",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_nota": "El fragmento no traía opciones ni respuesta; resuelta por IA (derivaciones DI y aVF) y opciones creadas.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 72,
+      "enunciado": "¿Cuál es la causa más frecuente de hipertensión arterial secundaria?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Enfermedad renal parenquimatosa"
+        },
+        {
+          "letra": "B",
+          "texto": "Feocromocitoma"
+        },
+        {
+          "letra": "C",
+          "texto": "Coartación aórtica"
+        },
+        {
+          "letra": "D",
+          "texto": "Hipertiroidismo"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Nefrología",
+      "tema": "HTA secundaria",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_nota": "El fragmento no traía opciones ni respuesta; resuelta por IA (enfermedad renal parenquimatosa como causa más frecuente global) y opciones creadas.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 73,
+      "enunciado": "Para evaluar la eficacia de una intervención farmacológica en asma, ¿qué tipo de estudio es el más adecuado?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Ensayo clínico aleatorizado"
+        },
+        {
+          "letra": "B",
+          "texto": "Estudio de corte transversal"
+        },
+        {
+          "letra": "C",
+          "texto": "Serie de casos"
+        },
+        {
+          "letra": "D",
+          "texto": "Estudio ecológico"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Epidemiología y Salud Pública",
+      "tema": "Diseños de investigación",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_nota": "El documento daba opciones parciales (corte transversal/ensayo clínico); resuelta por IA (ensayo clínico aleatorizado) y distractores añadidos.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 74,
+      "enunciado": "Niño con lesiones en los pliegues, prurito intenso y signos de rascado. Diagnóstico más probable:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Dermatitis atópica"
+        },
+        {
+          "letra": "B",
+          "texto": "Psoriasis"
+        },
+        {
+          "letra": "C",
+          "texto": "Dermatitis seborreica"
+        },
+        {
+          "letra": "D",
+          "texto": "Escabiosis"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Dermatitis atópica",
+      "dificultad": "facil",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "Respuesta presente en el documento (dermatitis atópica); 3 distractores generados por IA.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 75,
+      "enunciado": "Paciente con acné severo: pápulas, pústulas, comedones y nódulos en la espalda con cicatrices queloides. Tratamiento de elección:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Isotretinoína oral"
+        },
+        {
+          "letra": "B",
+          "texto": "Antibiótico tópico"
+        },
+        {
+          "letra": "C",
+          "texto": "Doxiciclina aislada"
+        },
+        {
+          "letra": "D",
+          "texto": "Peróxido de benzoílo"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Acné severo",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "Respuesta presente en el documento (isotretinoína); 1 distractor añadido para completar 4 opciones.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 76,
+      "enunciado": "Paciente femenina con micropápulas eritematosas y signos de rascado; otros miembros de la familia presentan síntomas similares. Diagnóstico:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Escabiosis"
+        },
+        {
+          "letra": "B",
+          "texto": "Dermatitis atópica"
+        },
+        {
+          "letra": "C",
+          "texto": "Urticaria"
+        },
+        {
+          "letra": "D",
+          "texto": "Pediculosis corporal"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Escabiosis",
+      "dificultad": "facil",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "Respuesta presente en el documento (escabiosis); 3 distractores generados por IA.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 77,
+      "enunciado": "Paciente con VIH y lesión ulcerada en la pierna con bordes levantados. Diagnóstico más probable:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Sarcoma de Kaposi"
+        },
+        {
+          "letra": "B",
+          "texto": "Pioderma gangrenoso"
+        },
+        {
+          "letra": "C",
+          "texto": "Histoplasmosis cutánea"
+        },
+        {
+          "letra": "D",
+          "texto": "Carcinoma basocelular"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Lesiones cutáneas en VIH",
+      "dificultad": "alta",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "baja",
+      "_nota": "El documento daba 3 opciones sin respuesta; resuelta por IA (Kaposi en contexto de VIH) con confianza baja por descripción inespecífica.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 78,
+      "enunciado": "Mujer que recibió cefalexina por ITU y desarrolla lesiones anulares inflamatorias en el cuerpo. Conducta más adecuada:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Remitir a Alergología para pruebas entre 6 semanas y 6 meses"
+        },
+        {
+          "letra": "B",
+          "texto": "Biopsia inmediata por Dermatología"
+        },
+        {
+          "letra": "C",
+          "texto": "Alta con corticoide sin estudios"
+        },
+        {
+          "letra": "D",
+          "texto": "Continuar la cefalexina"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Reacción medicamentosa cutánea",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "Respuesta presente en el documento (alergología 6 semanas-6 meses); 1 distractor añadido para completar 4 opciones.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 79,
+      "enunciado": "Paciente con VIH y lesiones eritematovioláceas en región malar y nariz, posteriormente en el paladar. ¿Qué agente se relaciona más con estas lesiones?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Virus herpes humano 8 (HHV-8)"
+        },
+        {
+          "letra": "B",
+          "texto": "Virus de Epstein-Barr"
+        },
+        {
+          "letra": "C",
+          "texto": "Citomegalovirus"
+        },
+        {
+          "letra": "D",
+          "texto": "Virus del papiloma humano"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Sarcoma de Kaposi / HHV-8",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "Respuesta marcada en el documento (HHV-8, sugestivo de sarcoma de Kaposi); 1 distractor añadido para completar 4 opciones.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 80,
+      "enunciado": "¿Cuál es la lesión dermatológica más frecuente asociada a la infección por COVID-19?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Exantema maculopapular (rash morbiliforme)"
+        },
+        {
+          "letra": "B",
+          "texto": "Urticaria"
+        },
+        {
+          "letra": "C",
+          "texto": "Lesiones acrales (pseudoperniosis)"
+        },
+        {
+          "letra": "D",
+          "texto": "Livedo reticularis"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Manifestaciones cutáneas de COVID-19",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "Respuesta presente en el documento (lesiones maculopapulares/rash morbiliforme); 2 distractores generados por IA.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 81,
+      "enunciado": "¿Cuál es el factor de riesgo más importante para el carcinoma escamocelular de piel en personas de piel blanca?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Exposición solar crónica"
+        },
+        {
+          "letra": "B",
+          "texto": "Úlcera venosa"
+        },
+        {
+          "letra": "C",
+          "texto": "Trauma repetido"
+        },
+        {
+          "letra": "D",
+          "texto": "Infección viral crónica"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Carcinoma escamocelular",
+      "dificultad": "facil",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "Respuesta presente en el documento (exposición solar); 2 distractores generados por IA.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 82,
+      "enunciado": "Paciente con antecedente de exposición solar que presenta lesiones hipopigmentadas en la espalda, no pruriginosas, con fina descamación ('caspita'). Diagnóstico:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Pitiriasis versicolor (no contagiosa)"
+        },
+        {
+          "letra": "B",
+          "texto": "Pitiriasis versicolor contagiosa"
+        },
+        {
+          "letra": "C",
+          "texto": "Micosis fungoide"
+        },
+        {
+          "letra": "D",
+          "texto": "Vitíligo"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Pitiriasis versicolor",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "Respuesta presente en el documento (pitiriasis versicolor, no contagiosa); 1 distractor añadido para completar 4 opciones.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 83,
+      "enunciado": "Niño de 5 años con pápulas umbilicadas de 1-2 mm en axila, tronco y cara, con una placa descamativa en el párpado izquierdo. Diagnóstico:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Molusco contagioso con dermatitis"
+        },
+        {
+          "letra": "B",
+          "texto": "Liquen plano"
+        },
+        {
+          "letra": "C",
+          "texto": "Verrugas vulgares"
+        },
+        {
+          "letra": "D",
+          "texto": "Varicela"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Molusco contagioso",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "Respuesta presente en el documento (molusco con dermatitis); 2 distractores generados por IA.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 84,
+      "enunciado": "Paciente con lesión nodular, renitente, muy dolorosa a la palpación, que compromete la dermis, con adenopatía axilar. Diagnóstico:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Absceso"
+        },
+        {
+          "letra": "B",
+          "texto": "Forúnculo"
+        },
+        {
+          "letra": "C",
+          "texto": "Carbunco"
+        },
+        {
+          "letra": "D",
+          "texto": "Celulitis"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Infecciones cutáneas por S. aureus",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_nota": "El documento daba 3 opciones sin respuesta marcada; resuelta por IA (absceso, lesión renitente que compromete dermis) y 1 distractor añadido.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 85,
+      "enunciado": "Mujer con leucorrea y prurito de predominio premenstrual; al examen presenta eritema y edema vulvar con placas blanquecinas adherentes en el canal vaginal y pústulas satélite. Diagnóstico:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Candidiasis vulvovaginal"
+        },
+        {
+          "letra": "B",
+          "texto": "Vaginosis bacteriana"
+        },
+        {
+          "letra": "C",
+          "texto": "Tricomoniasis"
+        },
+        {
+          "letra": "D",
+          "texto": "Vaginitis atrófica"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Candidiasis vulvovaginal",
+      "dificultad": "facil",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "Respuesta presente en el documento (candidiasis vulvar); 3 distractores generados por IA.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 86,
+      "enunciado": "Niño con trauma y excoriaciones en el pie que posteriormente presenta eritema bien definido en el dorso del pie con aspecto de piel de naranja. Diagnóstico:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Erisipela"
+        },
+        {
+          "letra": "B",
+          "texto": "Celulitis"
+        },
+        {
+          "letra": "C",
+          "texto": "Dermatitis de contacto"
+        },
+        {
+          "letra": "D",
+          "texto": "Linfangitis"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Erisipela vs celulitis",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_nota": "El documento daba 2 opciones sin respuesta; resuelta por IA (erisipela: eritema bien definido y piel de naranja) y distractores añadidos.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 87,
+      "enunciado": "¿Cuál de las siguientes afirmaciones sobre el ectima es FALSA?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Es una infección superficial limitada a la epidermis"
+        },
+        {
+          "letra": "B",
+          "texto": "Es producido principalmente por Staphylococcus y Streptococcus"
+        },
+        {
+          "letra": "C",
+          "texto": "Compromete la dermis y suele dejar cicatriz"
+        },
+        {
+          "letra": "D",
+          "texto": "Requiere antibióticos tópicos y orales"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Ectima",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_nota": "El documento daba solo 2 opciones incompletas; enunciado y opciones reconstruidos por IA (la afirmación falsa es que sea superficial: el ectima compromete la dermis).",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 88,
+      "enunciado": "Paciente con alopecia, máculas hipercrómicas y lesiones en palmas y plantas. Conducta diagnóstica más apropiada:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Solicitar serología para sífilis (VDRL/FTA-ABS)"
+        },
+        {
+          "letra": "B",
+          "texto": "Biopsia de piel"
+        },
+        {
+          "letra": "C",
+          "texto": "Cultivo micológico"
+        },
+        {
+          "letra": "D",
+          "texto": "Prueba de parche"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Sífilis secundaria",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_nota": "Respuesta presente en el documento (VDRL/FTA / prueba de sífilis); 2 distractores generados por IA.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    },
+    {
+      "id": 89,
+      "enunciado": "Lesión endofítica en la planta del pie con trombosis de los vasos superficiales (puntos negros). Diagnóstico:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Verruga plantar (verruga vulgar)"
+        },
+        {
+          "letra": "B",
+          "texto": "Queratosis"
+        },
+        {
+          "letra": "C",
+          "texto": "Callo (heloma)"
+        },
+        {
+          "letra": "D",
+          "texto": "Melanoma acral"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Verruga plantar",
+      "dificultad": "media",
+      "_revisar": true,
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_nota": "El documento daba 2 opciones sin respuesta; resuelta por IA (verruga plantar por trombosis capilar) y distractores añadidos.",
+      "fuente": "Reconstrucción U. Caldas 2023 (recuperada)",
+      "anio": 2023
+    }
+  ]
+}

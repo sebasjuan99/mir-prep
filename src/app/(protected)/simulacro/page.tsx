@@ -13,6 +13,7 @@ const EXAM_ID_TO_UNIVERSIDAD: Record<string, string> = {
   urosario:'Rosario',
   uces:    'CES',
   udea:    'UdeA',
+  ucaldas: 'Caldas',
   mir:     'MIR',
   enarm:   'ENARM',
 }
@@ -26,6 +27,7 @@ const UNIVERSIDADES = [
   { id: 'urosario', label: 'Univ. Rosario',  pais: 'COLOMBIA', ac: '#663D88' },
   { id: 'uces',     label: 'Univ. CES',      pais: 'COLOMBIA', ac: '#AF296D' },
   { id: 'udea',     label: 'Univ. Antioquia',pais: 'COLOMBIA', ac: '#442C71' },
+  { id: 'ucaldas',  label: 'Univ. Caldas',   pais: 'COLOMBIA', ac: '#8E2F6B' },
 ]
 
 interface EnCurso { sesion_id: string; tipo: string; universidad: string | null; total: number; respondidas: number }
