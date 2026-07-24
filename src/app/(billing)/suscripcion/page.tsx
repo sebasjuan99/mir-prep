@@ -5,7 +5,7 @@ import { C, G, R, S, disp, mono, bodyFont, inkBorder } from '@/lib/cm'
 import { trackEvent, trackMetaEvent } from '@/lib/analytics'
 
 const FEATURES = [
-  'Simulacros ilimitados (MIR, ENARM, UNAL, El Bosque, Rosario, CES, UdeA, Caldas)',
+  'Simulacros ilimitados (MIR, ENARM, UNAL, El Bosque, Rosario, CES, UdeA, Caldas, Cartagena)',
   'Más de 4,200 preguntas de residencia',
   'Estadísticas detalladas por especialidad',
   'Ranking por universidad con recomendación personalizada',

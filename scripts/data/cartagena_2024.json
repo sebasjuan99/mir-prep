@@ -1,0 +1,1113 @@
+{
+  "examen": "CARTAGENA",
+  "nombre": "Cartagena",
+  "anio": 2024,
+  "fuente": "Reconstrucción Cartagena 2024",
+  "preguntas": [
+    {
+      "enunciado": "Paciente con antecedente de VIH, cuadro clínico de 4 horas de evolución consistente en dolor en cuadrante inferior derecho, signo de Aarón positivo, Blumberg y Rovsing dudosos, LEUC: 4000, PCR positiva, uroanálisis 2-4 leucocitos por campo, hematíes 0-2 por campo, ecografía de abdomen con urolitiasis derecha, apendicolitos extraluminales y aumento de la grasa periapendicular. ¿Cuál es el diagnóstico del caso clínico?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Apendicitis perforada"
+        },
+        {
+          "letra": "B",
+          "texto": "Cólico renal"
+        },
+        {
+          "letra": "C",
+          "texto": "Colitis"
+        },
+        {
+          "letra": "D",
+          "texto": "Diverticulitis aguda"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cirugía General",
+      "tema": "Apendicitis aguda complicada",
+      "dificultad": "media",
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente con antecedente de VIH y cuadro de 4 horas de dolor en cuadrante inferior derecho, signo de Aarón positivo, Blumberg y Rovsing dudosos, PCR positiva y ecografía con apendicolitos extraluminales y aumento de la grasa periapendicular, con sospecha de apendicitis perforada. ¿Cuál es el método de confirmación diagnóstica?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Urotac"
+        },
+        {
+          "letra": "B",
+          "texto": "Uroanálisis"
+        },
+        {
+          "letra": "C",
+          "texto": "Signos y síntomas"
+        },
+        {
+          "letra": "D",
+          "texto": "Hemograma completo"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Cirugía General",
+      "tema": "Diagnóstico de apendicitis aguda",
+      "dificultad": "media",
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente con antecedente de VIH y cuadro clínico compatible con apendicitis perforada (dolor en fosa iliaca derecha, PCR positiva, ecografía con apendicolitos extraluminales y aumento de la grasa periapendicular). ¿Cuál es el manejo indicado?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Manejo quirúrgico"
+        },
+        {
+          "letra": "B",
+          "texto": "Egreso con manejo analgésico"
+        },
+        {
+          "letra": "C",
+          "texto": "Urocultivo"
+        },
+        {
+          "letra": "D",
+          "texto": "Antibiótico ambulatorio y observación domiciliaria"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cirugía General",
+      "tema": "Manejo de apendicitis aguda",
+      "dificultad": "baja",
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente femenina ingresa por accidente en moto. Al examen físico presenta herida en piel, cianosis, disnea, dolor intenso en región costal derecha y disminución del murmullo vesicular derecho; en radiografía se evidencia neumotórax derecho y fractura costal ipsilateral. ¿Cuál es la conducta más indicada?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Toracostomía para drenaje cerrado"
+        },
+        {
+          "letra": "B",
+          "texto": "Analgésicos"
+        },
+        {
+          "letra": "C",
+          "texto": "Ventilación mecánica"
+        },
+        {
+          "letra": "D",
+          "texto": "Toracotomía de urgencia"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cirugía General",
+      "tema": "Trauma de tórax - neumotórax",
+      "dificultad": "baja",
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente femenina víctima de accidente en moto con herida en piel, disnea, dolor en región costal derecha, disminución del murmullo vesicular derecho y radiografía con neumotórax derecho y fractura costal ipsilateral. ¿Cuál es el signo clínico más importante?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Cianosis"
+        },
+        {
+          "letra": "B",
+          "texto": "Neumotórax"
+        },
+        {
+          "letra": "C",
+          "texto": "Fracturas costales"
+        },
+        {
+          "letra": "D",
+          "texto": "Enfisema subcutáneo"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cirugía General",
+      "tema": "Semiología del trauma torácico",
+      "dificultad": "media",
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente con neumotórax derecho traumático a quien se le realiza toracostomía cerrada. Posterior a la colocación del tubo de tórax, ¿para qué se usa la radiografía de control?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Visualizar expansión pulmonar"
+        },
+        {
+          "letra": "B",
+          "texto": "Mirar la ubicación de la sonda"
+        },
+        {
+          "letra": "C",
+          "texto": "Mirar anatomía cardiaca en mediastino"
+        },
+        {
+          "letra": "D",
+          "texto": "Descartar derrame pleural"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Cirugía General",
+      "tema": "Manejo del tubo de toracostomía",
+      "dificultad": "media",
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente femenina con neumotórax derecho traumático y fractura costal ipsilateral tras accidente en moto. ¿Cuál es la complicación que se debe prevenir en este caso?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Neumotórax a tensión"
+        },
+        {
+          "letra": "B",
+          "texto": "Shock hipovolémico"
+        },
+        {
+          "letra": "C",
+          "texto": "Neumonía"
+        },
+        {
+          "letra": "D",
+          "texto": "Empiema pleural"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cirugía General",
+      "tema": "Complicaciones del trauma torácico",
+      "dificultad": "media",
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Mujer de 23 años acude a consulta porque presenta sangrado menstrual de 10 días de evolución; se le realiza ecografía que muestra 2 miomas transmurales de 3 cm FIGO 4 y refiere que quiere tener bebé porque está recién casada. Con relación a la fertilidad, usted le explica:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Que afecta mucho su fertilidad y debe ser operada"
+        },
+        {
+          "letra": "B",
+          "texto": "Que no afecta en nada su fertilidad y debe mejorar con anticonceptivos"
+        },
+        {
+          "letra": "C",
+          "texto": "Que no afecta en nada su fertilidad y manejo sintomático"
+        },
+        {
+          "letra": "D",
+          "texto": "Que requiere histerectomía inmediata"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Miomatosis uterina y fertilidad",
+      "dificultad": "media",
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Mujer de 23 años recién casada, con deseo de embarazo, que presenta sangrado menstrual de 10 días de evolución y ecografía con 2 miomas transmurales de 3 cm FIGO 4. ¿Cuál sería el manejo inicial a seguir?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Iniciar anticonceptivos orales combinados"
+        },
+        {
+          "letra": "B",
+          "texto": "Indicar ácido tranexámico"
+        },
+        {
+          "letra": "C",
+          "texto": "Remitir para miomectomía"
+        },
+        {
+          "letra": "D",
+          "texto": "Análogos de GnRH"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Manejo del sangrado uterino anormal por miomas",
+      "dificultad": "media",
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Mujer de 23 años con miomatosis uterina y sangrado menstrual prolongado a quien se le indicó tratamiento. La paciente reconsulta después de 5 meses, informa que tomó el tratamiento durante el tiempo que le ordenaste y que presenta ausencia de menstruación de 3 meses. ¿Qué le ordenas para un mejor diagnóstico?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "TAC"
+        },
+        {
+          "letra": "B",
+          "texto": "Resonancia"
+        },
+        {
+          "letra": "C",
+          "texto": "Prueba de embarazo y ecografía nuevamente"
+        },
+        {
+          "letra": "D",
+          "texto": "Histeroscopia diagnóstica"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Amenorrea secundaria - enfoque diagnóstico",
+      "dificultad": "media",
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Mujer de 23 años recién casada con miomatosis uterina y deseo de embarazo. Para el estudio de la fertilidad, ¿qué le ordenas?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Salpingografía"
+        },
+        {
+          "letra": "B",
+          "texto": "Espermograma"
+        },
+        {
+          "letra": "C",
+          "texto": "Estudio hormonal"
+        },
+        {
+          "letra": "D",
+          "texto": "Biopsia endometrial"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Estudio de la pareja infértil",
+      "dificultad": "media",
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Niño de 5 meses que se encuentra convulsionando, con glucometría en 28 mg/dl. ¿Cómo se repone la dextrosa?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "5 cc/kg"
+        },
+        {
+          "letra": "B",
+          "texto": "10 cc/kg"
+        },
+        {
+          "letra": "C",
+          "texto": "20 cc/kg"
+        },
+        {
+          "letra": "D",
+          "texto": "0.5 cc/kg"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Pediatría",
+      "tema": "Hipoglucemia neonatal/lactante - manejo",
+      "dificultad": "media",
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Mujer de 52 años que desde hace 8 meses, cuando su hija se fue del país, presenta ansiedad intensa, pensamiento catastrófico (ideas de que su hija y esposo mueren en un accidente), cefalea tensional, irritabilidad (que genera discusiones constantes con su esposo, quien ya no la soporta) y dificultad para conciliar el sueño. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Trastorno de ansiedad generalizada"
+        },
+        {
+          "letra": "B",
+          "texto": "Trastorno de ansiedad por separación"
+        },
+        {
+          "letra": "C",
+          "texto": "Trastorno adaptativo con síntomas ansiosos"
+        },
+        {
+          "letra": "D",
+          "texto": "Trastorno depresivo mayor"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Psiquiatría",
+      "tema": "Trastornos de ansiedad",
+      "dificultad": "media",
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Mujer de 52 años con trastorno de ansiedad por separación (ansiedad intensa, pensamiento catastrófico, cefalea tensional, irritabilidad e insomnio desde que su hija se fue del país). ¿Cuál es el tratamiento de elección?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Mirtazapina"
+        },
+        {
+          "letra": "B",
+          "texto": "Fluoxetina"
+        },
+        {
+          "letra": "C",
+          "texto": "Paroxetina"
+        },
+        {
+          "letra": "D",
+          "texto": "Diazepam"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Psiquiatría",
+      "tema": "Tratamiento farmacológico de trastornos de ansiedad",
+      "dificultad": "alta",
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Hombre de 80 años con cuadro clínico de 5 años caracterizado por deterioro progresivo de la memoria, el lenguaje y las actividades de autocuidado; incluso niega haber comido cuando recién lo han alimentado. Tiene una tomografía que muestra leucoaraiosis difusa de origen vascular. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Enfermedad de Alzheimer"
+        },
+        {
+          "letra": "B",
+          "texto": "Demencia por cuerpos de Lewy"
+        },
+        {
+          "letra": "C",
+          "texto": "Demencia vascular"
+        },
+        {
+          "letra": "D",
+          "texto": "Demencia frontotemporal"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Neurología",
+      "tema": "Demencias - diagnóstico diferencial",
+      "dificultad": "media",
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Hombre de 80 años con demencia de origen vascular (deterioro progresivo de memoria, lenguaje y autocuidado, con tomografía que muestra leucoaraiosis difusa de origen vascular). ¿Qué manejo farmacológico le daría?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Fluoxetina 20 mg antes del desayuno"
+        },
+        {
+          "letra": "B",
+          "texto": "Risperidona 1 mg con la cena"
+        },
+        {
+          "letra": "C",
+          "texto": "Haloperidol 5 mg en la noche"
+        },
+        {
+          "letra": "D",
+          "texto": "Donepecilo 5 mg al día"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neurología",
+      "tema": "Manejo farmacológico de la demencia",
+      "dificultad": "alta",
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "baja",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Hombre de 80 años con deterioro cognitivo progresivo de 5 años de evolución (memoria, lenguaje y autocuidado). Si usted hubiera atendido desde un comienzo a ese paciente hace 5 años, ¿qué le pediría?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Vitamina B12, perfil infeccioso, función renal, uroanálisis, electrolitos, etc."
+        },
+        {
+          "letra": "B",
+          "texto": "TAC de cráneo"
+        },
+        {
+          "letra": "C",
+          "texto": "Determinación de la proteína Tau en líquido cefalorraquídeo"
+        },
+        {
+          "letra": "D",
+          "texto": "Punción lumbar para cultivo de LCR"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neurología",
+      "tema": "Estudio de causas reversibles de demencia",
+      "dificultad": "media",
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Hombre de 50 años, policía que trabaja revisando videos de contenido violento. Hace 3 semanas vio uno en el que asesinan a un motorizado; desde entonces presenta hiperalerta, aplanamiento afectivo, desesperanza y sobre todo revivencias en sueños y flashbacks, deseos de morir e insomnio de conciliación y mantenimiento. Por la intensidad de los síntomas ve el suicidio como única salida. No tiene hijos, solo una hermana. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Trastorno de estrés postraumático"
+        },
+        {
+          "letra": "B",
+          "texto": "Trastorno de estrés agudo"
+        },
+        {
+          "letra": "C",
+          "texto": "Trastorno depresivo"
+        },
+        {
+          "letra": "D",
+          "texto": "Trastorno de adaptación"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Psiquiatría",
+      "tema": "Trastornos por estrés / trauma",
+      "dificultad": "media",
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Hombre de 50 años, policía que revisaba videos violentos; hace 3 semanas presenta hiperalerta, aplanamiento afectivo, flashbacks, revivencias en sueños, insomnio e ideación suicida activa, viendo el suicidio como única salida. ¿Cuál sería el abordaje inicial?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Hospitalizar y dar esquema sedante"
+        },
+        {
+          "letra": "B",
+          "texto": "Hospitalizar y remitir urgente al psiquiatra"
+        },
+        {
+          "letra": "C",
+          "texto": "Dar de alta y manejo ambulatorio"
+        },
+        {
+          "letra": "D",
+          "texto": "Iniciar benzodiacepina y control ambulatorio en 48 horas"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Psiquiatría",
+      "tema": "Manejo del riesgo suicida",
+      "dificultad": "media",
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Hombre de 50 años con trastorno relacionado con trauma (revivencias, hiperalerta, insomnio, pesadillas e ideación suicida) tras presenciar un homicidio. Si se decide añadir un antipsicótico como coadyuvante, ¿cuál elegiría?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Quetiapina"
+        },
+        {
+          "letra": "B",
+          "texto": "Risperidona"
+        },
+        {
+          "letra": "C",
+          "texto": "Aripiprazol"
+        },
+        {
+          "letra": "D",
+          "texto": "Olanzapina"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Psiquiatría",
+      "tema": "Psicofarmacología en TEPT",
+      "dificultad": "media",
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Hombre de 50 años con trastorno relacionado con trauma tras presenciar un homicidio (revivencias, hiperalerta, insomnio, pesadillas). ¿Cuál ISRS le daría como tratamiento de primera línea?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Fluoxetina"
+        },
+        {
+          "letra": "B",
+          "texto": "Paroxetina"
+        },
+        {
+          "letra": "C",
+          "texto": "Sertralina"
+        },
+        {
+          "letra": "D",
+          "texto": "Escitalopram"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Psiquiatría",
+      "tema": "Psicofarmacología en TEPT",
+      "dificultad": "media",
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true
+    },
+    {
+      "enunciado": "En el mismo paciente de 50 años con trastorno relacionado con trauma e ideación suicida, ¿cuál es el principal factor de riesgo para suicidio?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "No tener hijos"
+        },
+        {
+          "letra": "B",
+          "texto": "Enfermedad mental"
+        },
+        {
+          "letra": "C",
+          "texto": "Consumo de alcohol"
+        },
+        {
+          "letra": "D",
+          "texto": "Sexo femenino"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Psiquiatría",
+      "tema": "Factores de riesgo de suicidio",
+      "dificultad": "baja",
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Lactante de 5 meses con desnutrición aguda severa y shigelosis. Usted solicita electrolitos y evidencia hipomagnesemia. ¿A qué dosis se repone el magnesio?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "5 mg/kg"
+        },
+        {
+          "letra": "B",
+          "texto": "15 mg/kg"
+        },
+        {
+          "letra": "C",
+          "texto": "25 mg/kg"
+        },
+        {
+          "letra": "D",
+          "texto": "50 mg/kg"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Pediatría",
+      "tema": "Desnutrición aguda severa / trastornos electrolíticos",
+      "dificultad": "alta",
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "baja",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Lactante de 5 meses con desnutrición aguda severa y shigelosis. Tenía Hb en 6 g/dl y se transfundió; ahora la tiene en 4 g/dl. ¿Dentro de cuánto tiempo se puede volver a transfundir?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "4 horas"
+        },
+        {
+          "letra": "B",
+          "texto": "4 días"
+        },
+        {
+          "letra": "C",
+          "texto": "4 semanas"
+        },
+        {
+          "letra": "D",
+          "texto": "4 meses"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Pediatría",
+      "tema": "Transfusión en desnutrición severa",
+      "dificultad": "alta",
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente de 30 años con diagnóstico de NIC II. Si se confirma el diagnóstico, ¿cuál es el manejo?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Citología en 6 meses"
+        },
+        {
+          "letra": "B",
+          "texto": "Histerectomía"
+        },
+        {
+          "letra": "C",
+          "texto": "Conización"
+        },
+        {
+          "letra": "D",
+          "texto": "Crioterapia"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Lesiones intraepiteliales cervicales (NIC)",
+      "dificultad": "media",
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente de 30 años con sospecha de NIC II. ¿Cuál es el manejo si se descarta el NIC II?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Citología en 1 año"
+        },
+        {
+          "letra": "B",
+          "texto": "Continuar tamizaje con test de VPH"
+        },
+        {
+          "letra": "C",
+          "texto": "Conización inmediata"
+        },
+        {
+          "letra": "D",
+          "texto": "Histerectomía"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Tamizaje de cáncer cervical",
+      "dificultad": "media",
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente de 63 años, fumadora, G0P0 (nulípara), con dos episodios de sangrado vaginal (posmenopáusico). ¿Qué procedimiento diagnóstico realizaría para el estudio del sangrado?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Realizar histerectomía"
+        },
+        {
+          "letra": "B",
+          "texto": "Realizar legrado ginecológico diagnóstico"
+        },
+        {
+          "letra": "C",
+          "texto": "Histeroscopia"
+        },
+        {
+          "letra": "D",
+          "texto": "Citología cervicovaginal"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Sangrado uterino posmenopáusico",
+      "dificultad": "media",
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "baja",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente de 63 años, fumadora, G0P0 (nulípara), con sangrado vaginal posmenopáusico. Según el caso, la paciente presentaba:",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Factores de riesgo para cáncer de endometrio"
+        },
+        {
+          "letra": "B",
+          "texto": "Factores protectores para cáncer de endometrio"
+        },
+        {
+          "letra": "C",
+          "texto": "No presenta ningún factor de riesgo"
+        },
+        {
+          "letra": "D",
+          "texto": "Datos insuficientes para determinar el riesgo"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Factores de riesgo de cáncer de endometrio",
+      "dificultad": "media",
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Lactante llevado por su padre por tos accesoria, tirajes intercostales y subcostales; previamente había recibido 5 días de manejo con amoxicilina 90 mg/kg/día. La placa de tórax evidencia consolidación basal derecha. ¿Qué manejo iniciaría?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Ceftriaxona"
+        },
+        {
+          "letra": "B",
+          "texto": "Vancomicina"
+        },
+        {
+          "letra": "C",
+          "texto": "Claritromicina"
+        },
+        {
+          "letra": "D",
+          "texto": "Amoxicilina-clavulanato"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Pediatría",
+      "tema": "Neumonía adquirida en la comunidad / falla terapéutica",
+      "dificultad": "alta",
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "baja",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Lactante con neumonía con consolidación basal derecha que no respondió a amoxicilina. Posteriormente, dentro de los exámenes tomados, se aísla un Streptococcus pneumoniae multisensible. ¿Cuál sería el manejo?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Penicilina cristalina"
+        },
+        {
+          "letra": "B",
+          "texto": "Ampicilina/sulbactam"
+        },
+        {
+          "letra": "C",
+          "texto": "Linezolid"
+        },
+        {
+          "letra": "D",
+          "texto": "Ceftriaxona"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Pediatría",
+      "tema": "Neumonía neumocócica / desescalonamiento antibiótico",
+      "dificultad": "media",
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Respecto a los estudios de medicamentos, ¿en qué fase se estudiaría la farmacovigilancia (vigilancia poscomercialización)?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Fase II"
+        },
+        {
+          "letra": "B",
+          "texto": "Fase III"
+        },
+        {
+          "letra": "C",
+          "texto": "Fase IV"
+        },
+        {
+          "letra": "D",
+          "texto": "Fase I"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Farmacología",
+      "tema": "Fases de estudios clínicos / farmacovigilancia",
+      "dificultad": "baja",
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Respecto a los estudios de medicamentos, ¿en qué fase se estudia la dosificación del fármaco?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Fase II"
+        },
+        {
+          "letra": "B",
+          "texto": "Fase III"
+        },
+        {
+          "letra": "C",
+          "texto": "Fase IV"
+        },
+        {
+          "letra": "D",
+          "texto": "Fase I"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Farmacología",
+      "tema": "Fases de estudios clínicos",
+      "dificultad": "media",
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente pediátrico que venía recibiendo manejo con amoxicilina para una infección de garganta y posteriormente inicia con hematuria, cifras tensionales elevadas y complemento C3 consumido. ¿Qué enfermedad sospecha?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Síndrome nefrótico"
+        },
+        {
+          "letra": "B",
+          "texto": "Síndrome nefrítico"
+        },
+        {
+          "letra": "C",
+          "texto": "Síndrome edematoso"
+        },
+        {
+          "letra": "D",
+          "texto": "Síndrome hemolítico urémico"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Pediatría",
+      "tema": "Glomerulonefritis postestreptocócica",
+      "dificultad": "baja",
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente pediátrico con glomerulonefritis postestreptocócica (hematuria, hipertensión y C3 consumido tras infección faríngea). ¿Qué manejo iniciaría?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Captopril"
+        },
+        {
+          "letra": "B",
+          "texto": "Amlodipino"
+        },
+        {
+          "letra": "C",
+          "texto": "Restricción de líquidos"
+        },
+        {
+          "letra": "D",
+          "texto": "Corticoides sistémicos"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Pediatría",
+      "tema": "Manejo de glomerulonefritis aguda",
+      "dificultad": "media",
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente de unos 50 años sin antecedentes de importancia a quien en 3 consultas separadas le encontraron cifras tensionales elevadas en una única toma. Para confirmar el diagnóstico, ¿qué examen envía?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "MAPA (monitoreo ambulatorio de presión arterial)"
+        },
+        {
+          "letra": "B",
+          "texto": "AMPA (automedición de presión arterial)"
+        },
+        {
+          "letra": "C",
+          "texto": "Toma en el consultorio tres veces con intervalo de 1-2 min"
+        },
+        {
+          "letra": "D",
+          "texto": "Solicitar perfil lipídico y glicemia"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cardiología",
+      "tema": "Diagnóstico de hipertensión arterial",
+      "dificultad": "media",
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente de unos 50 años con hipertensión arterial confirmada, sin antecedentes de importancia. ¿A qué metas de presión arterial llevaría a ese paciente?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "140/90"
+        },
+        {
+          "letra": "B",
+          "texto": "130/80"
+        },
+        {
+          "letra": "C",
+          "texto": "130/90"
+        },
+        {
+          "letra": "D",
+          "texto": "120/70"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Cardiología",
+      "tema": "Metas terapéuticas en hipertensión arterial",
+      "dificultad": "media",
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente con diagnóstico de dislipidemia e HTA en manejo con losartán 100 mg VO cada día y atorvastatina 20 mg VO. En control de laboratorio reporta colesterol total >200 y LDL 149, con glucosa elevada. En el próximo control presenta LDL 94, colesterol total <200, ganancia de peso de 3 kg y HbA1c >6.5%. Según la evidencia, ¿cuál medicamento se agregaría o modificaría para impactar en la ruta cardiovascular?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Continuar atorvastatina 20 mg"
+        },
+        {
+          "letra": "B",
+          "texto": "Rosuvastatina 10 mg"
+        },
+        {
+          "letra": "C",
+          "texto": "Atorvastatina 80 mg"
+        },
+        {
+          "letra": "D",
+          "texto": "Ezetimiba 10 mg"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Cardiología",
+      "tema": "Dislipidemia y prevención cardiovascular",
+      "dificultad": "media",
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente con dolor en hipocondrio derecho asociado a fiebre y leucocitosis, con ecografía que reporta colelitiasis, pared de la vesícula distendida, barro biliar y líquido perivesicular. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Colelitiasis"
+        },
+        {
+          "letra": "B",
+          "texto": "Colecistitis aguda"
+        },
+        {
+          "letra": "C",
+          "texto": "Colangitis"
+        },
+        {
+          "letra": "D",
+          "texto": "Coledocolitiasis"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Cirugía General",
+      "tema": "Colecistitis aguda",
+      "dificultad": "baja",
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente con dolor en hipocondrio derecho, fiebre, leucocitosis y ecografía con colelitiasis, pared vesicular distendida, barro biliar y líquido perivesicular (cuadro compatible con colecistitis aguda). ¿Cuál sería el manejo indicado?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Colangiografía endoscópica retrógrada (CPRE)"
+        },
+        {
+          "letra": "B",
+          "texto": "Colecistectomía precoz (temprana)"
+        },
+        {
+          "letra": "C",
+          "texto": "Colecistectomía diferida a las 6 semanas"
+        },
+        {
+          "letra": "D",
+          "texto": "Manejo conservador únicamente con antibióticos"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Cirugía General",
+      "tema": "Manejo de colecistitis aguda",
+      "dificultad": "media",
+      "_distractores_ia": true,
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true
+    }
+  ]
+}
