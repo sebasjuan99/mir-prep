@@ -1,0 +1,1810 @@
+{
+  "examen": "ELBOSQUE",
+  "anio": 2024,
+  "fuente": "Bosque 2024-II",
+  "preguntas": [
+    {
+      "enunciado": "Paciente que ingresa hipotenso, bradicárdico, con pupilas mióticas y broncorrea. ¿Cuál es el síndrome toxicológico (toxidrome) más probable?",
+      "opciones": [
+        {"letra": "A", "texto": "Colinérgico"},
+        {"letra": "B", "texto": "Anticolinérgico"},
+        {"letra": "C", "texto": "Serotoninérgico"},
+        {"letra": "D", "texto": "Hipnótico-sedante"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Farmacología",
+      "tema": "Toxicología - síndromes toxicológicos",
+      "dificultad": "media"
+    },
+    {
+      "enunciado": "Paciente de 30 años que ingirió 15 g de acetaminofén hace una hora y se encuentra asintomático. ¿Cuál es la conducta más adecuada?",
+      "opciones": [
+        {"letra": "A", "texto": "Carbón activado solo y monitorizar"},
+        {"letra": "B", "texto": "N-acetilcisteína sola con dosis de carga 140, luego 70 y 17 dosis más"},
+        {"letra": "C", "texto": "Dar carbón activado + N-acetilcisteína con dosis de carga 140, luego 70 y luego 17 dosis más"},
+        {"letra": "D", "texto": "Tranquilizar al familiar y dar egreso con recomendaciones, previa valoración por Psiquiatría"}
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Farmacología",
+      "tema": "Toxicología por acetaminofén",
+      "dificultad": "media"
+    },
+    {
+      "enunciado": "El nomograma de Rumack-Matthew sirve para:",
+      "opciones": [
+        {"letra": "A", "texto": "Calcular la hepatotoxicidad en la intoxicación por acetaminofén"},
+        {"letra": "B", "texto": "Predecir el riesgo de progresión a falla hepática fulminante en intoxicación por acetaminofén"},
+        {"letra": "C", "texto": "Predecir la fatalidad a las 24 horas en intoxicación por acetaminofén"},
+        {"letra": "D", "texto": "Calcular el pronóstico en intoxicación por acetaminofén"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Farmacología",
+      "tema": "Toxicología por acetaminofén",
+      "dificultad": "media"
+    },
+    {
+      "enunciado": "Paciente con alteración del estado de conciencia con recuperación espontánea durante el reposo, precedida por palpitaciones, náuseas y dolor torácico, con antecedente de isquemia miocárdica. ¿Qué tipo de síncope es?",
+      "opciones": [
+        {"letra": "A", "texto": "Cardiogénico"},
+        {"letra": "B", "texto": "Hipotensión ortostática"},
+        {"letra": "C", "texto": "Vasovagal"},
+        {"letra": "D", "texto": "Situacional"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cardiología",
+      "tema": "Síncope",
+      "dificultad": "media"
+    },
+    {
+      "enunciado": "Las siguientes escalas son utilizadas en la evaluación del síncope, EXCEPTO:",
+      "opciones": [
+        {"letra": "A", "texto": "HAS-BLED"},
+        {"letra": "B", "texto": "BOSTON"},
+        {"letra": "C", "texto": "EGSYS"},
+        {"letra": "D", "texto": "ROSE"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cardiología",
+      "tema": "Síncope - escalas de riesgo",
+      "dificultad": "media"
+    },
+    {
+      "enunciado": "¿Cuál es la causa principal de insuficiencia cardiaca diastólica?",
+      "opciones": [
+        {"letra": "A", "texto": "Hipertensión arterial"},
+        {"letra": "B", "texto": "Enfermedad coronaria"},
+        {"letra": "C", "texto": "Estenosis aórtica"},
+        {"letra": "D", "texto": "Pericarditis constrictiva"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cardiología",
+      "tema": "Insuficiencia cardiaca",
+      "dificultad": "media"
+    },
+    {
+      "enunciado": "¿Cuál es la causa principal de insuficiencia cardiaca sistólica?",
+      "opciones": [
+        {"letra": "A", "texto": "Hipertensión arterial"},
+        {"letra": "B", "texto": "Enfermedad coronaria"},
+        {"letra": "C", "texto": "Infarto agudo de miocardio"},
+        {"letra": "D", "texto": "Insuficiencia aórtica"},
+        {"letra": "E", "texto": "Enfermedad de Chagas"}
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Cardiología",
+      "tema": "Insuficiencia cardiaca",
+      "dificultad": "media"
+    },
+    {
+      "enunciado": "¿Cuál medicamento no tiene evidencia en la falla cardiaca diastólica con fracción de eyección preservada?",
+      "opciones": [
+        {"letra": "A", "texto": "Candesartán"},
+        {"letra": "B", "texto": "Nebivolol"},
+        {"letra": "C", "texto": "Eplerenona"},
+        {"letra": "D", "texto": "Ramipril"}
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Cardiología",
+      "tema": "Insuficiencia cardiaca con FE preservada",
+      "dificultad": "media",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente con EPOC y falla cardiaca que consulta por disnea y dolor torácico sin edema de miembros inferiores. ¿Con cuál de los siguientes exámenes descarta el origen cardiaco?",
+      "opciones": [
+        {"letra": "A", "texto": "BNP 50"},
+        {"letra": "B", "texto": "BNP 500"},
+        {"letra": "C", "texto": "ProBNP de 600"},
+        {"letra": "D", "texto": "Troponina I negativa"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cardiología",
+      "tema": "Biomarcadores - péptidos natriuréticos",
+      "dificultad": "media"
+    },
+    {
+      "enunciado": "La troponina se eleva en estas patologías, EXCEPTO:",
+      "opciones": [
+        {"letra": "A", "texto": "Enfermedad renal crónica"},
+        {"letra": "B", "texto": "Trombosis venosa profunda"},
+        {"letra": "C", "texto": "Tromboembolismo pulmonar"},
+        {"letra": "D", "texto": "Insuficiencia cardiaca congestiva"}
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Cardiología",
+      "tema": "Biomarcadores cardíacos",
+      "dificultad": "media"
+    },
+    {
+      "enunciado": "Sobre los biomarcadores cardíacos, es cierto que:",
+      "opciones": [
+        {"letra": "A", "texto": "La troponina I se eleva en la primera hora de inicio del IAM"},
+        {"letra": "B", "texto": "La troponina T se mantiene elevada por 48-72 horas"},
+        {"letra": "C", "texto": "La mioglobina es la primera que se eleva, en las primeras horas"},
+        {"letra": "D", "texto": "La CK total es más específica que la CK-MB"}
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Cardiología",
+      "tema": "Biomarcadores cardíacos",
+      "dificultad": "media"
+    },
+    {
+      "enunciado": "¿Cuál es el marcador más específico para necrosis cardiaca?",
+      "opciones": [
+        {"letra": "A", "texto": "Mioglobina"},
+        {"letra": "B", "texto": "CK-MB"},
+        {"letra": "C", "texto": "Troponina I"},
+        {"letra": "D", "texto": "Troponina T"}
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Cardiología",
+      "tema": "Biomarcadores cardíacos",
+      "dificultad": "baja"
+    },
+    {
+      "enunciado": "Paciente con infarto con elevación del ST en un centro sin disponibilidad de realizar ICP. ¿Cuál es la conducta?",
+      "opciones": [
+        {"letra": "A", "texto": "Trombolisis en menos de 30 minutos"},
+        {"letra": "B", "texto": "Trombolisis si el centro de ICP queda a menos de 120 min"},
+        {"letra": "C", "texto": "Trasladar para ICP primaria sin límite de tiempo"},
+        {"letra": "D", "texto": "Iniciar solo anticoagulación y observación"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cardiología",
+      "tema": "IAMCEST - reperfusión",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Sobre el manejo del infarto con elevación del ST, ¿cuál afirmación es falsa?",
+      "opciones": [
+        {"letra": "A", "texto": "El tiempo de toma y lectura del EKG debe ser menos de 10 min desde el ingreso"},
+        {"letra": "B", "texto": "El tiempo puerta-aguja debe ser menos de 30 min desde el ingreso"},
+        {"letra": "C", "texto": "El tiempo puerta-balón (inflado) debe ser menos de 60 min desde el ingreso"},
+        {"letra": "D", "texto": "Realizar trombolisis si el centro de ICP queda a menos de 120 min"}
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Cardiología",
+      "tema": "IAMCEST - reperfusión",
+      "dificultad": "media"
+    },
+    {
+      "enunciado": "¿Cuál NO es una contraindicación relativa para trombolisis en IAMCEST?",
+      "opciones": [
+        {"letra": "A", "texto": "ACV hace más de 3 meses"},
+        {"letra": "B", "texto": "Úlcera péptica activa"},
+        {"letra": "C", "texto": "Embarazo"},
+        {"letra": "D", "texto": "Rivaroxabán hace menos de una semana"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cardiología",
+      "tema": "Trombolisis - contraindicaciones",
+      "dificultad": "alta",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente de 23 años con cuadro respiratorio previo y dolor retroesternal que mejora con la inclinación hacia adelante y empeora en supino, al toser y al deglutir; EKG con elevación cóncava del ST. Diagnóstico:",
+      "opciones": [
+        {"letra": "A", "texto": "Pericarditis aguda"},
+        {"letra": "B", "texto": "Tromboembolismo pulmonar"},
+        {"letra": "C", "texto": "Perforación esofágica"},
+        {"letra": "D", "texto": "Infarto agudo de miocardio"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cardiología",
+      "tema": "Pericarditis aguda",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es una contraindicación absoluta de las tiazolidinedionas?",
+      "opciones": [
+        {"letra": "A", "texto": "EPOC"},
+        {"letra": "B", "texto": "Enfermedad renal crónica"},
+        {"letra": "C", "texto": "Cardiopatía dilatada NYHA III/IV"},
+        {"letra": "D", "texto": "Resistencia a la insulina"}
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Endocrinología",
+      "tema": "Antidiabéticos - tiazolidinedionas",
+      "dificultad": "media",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Mujer de 50 años con insuficiencia mitral, antecedente de fiebre reumática y disnea de esfuerzo, con ECG que muestra fibrilación auricular (ausencia de onda P, R-R irregular). Al calcular la escala CHA2DS2-VASc, el resultado es:",
+      "opciones": [
+        {"letra": "A", "texto": "1 punto, riesgo intermedio"},
+        {"letra": "B", "texto": "0 puntos"},
+        {"letra": "C", "texto": "2 puntos, alto riesgo"},
+        {"letra": "D", "texto": "Riesgo alto, no requiere calcular CHA2DS2-VASc"}
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Cardiología",
+      "tema": "Fibrilación auricular - CHA2DS2-VASc",
+      "dificultad": "media",
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es la complicación más frecuente del hipertiroidismo en el paciente anciano?",
+      "opciones": [
+        {"letra": "A", "texto": "ACV"},
+        {"letra": "B", "texto": "Fibrilación auricular"},
+        {"letra": "C", "texto": "Infarto agudo de miocardio"},
+        {"letra": "D", "texto": "Hipertensión arterial"}
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Endocrinología",
+      "tema": "Hipertiroidismo",
+      "dificultad": "media"
+    },
+    {
+      "enunciado": "Paciente con TSH elevada y T4 normal, asintomático. Diagnóstico:",
+      "opciones": [
+        {"letra": "A", "texto": "Hipotiroidismo subclínico"},
+        {"letra": "B", "texto": "Tiroiditis de Hashimoto"},
+        {"letra": "C", "texto": "Hipertiroidismo"},
+        {"letra": "D", "texto": "Enfermedad de Graves"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Endocrinología",
+      "tema": "Hipotiroidismo subclínico",
+      "dificultad": "media"
+    },
+    {
+      "enunciado": "Paciente con TSH normal, T4 total normal, T3 baja y T3 reversa alta. Diagnóstico:",
+      "opciones": [
+        {"letra": "A", "texto": "Hipotiroidismo subclínico"},
+        {"letra": "B", "texto": "Síndrome del enfermo eutiroideo"},
+        {"letra": "C", "texto": "Enfermedad de Graves"},
+        {"letra": "D", "texto": "Tiroiditis subaguda"}
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Endocrinología",
+      "tema": "Síndrome del enfermo eutiroideo",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente con hipotiroidismo de origen central en suplencia con levotiroxina. ¿Con qué se hace el seguimiento?",
+      "opciones": [
+        {"letra": "A", "texto": "TSH ultrasensible"},
+        {"letra": "B", "texto": "T4 libre"},
+        {"letra": "C", "texto": "T3 libre"},
+        {"letra": "D", "texto": "TRH"}
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Endocrinología",
+      "tema": "Hipotiroidismo central",
+      "dificultad": "media"
+    },
+    {
+      "enunciado": "Paciente femenina de 30 años con bocio no difuso, no doloroso, y síntomas de hipertiroidismo. Diagnóstico:",
+      "opciones": [
+        {"letra": "A", "texto": "Enfermedad de Graves"},
+        {"letra": "B", "texto": "Tiroiditis de Hashimoto"},
+        {"letra": "C", "texto": "Bocio nodular tóxico"},
+        {"letra": "D", "texto": "Tiroiditis subaguda"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Endocrinología",
+      "tema": "Hipertiroidismo - enfermedad de Graves",
+      "dificultad": "media",
+      "_revisar": true
+    },
+    {
+      "enunciado": "En la tiroiditis de Hashimoto, ¿qué afirmación es falsa?",
+      "opciones": [
+        {"letra": "A", "texto": "Presenta anticuerpos anti-TPO"},
+        {"letra": "B", "texto": "Presenta anticuerpos antitiroglobulina"},
+        {"letra": "C", "texto": "En el eco Doppler el flujo está disminuido"},
+        {"letra": "D", "texto": "Cursa con hipotiroidismo"}
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Endocrinología",
+      "tema": "Tiroiditis de Hashimoto",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Mujer con enfermedad de Graves y 8 semanas de embarazo. ¿Cuál es el tratamiento?",
+      "opciones": [
+        {"letra": "A", "texto": "Metimazol"},
+        {"letra": "B", "texto": "Propiltiouracilo"},
+        {"letra": "C", "texto": "Propranolol"},
+        {"letra": "D", "texto": "Yodo 131"}
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Endocrinología",
+      "tema": "Hipertiroidismo en el embarazo",
+      "dificultad": "media"
+    },
+    {
+      "enunciado": "Paciente con colesterol total 290 mg/dl, triglicéridos 734 mg/dl y HDL 25 mg/dl. Según la fórmula para calcular el LDL, este es:",
+      "opciones": [
+        {"letra": "A", "texto": "121 mg/dl"},
+        {"letra": "B", "texto": "133 mg/dl"},
+        {"letra": "C", "texto": "No se puede calcular"},
+        {"letra": "D", "texto": "No se puede calcular cuando los triglicéridos están >250"}
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Endocrinología",
+      "tema": "Dislipidemia - fórmula de Friedewald",
+      "dificultad": "media"
+    },
+    {
+      "enunciado": "Las estatinas de alta intensidad disminuyen el LDL en aproximadamente:",
+      "opciones": [
+        {"letra": "A", "texto": "50% o más"},
+        {"letra": "B", "texto": "30%"},
+        {"letra": "C", "texto": "20%"},
+        {"letra": "D", "texto": "10%"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Endocrinología",
+      "tema": "Estatinas",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente con curva de tolerancia oral a la glucosa: glucemia basal 92 mg/dl y a las 2 horas 182 mg/dl. Diagnóstico:",
+      "opciones": [
+        {"letra": "A", "texto": "Diabético"},
+        {"letra": "B", "texto": "Sano"},
+        {"letra": "C", "texto": "Prediabético por glucemia basal"},
+        {"letra": "D", "texto": "Prediabético con intolerancia a los carbohidratos"}
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Endocrinología",
+      "tema": "Diabetes - criterios diagnósticos",
+      "dificultad": "media"
+    },
+    {
+      "enunciado": "Paciente con polidipsia, poliuria, glucemia basal de 105 mg/dl y HbA1c de 6.5%. ¿Cuál es la conducta diagnóstica?",
+      "opciones": [
+        {"letra": "A", "texto": "Diabético"},
+        {"letra": "B", "texto": "Prediabético"},
+        {"letra": "C", "texto": "Sano"},
+        {"letra": "D", "texto": "Repetir la hemoglobina glicosilada"}
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Endocrinología",
+      "tema": "Diabetes - criterios diagnósticos",
+      "dificultad": "media",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Con respecto a la diabetes mellitus y sus tratamientos, ¿cuál de las siguientes afirmaciones es incorrecta?",
+      "opciones": [
+        {"letra": "A", "texto": "La metformina es la única biguanida disponible y es el tratamiento de primera elección en la DM"},
+        {"letra": "B", "texto": "Las sulfonilureas como la glimepirida están contraindicadas en DM tipo 1 por su mecanismo de acción"},
+        {"letra": "C", "texto": "El principal efecto de los GLP-1 es la pérdida de peso"},
+        {"letra": "D", "texto": "Los principales efectos secundarios de la liraglutida son diarrea, náuseas y aumento de peso"}
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Endocrinología",
+      "tema": "Antidiabéticos - GLP-1",
+      "dificultad": "media",
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Qué evalúa la escala de LEMON en anestesiología?",
+      "opciones": [
+        {"letra": "A", "texto": "La predicción de vía aérea difícil (en el paciente traumatizado)"},
+        {"letra": "B", "texto": "El riesgo de broncoaspiración"},
+        {"letra": "C", "texto": "La profundidad anestésica"},
+        {"letra": "D", "texto": "El nivel de sedación"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anestesiología",
+      "tema": "Vía aérea difícil",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es el mecanismo de acción de la dexmedetomidina?",
+      "opciones": [
+        {"letra": "A", "texto": "Agonista de los receptores alfa-2 adrenérgicos"},
+        {"letra": "B", "texto": "Antagonista de receptores NMDA"},
+        {"letra": "C", "texto": "Agonista de receptores GABA-A"},
+        {"letra": "D", "texto": "Antagonista de receptores mu opioides"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anestesiología",
+      "tema": "Farmacología - sedantes",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál medicamento NO está contraindicado para realizar un bloqueo neuroaxial?",
+      "opciones": [
+        {"letra": "A", "texto": "Warfarina"},
+        {"letra": "B", "texto": "Heparina de bajo peso molecular"},
+        {"letra": "C", "texto": "Aspirina"},
+        {"letra": "D", "texto": "Clopidogrel"}
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Anestesiología",
+      "tema": "Bloqueo neuroaxial",
+      "dificultad": "media"
+    },
+    {
+      "enunciado": "¿Cuál de los siguientes medicamentos NO tiene efecto antiemético?",
+      "opciones": [
+        {"letra": "A", "texto": "Propofol"},
+        {"letra": "B", "texto": "Etomidato"},
+        {"letra": "C", "texto": "Haloperidol"},
+        {"letra": "D", "texto": "Dexametasona"}
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Anestesiología",
+      "tema": "Antieméticos",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "El remifentanilo tiene una recuperación más rápida debido a:",
+      "opciones": [
+        {"letra": "A", "texto": "Su metabolismo por esterasas plasmáticas"},
+        {"letra": "B", "texto": "Su eliminación renal rápida"},
+        {"letra": "C", "texto": "Su alto metabolismo hepático de primer paso"},
+        {"letra": "D", "texto": "Su baja liposolubilidad"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anestesiología",
+      "tema": "Opioides - remifentanilo",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "La potencia (eficacia) de los anestésicos locales depende principalmente de:",
+      "opciones": [
+        {"letra": "A", "texto": "La liposolubilidad"},
+        {"letra": "B", "texto": "El pKa"},
+        {"letra": "C", "texto": "La unión a proteínas"},
+        {"letra": "D", "texto": "El peso molecular"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anestesiología",
+      "tema": "Anestésicos locales",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Respecto al lactato de Ringer en pacientes sanos, es cierto que:",
+      "opciones": [
+        {"letra": "A", "texto": "El hígado convierte el lactato en bicarbonato"},
+        {"letra": "B", "texto": "Produce acidosis metabólica hiperclorémica"},
+        {"letra": "C", "texto": "Produce acidosis láctica"},
+        {"letra": "D", "texto": "Está contraindicado por su alto contenido de potasio"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anestesiología",
+      "tema": "Líquidos endovenosos",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente embarazada con shock hipovolémico. ¿Cuál anestésico para inducción tiene mejor perfil de seguridad?",
+      "opciones": [
+        {"letra": "A", "texto": "Ketamina 1-2 mg/kg"},
+        {"letra": "B", "texto": "Propofol 2 mg/kg"},
+        {"letra": "C", "texto": "Tiopental 5 mg/kg"},
+        {"letra": "D", "texto": "Etomidato 0.3 mg/kg"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anestesiología",
+      "tema": "Inducción anestésica",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál de las siguientes afirmaciones NO es correcta sobre la valoración preanestésica?",
+      "opciones": [
+        {"letra": "A", "texto": "Todo paciente con antecedente cardíaco debe ser valorado por cardiología en cirugía no cardíaca"},
+        {"letra": "B", "texto": "La valoración preanestésica debe realizarse antes de todo procedimiento"},
+        {"letra": "C", "texto": "Debe evaluar la vía aérea del paciente"},
+        {"letra": "D", "texto": "Incluye la clasificación del estado físico ASA"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anestesiología",
+      "tema": "Valoración preanestésica",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál de los anestésicos inhalados tiene el inicio de acción más rápido?",
+      "opciones": [
+        {"letra": "A", "texto": "Sevoflurano"},
+        {"letra": "B", "texto": "Halotano"},
+        {"letra": "C", "texto": "Isoflurano"},
+        {"letra": "D", "texto": "Óxido nitroso"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anestesiología",
+      "tema": "Anestésicos inhalados",
+      "dificultad": "media"
+    },
+    {
+      "enunciado": "¿Cuál afirmación NO se considera cierta sobre la evaluación de la vía aérea difícil?",
+      "opciones": [
+        {"letra": "A", "texto": "El síndrome de Down no es un factor predictor de vía aérea difícil"},
+        {"letra": "B", "texto": "La apertura oral limitada predice vía aérea difícil"},
+        {"letra": "C", "texto": "La clasificación de Mallampati se usa en la evaluación"},
+        {"letra": "D", "texto": "La distancia tiromentoniana corta predice vía aérea difícil"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anestesiología",
+      "tema": "Vía aérea difícil",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es la osmolaridad del lactato de Ringer?",
+      "opciones": [
+        {"letra": "A", "texto": "273 mOsmol/L"},
+        {"letra": "B", "texto": "308 mOsmol/L"},
+        {"letra": "C", "texto": "154 mOsmol/L"},
+        {"letra": "D", "texto": "290 mOsmol/L"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anestesiología",
+      "tema": "Líquidos endovenosos",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Niño de 10 años que sufre trauma en accidente automovilístico llevando cinturón, con equimosis abdominal (signo del cinturón) y se encuentra estable. Conducta:",
+      "opciones": [
+        {"letra": "A", "texto": "Observación"},
+        {"letra": "B", "texto": "Radiografía y, si sale bien, salida"},
+        {"letra": "C", "texto": "TAC de abdomen y, si sale bien, salida"},
+        {"letra": "D", "texto": "Egreso"}
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Cirugía General",
+      "tema": "Trauma abdominal pediátrico",
+      "dificultad": "media"
+    },
+    {
+      "enunciado": "Mujer de 58 años en POP de apendicectomía; la patología reporta carcinoma con infiltración de 2.5 cm y adenopatía. Conducta:",
+      "opciones": [
+        {"letra": "A", "texto": "Quimioterapia neoadyuvante + hemicolectomía"},
+        {"letra": "B", "texto": "Hemicolectomía derecha"},
+        {"letra": "C", "texto": "Quimioterapia sola"},
+        {"letra": "D", "texto": "Observación"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cirugía General",
+      "tema": "Tumor apendicular / colon",
+      "dificultad": "alta",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente en POP que presenta derrame pleural en la radiografía de tórax de control; se realiza toracentesis con líquido lechoso (quilotórax). Conducta:",
+      "opciones": [
+        {"letra": "A", "texto": "Toracostomía + dieta hipograsa"},
+        {"letra": "B", "texto": "Dieta hipograsa"},
+        {"letra": "C", "texto": "Reparación quirúrgica del conducto"},
+        {"letra": "D", "texto": "Cirugía para reparar el conducto"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cirugía General",
+      "tema": "Quilotórax",
+      "dificultad": "media"
+    },
+    {
+      "enunciado": "Paciente con laceración cervical y enfisema subcutáneo. El interno propone solo observar. ¿Cuál NO es una indicación absoluta de cirugía?",
+      "opciones": [
+        {"letra": "A", "texto": "Hemoptisis"},
+        {"letra": "B", "texto": "Disfagia"},
+        {"letra": "C", "texto": "Disfonía"},
+        {"letra": "D", "texto": "Neumotórax"},
+        {"letra": "E", "texto": "Hematoma expansivo"}
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Cirugía General",
+      "tema": "Trauma cervical",
+      "dificultad": "media"
+    },
+    {
+      "enunciado": "En la pancreatitis, ¿cuál de los siguientes parámetros se incluye en la escala de Ranson para el pronóstico?",
+      "opciones": [
+        {"letra": "A", "texto": "Lipasa"},
+        {"letra": "B", "texto": "Amilasa"},
+        {"letra": "C", "texto": "Edad"},
+        {"letra": "D", "texto": "Bilirrubinas"}
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Cirugía General",
+      "tema": "Pancreatitis - escala de Ranson",
+      "dificultad": "media"
+    },
+    {
+      "enunciado": "Paciente con trauma automovilístico severo que requirió traqueostomía; presenta sangrado leve alrededor de la traqueostomía al quinto día. Conducta:",
+      "opciones": [
+        {"letra": "A", "texto": "Cambio de traqueostomía en cama"},
+        {"letra": "B", "texto": "Cambio de traqueostomía en salas de cirugía"},
+        {"letra": "C", "texto": "Realizar broncoscopia en cama"},
+        {"letra": "D", "texto": "Realizar broncoscopia en salas de cirugía"},
+        {"letra": "E", "texto": "Retiro de traqueostomía en cama"}
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Cirugía General",
+      "tema": "Complicaciones de traqueostomía",
+      "dificultad": "alta",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente con colelitiasis y obstrucción biliar (íleo biliar). El manejo definitivo de la obstrucción es:",
+      "opciones": [
+        {"letra": "A", "texto": "Colecistectomía"},
+        {"letra": "B", "texto": "Enterotomía y extracción del cálculo"},
+        {"letra": "C", "texto": "Sonda nasogástrica"},
+        {"letra": "D", "texto": "Ileostomía"},
+        {"letra": "E", "texto": "Hemicolectomía derecha con ileostomía"}
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Cirugía General",
+      "tema": "Íleo biliar",
+      "dificultad": "alta"
+    },
+    {
+      "enunciado": "En la cicatrización, entre las 24 y 48 horas, ¿qué célula predomina?",
+      "opciones": [
+        {"letra": "A", "texto": "Neutrófilos"},
+        {"letra": "B", "texto": "Macrófagos"},
+        {"letra": "C", "texto": "Fibrocitos"},
+        {"letra": "D", "texto": "Linfocitos"},
+        {"letra": "E", "texto": "Monocitos"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cirugía General",
+      "tema": "Cicatrización",
+      "dificultad": "media"
+    },
+    {
+      "enunciado": "Paciente en UCI con choque cardiogénico. ¿Cuál es el primer parámetro que disminuye?",
+      "opciones": [
+        {"letra": "A", "texto": "Gasto cardíaco"},
+        {"letra": "B", "texto": "Presión arterial media"},
+        {"letra": "C", "texto": "Resistencia vascular sistémica"},
+        {"letra": "D", "texto": "Presión venosa central"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cardiología",
+      "tema": "Choque cardiogénico",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuáles son las ramas terminales de la arteria carótida externa?",
+      "opciones": [
+        {"letra": "A", "texto": "Facial y maxilar"},
+        {"letra": "B", "texto": "Temporal superficial y facial"},
+        {"letra": "C", "texto": "Temporal superficial y maxilar"},
+        {"letra": "D", "texto": "Maxilar interna y tiroidea superior"}
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Anatomía",
+      "tema": "Arteria carótida externa",
+      "dificultad": "media",
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿A qué nivel se bifurca la arteria carótida común en interna y externa?",
+      "opciones": [
+        {"letra": "A", "texto": "A nivel de la vértebra C4 (borde superior del cartílago tiroides)"},
+        {"letra": "B", "texto": "En la articulación esternoclavicular"},
+        {"letra": "C", "texto": "En el borde mandibular inferior"},
+        {"letra": "D", "texto": "En el cóndilo mandibular"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anatomía",
+      "tema": "Bifurcación carotídea",
+      "dificultad": "media"
+    },
+    {
+      "enunciado": "Niño que se cae de un camarote y sufre fractura mandibular parasagital con segmento móvil y escalón en la arcada dental. ¿Entre cuáles piezas dentales se ubicaría el segmento móvil en un paciente pediátrico?",
+      "opciones": [
+        {"letra": "A", "texto": "22-23"},
+        {"letra": "B", "texto": "42-43"},
+        {"letra": "C", "texto": "D2-D3"},
+        {"letra": "D", "texto": "82-83"}
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Cirugía General",
+      "tema": "Trauma maxilofacial pediátrico",
+      "dificultad": "alta",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Sobre el síndrome de Sturge-Weber, es cierto que:",
+      "opciones": [
+        {"letra": "A", "texto": "Se caracteriza por malformaciones vasculares (angiomas) en las leptomeninges"},
+        {"letra": "B", "texto": "Cursa con alteraciones en el dermatoma V3"},
+        {"letra": "C", "texto": "No se asocia a glaucoma"},
+        {"letra": "D", "texto": "Es de herencia autosómica dominante"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neurología",
+      "tema": "Síndromes neurocutáneos - Sturge-Weber",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente con mancha en vino de Oporto facial. ¿Cuál es el síndrome asociado?",
+      "opciones": [
+        {"letra": "A", "texto": "Sturge-Weber"},
+        {"letra": "B", "texto": "Klippel-Trénaunay"},
+        {"letra": "C", "texto": "Von Hippel-Lindau"},
+        {"letra": "D", "texto": "Rendu-Osler-Weber"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Síndromes neurocutáneos",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es una ventaja de la abdominoplastia de Tuluá?",
+      "opciones": [
+        {"letra": "A", "texto": "Preservación del ombligo"},
+        {"letra": "B", "texto": "Se puede hacer con lipoescultura"},
+        {"letra": "C", "texto": "Resección de tejido hasta el xifoides"},
+        {"letra": "D", "texto": "Permite resecar mayor cantidad de tejido del abdomen superior"},
+        {"letra": "E", "texto": "Permite liposucción sin restricciones y de forma segura"}
+      ],
+      "respuesta_correcta": "E",
+      "especialidad": "Cirugía General",
+      "tema": "Abdominoplastia",
+      "dificultad": "media"
+    },
+    {
+      "enunciado": "El síndrome de Maffucci se caracteriza por:",
+      "opciones": [
+        {"letra": "A", "texto": "Presencia de angiomas (hemangiomas) múltiples asociados a encondromas"},
+        {"letra": "B", "texto": "Presencia de osteocondromas múltiples"},
+        {"letra": "C", "texto": "Manchas café con leche y neurofibromas"},
+        {"letra": "D", "texto": "Poliposis colónica múltiple"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Traumatología y Ortopedia",
+      "tema": "Síndrome de Maffucci",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Los colobomas hacen referencia a:",
+      "opciones": [
+        {"letra": "A", "texto": "Anomalía congénita con ausencia de tejidos del ojo"},
+        {"letra": "B", "texto": "Alteraciones en el labio"},
+        {"letra": "C", "texto": "Remanente de ciclopía"},
+        {"letra": "D", "texto": "Relación con hendidura facial medial"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Oftalmología",
+      "tema": "Coloboma",
+      "dificultad": "media"
+    },
+    {
+      "enunciado": "¿Cuál es el factor de peor pronóstico vital en las malformaciones de la línea media facial (hendiduras faciales)?",
+      "opciones": [
+        {"letra": "A", "texto": "Displasia frontonasal"},
+        {"letra": "B", "texto": "Hipotelorismo"},
+        {"letra": "C", "texto": "Macrostomas"},
+        {"letra": "D", "texto": "Coloboma"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Cirugía General",
+      "tema": "Hendiduras faciales",
+      "dificultad": "alta",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Malformación auricular caracterizada por orejas 'en punta':",
+      "opciones": [
+        {"letra": "A", "texto": "Pico de loro"},
+        {"letra": "B", "texto": "Oreja de Stahl"},
+        {"letra": "C", "texto": "Microtia"},
+        {"letra": "D", "texto": "Oreja en asa"}
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Otorrinolaringología",
+      "tema": "Malformaciones auriculares",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Malformación auricular con pérdida del surco auricular superior y el polo superior de la oreja incluido en el cuero cabelludo:",
+      "opciones": [
+        {"letra": "A", "texto": "Criptotia"},
+        {"letra": "B", "texto": "Oreja constreñida"},
+        {"letra": "C", "texto": "Microtia"},
+        {"letra": "D", "texto": "Anotia"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Otorrinolaringología",
+      "tema": "Malformaciones auriculares",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Sobre los hemangiomas, es cierto que:",
+      "opciones": [
+        {"letra": "A", "texto": "Se desarrollan durante la edad pediátrica y luego involucionan"},
+        {"letra": "B", "texto": "Su mayor desarrollo se da en la adolescencia"},
+        {"letra": "C", "texto": "Están presentes y completamente desarrollados al nacimiento"},
+        {"letra": "D", "texto": "Nunca involucionan espontáneamente"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Hemangiomas",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "La espina de Spix hace referencia a:",
+      "opciones": [
+        {"letra": "A", "texto": "Una protrusión en la mandíbula por hipertrofia maseterina"},
+        {"letra": "B", "texto": "Una protrusión en la cara interna de la mandíbula (língula mandibular)"},
+        {"letra": "C", "texto": "El sitio de inserción en el segundo metacarpiano"},
+        {"letra": "D", "texto": "Una protrusión en el hueso maxilar superior"}
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Anatomía",
+      "tema": "Anatomía mandibular",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Qué nervio deriva del cuarto arco branquial?",
+      "opciones": [
+        {"letra": "A", "texto": "Neumogástrico (vago)"},
+        {"letra": "B", "texto": "Facial"},
+        {"letra": "C", "texto": "Trigémino"},
+        {"letra": "D", "texto": "Glosofaríngeo"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anatomía",
+      "tema": "Arcos branquiales",
+      "dificultad": "media"
+    },
+    {
+      "enunciado": "¿Cuál es la hendidura facial más frecuentemente afectada según la clasificación de Tessier?",
+      "opciones": [
+        {"letra": "A", "texto": "1"},
+        {"letra": "B", "texto": "3"},
+        {"letra": "C", "texto": "7"},
+        {"letra": "D", "texto": "5"}
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Cirugía General",
+      "tema": "Hendiduras faciales - Tessier",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "La arteria palatina ascendente es rama de:",
+      "opciones": [
+        {"letra": "A", "texto": "La arteria maxilar interna"},
+        {"letra": "B", "texto": "La arteria facial"},
+        {"letra": "C", "texto": "La arteria lingual"},
+        {"letra": "D", "texto": "La arteria carótida interna"}
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Anatomía",
+      "tema": "Irrigación de cabeza y cuello",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál arteria irriga principalmente la tonsila (amígdala) palatina?",
+      "opciones": [
+        {"letra": "A", "texto": "La arteria facial"},
+        {"letra": "B", "texto": "La arteria maxilar interna"},
+        {"letra": "C", "texto": "El tronco tirotonsilar"},
+        {"letra": "D", "texto": "La arteria carótida interna"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anatomía",
+      "tema": "Irrigación de cabeza y cuello",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente con implantes mamarios de 22 años de evolución que presenta aumento del tamaño de la mama derecha, con líquido documentado en la ecografía; se drenan 300 cc de líquido seroso. ¿Qué biomarcadores solicitaría en el líquido?",
+      "opciones": [
+        {"letra": "A", "texto": "ALK y CD30, por sospecha de linfoma anaplásico de célula grande asociado a implantes mamarios (LACG-AIM)"},
+        {"letra": "B", "texto": "CD20 y CD30"},
+        {"letra": "C", "texto": "Cultivo para micobacterias"},
+        {"letra": "D", "texto": "ANAS"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Oncología",
+      "tema": "Linfoma asociado a implantes mamarios",
+      "dificultad": "alta"
+    },
+    {
+      "enunciado": "¿Cuál músculo se inserta en la trompa de Eustaquio y participa en su apertura?",
+      "opciones": [
+        {"letra": "A", "texto": "Úvula"},
+        {"letra": "B", "texto": "Elevador del velo del paladar"},
+        {"letra": "C", "texto": "Constrictor superior de la faringe"},
+        {"letra": "D", "texto": "Palatogloso"},
+        {"letra": "E", "texto": "Tensor del velo del paladar"}
+      ],
+      "respuesta_correcta": "E",
+      "especialidad": "Anatomía",
+      "tema": "Anatomía del velo del paladar",
+      "dificultad": "media",
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿En qué punto se divide la arteria carótida común entre externa e interna?",
+      "opciones": [
+        {"letra": "A", "texto": "A nivel de la vértebra C4"},
+        {"letra": "B", "texto": "A nivel del hueso hioides únicamente"},
+        {"letra": "C", "texto": "A nivel del ángulo de la mandíbula"},
+        {"letra": "D", "texto": "A nivel de la articulación esternoclavicular"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Anatomía",
+      "tema": "Bifurcación carotídea",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿En cuál examen se utiliza el hidróxido de potasio (KOH)?",
+      "opciones": [
+        {"letra": "A", "texto": "Dermatofitosis (micosis superficiales)"},
+        {"letra": "B", "texto": "Test de Tzanck"},
+        {"letra": "C", "texto": "Sífilis (campo oscuro)"},
+        {"letra": "D", "texto": "Sarna (dermatoscopia)"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Micología - KOH",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es el corticoide tópico de más baja potencia?",
+      "opciones": [
+        {"letra": "A", "texto": "Desonida al 0.1%"},
+        {"letra": "B", "texto": "Triamcinolona"},
+        {"letra": "C", "texto": "Propionato de clobetasol 0.05%"},
+        {"letra": "D", "texto": "Hidrocortisona al 1%"}
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Dermatología",
+      "tema": "Corticoides tópicos",
+      "dificultad": "media"
+    },
+    {
+      "enunciado": "¿Dónde se ubican los microabscesos de Pautrier?",
+      "opciones": [
+        {"letra": "A", "texto": "Epidermis"},
+        {"letra": "B", "texto": "Unión dermoepidérmica"},
+        {"letra": "C", "texto": "Dermis papilar"},
+        {"letra": "D", "texto": "Dermis reticular"},
+        {"letra": "E", "texto": "Membrana basal"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Micosis fungoide - histopatología",
+      "dificultad": "alta"
+    },
+    {
+      "enunciado": "Paciente con antecedente de arañazo de gato. ¿Cuál es el microorganismo causante?",
+      "opciones": [
+        {"letra": "A", "texto": "Bartonella henselae"},
+        {"letra": "B", "texto": "Pasteurella multocida"},
+        {"letra": "C", "texto": "Toxoplasma gondii"},
+        {"letra": "D", "texto": "Sporothrix schenckii"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Infectología",
+      "tema": "Enfermedad por arañazo de gato",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente campesino con lesión cutánea nodular tras traumatismo con una astilla de madera. Diagnóstico más probable:",
+      "opciones": [
+        {"letra": "A", "texto": "Esporotricosis"},
+        {"letra": "B", "texto": "Leishmaniasis cutánea"},
+        {"letra": "C", "texto": "Cromomicosis"},
+        {"letra": "D", "texto": "Tuberculosis cutánea"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Micosis subcutáneas - esporotricosis",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Mujer de 50 años con lesión de bordes irregulares, 12 mm, color oscuro con pigmentación heterogénea localizada en el abdomen. Diagnóstico:",
+      "opciones": [
+        {"letra": "A", "texto": "Lentigo maligno"},
+        {"letra": "B", "texto": "Nevus melanocítico"},
+        {"letra": "C", "texto": "Melanoma de extensión superficial"},
+        {"letra": "D", "texto": "Melanoma nodular"}
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Dermatología",
+      "tema": "Melanoma",
+      "dificultad": "media"
+    },
+    {
+      "enunciado": "Lactante con dermatitis en el área del pañal que no mejora tras óxido de zinc y cambio de pañal, asociada a baja ganancia de peso y deposiciones con moco. Se remite a dermatología pensando en otra enfermedad. ¿Cuál de las siguientes NO es correcta?",
+      "opciones": [
+        {"letra": "A", "texto": "Deficiencia de zinc"},
+        {"letra": "B", "texto": "Intolerancia a la leche"},
+        {"letra": "C", "texto": "Dermatitis seborreica"},
+        {"letra": "D", "texto": "Acrodermatitis enteropática"},
+        {"letra": "E", "texto": "Todas son ciertas"}
+      ],
+      "respuesta_correcta": "E",
+      "especialidad": "Dermatología",
+      "tema": "Dermatitis del pañal - diagnóstico diferencial",
+      "dificultad": "media"
+    },
+    {
+      "enunciado": "¿Cuál enfermedad dermatológica NO está relacionada con el virus del herpes?",
+      "opciones": [
+        {"letra": "A", "texto": "Sarcoma de Kaposi"},
+        {"letra": "B", "texto": "Dermatitis infectiva"},
+        {"letra": "C", "texto": "Dermatitis herpetiforme"},
+        {"letra": "D", "texto": "Dermatitis infectiva y herpetiforme"}
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Dermatología",
+      "tema": "Dermatosis y virus herpes",
+      "dificultad": "alta"
+    },
+    {
+      "enunciado": "¿Cuál enfermedad se relaciona con el signo de Nikolsky positivo?",
+      "opciones": [
+        {"letra": "A", "texto": "Pénfigo vulgar"},
+        {"letra": "B", "texto": "Penfigoide ampolloso"},
+        {"letra": "C", "texto": "Herpes simple"},
+        {"letra": "D", "texto": "Varicela zoster"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Enfermedades ampollosas",
+      "dificultad": "media"
+    },
+    {
+      "enunciado": "¿Cuál es la función de la desmogleína?",
+      "opciones": [
+        {"letra": "A", "texto": "Actúa en la unión intercelular de los queratinocitos (desmosomas)"},
+        {"letra": "B", "texto": "Actúa en la membrana basal"},
+        {"letra": "C", "texto": "Forma parte de las fibras de colágeno dérmico"},
+        {"letra": "D", "texto": "Regula la melanogénesis"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Estructura de la piel - desmogleína",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "El liquen aureus corresponde a:",
+      "opciones": [
+        {"letra": "A", "texto": "Una dermatosis pigmentaria purpúrica (DPP)"},
+        {"letra": "B", "texto": "Una sobreinfección por S. aureus"},
+        {"letra": "C", "texto": "Leucemia"},
+        {"letra": "D", "texto": "Liquen simple crónico"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Dermatosis pigmentarias purpúricas",
+      "dificultad": "alta"
+    },
+    {
+      "enunciado": "Mujer con pápulas y placas en el rostro y dorso de las manos, en zonas fotoexpuestas, con un hermano con lesiones similares desde la infancia. Diagnóstico:",
+      "opciones": [
+        {"letra": "A", "texto": "IgA lineal"},
+        {"letra": "B", "texto": "Tuberculosis cutánea"},
+        {"letra": "C", "texto": "Lupus discoide"},
+        {"letra": "D", "texto": "Prurigo actínico"}
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Dermatología",
+      "tema": "Fotodermatosis - prurigo actínico",
+      "dificultad": "media"
+    },
+    {
+      "enunciado": "La macroglosia es característica de:",
+      "opciones": [
+        {"letra": "A", "texto": "Glucagonoma"},
+        {"letra": "B", "texto": "Síndrome de Parry-Romberg"},
+        {"letra": "C", "texto": "Amiloidosis primaria sistémica"},
+        {"letra": "D", "texto": "Esclerodermia"}
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Dermatología",
+      "tema": "Amiloidosis - manifestaciones cutáneas",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "El síndrome de Ramsay Hunt corresponde a:",
+      "opciones": [
+        {"letra": "A", "texto": "Parálisis facial más herpes simple"},
+        {"letra": "B", "texto": "Parálisis facial más herpes zóster del oído"},
+        {"letra": "C", "texto": "Parálisis facial más otitis media aguda"},
+        {"letra": "D", "texto": "Parálisis facial idiopática (de Bell)"}
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Neurología",
+      "tema": "Síndrome de Ramsay Hunt",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "En la tricoscopia, el signo de exclamación (pelos en signo de admiración) es característico de:",
+      "opciones": [
+        {"letra": "A", "texto": "Alopecia areata"},
+        {"letra": "B", "texto": "Alopecia androgénica"},
+        {"letra": "C", "texto": "Efluvio telógeno"},
+        {"letra": "D", "texto": "Tricotilomanía"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Alopecias - tricoscopia",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente de 20 años con lesión de 7 meses de evolución, eritemato-violácea en el muslo izquierdo, que desaparecía y regresaba con más pigmentación. Diagnóstico:",
+      "opciones": [
+        {"letra": "A", "texto": "Eritema fijo medicamentoso"},
+        {"letra": "B", "texto": "Candidiasis mucocutánea"},
+        {"letra": "C", "texto": "Dermatitis artefacta"},
+        {"letra": "D", "texto": "Eritema multiforme"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Eritema fijo medicamentoso",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál de los siguientes NO es un factor que favorece la infección cutánea?",
+      "opciones": [
+        {"letra": "A", "texto": "pH alto"},
+        {"letra": "B", "texto": "Sequedad cutánea"},
+        {"letra": "C", "texto": "Bacterias saprofíticas"},
+        {"letra": "D", "texto": "Alteración de los factores inmunitarios"}
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Dermatología",
+      "tema": "Microbiota e infecciones cutáneas",
+      "dificultad": "media"
+    },
+    {
+      "enunciado": "¿Cuál de los siguientes NO es un signo cutáneo de dermatomiositis?",
+      "opciones": [
+        {"letra": "A", "texto": "Eritema heliotropo en párpados"},
+        {"letra": "B", "texto": "Edema palpebral"},
+        {"letra": "C", "texto": "Pitting ungueal"},
+        {"letra": "D", "texto": "Edema periungueal"},
+        {"letra": "E", "texto": "Poiquilodermia en cuello"}
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Dermatología",
+      "tema": "Dermatomiositis",
+      "dificultad": "media"
+    },
+    {
+      "enunciado": "El signo del pliegue de Dennie-Morgan corresponde a:",
+      "opciones": [
+        {"letra": "A", "texto": "Un criterio menor en el paciente con dermatitis atópica"},
+        {"letra": "B", "texto": "Un signo patognomónico de psoriasis"},
+        {"letra": "C", "texto": "Un criterio mayor de lupus"},
+        {"letra": "D", "texto": "Un signo de dermatitis de contacto"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Dermatitis atópica",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente con antecedente enólico y lesiones (ampollas y fragilidad cutánea) en el dorso de las manos. Diagnóstico:",
+      "opciones": [
+        {"letra": "A", "texto": "Porfiria cutánea tarda"},
+        {"letra": "B", "texto": "Penfigoide ampolloso"},
+        {"letra": "C", "texto": "Dermatitis herpetiforme"},
+        {"letra": "D", "texto": "Epidermólisis ampollosa adquirida"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Dermatología",
+      "tema": "Porfiria cutánea tarda",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Respecto al manejo de la hemorragia posparto según los lineamientos de manejo en Colombia, es cierto que:",
+      "opciones": [
+        {"letra": "A", "texto": "En todas se realiza histerectomía"},
+        {"letra": "B", "texto": "El manejo de primera línea es la oxitocina, con seguimiento por la posibilidad de desencadenar hipertonía uterina"},
+        {"letra": "C", "texto": "Se requiere un equipo multidisciplinario que incluya personal de enfermería, médicos y especialista en anestesiología"},
+        {"letra": "D", "texto": "El manejo inicial es la histerectomía de urgencia"}
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Ginecología y Obstetricia",
+      "tema": "Hemorragia posparto",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "La calculadora/índice BODE, empleada en EPOC, evalúa:",
+      "opciones": [
+        {"letra": "A", "texto": "Caminata de 6 minutos"},
+        {"letra": "B", "texto": "Espirometría"},
+        {"letra": "C", "texto": "IMC"},
+        {"letra": "D", "texto": "Todas las anteriores"}
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Neumología",
+      "tema": "EPOC - índice BODE",
+      "dificultad": "media"
+    },
+    {
+      "enunciado": "¿Cuál es la causa más frecuente de neumotórax espontáneo primario?",
+      "opciones": [
+        {"letra": "A", "texto": "Blebs (ampollas subpleurales)"},
+        {"letra": "B", "texto": "Derrame pleural masivo"},
+        {"letra": "C", "texto": "Neumonía multilobar"},
+        {"letra": "D", "texto": "Trauma torácico"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neumología",
+      "tema": "Neumotórax espontáneo primario",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál infección oportunista es menos probable que se presente como síndrome de reconstitución inmunológica (IRIS)?",
+      "opciones": [
+        {"letra": "A", "texto": "Tuberculosis"},
+        {"letra": "B", "texto": "Criptococo"},
+        {"letra": "C", "texto": "Virus JC (leucoencefalopatía multifocal progresiva)"},
+        {"letra": "D", "texto": "Citomegalovirus"}
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Infectología",
+      "tema": "VIH - síndrome de reconstitución inmune",
+      "dificultad": "alta"
+    },
+    {
+      "enunciado": "Paciente con HTA y tabaquismo que presenta pérdida súbita de la visión con recuperación en poco tiempo (amaurosis fugax). ¿Cuál sería la intervención inicial?",
+      "opciones": [
+        {"letra": "A", "texto": "Doppler carotídeo"},
+        {"letra": "B", "texto": "Potenciales evocados"},
+        {"letra": "C", "texto": "Arteriografía cerebral"},
+        {"letra": "D", "texto": "Angiotomografía cerebral"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Neurología",
+      "tema": "Amaurosis fugax / AIT",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente con migraña crónica y abuso diario de analgésicos (cefalea por abuso de analgésicos). ¿Cuál sería la conducta de elección?",
+      "opciones": [
+        {"letra": "A", "texto": "Topiramato + amitriptilina y AINES de rescate"},
+        {"letra": "B", "texto": "Ciclo corto de AINES"},
+        {"letra": "C", "texto": "Suspender los AINES e iniciar topiramato"},
+        {"letra": "D", "texto": "Realizar TAC cerebral"}
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Neurología",
+      "tema": "Cefalea por abuso de analgésicos",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Los nódulos de Lisch se asocian con:",
+      "opciones": [
+        {"letra": "A", "texto": "Uveítis anterior"},
+        {"letra": "B", "texto": "Neurofibromatosis tipo 1"},
+        {"letra": "C", "texto": "Sarcoidosis"},
+        {"letra": "D", "texto": "Esclerosis tuberosa"}
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Oftalmología",
+      "tema": "Nódulos de Lisch",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Los nódulos de Busacca se asocian con:",
+      "opciones": [
+        {"letra": "A", "texto": "Uveítis anterior granulomatosa"},
+        {"letra": "B", "texto": "Neurofibromatosis tipo 1"},
+        {"letra": "C", "texto": "Retinoblastoma"},
+        {"letra": "D", "texto": "Glaucoma congénito"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Oftalmología",
+      "tema": "Nódulos de Busacca - uveítis",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "El signo de Munson es característico de:",
+      "opciones": [
+        {"letra": "A", "texto": "Queratocono"},
+        {"letra": "B", "texto": "Glaucoma"},
+        {"letra": "C", "texto": "Cataratas"},
+        {"letra": "D", "texto": "Desprendimiento de retina"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Oftalmología",
+      "tema": "Queratocono",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Recién nacido con cianosis que aparece con el llanto. ¿Cuál es la patología?",
+      "opciones": [
+        {"letra": "A", "texto": "Tetralogía de Fallot"},
+        {"letra": "B", "texto": "Comunicación interventricular (CIV)"},
+        {"letra": "C", "texto": "Ductus arterioso persistente"},
+        {"letra": "D", "texto": "Comunicación interauricular (CIA)"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Pediatría",
+      "tema": "Cardiopatías congénitas cianóticas",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿A partir de qué valor de bilirrubina se inicia fototerapia en la ictericia neonatal?",
+      "opciones": [
+        {"letra": "A", "texto": "15 mg/dl"},
+        {"letra": "B", "texto": "8 mg/dl"},
+        {"letra": "C", "texto": "10 mg/dl"},
+        {"letra": "D", "texto": "12 mg/dl"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Pediatría",
+      "tema": "Ictericia neonatal",
+      "dificultad": "media",
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es el tratamiento de elección de la sepsis neonatal temprana?",
+      "opciones": [
+        {"letra": "A", "texto": "Ampicilina + gentamicina"},
+        {"letra": "B", "texto": "Vancomicina + meropenem"},
+        {"letra": "C", "texto": "Ceftriaxona"},
+        {"letra": "D", "texto": "Ampicilina + cefotaxima"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Pediatría",
+      "tema": "Sepsis neonatal",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es el germen más común en la enfermedad diarreica aguda (EDA) en pediatría?",
+      "opciones": [
+        {"letra": "A", "texto": "Rotavirus"},
+        {"letra": "B", "texto": "Escherichia coli"},
+        {"letra": "C", "texto": "Salmonella spp."},
+        {"letra": "D", "texto": "Norovirus"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Pediatría",
+      "tema": "Enfermedad diarreica aguda",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es la prueba diagnóstica de elección para la fibrosis quística en menores?",
+      "opciones": [
+        {"letra": "A", "texto": "Radiografía de tórax"},
+        {"letra": "B", "texto": "Prueba de sudor (cloro en sudor)"},
+        {"letra": "C", "texto": "Hemograma"},
+        {"letra": "D", "texto": "Espirometría"}
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Pediatría",
+      "tema": "Fibrosis quística",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es la principal causa de muerte neonatal a nivel mundial?",
+      "opciones": [
+        {"letra": "A", "texto": "Infecciones"},
+        {"letra": "B", "texto": "Malformaciones"},
+        {"letra": "C", "texto": "Asfixia perinatal"},
+        {"letra": "D", "texto": "Aspiración de meconio"},
+        {"letra": "E", "texto": "Prematurez"}
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Pediatría",
+      "tema": "Mortalidad neonatal",
+      "dificultad": "media",
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es la principal condición que genera anemia ferropénica en el recién nacido?",
+      "opciones": [
+        {"letra": "A", "texto": "Prematuridad"},
+        {"letra": "B", "texto": "Ictericia neonatal"},
+        {"letra": "C", "texto": "Incompatibilidad ABO"},
+        {"letra": "D", "texto": "Lactancia materna exclusiva"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Pediatría",
+      "tema": "Anemia ferropénica neonatal",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es el objetivo del control en un paciente con crisis asmática aguda?",
+      "opciones": [
+        {"letra": "A", "texto": "Evitar el ingreso a UCI"},
+        {"letra": "B", "texto": "Mejorar la ventilación y la permeabilidad de la vía aérea"},
+        {"letra": "C", "texto": "Suspender toda la medicación"},
+        {"letra": "D", "texto": "Lograr una radiografía de tórax normal"}
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Pediatría",
+      "tema": "Crisis asmática",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es el síntoma principal del CRUP (laringotraqueítis)?",
+      "opciones": [
+        {"letra": "A", "texto": "Fiebre"},
+        {"letra": "B", "texto": "Tos"},
+        {"letra": "C", "texto": "Estridor"},
+        {"letra": "D", "texto": "Sibilancia"}
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Pediatría",
+      "tema": "Laringotraqueítis (CRUP)",
+      "dificultad": "media"
+    },
+    {
+      "enunciado": "¿Cuál es el principal agente causante de la bronquiolitis?",
+      "opciones": [
+        {"letra": "A", "texto": "Virus sincitial respiratorio (VSR)"},
+        {"letra": "B", "texto": "Adenovirus"},
+        {"letra": "C", "texto": "Influenza"},
+        {"letra": "D", "texto": "Parainfluenza"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Pediatría",
+      "tema": "Bronquiolitis",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente pediátrico con diarrea crónica; la biopsia intestinal reporta atrofia de las vellosidades. Diagnóstico:",
+      "opciones": [
+        {"letra": "A", "texto": "Pólipo intestinal"},
+        {"letra": "B", "texto": "Intolerancia a la proteína de la leche de vaca"},
+        {"letra": "C", "texto": "Enfermedad celíaca"},
+        {"letra": "D", "texto": "Giardiasis"}
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Pediatría",
+      "tema": "Enfermedad celíaca",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es la inmunoglobulina principal implicada en la alergia?",
+      "opciones": [
+        {"letra": "A", "texto": "IgE"},
+        {"letra": "B", "texto": "IgA"},
+        {"letra": "C", "texto": "Todas por igual"},
+        {"letra": "D", "texto": "IgG"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Inmunología",
+      "tema": "Hipersensibilidad tipo I",
+      "dificultad": "baja",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Qué síntomas deben estar presentes por al menos 2 semanas, por fuera de un episodio afectivo, para hacer el diagnóstico de trastorno esquizoafectivo?",
+      "opciones": [
+        {"letra": "A", "texto": "Delirios o alucinaciones"},
+        {"letra": "B", "texto": "Delirios o parasomnias"},
+        {"letra": "C", "texto": "Abulia"},
+        {"letra": "D", "texto": "Ideación suicida"}
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Psiquiatría",
+      "tema": "Trastorno esquizoafectivo",
+      "dificultad": "alta",
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Qué medicamento se usa para potenciar el efecto del antidepresivo?",
+      "opciones": [
+        {"letra": "A", "texto": "Litio"},
+        {"letra": "B", "texto": "Ácido valproico"},
+        {"letra": "C", "texto": "Lamotrigina"},
+        {"letra": "D", "texto": "Gabapentina"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Psiquiatría",
+      "tema": "Potenciación antidepresiva",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "¿Cuál es el método de tamizaje en la sospecha de cáncer de pulmón?",
+      "opciones": [
+        {"letra": "A", "texto": "Radiografía de tórax y citología de esputo cada 6 meses"},
+        {"letra": "B", "texto": "Radiografía de tórax cada 12 meses"},
+        {"letra": "C", "texto": "TAC de tórax de baja dosis (simple) cada 12 meses"},
+        {"letra": "D", "texto": "TAC contrastado cada 12 meses"}
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Radiología",
+      "tema": "Tamizaje de cáncer de pulmón",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "alta",
+      "_revisar": true
+    },
+    {
+      "enunciado": "Paciente masculino de 28 años, IMC 28, con sospecha de hígado graso. ¿Cuál herramienta diagnóstica utilizaría inicialmente?",
+      "opciones": [
+        {"letra": "A", "texto": "Ecografía de abdomen"},
+        {"letra": "B", "texto": "Elastografía hepática"},
+        {"letra": "C", "texto": "TAC de abdomen"},
+        {"letra": "D", "texto": "Biopsia hepática"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Radiología",
+      "tema": "Hígado graso - imagen",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "La clasificación LI-RADS se utiliza en:",
+      "opciones": [
+        {"letra": "A", "texto": "Hígado"},
+        {"letra": "B", "texto": "Páncreas"},
+        {"letra": "C", "texto": "Riñón"},
+        {"letra": "D", "texto": "Tiroides"}
+      ],
+      "respuesta_correcta": "A",
+      "especialidad": "Radiología",
+      "tema": "LI-RADS",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Los nódulos pulmonares se clasifican en:",
+      "opciones": [
+        {"letra": "A", "texto": "Nódulo sólido"},
+        {"letra": "B", "texto": "Nódulo subsólido"},
+        {"letra": "C", "texto": "Nódulo en vidrio esmerilado"},
+        {"letra": "D", "texto": "Todas las anteriores"}
+      ],
+      "respuesta_correcta": "D",
+      "especialidad": "Radiología",
+      "tema": "Nódulo pulmonar",
+      "dificultad": "media"
+    },
+    {
+      "enunciado": "¿Cuál es una ventaja de la ecografía en las lesiones musculares de los deportistas?",
+      "opciones": [
+        {"letra": "A", "texto": "Bajo costo"},
+        {"letra": "B", "texto": "Evaluación dinámica"},
+        {"letra": "C", "texto": "Requiere transductor de alta calidad"},
+        {"letra": "D", "texto": "Todas las anteriores"}
+      ],
+      "respuesta_correcta": "B",
+      "especialidad": "Radiología",
+      "tema": "Ecografía musculoesquelética",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "baja",
+      "_revisar": true
+    },
+    {
+      "enunciado": "En la clasificación del reflujo vesicoureteral por cistografía, el Grado IV se observa como:",
+      "opciones": [
+        {"letra": "A", "texto": "Reflujo solo hacia el uréter no dilatado"},
+        {"letra": "B", "texto": "Reflujo hacia el uréter y la pelvis renal sin dilatación"},
+        {"letra": "C", "texto": "Uréter tortuoso y moderadamente dilatado con embotamiento de los fórnices renales"},
+        {"letra": "D", "texto": "Uréter tortuoso y severamente dilatado con pérdida de los fórnices y de la impresión papilar"}
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Radiología",
+      "tema": "Reflujo vesicoureteral - clasificación",
+      "dificultad": "media",
+      "_recuperada": true,
+      "_distractores_ia": true,
+      "_revisar": true
+    },
+    {
+      "enunciado": "Sobre el diagnóstico de apendicitis en la paciente embarazada, es cierto que:",
+      "opciones": [
+        {"letra": "A", "texto": "Se puede usar TAC porque no hay radiación"},
+        {"letra": "B", "texto": "Se puede hacer solo con examen físico y laboratorios"},
+        {"letra": "C", "texto": "Es un desafío porque la anatomía es diferente"},
+        {"letra": "D", "texto": "La ecografía nunca es útil"}
+      ],
+      "respuesta_correcta": "C",
+      "especialidad": "Radiología",
+      "tema": "Apendicitis en el embarazo - imagen",
+      "dificultad": "media",
+      "_resuelta_por_ia": true,
+      "_confianza": "media",
+      "_distractores_ia": true,
+      "_revisar": true
+    }
+  ]
+}
