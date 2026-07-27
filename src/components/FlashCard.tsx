@@ -96,19 +96,12 @@ export default function FlashCard({
 
         {/* Card */}
         <div style={{ ...card, padding: '28px 32px' }}>
-          {/* Tags */}
+          {/* Tags — solo especialidad. tema/subtema son clasificación interna:
+              mostrarlos antes de responder revelaba la respuesta. */}
           <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap', marginBottom: 18 }}>
             <span style={{ ...mono, fontSize: 9, letterSpacing: '0.12em', borderRadius: R.pill, padding: '5px 12px', background: C.purpleSoft, color: C.purple }}>
               {pregunta.especialidad.toUpperCase()}
             </span>
-            <span style={{ ...mono, fontSize: 9, letterSpacing: '0.1em', border: inkBorder, borderRadius: R.pill, padding: '5px 12px', color: C.ink2 }}>
-              {pregunta.tema.toUpperCase()}
-            </span>
-            {pregunta.subtema && (
-              <span style={{ ...mono, fontSize: 9, letterSpacing: '0.08em', border: inkBorder, borderRadius: R.pill, padding: '5px 12px', color: C.ink2 }}>
-                {pregunta.subtema.toUpperCase()}
-              </span>
-            )}
           </div>
 
           {/* Question */}
