@@ -14,6 +14,9 @@ interface Pregunta {
   enunciado: string
   opciones: Opcion[]
   respuesta_correcta: string
+  explicacion?: string | null
+  explicacion_modelo?: string | null
+  generada?: boolean
   imagen_url: string | null
   especialidad: string
   tema: string

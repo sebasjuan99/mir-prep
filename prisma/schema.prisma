@@ -67,6 +67,11 @@ model Pregunta {
   enunciado          String
   opciones           Json        // [{ letra: "A", texto: "..." }, ...]
   respuesta_correcta String      // "A" | "B" | "C" | "D" | "E"
+  explicacion        String?     // retroalimentación breve: por qué la correcta lo es y por qué fallan las demás
+  explicacion_modelo String?     // modelo que la generó, para poder regenerar selectivamente
+  visible            Boolean     @default(true)  // false = en reserva; no entra en simulacros nuevos
+  generada           Boolean     @default(false) // true = reformulada al estilo de otra universidad (ver `fuente`)
+  origen_pregunta_id String?     @unique          // id de la pregunta de reserva de la que se reformuló (uso único)
   imagen_url         String?
   video_url          String?
   especialidad       String
@@ -87,6 +92,8 @@ model Pregunta {
   @@index([especialidad, tema])
   @@index([universidad])
   @@index([tipoExamen_id])
+  @@index([visible])
+  @@index([universidad, visible])
 }
 
 model ResumenTema {

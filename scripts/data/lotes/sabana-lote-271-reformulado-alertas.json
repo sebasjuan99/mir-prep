@@ -1,0 +1,222 @@
+[
+  {
+    "origen_id": "cmrzhkf50002zp4uayfa2iomb",
+    "motivo": "Con HLA-B27 negativo y puentes óseos, DISH sería un diagnóstico al menos igual de plausible que el marcado como correcto.",
+    "enunciado": "Hombre de 50 años con dolor en columna lumbar, HLA-B27 negativo y radiografía con puentes óseos. ¿Cuál es el diagnóstico"
+  },
+  {
+    "origen_id": "cmrzx9czq005xvwuaq7pmvxk5",
+    "motivo": "La degradación de cohesinas centroméricas suele describirse en anafase II, pero las cohesinas de los brazos se degradan en anafase I, por lo que la opción marcada es discutible.",
+    "enunciado": "LA DEGRADACIÓN DE COHESINAS SE PRODUCE EN LA SIGUIENTE FASE DEL CICLO CELULAR:"
+  },
+  {
+    "origen_id": "cmrzxat1i00fvvwuat16blz1n",
+    "motivo": "El enunciado es impreciso: la IgD de superficie marca al linfocito B maduro más que inducir la transición desde pro-B.",
+    "enunciado": "CUAL DE LAS SIGUIENTES INMUNOGLOBULINAS ES LA ENCARGADA DE FACILITAR EL PASO DE CÉLULAS PRO-B A LINFOCITOS B:"
+  },
+  {
+    "origen_id": "cmrzxeq4x016tvwualvp74gbp",
+    "motivo": "La opción sífilis congénita del original se eliminó para ajustar a cuatro opciones.",
+    "enunciado": "CUAL DE LAS SIGUIENTES ES DIAGNOSTICO DIFERENCIAL DE LA DERMATITIS DEL PAÑAL, EXCEPTO:"
+  },
+  {
+    "origen_id": "cmrzxf0y8018wvwuadm88i5pj",
+    "motivo": "Se retiró una opción del original (queratina ácida y pH) para dejar cuatro alternativas.",
+    "enunciado": "DE LAS SUSTANCIAS PRODUCIDAS POR LOS QUERATINOCITOS DE LA PIEL, ES FALSO QUE:"
+  },
+  {
+    "origen_id": "cmrzxf7ao01a4vwuap7pwtorb",
+    "motivo": "Se eliminó una opción del original (bipolar II más frecuente en hombres) para dejar cuatro alternativas.",
+    "enunciado": "En relación con el trastorno bipolar una de las siguientes afirmaciones es cierta:"
+  },
+  {
+    "origen_id": "cmrzxg5u001grvwua3sff6sd1",
+    "motivo": "La opción marcada como correcta (axial) no corresponde a una proyección convencional de radiografía de abdomen; se respetó la clave original.",
+    "enunciado": "Son proyecciones convencionales de Rx de Abdomen:"
+  },
+  {
+    "origen_id": "cmq8s0kvm00pha0v60qo6ff1z",
+    "motivo": "La evidencia clásica atribuye estas trisomías a la no disyunción en meiosis materna, no a mitosis de células germinales; se conserva la opción marcada como correcta.",
+    "enunciado": "LAS TRISOMIAS 21, 18, 13 SE ASOCIAN A ERRORES EN EL CICLO CELULAR PRINCIPALMENTE:"
+  },
+  {
+    "origen_id": "cmq8norcx0015c8v6jllqams6",
+    "motivo": "La causa más frecuente de mortalidad neonatal suele reportarse como prematuridad/complicaciones del parto; se respeta la opción marcada.",
+    "enunciado": "¿Cuál es la causa más frecuente de mortalidad neonatal?"
+  },
+  {
+    "origen_id": "cmq8rzlz100cda0v6380w6gxw",
+    "motivo": "El original tenía cinco opciones (incluía factores del complemento); se ajustó a cuatro conservando la respuesta correcta.",
+    "enunciado": "266. SON PROTEÍNAS PLASMÁTICAS SINTETIZADAS EN EL HÍGADO EXCEPTO:"
+  },
+  {
+    "origen_id": "cmrzhke25002sp4ua0jsu5sp8",
+    "motivo": "La anestesia franca corresponde clásicamente al tercer grado; el original marca segundo grado profundo (hipoestesia).",
+    "enunciado": "¿Qué grado de quemadura cursa con hipoestesia?"
+  },
+  {
+    "origen_id": "cmrzxbtb400mrvwuawn0pdsrd",
+    "motivo": "El original tenía cinco opciones (incluía hipotensión); se redujo a cuatro conservando la opción correcta.",
+    "enunciado": "cual de los siguientes hallazgos no es frecuente en tromboembolismo pulmonar:"
+  },
+  {
+    "origen_id": "cmrzx95sj004jvwua9dtaxurc",
+    "motivo": "La opción marcada como correcta en el original es solo el texto 1, sin contenido interpretable; la afirmación realmente falsa parece ser el apareamiento Citosina-Adenina.",
+    "enunciado": "DE ACUERDO A LAS LEYES DE CHARGAFF Y A LA COMPOSICIÓN DEL DNA, CUAL DE LAS SIGUIENTES AFIRMACIONES ES FALSA:"
+  },
+  {
+    "origen_id": "cmrzxf13f018xvwua7wi99kru",
+    "motivo": "El original marca como falsa la opción de Krause (C), pero según la fisiología clásica la afirmación falsa es la de Ruffini; se conserva el contenido marcado como correcto en el original.",
+    "enunciado": "DE LAS TERMINACIONES NERVIOSAS EN LA PIEL ES FALSO QUE:"
+  },
+  {
+    "origen_id": "cmq8s0ize00ora0v66xermbdt",
+    "motivo": "La opción marcada como correcta es discutible: la activación del complejo promotor de la anafase y de la separasa por degradación de securina también ocurren en la anafase I.",
+    "enunciado": "SEÑALE LA AFIRMACIÓN CORRECTA CON RESPECTO A LA ANAFASE DE LA MEIOSIS I EUCARIOTA:"
+  },
+  {
+    "origen_id": "cmq8s0mxs00q8a0v6keysnoo2",
+    "motivo": "El punto de restricción se ubica clásicamente en G1, por lo que la opción C también podría considerarse cierta.",
+    "enunciado": "CON RESPECTO AL PUNTO DE RESTRICCIÓN DEL CICLO CELULAR ES CIERTO QUE:"
+  },
+  {
+    "origen_id": "cmq8s0oaf00qqa0v66nafmsy0",
+    "motivo": "El enunciado es ambiguo: el punto de control del huso actúa principalmente inhibiendo la activación del APC por Cdc20.",
+    "enunciado": "SUPONGAMOS QUE UNA CÉLULA EN METAFASE TIENE UN CROMOSOMA QUE NO HA LLEGADO AL PLANO ECUATORIAL. EN ESTA SITUACIÓN SE ESP"
+  },
+  {
+    "origen_id": "cmq8noqeh000sc8v6x9t0b25d",
+    "motivo": "El enunciado describe también el concepto de riesgo, que figuraba como distractor en el original.",
+    "enunciado": "La proporción de individuos no afectados que contraerá la enfermedad. Corresponde al concepto de:"
+  },
+  {
+    "origen_id": "cmrzxcudl00tvvwuad9o98z89",
+    "motivo": "El enunciado original pedía una bacteria gastrointestinal, pero la opción marcada como correcta (Chlamydia trachomatis) es de transmisión genitourinaria; se conservó dicha opción.",
+    "enunciado": "ES UNA BACTERIA GASTROINTESTINAL MÁS ASOCIADA A ARTRITIS:"
+  },
+  {
+    "origen_id": "cmrzxeg90014xvwua8ipyyte4",
+    "motivo": "La literatura suele atribuir la mayor parte del flujo al endocérvix; se conservó la opción marcada como correcta (exocérvix).",
+    "enunciado": "EL FLUJO VAGIANL ES PRODUCIDO PRINCIPALMENTE POR:"
+  },
+  {
+    "origen_id": "cmrzxbi7t00kovwuaoz9b4u9h",
+    "motivo": "El espasmo esofágico sí es un diagnóstico diferencial reconocido de dolor torácico; se respeta la clave original.",
+    "enunciado": "ES UN DIAGNOSTICO DIFERENCIA DE DOLOR TORACICO, EXCEPTO:"
+  },
+  {
+    "origen_id": "cmrzxath200fyvwua7quxosbv",
+    "motivo": "Los TLR sí se expresan en células NK; se conserva la opción marcada como correcta en el original.",
+    "enunciado": "Cuál de los siguientes elementos no es mecanismo activador de los linfocitos natural killer:"
+  },
+  {
+    "origen_id": "cmrzxf7l201a6vwuade7w4zh9",
+    "motivo": "El enunciado original es ambiguo (pide dos aspectos pero solo admite una opción); varios distractores podrían ser igualmente válidos.",
+    "enunciado": "En relación con la salud mental del adolescente en Colombia en un estudio realizado en el 2º10 se encontraron aspectos p"
+  },
+  {
+    "origen_id": "cmrzxfp6k01dkvwuafnjh821z",
+    "motivo": "En el original la opción marcada como correcta es la ketamina, pero la ketamina sí posee propiedades analgésicas.",
+    "enunciado": "ES UN HIPNÓTICO QUE CARECE DE PROPIEDADES ANALGÉSICAS:"
+  },
+  {
+    "origen_id": "cmq8s0osg00qxa0v69e2h8g1k",
+    "motivo": "El original tenía cinco opciones; se eliminó un distractor para ajustar el formato.",
+    "enunciado": "¿CUÁL ES EL ACONTECIMIENTO QUE TIENE LUGAR INMEDIATAMENTE AL AUMENTO DE p53 COMO RESPUESTA AL DAÑO DEL DNA?"
+  },
+  {
+    "origen_id": "cmrzxakji00e8vwuawq09bjwl",
+    "motivo": "La opción correcta del original aparece incompleta ('Bacteriana Aguda'); se interpretó como prostatitis bacteriana aguda.",
+    "enunciado": "EN CUÁL DE LAS SIGUIENTES PATOLGÍAS ES MENOS FRECUENTE LA AFECTACIÓN POR STAPHYLOCOCUS AUREUS:"
+  },
+  {
+    "origen_id": "cmrzx8kty000lvwua5p0pmh14",
+    "motivo": "Las células acidófilas incluyen somatótropas (GH) y lactótropas (PRL), por lo que GH también sería válida; se conserva la opción marcada en el original.",
+    "enunciado": "Las células cromófilas acidófilas de adeohipófisis, caracterizadas por su citoplasma eosinófilo y núcleo central promine"
+  },
+  {
+    "origen_id": "cmrzxatm900fzvwua5pqp7oya",
+    "motivo": "El original incluía cinco opciones (con perforinas); se conservó la correcta y se eliminó una para ajustar a cuatro.",
+    "enunciado": "CUÁL DE LOS SIGUIENTES GRUPOS DE ENZIMAS INDUCE APOPTOSIS Y ES SECRETADA POR LOS NATURAL KILLER:"
+  },
+  {
+    "origen_id": "cmrzxcuis00twvwuaydqcqwx2",
+    "motivo": "La púrpura palpable suele considerarse el hallazgo cardinal, por lo que la opción marcada como correcta es discutible.",
+    "enunciado": "ES UNA CARACTERÍSTICA FUNDAMENTAL DE LA PURPURA DE HENOCH-SCHÖNLEIN:"
+  },
+  {
+    "origen_id": "cmrzxca2r00pyvwua22sigc45",
+    "motivo": "Se eliminó la opción E (esófago) del original, que también es una localización infrecuente.",
+    "enunciado": "ES LA REGIÓN DEL TUBO DIGESTÍVO DONDE ESPOCO FRECUENTE LA APARICIÓN DE TUMORES CARCINOIDES:"
+  },
+  {
+    "origen_id": "cmrzxhpii01rhvwuaqadyvj1x",
+    "motivo": "La opción marcada como correcta es del tipo \"todas las anteriores\", lo que hace ambigua la pregunta negativa.",
+    "enunciado": "¿Cual de las siguientes entidades no es causa de ojo rojo no doloroso?"
+  },
+  {
+    "origen_id": "cmrzxg74o01h0vwuasbdb3gw4",
+    "motivo": "La hiperacusia puede presentarse en el zóster del facial por compromiso del nervio del músculo estapedio, por lo que la opción marcada es discutible.",
+    "enunciado": "NO ES UNA CARACTERÍSTICA CLÍNICA DEL ZOSTER DEL NERVIO FACIAL:"
+  },
+  {
+    "origen_id": "cmq8s0oxg00qza0v6fkamlhp5",
+    "motivo": "El original tenía cinco opciones; se conservaron cuatro incluyendo la correcta.",
+    "enunciado": "UN GEN SUPRESOR DE TUMOR QUEDA DESCRITO POR:"
+  },
+  {
+    "origen_id": "cmq8rzep2009oa0v6hn779dnh",
+    "motivo": "El original tenía cinco opciones (incluía cáncer de pulmón); se eliminó un distractor para ajustar a cuatro.",
+    "enunciado": "Se han encontrado niveles elevados de antígeno carcinoembrionario (CEA) en las siguientes enfermedades, EXCEPTO:"
+  },
+  {
+    "origen_id": "cmrzx8kz6000mvwuap5imos9y",
+    "motivo": "El original incluía una quinta opción (tejido linfoide difuso y organizado); se eliminó para ajustar a cuatro.",
+    "enunciado": "LAS SIGUIENTES SON CARACTERÍSTICAS HISTOLÓGICAS DEL COLON, EXCEPTO:"
+  },
+  {
+    "origen_id": "cmq8rzbve008la0v6bjummrty",
+    "motivo": "El enunciado original refleja un enfoque terapéutico antiguo de la enterocolitis pseudomembranosa, hoy tratada con vancomicina o fidaxomicina.",
+    "enunciado": "En el tratamiento de la enterocolitis pseudomembranosa son aconsejables las siguientes medidas, EXCEPTO:"
+  },
+  {
+    "origen_id": "cmrzxbtvr00mvvwua3f268mh8",
+    "motivo": "Las venas renales sí pueden ser fuente embólica en casos de trombosis renal; el enunciado original la considera excepción.",
+    "enunciado": "CUANDO EL TEP NO PROVIENE DE LOS MIEMBROS INFERIOS PUEDE PROVENIR DE LOS SIGUIENTES LUGARES, EXCEPTO:"
+  },
+  {
+    "origen_id": "cmrzxb79j00ilvwuaubp9wvn1",
+    "motivo": "El feocromocitoma puede cursar con hipotensión ortostática o paroxística, por lo que la opción marcada es discutible.",
+    "enunciado": "ES UN RASGO CLÍNICO QUE NO SE ENCUENTRA ASOCIADO A LA GENERACIÓN DE FEOCROMOCITOMA:"
+  },
+  {
+    "origen_id": "cmrzxclw200s8vwuawpw9sg57",
+    "motivo": "El original tenía cinco opciones (incluía vasculitis); se eliminó una para ajustar a cuatro.",
+    "enunciado": "ES UNA ENFERMEDAD QUE MENOS CAUSA LESIÓN VASCULAR AGUDA:"
+  },
+  {
+    "origen_id": "cmq8s01n700i7a0v69er0s7rz",
+    "motivo": "El abordaje posterior expone habitualmente el bronquio principal, pero la lateralidad indicada en la opción correcta del original es discutible.",
+    "enunciado": "SE MOVILIZA EL PULMÓN HACIA DELANTE, (DESDE ATRÁS, POR SUPUSTO) SE ABRE LA PLEURA PARA VER EL HILIO DESDE ESA POSICIÓN ("
+  },
+  {
+    "origen_id": "cmq8s0l9900pma0v634a6r640",
+    "motivo": "El salto generacional también puede observarse en enfermedades autosómicas recesivas, opción presente en el original.",
+    "enunciado": "EN CUAL DE LOS SIGUIENTES TIPOS DE ENFERMEDADES GENÉTICAS SE PUEDE PRESENTAR UN SALTO GENERACIONAL EN LA EXPRESIÓN DE LA"
+  },
+  {
+    "origen_id": "cmrzxbj2v00kuvwua0eksaghb",
+    "motivo": "El original incluía cinco opciones; se conservaron cuatro manteniendo la correcta.",
+    "enunciado": "LA COMUNICACIÓN INTERVENTRICULAR ( CIV ) ES UN DEFECTO EMBRIOLÓGICO POR DAÑO A NIVEL DE:"
+  },
+  {
+    "origen_id": "cmrzxatwk00g1vwuauu7x8r61",
+    "motivo": "El original tenía cinco opciones; se eliminó C2b para ajustar el formato de cuatro.",
+    "enunciado": "CUAL DELAS SIGUIENTES PORCIONES DEL COMPLEMENTO SE ENCUENTRA INVOLUCRADA EN LA ACTIVACIÓN DE LA INFLAMACIÓN:"
+  },
+  {
+    "origen_id": "cmrzxequt016yvwualqvqxvlk",
+    "motivo": "El sitio clásicamente más comprometido en la enterocolitis necrotizante es el íleon distal y colon proximal, no el sigmoide; se conserva la opción marcada como correcta en el original.",
+    "enunciado": "CUAL DE LOS SIGUIENTES ES EL SITIO MÁS COMPROMETIDO EN LA ENTEROCOLITIS NECROTIZANTE:"
+  }
+]

@@ -15,6 +15,9 @@ interface PreguntaData {
   enunciado: string
   opciones: Opcion[]
   respuesta_correcta: string
+  explicacion?: string | null
+  explicacion_modelo?: string | null
+  generada?: boolean
   imagen_url: string | null
   especialidad: string
   tema: string
@@ -102,6 +105,16 @@ export default function FlashCard({
             <span style={{ ...mono, fontSize: 9, letterSpacing: '0.12em', borderRadius: R.pill, padding: '5px 12px', background: C.purpleSoft, color: C.purple }}>
               {pregunta.especialidad.toUpperCase()}
             </span>
+            {/* La pregunta no viene de una reconstrucción real de esta universidad:
+                se redactó a partir de otro banco imitando su estilo. Se dice. */}
+            {pregunta.generada && (
+              <span
+                title="Pregunta de práctica redactada al estilo de este examen, no tomada de una reconstrucción real"
+                style={{ ...mono, fontSize: 9, letterSpacing: '0.12em', borderRadius: R.pill, padding: '5px 12px', border: inkBorder, color: C.ink2 }}
+              >
+                PREGUNTA GENERADA
+              </span>
+            )}
           </div>
 
           {/* Question */}
@@ -215,6 +228,22 @@ export default function FlashCard({
                     </div>
                   )}
                 </>
+              )}
+
+              {/* Retroalimentación: por qué la correcta lo es y por qué fallan las demás.
+                  Se muestra igual si acierta que si falla — en ambos casos enseña. */}
+              {pregunta.explicacion && pregunta.explicacion_modelo !== 'plantilla' && (
+                <div style={{
+                  border: inkBorder, borderLeft: `3px solid ${C.purple}`,
+                  borderRadius: R.md, background: C.card, padding: '14px 18px',
+                }}>
+                  <div style={{ ...mono, fontSize: 9, letterSpacing: '0.12em', color: C.purple, marginBottom: 8 }}>
+                    RETROALIMENTACIÓN
+                  </div>
+                  <p style={{ ...readFont, fontSize: 14, lineHeight: 1.65, color: C.ink, margin: 0 }}>
+                    {pregunta.explicacion}
+                  </p>
+                </div>
               )}
 
               <button

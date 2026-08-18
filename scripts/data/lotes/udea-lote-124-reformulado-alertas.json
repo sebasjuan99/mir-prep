@@ -1,0 +1,92 @@
+[
+  {
+    "origen_id": "cmrzxghi601j0vwuap1ax9j12",
+    "motivo": "El enunciado original remitía a un caso clínico no incluido; se reconstruyó una viñeta compatible con la respuesta marcada (shunt).",
+    "enunciado": "De acuerdo con el caso presentado, ¿cuál sería el mecanismo fisiopatológico de la hipoxemia más probable?"
+  },
+  {
+    "origen_id": "cmrzxhks201qkvwua3icdyer8",
+    "motivo": "El angioTAC suele ser el estudio de elección en trauma de zona I; la opción marcada como correcta es discutible.",
+    "enunciado": "¿Qué examen NO estaría indicado en un trauma penetrante en la zona I del cuello?"
+  },
+  {
+    "origen_id": "cmrzxhaj901olvwuaocptjjf9",
+    "motivo": "El enunciado original confunde arteritis de células gigantes con poliarteritis nodosa y la opción marcada como correcta (alta incidencia en esquimales de Alaska) es discutible.",
+    "enunciado": "Respecto a la poliarteritis de células gigantes (nodosa??), seleccione la afirmación correcta:"
+  },
+  {
+    "origen_id": "cmrzx9f0a006bvwua3pr196g8",
+    "motivo": "La opción marcada como correcta (un solo cebador para ambas hebras) es discutible, pues la replicación eucariota requiere múltiples cebadores, en especial en la hebra rezagada.",
+    "enunciado": "COMO PARTE DE LOS RASGOS CARACTERÍSTICOS DEL PROCESO DE REPLICACIÓN EN EUCARIOTAS, SE PUEDE AFIRMAR QUE:"
+  },
+  {
+    "origen_id": "cmrzxheab01pbvwua79f0ludw",
+    "motivo": "La pregunta depende de una imagen que no se incluye en el texto.",
+    "enunciado": "Con base en la siguiente imagen (corresponde a una curva flujo/volumen), indique a que corresponde el artefacto señalado"
+  },
+  {
+    "origen_id": "cmrzxhtzu01scvwua4qo1gpph",
+    "motivo": "El rango habitualmente aceptado para visualizar latido embrionario por vía transvaginal es mayor (alrededor de 5 a 6 semanas de amenorrea), por lo que la opción marcada es discutible.",
+    "enunciado": "Con ecografía vaginal, ¿a partir de cuánto tiempo desde la concepción es posible ver un embrión con latido cardiaco?"
+  },
+  {
+    "origen_id": "cmrzxj36c002tecuap4juxpv8",
+    "motivo": "El umbral real depende de las horas de vida y de los factores de riesgo según nomogramas; el valor fijo señalado es una simplificación.",
+    "enunciado": "¿A partir de qué valor de bilirrubina se inicia fototerapia en la ictericia neonatal?"
+  },
+  {
+    "origen_id": "cmrzxipd2000becua20157tan",
+    "motivo": "Tanto troponina I como T son altamente específicas; la distinción entre ambas opciones es discutible.",
+    "enunciado": "¿Cuál es el marcador más específico para necrosis cardiaca?"
+  },
+  {
+    "origen_id": "cmrzx9fao006dvwuaye4c3t3x",
+    "motivo": "La literatura clásica atribuye la actividad exonucleasa 3'->5' a las polimerasas delta y epsilon, no a lambda; se conserva la opción marcada como correcta en el original.",
+    "enunciado": "CUAL DE LAS SIGUIENTES DNA POLIMERASA SE ENCUENTRA ASOCIADA A ACTIVIDAD EXONUCLEASA 3´->5´:"
+  },
+  {
+    "origen_id": "cmrzxfesx01bkvwua7ds0jdef",
+    "motivo": "La opción marcada como correcta ('borde uniforme o con muescas') es contradictoria, pues el melanoma se caracteriza por bordes irregulares; se conserva por indicación del banco original.",
+    "enunciado": "ES UNA CARACTERÍSTICA MORFOLÓGICA DEL MELANOMA MALIGNO:"
+  },
+  {
+    "origen_id": "cmrzxhefh01pcvwuaxbyiy20e",
+    "motivo": "La pregunta depende de una imagen que no está disponible en el texto.",
+    "enunciado": "Con base en la siguiente imagen (curvas flujo/volumen), indique el diagnóstico correspondiente a la gráfica A:"
+  },
+  {
+    "origen_id": "cmrzxhlcn01qovwuajva882iu",
+    "motivo": "La opción marcada como correcta ('todas las opciones son correctas') depende del listado original y resulta ambigua como clasificación única.",
+    "enunciado": "Paciente con herida por arma corto-punzante en epigastrio, ¿cómo la clasifica?"
+  },
+  {
+    "origen_id": "cmrzxb1iu00hivwua0olxut18",
+    "motivo": "El sitio extrapulmonar más frecuente suele describirse como el ganglionar/pleural; se respeta la opción marcada en el original.",
+    "enunciado": "ES EL SITIO EXTRAPULMONAR MÁS FRECUENTE DE TUBERCULOSIS:"
+  },
+  {
+    "origen_id": "cmrzxdu70010pvwuatv72c41v",
+    "motivo": "La hemianopsia homónima contralateral también puede verse en infartos carotídeos extensos; se conserva la opción marcada como correcta en el original.",
+    "enunciado": "CUAL DE LAS SIGUIENTES MANIFESTACIONES CLÍNICAS SE ENCUENTRA PRESENTE CUANDO HAY COMPROMISO DEL TERRITORIO CAROTÍDEO:"
+  },
+  {
+    "origen_id": "cmrzxheko01pdvwuakurz6qbg",
+    "motivo": "La pregunta original depende de una tabla o gráfico de espirometría que no se incluye en el enunciado.",
+    "enunciado": "De acuerdo con estos resultados, ¿cuál de los tres pacientes podría cursar con un enfisema severo?"
+  },
+  {
+    "origen_id": "cmrzxir1u000mecua9g7feop8",
+    "motivo": "El enunciado original describe un bocio 'no difuso', dato que apuntaría más a bocio nodular tóxico que a enfermedad de Graves; se conserva la opción marcada como correcta.",
+    "enunciado": "Paciente femenina de 30 años con bocio no difuso, no doloroso, y síntomas de hipertiroidismo. Diagnóstico:"
+  },
+  {
+    "origen_id": "cmrzxhepu01pevwua4sm7ixbo",
+    "motivo": "La pregunta depende de una tabla o gráfica de resultados espirométricos que no se incluye en el enunciado.",
+    "enunciado": "De acuerdo con estos resultados, ¿cuál de los tres pacientes podría cursar con una fibrosis pulmonar?"
+  },
+  {
+    "origen_id": "cmrzxhoia01ravwuaqc72nh7z",
+    "motivo": "La literatura habitual señala la región sacra como la localización más frecuente; se respeta la opción marcada en el original.",
+    "enunciado": "En la población general lo más frecuente es que la localización de las úlceras por presión sean en la región:"
+  }
+]

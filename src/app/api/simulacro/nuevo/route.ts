@@ -17,6 +17,8 @@ export async function GET(request: NextRequest) {
 
   let preguntas
 
+  // Nota: el repaso de errores NO filtra por `visible`. Si el estudiante ya falló una
+  // pregunta que después pasó a reserva, sigue pudiendo repasarla.
   if (tipo === 'repaso_errores') {
     const wrongAnswers = await prisma.respuesta.findMany({
       where: { user_id: user.id, correcta: false },
@@ -37,10 +39,10 @@ export async function GET(request: NextRequest) {
   } else if (universidad) {
     const limite = esCompleto ? 100 : 20
     preguntas = await prisma.$queryRaw`
-      SELECT * FROM "Pregunta" WHERE universidad = ${universidad} ORDER BY RANDOM() LIMIT ${limite}
+      SELECT * FROM "Pregunta" WHERE universidad = ${universidad} AND visible = true ORDER BY RANDOM() LIMIT ${limite}
     `
   } else if (especialidad) {
-    const allRaw = await prisma.pregunta.groupBy({ by: ['especialidad'] })
+    const allRaw = await prisma.pregunta.groupBy({ by: ['especialidad'], where: { visible: true } })
     const matching = allRaw
       .map(r => r.especialidad)
       .filter(e => normalizeEspecialidad(e) === especialidad)
@@ -50,14 +52,14 @@ export async function GET(request: NextRequest) {
     }
 
     preguntas = await prisma.pregunta.findMany({
-      where: { especialidad: { in: matching } },
+      where: { especialidad: { in: matching }, visible: true },
     })
     // Shuffle and take 20
     const shuffled = (preguntas as any[]).sort(() => Math.random() - 0.5).slice(0, 20)
     preguntas = shuffled
   } else {
     preguntas = await prisma.$queryRaw`
-      SELECT * FROM "Pregunta" ORDER BY RANDOM() LIMIT 20
+      SELECT * FROM "Pregunta" WHERE visible = true ORDER BY RANDOM() LIMIT 20
     `
   }
 

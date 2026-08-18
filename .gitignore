@@ -41,3 +41,8 @@ yarn-error.log*
 next-env.d.ts
 
 /src/generated/prisma
+
+# Lotes de trabajo del pipeline de preguntas generadas (las preguntas viven en la BD;
+# aqui solo quedan copias de trabajo). Se versionan las alertas y los rechazos.
+scripts/data/lotes/*-lote-*.json
+!scripts/data/lotes/*-alertas.json

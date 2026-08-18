@@ -19,6 +19,8 @@ interface PreguntaData {
   especialidad: string
   tema: string
   respuesta_correcta: string
+  explicacion?: string | null
+  explicacion_modelo?: string | null
   universidad: string | null
 }
 
@@ -169,6 +171,11 @@ export default function ResultadoSimulacro({
               <span style={{ ...mono, fontSize: 9, letterSpacing: '0.06em', color: C.danger }}>
                 TU: {e.respuesta} → CORRECTA: {e.pregunta!.respuesta_correcta}
               </span>
+              {e.pregunta!.explicacion && e.pregunta!.explicacion_modelo !== 'plantilla' && (
+                <p style={{ ...bodyFont, fontSize: 13, lineHeight: 1.6, color: C.ink2, margin: '2px 0 0', width: '100%' }}>
+                  {e.pregunta!.explicacion}
+                </p>
+              )}
             </div>
           ))}
         </div>

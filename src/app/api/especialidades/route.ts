@@ -7,8 +7,10 @@ export async function GET() {
   const supabase = await createServerSupabaseClient()
   const { data: { user } } = await supabase.auth.getUser()
 
+  // Solo cuenta las preguntas que realmente pueden salir en un simulacro.
   const rawEspecialidades = await prisma.pregunta.groupBy({
     by: ['especialidad'],
+    where: { visible: true },
     _count: { id: true },
   })
 
