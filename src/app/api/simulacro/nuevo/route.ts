@@ -31,11 +31,11 @@ export async function GET(request: NextRequest) {
       return NextResponse.json({ error: 'No tienes errores previos' }, { status: 404 })
     }
 
-    preguntas = await prisma.pregunta.findMany({
-      where: { id: { in: wrongIds } },
-      take: 20,
-      orderBy: { createdAt: 'asc' },
-    })
+    // Aleatorio, no las 20 más antiguas: con `orderBy createdAt` el estudiante
+    // repetía siempre las mismas 20 y nunca llegaba al resto de sus errores.
+    preguntas = await prisma.$queryRaw`
+      SELECT * FROM "Pregunta" WHERE id = ANY(${wrongIds}) ORDER BY RANDOM() LIMIT 20
+    `
   } else if (universidad) {
     const limite = esCompleto ? 100 : 20
     preguntas = await prisma.$queryRaw`
