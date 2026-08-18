@@ -113,6 +113,31 @@ correcta: ${p.respuesta_correcta}`
 
 type Resultado = { id: string; explicacion: string; alerta: string | null }
 
+const ESQUEMA = {
+  type: 'object',
+  additionalProperties: false,
+  required: ['explicaciones'],
+  properties: {
+    explicaciones: {
+      type: 'array',
+      items: {
+        type: 'object',
+        additionalProperties: false,
+        required: ['id', 'explicacion', 'alerta'],
+        properties: {
+          id: { type: 'string' },
+          explicacion: { type: 'string' },
+          alerta: { type: ['string', 'null'] },
+        },
+      },
+    },
+  },
+}
+
+// Para poder decir al final cuánto costó de verdad, no una estimación.
+let gastoEntrada = 0
+let gastoSalida = 0
+
 async function explicarLote(client: any, preguntas: PreguntaBD[]): Promise<Resultado[]> {
   const contenido = preguntas.map(formatearPregunta).join('\n\n---\n\n')
 
@@ -123,27 +148,41 @@ async function explicarLote(client: any, preguntas: PreguntaBD[]): Promise<Resul
       // activo por defecto, así que hay que dejar holgura o se trunca el JSON.
       const message = await client.messages.create({
         model: MODELO,
-        max_tokens: 8000,
-        output_config: { effort: ESFUERZO },
+        max_tokens: 16000,
+        output_config: {
+          effort: ESFUERZO,
+          format: { type: 'json_schema', schema: ESQUEMA },
+        },
         system: SYSTEM_PROMPT,
         messages: [{ role: 'user', content: contenido }],
       })
 
+      // Claude Opus 5 puede declinar: comprobarlo antes de leer el contenido.
+      if (message.stop_reason === 'refusal') {
+        throw new Error(`rechazada por los clasificadores (${(message as any).stop_details?.category ?? 'sin categoría'})`)
+      }
       if (message.stop_reason === 'max_tokens') {
         throw new Error('Respuesta truncada (max_tokens) — baja el tamaño del lote')
       }
 
+      gastoEntrada += message.usage.input_tokens
+      gastoSalida += message.usage.output_tokens
+
       // content puede traer bloques de thinking delante: hay que buscar el texto.
       const bloque = message.content.find(b => b.type === 'text')
       if (!bloque) throw new Error(`Sin bloque de texto (stop_reason: ${message.stop_reason})`)
-      const raw = (bloque as { type: 'text'; text: string }).text.trim()
-      // Por si el modelo envuelve el JSON en un bloque de código.
-      const limpio = raw.replace(/^```(?:json)?\s*/, '').replace(/\s*```$/, '')
-      const parsed = JSON.parse(limpio)
-      if (!Array.isArray(parsed)) throw new Error('La respuesta no es un array')
-      return parsed
+      const parsed = JSON.parse((bloque as { type: 'text'; text: string }).text)
+      if (!Array.isArray(parsed?.explicaciones)) throw new Error('La respuesta no trae "explicaciones"')
+      return parsed.explicaciones
     } catch (err) {
       ultimoError = err
+      // Sin saldo no sirve de nada reintentar 260 veces: se para en seco.
+      const msg = (err as Error)?.message ?? ''
+      if (/credit balance is too low|insufficient_quota/i.test(msg)) {
+        console.error('\n\nSIN SALDO en la cuenta de API. Recarga en console.anthropic.com y relanza:')
+        console.error('el script es reanudable, sigue donde lo dejó.\n')
+        process.exit(2)
+      }
       if (intento < 3) await new Promise(r => setTimeout(r, 2000 * intento))
     }
   }
@@ -165,8 +204,15 @@ async function main() {
   // Por defecto trabaja sobre lo que aún no tiene explicación real: las vacías
   // y las de plantilla (scripts/explicaciones-plantilla.ts). Con --regenerar
   // rehace también las que ya generó la IA.
-  const pendiente = { OR: [{ explicacion: null }, { explicacion_modelo: 'plantilla' }] }
-  const where: Record<string, unknown> = REGENERAR ? {} : { ...pendiente }
+  // Sólo lo que el estudiante puede ver: no se paga por explicar la reserva.
+  const pendiente = {
+    visible: true,
+    OR: [
+      { explicacion: null, explicacion_modelo: null },
+      { explicacion_modelo: 'plantilla' },
+    ],
+  }
+  const where: Record<string, unknown> = REGENERAR ? { visible: true } : { ...pendiente }
   if (EXAMEN) {
     const tipo = await prisma.tipoExamen.findUnique({ where: { codigo: EXAMEN } })
     if (!tipo) {
@@ -231,6 +277,15 @@ async function main() {
               motivo: r.alerta || 'explicación vacía',
               enunciado: p.enunciado.slice(0, 120),
             })
+            // Se marca en la base para que las siguientes pasadas NO la reintenten:
+            // la respuesta del banco no se sostiene y hace falta criterio médico.
+            // Con --regenerar vuelven a entrar.
+            if (!DRY_RUN) {
+              await prisma.pregunta.update({
+                where: { id: p.id },
+                data: { explicacion: null, explicacion_modelo: 'revision-medica' },
+              })
+            }
             continue
           }
           if (DRY_RUN) {
@@ -255,7 +310,9 @@ async function main() {
   await Promise.all(Array.from({ length: Math.min(CONCURRENCIA, lotes.length) }, worker))
 
   console.log('\n')
+  const costo = (gastoEntrada / 1e6) * 5 + (gastoSalida / 1e6) * 25 // Opus 5: $5 / $25 por millón
   console.log(`Explicaciones guardadas: ${ok}`)
+  console.log(`Tokens: ${gastoEntrada.toLocaleString()} entrada / ${gastoSalida.toLocaleString()} salida  ≈ USD ${costo.toFixed(2)}`)
   console.log(`Marcadas para revisión:  ${alertas.length}`)
   console.log(`Fallos:                  ${fallos}`)
 

@@ -1,0 +1,37 @@
+[
+  {
+    "id": "c45e0deae4b9d23b177274735",
+    "motivo": "La opción marcada como correcta (A) es incoherente con el enunciado: la paciente tiene ciclos regulares (sugieren ovulación normal) y un antecedente de peritonitis por apendicitis complicada que orienta a factor tuboperitoneal, por lo que el paso dirigido sería la histerosalpingografía (B). No se puede justificar A sin contradecir el caso.",
+    "enunciado": "Femenina de 30 años en búsqueda de embarazo hace 15 meses. Antecedente de peritonitis por apendicitis complicada en la i"
+  },
+  {
+    "id": "ccc89fcf08a9513c6a9f07a37",
+    "motivo": "Enunciado ambiguo: las opciones B (autorización expresa del paciente), C (riesgo para terceros) y D (enfermedades de notificación obligatoria) son todas excepciones legítimas al secreto profesional, por lo que no puede justificarse B como única respuesta ni descartarse las demás.",
+    "enunciado": "El secreto profesional se debe conservar, EXCEPTO:"
+  },
+  {
+    "id": "ce86ec0a67236a75d3200ef0d",
+    "motivo": "La opción marcada como correcta no coincide con la función propia del túbulo T: este conduce el potencial de acción hacia el interior de la fibra (opción B), mientras que la liberación de calcio ocurre en el retículo sarcoplásmico; el enunciado y las opciones resultan ambiguos y no permiten justificar A como única correcta.",
+    "enunciado": "¿Función del túbulo T en el miocito?"
+  },
+  {
+    "id": "cmrzhj83n000pc8uageyv5ubl",
+    "motivo": "La pregunta pide 'la afirmación correcta' pero al menos dos opciones son verdaderas: el síndrome de Lynch es autosómico dominante (A) y se debe a mutaciones en genes reparadores del ADN (MMR: MLH1, MSH2, MSH6, PMS2) (D); además la progresión acelerada adenoma-carcinoma y la predilección por colon derecho también son rasgos reconocidos. No es posible justificar A como única correcta.",
+    "enunciado": "¿Cuál de las siguientes afirmaciones sobre el síndrome de Lynch es correcta?"
+  },
+  {
+    "id": "cmrzhj9d8000xc8ual9ig7r9u",
+    "motivo": "La opción marcada como correcta (A, enfermedad de Von Willebrand) no corresponde al cuadro: la hemartrosis espontánea y el sangrado profundo articular en un niño son característicos de la hemofilia A (déficit de factor VIII), mientras que la enfermedad de Von Willebrand cursa típicamente con sangrado mucocutáneo. Revisar la clave de respuesta.",
+    "enunciado": "Niño con dolor articular y hemartrosis de rodilla. ¿Cuál sería el diagnóstico?"
+  },
+  {
+    "id": "cmrzhja060011c8ua81cush2e",
+    "motivo": "La clave señalada (C, obstrucción por bridas) es precisamente el escenario donde sí está indicado el manejo inicial conservador con sonda nasogástrica e hidratación endovenosa. La situación en la que NO está indicado el manejo conservador es la obstrucción en asa cerrada (B), por riesgo de estrangulación y necesidad de cirugía urgente. Revisar la clave de respuesta.",
+    "enunciado": "¿En cuál de las siguientes situaciones NO está indicado el manejo con sonda nasogástrica y líquidos endovenosos?"
+  },
+  {
+    "id": "cmrzhjan40015c8ua238l7f06",
+    "motivo": "La opción marcada como correcta (A) describe un enunciado verdadero: la diabetes gestacional se diagnostica habitualmente con curva de tolerancia oral con carga de 75 g (estrategia de un paso), por lo que no puede sostenerse como la afirmación FALSA; el enunciado resulta ambiguo al no especificar la estrategia de dos pasos.",
+    "enunciado": "¿Cuál de las siguientes afirmaciones sobre la diabetes gestacional es FALSA?"
+  }
+]
