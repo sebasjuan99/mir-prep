@@ -1,19 +1,28 @@
 import { NextResponse } from 'next/server'
 import { createClient } from '@supabase/supabase-js'
-import { jwtVerify } from 'jose'
-import { prisma } from '@/lib/prisma'
-import { getSupabaseAdmin, SERVICE_ROLE_MISSING_MSG } from '@/lib/supabase/admin'
+import { SERVICE_ROLE_MISSING_MSG } from '@/lib/supabase/admin'
+import { verificarTokenRevive, generarTokenHashSesion, type ReviveSsoError } from '@/lib/revive-sso'
 
 // SSO de entrada desde Revive: recibe un JWT firmado (HS256) generado por el
 // backend de Revive, lo valida, y devuelve una sesión real de Supabase para
 // que el iframe la active con supabase.auth.setSession(). No usa cookies de
 // terceros y NO crea usuarios (Revive ya crea el usuario en auth.users).
 
+const ERRORES: Record<ReviveSsoError, [string, number]> = {
+  no_configurado: ['SSO no configurado en el servidor.', 503],
+  token_invalido: ['Token inválido o expirado.', 401],
+  token_usado: ['Token ya utilizado.', 409],
+  usuario_no_encontrado: ['Usuario no encontrado. Revive debe crearlo antes del SSO.', 404],
+  error_servidor: ['No se pudo crear la sesión.', 500],
+}
+
+function errorResponse(code: ReviveSsoError) {
+  const [msg, status] = ERRORES[code]
+  return NextResponse.json({ error: msg }, { status })
+}
+
 export async function POST(request: Request) {
-  const secret = process.env.SSO_SHARED_SECRET
-  if (!secret) {
-    return NextResponse.json({ error: 'SSO no configurado en el servidor.' }, { status: 503 })
-  }
+  if (!process.env.SSO_SHARED_SECRET) return errorResponse('no_configurado')
 
   const body = await request.json().catch(() => null)
   const token = body?.token
@@ -21,49 +30,15 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: 'Falta el token.' }, { status: 400 })
   }
 
-  // 1) Validar firma + iss/aud + expiración (jose verifica exp automáticamente)
-  let payload: Record<string, unknown>
-  try {
-    const result = await jwtVerify(token, new TextEncoder().encode(secret), {
-      issuer: 'revive',
-      audience: 'proximoresidente',
-      algorithms: ['HS256'],
-    })
-    payload = result.payload as Record<string, unknown>
-  } catch {
-    return NextResponse.json({ error: 'Token inválido o expirado.' }, { status: 401 })
-  }
+  const verificado = await verificarTokenRevive(token)
+  if (!verificado.ok) return errorResponse(verificado.error)
 
-  const email = typeof payload.email === 'string' ? payload.email.toLowerCase().trim() : null
-  const jti = typeof payload.jti === 'string' ? payload.jti : null
-  if (!email || !jti) {
-    return NextResponse.json({ error: 'Token sin email o jti.' }, { status: 400 })
-  }
-
-  // 2) Un solo uso: registrar el jti. Si ya existía, es un replay.
-  try {
-    await prisma.integrationEvent.create({ data: { id: jti, kind: 'sso_jti' } })
-  } catch {
-    return NextResponse.json({ error: 'Token ya utilizado.' }, { status: 409 })
-  }
-
-  // 3) Mintear sesión de Supabase para ese usuario (debe existir en auth.users).
-  const admin = getSupabaseAdmin()
-  if (!admin) {
-    return NextResponse.json({ error: SERVICE_ROLE_MISSING_MSG }, { status: 503 })
-  }
-
-  // generateLink('magiclink') solo funciona si el usuario YA existe → si no
-  // existe, devolvemos error (no creamos usuarios; eso lo hace Revive).
-  const { data: linkData, error: linkError } = await admin.auth.admin.generateLink({
-    type: 'magiclink',
-    email,
-  })
-  if (linkError || !linkData?.properties?.hashed_token) {
-    return NextResponse.json(
-      { error: 'Usuario no encontrado. Revive debe crearlo antes del SSO.' },
-      { status: 404 }
-    )
+  const hash = await generarTokenHashSesion(verificado.value.email)
+  if (!hash.ok) {
+    if (hash.error === 'no_configurado') {
+      return NextResponse.json({ error: SERVICE_ROLE_MISSING_MSG }, { status: 503 })
+    }
+    return errorResponse(hash.error)
   }
 
   // Intercambiar el token_hash por una sesión (access_token + refresh_token).
@@ -73,12 +48,10 @@ export async function POST(request: Request) {
     { auth: { persistSession: false, autoRefreshToken: false } }
   )
   const { data: verifyData, error: verifyError } = await anon.auth.verifyOtp({
-    token_hash: linkData.properties.hashed_token,
+    token_hash: hash.value,
     type: 'email',
   })
-  if (verifyError || !verifyData?.session) {
-    return NextResponse.json({ error: 'No se pudo crear la sesión.' }, { status: 500 })
-  }
+  if (verifyError || !verifyData?.session) return errorResponse('error_servidor')
 
   return NextResponse.json({
     access_token: verifyData.session.access_token,
