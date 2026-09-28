@@ -29,6 +29,15 @@ function Banner({ bg, color, children }: { bg: string; color: string; children: 
   )
 }
 
+// Mensajes para /login?revive_error=<código> (ver src/lib/revive-sso.ts).
+const REVIVE_ERRORS: Record<string, string> = {
+  token_invalido: 'TU ACCESO DESDE REVIVE EXPIRÓ O NO ES VÁLIDO. VUELVE A ENTRAR DESDE LA APP DE REVIVE.',
+  token_usado: 'ESTE ENLACE DE ACCESO YA SE USÓ. VUELVE A ENTRAR DESDE LA APP DE REVIVE.',
+  usuario_no_encontrado: 'NO ENCONTRAMOS TU CUENTA. CONTACTA CON EL SOPORTE DE REVIVE.',
+  no_configurado: 'EL ACCESO DESDE REVIVE NO ESTÁ DISPONIBLE AHORA. INTÉNTALO MÁS TARDE.',
+  error_servidor: 'NO PUDIMOS INICIAR TU SESIÓN. VUELVE A ENTRAR DESDE LA APP DE REVIVE.',
+}
+
 function LoginForm() {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
@@ -44,6 +53,8 @@ function LoginForm() {
   // Oculta el registro cuando la app llega embebida desde Revive (sus usuarios
   // ya tienen cuenta). Los usuarios externos directos no se ven afectados.
   const isReviveEmbed = useReviveEmbed()
+  // Error del auto-login móvil de Revive (/mobile/auto-login?token=…).
+  const reviveError = REVIVE_ERRORS[searchParams.get('revive_error') ?? ''] ?? null
 
   useEffect(() => {
     if (searchParams.get('verified') === 'true') setBanner('verified')
@@ -146,6 +157,9 @@ function LoginForm() {
           )}
           {banner === 'error' && (
             <Banner bg={C.dangerSoft} color={C.danger}>ERROR DE VERIFICACIÓN. SOLICITA UN NUEVO ENLACE.</Banner>
+          )}
+          {reviveError && (
+            <Banner bg={C.dangerSoft} color={C.danger}>{reviveError}</Banner>
           )}
           {banner === 'password_reset' && (
             <Banner bg={C.greenSoft} color={C.greenDark}>CONTRASEÑA ACTUALIZADA. INICIA SESIÓN.</Banner>

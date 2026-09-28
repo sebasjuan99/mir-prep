@@ -53,6 +53,8 @@ export async function proxy(request: NextRequest) {
 
   const pathname = request.nextUrl.pathname
   const REVIVE_ENTRY = '/acceso-revive'
+  // Auto-login móvil de Revive: la propia ruta valida el token y crea la sesión.
+  if (pathname === '/mobile/auto-login') return supabaseResponse
   const isPublicRoute = ['/', '/home-v1', '/login', '/register', '/forgot-password', '/reset-password', REVIVE_ENTRY].includes(pathname) ||
                         pathname.startsWith('/auth/')
   const isApiRoute = pathname.startsWith('/api/')
